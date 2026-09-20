@@ -1,28 +1,28 @@
 manifestVersion: 1
 id: tascok-homehub
 name: HomeHub
-tagline: A modern hub for family organization
+tagline: Um centro moderno para organização familiar
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-homehub/logo.png
 category: files & productivity
 version: " 0.2.1.4"
 port: 5059
 description: >-
-  HomeHub 🏡 is a thoughtfully designed web application that serves as a digital command center for families and shared households. Its main purpose is to simplify daily coordination and communication by combining essential household tools into one cohesive, easy-to-use platform. Instead of juggling multiple apps or handwritten lists, HomeHub offers an all-in-one environment where everything from chores and groceries to notes and shared expenses can be organized effortlessly.
+  HomeHub 🏡 é um aplicativo da web cuidadosamente projetado que serve como um centro de comando digital para famílias e domicílios compartilhados. O seu principal objetivo é simplificar a coordenação e a comunicação diárias, combinando ferramentas domésticas essenciais numa plataforma coesa e fácil de usar. Em vez de lidar com vários aplicativos ou listas manuscritas, o HomeHub oferece um ambiente completo onde tudo, desde tarefas domésticas e compras até anotações e despesas compartilhadas, pode ser organizado sem esforço.
 
 
-  One of its core features is the shared notes section, where everyone in the household can write, edit, and update information together. This makes it ideal for quick reminders, to-do items, or planning events as a group. The shopping list tool adds another layer of convenience by allowing real-time collaboration when preparing for grocery trips. Each item can be checked off instantly, keeping everyone informed and avoiding duplicate purchases.
+  Um de seus principais recursos é a seção de notas compartilhadas, onde todos na família podem escrever, editar e atualizar informações juntos. Isso o torna ideal para lembretes rápidos, tarefas pendentes ou planejamento de eventos em grupo. A ferramenta de lista de compras adiciona outra camada de conveniência, permitindo colaboração em tempo real ao se preparar para idas ao supermercado. Cada item pode ser conferido instantaneamente, mantendo todos informados e evitando compras duplicadas.
 
 
-  The app also includes a detailed chore tracker that helps assign and manage household tasks. Members can track who is responsible for cleaning, laundry, or other recurring duties, making it easier to maintain balance and accountability in a shared living space. For financial organization, HomeHub integrates an expense tracker that records shared payments, monthly bills, and subscriptions, helping users see where their money goes and how costs are split.
+  O aplicativo também inclui um rastreador de tarefas detalhado que ajuda a atribuir e gerenciar tarefas domésticas. Os membros podem rastrear quem é responsável pela limpeza, lavanderia ou outras tarefas recorrentes, tornando mais fácil manter o equilíbrio e a responsabilidade em um espaço compartilhado. Para organizações financeiras, o HomeHub integra um rastreador de despesas que registra pagamentos compartilhados, contas mensais e assinaturas, ajudando os usuários a ver para onde vai seu dinheiro e como os custos são divididos.
 
 
-  Beyond task and finance management, HomeHub adds small but practical utilities that enhance everyday life. A recipe book allows users to save favorite meals for easy access, while an expiry date tracker helps prevent food waste by reminding users when items are close to expiration. There is also a lightweight link shortener for simplifying URLs, a PDF compressor for managing documents, and a QR code generator for quick sharing.
+  Além do gerenciamento de tarefas e finanças, o HomeHub adiciona utilitários pequenos, mas práticos, que melhoram a vida cotidiana. Um livro de receitas permite que os usuários salvem suas refeições favoritas para fácil acesso, enquanto um rastreador de data de validade ajuda a evitar o desperdício de alimentos, lembrando os usuários quando os itens estão próximos do vencimento. Há também um encurtador de links leve para simplificar URLs, um compressor de PDF para gerenciar documentos e um gerador de código QR para compartilhamento rápido.
 
 
-  The interface of HomeHub is designed with clarity and simplicity in mind. Everything is presented in an elegant and minimal layout that feels intuitive to use, even for those who are not tech-savvy. Its focus is on reducing clutter and creating a pleasant digital space where every family member can contribute equally.
+  A interface do HomeHub foi projetada com clareza e simplicidade em mente. Tudo é apresentado em um layout elegante e minimalista que parece intuitivo de usar, mesmo para quem não entende de tecnologia. Seu foco é reduzir a desordem e criar um espaço digital agradável onde cada membro da família possa contribuir igualmente.
 
 
-  In essence, HomeHub turns household management into a shared, transparent, and collaborative experience. It helps people stay informed, organized, and connected with one another, transforming the routine of daily coordination into something smooth, accessible, and even enjoyable.
+  Em essência, o HomeHub transforma a gestão doméstica numa experiência partilhada, transparente e colaborativa. Ajuda as pessoas a se manterem informadas, organizadas e conectadas umas com as outras, transformando a rotina da coordenação diária em algo tranquilo, acessível e até agradável.
 developer: Suraj Verma
 website: https://github.com/surajverma/homehub
 submitter: Tascok
@@ -30,11 +30,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/surajverma/homehub
 support: https://github.com/surajverma/homehub/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-homehub/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-homehub/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-homehub/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-homehub/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-homehub/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-homehub/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-homehub/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-homehub/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-homehub/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-homehub/5.jpg
 releaseNotes: >-
   This version refactors expense handling by modularizing the generation of recurring entries.
 dependencies: []

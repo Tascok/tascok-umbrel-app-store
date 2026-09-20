@@ -1,58 +1,58 @@
 manifestVersion: 1
 id: tascok-grav
 name: Grav
-tagline: A Fast, Simple, and Flexible, file-based Web-platform
+tagline: Uma plataforma Web baseada em arquivos rápida, simples e flexível
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grav/logo.png
 category: developer tools
 version: "1.7.48"
 port: 8888
 description: >-
-  👨‍🚀 Grav is a modern, open-source, flat-file Content Management System (CMS) that prioritizes speed, simplicity, and flexibility. Unlike traditional CMS platforms like WordPress or Joomla, Grav does not rely on a database to store content. Instead, it uses a flat-file architecture, where content is stored in Markdown files and configurations are handled with YAML, making it lightweight and highly portable.
+  👨‍🚀 Grav é um sistema de gerenciamento de conteúdo (CMS) moderno, de código aberto e de arquivo simples que prioriza velocidade, simplicidade e flexibilidade. Ao contrário das plataformas CMS tradicionais como WordPress ou Joomla, Grav não depende de um banco de dados para armazenar conteúdo. Em vez disso, ele usa uma arquitetura de arquivo simples, onde o conteúdo é armazenado em arquivos Markdown e as configurações são tratadas com YAML, tornando-o leve e altamente portátil.
 
 
-  What Makes Grav Unique?
+  O que torna o Grav único?
 
 
-  📂 Flat-File Architecture: Grav eliminates the need for complex database setups, which reduces server overhead and simplifies installation and maintenance. Content is stored in an intuitive folder structure, allowing easy editing directly in text files.
+  📂 Arquitetura de arquivo simples: Grav elimina a necessidade de configurações complexas de banco de dados, o que reduz a sobrecarga do servidor e simplifica a instalação e manutenção. O conteúdo é armazenado em uma estrutura de pastas intuitiva, permitindo fácil edição diretamente em arquivos de texto.
 
 
-  ⚡ Speed and Performance: With minimal server requirements, Grav is optimized for speed. It uses caching, dynamic image resizing, and other built-in tools to ensure fast load times even on low-resource servers.
+  ⚡ Velocidade e desempenho: com requisitos mínimos de servidor, o Grav é otimizado para velocidade. Ele usa cache, redimensionamento dinâmico de imagens e outras ferramentas integradas para garantir tempos de carregamento rápidos, mesmo em servidores com poucos recursos.
 
 
-  ✨ Ease of Use: While Grav can be managed by developers using text editors and the command line, it also offers an optional Admin Panel Plugin. This provides a user-friendly interface for non-technical users to manage pages, plugins, themes, and site settings.
+  ✨ Facilidade de uso: embora o Grav possa ser gerenciado por desenvolvedores usando editores de texto e linha de comando, ele também oferece um plug-in opcional do painel de administração. Isso fornece uma interface amigável para usuários não técnicos gerenciarem páginas, plug-ins, temas e configurações do site.
 
 
-  🎨 Flexibility and Customization: Grav’s modular design allows users to extend its functionality with numerous plugins and customize its appearance with flexible themes. Developers can leverage tools like Twig templating, Markdown for content, and YAML for configuration to build tailored solutions.
+  🎨 Flexibilidade e Personalização: O design modular do Grav permite aos usuários estender sua funcionalidade com vários plug-ins e personalizar sua aparência com temas flexíveis. Os desenvolvedores podem aproveitar ferramentas como modelos Twig, Markdown para conteúdo e YAML para configuração para criar soluções personalizadas.
 
 
-  💻 Developer-Friendly: Grav’s API and well-documented codebase make it easy for developers to create custom plugins, themes, or integrations. It uses modern technologies and principles, such as Composer for dependency management and CLI tools for quick setup and updates.
+  💻 Amigável ao desenvolvedor: a API do Grav e a base de código bem documentada tornam mais fácil para os desenvolvedores criarem plug-ins, temas ou integrações personalizados. Ele usa tecnologias e princípios modernos, como Composer para gerenciamento de dependências e ferramentas CLI para configuração e atualizações rápidas.
 
 
-  🌍 Active Community and Ecosystem: The Grav community contributes a wide range of themes and plugins, ensuring users have access to tools for SEO, social media, e-commerce, forms, and more. Regular updates keep Grav secure and compatible with the latest technologies.
+  🌍 Comunidade e ecossistema ativos: A comunidade Grav contribui com uma ampla gama de temas e plugins, garantindo que os usuários tenham acesso a ferramentas de SEO, mídias sociais, e-commerce, formulários e muito mais. Atualizações regulares mantêm o Grav seguro e compatível com as tecnologias mais recentes.
 
 
-  Ideal Use Cases:
+  Casos de uso ideais:
 
 
-  📝 Personal Blogs: Simple and fast setup for a personal blogging platform.
+  📝 Blogs pessoais: configuração simples e rápida para uma plataforma de blog pessoal.
 
 
-  🖼️ Portfolios: Stunning designs and fast load times make it great for showcasing creative work.
+  🖼️ Portfólios: designs impressionantes e tempos de carregamento rápidos são ótimos para apresentar trabalhos criativos.
 
 
-  📚 Documentation Sites: Its flat-file structure and Markdown support make Grav perfect for technical documentation.
+  📚 Sites de documentação: sua estrutura de arquivo simples e suporte Markdown tornam o Grav perfeito para documentação técnica.
 
 
-  💼 Small Business Websites: Easily create professional websites without a heavy CMS overhead.
+  💼 Sites para pequenas empresas: crie facilmente sites profissionais sem muita sobrecarga de CMS.
 
 
-  Why Choose Grav?
+  Por que escolher a Grav?
 
 
-  🌌 Grav is ideal for users who value simplicity, speed, and flexibility. Its flat-file approach appeals to developers and power users who want full control, while the optional admin panel makes it accessible to beginners. Whether you need a fast website, a lightweight solution, or a customizable platform, Grav combines modern technology with ease of use to deliver an exceptional CMS experience.
+  🌌 Grav é ideal para usuários que valorizam simplicidade, velocidade e flexibilidade. Sua abordagem de arquivo simples atrai desenvolvedores e usuários avançados que desejam controle total, enquanto o painel de administração opcional o torna acessível para iniciantes. Quer você precise de um site rápido, uma solução leve ou uma plataforma personalizável, Grav combina tecnologia moderna com facilidade de uso para oferecer uma experiência CMS excepcional.
 
 
-  ⚠️ After installation, it may take a little while for Grav to start for the first time. The Admin Panel will be accessible after the user setup at: http://umbrel.local:8888/admin.
+  ⚠️ Após a instalação, pode demorar um pouco para o Grav iniciar pela primeira vez. O Painel de Administração estará acessível após a configuração do usuário em: http://umbrel.local:8888/admin.
 
 developer: Andy Miller
 website: https://getgrav.org/
@@ -61,10 +61,10 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/getgrav
 support: https://github.com/getgrav/grav/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grav/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grav/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grav/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grav/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grav/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grav/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grav/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grav/4.jpg
 releaseNotes: >-
   In version 1.7.48, a new trait was introduced for the fetchPriority attribute on images, and a fix was made to allow aliases as valid commands during lookup. Additionally, a style conflict with Clockwork and tooltips was resolved.
 dependencies:

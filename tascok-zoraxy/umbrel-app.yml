@@ -1,40 +1,40 @@
 manifestVersion: 1
 id: tascok-zoraxy
 name: Zoraxy Proxy Server
-tagline: An efficient reverse proxy server with automated SSL management
+tagline: Um servidor proxy reverso eficiente com gerenciamento SSL automatizado
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-zoraxy/logo.png
 category: networking
 version: "3.1.2"
 port: 8400
 description: >-
-  Zoraxy is a powerful, user-friendly reverse proxy server and forwarding tool, designed to provide a straightforward, flexible, and secure method for managing web traffic within home labs and developer environments. Written in Go, Zoraxy caters to both novice and experienced users by simplifying the process of routing HTTP requests to backend servers, enabling efficient and reliable service management without relying on traditional, more complex servers like NGINX or Apache.
+  Zoraxy é um servidor proxy reverso e ferramenta de encaminhamento poderoso e fácil de usar, projetado para fornecer um método direto, flexível e seguro para gerenciar o tráfego da Web em laboratórios domésticos e ambientes de desenvolvedores. Escrito em Go, o Zoraxy atende usuários novatos e experientes, simplificando o processo de roteamento de solicitações HTTP para servidores backend, permitindo gerenciamento de serviços eficiente e confiável sem depender de servidores tradicionais e mais complexos como NGINX ou Apache.
 
 
-  Key Features:
-  
-
-  🔀 Reverse Proxy & WebSocket Support: Zoraxy handles HTTP/2 connections and automatically supports WebSocket proxying, making it ideal for real-time applications that need a stable, low-latency connection, such as chat services or dashboards. It also enables reverse proxying across virtual directories and supports alias hostnames and custom headers for enhanced flexibility.
+  Principais recursos:
 
 
-  🤖 TLS/SSL with ACME Automation: Zoraxy simplifies the setup of HTTPS using ACME, which enables automatic renewal of SSL certificates through providers like Let's Encrypt. This feature supports both SNI (Server Name Indication) and SAN (Subject Alternative Name) certificates, helping users serve multiple domains securely with minimal manual intervention.
+  🔀 Suporte a proxy reverso e WebSocket: Zoraxy lida com conexões HTTP/2 e suporta automaticamente proxy WebSocket, tornando-o ideal para aplicativos em tempo real que precisam de uma conexão estável e de baixa latência, como serviços de bate-papo ou painéis. Ele também permite proxy reverso em diretórios virtuais e oferece suporte a nomes de host alternativos e cabeçalhos personalizados para maior flexibilidade.
 
 
-  📍 Geo-IP Blacklisting and Whitelisting: Security is enhanced by offering geo-IP and IP-based blacklisting and whitelisting, allowing users to restrict access based on location or specific IP addresses. This feature is especially useful for protecting applications and services from specific regions or untrusted IPs.
+  🤖 TLS/SSL com automação ACME: Zoraxy simplifica a configuração de HTTPS usando ACME, que permite a renovação automática de certificados SSL por meio de provedores como Let's Encrypt. Este recurso oferece suporte a certificados SNI (Server Name Indication) e SAN (Subject Alternative Name), ajudando os usuários a atender vários domínios com segurança com intervenção manual mínima.
 
 
-  🌐 Global Area Network Controller & ZeroTier Integration: For distributed networks, Zoraxy provides a built-in controller interface for managing ZeroTier networks, facilitating secure and scalable connections across multiple nodes. This feature is particularly valuable for homelab enthusiasts and developers creating private network setups with limited external access​ Zoraxy DEV Community.
+  📍 Lista negra e lista branca de Geo-IP: A segurança é aprimorada ao oferecer listas negras e listas brancas baseadas em IP e geo-IP, permitindo que os usuários restrinjam o acesso com base na localização ou em endereços IP específicos. Este recurso é especialmente útil para proteger aplicações e serviços de regiões específicas ou IPs não confiáveis.
 
 
-  🛠️ Built-in Utilities: Zoraxy goes beyond traditional reverse proxy functionality, including utilities like CIDR IP conversion, an mDNS scanner for local network discovery, and tools for debugging proxy connections. A Web-SSH terminal allows remote management of connected devices within the network, and its Wake-on-LAN support further extends Zoraxy’s usability for network administrators.
+  🌐 Controlador de rede de área global e integração ZeroTier: Para redes distribuídas, Zoraxy fornece uma interface de controlador integrada para gerenciar redes ZeroTier, facilitando conexões seguras e escalonáveis ​​em vários nós. Este recurso é particularmente valioso para entusiastas e desenvolvedores de homelab que criam configurações de rede privada com acesso externo limitado Zoraxy DEV Community.
 
 
-  📊 Stream Proxying & Monitoring: Beyond HTTP/HTTPS, Zoraxy supports TCP and UDP stream proxying, making it a versatile choice for handling various data streams. Integrated uptime monitoring and non-personalized traffic analytics provide insights into network activity without cookies, enhancing privacy and enabling users to track service performance directly within Zoraxy.
+  🛠️ Utilitários integrados: Zoraxy vai além da funcionalidade tradicional de proxy reverso, incluindo utilitários como conversão CIDR IP, um scanner mDNS para descoberta de rede local e ferramentas para depuração de conexões proxy. Um terminal Web-SSH permite o gerenciamento remoto de dispositivos conectados na rede, e seu suporte Wake-on-LAN amplia ainda mais a usabilidade do Zoraxy para administradores de rede.
 
 
-  🖥️ Simple UI & Integration: The Zoraxy interface is designed to be intuitive, with in-depth setup instructions for less experienced users. Advanced configurations can disable authentication to integrate with existing infrastructures that use permission management. Additionally, a single-admin management mode makes it easy to operate within private networks, similar to managing a home router.
+  📊 Proxy e monitoramento de fluxo: além do HTTP/HTTPS, o Zoraxy suporta proxy de fluxo TCP e UDP, tornando-o uma escolha versátil para lidar com vários fluxos de dados. O monitoramento integrado do tempo de atividade e a análise de tráfego não personalizada fornecem insights sobre a atividade da rede sem cookies, aumentando a privacidade e permitindo que os usuários acompanhem o desempenho do serviço diretamente no Zoraxy.
 
 
-  Zoraxy is particularly popular in the homelab and developer communities for its extensive feature set, reliability, and open-source nature. It can be run on low-power devices, making it suitable for a variety of hosting environments, from personal setups to larger, distributed network architectures. Its flexibility, combined with a robust feature set, makes it a compelling choice for anyone looking to streamline their network management setup or host web services securely and efficiently.
+  🖥️ UI e integração simples: A interface do Zoraxy foi projetada para ser intuitiva, com instruções de configuração detalhadas para usuários menos experientes. Configurações avançadas podem desabilitar a autenticação para integração com infraestruturas existentes que usam gerenciamento de permissões. Além disso, um modo de gerenciamento de administrador único facilita a operação em redes privadas, semelhante ao gerenciamento de um roteador doméstico.
+
+
+  Zoraxy é particularmente popular nas comunidades de homelab e desenvolvedores por seu extenso conjunto de recursos, confiabilidade e natureza de código aberto. Ele pode ser executado em dispositivos de baixo consumo de energia, tornando-o adequado para uma variedade de ambientes de hospedagem, desde configurações pessoais até arquiteturas de rede distribuídas maiores. Sua flexibilidade, combinada com um conjunto robusto de recursos, torna-o uma escolha atraente para quem deseja agilizar a configuração de gerenciamento de rede ou hospedar serviços da Web com segurança e eficiência.
 
 developer: Toby Chui
 website: https://zoraxy.aroz.org/
@@ -43,11 +43,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/tobychui/zoraxy
 support: https://github.com/tobychui/zoraxy/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-zoraxy/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-zoraxy/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-zoraxy/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-zoraxy/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-zoraxy/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-zoraxy/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-zoraxy/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-zoraxy/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-zoraxy/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-zoraxy/5.jpg
 releaseNotes: >-
   The patch release for Zoraxy version 3.1.1 focuses on fixing the Docker image from the previous version, v3.1.1r2. The binaries remain unchanged, allowing users of the executable version to decide whether to update. The main highlight is the improved Docker image, which enhances performance and reliability for users operating in containerized environments.
 dependencies:

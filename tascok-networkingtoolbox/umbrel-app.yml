@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-networkingtoolbox
 name: Networking Toolbox
-tagline: An offline-first toolbox for networking
+tagline: Uma caixa de ferramentas off-line para networking
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-networkingtoolbox/logo.png
 category: networking
 version: "1.3.0"
 port: 3686
 description: >-
-  🌐 Networking Toolbox is a comprehensive suite of web-based utilities built to make network analysis, configuration, and troubleshooting more accessible. It brings together a wide range of technical functions that help professionals and enthusiasts understand and manage digital communication systems more efficiently. By combining analytical precision with an intuitive interface, it allows users to explore, calculate, and visualize complex network relationships in real time.
+  🌐 Networking Toolbox é um conjunto abrangente de utilitários baseados na Web desenvolvidos para tornar a análise, configuração e solução de problemas de rede mais acessíveis. Reúne uma ampla gama de funções técnicas que ajudam profissionais e entusiastas a compreender e gerenciar sistemas de comunicação digital de forma mais eficiente. Ao combinar precisão analítica com uma interface intuitiva, permite aos usuários explorar, calcular e visualizar relacionamentos de rede complexos em tempo real.
 
 
-  At its core, Networking Toolbox focuses on the essential building blocks of the internet and private networks. It provides tools for IP address management, subnet and CIDR calculations, and DNS diagnostics, helping users perform operations that would normally require multiple specialized applications. It supports both IPv4 and IPv6 standards, enabling users to test and validate configurations, identify errors, and understand how data flows between devices and services.
+  Basicamente, o Networking Toolbox concentra-se nos blocos de construção essenciais da Internet e das redes privadas. Ele fornece ferramentas para gerenciamento de endereços IP, cálculos de sub-redes e CIDR e diagnósticos de DNS, ajudando os usuários a realizar operações que normalmente exigiriam vários aplicativos especializados. Ele oferece suporte aos padrões IPv4 e IPv6, permitindo que os usuários testem e validem configurações, identifiquem erros e entendam como os dados fluem entre dispositivos e serviços.
 
 
-  The application also offers capabilities for working with network security and performance. Users can inspect SSL and TLS certificates, verify domain configurations, analyze ports, and decode network headers to ensure that systems operate safely and efficiently. Each function is designed to deliver clear, accurate results without unnecessary complexity, allowing deeper technical insight into network infrastructure.
+  O aplicativo também oferece recursos para trabalhar com segurança e desempenho de rede. Os usuários podem inspecionar certificados SSL e TLS, verificar configurações de domínio, analisar portas e decodificar cabeçalhos de rede para garantir que os sistemas operem com segurança e eficiência. Cada função foi projetada para fornecer resultados claros e precisos, sem complexidade desnecessária, permitindo uma visão técnica mais profunda da infraestrutura de rede.
 
 
-  Networking Toolbox is ideal for anyone who needs to explore how networks function on a detailed level. Whether used for learning, debugging, or system optimization, it provides the necessary foundation for mastering the principles of networking and ensuring that every layer of communication remains transparent, reliable, and secure.
+  Networking Toolbox é ideal para quem precisa explorar detalhadamente como as redes funcionam. Seja usado para aprendizado, depuração ou otimização de sistema, ele fornece a base necessária para dominar os princípios de rede e garantir que cada camada de comunicação permaneça transparente, confiável e segura.
 developer: Alicia Sykes
 website: https://www.networkingtoolbox.net/
 submitter: Tascok
@@ -24,12 +24,12 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/Lissy93/networking-toolbox
 support: https://github.com/Lissy93/networking-toolbox/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-networkingtoolbox/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-networkingtoolbox/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-networkingtoolbox/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-networkingtoolbox/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-networkingtoolbox/5.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-networkingtoolbox/6.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-networkingtoolbox/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-networkingtoolbox/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-networkingtoolbox/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-networkingtoolbox/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-networkingtoolbox/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-networkingtoolbox/6.jpg
 releaseNotes: >-
   This update introduces version 1.3.0 of Networking Toolbox, focusing on improving reliability, usability, and customization. The release includes enhanced IP validation, expanded testing, and a higher minimum coverage threshold to ensure consistent quality across all tools. Many internal components were refactored to simplify maintenance and reduce code duplication.
 

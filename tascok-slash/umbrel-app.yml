@@ -1,29 +1,29 @@
 manifestVersion: 1
 id: tascok-slash
 name: Slash
-tagline: A link shortener that simplifies the managing and sharing of links
+tagline: Um encurtador de links que simplifica o gerenciamento e o compartilhamento de links
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-slash/logo.png
 category: files & productivity
 version: "1.0.0"
 port: 5231
 description: >-
-  Slash is an innovative open-source self-hosted URL shortener service developed using Go and SQLite. Slash serves as a reliable and flexible solution for anyone looking to shorten links for personal use, marketing campaigns, or social media sharing. It offers a powerful tool for enhancing online presence, making it an excellent choice for individuals and businesses alike.
+  Slash é um serviço inovador de encurtador de URL auto-hospedado de código aberto desenvolvido usando Go e SQLite. Slash serve como uma solução confiável e flexível para quem deseja encurtar links para uso pessoal, campanhas de marketing ou compartilhamento em mídias sociais. Oferece uma ferramenta poderosa para melhorar a presença online, tornando-se uma excelente escolha tanto para indivíduos como para empresas.
 
 
-  Key Features of Slash:
-  
-
-  🔗 Customizable Short Links: Slash allows users to create personalized short links. By using the format YOUR_DOMAIN/s/name, users can design memorable URLs that align with their branding or preferences, making sharing easier and more effective.
+  Principais recursos do Slash:
 
 
-  📊 Comprehensive Analytics: The service provides in-depth analytics for short links, offering insights into referrers, browsers, operating systems, and more. This data is crucial for understanding audience behavior and optimizing sharing strategies.
+  🔗 Links curtos personalizáveis: Slash permite aos usuários criar links curtos personalizados. Ao usar o formato SEU_DOMÍNIO/s/nome, os usuários podem criar URLs memoráveis ​​que se alinhem com sua marca ou preferências, tornando o compartilhamento mais fácil e eficaz.
 
 
-  🎨 Social Sharing Customization: Users can enhance their social media impact by customizing metadata for their short links. This includes specifying the image, title, and description that appear when the link is shared, ensuring that content is visually appealing and engaging.
+  📊 Análise abrangente: o serviço fornece análises aprofundadas para links curtos, oferecendo insights sobre referenciadores, navegadores, sistemas operacionais e muito mais. Esses dados são cruciais para compreender o comportamento do público e otimizar estratégias de compartilhamento.
 
 
-  🌍 Lightweight and Open Source: Slash is designed to be lightweight and efficient, making it simple to deploy on any server. As an open-source project, it invites contributions from the community, allowing for ongoing development and customization to meet specific user needs.
- 
+  🎨 Personalização de compartilhamento social: os usuários podem aumentar seu impacto na mídia social personalizando metadados para seus links curtos. Isso inclui especificar a imagem, o título e a descrição que aparecem quando o link é compartilhado, garantindo que o conteúdo seja visualmente atraente e envolvente.
+
+
+  🌍 Leve e de código aberto: o Slash foi projetado para ser leve e eficiente, simplificando a implantação em qualquer servidor. Como um projeto de código aberto, ele convida contribuições da comunidade, permitindo desenvolvimento e customização contínuos para atender às necessidades específicas do usuário.
+
 developer: yourselfhosted
 website: https://www.yourselfhosted.com/
 submitter: Tascok
@@ -31,10 +31,10 @@ submission: https://github.com/dennysubke/dennys-umbrel-app-store
 repo: https://github.com/yourselfhosted/slash
 support: https://github.com/yourselfhosted/slash/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-slash/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-slash/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-slash/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-slash/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-slash/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-slash/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-slash/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-slash/4.jpg
 releaseNotes: >-
   The update brings several improvements, including a fix for the issue where public shortcuts were not appearing in public collections.
 path: ""

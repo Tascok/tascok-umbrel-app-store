@@ -1,25 +1,25 @@
 manifestVersion: 1
 id: tascok-readeck
 name: Readeck
-tagline: A simple app to save the web's precious content
+tagline: Um aplicativo simples para salvar o precioso conteúdo da web
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-readeck/logo.png
 category: files & productivity
 version: "0.19.0"
 port: 8858
 description: >-
-  📚 Readeck is a self-hosted open source application designed to help users save, organize, and archive web content for later reading. Unlike traditional bookmarking tools or commercial read-it-later services, Readeck emphasizes privacy, control, and long-term access. It is a powerful alternative for anyone who wants to collect and revisit articles, blog posts, or other web-based texts without relying on third-party services.
+  📚 Readeck é um aplicativo de código aberto auto-hospedado projetado para ajudar os usuários a salvar, organizar e arquivar conteúdo da web para leitura posterior. Ao contrário das ferramentas tradicionais de bookmarking ou dos serviços comerciais de leitura posterior, Readeck enfatiza a privacidade, o controle e o acesso de longo prazo. É uma alternativa poderosa para quem deseja coletar e revisitar artigos, postagens de blogs ou outros textos baseados na web sem depender de serviços de terceiros.
 
 
-  At its core, Readeck lets you capture the content of web pages and store them in a local or remote archive. This archive includes all media such as images and formatting, ensuring that the saved content remains accessible even if the original website goes offline or changes. Each article can be stored permanently and accessed through a clean and distraction-free interface that is optimized for comfortable reading.
+  Basicamente, o Readeck permite capturar o conteúdo de páginas da web e armazená-los em um arquivo local ou remoto. Este arquivo inclui todas as mídias, como imagens e formatação, garantindo que o conteúdo salvo permaneça acessível mesmo se o site original ficar offline ou mudar. Cada artigo pode ser armazenado permanentemente e acessado por meio de uma interface limpa e sem distrações, otimizada para uma leitura confortável.
 
 
-  One of Readeck’s most distinctive features is its ability to export saved articles as EPUB files. This makes it easy to read curated content collections on e-book readers like the Kindle or other portable devices. Whether you're saving a single article or an entire series, Readeck packages everything into a format that can travel with you and be consumed offline.
+  Uma das características mais distintivas do Readeck é a capacidade de exportar artigos salvos como arquivos EPUB. Isso facilita a leitura de coleções de conteúdo selecionadas em leitores de e-books, como o Kindle ou outros dispositivos portáteis. Esteja você salvando um único artigo ou uma série inteira, o Readeck empacota tudo em um formato que pode viajar com você e ser consumido offline.
 
 
-  Readeck is written in Go and does not require a complex infrastructure to run. It can operate without a database, but also supports PostgreSQL for users who prefer structured storage and advanced configurations. The application is lightweight and designed to be efficient without sacrificing functionality.
+  Readeck é escrito em Go e não requer uma infraestrutura complexa para funcionar. Pode operar sem banco de dados, mas também oferece suporte a PostgreSQL para usuários que preferem armazenamento estruturado e configurações avançadas. O aplicativo é leve e projetado para ser eficiente sem sacrificar a funcionalidade.
 
 
-  By combining the reliability of offline access with modern web technologies, Readeck offers a refreshing and independent solution for managing reading material. It puts users back in control of their own reading lists, free from ads, tracking, and platform lock-in.
+  Ao combinar a confiabilidade do acesso offline com modernas tecnologias web, Readeck oferece uma solução refrescante e independente para gerenciamento de material de leitura. Ele coloca os usuários de volta no controle de suas próprias listas de leitura, livres de anúncios, rastreamento e dependência de plataforma.
 developer: Readeck
 website: https://readeck.org/
 submitter: Tascok
@@ -27,11 +27,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/readeck/readeck
 support: https://codeberg.org/readeck/readeck/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-readeck/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-readeck/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-readeck/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-readeck/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-readeck/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-readeck/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-readeck/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-readeck/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-readeck/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-readeck/5.jpg
 releaseNotes: >-
   Readeck 0.19.0 introduces email sharing of bookmarks with optional EPUB attachments, a new mosaic view for the bookmark list, and improved browser extension onboarding. The update enhances CSRF protection, fixes issues with SVG images and Wallabag imports, and replaces application passwords with API token support for HTTP Basic Authentication. EPUB exports now include author information.
 dependencies:

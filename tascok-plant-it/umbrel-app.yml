@@ -1,29 +1,29 @@
 manifestVersion: 1
 id: tascok-plant-it
 name: Plant-it
-tagline: A gardening app for effortless plant tracking
+tagline: Um aplicativo de jardinagem para rastreamento de plantas sem esforço
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-plant-it/logo.png
 category: files & productivity
 version: "0.10.0"
 port: 8837
 description: >-
-  🌱 Plant it is an open source application designed to help you keep a detailed and organized record of your plant care. It focuses entirely on documenting what you do for your plants, giving you a clear and structured history of every action you take. Instead of guessing when you last watered or fertilized something, you can simply check your timeline and see all previous entries with precise information.
+  🌱 Plant it é um aplicativo de código aberto desenvolvido para ajudá-lo a manter um registro detalhado e organizado dos cuidados com suas plantas. Ele se concentra inteiramente em documentar o que você faz pelas suas plantas, fornecendo um histórico claro e estruturado de cada ação realizada. Em vez de adivinhar quando foi a última vez que regou ou fertilizou algo, você pode simplesmente verificar sua linha do tempo e ver todas as entradas anteriores com informações precisas.
 
 
-  The app lets you log actions such as watering, fertilizing, pruning, repotting and many other care activities. Each entry can include notes, dates and optional photos, which makes it easy to track progress or identify changes in a plant’s condition. Over time, this creates a complete care journal that helps you understand how your routines affect the health of your plants.
+  O aplicativo permite registrar ações como regar, fertilizar, podar, replantar e muitas outras atividades de cuidado. Cada entrada pode incluir notas, datas e fotos opcionais, o que facilita o acompanhamento do progresso ou a identificação de alterações nas condições de uma planta. Com o tempo, isso cria um diário de cuidados completo que ajuda você a entender como suas rotinas afetam a saúde de suas plantas.
 
 
-  Plant it also provides a rich plant information system that helps you organize and categorize your collection. You can browse detailed data about species and attach the correct information to each plant you add. This makes it easier to manage large plant collections and maintain a clear overview of what each plant needs.
+  Plant it também fornece um rico sistema de informações sobre plantas que ajuda a organizar e categorizar sua coleção. Você pode navegar por dados detalhados sobre as espécies e anexar as informações corretas a cada planta adicionada. Isso facilita o gerenciamento de grandes coleções de plantas e a manutenção de uma visão clara do que cada planta precisa.
 
 
-  By combining structured documentation with visual history and plant information, Plant it turns plant care into an intuitive and well organized experience. It supports you in making better decisions, noticing patterns and maintaining a healthier collection through consistent and transparent tracking.
+  Ao combinar documentação estruturada com histórico visual e informações sobre plantas, o Plant it transforma o cuidado das plantas em uma experiência intuitiva e bem organizada. Ele ajuda você a tomar melhores decisões, perceber padrões e manter uma coleção mais saudável por meio de um rastreamento consistente e transparente.
 
 
-  ⚙️ Quick Setup Guide: 
-  
-       1. After installation, the app opens at http://umbrel.local:8837. 
-       2. Enter http://umbrel.local:8836 as the server URL. (Hostname may differ on your system.)
-       3. Then click Continue to complete the setup process and start using Plant-it.
+  ⚙️ Guia de configuração rápida: 
+
+       1. Após a instalação, o aplicativo abre às http://umbrel.local:8837. 
+       2. Entre http://umbrel.local:8836 como o URL do servidor. (O nome do host pode ser diferente no seu sistema.)
+       3. Em seguida, clique em Continuar para concluir o processo de configuração e começar a usar o Plant-it.
 developer: MDeLuise
 website: https://plant-it.org/
 submitter: Tascok
@@ -31,14 +31,14 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/MDeLuise/plant-it
 support: https://github.com/MDeLuise/plant-it/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-plant-it/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-plant-it/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-plant-it/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-plant-it/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-plant-it/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-plant-it/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-plant-it/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-plant-it/4.jpg
 releaseNotes: >-
   The update brings Spring Boot 3.4.0, which increases overall security and improves compatibility. 
-  
-  
+
+
   Several server dependencies were refreshed to boost stability and performance. Overall, the release focuses on a safer and more reliable backend.
 dependencies:
 path: ""

@@ -1,28 +1,28 @@
 manifestVersion: 1
 id: tascok-filepizza
 name: FilePizza
-tagline: A peer to peer file transfers in your browser
+tagline: Uma transferência de arquivos ponto a ponto em seu navegador
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-filepizza/logo.png
 category: files & productivity
 version: "2"
 port: 8089
 description: >-
-  🍕 FilePizza is a simple application that enables direct file sharing between people in real time. Its core purpose is to transfer files instantly without creating permanent copies or storing data beyond the duration of the transfer. The sender remains in full control of the shared content throughout the process.
+  🍕 FilePizza é um aplicativo simples que permite o compartilhamento direto de arquivos entre pessoas em tempo real. Seu objetivo principal é transferir arquivos instantaneamente, sem criar cópias permanentes ou armazenar dados além da duração da transferência. O remetente permanece no controle total do conteúdo compartilhado durante todo o processo.
 
 
-  The app establishes a temporary connection between participants and streams the file data directly from sender to receiver. Files only exist while the transfer is active and are not retained afterward. This makes it well suited for sharing sensitive information or large files that should not remain available once the exchange is complete.
+  O aplicativo estabelece uma conexão temporária entre os participantes e transmite os dados do arquivo diretamente do remetente para o destinatário. Os arquivos só existem enquanto a transferência está ativa e não são retidos posteriormente. Isso o torna adequado para compartilhar informações confidenciais ou arquivos grandes que não deveriam permanecer disponíveis após a conclusão da troca.
 
 
-  Users can share single or multiple files by generating a unique access link for the recipient. As soon as the recipient connects, the transfer begins and progress is shown live. When the transfer finishes or the session ends, the shared data is no longer accessible.
+  Os usuários podem compartilhar arquivos únicos ou múltiplos gerando um link de acesso exclusivo para o destinatário. Assim que o destinatário se conecta, a transferência começa e o progresso é mostrado ao vivo. Quando a transferência ou a sessão terminar, os dados compartilhados não estarão mais acessíveis.
 
 
-  FilePizza also offers optional access protection so that only intended recipients can download the files. This helps prevent unwanted access while keeping the overall experience simple and efficient.
+  FilePizza também oferece proteção de acesso opcional para que apenas os destinatários pretendidos possam baixar os arquivos. Isso ajuda a evitar acessos indesejados, ao mesmo tempo que mantém a experiência geral simples e eficiente.
 
 
-  Overall, FilePizza focuses on fast, temporary, and private file sharing. It removes unnecessary complexity and concentrates entirely on moving files directly from one person to another in a straightforward way.
+  No geral, FilePizza se concentra no compartilhamento rápido, temporário e privado de arquivos. Ele elimina complexidade desnecessária e concentra-se inteiramente na movimentação de arquivos diretamente de uma pessoa para outra de maneira direta.
 
 
-  ⚠️ This app currently does not run on the Raspberry Pi because it is only available for the amd64 architecture. ARM based systems like the Raspberry Pi are not supported at this time.
+  ⚠️ Atualmente, este aplicativo não funciona no Raspberry Pi porque está disponível apenas para a arquitetura amd64. Sistemas baseados em ARM como o Raspberry Pi não são suportados no momento.
 developer: Alex Kern
 website: https://file.pizza/
 submitter: Tascok
@@ -30,9 +30,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/kern/filepizza
 support: https://github.com/kern/filepizza/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-filepizza/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-filepizza/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-filepizza/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-filepizza/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-filepizza/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-filepizza/3.jpg
 releaseNotes: >-
   FilePizza v2 introduces a completely redesigned user interface with dark mode support, built using modern browser technologies. The new version also improves compatibility across devices and now works reliably on most mobile browsers, including Mobile Safari.
 

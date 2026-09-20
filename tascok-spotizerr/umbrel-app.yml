@@ -1,38 +1,38 @@
 manifestVersion: 1
 id: tascok-spotizerr
 name: Spotizerr
-tagline: A lossless-powered Spotify music downloader
+tagline: Um downloader de música Spotify sem perdas
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spotizerr/logo.png
 category: In Progress
 version: "2.0.1"
 port: 7171
 description: >-
-  💿 Spotizerr is an open-source music downloader designed to allow users to download songs from Spotify and Deezer in lossless quality. It combines the vast music catalog of Spotify with the high audio fidelity provided by Deezer, offering a unique solution for music enthusiasts who want the best of both platforms.
+  💿 Spotizerr é um downloader de música de código aberto projetado para permitir aos usuários baixar músicas do Spotify e Deezer com qualidade sem perdas. Combina o vasto catálogo musical do Spotify com a alta fidelidade de áudio fornecida pelo Deezer, oferecendo uma solução única para os entusiastas da música que desejam o melhor de ambas as plataformas.
 
 
-  The application relies on the deezspot library and operates by first attempting to download tracks from Deezer. If the download fails, it automatically falls back to Spotify, ensuring a high success rate for retrieving music. Users can search for songs either by using the Spotify API directly or by entering Spotify URLs, making it easy to find specific tracks or playlists.
+  O aplicativo depende da biblioteca deezspot e opera primeiro tentando baixar faixas do Deezer. Se o download falhar, ele volta automaticamente para o Spotify, garantindo uma alta taxa de sucesso na recuperação de músicas. Os usuários podem pesquisar músicas usando a API do Spotify diretamente ou inserindo URLs do Spotify, facilitando a localização de faixas ou listas de reprodução específicas.
 
 
-  Spotizerr supports managing multiple downloads simultaneously through a queue system, providing clear progress indicators during the download process. It also offers the ability to manage login credentials for both Spotify and Deezer in an integrated manner, which is necessary because Spotify now requires valid client credentials due to recent changes in their terms of service.
+  Spotizerr suporta o gerenciamento de vários downloads simultaneamente por meio de um sistema de fila, fornecendo indicadores claros de progresso durante o processo de download. Ele também oferece a capacidade de gerenciar credenciais de login do Spotify e do Deezer de maneira integrada, o que é necessário porque o Spotify agora exige credenciais de cliente válidas devido a mudanças recentes em seus termos de serviço.
 
 
-  One important consideration when using Spotizerr is security. The application stores login credentials in plaintext, so it is recommended to use it within a secure environment or to add additional layers of protection such as VPNs or authentication gateways when deploying it in open networks.
+  Uma consideração importante ao usar o Spotizerr é a segurança. O aplicativo armazena credenciais de login em texto simples, por isso é recomendado usá-lo em um ambiente seguro ou adicionar camadas adicionais de proteção, como VPNs ou gateways de autenticação, ao implantá-lo em redes abertas.
 
 
-  Since its latest update, Spotizerr has adapted to Spotify's new requirements by integrating support for custom client ID and secret keys. The update also introduced configurable options for track numbering and retry mechanisms, enhancing the flexibility and reliability of the downloader.
+  Desde sua última atualização, o Spotizerr se adaptou aos novos requisitos do Spotify, integrando suporte para ID de cliente personalizado e chaves secretas. A atualização também introduziu opções configuráveis ​​para numeração de faixas e mecanismos de nova tentativa, aumentando a flexibilidade e a confiabilidade do downloader.
 
 
-  Spotizerr is licensed under GPL-3.0 and the full source code is available on GitHub, inviting developers and users to contribute or customize the tool according to their needs. Overall, it presents a powerful and flexible way to obtain high-quality music from popular streaming services with ease.
-developer: Xoconoch 
+  Spotizerr é licenciado sob GPL-3.0 e o código-fonte completo está disponível no GitHub, convidando desenvolvedores e usuários a contribuir ou personalizar a ferramenta de acordo com suas necessidades. No geral, apresenta uma maneira poderosa e flexível de obter facilmente música de alta qualidade de serviços populares de streaming.
+developer: Xoconoch
 website: https://github.com/Xoconoch/spotizerr
 submitter: Tascok
 submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/Xoconoch/spotizerr
 support: https://github.com/Xoconoch/spotizerr/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spotizerr/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spotizerr/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spotizerr/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spotizerr/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spotizerr/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spotizerr/3.jpg
 releaseNotes: >-
   Version 2.0.1 includes a hotpatch that ensures the setup process no longer requires manual creation of directories or config files. These are now automatically generated with default values if they are not found in the expected locations.
 dependencies:

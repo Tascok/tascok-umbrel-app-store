@@ -1,25 +1,25 @@
 manifestVersion: 1
 id: tascok-peppermint
 name: Peppermint
-tagline: An issue management & help desk solution
+tagline: Uma solução de gerenciamento de problemas e help desk
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-peppermint/logo.png
 category: developer tools
 version: "0.5.5"
 port: 3588
 description: >-
-  🍵 Peppermint is a ticket management and helpdesk application that helps teams organize and respond to support requests in a structured and efficient way. It collects incoming messages, usually from email, and automatically turns them into individual tickets that can be tracked, assigned, and updated as the conversation continues. Each ticket keeps the full history of replies, attachments, and internal notes, allowing support agents to see the entire context of an issue at a glance and respond with confidence.
+  🍵 Peppermint é um aplicativo de gerenciamento de tickets e helpdesk que ajuda as equipes a organizar e responder às solicitações de suporte de forma estruturada e eficiente. Ele coleta mensagens recebidas, geralmente de e-mail, e as transforma automaticamente em tickets individuais que podem ser rastreados, atribuídos e atualizados à medida que a conversa continua. Cada ticket mantém o histórico completo de respostas, anexos e notas internas, permitindo que os agentes de suporte vejam rapidamente todo o contexto de um problema e respondam com confiança.
 
 
-  Teams can communicate directly with users through the ticket interface while also discussing matters privately using internal comments. Tickets can be given a status such as open, pending, or resolved, and can be assigned to specific team members for accountability. The system groups and sorts tickets by various criteria like date or status, making it easy to prioritize work and prevent important issues from being overlooked.
+  As equipes podem se comunicar diretamente com os usuários por meio da interface do ticket e, ao mesmo tempo, discutir assuntos em particular por meio de comentários internos. Os tickets podem receber um status como aberto, pendente ou resolvido e podem ser atribuídos a membros específicos da equipe para prestação de contas. O sistema agrupa e classifica os tickets por vários critérios, como data ou status, facilitando a priorização do trabalho e evitando que questões importantes sejam ignoradas.
 
 
-  Peppermint also includes tagging and filtering tools so teams can categorize tickets and find related cases quickly. Its search function makes it easy to locate previous conversations or track ongoing issues over time. The interface is clean and designed to keep the focus on the support task itself without adding unnecessary complexity or distractions.
+  O Peppermint também inclui ferramentas de marcação e filtragem para que as equipes possam categorizar tickets e encontrar casos relacionados rapidamente. Sua função de pesquisa facilita a localização de conversas anteriores ou o rastreamento de problemas em andamento ao longo do tempo. A interface é limpa e projetada para manter o foco na tarefa de suporte em si, sem adicionar complexidade ou distrações desnecessárias.
 
 
-  The application works with existing email addresses and can automatically convert incoming emails into tickets. When a support agent replies inside the app, the response is sent back to the original sender by email, and their reply will be captured as part of the ongoing ticket. This creates a seamless flow between the user and the support team without requiring any special setup from the user’s side.
+  O aplicativo funciona com endereços de e-mail existentes e pode converter automaticamente e-mails recebidos em tickets. Quando um agente de suporte responde dentro do aplicativo, a resposta é enviada de volta ao remetente original por e-mail e sua resposta será capturada como parte do ticket em andamento. Isso cria um fluxo contínuo entre o usuário e a equipe de suporte, sem exigir qualquer configuração especial por parte do usuário.
 
 
-  Peppermint helps teams stay organized, improves the speed and quality of responses, and provides a clear and simple system for handling support interactions from start to finish.
+  O Peppermint ajuda as equipes a se manterem organizadas, melhora a velocidade e a qualidade das respostas e fornece um sistema claro e simples para lidar com as interações de suporte do início ao fim.
 developer: Peppermint Labs
 website: https://peppermint.sh/
 submitter: Tascok
@@ -27,14 +27,14 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/Peppermint-Lab/peppermint
 support: https://github.com/Peppermint-Lab/peppermint/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-peppermint/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-peppermint/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-peppermint/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-peppermint/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-peppermint/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-peppermint/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-peppermint/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-peppermint/4.jpg
 releaseNotes: >-
   Version 0.5.5 introduces dynamic role-based access control, allowing custom roles with different access levels instead of just admin and user. It also adds a server log panel in the admin interface, a right-click context menu for faster issue handling, and several internal improvements including better session management, cleaner code, and enhanced webhook payloads. 
-  
-  
+
+
   Additionally, this release fixes multiple CVE vulnerabilities identified in a recent internal audit.
 dependencies:
 path: ""

@@ -1,28 +1,28 @@
 manifestVersion: 1
 id: tascok-timetagger
 name: TimeTagger
-tagline: An open source time tracker
+tagline: Um rastreador de tempo de código aberto
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-timetagger/logo.png
 category: files & productivity
 version: "24.12.2"
 port: 8905
 description: >-
-  ⏱️ TimeTagger is a modern and privacy-friendly time tracking application designed for individuals and freelancers who value simplicity, control, and flexibility. It allows users to log their activities through a tag-based system instead of rigid project structures. This tag approach offers an intuitive and adaptable way to categorize time entries, making it easy to track what you work on throughout the day.
+  ⏱️ TimeTagger é um aplicativo de rastreamento de tempo moderno e amigável, projetado para indivíduos e freelancers que valorizam simplicidade, controle e flexibilidade. Ele permite que os usuários registrem suas atividades por meio de um sistema baseado em tags, em vez de estruturas rígidas de projeto. Essa abordagem de tag oferece uma maneira intuitiva e adaptável de categorizar entradas de tempo, facilitando o acompanhamento do que você trabalha ao longo do dia.
 
 
-  At the core of TimeTagger is a visually rich and interactive timeline interface. Users can scroll through their time entries with natural gestures and see at a glance how their time is distributed across various tasks and activities. The timeline is not only a visual aid but also an editing surface, allowing users to quickly adjust, move, or delete entries without switching views.
+  No centro do TimeTagger está uma interface de linha do tempo visualmente rica e interativa. Os usuários podem percorrer suas entradas de tempo com gestos naturais e ver rapidamente como seu tempo é distribuído entre diversas tarefas e atividades. A linha do tempo não é apenas um auxílio visual, mas também uma superfície de edição, permitindo aos usuários ajustar, mover ou excluir entradas rapidamente sem mudar de visualização.
 
 
-  TimeTagger supports both short-term focus techniques and long-term time management. Built-in tools such as a Pomodoro timer help users maintain concentration during work sessions, while goal tracking features encourage consistent progress toward daily, weekly, or monthly targets. The application also includes export options, enabling users to generate reports in PDF or CSV format for personal reflection or client invoicing.
+  TimeTagger suporta técnicas de foco de curto prazo e gerenciamento de tempo de longo prazo. Ferramentas integradas, como o cronômetro Pomodoro, ajudam os usuários a manter a concentração durante as sessões de trabalho, enquanto os recursos de rastreamento de metas incentivam o progresso consistente em direção às metas diárias, semanais ou mensais. A aplicação também inclui opções de exportação, permitindo aos usuários gerar relatórios em formato PDF ou CSV para reflexão pessoal ou faturamento do cliente.
 
 
-  One of the standout features of TimeTagger is its strong focus on privacy and transparency. It is fully open source and released under the GPL license. Users can choose to host the app themselves, either locally or on their own server using Docker or a Python environment. For those who prefer convenience, TimeTagger also offers a hosted version with an affordable pricing model and no invasive tracking. Authentication is handled through Auth0, and the hosted service uses no cookies unless required for login.
+  Uma das características de destaque do TimeTagger é seu forte foco na privacidade e na transparência. É totalmente de código aberto e lançado sob a licença GPL. Os usuários podem optar por hospedar o aplicativo por conta própria, localmente ou em seu próprio servidor usando Docker ou um ambiente Python. Para quem prefere comodidade, o TimeTagger também oferece uma versão hospedada com modelo de preços acessível e sem rastreamento invasivo. A autenticação é feita por meio do Auth0 e o serviço hospedado não usa cookies, a menos que seja necessário para login.
 
 
-  The backend is written in Python, while the frontend uses a lightweight JavaScript framework called PScript. Together, they deliver a smooth and responsive experience across platforms. TimeTagger has gained a loyal following among developers, digital nomads, and privacy-conscious professionals who appreciate its independence from large commercial platforms.
+  O backend é escrito em Python, enquanto o frontend usa uma estrutura JavaScript leve chamada PScript. Juntos, eles oferecem uma experiência tranquila e responsiva em todas as plataformas. O TimeTagger conquistou seguidores leais entre desenvolvedores, nômades digitais e profissionais preocupados com a privacidade que apreciam sua independência de grandes plataformas comerciais.
 
 
-  In summary, TimeTagger combines a clean user experience with a deep respect for user autonomy. It is an ideal solution for people who want to track their time in a meaningful way, without sacrificing privacy or relying on overly complex tools.
+  Em resumo, o TimeTagger combina uma experiência de usuário limpa com um profundo respeito pela autonomia do usuário. É uma solução ideal para pessoas que desejam controlar seu tempo de forma significativa, sem sacrificar a privacidade ou depender de ferramentas excessivamente complexas.
 developer: Almar Klein
 website: https://timetagger.app/
 submitter: Tascok
@@ -30,11 +30,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/almarklein/timetagger/
 support: https://github.com/almarklein/timetagger//issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-timetagger/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-timetagger/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-timetagger/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-timetagger/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-timetagger/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-timetagger/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-timetagger/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-timetagger/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-timetagger/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-timetagger/5.jpg
 releaseNotes: >-
   TimeTagger version 24.12.2 is a security update that adds a localhost authentication check and changes the default server binding from 0.0.0.0:80 to 127.0.0.1:8080.
 dependencies:

@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-ittools
 name: IT-Tools
-tagline: An array of handy online tools for developers
+tagline: Uma variedade de ferramentas on-line úteis para desenvolvedores
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ittools/logo.png
 category: developer tools
 version: "2024.10.22"
 port: 8786
 description: >-
-  ⚙️ It-Tools is an open-source project hosted on GitHub that provides a collection of practical online tools for developers and IT professionals. The tools are designed to be easy to use, offering a great user experience. The project includes various features that simplify common tasks, such as URL decoding, QR code generation, JSON formatting, and XML formatting.
+  ⚙️ It-Tools é um projeto de código aberto hospedado no GitHub que fornece uma coleção de ferramentas online práticas para desenvolvedores e profissionais de TI. As ferramentas são projetadas para serem fáceis de usar, oferecendo uma ótima experiência ao usuário. O projeto inclui vários recursos que simplificam tarefas comuns, como decodificação de URL, geração de código QR, formatação JSON e formatação XML.
 
 
-  A key feature of the project is the ability to self-host the application. Users can run the tools on their own servers using Docker, which is especially useful for developers who want an independent environment. The Docker installation process is simple, requiring only a straightforward command to run the application in the background.
+  Uma característica importante do projeto é a capacidade de auto-hospedar o aplicativo. Os usuários podem executar as ferramentas em seus próprios servidores usando Docker, o que é especialmente útil para desenvolvedores que desejam um ambiente independente. O processo de instalação do Docker é simples, exigindo apenas um comando direto para executar o aplicativo em segundo plano.
 
 
-  It-Tools is actively developed and maintained, with regular updates and contributions from the community. It is licensed under the GNU GPLv3, allowing users to freely use, modify, and share the project. The GitHub repository has garnered a large and active community that discusses the tools' usefulness and potential improvements. The project is particularly appreciated in offline environments since it can be self-hosted. Additionally, there have been suggestions to add more features, such as Helm charts for Kubernetes deployments.
+  O It-Tools é desenvolvido e mantido ativamente, com atualizações e contribuições regulares da comunidade. É licenciado sob a GNU GPLv3, permitindo aos usuários usar, modificar e compartilhar livremente o projeto. O repositório GitHub reuniu uma comunidade grande e ativa que discute a utilidade das ferramentas e possíveis melhorias. O projeto é particularmente apreciado em ambientes offline, pois pode ser auto-hospedado. Além disso, houve sugestões para adicionar mais recursos, como gráficos Helm para implantações do Kubernetes.
 
 
-  The collection offers developers a fast and efficient way to perform common tasks directly in their browser without needing external tools or services. The self-hosting option makes it particularly appealing for users who want complete control over their tools and data.
+  A coleção oferece aos desenvolvedores uma maneira rápida e eficiente de realizar tarefas comuns diretamente no navegador, sem a necessidade de ferramentas ou serviços externos. A opção de auto-hospedagem torna-a particularmente atraente para usuários que desejam controle total sobre suas ferramentas e dados.
 developer: Corentin Thomasset
 website: https://it-tools.tech/
 submitter: Tascok
@@ -24,12 +24,12 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/CorentinTh/it-tools
 support: https://github.com/CorentinTh/it-tools/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ittools/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ittools/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ittools/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ittools/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ittools/5.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ittools/6.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ittools/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ittools/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ittools/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ittools/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ittools/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ittools/6.jpg
 releaseNotes: >-
   The v2024.10.22 release of IT-tools introduces several new features, including a Regex Tester, Markdown to HTML converter, email normalizer, and tools for converting JSON to XML and vice versa. It also includes bug fixes such as improvements to favorites storage, debounced search input for the emoji picker, and UI adjustments for various tools.
 dependencies:

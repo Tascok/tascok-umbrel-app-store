@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-standardnotes
 name: Standard Notes
-tagline: A secure note-taking app with end-to-end encryption
+tagline: Um aplicativo seguro para anotações com criptografia de ponta a ponta
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-standardnotes/logo.png
 category: files & productivity
 version: "3.200.4"
 port: 3977
 description: >-
-  📝 Standard Notes is a privacy focused note taking application designed to provide complete security and longevity for personal data. It allows users to write, organize, and store their notes in an encrypted environment where only they can access the information. Every note, tag, and attachment is encrypted locally before it ever leaves the device, ensuring that no external service or server can read or analyze the content.
+  📝 Standard Notes é um aplicativo de anotações com foco na privacidade, projetado para fornecer total segurança e longevidade aos dados pessoais. Ele permite que os usuários escrevam, organizem e armazenem suas anotações em um ambiente criptografado onde somente eles podem acessar as informações. Cada nota, etiqueta e anexo é criptografado localmente antes de sair do dispositivo, garantindo que nenhum serviço ou servidor externo possa ler ou analisar o conteúdo.
 
 
-  The app focuses on creating a distraction free writing experience while maintaining a strong foundation of digital privacy. It can be used for everything from simple text notes to long form documents, personal journals, and technical writing. Its flexible editing options allow for plain text, markdown, and rich text, giving users the freedom to choose the style that fits their workflow best.
+  O aplicativo se concentra na criação de uma experiência de escrita sem distrações, ao mesmo tempo que mantém uma base sólida de privacidade digital. Ele pode ser usado para tudo, desde notas de texto simples até documentos longos, diários pessoais e redações técnicas. Suas opções de edição flexíveis permitem texto simples, markdown e rich text, dando aos usuários a liberdade de escolher o estilo que melhor se adapta ao seu fluxo de trabalho.
 
 
-  Standard Notes also offers a reliable synchronization system that keeps content consistent across devices while preserving full encryption at all times. Users can organize their thoughts using tags, version history, and search tools that make it easy to manage large collections of notes.
+  O Standard Notes também oferece um sistema de sincronização confiável que mantém o conteúdo consistente em todos os dispositivos, preservando sempre a criptografia completa. Os usuários podem organizar suas ideias usando tags, histórico de versões e ferramentas de pesquisa que facilitam o gerenciamento de grandes coleções de notas.
 
 
-  Above all, Standard Notes is built on the principle of user autonomy and data protection. It does not collect analytics, track behavior, or insert advertisements. Instead, it focuses on trust, transparency, and durability, giving people a safe and timeless place to record their ideas, memories, and creative work.
+  Acima de tudo, o Standard Notes baseia-se no princípio da autonomia do usuário e da proteção de dados. Ele não coleta análises, rastreia comportamento ou insere anúncios. Em vez disso, centra-se na confiança, transparência e durabilidade, proporcionando às pessoas um local seguro e intemporal para registarem as suas ideias, memórias e trabalho criativo.
 developer: Standard Notes
 website: https://standardnotes.com/
 submitter: Tascok
@@ -24,11 +24,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/standardnotes
 support: https://github.com/standardnotes/server/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-standardnotes/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-standardnotes/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-standardnotes/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-standardnotes/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-standardnotes/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-standardnotes/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-standardnotes/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-standardnotes/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-standardnotes/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-standardnotes/5.jpg
 releaseNotes: >-
   This update fixes an issue where text pasted from Google Docs was always displayed in bold. The app now preserves the correct formatting when importing content.
 dependencies: []

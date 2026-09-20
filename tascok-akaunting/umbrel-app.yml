@@ -1,46 +1,46 @@
 manifestVersion: 1
 id: tascok-akaunting
 name: Akaunting
-tagline: An intuitive accounting solution for small businesses and freelancers
+tagline: Uma solução de contabilidade intuitiva para pequenas empresas e freelancers
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-akaunting/logo.png
 category: finance
 version: "3.1.19"
 port: 8773
 description: >-
-  📊 Akaunting is a powerful open-source accounting software that simplifies financial management for small businesses, freelancers, and entrepreneurs. It offers an all-in-one solution to manage income, expenses, invoices, and financial reports, making it easier to maintain an organized and transparent overview of your finances. With its intuitive design and flexible features, Akaunting helps you save time on administrative tasks while improving accuracy and efficiency.
+  📊 Akaunting é um poderoso software de contabilidade de código aberto que simplifica o gerenciamento financeiro para pequenas empresas, freelancers e empreendedores. Oferece uma solução completa para gerenciar receitas, despesas, faturas e relatórios financeiros, facilitando a manutenção de uma visão organizada e transparente de suas finanças. Com seu design intuitivo e recursos flexíveis, Akaunting ajuda você a economizar tempo em tarefas administrativas e, ao mesmo tempo, melhorar a precisão e a eficiência.
 
 
-  From creating professional invoices to managing customers, vendors, and recurring payments, Akaunting is built to streamline your day-to-day accounting operations. It also includes robust features like multi-currency support for international transactions, online payment integration for faster cash flow, and inventory tracking to keep stock and sales aligned. For those needing even more functionality, its built-in App Store offers a wide range of add-ons to extend the software according to your needs.
+  Desde a criação de faturas profissionais até o gerenciamento de clientes, fornecedores e pagamentos recorrentes, o Akaunting foi criado para agilizar suas operações contábeis diárias. Ele também inclui recursos robustos, como suporte multimoeda para transações internacionais, integração de pagamento on-line para fluxo de caixa mais rápido e rastreamento de estoque para manter o estoque e as vendas alinhados. Para quem precisa de ainda mais funcionalidades, sua App Store integrada oferece uma ampla gama de complementos para estender o software de acordo com suas necessidades.
 
 
-  Key Features:
-  
-
-  💰 Invoicing – Create, customize, and send professional invoices with ease.
+  Principais recursos:
 
 
-  📥 Expense Tracking – Record, categorize, and monitor expenses to maintain full control over your budget.
+  💰 Faturamento – Crie, personalize e envie faturas profissionais com facilidade.
 
 
-  📊 Financial Reports – Generate detailed profit & loss statements, balance sheets, and other insights to understand your financial status.
+  📥 Acompanhamento de despesas – registre, categoriza e monitore despesas para manter controle total sobre seu orçamento.
 
 
-  👥 Customer & Vendor Management – Keep all contacts and their transaction history organized and easily accessible.
+  📊 Relatórios Financeiros – Gere demonstrações detalhadas de lucros e perdas, balanços e outros insights para entender sua situação financeira.
 
 
-  💳 Online Payments – Accept client payments via PayPal, Stripe, and other popular gateways.
+  👥 Gestão de Clientes e Fornecedores – Mantenha todos os contatos e seu histórico de transações organizados e facilmente acessíveis.
 
 
-  🌍 Multi-Currency Support – Handle transactions in multiple currencies with automatic exchange rate updates.
+  💳 Pagamentos online – Aceite pagamentos de clientes via PayPal, Stripe e outros gateways populares.
 
 
-  🧾 Recurring Billing – Automate recurring invoices and payments for subscriptions or long-term contracts.
+  🌍 Suporte a várias moedas – Lide com transações em várias moedas com atualizações automáticas da taxa de câmbio.
 
 
-  📦 Inventory Management – Track product stock, sales, and purchases in real time.
+  🧾 Faturamento recorrente – Automatize faturas e pagamentos recorrentes de assinaturas ou contratos de longo prazo.
 
 
-  🔧 App Store Extensions – Expand functionality with add-ons like payroll, advanced reports, or project management.
+  📦 Gerenciamento de estoque – Acompanhe o estoque, vendas e compras de produtos em tempo real.
+
+
+  🔧 Extensões da App Store – Expanda a funcionalidade com complementos como folha de pagamento, relatórios avançados ou gerenciamento de projetos.
 developer: Akaunting Inc.
 website: https://akaunting.com/
 submitter: Tascok
@@ -48,18 +48,18 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/akaunting/akaunting
 support: https://github.com/akaunting/akaunting/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-akaunting/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-akaunting/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-akaunting/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-akaunting/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-akaunting/5.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-akaunting/6.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-akaunting/7.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-akaunting/8.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-akaunting/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-akaunting/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-akaunting/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-akaunting/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-akaunting/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-akaunting/6.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-akaunting/7.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-akaunting/8.jpg
 releaseNotes: >-
   Version 3.1.19 introduces new features such as a discount summary report, configurable invoice logo size, and extended report data. Performance improvements and new Crowdin translations were also added. 
-  
-  
+
+
   Several bugs, including issues with printing transaction types, module updates, tax reports, and password reset emails, have been fixed.
 dependencies:
 path: ""

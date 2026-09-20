@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-dawarich
 name: Dawarich
-tagline: A Location History Tracker
+tagline: Um rastreador de histórico de localização
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dawarich/logo.png
 category: files & productivity
 version: "0.30.8"
 port: 8955
 description: >-
-  🌍 Dawarich is an application that enables you to capture, explore and relive your personal location history in a private and meaningful way. It works by continuously collecting your movement data and transforming it into a rich, interactive representation of your journeys. Every place you visit becomes part of a visual timeline, allowing you to see exactly where you have been and when you were there. This timeline can be navigated effortlessly, letting you jump to specific dates or periods to revisit the paths you took and the places you explored.
+  🌍 Dawarich é um aplicativo que permite capturar, explorar e reviver seu histórico de localização pessoal de forma privada e significativa. Ele funciona coletando continuamente seus dados de movimento e transformando-os em uma representação rica e interativa de suas viagens. Cada lugar que você visita torna-se parte de uma linha do tempo visual, permitindo que você veja exatamente onde esteve e quando esteve lá. Essa linha do tempo pode ser navegada sem esforço, permitindo que você pule para datas ou períodos específicos para revisitar os caminhos que percorreu e os lugares que explorou.
 
 
-  The application provides detailed statistics about your movements, including total distances traveled, time spent in specific locations and the number of cities and countries visited. These insights are presented in a visually engaging way, turning your travels into a living record. A scratch-map style view allows you to highlight visited countries and regions, offering a clear picture of your travel footprint. Interactive maps show your routes and stops, helping you rediscover the small details of each journey, from long trips abroad to everyday movements close to home.
+  O aplicativo fornece estatísticas detalhadas sobre seus movimentos, incluindo distâncias totais percorridas, tempo gasto em locais específicos e número de cidades e países visitados. Esses insights são apresentados de forma visualmente envolvente, transformando suas viagens em um registro vivo. Uma visualização em estilo de mapa de rascunho permite destacar países e regiões visitados, oferecendo uma imagem clara de sua pegada de viagem. Mapas interativos mostram suas rotas e paradas, ajudando você a redescobrir os pequenos detalhes de cada viagem, desde viagens longas ao exterior até movimentos cotidianos perto de casa.
 
 
-  Dawarich also supports the import of existing location data from various sources, allowing you to integrate years of past travel into your personal history. Whether the data comes from other tracking tools, fitness applications, GPX files or geotagged photos, it can be merged seamlessly into the timeline. This means your location history is not only a record of recent activities but also a complete archive of your past movements.
+  Dawarich também suporta a importação de dados de localização existentes de várias fontes, permitindo integrar anos de viagens anteriores ao seu histórico pessoal. Quer os dados venham de outras ferramentas de rastreamento, aplicativos de condicionamento físico, arquivos GPX ou fotos com geomarcação, eles podem ser mesclados perfeitamente na linha do tempo. Isso significa que seu histórico de localização não é apenas um registro de atividades recentes, mas também um arquivo completo de seus movimentos anteriores.
 
 
-  The result is a beautifully designed, data-rich environment that gives you full ownership of your location information. It turns raw movement records into an insightful, personal story that you can explore at any time, preserving your journeys and experiences in a form that is both private and visually compelling.
+  O resultado é um ambiente rico em dados e lindamente projetado, que oferece total propriedade das informações de sua localização. Ele transforma registros brutos de movimento em uma história pessoal e perspicaz que você pode explorar a qualquer momento, preservando suas jornadas e experiências de uma forma que é ao mesmo tempo privada e visualmente atraente.
 developer: ZeitFlow UG
 website: https://dawarich.app/
 submitter: Tascok
@@ -24,11 +24,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/Freika/dawarich
 support: https://github.com/Freika/dawarich/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dawarich/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dawarich/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dawarich/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dawarich/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dawarich/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dawarich/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dawarich/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dawarich/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dawarich/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dawarich/5.jpg
 releaseNotes: >-
   Version 0.30.8 fixes issues with the fog of war feature so it now works correctly when zooming or moving the map, resolves a problem with incorrect visit suggestions, and restores proper functionality of the scratch map. These improvements enhance map interaction and ensure location data is displayed as intended.
 dependencies: []

@@ -1,25 +1,25 @@
 manifestVersion: 1
 id: tascok-librephotos
 name: LibrePhotos
-tagline: A photo management service
+tagline: Um serviço de gerenciamento de fotos
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-librephotos/logo.png
 category: files & productivity
 version: "2025w28"
 port: 8150
 description: >-
-  🖼️ LibrePhotos is a photo management application that helps users organize and browse their photo and video collections with ease. It provides features like face recognition that automatically detects and groups people in photos to make searching simpler. The app uses artificial intelligence to identify objects and scenes in images, enabling users to perform semantic searches based on the content of their photos.
+  🖼️ LibrePhotos é um aplicativo de gerenciamento de fotos que ajuda os usuários a organizar e navegar em suas coleções de fotos e vídeos com facilidade. Ele oferece recursos como reconhecimento facial que detecta e agrupa automaticamente pessoas em fotos para simplificar a pesquisa. O aplicativo utiliza inteligência artificial para identificar objetos e cenas em imagens, permitindo que os usuários realizem pesquisas semânticas com base no conteúdo de suas fotos.
 
 
-  It supports a wide variety of file formats including RAW and HEIC and allows for automatic album creation based on events, dates, and locations. Users can explore their media chronologically through a timeline view and search their photos by metadata such as GPS coordinates and EXIF information.
+  Ele suporta uma ampla variedade de formatos de arquivo, incluindo RAW e HEIC, e permite a criação automática de álbuns com base em eventos, datas e locais. Os usuários podem explorar sua mídia cronologicamente por meio de uma visualização de linha do tempo e pesquisar suas fotos por metadados, como coordenadas GPS e informações EXIF.
 
 
-  The application also supports multi-user access with customizable permissions, enabling different users to interact with the photo library according to their roles. Additional features include reverse geocoding to assign place names to photo locations and an integrated mobile app that facilitates offline access and synchronization.
+  O aplicativo também suporta acesso multiusuário com permissões personalizáveis, permitindo que diferentes usuários interajam com a biblioteca de fotos de acordo com suas funções. Recursos adicionais incluem geocodificação reversa para atribuir nomes de lugares a locais fotográficos e um aplicativo móvel integrado que facilita o acesso offline e a sincronização.
 
 
-  Overall, LibrePhotos aims to provide a comprehensive, intelligent, and user-friendly way to manage large collections of photos and videos.
+  No geral, o LibrePhotos visa fornecer uma maneira abrangente, inteligente e fácil de usar para gerenciar grandes coleções de fotos e vídeos.
 
 
-  ⚠️ Initial setup may take 5–10 minutes depending on your hardware. Please be patient while LibrePhotos gets ready in the background.
+  ⚠️ A configuração inicial pode levar de 5 a 10 minutos, dependendo do seu hardware. Por favor, seja paciente enquanto o LibrePhotos fica pronto em segundo plano.
 developer: LibrePhotos
 website: https://docs.librephotos.com/
 submitter: Tascok
@@ -27,16 +27,16 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/LibrePhotos/librephotos-docker
 support: https://github.com/LibrePhotos/librephotos-docker/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-librephotos/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-librephotos/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-librephotos/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-librephotos/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-librephotos/5.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-librephotos/6.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-librephotos/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-librephotos/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-librephotos/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-librephotos/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-librephotos/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-librephotos/6.jpg
 releaseNotes: >-
   Version 2025w28 brings several improvements to LibrePhotos, including a fix for video scanning by correcting aspect ratio detection and improved support for media from Nextcloud. 
-  
-  
+
+
   The FaceDashboard frontend now handles cache invalidation more reliably, and the upload documentation was clarified. Dependencies and language strings were also updated.
 dependencies:
 path: ""

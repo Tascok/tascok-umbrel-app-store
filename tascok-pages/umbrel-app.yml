@@ -1,25 +1,25 @@
 manifestVersion: 1
 id: tascok-pages
 name: Pages
-tagline: A beautiful home for static websites
+tagline: Uma bela casa para sites estáticos
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/master/denny-pages/logo.png
 category: developer tools
 version: "0.1.2"
 port: 8377
 description: >-
-  Pages turns your Umbrel into a private, beautifully designed platform for publishing static websites. Start with a professionally crafted template, import an existing project as a ZIP archive, or build a site from scratch by uploading and editing HTML, CSS, JavaScript, JSON, Markdown, and other text-based files directly in your browser. Every change can be reviewed instantly through the integrated live preview.
+  O Pages transforma seu Umbrel em uma plataforma privada e lindamente projetada para publicação de sites estáticos. Comece com um modelo criado profissionalmente, importe um projeto existente como um arquivo ZIP ou crie um site do zero fazendo upload e editando HTML, CSS, JavaScript, JSON, Markdown e outros arquivos baseados em texto diretamente em seu navegador. Cada alteração pode ser revisada instantaneamente através da visualização ao vivo integrada.
 
 
-  A clean dashboard keeps all of your websites organized in one place. Prepare new projects privately as drafts, publish them when they are ready, and share them through your local network, a custom domain, Umbrel’s shared Onion service, or a dedicated persistent Onion address created exclusively for an individual site.
+  Um painel limpo mantém todos os seus sites organizados em um só lugar. Prepare novos projetos de forma privada como rascunhos, publique-os quando estiverem prontos e compartilhe-os através de sua rede local, um domínio personalizado, o serviço Onion compartilhado da Umbrel ou um endereço Onion persistente dedicado criado exclusivamente para um site individual.
 
 
-  Pages also includes file management, ZIP exports, restorable backups, page-view statistics, storage insights, QR-code sharing, CORS controls, caching options, and SPA fallback. Whether you are hosting a personal portfolio, documentation, a landing page, a blog, or a Nostr profile, Pages provides everything needed to publish and manage it directly from your Umbrel.
+  O Pages também inclui gerenciamento de arquivos, exportações ZIP, backups restauráveis, estatísticas de visualização de página, insights de armazenamento, compartilhamento de código QR, controles CORS, opções de cache e substituto de SPA. Esteja você hospedando um portfólio pessoal, documentação, uma landing page, um blog ou um perfil Nostr, o Pages fornece tudo o que você precisa para publicá-lo e gerenciá-lo diretamente do seu Umbrel.
 
 
-  Your websites, settings, backups, and Onion identities remain stored locally on your Umbrel. Pages serves pre-built static content only and never executes uploaded server-side code.
+  Seus sites, configurações, backups e identidades Onion permanecem armazenados localmente em seu Umbrel. O Pages fornece apenas conteúdo estático pré-construído e nunca executa código carregado no servidor.
 
 
-  ⚙️ Remote Tor access must be enabled in your Umbrel settings for Pages to use Umbrel’s shared Onion address.
+  ⚙️ O acesso remoto ao Tor deve estar habilitado nas configurações do Umbrel para que o Pages use o endereço Onion compartilhado do Umbrel.
 developer: dennysubke
 website: https://github.com/dennysubke/pages
 submitter: Tascok
@@ -32,11 +32,11 @@ releaseNotes: >-
 
   Automatic backups, retention limits, storage controls, statistics privacy options, and editor auto-save settings have also been added. The Overview layout has been refined for cleaner alignment, consistent spacing, and improved responsiveness.
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/master/denny-pages/1.webp
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/master/denny-pages/2.webp
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/master/denny-pages/3.webp
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/master/denny-pages/4.webp
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/master/denny-pages/5.webp
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/master/denny-pages/1.webp
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/master/denny-pages/2.webp
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/master/denny-pages/3.webp
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/master/denny-pages/4.webp
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/master/denny-pages/5.webp
 path: ""
 defaultUsername: ""
 defaultPassword: ""

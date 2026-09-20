@@ -1,25 +1,25 @@
 manifestVersion: 1
 id: tascok-webtop
 name: Ubuntu Mate
-tagline: An easy-to-use desktop that brings the power of Ubuntu to your fingertips
+tagline: Um desktop fácil de usar que traz o poder do Ubuntu ao seu alcance
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-webtop/logo.png
 category: files & productivity
 version: "04d8319c"
 port: 3399
 description: >-
-  💻 Webtop is an innovative open-source platform that enables users to access a fully functional Linux desktop environment directly through a web browser, eliminating the need for additional remote desktop tools like VNC or RDP. It is particularly well-suited for remote work, server management, and development tasks, offering a seamless and intuitive desktop experience from anywhere. For Umbrel users, this distribution is built around Ubuntu Mate, a robust and lightweight desktop environment known for its simplicity, speed, and user-friendly design.
+  💻 Webtop é uma plataforma inovadora de código aberto que permite aos usuários acessar um ambiente de desktop Linux totalmente funcional diretamente por meio de um navegador da web, eliminando a necessidade de ferramentas adicionais de desktop remoto, como VNC ou RDP. É particularmente adequado para trabalho remoto, gerenciamento de servidores e tarefas de desenvolvimento, oferecendo uma experiência de desktop intuitiva e contínua em qualquer lugar. Para usuários do Umbrel, esta distribuição é construída em torno do Ubuntu Mate, um ambiente de desktop leve e robusto conhecido por sua simplicidade, velocidade e design amigável.
 
 
-  Ubuntu Mate brings a perfect balance of modern functionality and efficient resource usage, making it an excellent choice for server environments where performance and reliability are critical. Its clean interface and extensive customization options allow users to tailor the experience to their needs, while its compatibility with a vast array of Linux applications ensures versatility. By integrating Ubuntu Mate into Webtop, this distribution for Umbrel delivers a smooth, responsive, and visually appealing desktop experience, accessible with nothing more than a web browser.
+  Ubuntu Mate traz um equilíbrio perfeito entre funcionalidade moderna e uso eficiente de recursos, tornando-o uma excelente escolha para ambientes de servidor onde desempenho e confiabilidade são essenciais. Sua interface limpa e amplas opções de personalização permitem aos usuários adaptar a experiência às suas necessidades, enquanto sua compatibilidade com uma vasta gama de aplicativos Linux garante versatilidade. Ao integrar o Ubuntu Mate ao Webtop, esta distribuição para Umbrel oferece uma experiência de desktop suave, responsiva e visualmente atraente, acessível com nada mais do que um navegador da web.
 
 
-  Whether you’re coding, managing servers, testing applications, or simply looking for a cloud-based Linux desktop, Webtop with Ubuntu Mate provides an all-in-one solution that is powerful, lightweight, and easy to use.
+  Esteja você codificando, gerenciando servidores, testando aplicativos ou simplesmente procurando um desktop Linux baseado em nuvem, o Webtop com Ubuntu Mate oferece uma solução completa que é poderosa, leve e fácil de usar.
 
 
-  ⚠️ Please note that the installation process may take some time depending on the specifications and performance of your device, as the image file is over 1GB in size. Due to the large size, the system may require additional time to download, extract, and set up. Additionally, a 4GB shared memory (SHM) size has been configured to ensure optimal performance during installation and operation. It is recommended to be patient and allow the installation to complete fully. 
-  
-  
-  ☂️ For the best performance, an Umbrel Home is recommended for running this application.
+  ⚠️ Observe que o processo de instalação pode demorar algum tempo dependendo das especificações e desempenho do seu dispositivo, pois o arquivo de imagem tem mais de 1 GB. Devido ao grande tamanho, o sistema pode exigir mais tempo para baixar, extrair e configurar. Além disso, um tamanho de memória compartilhada (SHM) de 4 GB foi configurado para garantir desempenho ideal durante a instalação e operação. Recomenda-se ser paciente e permitir que a instalação seja totalmente concluída. 
+
+
+  ☂️ Para melhor desempenho, é recomendado um Umbrel Home para executar este aplicativo.
 developer: LinuxServer.io
 website: https://www.linuxserver.io/
 submitter: Tascok
@@ -27,13 +27,13 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/linuxserver/docker-webtop
 support: https://github.com/linuxserver/docker-webtop/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-webtop/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-webtop/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-webtop/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-webtop/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-webtop/5.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-webtop/6.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-webtop/7.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-webtop/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-webtop/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-webtop/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-webtop/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-webtop/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-webtop/6.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-webtop/7.jpg
 releaseNotes: >-
   Updating base packages to Version 04d8319c. 
 dependencies:

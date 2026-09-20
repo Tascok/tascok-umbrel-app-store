@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-gameyfin
 name: Gameyfin
-tagline: A beautiful home for all your games
+tagline: Uma bela casa para todos os seus jogos
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gameyfin/logo.png
 category: gaming
 version: "2.1.2"
 port: 8909
 description: >-
-  🎮 Gameyfin is an open source platform designed to organize and manage personal video game collections. It scans local directories to automatically detect games and compiles them into a unified digital library. Each entry is enriched with metadata such as titles, descriptions, genres, and cover art, creating a visually appealing catalog that helps users rediscover and browse their games effortlessly.
+  🎮 Gameyfin é uma plataforma de código aberto projetada para organizar e gerenciar coleções pessoais de videogames. Ele verifica diretórios locais para detectar jogos automaticamente e os compila em uma biblioteca digital unificada. Cada entrada é enriquecida com metadados como títulos, descrições, gêneros e capas, criando um catálogo visualmente atraente que ajuda os usuários a redescobrir e navegar em seus jogos sem esforço.
 
 
-  The system is built to be lightweight and efficient, ensuring that even large collections can be indexed and displayed quickly. It retrieves information from online databases to provide accurate details and consistent artwork, reducing the need for manual input. Users can explore their entire game library through a simple web interface that supports searching, sorting, and viewing individual game pages with detailed information.
+  O sistema foi desenvolvido para ser leve e eficiente, garantindo que mesmo grandes coleções possam ser indexadas e exibidas rapidamente. Ele recupera informações de bancos de dados on-line para fornecer detalhes precisos e arte consistente, reduzindo a necessidade de entrada manual. Os usuários podem explorar toda a sua biblioteca de jogos por meio de uma interface web simples que suporta pesquisa, classificação e visualização de páginas individuais de jogos com informações detalhadas.
 
 
-  Gameyfin focuses on giving players control over their digital libraries, offering a structured way to access and manage owned games. It does not distribute or emulate games but instead provides a private and organized environment for keeping track of them. By combining automation, clean presentation, and customization, it transforms a folder of scattered files into a cohesive and accessible personal archive of interactive entertainment.
+  Gameyfin se concentra em dar aos jogadores controle sobre suas bibliotecas digitais, oferecendo uma forma estruturada de acessar e gerenciar jogos próprios. Ele não distribui ou emula jogos, mas fornece um ambiente privado e organizado para acompanhá-los. Ao combinar automação, apresentação limpa e personalização, ele transforma uma pasta de arquivos dispersos em um arquivo pessoal coeso e acessível de entretenimento interativo.
 
 
-  ⚙️ Place simple text files directly inside ${APP_DATA_DIR}/data/games, each named after a game you’d like to appear in your library, such as “Super Mario 64.txt” or “Portal 2.txt”. When you add this path as a library in Gameyfin and run a rescan, the app will automatically detect these files as game entries, allowing you to explore and test your library without needing any actual game files.
+  ⚙️ Coloque arquivos de texto simples diretamente em ${APP_DATA_DIR}/data/games, cada um com o nome de um jogo que você gostaria que aparecesse em sua biblioteca, como “Super Mario 64.txt” ou “Portal 2.txt”. Quando você adiciona esse caminho como uma biblioteca no Gameyfin e executa uma nova verificação, o aplicativo detectará automaticamente esses arquivos como entradas de jogo, permitindo que você explore e teste sua biblioteca sem precisar de nenhum arquivo real do jogo.
 developer: Gameyfin
 website: https://gameyfin.org/
 submitter: Tascok
@@ -24,11 +24,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/gameyfin/gameyfin
 support: https://github.com/gameyfin/gameyfin/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gameyfin/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gameyfin/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gameyfin/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gameyfin/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gameyfin/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gameyfin/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gameyfin/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gameyfin/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gameyfin/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gameyfin/5.jpg
 releaseNotes: >-
   Version 2.1.2 is a bugfix release that prepares the database for future updates. It removes leftover indexes, cleans up unused and corrupted images, and improves image handling. This will be the last minor release on Docker Hub, so users should switch to the new image at ghcr.io/gameyfin/gameyfin and back up their data before updating.
 dependencies: []

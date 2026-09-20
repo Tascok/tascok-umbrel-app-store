@@ -1,19 +1,19 @@
 manifestVersion: 1
 id: tascok-timechain
 name: Timechain Calendar
-tagline: A journey through Bitcoin’s timechain
+tagline: Uma viagem pelo timechain do Bitcoin
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-timechain/logo.png
 category: bitcoin
 version: "0.5.47"
 port: 8953
 description: >-
-  ⚠️ This app does not have publicly available source code and is not a standalone application. It simply serves as a reference (link) to the official Timechain Calendar website.
-
-  
-  Timechain Calendar is a web platform that visualizes the development of the Bitcoin blockchain in the form of a calendar. It provides a chronological overview of important events in the Bitcoin ecosystem, such as halving events, technical milestones, and other significant changes on the blockchain. Users can track key developments in Bitcoin technology and economics over time.
+  ⚠️ Este aplicativo não possui código-fonte disponível publicamente e não é um aplicativo independente. Ele serve simplesmente como referência (link) para o site oficial do Calendário Timechain.
 
 
-  The platform allows users to explore both historical and upcoming events related to the blockchain, offering a clear representation of block heights, consensus mechanisms, and protocol changes. With Timechain Calendar, users have a user-friendly way to understand the progress of the Bitcoin blockchain and observe relevant events within the Bitcoin network.
+  Timechain Calendar é uma plataforma web que visualiza o desenvolvimento do blockchain Bitcoin na forma de um calendário. Ele fornece uma visão cronológica de eventos importantes no ecossistema Bitcoin, como eventos de redução pela metade, marcos técnicos e outras mudanças significativas no blockchain. Os usuários podem acompanhar os principais desenvolvimentos na tecnologia e na economia do Bitcoin ao longo do tempo.
+
+
+  A plataforma permite aos usuários explorar eventos históricos e futuros relacionados ao blockchain, oferecendo uma representação clara das alturas dos blocos, mecanismos de consenso e mudanças de protocolo. Com o Timechain Calendar, os usuários têm uma maneira fácil de entender o progresso do blockchain Bitcoin e observar eventos relevantes dentro da rede Bitcoin.
 developer: TC
 website: https://timechaincalendar.com/en
 submitter: Tascok
@@ -21,9 +21,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/timechainb
 support: https://github.com/timechainb/timechain-calendar-translations/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-timechain/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-timechain/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-timechain/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-timechain/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-timechain/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-timechain/3.jpg
 releaseNotes: >-
   Version 0.5.47 of Timechain Calendar was released on June 26, 2024, but the specific changes and updates for this version are not publicly documented.
 dependencies:

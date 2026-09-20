@@ -1,28 +1,28 @@
 manifestVersion: 1
 id: tascok-onedev
 name: OneDev
-tagline: A streamlined server for code, builds, and packages
+tagline: Um servidor simplificado para código, compilações e pacotes
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-onedev/logo.png
 category: developer tools
 version: "16.0.2"
 port: 6610
 description: >-
-  ⚠️ This app is RAM-intensive and can take 5 minutes to start after installation.
-  
-
-  OneDev is a Git and DevOps platform that combines repository hosting, CI/CD pipelines, Kanban boards, and package management in one clean workspace. It helps you manage code, automate builds, track tasks, and ship projects from a single interface.
+  ⚠️ Este aplicativo consome muita RAM e pode levar 5 minutos para iniciar após a instalação.
 
 
-  It brings the core tools for modern software development together in one clean workspace, including:
+  OneDev é uma plataforma Git e DevOps que combina hospedagem de repositório, pipelines de CI/CD, quadros Kanban e gerenciamento de pacotes em um espaço de trabalho limpo. Ele ajuda você a gerenciar código, automatizar compilações, rastrear tarefas e enviar projetos a partir de uma única interface.
+
+
+  Ele reúne as principais ferramentas para o desenvolvimento de software moderno em um espaço de trabalho limpo, incluindo:
    
-    🔍 Version control: It provides built-in Git support, allowing code management directly within the platform.
-    📦 CI/CD (Continuous Integration / Continuous Delivery): OneDev enables you to create build and deployment pipelines for continuously testing and delivering code changes.
-    🐞 Issue tracking: It offers a task management system to organize projects and track progress.
-    👩‍💻 Code review: Developers can perform code reviews directly on the platform to ensure quality.
-    📝 Kanban boards: OneDev includes flexible boards to help manage tasks and workflows.
-    🔗 Third-party integration: It supports the integration of external services and tools.
+    🔍 Controle de versão: Fornece suporte Git integrado, permitindo o gerenciamento de código diretamente na plataforma.
+    📦 CI/CD (Integração Contínua/Entrega Contínua): OneDev permite criar pipelines de construção e implantação para testar e entregar alterações de código continuamente.
+    🐞 Rastreamento de problemas: Oferece um sistema de gerenciamento de tarefas para organizar projetos e acompanhar o andamento.
+    👩‍💻 Revisão de código: os desenvolvedores podem realizar revisões de código diretamente na plataforma para garantir a qualidade.
+    📝 Quadros Kanban: OneDev inclui quadros flexíveis para ajudar a gerir tarefas e fluxos de trabalho.
+    🔗 Integração de terceiros: Suporta a integração de serviços e ferramentas externas.
 
-  The tool is especially appealing for teams that prefer a complete DevOps solution in a single, self-hosted system without relying on external cloud services.
+  A ferramenta é especialmente atraente para equipes que preferem uma solução DevOps completa em um sistema único e auto-hospedado, sem depender de serviços externos em nuvem.
 developer: OneDev Pty
 website: https://onedev.io/
 submitter: Tascok
@@ -30,11 +30,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/theonedev/onedev
 support: https://code.onedev.io/onedev/server/~issues?query=%22State%22+is+%22Open%22
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-onedev/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-onedev/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-onedev/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-onedev/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-onedev/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-onedev/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-onedev/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-onedev/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-onedev/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-onedev/5.jpg
 releaseNotes: >-
   This update focuses on improving AI-powered development workflows, including better AI user handling, workspace automation, and support for driving issue and pull request work through dedicated workspaces.
 

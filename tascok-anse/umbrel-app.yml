@@ -1,37 +1,37 @@
 manifestVersion: 1
 id: tascok-anse
 name: Anse
-tagline: A fully optimized UI for AI Chats
+tagline: Uma UI totalmente otimizada para AI Chats
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-anse/logo.png
 category: AI
 version: "1.1.11"
 port: 3339
 description: >-
-  Anse is a powerful application designed to enhance user experiences by providing streamlined access to various advanced AI models such as ChatGPT, DALL-E, and Stable Diffusion. The application aims to serve a wide range of use cases, from text and content generation to image synthesis, making it suitable for creative professionals, developers, and casual users alike.
-  
-  
-  Key Features:
-
-  
-  ✨ Unified Interface: Anse combines multiple AI models into a single platform, allowing users to seamlessly switch between them for different tasks without the need for multiple applications.
-
- 
-  🎨 Creative Versatility: Users can generate high-quality text, create stunning visuals, and explore generative art, enabling diverse applications in fields like marketing, design, and storytelling.
-
-  
-  👤 User-Friendly Design: Anse prioritizes ease of use, featuring an intuitive interface that simplifies interactions with complex AI systems, making it accessible to those who may not have technical expertise.
-
- 
-  🔗 Integration Capabilities: The application is designed with developers in mind, offering integration features that allow for the incorporation of AI functionalities into existing workflows and applications.
-
-  
-  👥 Community-Driven Development: Anse is an open-source project, inviting contributions from developers and enthusiasts. This collaborative approach fosters rapid innovation and improvement, driven by community feedback and participation.
-
-  
-  💬 Documentation and Support: Comprehensive documentation and a supportive community help users maximize their experience, providing resources and guidance for troubleshooting and advanced usage.
+  Anse é um aplicativo poderoso projetado para aprimorar as experiências do usuário, fornecendo acesso simplificado a vários modelos avançados de IA, como ChatGPT, DALL-E e Stable Diffusion. O aplicativo tem como objetivo atender a uma ampla gama de casos de uso, desde a geração de texto e conteúdo até a síntese de imagens, tornando-o adequado tanto para profissionais criativos, desenvolvedores e usuários casuais.
 
 
-  Anse stands out as a versatile tool that democratizes access to powerful AI capabilities. By merging various models into one cohesive application, it caters to a wide audience and encourages creative exploration. The commitment to user experience and community involvement makes Anse a valuable addition to the growing landscape of AI applications.
+  Principais recursos:
+
+
+  ✨ Interface unificada: Anse combina vários modelos de IA em uma única plataforma, permitindo que os usuários alternem perfeitamente entre eles para diferentes tarefas, sem a necessidade de vários aplicativos.
+
+
+  🎨 Versatilidade criativa: os usuários podem gerar texto de alta qualidade, criar visuais impressionantes e explorar arte generativa, permitindo diversas aplicações em áreas como marketing, design e narrativa.
+
+
+  👤 Design de fácil utilização: A Anse prioriza a facilidade de uso, apresentando uma interface intuitiva que simplifica as interações com sistemas complexos de IA, tornando-o acessível para quem não possui conhecimento técnico.
+
+
+  🔗 Capacidades de integração: O aplicativo foi projetado pensando nos desenvolvedores, oferecendo recursos de integração que permitem a incorporação de funcionalidades de IA em fluxos de trabalho e aplicativos existentes.
+
+
+  👥 Desenvolvimento orientado para a comunidade: Anse é um projeto de código aberto que convida contribuições de desenvolvedores e entusiastas. Esta abordagem colaborativa promove inovação e melhoria rápidas, impulsionadas pelo feedback e participação da comunidade.
+
+
+  💬 Documentação e suporte: documentação abrangente e uma comunidade de suporte ajudam os usuários a maximizar sua experiência, fornecendo recursos e orientação para solução de problemas e uso avançado.
+
+
+  Anse se destaca como uma ferramenta versátil que democratiza o acesso a poderosos recursos de IA. Ao mesclar vários modelos em um aplicativo coeso, atende a um público amplo e incentiva a exploração criativa. O compromisso com a experiência do usuário e o envolvimento da comunidade fazem da Anse uma adição valiosa ao cenário crescente de aplicações de IA.
 
 developer: Diu
 website: https://anse.app/
@@ -40,9 +40,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/anse-app/anse
 support: https://github.com/anse-app/anse/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-anse/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-anse/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-anse/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-anse/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-anse/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-anse/3.jpg
 releaseNotes: >-
   The latest updates to the application include the addition of chat type settings in the header and the introduction of the model gpt-3.5-turbo-16k-0613. The user interface was improved by removing the border between the button and textarea. Additionally, a bug fix was implemented to support Progressive Web App (PWA) functionality on Netlify. These enhancements collectively improve user experience and broaden model capabilities.
 dependencies:

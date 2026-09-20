@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-vocechat
 name: VoceChat
-tagline: A secure chat solution for privacy-focused communication
+tagline: Uma solução de chat segura para comunicação com foco na privacidade
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-vocechat/logo.png
 category: social
 version: "0.4.0"
 port: 3197
 description: >-
-  💬VoceChat is an open-source, self-hosted chat platform designed to offer a lightweight and efficient solution for real-time messaging. It aims to provide an easy-to-use alternative for individuals, small teams, and communities who want a private and secure communication space. Unlike mainstream messaging services, VoceChat allows users to host their own server, ensuring full control over their data and communications.
+  💬VoceChat é uma plataforma de bate-papo auto-hospedada de código aberto, projetada para oferecer uma solução leve e eficiente para mensagens em tempo real. O objetivo é fornecer uma alternativa fácil de usar para indivíduos, pequenas equipes e comunidades que desejam um espaço de comunicação privado e seguro. Ao contrário dos principais serviços de mensagens, o VoceChat permite aos usuários hospedar seu próprio servidor, garantindo controle total sobre seus dados e comunicações.
 
 
-  The platform supports essential messaging features such as direct messaging, group chats, and channels, all built with security and privacy in mind. VoceChat focuses on delivering a seamless user experience without compromising on performance, making it ideal for those who prefer decentralized services over centralized platforms.
+  A plataforma oferece suporte a recursos essenciais de mensagens, como mensagens diretas, bate-papos em grupo e canais, todos desenvolvidos com segurança e privacidade em mente. O VoceChat se concentra em oferecer uma experiência de usuário perfeita sem comprometer o desempenho, tornando-o ideal para quem prefere serviços descentralizados em vez de plataformas centralizadas.
 
 
-  With VoceChat, users can easily manage their own chat infrastructure, without relying on third-party servers or services. The official documentation provides comprehensive instructions on how to install, configure, and use the platform, making it accessible to both beginners and advanced users. Whether you're looking to build a private chat room for your team, or a secure space for a larger community, VoceChat is a flexible and customizable option.
+  Com o VoceChat, os usuários podem gerenciar facilmente sua própria infraestrutura de chat, sem depender de servidores ou serviços de terceiros. A documentação oficial fornece instruções completas sobre como instalar, configurar e usar a plataforma, tornando-a acessível tanto para iniciantes quanto para usuários avançados. Esteja você procurando construir uma sala de chat privada para sua equipe ou um espaço seguro para uma comunidade maior, o VoceChat é uma opção flexível e personalizável.
 
 
-  🌐 HTTPS Configuration: The browser version of VoceChat can operate over http, but the mobile app requires https. You can set up https using the Cloudflare Tunnel app available in the app store. Detailed instructions for configuring the tunnel can be found here: https://github.com/Radiokot/umbrel-cloudflared/wiki/How-to-set-up-Cloudflare-Tunnel-on-your-Umbrel
+  🌐 Configuração HTTPS: A versão do VoceChat para navegador pode operar em http, mas o aplicativo móvel requer https. Você pode configurar https usando o aplicativo Cloudflare Tunnel disponível na app store. Instruções detalhadas para configurar o túnel podem ser encontradas aqui: https://github.com/Radiokot/umbrel-cloudflared/wiki/How-to-set-up-Cloudflare-Tunnel-on-your-Umbrel
 developer: The Privoce Project
 website: https://voce.chat/
 submitter: Tascok
@@ -24,11 +24,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/Privoce/vocechat-server-rust
 support: https://github.com/Privoce/vocechat-server-rust/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-vocechat/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-vocechat/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-vocechat/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-vocechat/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-vocechat/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-vocechat/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-vocechat/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-vocechat/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-vocechat/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-vocechat/5.jpg
 releaseNotes: >-
   Enhanced performance for faster message delivery, reducing latency during peak usage.
 dependencies:

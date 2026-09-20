@@ -4,12 +4,12 @@ category: files & productivity
 name: Online Whiteboard
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wbo/logo.png
 version: "1.20.1"
-tagline: An online collaborative Whiteboard that is simple, free, easy to use and to deploy
+tagline: Um quadro branco colaborativo online simples, gratuito, fácil de usar e implantar
 description: >-
-  WBO is a collaborative whiteboard platform that enables real-time interaction between multiple users, making it perfect for creative brainstorming, project planning, teaching, and teamwork. It is browser-based and open-source, requiring no installations or accounts.
+  WBO é uma plataforma de quadro branco colaborativo que permite a interação em tempo real entre vários usuários, tornando-a perfeita para brainstorming criativo, planejamento de projetos, ensino e trabalho em equipe. É baseado em navegador e de código aberto, não exigindo instalações ou contas.
 
 
-  WBO's interface offers tools for drawing, writing, and annotating, with immediate live updates across all connected devices. You can create custom private boards with shareable URLs or join public ones for open collaboration. Its simplicity and flexibility make it a highly accessible tool for both casual and professional use, across various industries.
+  A interface do WBO oferece ferramentas para desenhar, escrever e fazer anotações, com atualizações imediatas ao vivo em todos os dispositivos conectados. Você pode criar painéis privados personalizados com URLs compartilháveis ​​ou ingressar em painéis públicos para colaboração aberta. Sua simplicidade e flexibilidade tornam-no uma ferramenta altamente acessível para uso casual e profissional, em diversos setores.
 
 developer: lovasoa
 website: https://wbo.ophir.dev/
@@ -18,9 +18,9 @@ repo: https://github.com/lovasoa/whitebophir
 support: https://github.com/lovasoa/whitebophir/issues
 port: 5111
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wbo/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wbo/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wbo/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wbo/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wbo/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wbo/3.jpg
 releaseNotes: >-
   A new configuration option, DEFAULT_BOARD, has been added. This allows administrators to define a default board that will automatically load when users visit the site. This feature is designed to streamline collaboration by directing users to a pre-set board without requiring manual selection, ensuring a consistent entry point for group activities. This change improves user experience and simplifies navigation to frequently used boards.
 

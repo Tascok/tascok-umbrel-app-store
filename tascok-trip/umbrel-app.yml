@@ -1,19 +1,19 @@
 manifestVersion: 1
 id: tascok-trip
 name: TRIP
-tagline: A minimalist map tracker and trip planner
+tagline: Um rastreador de mapas e planejador de viagens minimalista
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-trip/logo.png
 category: files & productivity
 version: "1.3.0"
 port: 8952
 description: >-
-  🗺️ TRIP is a minimalist and privacy-focused trip planner that helps you organize your travel ideas and points of interest on an interactive map. Designed for self-hosting, it allows you to manage your travel data without relying on third-party services or cloud storage. The application combines a clean visual interface with a structured planning tool that resembles a spreadsheet, making it easy to document and categorize each destination.
+  🗺️ TRIP é um planejador de viagens minimalista e focado na privacidade que ajuda você a organizar suas ideias de viagem e pontos de interesse em um mapa interativo. Projetado para auto-hospedagem, permite gerenciar seus dados de viagem sem depender de serviços de terceiros ou armazenamento em nuvem. O aplicativo combina uma interface visual limpa com uma ferramenta de planejamento estruturada que lembra uma planilha, facilitando a documentação e categorização de cada destino.
 
 
-  With TRIP, you can add detailed metadata to your points of interest such as whether a location is dog-friendly, how much it costs, or how long it takes to explore. The interface supports filtering and search functions so you can quickly navigate through your entries and refine your travel plans as needed. You can also import and export your data at any time, ensuring that your information remains portable and under your control.
+  Com o TRIP, você pode adicionar metadados detalhados aos seus pontos de interesse, como se um local aceita cães, quanto custa ou quanto tempo leva para ser explorado. A interface suporta funções de filtragem e pesquisa para que você possa navegar rapidamente pelas suas entradas e refinar seus planos de viagem conforme necessário. Você também pode importar e exportar seus dados a qualquer momento, garantindo que suas informações permaneçam portáteis e sob seu controle.
 
 
-  The platform places strong emphasis on privacy, offering a telemetry-free experience where nothing is tracked or shared. Everything runs locally, and the source code is fully open, allowing you to inspect, adapt, or contribute as you see fit. Whether you're planning a weekend getaway or a multi-country adventure, TRIP helps you stay organized while keeping your data safe and fully in your hands.
+  A plataforma dá grande ênfase à privacidade, oferecendo uma experiência livre de telemetria, onde nada é rastreado ou compartilhado. Tudo é executado localmente e o código-fonte é totalmente aberto, permitindo que você inspecione, adapte ou contribua conforme achar necessário. Esteja você planejando uma escapadela de fim de semana ou uma aventura em vários países, o TRIP ajuda você a se manter organizado enquanto mantém seus dados seguros e totalmente em suas mãos.
 developer: Kovacs
 website: https://itskovacs-trip.netlify.app/
 submitter: Tascok
@@ -21,10 +21,10 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/itskovacs/trip
 support: https://github.com/itskovacs/trip/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-trip/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-trip/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-trip/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-trip/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-trip/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-trip/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-trip/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-trip/4.jpg
 releaseNotes: >-
   Version 1.3.0 introduces the ability to display the route of a trip day when you click on that day.
 dependencies:

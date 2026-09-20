@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-aphrodite
 name: Aphrodite
-tagline: A dynamic badge generator for media posters
+tagline: Um gerador dinâmico de crachás para postadores de mídia
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-aphrodite/logo.png
 category: media
 version: "4.1.3"
 port: 8723
 description: >-
-  👸 Aphrodite is an application designed to enhance the visual presentation of movie and TV show posters by automatically adding informative badges. The main function of the app is to analyze each media file and generate badges that convey essential details about the content. These badges provide information such as video resolution, audio formats, ratings from popular platforms, and notable awards. By overlaying this information directly onto the posters, Aphrodite allows viewers to quickly understand the quality and characteristics of each title without the need to access additional metadata or menus.
+  👸 Afrodite é um aplicativo desenvolvido para aprimorar a apresentação visual de pôsteres de filmes e programas de TV, adicionando automaticamente emblemas informativos. A principal função do app é analisar cada arquivo de mídia e gerar crachás que transmitem detalhes essenciais sobre o conteúdo. Esses emblemas fornecem informações como resolução de vídeo, formatos de áudio, classificações de plataformas populares e prêmios notáveis. Ao sobrepor essas informações diretamente nos pôsteres, Afrodite permite que os espectadores entendam rapidamente a qualidade e as características de cada título, sem a necessidade de acessar metadados ou menus adicionais.
 
 
-  The application focuses on improving both clarity and aesthetics. The badges are designed to be visually appealing while still clearly communicating important information. This approach makes it easier for users to browse through their media collection and make decisions about what to watch based on quality indicators or other key attributes.
+  O aplicativo se concentra em melhorar a clareza e a estética. Os crachás são projetados para serem visualmente atraentes e, ao mesmo tempo, comunicarem claramente informações importantes. Essa abordagem torna mais fácil para os usuários navegar pela sua coleção de mídia e tomar decisões sobre o que assistir com base em indicadores de qualidade ou outros atributos-chave.
 
 
-  Beyond simply displaying technical details, Aphrodite helps create a more organized and informative media library. It emphasizes accessibility of information at a glance, allowing users to instantly recognize which content meets their preferences for resolution, audio quality, or critically acclaimed status. The result is a media collection that is not only easier to navigate but also more engaging to explore visually.
+  Além de simplesmente exibir detalhes técnicos, Afrodite ajuda a criar uma biblioteca de mídia mais organizada e informativa. Ele enfatiza a acessibilidade das informações rapidamente, permitindo que os usuários reconheçam instantaneamente qual conteúdo atende às suas preferências de resolução, qualidade de áudio ou status aclamado pela crítica. O resultado é uma coleção de mídia que não é apenas mais fácil de navegar, mas também mais envolvente para explorar visualmente.
 
 
-  Overall, Aphrodite transforms standard posters into rich, informative visual summaries, making the browsing experience more intuitive and enjoyable.
+  No geral, Afrodite transforma pôsteres padrão em resumos visuais ricos e informativos, tornando a experiência de navegação mais intuitiva e agradável.
 developer: Jack Kerouac
 website: https://github.com/jackkerouac/aphrodite
 submitter: Tascok
@@ -24,11 +24,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/jackkerouac/aphrodite
 support: https://github.com/jackkerouac/aphrodite/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-aphrodite/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-aphrodite/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-aphrodite/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-aphrodite/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-aphrodite/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-aphrodite/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-aphrodite/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-aphrodite/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-aphrodite/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-aphrodite/5.jpg
 releaseNotes: >-
   Aphrodite v4.1.3 fixes authentication issues with the TMDB awards system by updating API calls to use Bearer tokens instead of legacy URL parameters. This ensures that users with TMDB Read Access Tokens can properly retrieve award information for media posters.
 dependencies: []

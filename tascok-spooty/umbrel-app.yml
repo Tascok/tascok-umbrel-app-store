@@ -1,16 +1,16 @@
 manifestVersion: 1
 id: tascok-spooty
 name: Spooty
-tagline: A self-hosted Spotify downloader
+tagline: Um downloader Spotify auto-hospedado
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spooty/logo.png
 category: media
 version: "2.0.9"
 port: 3381
 description: >-
-  Spooty is a self-hosted application designed to download music using Spotify URLs. It functions by extracting metadata such as song titles, artists, and album information from Spotify and then locating the corresponding audio content on YouTube, where it downloads the audio files. The application is developed in TypeScript and is released under the MIT license, allowing users to freely modify and distribute it. Spooty also includes Docker support, enabling easy deployment across various environments. Additionally, it offers a feature to subscribe to playlists or artist pages, automatically downloading new releases as they become available. 
-  
-  
-  ⚠️ While the tool provides convenient access to music, users should be aware of the potential legal implications of downloading copyrighted content without proper authorization.
+  Spooty é um aplicativo auto-hospedado projetado para baixar músicas usando URLs do Spotify. Ele funciona extraindo metadados como títulos de músicas, artistas e informações de álbuns do Spotify e, em seguida, localizando o conteúdo de áudio correspondente no YouTube, onde baixa os arquivos de áudio. O aplicativo é desenvolvido em TypeScript e lançado sob a licença MIT, permitindo aos usuários modificá-lo e distribuí-lo livremente. Spooty também inclui suporte Docker, permitindo fácil implantação em vários ambientes. Além disso, oferece um recurso para assinar playlists ou páginas de artistas, baixando automaticamente novos lançamentos assim que estiverem disponíveis. 
+
+
+  ⚠️ Embora a ferramenta forneça acesso conveniente à música, os usuários devem estar cientes das possíveis implicações legais de baixar conteúdo protegido por direitos autorais sem a devida autorização.
 developer: Filip Gulán
 website: https://github.com/Raiper34/spooty
 submitter: Tascok
@@ -18,9 +18,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/Raiper34/spooty
 support: https://github.com/Raiper34/spooty/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spooty/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spooty/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spooty/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spooty/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spooty/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spooty/3.jpg
 releaseNotes: >-
   In Spooty version 2.0.9, the ytdl package was automatically upgraded, and the changelog was generated using auto-changelog.
 dependencies:

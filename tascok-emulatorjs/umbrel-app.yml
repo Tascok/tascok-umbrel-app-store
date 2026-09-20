@@ -1,24 +1,24 @@
 manifestVersion: 1
 id: tascok-emulatorjs
 name: EmulatorJS
-tagline: An immersive browser retro gaming experience
+tagline: Uma experiência imersiva de jogo retro no navegador
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-emulatorjs/logo.png
 category: gaming
 version: "1.9.2"
 port: 8662
 description: >-
-  🎮 EmulatorJS is a web-based software platform that allows users to play retro video games directly in their browser. It works by emulating classic gaming consoles using JavaScript, making it possible to run old-school games without the need for additional software or plugins. The emulator is designed to be lightweight and efficient, providing smooth gameplay for a wide range of classic systems.
+  🎮 EmulatorJS é uma plataforma de software baseada na web que permite aos usuários jogar videogames retrô diretamente em seus navegadores. Funciona emulando consoles de jogos clássicos usando JavaScript, tornando possível rodar jogos antigos sem a necessidade de software ou plug-ins adicionais. O emulador foi projetado para ser leve e eficiente, proporcionando uma jogabilidade suave para uma ampla variedade de sistemas clássicos.
 
 
-  It supports loading ROM files locally or from a server, enabling users to either play their own legally obtained game backups or host libraries of games for personal use. EmulatorJS includes features such as save states, controller support, and fullscreen mode, creating an experience that closely mimics the original hardware.
+  Ele suporta o carregamento de arquivos ROM localmente ou de um servidor, permitindo que os usuários joguem seus próprios backups de jogos obtidos legalmente ou hospedem bibliotecas de jogos para uso pessoal. O EmulatorJS inclui recursos como salvar estados, suporte a controlador e modo de tela cheia, criando uma experiência que imita de perto o hardware original.
 
 
-  Its versatility and ease of use make it an appealing choice for enthusiasts who want to relive the nostalgia of classic games or build their own web-based retro gaming platforms. As an open-source project, it is freely available and can be customized or self-hosted, offering full control over the look, feel, and functionality of the emulator environment.
+  Sua versatilidade e facilidade de uso tornam-no uma escolha atraente para entusiastas que desejam reviver a nostalgia dos jogos clássicos ou construir suas próprias plataformas de jogos retrô baseadas na web. Como um projeto de código aberto, ele está disponível gratuitamente e pode ser personalizado ou auto-hospedado, oferecendo controle total sobre a aparência e a funcionalidade do ambiente do emulador.
 
 
-  ⚠️ Please make sure to follow the installation instructions in the README here: 
-  
-  
+  ⚠️ Certifique-se de seguir as instruções de instalação no README aqui: 
+
+
   https://github.com/dennysubke/dennys-umbrel-app-store/blob/master/tascok-emulatorjs/README.md
 developer: EmulatorJS
 website: https://emulatorjs.org/
@@ -27,10 +27,10 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/linuxserver/docker-emulatorjs
 support: https://github.com/linuxserver/docker-emulatorjs/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-emulatorjs/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-emulatorjs/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-emulatorjs/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-emulatorjs/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-emulatorjs/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-emulatorjs/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-emulatorjs/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-emulatorjs/4.jpg
 releaseNotes: >-
   This update skips the IPFS configuration if the DISABLE_IPFS environment variable is set. It also adds many new logos and videos for platforms such as 3do, arcade, msx, nds, ngp, psx, saturn, and wonderswan.
 dependencies:

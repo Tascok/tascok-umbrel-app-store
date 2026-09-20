@@ -1,31 +1,31 @@
 manifestVersion: 1
 id: tascok-glance
 name: Glance
-tagline: A self-hosted dashboard that puts all your feeds in one place
+tagline: Um painel auto-hospedado que reúne todos os seus feeds em um só lugar
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-glance/logo.png
 category: files & productivity
 version: "0.7.13"
 port: 8907
 description: >-
-  Glance is a lightweight, self-hosted dashboard designed to help users keep track of their self-hosted services, applications, and resources in an intuitive and visually appealing way. Unlike traditional monitoring tools that can be complex and overloaded with data, Glance focuses on simplicity and accessibility, making it an excellent choice for both beginners and experienced self-hosting enthusiasts.
+  Glance é um painel leve e auto-hospedado projetado para ajudar os usuários a acompanhar seus serviços, aplicativos e recursos auto-hospedados de uma forma intuitiva e visualmente atraente. Ao contrário das ferramentas de monitoramento tradicionais que podem ser complexas e sobrecarregadas de dados, o Glance se concentra na simplicidade e na acessibilidade, tornando-o uma excelente escolha tanto para iniciantes quanto para entusiastas experientes de auto-hospedagem.
 
 
-  With its clean and minimalist interface, Glance allows users to see the status of their services at a glance, providing a quick overview without unnecessary distractions. Whether you are managing a few essential applications or a large number of self-hosted services, Glance ensures that all critical information is presented in an organized and easy-to-read format.
+  Com sua interface limpa e minimalista, o Glance permite que os usuários vejam rapidamente o status de seus serviços, fornecendo uma visão geral rápida sem distrações desnecessárias. Esteja você gerenciando alguns aplicativos essenciais ou um grande número de serviços auto-hospedados, o Glance garante que todas as informações críticas sejam apresentadas em um formato organizado e de fácil leitura.
 
 
-  One of the key advantages of Glance is its flexibility. It is highly configurable, allowing users to customize the displayed services and their associated information according to their needs. This makes it suitable for a variety of use cases, whether you are running a personal server, a home lab, or even a small business infrastructure.
+  Uma das principais vantagens do Glance é a sua flexibilidade. É altamente configurável, permitindo ao usuário personalizar os serviços exibidos e as informações associadas de acordo com suas necessidades. Isso o torna adequado para uma variedade de casos de uso, seja você executando um servidor pessoal, um laboratório doméstico ou até mesmo uma infraestrutura de pequena empresa.
 
 
-  Since Glance is entirely self-hosted, users retain full control over their data and privacy. There are no dependencies on external services or third-party integrations, ensuring that sensitive information remains secure. The open-source nature of the project also means that it is actively maintained by the community, with regular updates and improvements based on user feedback.
+  Como o Glance é totalmente auto-hospedado, os usuários mantêm controle total sobre seus dados e privacidade. Não há dependências de serviços externos ou integrações de terceiros, garantindo que informações confidenciais permaneçam seguras. A natureza de código aberto do projeto também significa que ele é mantido ativamente pela comunidade, com atualizações e melhorias regulares com base no feedback dos usuários.
 
 
-  Designed for efficiency, Glance is lightweight and does not require extensive system resources to run smoothly. It can be easily deployed using Docker or other containerization methods, making installation and maintenance straightforward.
+  Projetado para ser eficiente, o Glance é leve e não requer muitos recursos do sistema para funcionar sem problemas. Ele pode ser facilmente implantado usando Docker ou outros métodos de conteinerização, simplificando a instalação e a manutenção.
 
 
-  Overall, Glance is an excellent tool for anyone looking to simplify the management of self-hosted services. By providing an elegant and user-friendly dashboard, it helps users stay organized, monitor their applications effortlessly, and maintain full control over their self-hosted environment.
+  No geral, o Glance é uma excelente ferramenta para quem busca simplificar o gerenciamento de serviços auto-hospedados. Ao fornecer um painel elegante e fácil de usar, ele ajuda os usuários a se manterem organizados, monitorar seus aplicativos sem esforço e manter controle total sobre seu ambiente auto-hospedado.
 
 
-  ⚙️ You can find everything you need to configure the app in the official documentation: https://github.com/glanceapp/glance/blob/main/docs/configuration.md
+  ⚙️ Você encontra tudo o que precisa para configurar o aplicativo na documentação oficial: https://github.com/glanceapp/glance/blob/main/docs/configuration.md
 developer: Svilen Markov
 website: https://github.com/glanceapp
 submitter: Tascok
@@ -33,11 +33,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/glanceapp/glance
 support: https://github.com/glanceapp/glance/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-glance/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-glance/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-glance/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-glance/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-glance/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-glance/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-glance/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-glance/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-glance/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-glance/5.jpg
 releaseNotes: >-
   Version 0.7.13 introduces the new parseLocalTime function for custom APIs, which defaults to the local timezone when no timezone is specified. It also adds a target property to the search widget for opening results in new tabs. Bug fixes include improved temperature sensor detection in the server stats widget and proper URL escaping in the Reddit widget.
 dependencies:

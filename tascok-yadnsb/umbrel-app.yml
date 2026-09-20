@@ -1,32 +1,32 @@
 manifestVersion: 1
 id: tascok-yadnsb
 name: YaDNSb
-tagline: An advanced tool for testing DNS performance
+tagline: Uma ferramenta avançada para testar o desempenho do DNS
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-yadnsb/logo.png
 category: networking
 version: "0.0.6"
 port: 3933
 description: >-
-  YaDNSb, short for Yet another DNS Benchmark, is an open source tool designed to measure and compare the performance of various DNS servers and protocols. It was developed to provide users with an accessible and reliable way to analyze how different DNS configurations behave in real-world scenarios. By simulating typical DNS queries and tracking response times, YaDNSb enables users to assess the speed and efficiency of DNS servers using modern encrypted DNS protocols such as DNS over HTTPS, DNS over TLS, and DNS over QUIC, alongside traditional DNS over UDP or TCP.
+  YaDNSb, abreviação de Yet another DNS Benchmark, é uma ferramenta de código aberto projetada para medir e comparar o desempenho de vários servidores e protocolos DNS. Ele foi desenvolvido para fornecer aos usuários uma maneira acessível e confiável de analisar como diferentes configurações de DNS se comportam em cenários do mundo real. Ao simular consultas DNS típicas e rastrear tempos de resposta, o YaDNSb permite que os usuários avaliem a velocidade e a eficiência dos servidores DNS usando protocolos DNS criptografados modernos, como DNS sobre HTTPS, DNS sobre TLS e DNS sobre QUIC, juntamente com DNS tradicional sobre UDP ou TCP.
 
 
-  The project is aimed at developers, network administrators, and privacy-conscious users who want to evaluate the impact of different DNS protocols on performance. It is particularly useful for those who are exploring alternatives to their default DNS provider and wish to make informed decisions based on measurable data. The tool is available as a Docker container, making deployment and usage straightforward on a wide range of systems.
+  O projeto é direcionado a desenvolvedores, administradores de rede e usuários preocupados com a privacidade que desejam avaliar o impacto de diferentes protocolos DNS no desempenho. É particularmente útil para aqueles que estão explorando alternativas ao seu provedor DNS padrão e desejam tomar decisões informadas com base em dados mensuráveis. A ferramenta está disponível como um contêiner Docker, simplificando a implantação e o uso em uma ampla variedade de sistemas.
 
 
-  YaDNSb comes with a clean web interface where results are visualized in an intuitive way, allowing users to see which servers respond fastest under different conditions. A public instance is also available online for those who want to try the tool without hosting it themselves. The project is licensed under the GPL version 3 and is actively maintained, with contributions welcome from the open source community.
+  YaDNSb vem com uma interface web limpa onde os resultados são visualizados de forma intuitiva, permitindo aos usuários ver quais servidores respondem mais rapidamente em diferentes condições. Uma instância pública também está disponível online para quem quiser experimentar a ferramenta sem hospedá-la. O projeto é licenciado sob a GPL versão 3 e é mantido ativamente, com contribuições bem-vindas da comunidade de código aberto.
 
 
-  In a time where DNS encryption and privacy are becoming increasingly important, YaDNSb serves as a practical resource for understanding and optimizing DNS performance using both classic and modern protocols.
-developer: Renan Altendorf 
+  Numa época em que a criptografia e a privacidade do DNS estão se tornando cada vez mais importantes, o YaDNSb serve como um recurso prático para compreender e otimizar o desempenho do DNS usando protocolos clássicos e modernos.
+developer: Renan Altendorf
 website: https://github.com/altendorfme/yadnsb
 submitter: Tascok
 submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/altendorfme/yadnsb
 support: https://github.com/altendorfme/yadnsb/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-yadnsb/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-yadnsb/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-yadnsb/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-yadnsb/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-yadnsb/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-yadnsb/3.jpg
 releaseNotes: >-
   Release v0.0.6 introduces server name logging and updates the test domains using OpenRank's top list. Additionally, the tool now supports multiple languages.
 dependencies:

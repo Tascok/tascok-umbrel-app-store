@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-rustdesk-server
 name: RustDesk Server
-tagline: A fast and reliable solution for remote access
+tagline: Uma solução rápida e confiável para acesso remoto
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-rustdesk-server/logo.png
 category: networking
 version: "1.1.14"
 port: 21080
 description: >-
-  RustDesk is an open-source, self-hosted, and secure remote desktop solution that allows users to access and control computers remotely. It provides functionality similar to other remote desktop tools like TeamViewer and AnyDesk but with the key advantage of being open-source, meaning users can inspect the code, contribute to its development, and even self-host the software on their own servers. This allows for greater control over the remote access environment and better privacy, as all communication can be routed through a server that the user owns or operates, rather than relying on a third-party provider.
+  RustDesk é uma solução de desktop remoto de código aberto, auto-hospedada e segura que permite aos usuários acessar e controlar computadores remotamente. Ele fornece funcionalidade semelhante a outras ferramentas de desktop remoto, como TeamViewer e AnyDesk, mas com a principal vantagem de ser de código aberto, o que significa que os usuários podem inspecionar o código, contribuir para seu desenvolvimento e até mesmo hospedar o software em seus próprios servidores. Isto permite maior controle sobre o ambiente de acesso remoto e melhor privacidade, já que toda a comunicação pode ser roteada através de um servidor que o usuário possui ou opera, em vez de depender de um provedor terceirizado.
 
 
-  RustDesk is built using Rust, a systems programming language known for its performance, security, and memory safety. The software is lightweight and designed for ease of use, featuring an intuitive interface that makes remote desktop access accessible to both technical and non-technical users. It supports cross-platform functionality, meaning you can connect from Windows, macOS, Linux, iOS, and Android devices to control a remote machine. RustDesk offers essential features such as file transfer, clipboard synchronization, and screen sharing, ensuring a seamless experience for users needing remote assistance or working from different locations.
+  RustDesk é construído usando Rust, uma linguagem de programação de sistemas conhecida por seu desempenho, segurança e proteção de memória. O software é leve e projetado para ser fácil de usar, apresentando uma interface intuitiva que torna o acesso remoto à área de trabalho acessível para usuários técnicos e não técnicos. Ele oferece suporte à funcionalidade de plataforma cruzada, o que significa que você pode conectar-se a partir de dispositivos Windows, macOS, Linux, iOS e Android para controlar uma máquina remota. RustDesk oferece recursos essenciais como transferência de arquivos, sincronização da área de transferência e compartilhamento de tela, garantindo uma experiência perfeita para usuários que precisam de assistência remota ou trabalham em locais diferentes.
 
 
-  One of the major benefits of RustDesk is its ability to function without relying on centralized servers. While it does offer a cloud service for convenience, users can set up their own server infrastructure, enhancing the security and privacy of their remote sessions. With this self-hosted option, users can have complete control over the data transmitted between the devices, which is ideal for individuals or organizations that prioritize privacy and data protection.
+  Um dos principais benefícios do RustDesk é a capacidade de funcionar sem depender de servidores centralizados. Embora ofereça um serviço em nuvem por conveniência, os usuários podem configurar sua própria infraestrutura de servidor, aumentando a segurança e a privacidade de suas sessões remotas. Com esta opção auto-hospedada, os usuários podem ter controle total sobre os dados transmitidos entre os dispositivos, o que é ideal para indivíduos ou organizações que priorizam a privacidade e a proteção de dados.
 
 
-  Overall, RustDesk provides a powerful alternative to proprietary remote desktop software. Its open-source nature, self-hosting capability, and high performance make it an appealing choice for anyone seeking a reliable, secure, and customizable remote desktop solution.
+  No geral, RustDesk oferece uma alternativa poderosa ao software proprietário de desktop remoto. Sua natureza de código aberto, capacidade de auto-hospedagem e alto desempenho o tornam uma escolha atraente para quem procura uma solução de desktop remoto confiável, segura e personalizável.
 developer: RustDesk Team
 website: https://rustdesk.com
 submitter: Tascok
@@ -24,9 +24,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/rustdesk/rustdesk-server
 support: https://github.com/rustdesk/rustdesk/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-rustdesk-server/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-rustdesk-server/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-rustdesk-server/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-rustdesk-server/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-rustdesk-server/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-rustdesk-server/3.jpg
 defaultUsername: ""
 defaultPassword: ""
 dependencies: []

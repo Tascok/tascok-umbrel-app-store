@@ -1,24 +1,24 @@
 manifestVersion: 1
 id: tascok-seedtool
 name: Bitcoin Seed Tool
-tagline: A toolkit for generating, verifying, and recovering Bitcoin seeds
+tagline: Um kit de ferramentas para gerar, verificar e recuperar sementes Bitcoin
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-seedtool/logo.png
 category: bitcoin
 version: "2.3.0"
 port: 8147
 description: >-
-  🔏 Bitcoin Seed Tool is an educational tool for exploring how Bitcoin seed phrases are created, validated and used. It helps users experiment with entropy, BIP39 mnemonics, checksums, passphrases and other seed-related wallet concepts. The app is designed for learning, testing and understanding Bitcoin wallet generation in a clear and interactive way.
+  🔏 Bitcoin Seed Tool é uma ferramenta educacional para explorar como as frases iniciais do Bitcoin são criadas, validadas e usadas. Ele ajuda os usuários a experimentar entropia, mnemônicos BIP39, somas de verificação, senhas e outros conceitos de carteira relacionados a sementes. O aplicativo foi projetado para aprender, testar e compreender a geração de carteira Bitcoin de forma clara e interativa.
 
 
-  Features include:
+  Os recursos incluem:
 
-    - BIP39 seed phrase generation and validation
-    - Entropy experiments using different randomness sources
-    - Checksum inspection and verification
-    - Passphrase testing
-    - Seed and mnemonic conversion tools
-    - Address and wallet-related seed utilities
-    - Educational explanations for Bitcoin seed handling
+    - Geração e validação de frase inicial BIP39
+    - Experimentos de entropia usando diferentes fontes de aleatoriedade
+    - Inspeção e verificação de soma de verificação
+    - Teste de senha
+    - Ferramentas de conversão de sementes e mnemônicos
+    - Utilitários de sementes relacionados a endereços e carteiras
+    - Explicações educacionais para o manuseio de sementes Bitcoin
 developer: BitcoinQnA
 website: https://bitcoiner.guide/seed/
 submitter: Tascok
@@ -26,9 +26,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/BitcoinQnA/seedtool
 support: https://github.com/BitcoinQnA/seedtool/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-seedtool/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-seedtool/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-seedtool/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-seedtool/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-seedtool/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-seedtool/3.jpg
 releaseNotes: >-
   Version 2.3.0 significantly expands Seed Tool with new standalone Bitcoin utilities, including PSBT Inspector, Lightning Decoder, Miniscript Lab, BIP-353 Helper, Silent Payments, Shamir Secret Sharing, and BIP-329 Wallet Labels.
 

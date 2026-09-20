@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-donetick
 name: Donetick
-tagline: An intelligent way to organize tasks and chores
+tagline: Uma maneira inteligente de organizar tarefas e tarefas
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-donetick/logo.png
 category: files & productivity
 version: "0.1.64"
 port: 8121
 description: >-
-  Donetick is an open-source task management application designed to streamline the organization of household chores and other recurring responsibilities. It provides a flexible system for assigning tasks to multiple users, using various selection strategies such as random allocation or assignment based on the fewest completed tasks. Tasks can be scheduled with customizable recurrence patterns, making it easy to manage both daily routines and less frequent responsibilities.
+  Donetick é um aplicativo de gerenciamento de tarefas de código aberto projetado para agilizar a organização das tarefas domésticas e outras responsabilidades recorrentes. Ele fornece um sistema flexível para atribuir tarefas a vários usuários, usando várias estratégias de seleção, como alocação aleatória ou atribuição com base no menor número de tarefas concluídas. As tarefas podem ser agendadas com padrões de recorrência personalizáveis, facilitando o gerenciamento das rotinas diárias e das responsabilidades menos frequentes.
 
 
-  The platform offers real-time progress tracking and integrates with external notification services like Telegram and Pushover, ensuring that users stay informed about upcoming or overdue tasks. Additionally, Donetick supports API integrations, allowing tasks to be triggered automatically from other systems.
+  A plataforma oferece acompanhamento do progresso em tempo real e integra-se a serviços de notificação externos como Telegram e Pushover, garantindo que os usuários permaneçam informados sobre tarefas futuras ou atrasadas. Além disso, Donetick suporta integrações de API, permitindo que tarefas sejam acionadas automaticamente a partir de outros sistemas.
 
 
-  For authentication and user management, Donetick supports Single Sign-On (SSO) and OpenID Connect (OIDC), making it easy to integrate with existing identity providers. A unique feature of the platform is NFC tag support, enabling users to complete tasks simply by scanning a tag. Labels and task groups further enhance organization, allowing tasks to be categorized and shared efficiently among members.
+  Para autenticação e gerenciamento de usuários, Donetick suporta Single Sign-On (SSO) e OpenID Connect (OIDC), facilitando a integração com provedores de identidade existentes. Um recurso exclusivo da plataforma é o suporte a tags NFC, permitindo que os usuários concluam tarefas simplesmente digitalizando uma tag. Rótulos e grupos de tarefas melhoram ainda mais a organização, permitindo que as tarefas sejam categorizadas e compartilhadas de forma eficiente entre os membros.
 
 
-  With its combination of automation, smart scheduling, and collaborative task sharing, Donetick provides a powerful and user-friendly solution for managing household and group responsibilities.
+  Com sua combinação de automação, agendamento inteligente e compartilhamento colaborativo de tarefas, Donetick oferece uma solução poderosa e fácil de usar para gerenciar responsabilidades domésticas e de grupo.
 developer: Donetick
 website: https://donetick.com/
 submitter: Tascok
@@ -24,15 +24,15 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/donetick/donetick
 support: https://github.com/donetick/donetick/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-donetick/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-donetick/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-donetick/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-donetick/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-donetick/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-donetick/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-donetick/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-donetick/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-donetick/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-donetick/5.jpg
 releaseNotes: >-
   ChatGPT said:This release brings several highly requested features and important refinements. You can now create and manage sub-accounts, a long-awaited addition that makes team organization much easier. It also introduces unassigned tasks that anyone in a group can pick up, along with the ability to assign users directly within a sentence using the “@” symbol.
-  
-  
+
+
   On the improvement side, the update enhances frontend performance, resolves issues where task operations didn’t appear immediately, and fixes SSO login problems (currently supported only on the web version). A range of smaller frontend and UI tweaks further polish the overall experience.
 dependencies:
 path: ""

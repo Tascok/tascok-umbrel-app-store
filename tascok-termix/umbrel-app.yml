@@ -1,28 +1,28 @@
 manifestVersion: 1
 id: tascok-termix
 name: Termix
-tagline: A server management platform with SSH terminal
+tagline: Uma plataforma de gerenciamento de servidor com terminal SSH
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-termix/logo.png
 category: networking
 version: "1.7.3"
 port: 6444
 description: >-
-  💻 Termix is designed to simplify server administration by bringing powerful management tools into a single, unified interface. At its core, it provides direct access to SSH terminals inside the browser, eliminating the need for external clients. Sessions can be opened in tabs or arranged in split screens, allowing administrators to multitask and manage different systems simultaneously with ease. The terminal experience is responsive and reliable, ensuring that routine tasks such as configuration, updates, and troubleshooting can be performed quickly.
+  💻 O Termix foi projetado para simplificar a administração de servidores, trazendo ferramentas de gerenciamento poderosas em uma interface única e unificada. Basicamente, ele fornece acesso direto aos terminais SSH dentro do navegador, eliminando a necessidade de clientes externos. As sessões podem ser abertas em guias ou organizadas em telas divididas, permitindo que os administradores realizem multitarefas e gerenciem diferentes sistemas simultaneamente com facilidade. A experiência do terminal é responsiva e confiável, garantindo que tarefas rotineiras como configuração, atualizações e solução de problemas possam ser executadas rapidamente.
 
 
-  Beyond terminal access, Termix offers advanced tunnel management that enables secure and persistent connections between servers and services. These tunnels can be created, monitored, and automatically reconnected when necessary, giving administrators confidence that critical links remain available without constant manual intervention. This feature is particularly useful for maintaining stable communication in environments where connections may drop or need to be reestablished frequently.
+  Além do acesso ao terminal, o Termix oferece gerenciamento avançado de túneis que permite conexões seguras e persistentes entre servidores e serviços. Esses túneis podem ser criados, monitorados e reconectados automaticamente quando necessário, dando aos administradores a confiança de que links críticos permanecerão disponíveis sem intervenção manual constante. Este recurso é particularmente útil para manter a comunicação estável em ambientes onde as conexões podem cair ou precisam ser restabelecidas com frequência.
 
 
-  File management is another key aspect of Termix. Remote directories can be navigated as if they were local, with support for uploading new files, renaming or deleting existing ones, and editing content directly within the interface. The built-in editor provides syntax highlighting for various programming and configuration languages, making it easy to adjust configuration files or scripts without relying on separate tools. This seamless integration reduces friction and speeds up everyday maintenance tasks.
+  O gerenciamento de arquivos é outro aspecto importante do Termix. Os diretórios remotos podem ser navegados como se fossem locais, com suporte para upload de novos arquivos, renomeação ou exclusão de arquivos existentes e edição de conteúdo diretamente na interface. O editor integrado fornece destaque de sintaxe para várias linguagens de programação e configuração, facilitando o ajuste de arquivos ou scripts de configuração sem depender de ferramentas separadas. Esta integração perfeita reduz o atrito e acelera as tarefas diárias de manutenção.
 
 
-  To support the handling of multiple servers, Termix includes a host manager where connections can be organized and grouped. Tags and folders make it simple to categorize different environments, whether they are development, staging, or production systems. This structure ensures that administrators can quickly find and connect to the right host without sifting through long lists of saved credentials.
+  Para suportar o manuseio de múltiplos servidores, Termix inclui um gerenciador de host onde as conexões podem ser organizadas e agrupadas. Tags e pastas simplificam a categorização de diferentes ambientes, sejam eles sistemas de desenvolvimento, preparação ou produção. Essa estrutura garante que os administradores possam encontrar e conectar-se rapidamente ao host certo, sem precisar examinar longas listas de credenciais salvas.
 
 
-  Another significant capability of Termix is real-time monitoring. The application presents detailed statistics on system resources, including processor load, memory usage, and storage consumption. These insights help administrators understand the current state of their infrastructure and identify potential issues before they develop into critical problems.
+  Outra capacidade significativa do Termix é o monitoramento em tempo real. O aplicativo apresenta estatísticas detalhadas sobre os recursos do sistema, incluindo carga do processador, uso de memória e consumo de armazenamento. Esses insights ajudam os administradores a compreender o estado atual de sua infraestrutura e a identificar possíveis problemas antes que se transformem em problemas críticos.
 
 
-  All of these features are wrapped in a clean and modern interface that prioritizes usability. The design emphasizes clarity and efficiency, enabling both experienced administrators and newcomers to interact with complex systems in a straightforward way. Termix transforms server management from a fragmented set of tools into a cohesive, accessible, and user-friendly experience.
+  Todos esses recursos estão reunidos em uma interface limpa e moderna que prioriza a usabilidade. O design enfatiza a clareza e a eficiência, permitindo que administradores experientes e novatos interajam com sistemas complexos de maneira direta. Termix transforma o gerenciamento de servidores de um conjunto fragmentado de ferramentas em uma experiência coesa, acessível e fácil de usar.
 developer: LukeGus
 website: https://docs.termix.site/
 submitter: Tascok
@@ -30,15 +30,15 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/LukeGus/Termix
 support: https://github.com/LukeGus/Termix/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-termix/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-termix/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-termix/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-termix/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-termix/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-termix/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-termix/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-termix/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-termix/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-termix/5.jpg
 releaseNotes: >-
   Version 1.7.3 introduces a new terminal font, CaskaydiaCove Mono, and adds a German language option. 
-  
-  
+
+
   The update also ensures sidebar states persist across sessions. Additionally, it fixes issues with the Termix alert system and password reset credentials.
 dependencies: []
 path: ""

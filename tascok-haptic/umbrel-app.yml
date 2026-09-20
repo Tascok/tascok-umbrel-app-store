@@ -1,19 +1,19 @@
 manifestVersion: 1
 id: tascok-haptic
 name: Haptic
-tagline: A privacy first markdown app
+tagline: Um aplicativo de redução de privacidade em primeiro lugar
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-haptic/logo.png
 category: files & productivity
 version: "0.1.4"
 port: 3842
 description: >-
-  Haptic is a minimalist and privacy focused markdown note taking application designed to keep your data local and under your control. It offers a simple and clean interface that allows users to create and manage markdown notes without the complexity of plugins or overwhelming menus. Unlike many note taking apps that rely on cloud services, Haptic stores all notes directly on your device ensuring maximum privacy and security.
+  Haptic é um aplicativo de anotações de descontos minimalista e focado na privacidade, projetado para manter seus dados locais e sob seu controle. Ele oferece uma interface simples e limpa que permite aos usuários criar e gerenciar notas de descontos sem a complexidade de plug-ins ou menus complicados. Ao contrário de muitos aplicativos de anotações que dependem de serviços em nuvem, o Haptic armazena todas as anotações diretamente no seu dispositivo, garantindo o máximo de privacidade e segurança.
 
 
-  The project is actively evolving with plans to include features such as device synchronization, mobile support, collaborative editing, versioning, and support for advanced markdown elements like LaTeX. While it does not aim to replace more complex note taking systems, Haptic is perfect for those who want a straightforward and lightweight solution for managing markdown notes that emphasizes privacy and ease of use.
+  O projeto está evoluindo ativamente com planos para incluir recursos como sincronização de dispositivos, suporte móvel, edição colaborativa, controle de versão e suporte para elementos de redução avançados como LaTeX. Embora não tenha como objetivo substituir sistemas de anotações mais complexos, o Haptic é perfeito para quem deseja uma solução simples e leve para gerenciar notas de descontos que enfatize a privacidade e a facilidade de uso.
 
 
-  Overall it is a well designed tool for anyone looking for a clean and secure markdown experience without the distractions of large feature sets or cloud dependency.
+  No geral, é uma ferramenta bem projetada para quem procura uma experiência de redução limpa e segura, sem as distrações de grandes conjuntos de recursos ou dependência da nuvem.
 developer: Christo Todorov
 website: https://www.haptic.md/
 submitter: Tascok
@@ -21,10 +21,10 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/chroxify/haptic
 support: https://github.com/chroxify/haptic/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-haptic/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-haptic/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-haptic/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-haptic/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-haptic/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-haptic/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-haptic/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-haptic/4.jpg
 releaseNotes: >-
   Version 0.1.4 introduces a starting screen and a pre-built Docker image, with 24 commits added to the main branch since the previous release.
 dependencies:

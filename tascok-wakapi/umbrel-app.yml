@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-wakapi
 name: Wakapi
-tagline: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
+tagline: Um back-end minimalista e auto-hospedado compatível com WakaTime para codificação de estatísticas
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wakapi/logo.png
 category: developer tools
 version: "2.12.2"
 port: 3366
 description: >-
-  ⏱️ Wakapi is an open-source time tracking application designed to help individuals and teams effectively track and analyze the time spent on various tasks and projects. It is especially beneficial for developers, freelancers, and organizations looking to monitor their productivity and gain insights into how their time is being allocated.
+  ⏱️ Wakapi é um aplicativo de rastreamento de tempo de código aberto projetado para ajudar indivíduos e equipes a monitorar e analisar com eficácia o tempo gasto em várias tarefas e projetos. É especialmente benéfico para desenvolvedores, freelancers e organizações que buscam monitorar sua produtividade e obter insights sobre como seu tempo está sendo alocado.
 
 
-  Wakapi offers both manual time logging and the ability to integrate with popular platforms like GitHub, GitLab, and others, allowing for automatic time tracking based on activities such as code commits, issues, pull requests, and other project-related tasks. This integration streamlines the process, ensuring that time tracking is accurate and up-to-date without requiring constant manual input.
+  Wakapi oferece registro de tempo manual e capacidade de integração com plataformas populares como GitHub, GitLab e outras, permitindo rastreamento automático de tempo com base em atividades como commits de código, problemas, pull requests e outras tarefas relacionadas ao projeto. Essa integração agiliza o processo, garantindo que o controle do tempo seja preciso e atualizado, sem exigir entradas manuais constantes.
 
 
-  In addition to time tracking, Wakapi provides detailed reports and analytics that give users the ability to review their time usage, identify patterns, and make informed decisions to improve their workflow and productivity. The platform supports self-hosting, so users can install and run Wakapi on their own servers, giving them complete control over their data and the flexibility to tailor the platform to their specific needs.
+  Além do controle de tempo, o Wakapi fornece relatórios e análises detalhadas que dão aos usuários a capacidade de revisar o uso do tempo, identificar padrões e tomar decisões informadas para melhorar seu fluxo de trabalho e produtividade. A plataforma suporta auto-hospedagem, para que os usuários possam instalar e executar o Wakapi em seus próprios servidores, dando-lhes controle total sobre seus dados e flexibilidade para adaptar a plataforma às suas necessidades específicas.
 
 
-  Wakapi is an ideal solution for anyone seeking to optimize their time management, enhance their productivity, and better understand how their time is spent on different tasks or projects. Whether you're a developer working with code, a freelancer managing billable hours, or a team collaborating on tasks, Wakapi offers valuable insights that help users stay organized and efficient.
+  Wakapi é a solução ideal para quem busca otimizar a gestão do tempo, aumentar a produtividade e entender melhor como o tempo é gasto em diferentes tarefas ou projetos. Quer você seja um desenvolvedor trabalhando com código, um freelancer gerenciando horas faturáveis ​​ou uma equipe colaborando em tarefas, o Wakapi oferece insights valiosos que ajudam os usuários a se manterem organizados e eficientes.
 developer: Ferdinand Mütsch
 website: https://wakapi.dev/
 submitter: Tascok
@@ -24,9 +24,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/muety/wakapi
 support: https://github.com/muety/wakapi/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wakapi/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wakapi/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wakapi/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wakapi/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wakapi/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wakapi/3.jpg
 releaseNotes: >-
   Release 2.12.2 includes several bug fixes and improvements. It also introduces a schema change to the heartbeats table, which may cause extended downtime for large instances with over several hundred thousand records. Users with such instances are advised to manually run the suggested SQL command before upgrading to avoid prolonged downtime.
 dependencies:

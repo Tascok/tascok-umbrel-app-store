@@ -1,19 +1,19 @@
 manifestVersion: 1
 id: tascok-qrding
 name: QRding
-tagline: A simple self-hosted QR code generator
+tagline: Um gerador de código QR simples e auto-hospedado
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-qrding/logo.png
 category: files & productivity
 version: "0.1.2"
 port: 3329
 description: >-
-  QRding is a selfhosted application that allows users to generate QR codes through a clean and intuitive web interface. Developed by Rishikanth Chandrasekaran, the project focuses on providing a flexible and privacyfriendly way to create various types of QR codes without relying on thirdparty services. QRding supports different templates such as WiFi credentials, vCard contact information, calendar events, plain text, and URLs. Users can customize the appearance of their codes by adjusting size and colors to fit their needs.
+  QRding é um aplicativo auto-hospedado que permite aos usuários gerar códigos QR por meio de uma interface web limpa e intuitiva. Desenvolvido por Rishikanth Chandrasekaran, o projeto se concentra em fornecer uma maneira flexível e amigável de criar vários tipos de códigos QR sem depender de serviços de terceiros. QRding oferece suporte a diferentes modelos, como credenciais WiFi, informações de contato vCard, eventos de calendário, texto simples e URLs. Os usuários podem personalizar a aparência de seus códigos ajustando o tamanho e as cores para atender às suas necessidades.
 
 
-  The application is designed with future extensibility in mind. Planned features include persistent storage for generated codes, webhook support, and integrations with popular platforms like Home Assistant and Discord. These integrations aim to turn QRding into more than just a static generator by enabling use cases such as automations, event reminders, and even smart home triggers. The developer also engages actively with the community and has already implemented requested features such as the ability to add text labels beneath QR codes.
+  O aplicativo foi projetado tendo em mente a extensibilidade futura. Os recursos planejados incluem armazenamento persistente para códigos gerados, suporte para webhook e integrações com plataformas populares como Home Assistant e Discord. Essas integrações visam transformar o QRding em mais do que apenas um gerador estático, permitindo casos de uso como automações, lembretes de eventos e até mesmo gatilhos domésticos inteligentes. O desenvolvedor também se envolve ativamente com a comunidade e já implementou recursos solicitados, como a capacidade de adicionar rótulos de texto abaixo dos códigos QR.
 
 
-  QRding is an ideal solution for users who want a locally hosted QR code generator that respects their privacy and allows for creative use cases. Whether it is to share WiFi credentials with guests, distribute digital business cards, or automate everyday tasks, QRding provides a lightweight and powerful tool that is actively maintained and continually evolving.
+  QRding é uma solução ideal para usuários que desejam um gerador de código QR hospedado localmente que respeite sua privacidade e permita casos de uso criativos. Seja para compartilhar credenciais WiFi com convidados, distribuir cartões de visita digitais ou automatizar tarefas diárias, o QRding fornece uma ferramenta leve e poderosa que é mantida ativamente e em constante evolução.
 developer: Rishikanth Chandrasekaran
 website: https://qrding.app/
 submitter: Tascok
@@ -21,10 +21,10 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/rishikanthc/qrding
 support: https://github.com/rishikanthc/qrding/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-qrding/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-qrding/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-qrding/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-qrding/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-qrding/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-qrding/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-qrding/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-qrding/4.jpg
 releaseNotes: >-
   Version 0.1.2 of QRding introduces the ability to set the error correction level and adds support for embedding a logo into the QR code. These features improve both the durability and the visual personalization of generated codes.
 dependencies:

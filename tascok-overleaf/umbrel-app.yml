@@ -1,28 +1,28 @@
 manifestVersion: 1
 id: tascok-overleaf
 name: Overleaf
-tagline: An efficient solution for writing, formatting, and collaborating on LaTeX documents
+tagline: Uma solução eficiente para escrever, formatar e colaborar em documentos LaTeX
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-overleaf/logo.png
 category: files & productivity
 version: "4.2.8"
 port: 8063
 description: >-
-  Overleaf is a web-based platform that provides a user-friendly environment for creating and editing LaTeX documents. LaTeX is a widely used typesetting system, particularly in academia and technical fields, for creating well-formatted, professional documents such as research papers, dissertations, technical reports, and academic articles.
+  Overleaf é uma plataforma baseada na web que fornece um ambiente amigável para criação e edição de documentos LaTeX. LaTeX é um sistema de composição amplamente utilizado, especialmente em áreas acadêmicas e técnicas, para criar documentos profissionais bem formatados, como artigos de pesquisa, dissertações, relatórios técnicos e artigos acadêmicos.
 
 
-  The platform allows users to write and edit LaTeX documents directly in their browser without the need to install LaTeX locally. Overleaf handles the compilation of LaTeX code on its own servers, reducing the workload for users and providing quick results. This is especially beneficial for beginners, as they don’t have to deal with the often complex setup and configuration of LaTeX on their personal machines.
+  A plataforma permite aos usuários escrever e editar documentos LaTeX diretamente em seus navegadores, sem a necessidade de instalar o LaTeX localmente. Overleaf cuida da compilação do código LaTeX em seus próprios servidores, reduzindo a carga de trabalho dos usuários e fornecendo resultados rápidos. Isso é especialmente benéfico para iniciantes, pois eles não precisam lidar com a instalação e configuração muitas vezes complexas do LaTeX em suas máquinas pessoais.
 
 
-  One standout feature of Overleaf is its real-time collaboration functionality. Teams, research groups, or classes can work on a document simultaneously, with all changes displayed instantly. This feature is particularly useful for academic projects that involve multiple people contributing to a single document. Overleaf also offers complete version control, allowing users to access earlier versions of a document and track changes made by collaborators.
+  Um recurso de destaque do Overleaf é sua funcionalidade de colaboração em tempo real. Equipes, grupos de pesquisa ou turmas podem trabalhar em um documento simultaneamente, com todas as alterações exibidas instantaneamente. Este recurso é particularmente útil para projetos acadêmicos que envolvem múltiplas pessoas contribuindo para um único documento. Overleaf também oferece controle completo de versão, permitindo que os usuários acessem versões anteriores de um documento e rastreiem alterações feitas por colaboradores.
 
 
-  Overleaf also supports integration with external platforms like GitHub, Dropbox, and Zotero, making it easier to manage references and collaborate. It provides templates for various document types, from research articles to presentations and resumes, making it easy for users to get started with specific formats. The platform also offers a wide range of LaTeX packages and features, allowing users to incorporate mathematical formulas, complex tables, and figures with ease.
+  Overleaf também oferece suporte à integração com plataformas externas como GitHub, Dropbox e Zotero, facilitando o gerenciamento de referências e a colaboração. Ele fornece modelos para vários tipos de documentos, desde artigos de pesquisa até apresentações e currículos, facilitando aos usuários a introdução a formatos específicos. A plataforma também oferece uma ampla gama de pacotes e recursos LaTeX, permitindo aos usuários incorporar fórmulas matemáticas, tabelas complexas e figuras com facilidade.
 
 
-  Additionally, users can export their documents in different formats, including PDF, HTML, and Word. Overleaf includes extensive documentation and tutorials to help both beginners and advanced users fully utilize LaTeX's capabilities. With its combination of ease of use, collaboration features, and powerful functionality, Overleaf has become one of the most popular platforms for LaTeX users worldwide.
+  Além disso, os usuários podem exportar seus documentos em diferentes formatos, incluindo PDF, HTML e Word. Overleaf inclui extensa documentação e tutoriais para ajudar usuários iniciantes e avançados a utilizar plenamente os recursos do LaTeX. Com sua combinação de facilidade de uso, recursos de colaboração e funcionalidades poderosas, o Overleaf se tornou uma das plataformas mais populares para usuários de LaTeX em todo o mundo.
 
- 
-  🔑 Once the Overleaf instance is running, visit  "umbrel.local:8063/launchpad" to set up your first admin user.
+
+  🔑 Assim que a instância Overleaf estiver em execução, visite "umbrel.local:8063/launchpad" para configurar seu primeiro usuário administrador.
 developer: Overleaf Ltd.
 website: https://overleaf.com/
 submitter: Tascok
@@ -30,19 +30,19 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/overleaf/overleaf
 support: https://github.com/overleaf/overleaf/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-overleaf/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-overleaf/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-overleaf/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-overleaf/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-overleaf/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-overleaf/3.jpg
 releaseNotes: >-
   ℹ️ Overleaf versions beyond 4.2.8 require MongoDB releases that depend on AVX/AVX2 CPU support. Systems without AVX capability cannot run these newer MongoDB versions, making Overleaf 4.2.3 the latest release that remains fully compatible. This hardware limitation prevents updating to more recent Overleaf versions on non-AVX systems.
-  
-  
+
+
   This update introduces several improvements to the Visual Editor, including easier table editing, direct image insertion, symbol previews, and enhanced chemical formula rendering. 
-  
-  
+
+
   XeLaTeX is now included by default for non-sandboxed compiles, and the legacy source editor has been removed. 
-  
-  
+
+
   Additional updates include a configurable session length, an upgrade to Node v18.18.2, and restored public access to the SAML metadata endpoint.
 dependencies:
 path: ""

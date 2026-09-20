@@ -1,16 +1,16 @@
 manifestVersion: 1
 id: tascok-atomify
 name: Atomify
-tagline: A customizable ambient atmosphere creator
+tagline: Um criador de atmosfera ambiente personalizável
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-atomify/logo.png
 category: media
 version: "0.0.1"
 port: 3821
 description: >-
-  🌌 Atmoify is a web-based ambient sound generator designed to help you create a personal atmosphere for focus, relaxation, or sleep. It offers a clean and intuitive interface where users can blend various audio sources into a seamless sound experience. One of its core features is the ability to play YouTube videos in audio-only mode, allowing for an endless selection of background music, nature sounds, or white noise without the distraction of visuals. In addition to YouTube integration, Atmoify includes a collection of built-in ambient effects such as rain, wind, fireplace, or ocean waves, which can be layered and individually adjusted in volume.
+  🌌 Atmoify é um gerador de som ambiente baseado na web projetado para ajudá-lo a criar uma atmosfera pessoal para concentração, relaxamento ou sono. Ele oferece uma interface limpa e intuitiva onde os usuários podem combinar várias fontes de áudio em uma experiência sonora perfeita. Um de seus principais recursos é a capacidade de reproduzir vídeos do YouTube no modo somente áudio, permitindo uma seleção infinita de música de fundo, sons da natureza ou ruído branco sem a distração visual. Além da integração com o YouTube, o Atmoify inclui uma coleção de efeitos ambientais integrados, como chuva, vento, lareira ou ondas do mar, que podem ser dispostos em camadas e ajustados individualmente em volume.
 
 
-  The application lets you create and save custom sound profiles, making it easy to return to your preferred soundscape anytime. A built-in timer allows you to set a duration for playback, which is especially useful for work sessions, meditation, or falling asleep. With its focus on simplicity and mood-enhancing audio, Atmoify offers a peaceful, distraction-free space tailored to your needs.
+  O aplicativo permite criar e salvar perfis sonoros personalizados, facilitando o retorno à sua paisagem sonora preferida a qualquer momento. Um cronômetro integrado permite definir uma duração para a reprodução, o que é especialmente útil para sessões de trabalho, meditação ou adormecer. Com foco na simplicidade e no áudio que melhora o humor, o Atmoify oferece um espaço tranquilo e sem distrações, adaptado às suas necessidades.
 developer: Alex McCormick
 website: https://atmoify.com/
 submitter: Tascok
@@ -18,10 +18,10 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/bluegoosemedia/atmoify
 support: https://github.com/bluegoosemedia/atmoify/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-atomify/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-atomify/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-atomify/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-atomify/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-atomify/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-atomify/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-atomify/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-atomify/4.jpg
 releaseNotes: >-
   Atmoify does not use versioning at this time. There are no official release notes available. Updates may be applied without changelogs or version tags.
 dependencies:

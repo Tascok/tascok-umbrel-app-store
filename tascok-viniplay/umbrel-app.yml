@@ -1,19 +1,19 @@
 manifestVersion: 1
 id: tascok-viniplay
 name: ViniPlay
-tagline: A powerful IPTV player
+tagline: Um poderoso reprodutor de IPTV
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-viniplay/logo.png
 category: files & productivity
 version: "0.10.1"
 port: 8998
 description: >-
-  📺 ViniPlay is an IPTV streaming application that brings television channels, electronic program data, and video on demand content together in a clean and intuitive interface. It reads M3U playlists and EPG sources and transforms them into a structured viewing experience with categories, channel details, and program information. The app allows users to browse live channels, check what is currently playing, and explore upcoming schedules through a built in guide. It supports playback of different stream formats and can transcode media to ensure smooth viewing on various devices.
+  📺 ViniPlay é um aplicativo de streaming de IPTV que reúne canais de televisão, dados de programas eletrônicos e conteúdo de vídeo sob demanda em uma interface limpa e intuitiva. Ele lê listas de reprodução M3U e fontes EPG e as transforma em uma experiência de visualização estruturada com categorias, detalhes do canal e informações do programa. O aplicativo permite que os usuários naveguem pelos canais ao vivo, verifiquem o que está sendo reproduzido no momento e explorem as próximas programações por meio de um guia integrado. Ele suporta a reprodução de diferentes formatos de stream e pode transcodificar mídia para garantir uma visualização suave em vários dispositivos.
 
 
-  ViniPlay also offers the ability to create user accounts and manage individual preferences such as favorites or viewing history. It includes a search feature that helps users quickly find channels or shows within large playlists. The player interface focuses on simplicity and clarity, making it easy to switch channels or adjust playback settings while watching.
+  ViniPlay também oferece a capacidade de criar contas de usuário e gerenciar preferências individuais, como favoritos ou histórico de visualização. Inclui um recurso de pesquisa que ajuda os usuários a encontrar rapidamente canais ou programas em grandes listas de reprodução. A interface do player concentra-se na simplicidade e clareza, facilitando a troca de canais ou o ajuste das configurações de reprodução enquanto assiste.
 
 
-  For viewers who want more control, the app provides tools for organizing playlists, grouping channels, and customizing the structure of their content. It can also handle video on demand sources, presenting films and series with metadata when available. Overall, ViniPlay turns raw IPTV lists into a polished and enjoyable television experience that feels cohesive and accessible.
+  Para espectadores que desejam mais controle, o aplicativo oferece ferramentas para organizar playlists, agrupar canais e personalizar a estrutura de seu conteúdo. Também pode lidar com fontes de vídeo sob demanda, apresentando filmes e séries com metadados quando disponíveis. No geral, o ViniPlay transforma listas brutas de IPTV em uma experiência de televisão refinada e agradável que parece coesa e acessível.
 developer: Andrea Ardovini
 website: https://github.com/ardoviniandrea/ViniPlay
 submitter: Tascok
@@ -21,12 +21,12 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/ardoviniandrea/ViniPlay
 support: https://github.com/ardoviniandrea/ViniPlay/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-viniplay/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-viniplay/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-viniplay/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-viniplay/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-viniplay/5.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-viniplay/6.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-viniplay/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-viniplay/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-viniplay/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-viniplay/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-viniplay/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-viniplay/6.jpg
 releaseNotes: >-
   This version includes a small adjustment that improves how settings are transferred between different versions of the app and ensures smoother upgrades.
 dependencies:

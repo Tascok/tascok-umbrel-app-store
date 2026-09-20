@@ -2,18 +2,18 @@ manifestVersion: 1
 id: tascok-ente-auth
 category: files & productivity
 name: Ente Auth
-tagline: An 2FA authenticator with end-to-end encrypted backups
+tagline: Um autenticador 2FA com backups criptografados de ponta a ponta
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ente-auth/logo.png
 version: "4.3.5"
 port: 43000
 description: >-
-  🔐 Ente Auth is the authentication service that powers Ente, a privacy-focused photo backup and synchronization platform. It handles user management, including registration, login, password recovery, and token generation, serving as the gateway through which users access their encrypted data. The service ensures secure authentication processes by implementing robust encryption mechanisms, thereby protecting user credentials and maintaining the integrity of the login process. Designed with privacy as a core principle, Ente Auth operates in a way that even Ente itself cannot access user data, as all content is encrypted end-to-end. This architecture ensures that while the service manages authentication and access control, it never compromises the confidentiality of the stored media. By maintaining strict security protocols and encryption standards, Ente Auth provides a seamless yet secure user experience that aligns with the broader mission of Ente to prioritize data privacy and user control.
+  🔐 Ente Auth é o serviço de autenticação que alimenta o Ente, uma plataforma de backup e sincronização de fotos com foco na privacidade. Ele cuida do gerenciamento de usuários, incluindo registro, login, recuperação de senha e geração de token, servindo como gateway através do qual os usuários acessam seus dados criptografados. O serviço garante processos de autenticação seguros através da implementação de mecanismos robustos de criptografia, protegendo assim as credenciais do usuário e mantendo a integridade do processo de login. Projetado tendo a privacidade como princípio fundamental, o Ente Auth opera de uma forma que nem mesmo o próprio Ente pode acessar os dados do usuário, pois todo o conteúdo é criptografado de ponta a ponta. Esta arquitetura garante que, embora o serviço gerencie a autenticação e o controle de acesso, nunca comprometa a confidencialidade da mídia armazenada. Ao manter protocolos de segurança e padrões de criptografia rígidos, o Ente Auth oferece uma experiência de usuário contínua, porém segura, que se alinha com a missão mais ampla do Ente de priorizar a privacidade dos dados e o controle do usuário.
 
 
-  ⚠️ Note: You can re-use your existing "Ente Photos" account with "Ente Auth"
+  ⚠️ Observação: você pode reutilizar sua conta "Ente Photos" existente com "Ente Auth"
 
 
-  ⚠️ Make sure to go through setup steps after installing it:
+  ⚠️ Siga as etapas de configuração após instalá-lo:
 
 
   https://github.com/Tascok/tascok-umbrel-app-store/blob/master/tascok-ente-photos/README.md
@@ -25,14 +25,14 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/ente-io/ente
 support: https://www.reddit.com/r/enteio/?rdt=39096
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ente-auth/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ente-auth/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ente-auth/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ente-auth/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ente-auth/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ente-auth/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ente-auth/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ente-auth/4.jpg
 releaseNotes: >-
   Auth v4.3.5 introduces several enhancements and fixes, including updates to custom icons for various services such as AJ Bell, Ankama, Seafile, and LinkedIn. The release also addresses multiple bug fixes, such as improving the 2FA recovery flow, resolving issues with the logout button on the lock screen, and refining the change-password process after login. Additionally, it includes new translations, support for advanced TOTP options, and minor UI adjustments, ensuring a more polished and user-friendly experience.
 dependencies:
-  - tascok-ente-photos
+- tascok-ente-photos
 path: ""
 defaultUsername: ""
 defaultPassword: ""

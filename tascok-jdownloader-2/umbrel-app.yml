@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-jdownloader-2
 name: JDownloader 2
-tagline: An advanced download manager for seamless file handling
+tagline: Um gerenciador de download avançado para manipulação perfeita de arquivos
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jdownloader-2/logo.png
 category: files & productivity
 version: "24.11.1"
 port: 5800
 description: >-
-  🌍⬇️ JDownloader is a free, open-source, and cross-platform download manager designed to make downloading files from the internet faster, easier, and more convenient. It is particularly well-suited for handling downloads from a variety of file hosting services, offering users an all-in-one solution for managing multiple files and large datasets. With its powerful automation features, JDownloader simplifies the entire download process by automatically detecting links from web pages, queuing them, and handling tasks such as captcha-solving or waiting times for file hosting sites.
+  🌍⬇️ JDownloader é um gerenciador de download gratuito, de código aberto e multiplataforma, projetado para tornar o download de arquivos da Internet mais rápido, fácil e conveniente. É particularmente adequado para lidar com downloads de uma variedade de serviços de hospedagem de arquivos, oferecendo aos usuários uma solução completa para gerenciar vários arquivos e grandes conjuntos de dados. Com seus poderosos recursos de automação, o JDownloader simplifica todo o processo de download, detectando automaticamente links de páginas da web, enfileirando-os e lidando com tarefas como resolução de captcha ou tempos de espera para sites de hospedagem de arquivos.
 
 
-  One of JDownloader's most notable strengths is its support for simultaneous downloads, which allows users to download multiple files at once without interruptions, significantly reducing the time spent waiting. Even interrupted downloads can be resumed seamlessly, ensuring that no progress is lost. For users with premium accounts on hosting services like Mega, RapidGator, or Uploaded, JDownloader integrates seamlessly, enabling faster and unrestricted downloads.
+  Um dos pontos fortes mais notáveis ​​do JDownloader é o suporte para downloads simultâneos, que permite aos usuários baixar vários arquivos de uma vez sem interrupções, reduzindo significativamente o tempo de espera. Mesmo downloads interrompidos podem ser retomados sem problemas, garantindo que nenhum progresso seja perdido. Para usuários com contas premium em serviços de hospedagem como Mega, RapidGator ou Uploaded, o JDownloader integra-se perfeitamente, permitindo downloads mais rápidos e irrestritos.
 
 
-  Beyond basic downloads, JDownloader also includes advanced features like automatic extraction of compressed files, making it easier to access downloaded content without manual intervention. Its batch download functionality allows users to manage large sets of links efficiently, which is especially useful for those who frequently download files from complex or content-heavy websites.
+  Além dos downloads básicos, o JDownloader também inclui recursos avançados como extração automática de arquivos compactados, facilitando o acesso ao conteúdo baixado sem intervenção manual. Sua funcionalidade de download em lote permite aos usuários gerenciar grandes conjuntos de links com eficiência, o que é especialmente útil para aqueles que baixam arquivos com frequência de sites complexos ou com muito conteúdo.
 
 
-  Available for Windows, macOS, and Linux, JDownloader relies on Java to operate and provides an intuitive interface, catering to both casual users and power users who need a reliable download manager for frequent use. Whether for personal use, professional projects, or managing premium file-hosting accounts, JDownloader stands out as a versatile and powerful tool for simplifying the often tedious task of downloading files from the web.
+  Disponível para Windows, macOS e Linux, o JDownloader depende de Java para operar e fornece uma interface intuitiva, atendendo tanto usuários casuais quanto usuários avançados que precisam de um gerenciador de download confiável para uso frequente. Seja para uso pessoal, projetos profissionais ou gerenciamento de contas premium de hospedagem de arquivos, JDownloader se destaca como uma ferramenta versátil e poderosa para simplificar a tarefa muitas vezes tediosa de baixar arquivos da web.
 developer: AppWork GmbH
 website: https://sabre.io/baikal/
 submitter: Tascok
@@ -24,9 +24,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/johna23-lab/jdownloader2
 support: https://github.com/johna23-lab/jdownloader2/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jdownloader-2/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jdownloader-2/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jdownloader-2/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jdownloader-2/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jdownloader-2/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jdownloader-2/3.jpg
 releaseNotes: >-
   Version 24.11.1 includes improvements to reduce the risk of installation corruption during an update. This update enhances the stability and reliability of the software.
 dependencies:

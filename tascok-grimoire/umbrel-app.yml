@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-grimoire
 name: Grimoire
-tagline: A bookmark manager for the wizards
+tagline: Um gerenciador de favoritos para os assistentes
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grimoire/logo.png
 category: files & productivity
 version: "0.5.0"
 port: 5173
 description: >-
-  🧙‍♂️ Grimoire is a feature-rich, open-source bookmark manager that allows users to store and organize their web bookmarks in a way that is both visually engaging and highly functional. Designed to streamline the bookmarking experience, Grimoire offers an automatic metadata extraction system. When users add URLs, the platform automatically pulls relevant data, such as the page title, description, main images, and sometimes even the page content. This feature significantly reduces the manual effort required to categorize and annotate bookmarks.
+  🧙‍♂️ Grimoire é um gerenciador de favoritos de código aberto e rico em recursos que permite aos usuários armazenar e organizar seus favoritos da web de uma forma que seja visualmente atraente e altamente funcional. Projetado para agilizar a experiência de bookmarking, Grimoire oferece um sistema automático de extração de metadados. Quando os usuários adicionam URLs, a plataforma extrai automaticamente dados relevantes, como título da página, descrição, imagens principais e, às vezes, até mesmo o conteúdo da página. Este recurso reduz significativamente o esforço manual necessário para categorizar e anotar marcadores.
 
 
-  In addition to this, Grimoire lets users organize their bookmarks with tags and categories, providing a simple and efficient way to sort links based on personal preferences. The built-in full-text search functionality makes it easy to find specific bookmarks by scanning titles, descriptions, and other stored metadata.
+  Além disso, Grimoire permite aos usuários organizar seus favoritos com tags e categorias, fornecendo uma maneira simples e eficiente de classificar links com base em preferências pessoais. A funcionalidade integrada de pesquisa de texto completo facilita a localização de marcadores específicos, verificando títulos, descrições e outros metadados armazenados.
 
 
-  For those who want to add personal context or reminders, Grimoire allows users to attach notes to their bookmarks. This can be especially useful for keeping track of thoughts or relevant information that may not be immediately obvious from the webpage itself.
+  Para aqueles que desejam adicionar contexto pessoal ou lembretes, o Grimoire permite aos usuários anexar notas aos seus favoritos. Isso pode ser especialmente útil para acompanhar pensamentos ou informações relevantes que podem não ser imediatamente óbvias na própria página da web.
 
 
-  Grimoire supports user accounts, so each user has their own unique space to store and organize their bookmarks. This system is particularly useful for individuals who manage a large number of bookmarks and want to maintain a personalized and private collection. Moreover, the platform is optimized with a dark mode feature, which enhances user comfort when browsing in low-light environments.
+  Grimoire oferece suporte a contas de usuário, para que cada usuário tenha seu próprio espaço exclusivo para armazenar e organizar seus favoritos. Este sistema é particularmente útil para pessoas que gerem um grande número de marcadores e pretendem manter uma coleção personalizada e privada. Além disso, a plataforma é otimizada com recurso de modo escuro, que aumenta o conforto do usuário ao navegar em ambientes com pouca luz.
 developer: Robert Goniszewski
 website: https://grimoire.pro/
 submitter: Tascok
@@ -24,10 +24,10 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/goniszewski/grimoire
 support: https://github.com/goniszewski/grimoire/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grimoire/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grimoire/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grimoire/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grimoire/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grimoire/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grimoire/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grimoire/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grimoire/4.jpg
 releaseNotes: >-
   Release 0.5.0 introduces the ability to import bookmarks.
 dependencies:

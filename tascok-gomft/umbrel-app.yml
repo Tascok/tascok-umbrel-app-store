@@ -1,25 +1,25 @@
 manifestVersion: 1
 id: tascok-gomft
 name: GoMFT
-tagline: An innovative web-based file transfer application
+tagline: Um aplicativo inovador de transferência de arquivos baseado na web
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gomft/logo.png
 category: files & productivity
 version: "0.2.11"
 port: 8979
 description: >-
-  GoMFT, short for "Go Managed File Transfer," is a web-based application designed to simplify and manage file transfers across a wide variety of storage providers. Built in Go and powered by the versatile backend tool rclone, GoMFT serves as a unified interface for moving data between local and cloud storage systems, making it ideal for users who require reliable and automated transfer workflows.
+  GoMFT, abreviação de “Go Managed File Transfer”, é um aplicativo baseado na web projetado para simplificar e gerenciar transferências de arquivos em uma ampla variedade de provedores de armazenamento. Construído em Go e alimentado pela versátil ferramenta de back-end rclone, o GoMFT serve como uma interface unificada para mover dados entre sistemas de armazenamento locais e em nuvem, tornando-o ideal para usuários que exigem fluxos de trabalho de transferência confiáveis ​​e automatizados.
 
 
-  The application focuses heavily on usability, offering a modern and intuitive web interface that allows users to configure, schedule, and monitor transfers with ease. Behind the scenes, it leverages rclone’s extensive compatibility with over 40 storage backends, including popular platforms such as Google Drive, Amazon S3, WebDAV, SFTP, and many others. This makes GoMFT highly adaptable to different use cases, from simple personal backups to complex enterprise-level data flows.
+  O aplicativo foca fortemente na usabilidade, oferecendo uma interface web moderna e intuitiva que permite aos usuários configurar, agendar e monitorar transferências com facilidade. Nos bastidores, ele aproveita a ampla compatibilidade do rclone com mais de 40 back-ends de armazenamento, incluindo plataformas populares como Google Drive, Amazon S3, WebDAV, SFTP e muitas outras. Isso torna o GoMFT altamente adaptável a diferentes casos de uso, desde simples backups pessoais até fluxos de dados complexos de nível empresarial.
 
 
-  Security and observability are core to the design of GoMFT. It supports authentication via external providers such as OpenID Connect and OAuth2, allowing seamless integration into existing identity systems. Additionally, role-based access control and detailed audit logging ensure that administrators can tightly manage and track access to the system.
+  Segurança e observabilidade são fundamentais para o design do GoMFT. Suporta autenticação através de provedores externos, como OpenID Connect e OAuth2, permitindo integração perfeita em sistemas de identidade existentes. Além disso, o controle de acesso baseado em função e o registro de auditoria detalhado garantem que os administradores possam gerenciar e rastrear rigorosamente o acesso ao sistema.
 
 
-  Another key feature of GoMFT is its webhook integration. It can notify external systems of transfer events in real-time, with optional HMAC-SHA256 signature verification for added security. This opens the door to building automated pipelines or alerting mechanisms that respond to file transfer results.
+  Outro recurso importante do GoMFT é a integração do webhook. Ele pode notificar sistemas externos sobre eventos de transferência em tempo real, com verificação de assinatura HMAC-SHA256 opcional para maior segurança. Isso abre a porta para a construção de pipelines automatizados ou mecanismos de alerta que respondam aos resultados da transferência de arquivos.
 
 
-  While still in active development, GoMFT is already a powerful tool for orchestrating file transfers in a centralized, secure, and scalable manner. It can be deployed easily via Docker and is continuously updated with new features and improvements by its open-source community.
+  Embora ainda esteja em desenvolvimento ativo, o GoMFT já é uma ferramenta poderosa para orquestrar transferências de arquivos de maneira centralizada, segura e escalonável. Ele pode ser implantado facilmente via Docker e é continuamente atualizado com novos recursos e melhorias por sua comunidade de código aberto.
 developer: StarFleetCPTN
 website: https://github.com/StarFleetCPTN
 submitter: Tascok
@@ -27,12 +27,12 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/StarFleetCPTN/GoMFT
 support: https://github.com/StarFleetCPTN/GoMFT/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gomft/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gomft/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gomft/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gomft/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gomft/5.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gomft/6.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gomft/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gomft/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gomft/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gomft/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gomft/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gomft/6.jpg
 releaseNotes: >-
   GoMFT v0.2.11 introduces a new documentation website built with Docusaurus, offering detailed guides and feature explanations for easier onboarding and usage. Additionally, the release adds multi-architecture Docker support, including images for amd64, arm64, and arm/v7, without introducing any breaking database changes - making the update safe and recommended for all users.
 dependencies:

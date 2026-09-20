@@ -1,25 +1,25 @@
 manifestVersion: 1
 id: tascok-browserless
 name: Browserless
-tagline: A powerful browser automation service
+tagline: Um poderoso serviço de automação de navegador
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-browserless/logo.png
 category: developer tools
 version: "2.33.0"
 port: 3353
 description: >-
-  Browserless is a powerful platform that offers headless browser automation in the cloud or through self-hosted environments. It enables developers to run Chrome, Firefox, or WebKit remotely using familiar tools like Puppeteer and Playwright, without the need to maintain their own infrastructure. This significantly reduces setup time and allows teams to focus on building their applications instead of managing low-level browser processes.
+  Browserless é uma plataforma poderosa que oferece automação de navegador headless na nuvem ou por meio de ambientes auto-hospedados. Ele permite que os desenvolvedores executem o Chrome, Firefox ou WebKit remotamente usando ferramentas familiares como Puppeteer e Playwright, sem a necessidade de manter sua própria infraestrutura. Isso reduz significativamente o tempo de configuração e permite que as equipes se concentrem na construção de seus aplicativos em vez de gerenciar processos de navegador de baixo nível.
 
 
-  The service is ideal for tasks such as web scraping, automated testing, PDF and screenshot generation, or interacting with websites that require JavaScript execution. It is especially useful for working with dynamic content or sites protected by bot detection mechanisms, which browserless helps bypass through advanced techniques.
+  O serviço é ideal para tarefas como web scraping, testes automatizados, geração de PDF e capturas de tela ou interação com sites que exigem execução de JavaScript. É especialmente útil para trabalhar com conteúdo dinâmico ou sites protegidos por mecanismos de detecção de bots, que sem navegador ajudam a contornar por meio de técnicas avançadas.
 
 
-  A key strength of browserless lies in its ability to manage and scale browser sessions efficiently. It handles queuing, concurrency limits, timeouts, and session reuse automatically, making it reliable for both small and large-scale workloads. Developers can integrate it into CI pipelines, cloud functions, or backend systems without major changes to their existing codebase.
+  Um dos principais pontos fortes do browserless reside na sua capacidade de gerenciar e dimensionar as sessões do navegador com eficiência. Ele lida automaticamente com filas, limites de simultaneidade, tempos limite e reutilização de sessão, tornando-o confiável para cargas de trabalho de pequena e grande escala. Os desenvolvedores podem integrá-lo a pipelines de CI, funções de nuvem ou sistemas de back-end sem grandes alterações em sua base de código existente.
 
 
-  While browserless is free for non-commercial and open-source use, commercial usage requires a paid license. This ensures sustainable development and access to premium support and enterprise features. Whether you're running occasional scripts or operating a production-grade automation platform, browserless provides a stable, scalable, and developer-friendly foundation for all kinds of browser-based automation tasks.
+  Embora o navegador sem navegador seja gratuito para uso não comercial e de código aberto, o uso comercial requer uma licença paga. Isso garante o desenvolvimento sustentável e o acesso a suporte premium e recursos empresariais. Esteja você executando scripts ocasionais ou operando uma plataforma de automação de nível de produção, o browserless fornece uma base estável, escalonável e amigável ao desenvolvedor para todos os tipos de tarefas de automação baseadas em navegador.
 
 
-  ⚙️ For detailed information on how browserless works and how to set it up, the official documentation at https://docs.browserless.io/ provides comprehensive guidance. It covers everything from basic usage and API integration to advanced configuration options and examples for Puppeteer and Playwright. Whether you're getting started or looking to fine-tune your implementation, the documentation is the best place to find clear, up-to-date instructions.
+  ⚙️ Para obter informações detalhadas sobre como funciona o browserless e como configurá-lo, consulte a documentação oficial em https://docs.browserless.io/ fornece orientação abrangente. Abrange tudo, desde o uso básico e integração de API até opções de configuração avançada e exemplos para Puppeteer e Playwright. Esteja você começando ou procurando ajustar sua implementação, a documentação é o melhor lugar para encontrar instruções claras e atualizadas.
 developer: Browserless
 website: https://www.browserless.io/
 submitter: Tascok
@@ -27,10 +27,10 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/browserless/browserless
 support: https://github.com/browserless/browserless/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-browserless/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-browserless/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-browserless/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-browserless/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-browserless/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-browserless/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-browserless/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-browserless/4.jpg
 releaseNotes: >-
   Version 2.33.0 includes dependency updates and fixes an issue with pages created by Playwright’s context object hanging. It upgrades puppeteer-core to 24.12.1, updates playwright-core to 1.54.1, drops support for Playwright 1.49, and adds support for the latest versions of Chromium, Chrome, Firefox, WebKit, and Edge.
 dependencies:

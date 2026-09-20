@@ -1,28 +1,28 @@
 manifestVersion: 1
 id: tascok-pinchflat
 name: Pinchflat
-tagline: A YouTube media manager
+tagline: Um gerente de mídia do YouTube
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-pinchflat/logo.png
 category: media
 version: "2025.3.17"
 port: 8945
 description: >-
-  📥 Pinchflat is a self-hosted application designed for automated downloading and management of YouTube content. It is built using the Elixir programming language and leverages the Phoenix web framework to provide a user-friendly interface. The application utilizes yt-dlp, a powerful tool for downloading videos from YouTube and other platforms, allowing users to regularly download videos from selected YouTube channels or playlists and incorporate them into their personal media libraries.
+  📥 Pinchflat é um aplicativo auto-hospedado projetado para download e gerenciamento automatizado de conteúdo do YouTube. Ele é construído usando a linguagem de programação Elixir e aproveita a estrutura web Phoenix para fornecer uma interface amigável. O aplicativo utiliza yt-dlp, uma ferramenta poderosa para baixar vídeos do YouTube e outras plataformas, permitindo aos usuários baixar regularmente vídeos de canais ou listas de reprodução selecionados do YouTube e incorporá-los em suas bibliotecas de mídia pessoais.
 
 
-  The core functionality of Pinchflat revolves around automation. It continuously monitors specified YouTube channels or playlists for new content and downloads these videos without manual intervention. This makes it an ideal solution for users who want to maintain an up-to-date collection of their favorite online media. The downloaded videos can be seamlessly integrated with popular media center software such as Plex, Jellyfin, or Kodi, enabling users to organize and enjoy their content in a familiar environment.
+  A funcionalidade principal do Pinchflat gira em torno da automação. Ele monitora continuamente canais ou listas de reprodução específicas do YouTube em busca de novos conteúdos e baixa esses vídeos sem intervenção manual. Isso o torna uma solução ideal para usuários que desejam manter uma coleção atualizada de suas mídias online favoritas. Os vídeos baixados podem ser perfeitamente integrados a softwares populares de media center, como Plex, Jellyfin ou Kodi, permitindo que os usuários organizem e desfrutem de seu conteúdo em um ambiente familiar.
 
 
-  Pinchflat offers customization options that let users define specific rules for managing downloads. This includes handling various types of content like YouTube Shorts and live streams. Additionally, the software supports notifications through Apprise, so users can be alerted when new content is available or when downloads have completed.
+  Pinchflat oferece opções de personalização que permitem aos usuários definir regras específicas para gerenciar downloads. Isso inclui lidar com vários tipos de conteúdo, como Shorts do YouTube e transmissões ao vivo. Além disso, o software oferece suporte a notificações por meio do Apprise, para que os usuários possam ser alertados quando novo conteúdo estiver disponível ou quando os downloads forem concluídos.
 
 
-  One of the notable features of Pinchflat is the ability to periodically redownload content. This is useful for situations where the quality of a video might improve over time or when additional metadata such as SponsorBlock tags become available. Furthermore, the application can automatically delete older content after a specified period, helping users manage storage space efficiently.
+  Um dos recursos notáveis ​​​​do Pinchflat é a capacidade de baixar novamente o conteúdo periodicamente. Isso é útil para situações em que a qualidade de um vídeo pode melhorar com o tempo ou quando metadados adicionais, como tags SponsorBlock, ficam disponíveis. Além disso, o aplicativo pode excluir automaticamente conteúdo antigo após um período especificado, ajudando os usuários a gerenciar o espaço de armazenamento com eficiência.
 
 
-  The backend of Pinchflat relies on SQLite for storing metadata about the downloaded videos. The frontend focuses on server-side rendered HTML enhanced with minimal JavaScript through Alpine.js, ensuring a responsive and straightforward user experience without unnecessary complexity.
+  O backend do Pinchflat depende do SQLite para armazenar metadados sobre os vídeos baixados. O frontend se concentra em HTML renderizado no lado do servidor aprimorado com JavaScript mínimo por meio de Alpine.js, garantindo uma experiência de usuário responsiva e direta, sem complexidade desnecessária.
 
 
-  Overall, Pinchflat serves as a powerful tool for anyone looking to automate the retrieval and management of YouTube content. Its integration capabilities, automation features, and user-friendly design provide a comprehensive solution for creating a personal media library sourced from online videos.
+  No geral, o Pinchflat serve como uma ferramenta poderosa para quem deseja automatizar a recuperação e o gerenciamento de conteúdo do YouTube. Seus recursos de integração, recursos de automação e design fácil de usar fornecem uma solução abrangente para a criação de uma biblioteca de mídia pessoal proveniente de vídeos online.
 developer: Kieran Eglin
 website: https://github.com/kieraneglin/pinchflat
 submitter: Tascok
@@ -30,11 +30,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/kieraneglin/pinchflat
 support: https://github.com/kieraneglin/pinchflat/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-pinchflat/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-pinchflat/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-pinchflat/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-pinchflat/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-pinchflat/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-pinchflat/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-pinchflat/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-pinchflat/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-pinchflat/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-pinchflat/5.jpg
 releaseNotes: >-
   The latest release v2025.3.17 includes enhancements such as download rate limiting, suppression of Docker healthcheck logs, and an option to restrict filenames to ASCII characters. These improvements optimize performance and file handling.
 dependencies:

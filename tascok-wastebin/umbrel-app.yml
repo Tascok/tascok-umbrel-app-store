@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-wastebin
 name: Wastebin
-tagline: A minimal pastebin
+tagline: Um pastebin mínimo
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wastebin/logo.png
 category: files & productivity
 version: "3.4.0"
 port: 8087
 description: >-
-  🗑️ Wastebin is a simple web application designed for sharing text and code snippets in a fast and distraction free way. It allows users to paste content into a web interface and instantly receive a unique link that can be shared with others. The focus of the application is on simplicity and speed, making it ideal for quickly exchanging logs, configuration files, error messages, or small pieces of source code.
+  🗑️ Wastebin é um aplicativo da web simples projetado para compartilhar trechos de texto e código de forma rápida e sem distrações. Ele permite que os usuários colem conteúdo em uma interface da web e recebam instantaneamente um link exclusivo que pode ser compartilhado com outras pessoas. O foco do aplicativo está na simplicidade e velocidade, tornando-o ideal para troca rápida de logs, arquivos de configuração, mensagens de erro ou pequenos trechos de código-fonte.
 
 
-  The application supports syntax highlighting for many programming languages, which improves readability when sharing code. Users can choose how their paste should behave, including options such as setting an expiration time or creating a paste that deletes itself after being viewed once. This makes it useful both for temporary collaboration and for sharing sensitive information that should not remain accessible indefinitely.
+  O aplicativo suporta realce de sintaxe para muitas linguagens de programação, o que melhora a legibilidade ao compartilhar código. Os usuários podem escolher como sua colagem deve se comportar, incluindo opções como definir um prazo de validade ou criar uma pasta que se exclua após ser visualizada uma vez. Isto o torna útil tanto para colaboração temporária quanto para compartilhamento de informações confidenciais que não devem permanecer acessíveis indefinidamente.
 
 
-  Wastebin stores pastes in a lightweight database and presents them through a clean and minimal user interface. It does not require user accounts or profiles, which lowers the barrier to use and keeps the workflow straightforward. In addition to the web interface, it exposes a simple API that allows pastes to be created programmatically, making it easy to integrate into scripts or developer workflows.
+  Wastebin armazena pastas em um banco de dados leve e as apresenta por meio de uma interface de usuário limpa e minimalista. Não requer contas ou perfis de usuário, o que reduz a barreira de uso e mantém o fluxo de trabalho simples. Além da interface web, ele expõe uma API simples que permite a criação de pastas de forma programática, facilitando a integração em scripts ou fluxos de trabalho de desenvolvedores.
 
 
-  Overall, Wastebin is a focused paste sharing tool that prioritizes ease of use, readability, and optional privacy controls without adding unnecessary features or complexity.
+  No geral, Wastebin é uma ferramenta de compartilhamento de pasta focada que prioriza facilidade de uso, legibilidade e controles de privacidade opcionais sem adicionar recursos ou complexidade desnecessários.
 developer: Matthias Vogelgesang
 website: https://bin.bloerg.net/
 submitter: Tascok
@@ -24,9 +24,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/matze/wastebin
 support: https://github.com/matze/wastebin/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wastebin/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wastebin/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wastebin/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wastebin/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wastebin/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wastebin/3.jpg
 releaseNotes: >-
   This version introduces a new wastebin theme showcase tool that generates a static HTML page displaying all available themes in both light and dark variants, making it easier to preview and compare styles.
 

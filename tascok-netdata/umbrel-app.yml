@@ -1,37 +1,37 @@
 manifestVersion: 1
 id: tascok-netdata
 name: Netdata
-tagline: A high-performance tool for monitoring systems in real time
+tagline: Uma ferramenta de alto desempenho para monitorar sistemas em tempo real
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-netdata/logo.png
 category: networking
 version: "1.47.4"
 port: 19999
 description: >-
-  Netdata is an open-source monitoring tool designed for real-time performance tracking of systems, applications, and infrastructure. It provides detailed insights into various metrics such as CPU usage, memory, network traffic, disk activity, Docker container status, and more. 
-  
-  
-  Here are some key features of Netdata:
+  Netdata é uma ferramenta de monitoramento de código aberto projetada para rastreamento de desempenho em tempo real de sistemas, aplicativos e infraestrutura. Ele fornece insights detalhados sobre várias métricas, como uso de CPU, memória, tráfego de rede, atividade de disco, status do contêiner Docker e muito mais. 
 
 
-  ⏱️ Real-time Monitoring: Netdata collects and visualizes metrics in real time, typically at second intervals, allowing for quick identification and resolution of issues.
+  Aqui estão alguns recursos principais do Netdata:
 
 
-  ⚖️ Lightweight: It is designed to use minimal system resources while still gathering detailed data.
+  ⏱️ Monitoramento em tempo real: o Netdata coleta e visualiza métricas em tempo real, normalmente em intervalos de segundos, permitindo rápida identificação e resolução de problemas.
 
 
-  🖥️ User Interface: Netdata offers a web-based dashboard where all metrics are displayed in interactive charts, making it easy to see how the system has behaved over the last seconds, minutes, or hours.
+  ⚖️ Leve: foi projetado para usar recursos mínimos do sistema e ao mesmo tempo coletar dados detalhados.
 
 
-  📊 Versatile Monitoring: It supports monitoring a wide range of services and system components, including servers, databases, containers, web applications, and networks.
+  🖥️ Interface do usuário: Netdata oferece um painel baseado na web onde todas as métricas são exibidas em gráficos interativos, facilitando a visualização de como o sistema se comportou nos últimos segundos, minutos ou horas.
 
 
-  🔔 Alerts and Notifications: Netdata can be configured to send alerts or notifications when certain thresholds are exceeded, enabling proactive issue detection.
+  📊 Monitoramento versátil: suporta o monitoramento de uma ampla gama de serviços e componentes de sistema, incluindo servidores, bancos de dados, contêineres, aplicativos web e redes.
 
 
-  🌍 Distributed Monitoring: Netdata can be installed on multiple systems and combined into a single, centralized dashboard for an overview of numerous systems and environments.
+  🔔 Alertas e notificações: o Netdata pode ser configurado para enviar alertas ou notificações quando determinados limites forem excedidos, permitindo a detecção proativa de problemas.
 
 
-  Netdata is ideal for system administrators and DevOps teams who need to quickly pinpoint performance, resource, or service issues. It works well in setups ranging from small-scale environments to large distributed infrastructures.
+  🌍 Monitoramento Distribuído: O Netdata pode ser instalado em vários sistemas e combinado em um painel único e centralizado para uma visão geral de vários sistemas e ambientes.
+
+
+  O Netdata é ideal para administradores de sistema e equipes de DevOps que precisam identificar rapidamente problemas de desempenho, recursos ou serviços. Funciona bem em configurações que vão desde ambientes de pequena escala até grandes infraestruturas distribuídas.
 
 developer: Netdata Inc.
 website: https://www.netdata.cloud/
@@ -40,20 +40,20 @@ submission: https://github.com/dennysubke/dennys-umbrel-app-store
 repo: https://github.com/netdata/netdata
 support: https://github.com/netdata/netdata/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-netdata/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-netdata/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-netdata/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-netdata/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-netdata/5.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-netdata/6.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-netdata/7.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-netdata/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-netdata/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-netdata/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-netdata/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-netdata/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-netdata/6.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-netdata/7.jpg
 releaseNotes: >-
   This patch release addresses several issues discovered in previous versions. It resolves a problem with system-cat-native not sending messages to journald and updates the static installation packages with the latest versions of OpenSSL and cURL. 
 
-  
+
   The release ensures proper cross-compilation of the go.d.plugin by setting the correct GOOS and GOARCH values, includes a check for swap status changes during Agent runtime, and fixes disk and RAM usage calculations within LXC containers. 
-  
-  
+
+
   Additionally, it corrects a hardcoded 3-second timeout in go.d/nvidia_smi and adds a compatibility check for 64-bit atomics during compilation on architectures like RISCV32.
 dependencies:
 path: ""

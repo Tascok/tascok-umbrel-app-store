@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-checkcle
 name: CheckCle
-tagline: A Full-Stack Monitoring Platform
+tagline: Uma plataforma de monitoramento full-stack
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-checkcle/logo.png
 category: networking
 version: "1.5.0"
 port: 8973
 description: >-
-  ✅ CheckCle is a monitoring platform designed to provide continuous visibility into the performance and availability of servers and applications. It allows users to track the health of their systems in real time, ensuring that any issues are detected as soon as they arise. By monitoring key metrics and service status, the platform helps teams respond quickly to incidents, minimizing downtime and maintaining smooth operations.
+  ✅ CheckCle é uma plataforma de monitoramento projetada para fornecer visibilidade contínua do desempenho e disponibilidade de servidores e aplicações. Ele permite que os usuários acompanhem a integridade de seus sistemas em tempo real, garantindo que quaisquer problemas sejam detectados assim que surgirem. Ao monitorar as principais métricas e o status do serviço, a plataforma ajuda as equipes a responder rapidamente aos incidentes, minimizando o tempo de inatividade e mantendo as operações tranquilas.
 
 
-  The platform performs checks from multiple locations, giving a comprehensive view of system performance across different regions. This feature allows users to identify regional issues and understand how their services behave under various conditions. In addition to monitoring, CheckCle records detailed histories of incidents and events, enabling teams to analyze trends, spot recurring problems, and plan improvements proactively.
+  A plataforma realiza verificações em vários locais, proporcionando uma visão abrangente do desempenho do sistema em diferentes regiões. Esse recurso permite que os usuários identifiquem questões regionais e entendam como seus serviços se comportam sob diversas condições. Além do monitoramento, o CheckCle registra históricos detalhados de incidentes e eventos, permitindo que as equipes analisem tendências, identifiquem problemas recorrentes e planejem melhorias de forma proativa.
 
 
-  Notifications are an integral part of CheckCle, alerting users immediately when a service goes down or performance drops. These alerts ensure that teams can address issues before they escalate into significant outages. The platform also provides insights into response times, latency, and potential bottlenecks, helping teams optimize their applications and infrastructure.
+  As notificações são parte integrante do CheckCle, alertando os usuários imediatamente quando um serviço cai ou o desempenho cai. Esses alertas garantem que as equipes possam resolver os problemas antes que eles se transformem em interrupções significativas. A plataforma também fornece insights sobre tempos de resposta, latência e possíveis gargalos, ajudando as equipes a otimizar seus aplicativos e infraestrutura.
 
 
-  By combining real-time monitoring, historical analysis, and proactive alerts, CheckCle empowers organizations to maintain high reliability and performance. It supports operational efficiency by giving teams the tools to anticipate problems, quickly resolve issues, and continuously improve the stability and responsiveness of their systems.
+  Ao combinar monitoramento em tempo real, análise histórica e alertas proativos, o CheckCle capacita as organizações a manter alta confiabilidade e desempenho. Ele apoia a eficiência operacional, fornecendo às equipes as ferramentas para antecipar problemas, resolvê-los rapidamente e melhorar continuamente a estabilidade e a capacidade de resposta de seus sistemas.
 developer: Operacle Lab
 website: https://checkcle.io/
 submitter: Tascok
@@ -24,16 +24,16 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/operacle/checkcle
 support: https://github.com/operacle/checkcle/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-checkcle/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-checkcle/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-checkcle/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-checkcle/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-checkcle/5.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-checkcle/6.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-checkcle/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-checkcle/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-checkcle/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-checkcle/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-checkcle/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-checkcle/6.jpg
 releaseNotes: >-
   Version 1.5.0 adds multi-channel notification support, enabling alerts via Telegram, Discord, Email, Slack, Google Chat, Signal, and custom webhooks. It introduces specialized notification managers for server resources, uptime services, and SSL certificates with customizable templates, detailed status tracking, and immediate delivery. 
-  
-  
+
+
   The update also improves message formatting with emojis, structured layouts, color coding, and dynamic placeholders, along with enhancements to translations, table navigation, pagination, agent support, connection updates, SSL checks, and backend rate limiting.
 dependencies: []
 path: ""

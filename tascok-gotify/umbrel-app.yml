@@ -1,28 +1,28 @@
 manifestVersion: 1
 id: tascok-gotify
 name: Gotify
-tagline: A simple server for sending and receiving messages
+tagline: Um servidor simples para enviar e receber mensagens
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gotify/logo.png
 category: networking
 version: "2.6.3"
 port: 8784
 description: >-
-  📲 Gotify is an open-source, self-hosted notification server designed to enable real-time push notifications across multiple devices. It is a lightweight, efficient system that allows applications to send messages to the Gotify server via a REST API. These messages are then delivered to connected clients, including web browsers, mobile devices, or other systems that support Gotify’s push notification service.
+  📲 Gotify é um servidor de notificação auto-hospedado de código aberto projetado para permitir notificações push em tempo real em vários dispositivos. É um sistema leve e eficiente que permite que aplicativos enviem mensagens ao servidor Gotify por meio de uma API REST. Essas mensagens são então entregues a clientes conectados, incluindo navegadores da web, dispositivos móveis ou outros sistemas que suportam o serviço de notificação push do Gotify.
 
 
-  The server is built with Go, known for its high performance and minimal resource consumption, making it suitable for various environments. Gotify’s simple and intuitive web interface allows users to manage notifications, configure applications, and generate API tokens for authentication and access control.
+  O servidor é construído em Go, conhecido por seu alto desempenho e mínimo consumo de recursos, tornando-o adequado para diversos ambientes. A interface web simples e intuitiva do Gotify permite aos usuários gerenciar notificações, configurar aplicativos e gerar tokens API para autenticação e controle de acesso.
 
 
-  One of the core features of Gotify is its support for real-time notifications using WebSockets. This allows connected clients to receive notifications instantly, ensuring timely delivery of messages. Additionally, Gotify supports categorizing and prioritizing notifications, helping users organize incoming messages based on importance.
+  Um dos principais recursos do Gotify é o suporte para notificações em tempo real usando WebSockets. Isso permite que os clientes conectados recebam notificações instantaneamente, garantindo a entrega oportuna das mensagens. Além disso, Gotify oferece suporte à categorização e priorização de notificações, ajudando os usuários a organizar as mensagens recebidas com base na importância.
 
 
-  Gotify offers a native Android app, which allows users to receive push notifications directly on their devices. It also provides a web app, ensuring that users can stay updated across different platforms. The system’s architecture is designed for flexibility and scalability, enabling it to handle notifications from a variety of sources, from system alerts and monitoring tools to custom applications.
+  Gotify oferece um aplicativo Android nativo, que permite aos usuários receber notificações push diretamente em seus dispositivos. Ele também fornece um aplicativo web, garantindo que os usuários possam se manter atualizados em diferentes plataformas. A arquitetura do sistema foi projetada para oferecer flexibilidade e escalabilidade, permitindo lidar com notificações de diversas fontes, desde alertas de sistema e ferramentas de monitoramento até aplicativos personalizados.
 
 
-  As a self-hosted solution, Gotify gives users complete control over their notification infrastructure, ensuring privacy and data security. With its open-source nature, it can be customized and extended to suit different use cases. The ability to host notifications locally, without relying on third-party services, makes Gotify an attractive option for those seeking a private, cost-effective solution for delivering real-time notifications.
+  Como uma solução auto-hospedada, Gotify oferece aos usuários controle total sobre sua infraestrutura de notificação, garantindo privacidade e segurança de dados. Com sua natureza de código aberto, ele pode ser personalizado e estendido para atender a diferentes casos de uso. A capacidade de hospedar notificações localmente, sem depender de serviços de terceiros, torna o Gotify uma opção atraente para quem busca uma solução privada e econômica para entregar notificações em tempo real.
 
-  
-  ⚠️ For more detailed information, including advanced configuration and API documentation, refer to the official Gotify documentation: https://gotify.net/docs/pushmsg.
+
+  ⚠️ Para informações mais detalhadas, incluindo configuração avançada e documentação da API, consulte a documentação oficial do Gotify: https://gotify.net/docs/pushmsg.
 developer: Gotify
 website: https://gotify.net/
 submitter: Tascok
@@ -30,9 +30,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/gotify/server
 support: https://github.com/gotify/server/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gotify/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gotify/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gotify/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gotify/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gotify/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gotify/3.jpg
 releaseNotes: >-
   This update sets the umask to 0 when creating Unix sockets to ensure proper file permissions. It also updates dependencies and fixes the release build process.
 dependencies:

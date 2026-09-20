@@ -1,25 +1,25 @@
 manifestVersion: 1
 id: tascok-neko
 name: Neko
-tagline: A self-hosted virtual browser powered by WebRTC
+tagline: Um navegador virtual auto-hospedado desenvolvido com WebRTC
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-neko/logo.png
 category: networking
 version: "3.0.3"
 port: 3880
 description: >-
-  🐈 Neko is a self-hosted virtual browser that streams a fully interactive web browsing experience directly to the user’s device using WebRTC. It provides access to a secure, sandboxed browser environment that runs independently of the user’s local system, ensuring privacy and isolation. The browser is rendered remotely, and all interactions are transmitted in real time, resulting in a smooth and low-latency experience.
+  🐈 Neko é um navegador virtual auto-hospedado que transmite uma experiência de navegação na web totalmente interativa diretamente para o dispositivo do usuário usando WebRTC. Ele fornece acesso a um ambiente de navegador seguro e em área restrita que funciona independentemente do sistema local do usuário, garantindo privacidade e isolamento. O navegador é renderizado remotamente e todas as interações são transmitidas em tempo real, resultando em uma experiência tranquila e de baixa latência.
 
 
-  Designed with collaboration in mind, Neko allows multiple users to join and share the same session, making it ideal for activities like co-browsing, watch parties, or remote support. The interface is optimized for responsiveness, with minimal delay between input and feedback, creating an experience that feels native despite running remotely.
+  Projetado com a colaboração em mente, o Neko permite que vários usuários participem e compartilhem a mesma sessão, tornando-o ideal para atividades como navegação conjunta, assistir a grupos ou suporte remoto. A interface é otimizada para capacidade de resposta, com atraso mínimo entre a entrada e o feedback, criando uma experiência que parece nativa, apesar de ser executada remotamente.
 
 
-  When integrated into Umbrel, Neko offers a private and always-available browser instance that can be accessed securely from within the home network or over the internet through Umbrel’s tunneling options. It fits seamlessly into the self-hosted ecosystem, providing a reliable and user-friendly way to browse the web without relying on third-party services or exposing your local device.
+  Quando integrado ao Umbrel, o Neko oferece uma instância de navegador privada e sempre disponível que pode ser acessada com segurança na rede doméstica ou pela Internet por meio das opções de tunelamento do Umbrel. Ele se encaixa perfeitamente no ecossistema auto-hospedado, fornecendo uma maneira confiável e fácil de navegar na web sem depender de serviços de terceiros ou expor seu dispositivo local.
 
 
-  Neko is especially useful in scenarios where privacy, simplicity, and ease of access are important - whether for personal use, collaborative tasks, or secure remote browsing.
+  Neko é especialmente útil em cenários onde privacidade, simplicidade e facilidade de acesso são importantes – seja para uso pessoal, tarefas colaborativas ou navegação remota segura.
 
 
-  💡 Neko offers a wide range of configuration options, including WebRTC configuration, plugin settings, and audio & video capture. For more detailed information, check out the official documentation here: https://neko.m1k1o.net/docs/v3/configuration.
+  💡 Neko oferece uma ampla gama de opções de configuração, incluindo configuração WebRTC, configurações de plugins e captura de áudio e vídeo. Para informações mais detalhadas, confira a documentação oficial aqui: https://neko.m1k1o.net/docs/v3/configuration.
 developer: m1k1o
 website: https://neko.m1k1o.net/
 submitter: Tascok
@@ -27,9 +27,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/m1k1o/neko
 support: https://github.com/m1k1o/neko/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-neko/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-neko/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-neko/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-neko/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-neko/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-neko/3.jpg
 releaseNotes: >-
   Neko v3.0.0 marks a major milestone with significant updates to both the server and the application. The default registry has changed, multiarch builds are now available, and a REST API with OpenAPI 3.0 documentation has been introduced. Key features include new support for additional browsers, improved capture and desktop functionalities, and the addition of a plugin system. The server also now includes advanced user management, authentication options, and WebRTC enhancements, while the client is yet to be updated with these new features.
 dependencies:

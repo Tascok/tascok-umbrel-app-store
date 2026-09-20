@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-ryot
 name: Ryot
-tagline: An intelligent way to track, organize, and optimize your digital life
+tagline: Uma maneira inteligente de rastrear, organizar e otimizar sua vida digital
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ryot/logo.png
 category: files & productivity
 version: "8.2.1"
 port: 18030
 description: >-
-  Ryot is a versatile platform designed to simplify personal tracking and organization. It allows users to seamlessly monitor various aspects of their lives, such as media consumption and fitness activities, without relying on manual logging methods. With an intuitive interface and robust data integration, Ryot ensures a streamlined experience for keeping track of progress and habits.
+  Ryot é uma plataforma versátil projetada para simplificar o rastreamento e a organização pessoal. Ele permite que os usuários monitorem perfeitamente vários aspectos de suas vidas, como consumo de mídia e atividades físicas, sem depender de métodos de registro manual. Com uma interface intuitiva e integração robusta de dados, Ryot garante uma experiência simplificada para acompanhar o progresso e os hábitos.
 
 
-  The platform offers a centralized solution for importing data from popular services like Goodreads, Trakt, and fitness apps, making it easy to consolidate information from multiple sources. Additionally, Ryot supports integration with media servers such as Jellyfin, Plex, and Kodi, allowing users to automatically log their media interactions. Notifications can be set up through services like Discord, Ntfy, and Apprise, ensuring users stay updated on their goals and progress.
+  A plataforma oferece uma solução centralizada para importação de dados de serviços populares como Goodreads, Trakt e aplicativos de fitness, facilitando a consolidação de informações de múltiplas fontes. Além disso, Ryot oferece suporte à integração com servidores de mídia como Jellyfin, Plex e Kodi, permitindo que os usuários registrem automaticamente suas interações de mídia. As notificações podem ser configuradas por meio de serviços como Discord, Ntfy e Apprise, garantindo que os usuários permaneçam atualizados sobre seus objetivos e progresso.
 
 
-  Users have the flexibility to either use the cloud-based service or opt for self-hosting, providing greater control over their data and privacy.
+  Os usuários têm a flexibilidade de usar o serviço baseado em nuvem ou optar pela auto-hospedagem, proporcionando maior controle sobre seus dados e privacidade.
 
 
-  With its comprehensive tracking capabilities and seamless integration with existing digital ecosystems, Ryot offers an efficient way to stay organized, track habits, and enhance productivity.
+  Com seus recursos abrangentes de rastreamento e integração perfeita com ecossistemas digitais existentes, Ryot oferece uma maneira eficiente de se manter organizado, monitorar hábitos e aumentar a produtividade.
 developer: IgnisDa
 website: https://ryot.io/
 submitter: Tascok
@@ -24,18 +24,18 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/IgnisDa/ryot
 support: https://github.com/IgnisDa/ryot/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ryot/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ryot/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ryot/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ryot/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ryot/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ryot/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ryot/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ryot/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ryot/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ryot/5.jpg
 releaseNotes: >-
   This update introduces several improvements, including live updates on the imports page, better fitness tracking displays, and the ability to hide collections. 
-  
-  
+
+
   Show cards now indicate the next or in-progress episode, and integrations automatically disable after repeated errors. 
-  
-  
+
+
   Additionally, several bugs have been fixed, including incorrect media counts on person details pages and a long-standing issue in workout logging.
 dependencies:
 path: ""

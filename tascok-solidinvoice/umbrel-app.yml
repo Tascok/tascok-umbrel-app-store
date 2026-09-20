@@ -1,83 +1,83 @@
 manifestVersion: 1
 id: tascok-solidinvoice
 name: SolidInvoice
-tagline: A sophisticated open-source invoicing application
+tagline: Um sofisticado aplicativo de faturamento de código aberto
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-solidinvoice/logo.png
 category: finance
 version: "2.2.2"
 port: 5484
 description: >-
-  SolidInvoice is an open-source billing and invoicing application, primarily developed for small businesses, freelancers, and agencies. Written in PHP and built on the Symfony framework, it provides a comprehensive suite of tools to streamline invoicing, quotes, and payment tracking.
-  
-  
-  Key Features:
-  
-
-  💰 Invoicing and Quoting: SolidInvoice allows users to create and send professional invoices and quotes to clients with a few clicks. Customizable templates and the ability to add taxes, discounts, and other details make invoicing versatile and tailored.
+  SolidInvoice é um aplicativo de cobrança e faturamento de código aberto, desenvolvido principalmente para pequenas empresas, freelancers e agências. Escrito em PHP e construído na estrutura Symfony, ele fornece um conjunto abrangente de ferramentas para agilizar faturamento, cotações e rastreamento de pagamentos.
 
 
-  👥 Client Management: The app includes a customer management system that organizes and tracks client details, allowing businesses to store and access client contact information, billing history, and associated invoices or quotes.
+  Principais recursos:
 
 
-  ⏰ Time Tracking: SolidInvoice integrates basic time-tracking capabilities, useful for tracking billable hours directly linked to specific invoices. This feature is ideal for service-based professionals who bill by time.
+  💰 Faturamento e cotações: SolidInvoice permite aos usuários criar e enviar faturas e orçamentos profissionais aos clientes com apenas alguns cliques. Modelos personalizáveis ​​e a capacidade de adicionar impostos, descontos e outros detalhes tornam o faturamento versátil e personalizado.
 
 
-  💱 Multi-Currency & Multi-Language Support: SolidInvoice supports various currencies and languages, making it suitable for international business. Users can invoice clients in their local currencies and select different languages as needed.
+  👥 Gerenciamento de clientes: o aplicativo inclui um sistema de gerenciamento de clientes que organiza e rastreia os detalhes do cliente, permitindo que as empresas armazenem e acessem informações de contato do cliente, histórico de faturamento e faturas ou orçamentos associados.
 
 
-  💳 Payment Integration: The software integrates with popular payment gateways like Stripe and PayPal, enabling clients to pay invoices online. Users can track payment statuses and send automated reminders for outstanding payments.
+  ⏰ Controle de tempo: SolidInvoice integra recursos básicos de controle de tempo, úteis para rastrear horas faturáveis ​​diretamente vinculadas a faturas específicas. Esse recurso é ideal para profissionais de serviços que cobram por tempo.
 
 
-  📊 Reports and Analytics: SolidInvoice provides detailed financial reports and analytics, giving businesses insights into revenue, unpaid invoices, and other key financial data.
+  💱 Suporte para várias moedas e vários idiomas: SolidInvoice oferece suporte a várias moedas e idiomas, tornando-o adequado para negócios internacionais. Os usuários podem faturar clientes em suas moedas locais e selecionar diferentes idiomas conforme necessário.
 
 
-  🔑 User Roles and Permissions: With a role-based permission system, SolidInvoice allows businesses to control access levels for each user, making it easier to manage teams and delegate tasks securely.
+  💳 Integração de pagamento: O software se integra a gateways de pagamento populares como Stripe e PayPal, permitindo que os clientes paguem faturas online. Os usuários podem rastrear status de pagamento e enviar lembretes automáticos de pagamentos pendentes.
 
 
-  ✨ Customizable Settings: Users can customize invoice templates, set business preferences, adjust tax rates, and configure other aspects of the application to suit their specific needs.
+  📊 Relatórios e análises: SolidInvoice fornece relatórios e análises financeiras detalhadas, fornecendo às empresas insights sobre receitas, faturas não pagas e outros dados financeiros importantes.
 
 
-  SolidInvoice is fully open-source and community-driven, with contributions encouraged via GitHub. This makes it an excellent choice for anyone seeking a free, robust, and customizable invoicing solution.
+  🔑 Funções e permissões do usuário: Com um sistema de permissões baseado em funções, o SolidInvoice permite que as empresas controlem os níveis de acesso de cada usuário, facilitando o gerenciamento de equipes e a delegação segura de tarefas.
+
+
+  ✨ Configurações personalizáveis: os usuários podem personalizar modelos de fatura, definir preferências de negócios, ajustar taxas de impostos e configurar outros aspectos do aplicativo para atender às suas necessidades específicas.
+
+
+  SolidInvoice é totalmente de código aberto e voltado para a comunidade, com contribuições incentivadas via GitHub. Isso o torna uma excelente escolha para quem procura uma solução de faturamento gratuita, robusta e personalizável.
 
 
   ---
 
 
-  ⚠️ To set up the SolidInvoice database, follow these instructions to configure the connection details:
+  ⚠️ Para configurar o banco de dados SolidInvoice, siga estas instruções para configurar os detalhes da conexão:
 
 
-  Driver: Select "mysql" as the database driver.
+  Driver: Selecione "mysql" como driver de banco de dados.
 
 
-  Host: Enter "tascok-solidinvoice_db_1" as the hostname.
+  Host: Insira "tascok-solidinvoice_db_1" como o nome do host.
 
 
-  Port: Enter "3306", the default port for MySQL.
+  Porta: Digite "3306", a porta padrão para MySQL.
 
 
-  User: Type in "solidinvoice" as the database username.
+  Usuário: Digite “solidinvoice” como nome de usuário do banco de dados.
 
 
-  Password: The password is "umbrel".
+  Senha: A senha é "umbrel".
 
 
-  Database: Enter "solidinvoice" as the database name.
+  Banco de dados: insira “solidinvoice” como nome do banco de dados.
 
 
-  Once all fields are filled, click Next to proceed with the setup. This configuration will connect the SolidInvoice application to the MySQL database instance. If you encounter a Gateway Timeout error during the setup process, simply refresh the page in your browser. This will often resolve temporary connectivity issues and allow the setup to continue.
+  Depois que todos os campos estiverem preenchidos, clique em Avançar para prosseguir com a configuração. Esta configuração conectará a aplicação SolidInvoice à instância do banco de dados MySQL. Se você encontrar um erro de tempo limite do gateway durante o processo de configuração, basta atualizar a página no seu navegador. Isso geralmente resolverá problemas temporários de conectividade e permitirá que a configuração continue.
 
 developer: Pierre du Plessis
 website: https://solidinvoice.co/
 submitter: Tascok
 submission: https://github.com/getumbrel/umbrel-apps/pull/
-repo: hhttps://github.com/SolidInvoice
+repo: https://github.com/SolidInvoice
 support: https://github.com/SolidInvoice/SolidInvoice/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-solidinvoice/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-solidinvoice/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-solidinvoice/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-solidinvoice/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-solidinvoice/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-solidinvoice/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-solidinvoice/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-solidinvoice/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-solidinvoice/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-solidinvoice/5.jpg
 releaseNotes: >-
   Version 2.2.2 is a bugfix patch release that resolves four issues and integrates seven pull requests, contributed by four contributors. Key fixes include correcting the TaxType option when adding items, ensuring Money DataTransformer accurately processes cent values, and addressing errors with empty contact type details. Additionally, this update introduces separate configuration paths and enhanced settings for Sentry integration.
 dependencies:

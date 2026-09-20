@@ -1,25 +1,25 @@
 manifestVersion: 1
 id: tascok-titra
 name: Titra
-tagline: A simple time tracker for teams
+tagline: Um rastreador de tempo simples para equipes
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-titra/logo.png
 category: files & productivity
 version: "1.0.10"
 port: 3471
 description: >-
-  ⏱️ Titra is a modern, open-source time tracking application designed for freelancers, small businesses, and teams that need a simple way to record and manage working hours. Its project-based approach allows you to quickly assign tracked time to customers, projects, tasks, or internal activities without complicated configuration or unnecessary distractions.
+  ⏱️ Titra é um aplicativo moderno de controle de tempo de código aberto projetado para freelancers, pequenas empresas e equipes que precisam de uma maneira simples de registrar e gerenciar horas de trabalho. Sua abordagem baseada em projetos permite atribuir rapidamente o tempo monitorado a clientes, projetos, tarefas ou atividades internas, sem configurações complicadas ou distrações desnecessárias.
 
 
-  Start and stop timers in just a few clicks, add descriptions to your entries, and use intelligent autocomplete to speed up recurring tasks. Titra also supports absence projects, making it possible to record holidays, sick leave, and other non-working periods alongside regular project hours.
+  Inicie e pare cronômetros com apenas alguns cliques, adicione descrições às suas entradas e use o preenchimento automático inteligente para acelerar tarefas recorrentes. O Titra também apoia projetos de ausência, possibilitando o registro de feriados, licenças médicas e outros períodos de folga junto com as horas normais do projeto.
 
 
-  Real-time reports provide a clear overview of how time is being spent across projects and team members. Tracked hours can be reviewed through tabular or graphical reports and exported for further processing, invoicing, payroll, or internal analysis. A clean interface and built-in dark mode make Titra comfortable to use throughout the working day.
+  Os relatórios em tempo real fornecem uma visão geral clara de como o tempo está sendo gasto nos projetos e nos membros da equipe. As horas monitoradas podem ser revisadas por meio de relatórios tabulares ou gráficos e exportadas para processamento posterior, faturamento, folha de pagamento ou análise interna. Uma interface limpa e um modo escuro integrado tornam o uso do Titra confortável durante todo o dia de trabalho.
 
 
-  By running Titra on your Umbrel, your time-tracking data remains stored on infrastructure you control. This makes it a privacy-friendly alternative to externally hosted time-tracking services while still providing convenient access through a modern web interface.
+  Ao executar o Titra no seu Umbrel, seus dados de controle de tempo permanecem armazenados na infraestrutura que você controla. Isso o torna uma alternativa amigável à privacidade aos serviços de controle de tempo hospedados externamente, ao mesmo tempo que fornece acesso conveniente por meio de uma interface web moderna.
 
 
-  Whether you are tracking billable client work, managing several internal projects, or simply want a better overview of your daily working time, Titra provides a focused and straightforward solution without unnecessary complexity.
+  Esteja você acompanhando o trabalho faturável do cliente, gerenciando vários projetos internos ou simplesmente desejando uma melhor visão geral do seu tempo de trabalho diário, o Titra oferece uma solução focada e direta, sem complexidade desnecessária.
 developer: Fabian Kromer
 website: https://titra.io/
 submitter: Tascok
@@ -27,10 +27,10 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/titraio/titra
 support: https://github.com/titraio/titra/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-titra/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-titra/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-titra/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-titra/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-titra/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-titra/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-titra/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-titra/4.jpg
 releaseNotes: >-
   This update fixes LDAP email synchronization and resolves an issue with the Docker build. It also includes updated package dependencies for improved stability and compatibility.
 dependencies: []

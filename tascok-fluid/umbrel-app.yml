@@ -1,25 +1,25 @@
 manifestVersion: 1
 id: tascok-fluid
 name: FluidCalendar
-tagline: An open-source intelligent calendar for smarter scheduling
+tagline: Um calendário inteligente de código aberto para um agendamento mais inteligente
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-fluid/logo.png
 category: files & productivity
 version: "1.4.0"
 port: 3411
 description: >-
-  📅 FluidCalendar is an open-source intelligent calendar designed to transform the way you manage your time, tasks, and schedule. It merges powerful automation with a clean, intuitive interface, allowing you to stay organized, productive, and in control of your day, whether you are handling personal tasks, managing a busy work calendar, or coordinating with a team.
+  📅 FluidCalendar é um calendário inteligente de código aberto projetado para transformar a maneira como você gerencia seu tempo, tarefas e agenda. Ele combina automação poderosa com uma interface limpa e intuitiva, permitindo que você se mantenha organizado, produtivo e no controle do seu dia, esteja você lidando com tarefas pessoais, gerenciando uma agenda de trabalho ocupada ou coordenando uma equipe.
 
 
-  At its core, FluidCalendar offers more than just a traditional calendar by adapting intelligently to your workflow. It automatically prioritizes tasks, optimizes your schedule, and reschedules events when conflicts arise, ensuring you never lose sight of important tasks. By considering deadlines, task priority, and available time slots, FluidCalendar helps you create a balanced and productive day without the mental burden of manual planning.
+  Basicamente, o FluidCalendar oferece mais do que apenas um calendário tradicional, adaptando-se de forma inteligente ao seu fluxo de trabalho. Ele prioriza tarefas automaticamente, otimiza sua agenda e reagenda eventos quando surgem conflitos, garantindo que você nunca perca de vista tarefas importantes. Ao considerar prazos, prioridades de tarefas e intervalos de tempo disponíveis, o FluidCalendar ajuda você a criar um dia equilibrado e produtivo sem a carga mental do planejamento manual.
 
 
-  FluidCalendar integrates seamlessly with popular calendar platforms like Google Calendar and Outlook, syncing your events and tasks effortlessly to keep you up to date. It also supports customizable workflows and recurring events, which helps automate repetitive scheduling tasks, saving you time and reducing the need for constant attention.
+  O FluidCalendar integra-se perfeitamente com plataformas de calendário populares, como Google Calendar e Outlook, sincronizando seus eventos e tarefas sem esforço para mantê-lo atualizado. Ele também oferece suporte a fluxos de trabalho personalizáveis ​​e eventos recorrentes, o que ajuda a automatizar tarefas repetitivas de agendamento, economizando tempo e reduzindo a necessidade de atenção constante.
 
 
-  What makes FluidCalendar stand out is its commitment to flexibility and privacy. As an open-source project, it offers the option to self-host, allowing you to have complete control over your data, which is a significant advantage over proprietary calendar tools. Whether you are privacy-conscious or part of a team looking for a tailored solution, FluidCalendar provides the freedom to customize the system to fit your exact needs.
+  O que diferencia o FluidCalendar é seu compromisso com a flexibilidade e a privacidade. Por ser um projeto de código aberto, oferece a opção de auto-hospedagem, permitindo que você tenha controle total sobre seus dados, o que é uma vantagem significativa em relação às ferramentas proprietárias de calendário. Quer você se preocupe com a privacidade ou faça parte de uma equipe em busca de uma solução personalizada, o FluidCalendar oferece a liberdade de personalizar o sistema para atender exatamente às suas necessidades.
 
 
-  In essence, FluidCalendar is not just a calendar, but an intelligent, adaptable time management system designed to work for you, freeing you to focus on what matters most while it handles the complexities of scheduling behind the scenes.
+  Em essência, o FluidCalendar não é apenas um calendário, mas um sistema de gerenciamento de tempo inteligente e adaptável, projetado para trabalhar para você, liberando você para se concentrar no que é mais importante enquanto lida com as complexidades do agendamento nos bastidores.
 developer: Dot Net Factory
 website: https://fluidcalendar.com/
 submitter: Tascok
@@ -27,13 +27,13 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/dotnetfactory/fluid-calendar
 support: https://github.com/dotnetfactory/fluid-calendar/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-fluid/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-fluid/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-fluid/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-fluid/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-fluid/5.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-fluid/6.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-fluid/7.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-fluid/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-fluid/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-fluid/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-fluid/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-fluid/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-fluid/6.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-fluid/7.jpg
 releaseNotes: >-
   Version 1.4.0 mainly improves task management and calendar synchronization reliability. Externally synced tasks are now visually marked in the task list, future tasks are detected more accurately, and tasks that are already in progress are no longer automatically rescheduled.
 

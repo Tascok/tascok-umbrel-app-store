@@ -1,37 +1,37 @@
 manifestVersion: 1
 id: tascok-ocular
 name: Ocular
-tagline: A simplistic, beautiful and straightforward budgeting app
+tagline: Um aplicativo de orçamento simplista, bonito e direto
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ocular/logo.png
 category: finance
 version: "1.5.0"
 port: 3957
 description: >-
-  Ocular is a straightforward and visually appealing budgeting app designed to help you take control of your finances effortlessly. With a clean and intuitive user interface, Ocular makes budgeting accessible for everyone, whether you're a financial novice or an experienced planner.
-
-  
-  Key Features:
-  
-
-  🌟 Simplicity at Its Core: Ocular emphasizes a minimalist design, allowing users to focus on their budgeting goals without unnecessary distractions. The user-friendly layout ensures that you can navigate through the app with ease.
+  Ocular é um aplicativo de orçamento simples e visualmente atraente, projetado para ajudá-lo a controlar suas finanças sem esforço. Com uma interface de usuário limpa e intuitiva, o Ocular torna o orçamento acessível para todos, seja você um novato em finanças ou um planejador experiente.
 
 
-  🌸 Beautiful Aesthetics: With a modern and sleek design, Ocular transforms budgeting into a pleasant experience. The thoughtful use of color and typography enhances usability while keeping the interface visually appealing.
+  Principais recursos:
 
 
-  🔧 Straightforward Functionality: Ocular offers essential budgeting features without overwhelming users. Quickly add, edit, or remove expenses and income entries, categorize them for better organization, and track your financial progress with just a few clicks.
+  🌟 Simplicidade em sua essência: Ocular enfatiza um design minimalista, permitindo que os usuários se concentrem em suas metas orçamentárias sem distrações desnecessárias. O layout amigável garante que você possa navegar pelo aplicativo com facilidade.
 
 
-  ⏱️ Real-Time Updates: Stay on top of your finances with real-time updates. Ocular ensures that your budget reflects any changes immediately, providing you with an accurate picture of your financial situation at all times.
+  🌸 Bela Estética: Com design moderno e elegante, o Ocular transforma o orçamento em uma experiência agradável. O uso cuidadoso de cores e tipografia melhora a usabilidade, ao mesmo tempo que mantém a interface visualmente atraente.
 
 
-  📊 Data Visualization: Visualize your budgeting data through informative charts and graphs. Ocular helps you understand your spending habits and identify areas for improvement, making financial planning more effective.
+  🔧 Funcionalidade simples: Ocular oferece recursos essenciais de orçamento sem sobrecarregar os usuários. Adicione, edite ou remova rapidamente entradas de despesas e receitas, categoriza-as para melhor organização e acompanhe seu progresso financeiro com apenas alguns cliques.
 
 
-  🌐 Cross-Platform Compatibility: Access Ocular from any device. Whether you’re on your desktop, tablet, or smartphone, your budget is always at your fingertips, making it easy to manage your finances on the go.
+  ⏱️ Atualizações em tempo real: fique por dentro de suas finanças com atualizações em tempo real. A Ocular garante que seu orçamento reflita imediatamente quaisquer alterações, fornecendo a você uma imagem precisa de sua situação financeira em todos os momentos.
 
 
-  Ocular is more than just a budgeting app; it’s a comprehensive financial management tool that prioritizes simplicity and beauty. Whether you're looking to save for a specific goal, pay off debt, or simply keep track of your spending, Ocular provides the tools you need to achieve your financial objectives. Experience the difference of budgeting made beautiful and straightforward with Ocular.
+  📊 Visualização de dados: visualize seus dados orçamentários por meio de tabelas e gráficos informativos. Ocular ajuda você a entender seus hábitos de consumo e identificar áreas de melhoria, tornando o planejamento financeiro mais eficaz.
+
+
+  🌐 Compatibilidade entre plataformas: acesse o Ocular de qualquer dispositivo. Esteja você no seu desktop, tablet ou smartphone, seu orçamento está sempre ao seu alcance, facilitando o gerenciamento de suas finanças em qualquer lugar.
+
+
+  Ocular é mais do que apenas um aplicativo de orçamento; é uma ferramenta abrangente de gestão financeira que prioriza a simplicidade e a beleza. Esteja você procurando economizar para uma meta específica, saldar dívidas ou simplesmente controlar seus gastos, o Ocular fornece as ferramentas necessárias para atingir seus objetivos financeiros. Experimente a diferença de fazer um orçamento bonito e direto com o Ocular.
 
 developer: Simon Renisch
 website: https://ocular.reinisch.io/
@@ -40,17 +40,17 @@ submission: https://github.com/dennysubke/dennys-umbrel-app-store
 repo: https://github.com/Simonwep/ocular
 support: https://github.com/simonwep/ocular/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ocular/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ocular/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ocular/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ocular/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ocular/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ocular/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ocular/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ocular/4.jpg
 releaseNotes: >-
   The latest update introduces several new features, including support for Brazilian Portuguese and Turkish languages, an expanded list of currencies, and a fix to prevent dialogs from blocking password managers. Bug fixes include synchronizing the locale with the browser's locale, correcting the currency synchronization with internationalization (i18n), and ensuring the CellMenu functions properly on Safari and Firefox.
 
 
   In terms of refactoring, the click listener has been moved to the button in the ContextMenu, and number formats have been removed from the internationalization files. Additionally, various chores were addressed, such as updating the project to pnpm v9, adding a code owners file, freezing dependencies in CI, configuring the main workflow to run on pushes and pull requests, and adding issue and pull request templates. 
-  
-  
+
+
   The project dependencies have been updated, and the .env.genesis variables have also been modified.
 dependencies: []
 path: ""

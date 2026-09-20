@@ -1,34 +1,34 @@
 manifestVersion: 1
 id: tascok-webcheck
 name: WebCheck
-tagline: An all-in-one Open Source Intelligence tool for analyzing any website
+tagline: Uma ferramenta completa de inteligência de código aberto para analisar qualquer site
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-webcheck/logo.png
 category: networking
 version: "1.0.0"
 port: 3093
 description: >-
-  WebCheck is a versatile OSINT (Open Source Intelligence) tool for analyzing and monitoring websites. It offers a comprehensive range of features to assist users in security audits and performance analysis of websites. Key functionalities include:
+  WebCheck é uma ferramenta versátil OSINT (Open Source Intelligence) para análise e monitoramento de sites. Ele oferece uma gama abrangente de recursos para auxiliar os usuários em auditorias de segurança e análises de desempenho de sites. As principais funcionalidades incluem:
 
 
-  🔍 Website Scanning: Automated detection of vulnerabilities and security weaknesses.
-
-  
-  🚀 Performance Analysis: Metrics like load times, visibility, and optimization potential.
-
-  
-  📝 Content Analysis: Extraction of metadata, DNS info, and HTTP headers.
-
-  
-  📊 Visual Representation: Generation of screenshots to document site layouts.
-
-  
-  📝 Monitoring and Reporting: Continuous tracking with custom reporting options.
-
-  
-  WebCheck is modular, allowing users to integrate additional plugins for extended functionality. It supports API integration, is cross-platform, and is easy to deploy via Docker, making it accessible on any server. Its open-source nature ensures transparency and full control over the conducted analyses, making it ideal for security-conscious users.
+  🔍 Verificação de sites: detecção automatizada de vulnerabilidades e pontos fracos de segurança.
 
 
-  In addition to public website analysis, WebCheck can be used for internal network security and infrastructure checks within organizations. The customizable features and extensibility make it an essential tool for web analysts and IT security teams.
+  🚀 Análise de desempenho: métricas como tempos de carregamento, visibilidade e potencial de otimização.
+
+
+  📝 Análise de Conteúdo: Extração de metadados, informações de DNS e cabeçalhos HTTP.
+
+
+  📊 Representação Visual: Geração de screenshots para documentar layouts de sites.
+
+
+  📝 Monitoramento e relatórios: rastreamento contínuo com opções de relatórios personalizados.
+
+
+  WebCheck é modular, permitindo aos usuários integrar plug-ins adicionais para funcionalidade estendida. Ele suporta integração de API, é multiplataforma e fácil de implantar via Docker, tornando-o acessível em qualquer servidor. Sua natureza de código aberto garante transparência e controle total sobre as análises realizadas, tornando-o ideal para usuários preocupados com a segurança.
+
+
+  Além da análise de sites públicos, o WebCheck pode ser usado para segurança de redes internas e verificações de infraestrutura nas organizações. Os recursos personalizáveis ​​e a extensibilidade o tornam uma ferramenta essencial para analistas da web e equipes de segurança de TI.
 
 developer: Alicia Sykes
 website: https://web-check.xyz/
@@ -37,15 +37,15 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/Lissy93/web-check
 support: https://github.com/Lissy93/web-check/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-webcheck/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-webcheck/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-webcheck/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-webcheck/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-webcheck/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-webcheck/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-webcheck/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-webcheck/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-webcheck/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-webcheck/5.jpg
 releaseNotes: >-
   This is the stable version of WebCheck, developed as a React application. The backend consists of a series of lambda functions and can be deployed to Vercel, Netlify, or any Docker-compatible service. For self-hosting, the Docker container includes a Node server to expose all endpoints locally and to serve the frontend.
-  
-  
+
+
   This version is optimized for self-hosting.
 
 dependencies:

@@ -1,34 +1,34 @@
 manifestVersion: 1
 id: tascok-nullboard
 name: Nullboard
-tagline: A minimalist take on a kanban board and task list manager
+tagline: Uma abordagem minimalista de um quadro kanban e gerenciador de lista de tarefas
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nullboard/logo.png
 category: files & productivity
 version: "2023.11.05"
 port: 1001
 description: >-
-  Nullboard is a lightweight and minimalistic Kanban-style project management tool designed to help you organize tasks and projects simply and efficiently. Inspired by traditional Kanban boards like Trello, Nullboard focuses on providing essential task management functionality while minimizing complexity, making it ideal for users who prioritize simplicity and control over their data.
-  
-  
-  Key Features:
+  Nullboard é uma ferramenta de gerenciamento de projetos leve e minimalista no estilo Kanban, projetada para ajudá-lo a organizar tarefas e projetos de maneira simples e eficiente. Inspirado em quadros Kanban tradicionais como o Trello, o Nullboard se concentra em fornecer funcionalidades essenciais de gerenciamento de tarefas enquanto minimiza a complexidade, tornando-o ideal para usuários que priorizam a simplicidade e o controle sobre seus dados.
 
 
-  🎨 Minimalist Design: Nullboard offers a straightforward, distraction-free interface. There are no unnecessary elements, keeping the focus on tasks and projects without overwhelming users with options and features. This simplicity makes Nullboard particularly appealing for those who want a streamlined solution for task organization.
+  Principais recursos:
 
 
-  🏠 Self-Hosted and Privacy-Focused: Nullboard is fully self-hosted, which means you have complete control over your data and environment. It can run on a local machine or server, eliminating the need for third-party cloud services. This aspect is especially beneficial for users who prioritize data privacy and want to keep their information off the internet.
+  🎨 Design minimalista: Nullboard oferece uma interface simples e sem distrações. Não existem elementos desnecessários, mantendo o foco nas tarefas e projetos sem sobrecarregar os usuários com opções e recursos. Essa simplicidade torna o Nullboard particularmente atraente para quem deseja uma solução simplificada para organização de tarefas.
 
 
-  🚫 No Database Required: Nullboard doesn’t require a complex backend setup; it saves all data in a single JSON file. This file-based approach makes setup and maintenance easier compared to more robust Kanban tools, which often require a database to store information. The JSON file can be backed up, moved, and restored without hassle, adding to the tool’s portability.
+  🏠 Auto-hospedado e focado na privacidade: o Nullboard é totalmente auto-hospedado, o que significa que você tem controle total sobre seus dados e ambiente. Ele pode ser executado em uma máquina ou servidor local, eliminando a necessidade de serviços em nuvem de terceiros. Esse aspecto é especialmente benéfico para usuários que priorizam a privacidade dos dados e desejam manter suas informações fora da internet.
 
 
-  💾 Offline Capabilities: Since Nullboard is a self-hosted solution, it can operate offline, allowing you to access and update your tasks even when you’re not connected to the internet. This makes it a versatile choice for users who need a reliable task management tool in offline settings.
+  🚫 Não é necessário banco de dados: o Nullboard não requer uma configuração complexa de back-end; ele salva todos os dados em um único arquivo JSON. Essa abordagem baseada em arquivos facilita a configuração e a manutenção em comparação com ferramentas Kanban mais robustas, que geralmente exigem um banco de dados para armazenar informações. O arquivo JSON pode ser copiado, movido e restaurado sem complicações, aumentando a portabilidade da ferramenta.
 
 
-  📊 Basic Kanban Functionality: Nullboard provides essential Kanban functionality such as creating boards, adding lists, and organizing tasks. Tasks can be moved between lists to track progress. However, it lacks some advanced features found in larger platforms like Trello or Jira, such as collaboration tools, automated workflows, and integrations with other software.
+  💾 Recursos off-line: como o Nullboard é uma solução auto-hospedada, ele pode operar off-line, permitindo acessar e atualizar suas tarefas mesmo quando não estiver conectado à Internet. Isso o torna uma escolha versátil para usuários que precisam de uma ferramenta confiável de gerenciamento de tarefas em ambientes offline.
 
 
-  Nullboard is an excellent option for anyone looking for a no-frills Kanban board with an emphasis on simplicity, privacy, and ease of use. While it may not have the extensive features of mainstream Kanban tools, it serves as a practical solution for those who prefer an uncluttered, self-contained task management tool.
+  📊 Funcionalidade Kanban básica: Nullboard fornece funcionalidades Kanban essenciais, como criação de quadros, adição de listas e organização de tarefas. As tarefas podem ser movidas entre listas para acompanhar o progresso. No entanto, faltam alguns recursos avançados encontrados em plataformas maiores como Trello ou Jira, como ferramentas de colaboração, fluxos de trabalho automatizados e integrações com outros softwares.
+
+
+  Nullboard é uma excelente opção para quem procura um quadro Kanban simples, com ênfase na simplicidade, privacidade e facilidade de uso. Embora possa não ter os recursos extensos das ferramentas Kanban convencionais, ele serve como uma solução prática para aqueles que preferem uma ferramenta de gerenciamento de tarefas organizada e independente.
 
 developer: Alex Pankratov
 website: https://nullboard.io/
@@ -37,9 +37,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/apankrat/nullboard
 support: https://github.com/apankrat/nullboard/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nullboard/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nullboard/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nullboard/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nullboard/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nullboard/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nullboard/3.jpg
 releaseNotes: >-
   The latest update improves mobile device scaling and includes minor code cleanup. Additionally, it simplifies the process for integrating external backup authentication tokens.
 dependencies:

@@ -1,25 +1,25 @@
 manifestVersion: 1
 id: tascok-speedtest-tracker
 name: Speedtest Tracker
-tagline: A real-time internet performance monitor
+tagline: Um monitor de desempenho da Internet em tempo real
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-speedtest-tracker/logo.png
 category: networking
 version: "1.6.6"
 port: 8622
 description: >-
-  ⚡ Speedtest Tracker is an application designed to continuously monitor the performance and reliability of your internet connection. It performs regular speed tests to measure download speeds, upload speeds, and latency, capturing detailed data about your network’s performance over time. By collecting this information consistently, it provides a complete view of how your internet connection behaves under different conditions and at various times of the day.
+  ⚡ Speedtest Tracker é um aplicativo desenvolvido para monitorar continuamente o desempenho e a confiabilidade da sua conexão à Internet. Ele realiza testes de velocidade regulares para medir velocidades de download, upload e latência, capturando dados detalhados sobre o desempenho da sua rede ao longo do tempo. Ao coletar essas informações de forma consistente, ele fornece uma visão completa de como sua conexão com a internet se comporta sob diferentes condições e em vários horários do dia.
 
 
-  The application presents all recorded results in a clean and interactive dashboard. Users can explore historical data, visualize trends, and identify patterns in their internet performance. This allows them to see when speeds fluctuate, detect recurring issues, and gain a better understanding of the overall stability of their connection. The dashboard is designed to make complex data easy to understand, offering both high-level summaries and detailed insights into each speed test.
+  O aplicativo apresenta todos os resultados registrados em um painel limpo e interativo. Os usuários podem explorar dados históricos, visualizar tendências e identificar padrões em seu desempenho na Internet. Isso permite que eles vejam quando as velocidades flutuam, detectem problemas recorrentes e obtenham uma melhor compreensão da estabilidade geral de sua conexão. O painel foi projetado para facilitar a compreensão de dados complexos, oferecendo resumos de alto nível e insights detalhados sobre cada teste de velocidade.
 
 
-  In addition to monitoring and visualization, Speedtest Tracker offers the ability to set alerts and notifications. Users can define thresholds for performance, and the application will notify them whenever their connection falls below these levels. This proactive approach helps users address problems quickly and ensures they are always aware of any interruptions or slowdowns in their internet service.
+  Além de monitoramento e visualização, o Speedtest Tracker oferece a capacidade de definir alertas e notificações. Os usuários podem definir limites de desempenho e o aplicativo irá notificá-los sempre que sua conexão cair abaixo desses níveis. Essa abordagem proativa ajuda os usuários a resolver problemas rapidamente e garante que eles estejam sempre cientes de quaisquer interrupções ou lentidão no serviço de Internet.
 
 
-  Another important feature is the export of historical data. Users can download their collected speed test results in formats suitable for further analysis. This makes it possible to perform custom investigations, compare performance over long periods, and even generate reports for work or personal use. The application also supports multiple users with different access levels, allowing teams or households to centrally monitor internet performance while maintaining appropriate control over who can view and manage the data.
+  Outra funcionalidade importante é a exportação de dados históricos. Os usuários podem baixar os resultados dos testes de velocidade coletados em formatos adequados para análise posterior. Isso possibilita realizar investigações personalizadas, comparar desempenho em longos períodos e até gerar relatórios para trabalho ou uso pessoal. A aplicação também suporta vários utilizadores com diferentes níveis de acesso, permitindo que equipas ou famílias monitorizem centralmente o desempenho da Internet, mantendo ao mesmo tempo o controlo adequado sobre quem pode visualizar e gerir os dados.
 
 
-  Overall, Speedtest Tracker provides a comprehensive, intuitive, and actionable view of internet performance, helping users understand, track, and respond to changes in their network’s behavior over time.
+  No geral, o Speedtest Tracker fornece uma visão abrangente, intuitiva e prática do desempenho da Internet, ajudando os usuários a compreender, rastrear e responder às mudanças no comportamento de sua rede ao longo do tempo.
 developer: Alex Justesen
 website: speedtest-tracker.dev/
 submitter: Tascok
@@ -27,18 +27,18 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/alexjustesen/speedtest-tracker
 support: https://github.com/alexjustesen/speedtest-tracker/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-speedtest-tracker/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-speedtest-tracker/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-speedtest-tracker/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-speedtest-tracker/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-speedtest-tracker/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-speedtest-tracker/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-speedtest-tracker/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-speedtest-tracker/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-speedtest-tracker/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-speedtest-tracker/5.jpg
 releaseNotes: >-
   Version 1.6.6 of Speedtest Tracker introduces several improvements and fixes. 
-  
-  
+
+
   The update fixes text color issues on the getting started page for the light theme, adds a multi-database CI pipeline, and consolidates various API endpoints into dedicated controllers. 
-  
-  
+
+
   It also adds a notification to show when an app update is available.
 dependencies: []
 path: ""

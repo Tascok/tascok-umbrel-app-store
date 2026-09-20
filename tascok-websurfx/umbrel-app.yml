@@ -1,39 +1,39 @@
 manifestVersion: 1
 id: tascok-websurfx
 name: Websurfx
-tagline: A fast, private, secure open source SearX alternative
+tagline: Uma alternativa SearX de código aberto rápida, privada e segura
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-websurfx/logo.png
 category: networking
 version: "1.0.0"
 port: 8177
 description: >-
-  🌐 Websurfx is an open source meta search engine designed to be self hosted, providing users with a private and customizable alternative to mainstream search services. Built using the Rust programming language, it emphasizes performance, security, and efficient resource management. This choice of technology helps ensure memory safety and fast execution while reducing the risk of vulnerabilities.
+  🌐 Websurfx é um mecanismo de metabusca de código aberto projetado para ser auto-hospedado, fornecendo aos usuários uma alternativa privada e personalizável aos serviços de busca convencionais. Construído usando a linguagem de programação Rust, ele enfatiza desempenho, segurança e gerenciamento eficiente de recursos. Esta escolha de tecnologia ajuda a garantir a segurança da memória e a execução rápida, ao mesmo tempo que reduz o risco de vulnerabilidades.
 
 
-  The core idea behind Websurfx is to aggregate search results from multiple providers into a single, unified interface. By doing so, it avoids displaying ads and focuses on delivering organic and relevant search results. Websurfx features a built in ranking algorithm that reorganizes results to highlight the most pertinent information, creating a clean and distraction free search experience.
+  A ideia central por trás do Websurfx é agregar resultados de pesquisa de vários provedores em uma interface única e unificada. Ao fazer isso, evita a exibição de anúncios e se concentra na entrega de resultados de pesquisa orgânicos e relevantes. Websurfx apresenta um algoritmo de classificação integrado que reorganiza os resultados para destacar as informações mais pertinentes, criando uma experiência de pesquisa limpa e sem distrações.
 
 
-  Websurfx offers a highly customizable user interface with several pre made color schemes available out of the box. Users also have the option to create their own themes, allowing them to tailor the visual appearance according to their preferences. Additionally, the platform includes advanced filtering options that enable users to control the content they see, including the ability to filter out sensitive or not safe for work material.
+  Websurfx oferece uma interface de usuário altamente personalizável com vários esquemas de cores pré-fabricados disponíveis imediatamente. Os usuários também têm a opção de criar seus próprios temas, permitindo personalizar o visual de acordo com suas preferências. Além disso, a plataforma inclui opções avançadas de filtragem que permitem aos usuários controlar o conteúdo que veem, incluindo a capacidade de filtrar materiais confidenciais ou não seguros para trabalho.
 
 
-  Performance is another key strength of Websurfx. It uses multiple caching layers to speed up repeated searches and reduce latency. For Linux users, it can leverage IO uring, a modern asynchronous I/O interface, to achieve even better responsiveness and resource efficiency. These technical optimizations make Websurfx a fast and reliable solution for everyday search needs.
+  O desempenho é outro ponto forte do Websurfx. Ele usa múltiplas camadas de cache para acelerar pesquisas repetidas e reduzir a latência. Para usuários do Linux, ele pode aproveitar o IO uring, uma interface de E/S assíncrona moderna, para obter capacidade de resposta e eficiência de recursos ainda melhores. Essas otimizações técnicas tornam o Websurfx uma solução rápida e confiável para as necessidades diárias de pesquisa.
 
 
-  Beyond standard web search, Websurfx integrates various micro applications directly into the search results. These tools can include calculators, currency converters, and other utilities that enhance productivity without requiring users to leave the search page. The engine also supports enhanced image search capabilities, with filters for color and size, making it versatile for a wide range of use cases.
+  Além da pesquisa padrão na web, o Websurfx integra vários microaplicativos diretamente nos resultados da pesquisa. Essas ferramentas podem incluir calculadoras, conversores de moeda e outros utilitários que aumentam a produtividade sem exigir que os usuários saiam da página de pesquisa. O mecanismo também oferece suporte a recursos aprimorados de pesquisa de imagens, com filtros de cor e tamanho, tornando-o versátil para uma ampla variedade de casos de uso.
 
 
-  Compared to similar meta search engines like SearX, Websurfx places strong emphasis on security and memory safety thanks to its Rust foundation. It also stands out with its clean design, customizable interface, and additional built in tools, catering to users who want a modern and privacy focused search experience.
+  Comparado a mecanismos de metabusca semelhantes, como o SearX, o Websurfx dá grande ênfase à segurança e à proteção da memória, graças à sua base Rust. Ele também se destaca por seu design limpo, interface personalizável e ferramentas adicionais integradas, atendendo a usuários que desejam uma experiência de pesquisa moderna e focada na privacidade.
 
 
-  ⚠️ Please note that to enable full functionality, the app must be configured according to the documentation. This involves setting the appropriate variables in the config.lua file, as described here:
-  
-  
+  ⚠️ Observe que para ativar todas as funcionalidades, o aplicativo deve ser configurado de acordo com a documentação. Isso envolve definir as variáveis ​​apropriadas no arquivo config.lua, conforme descrito aqui:
+
+
   https://github.com/neon-mmd/websurfx/blob/rolling/docs/configuration.md
 
 
-  🎨 For theming and further customizations, please refer to the project documentation available here:
-  
-  
+  🎨 Para temas e outras personalizações, consulte a documentação do projeto disponível aqui:
+
+
   https://github.com/neon-mmd/websurfx/tree/rolling/docs
 developer: neon-mmd
 website: https://github.com/neon-mmd/websurfx
@@ -42,9 +42,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/neon-mmd/websurfx
 support: https://github.com/neon-mmd/websurfx/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-websurfx/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-websurfx/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-websurfx/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-websurfx/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-websurfx/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-websurfx/3.jpg
 releaseNotes: >-
   This is the initial release of the project. There are no previous changelogs available.
 dependencies:

@@ -1,19 +1,19 @@
 manifestVersion: 1
 id: tascok-transmute
 name: Transmute
-tagline: An efficient tool for transforming files on your Umbrel
+tagline: Uma ferramenta eficiente para transformar arquivos em seu Umbrel
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-transmute/logo.png
 category: files & productivity
 version: "2.0.0"
 port: 3313
 description: >-
-  Transmute is a file conversion app for turning files into different formats through a clean and simple interface. It supports a wide range of file types, including images, videos, audio files, documents, structured data, spreadsheets, subtitles, fonts, and diagrams.
+  Transmute é um aplicativo de conversão de arquivos para transformar arquivos em diferentes formatos através de uma interface limpa e simples. Ele oferece suporte a uma ampla variedade de tipos de arquivos, incluindo imagens, vídeos, arquivos de áudio, documentos, dados estruturados, planilhas, legendas, fontes e diagramas.
 
 
-  The app is built for both manual conversions and automated workflows. Its API makes it possible to connect Transmute with other apps, scripts, or services, so files can be converted as part of a larger process without doing everything by hand.
+  O aplicativo foi desenvolvido para conversões manuais e fluxos de trabalho automatizados. Sua API possibilita conectar o Transmute a outros aplicativos, scripts ou serviços, para que os arquivos possam ser convertidos como parte de um processo maior sem fazer tudo manualmente.
 
 
-  Transmute helps simplify everyday format changes, from converting media files into more compatible formats to transforming documents, data files, and diagrams for further use. It brings many different conversion tasks together in one place and makes them easy to access.
+  Transmute ajuda a simplificar as alterações diárias de formato, desde a conversão de arquivos de mídia em formatos mais compatíveis até a transformação de documentos, arquivos de dados e diagramas para uso posterior. Ele reúne muitas tarefas de conversão diferentes em um só lugar e facilita o acesso.
 developer: Transmute
 website: https://transmute.sh/
 submitter: Tascok
@@ -21,9 +21,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/transmute-app/transmute
 support: https://github.com/transmute-app/transmute/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-transmute/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-transmute/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-transmute/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-transmute/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-transmute/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-transmute/3.jpg
 releaseNotes: >-
   This update significantly expands Transmute beyond file conversion by introducing file compression for the first time.
 

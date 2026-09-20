@@ -1,19 +1,19 @@
 manifestVersion: 1
 id: tascok-habittrove
 name: HabitTrove
-tagline: A gamified habit tracking application
+tagline: Um aplicativo gamificado de rastreamento de hábitos
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-habittrove/logo.png
 category: files & productivity
 version: "0.2.5"
 port: 3094
 description: >-
-  🪙 HabitTrove is an open-source habit-tracking application that combines productivity with gamification to help users build and maintain positive habits in a more engaging and rewarding way. Rather than simply checking off tasks, users are motivated by a reward system that mimics game mechanics: completing habits earns coins, which can then be used to "purchase" personalized rewards from a wishlist. This system is designed to reinforce consistency and create a sense of achievement, making the process of habit formation feel more interactive and enjoyable.
+  🪙 HabitTrove é um aplicativo de rastreamento de hábitos de código aberto que combina produtividade com gamificação para ajudar os usuários a construir e manter hábitos positivos de uma forma mais envolvente e gratificante. Em vez de simplesmente marcar tarefas, os usuários são motivados por um sistema de recompensas que imita a mecânica do jogo: completar hábitos rende moedas, que podem então ser usadas para “comprar” recompensas personalizadas de uma lista de desejos. Este sistema foi projetado para reforçar a consistência e criar uma sensação de realização, tornando o processo de formação de hábitos mais interativo e agradável.
 
 
-  The app allows users to create custom habits with specific daily goals and track their progress over time. Users can view statistics and visual representations of their performance, helping them stay accountable and identify patterns in their behavior. One of the notable features of HabitTrove is its support for multiple users, enabling collaborative habit tracking and shared reward systems, such as within families, friends, or teams. It includes permission controls, so users can manage who can view or modify shared data.
+  O aplicativo permite que os usuários criem hábitos personalizados com metas diárias específicas e acompanhem seu progresso ao longo do tempo. Os usuários podem visualizar estatísticas e representações visuais de seu desempenho, ajudando-os a permanecer responsáveis ​​e a identificar padrões em seu comportamento. Um dos recursos notáveis ​​do HabitTrove é o suporte para vários usuários, permitindo rastreamento colaborativo de hábitos e sistemas de recompensa compartilhados, como familiares, amigos ou equipes. Inclui controles de permissão, para que os usuários possam gerenciar quem pode visualizar ou modificar dados compartilhados.
 
 
-  HabitTrove emphasizes flexibility, allowing users to tailor the system to their individual motivations and preferences. Whether someone wants to build a meditation practice, exercise regularly, or reduce screen time, HabitTrove provides a framework that supports sustainable habit development. Since it's open source, it's also possible for users to host their own instance or contribute to its development, making it a transparent and customizable solution for anyone interested in self-improvement through habit tracking.
+  HabitTrove enfatiza a flexibilidade, permitindo aos usuários adaptar o sistema às suas motivações e preferências individuais. Quer alguém queira desenvolver uma prática de meditação, praticar exercícios regularmente ou reduzir o tempo de tela, o HabitTrove fornece uma estrutura que apoia o desenvolvimento sustentável de hábitos. Por ser de código aberto, também é possível que os usuários hospedem sua própria instância ou contribuam para seu desenvolvimento, tornando-a uma solução transparente e customizável para qualquer pessoa interessada no autoaperfeiçoamento por meio do rastreamento de hábitos.
 developer: David Simpson
 website: https://habittrove.app.enting.org/
 submitter: Tascok
@@ -21,10 +21,10 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/dohsimpson/HabitTrove
 support: https://github.com/dohsimpson/HabitTrove/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-habittrove/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-habittrove/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-habittrove/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-habittrove/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-habittrove/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-habittrove/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-habittrove/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-habittrove/4.jpg
 releaseNotes: >-
   In version 0.2.5, the Next.js version was updated to address the security vulnerability CVE-2025-29927.
 dependencies:

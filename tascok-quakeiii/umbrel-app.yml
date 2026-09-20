@@ -1,30 +1,30 @@
 manifestVersion: 1
 id: tascok-quakeiii
 name: Quake III Arena
-tagline: An explosive journey into the heart of '90s gaming madness
+tagline: Uma viagem explosiva ao coração da loucura dos jogos dos anos 90
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-quakeiii/logo.png
 category: gaming
 version: "1.0"
 port: 8789
 description: >-
-  Quake III Arena is the ultimate game for those who think gravity is optional, quiet moments are overrated, and explosions are just part of the daily routine. This 1999 classic isn’t about realistic physics or complex storylines - it’s about pure, unfiltered action. You spawn, you shoot, you get blown up, and you respawn, all before you’ve even had a chance to blink. The weapons? A glorious arsenal of rocket launchers, railguns, and shotguns, all designed to ensure your opponents vanish in the most spectacular way possible.
+  Quake III Arena é o jogo definitivo para quem pensa que a gravidade é opcional, os momentos de silêncio são superestimados e as explosões são apenas parte da rotina diária. Este clássico de 1999 não é sobre física realista ou histórias complexas – é sobre ação pura e sem filtros. Você surge, atira, explode e reaparece, tudo antes mesmo de ter a chance de piscar. As armas? Um glorioso arsenal de lançadores de foguetes, canhões elétricos e espingardas, todos projetados para garantir que seus oponentes desapareçam da maneira mais espetacular possível.
 
 
-  The arenas are futuristic death traps, expertly crafted to test your reflexes and drive you slightly insane. Health, armor, and ammo are scattered around like treasures, but only if you’re quick enough to grab them before the guy with the plasma gun does. And let’s not forget the power-ups – momentary blessings that turn you into an unstoppable force... until someone drops a rocket on your head.
+  As arenas são armadilhas mortais futurísticas, habilmente elaboradas para testar seus reflexos e deixá-lo um pouco louco. Saúde, armadura e munição estão espalhadas como tesouros, mas apenas se você for rápido o suficiente para agarrá-los antes que o cara com a arma de plasma o faça. E não vamos esquecer dos power-ups – bênçãos momentâneas que transformam você em uma força imparável... até que alguém jogue um foguete na sua cabeça.
 
 
-  Whether you’re battling hyper-aggressive bots in single-player or taking on real players who show no mercy in online matches, Quake III Arena delivers chaos at lightning speed. It’s fast, it’s addictive, and it’s a cornerstone of multiplayer gaming history. This is not just a game; it’s a legacy, a reminder of the golden age of shooters. So grab your mouse, lock and load your rocket launcher, and prove that you’re the true champion of the arena – at least until a BFG 10K sends you flying into oblivion.
+  Esteja você lutando contra bots hiperagressivos no modo single player ou enfrentando jogadores reais que não mostram piedade em partidas online, Quake III Arena oferece o caos na velocidade da luz. É rápido, viciante e é a pedra angular da história dos jogos multijogador. Isto não é apenas um jogo; é um legado, uma lembrança da era de ouro dos atiradores. Então pegue seu mouse, bloqueie e carregue seu lançador de foguetes e prove que você é o verdadeiro campeão da arena – pelo menos até que um BFG 10K o mande voando para o esquecimento.
 
 
-  ⚠️ Quake III works best in Chromium-based browsers. Firefox may encounter compatibility issues due to WebGL or security restrictions.
+  ⚠️ Quake III funciona melhor em navegadores baseados em Chromium. O Firefox pode encontrar problemas de compatibilidade devido ao WebGL ou restrições de segurança.
 
 
-  🔧 System Requirements: A time machine to '99,
-                          Pentium II 266 MHz or AMD K6-2 350 MHz CPU, 
-                          64 MB RAM, 
-                          25 MB for game files,
-                          (Umbrel Home is 100x CPU, but will need to make 0.001192% of Free Space)
-                          Runs in the browser, will need to download 0.3906% of more RAM if needed from browser.
+  🔧 Requisitos do sistema: Uma máquina do tempo até 99,
+                          CPU Pentium II 266 MHz ou AMD K6-2 350 MHz, 
+                          64 MB de RAM, 
+                          25 MB para arquivos de jogos,
+                          (Umbrel Home tem CPU 100x, mas precisará ocupar 0,001192% de espaço livre)
+                          É executado no navegador, precisará baixar 0,3906% de mais RAM, se necessário, no navegador.
 developer: id Software
 website: https://github.com/id-Software/Quake-III-Arena
 submitter: Tascok
@@ -32,9 +32,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/treyyoder/quakejs-docker
 support: https://github.com/treyyoder/quakejs-docker/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-quakeiii/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-quakeiii/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-quakeiii/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-quakeiii/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-quakeiii/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-quakeiii/3.jpg
 releaseNotes: >-
   Quake III Arena launches with more explosions, faster respawns, and enough chaos to keep your trigger finger busy for days. Frag or be fragged-there’s no in-between.
 dependencies:

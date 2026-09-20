@@ -1,19 +1,19 @@
 manifestVersion: 1
 id: tascok-monetr
 name: Monetr
-tagline: A budgeting application focused on planning for recurring expenses
+tagline: Um aplicativo de orçamento focado no planejamento de despesas recorrentes
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-monetr/logo.png
 category: finance
 version: "1.7.0"
 port: 8379
 description: >-
-  💸 Monetr is a personal finance application that helps users understand their spending and manage their money with clarity. It focuses on presenting a clear picture of available funds by showing how much remains after accounting for upcoming expenses and savings goals. The application allows users to organise their finances around real obligations and planned costs rather than relying on a simple monthly view. It supports recurring expenses of any interval and uses these to calculate what must be set aside so that future payments are always covered.
+  💸 Monetr é um aplicativo de finanças pessoais que ajuda os usuários a entender seus gastos e administrar seu dinheiro com clareza. Ele se concentra em apresentar uma imagem clara dos fundos disponíveis, mostrando quanto resta após contabilizar as despesas futuras e as metas de poupança. O aplicativo permite que os usuários organizem suas finanças em torno de obrigações reais e custos planejados, em vez de depender de uma simples visualização mensal. Suporta despesas recorrentes de qualquer intervalo e utiliza-as para calcular o que deve ser reservado para que os pagamentos futuros sejam sempre cobertos.
 
 
-  Monetr provides tools to categorise transactions, track spending patterns and manage budgets in a way that adapts to individual financial habits. It allows users to build an accurate overview of their financial commitments and ensures that both regular and irregular payments are reflected in their balance. The system encourages a realistic approach to budgeting by helping users allocate money intentionally and avoid unexpected shortfalls.
+  Monetr fornece ferramentas para categorizar transações, rastrear padrões de gastos e gerenciar orçamentos de uma forma que se adapte aos hábitos financeiros individuais. Permite aos utilizadores criar uma visão geral precisa dos seus compromissos financeiros e garante que tanto os pagamentos regulares como os irregulares se refletem no seu saldo. O sistema incentiva uma abordagem realista à orçamentação, ajudando os utilizadores a alocar dinheiro intencionalmente e a evitar défices inesperados.
 
 
-  Through its design, monetr aims to make personal financial planning more predictable and less stressful by giving users a structured and transparent view of their finances.
+  Através do seu design, o monetr visa tornar o planejamento financeiro pessoal mais previsível e menos estressante, proporcionando aos usuários uma visão estruturada e transparente de suas finanças.
 developer: Monetr LLC.
 website: https://monetr.app/
 submitter: Tascok
@@ -21,10 +21,10 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/monetr/monetr
 support: https://github.com/monetr/monetr/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-monetr/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-monetr/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-monetr/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-monetr/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-monetr/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-monetr/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-monetr/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-monetr/4.jpg
 releaseNotes: >-
   This version introduces improved handling of similar transactions and expands the transaction details view while refining date formatting and loading behaviour. It also integrates the react compiler into the frontend build and moves several components to lazy or asynchronous loading to enhance performance.
 

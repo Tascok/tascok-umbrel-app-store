@@ -1,44 +1,43 @@
 manifestVersion: 1
 id: tascok-joplin
 name: Joplin Sync Server
-tagline: An open-source synchronization server for Joplin
+tagline: Um servidor de sincronização de código aberto para Joplin
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-joplin/logo.png
 category: files & productivity
 version: "3.0.1"
 port: 22300
 description: >-
-    Joplin Sync Server is an open-source synchronization server for Joplin, the popular note-taking and to-do application.
-    
-    Designed to manage and synchronize notes across devices, Joplin Server provides several key features:
+  Joplin Sync Server é um servidor de sincronização de código aberto para Joplin, o popular aplicativo de anotações e tarefas.
+
+  Projetado para gerenciar e sincronizar notas entre dispositivos, o Joplin Server oferece vários recursos importantes:
 
 
-    🔄 Synchronization: It allows seamless synchronization of notes, notebooks, and tags across multiple devices, ensuring that changes made on one device are reflected everywhere.
+  🔄 Sincronização: permite a sincronização perfeita de notas, cadernos e etiquetas em vários dispositivos, garantindo que as alterações feitas em um dispositivo sejam refletidas em todos os lugares.
 
 
-    🛡️ Security: Joplin Server supports end-to-end encryption, keeping your data secure during transmission. This means your notes and personal information are protected from unauthorized access.
+  🛡️ Segurança: O Joplin Server suporta criptografia ponta a ponta, mantendo seus dados seguros durante a transmissão. Isso significa que suas anotações e informações pessoais estão protegidas contra acesso não autorizado.
 
 
-    🔧 Customizability: As an open-source project, Joplin Server can be customized and extended to fit various needs. Users can modify the server to better integrate with their existing infrastructure.
+  🔧 Personalização: Como um projeto de código aberto, o Joplin Server pode ser personalizado e estendido para atender a diversas necessidades. Os usuários podem modificar o servidor para melhor integração com a infraestrutura existente.
 
 
-    💾 Backup and Restore: It supports backups, enabling users to restore their data in case of accidental loss or corruption.
-
-    
-    🖥️ Web Interface: Joplin Server includes a web interface for easy management of the server and monitoring synchronization status.
-
-    
-    🔒 By using Joplin Server, users can maintain a consistent and secure note-taking experience across all their devices while keeping full control over their data.
+  💾 Backup e Restauração: Suporta backups, permitindo aos usuários restaurar seus dados em caso de perda acidental ou corrupção.
 
 
-    🌐 HTTPS Configuration: The browser version of the app can operate over http, but the mobile app requires https. You can set up https using the Cloudflare Tunnel app available in the app store.
-    Detailed instructions for configuring the tunnel can be found here: 
-    
-    
-    https://github.com/Radiokot/umbrel-cloudflared/wiki/How-to-set-up-Cloudflare-Tunnel-on-your-Umbrel
-  
+  🖥️ Interface Web: O Joplin Server inclui uma interface web para fácil gerenciamento do servidor e monitoramento do status de sincronização.
 
-    🔑 By default, Joplin Server will be setup with an admin user with email "admin@localhost" and password "admin".
-    
+
+  🔒 Ao usar o Joplin Server, os usuários podem manter uma experiência de anotações consistente e segura em todos os seus dispositivos, mantendo controle total sobre seus dados.
+
+
+  🌐 Configuração HTTPS: A versão do aplicativo para navegador pode operar em http, mas o aplicativo móvel requer https. Você pode configurar https usando o aplicativo Cloudflare Tunnel disponível na app store. Instruções detalhadas para configurar o túnel podem ser encontradas aqui: 
+
+
+  https://github.com/Radiokot/umbrel-cloudflared/wiki/How-to-set-up-Cloudflare-Tunnel-on-your-Umbrel
+
+
+  🔑 Por padrão, o Joplin Server será configurado com um usuário administrador com email "admin@localhost" e senha "admin".
+
 developer: Laurent Cozic
 website: https://joplinapp.org
 submitter: Tascok
@@ -46,14 +45,11 @@ submission: https://github.com/dennysubke/dennys-umbrel-app-store
 repo: https://github.com/laurent22/joplin
 support: https://github.com/laurent22/joplin/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-joplin/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-joplin/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-joplin/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-joplin/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-joplin/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-joplin/3.jpg
 releaseNotes: >-
-  Several new features have been introduced, including support for Postgres replication and the ability to display uploaded data size in reports. 
-  A new report page has also been added. Performance improvements include optimizations for web client synchronization, logging, and delta change queries. 
-  Additionally, several packages have been updated, and the use of a slave database for reports has been implemented. 
-  Bug fixes include validation of records before adding items to users.
+  Several new features have been introduced, including support for Postgres replication and the ability to display uploaded data size in reports.  A new report page has also been added. Performance improvements include optimizations for web client synchronization, logging, and delta change queries.  Additionally, several packages have been updated, and the use of a slave database for reports has been implemented.  Bug fixes include validation of records before adding items to users.
 dependencies: []
 path: ""
 defaultUsername: "admin@localhost"

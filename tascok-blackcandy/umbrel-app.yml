@@ -1,35 +1,34 @@
 manifestVersion: 1
 id: tascok-blackcandy
 name: Black Candy
-tagline: A self hosted music streaming server
+tagline: Um servidor de streaming de música auto-hospedado
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-blackcandy/logo.png
 category: media
 version: "3.0.0"
 port: 1980
 description: >-
-  BlackCandy is an open-source, self-hosted music streaming server designed for users who prefer to manage their own music libraries privately. Built with simplicity in mind, BlackCandy lets users upload, organize, and stream music through a clean web interface. It supports common audio formats like MP3 and FLAC, and users can easily control their library from any device connected to the server.
-  The software is customizable and secure, making it ideal for those who value privacy and want to avoid third-party streaming services.
+  BlackCandy é um servidor de streaming de música auto-hospedado e de código aberto, projetado para usuários que preferem gerenciar suas próprias bibliotecas de música de forma privada. Construído com a simplicidade em mente, o BlackCandy permite aos usuários fazer upload, organizar e transmitir músicas por meio de uma interface web limpa. Ele suporta formatos de áudio comuns como MP3 e FLAC, e os usuários podem controlar facilmente sua biblioteca a partir de qualquer dispositivo conectado ao servidor. O software é personalizável e seguro, o que o torna ideal para quem valoriza a privacidade e deseja evitar serviços de streaming de terceiros.
 
-   Key features include:
+   Os principais recursos incluem:
 
-  🌐 Web-based music library management and streaming.
-
-
-  🗂️ Supports multiple audio formats, including MP3 and FLAC.
+  🌐 Gerenciamento e streaming de biblioteca de música baseado na Web.
 
 
-  📱 Mobile-friendly interface for on-the-go streaming.
+  🗂️ Suporta vários formatos de áudio, incluindo MP3 e FLAC.
 
 
-  🗃️ Ability to organize music by artists, albums, and playlists.
+  📱 Interface compatível com dispositivos móveis para streaming em qualquer lugar.
 
 
-  🔧 Easy setup and installation for self-hosting on a personal server.
+  🗃️ Capacidade de organizar músicas por artistas, álbuns e playlists.
 
 
-   With a focus on privacy and control, BlackCandy is a great alternative to commercial streaming services, giving users full ownership of their media collection without any data sharing. It's ideal for those who want a lightweight, personal music server that they can customize and maintain.
+  🔧 Fácil configuração e instalação para auto-hospedagem em um servidor pessoal.
 
-  🔑 The initial username is admin@admin.com and the password is foobar.
+
+   Com foco na privacidade e no controle, o BlackCandy é uma ótima alternativa aos serviços comerciais de streaming, dando aos usuários propriedade total de sua coleção de mídia sem qualquer compartilhamento de dados. É ideal para quem deseja um servidor de música leve e pessoal, que possa personalizar e manter.
+
+  🔑 O nome de usuário inicial é admin@admin.com e a senha é foobar.
 
 developer: Black Candy
 website: https://github.com/blackcandy-org
@@ -38,11 +37,11 @@ submission: https://github.com/blackcandy-org/black_candy
 repo: https://github.com/blackcandy-org/blackcandy
 support: https://github.com/blackcandy-org/blackcandy/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-blackcandy/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-blackcandy/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-blackcandy/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-blackcandy/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-blackcandy/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-blackcandy/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-blackcandy/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-blackcandy/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-blackcandy/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-blackcandy/5.jpg
 releaseNotes: >-
   Black Candy v3 introduces official mobile apps for Android and iOS, features a revamped user interface, and optimized performance. It also improves music library management and expands multilingual support.
 dependencies: []

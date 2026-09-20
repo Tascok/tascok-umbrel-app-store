@@ -1,28 +1,28 @@
 manifestVersion: 1
 id: tascok-auto-mcs
 name: Auto-MCS
-tagline: A cross-platform Minecraft server manager
+tagline: Um gerenciador de servidor Minecraft multiplataforma
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-auto-mcs/logo.png
 category: gaming
 version: "2.3.3"
 port: 8439
 description: >-
-  ⛏️ Auto-MCS is an advanced management tool designed to simplify the creation and operation of Minecraft servers. It automates nearly every aspect of server setup, from downloading and configuring the required files to managing updates, backups, and plugins. The application allows users to deploy new servers within minutes while handling all the complex tasks such as version control, mod and plugin installation, and configuration management in the background.
+  ⛏️ Auto-MCS é uma ferramenta de gerenciamento avançada projetada para simplificar a criação e operação de servidores Minecraft. Ele automatiza quase todos os aspectos da configuração do servidor, desde o download e configuração dos arquivos necessários até o gerenciamento de atualizações, backups e plug-ins. O aplicativo permite que os usuários implantem novos servidores em minutos, enquanto lidam com todas as tarefas complexas, como controle de versão, instalação de mod e plugins e gerenciamento de configuração em segundo plano.
 
 
-  It offers integrated support for various Minecraft editions and mod loaders, making it possible to switch between different server types without manual reconfiguration. Auto-MCS also provides built-in tools for player management, world switching, and access control, ensuring that administrators can easily adjust settings or permissions as needed.
+  Oferece suporte integrado para várias edições do Minecraft e carregadores de mod, tornando possível alternar entre diferentes tipos de servidores sem reconfiguração manual. O Auto-MCS também fornece ferramentas integradas para gerenciamento de jogadores, troca de mundo e controle de acesso, garantindo que os administradores possam ajustar facilmente as configurações ou permissões conforme necessário.
 
 
-  Its automatic crash detection and logging features help maintain server stability and simplify troubleshooting when issues occur. Additionally, it includes a console interface for live command execution, a scripting system for automating tasks, and a backup mechanism that keeps game data secure.
+  Seus recursos automáticos de detecção e registro de falhas ajudam a manter a estabilidade do servidor e simplificam a solução de problemas quando ocorrem problemas. Além disso, inclui uma interface de console para execução de comandos ao vivo, um sistema de script para automatizar tarefas e um mecanismo de backup que mantém os dados do jogo seguros.
 
 
-  Through a seamless combination of automation and user control, Auto-MCS transforms Minecraft server management into a fast, efficient, and accessible experience for both beginners and experienced administrators.
+  Através de uma combinação perfeita de automação e controle do usuário, o Auto-MCS transforma o gerenciamento de servidores Minecraft em uma experiência rápida, eficiente e acessível para administradores iniciantes e experientes.
 
 
-  ⚙️ Port 7001 is used by the Telepath API for remote communication and server management. 
-  
-  
-  Port 25565 is the default Minecraft server port that allows players to connect to the hosted world.
+  ⚙️ A porta 7001 é usada pela API Telepath para comunicação remota e gerenciamento de servidor. 
+
+
+  A porta 25565 é a porta padrão do servidor Minecraft que permite aos jogadores se conectarem ao mundo hospedado.
 developer: Kaleb Efflandt
 website: https://www.auto-mcs.com/
 submitter: Tascok
@@ -30,13 +30,13 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/macarooni-man/auto-mcs
 support: https://github.com/macarooni-man/auto-mcs/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-auto-mcs/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-auto-mcs/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-auto-mcs/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-auto-mcs/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-auto-mcs/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-auto-mcs/3.jpg
 releaseNotes: >-
   This version introduces major stability improvements and numerous bug fixes, including a new logging engine, enhanced PlayIt integration, and a switch to Paper’s Hangar for plugin management. 
-  
-  
+
+
   It also improves add-on installation, resolves several Linux and ARM issues, and enhances overall reliability.
 dependencies: []
 path: ""

@@ -1,31 +1,31 @@
 manifestVersion: 1
 id: tascok-docmost
 name: Docmost
-tagline: An collaborative wiki and documentation software
+tagline: Um wiki colaborativo e software de documentação
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-docmost/logo.png
 category: files & productivity
 version: "0.20.4"
 port: 8941
 description: >-
-  Docmost is an open source collaborative documentation and knowledge management platform designed to help teams create and maintain structured content together. It serves as a modern alternative to tools like Notion and Confluence with a strong focus on real time collaboration and ease of use.
+  Docmost é uma plataforma de documentação colaborativa e gerenciamento de conhecimento de código aberto projetada para ajudar equipes a criar e manter conteúdo estruturado juntas. Ele serve como uma alternativa moderna a ferramentas como Notion e Confluence, com forte foco na colaboração em tempo real e na facilidade de uso.
 
 
-  At its core Docmost allows multiple users to work on the same document simultaneously without the risk of overwriting each other's changes. Every update appears in real time creating a smooth and intuitive editing experience similar to what users expect from cloud based productivity tools. This real time capability makes Docmost especially suitable for fast moving teams and projects that require collective input and quick iteration.
+  Basicamente, o Docmost permite que vários usuários trabalhem no mesmo documento simultaneamente, sem o risco de sobrescrever as alterações uns dos outros. Cada atualização aparece em tempo real, criando uma experiência de edição intuitiva e suave, semelhante à que os usuários esperam das ferramentas de produtividade baseadas na nuvem. Esse recurso em tempo real torna o Docmost especialmente adequado para equipes e projetos em rápida evolução que exigem contribuições coletivas e iteração rápida.
 
 
-  The platform features a clean and user friendly rich text editor that supports advanced formatting tables comments and visual content. It integrates with tools such as Excalidraw Drawio and Mermaid to allow for the creation and embedding of diagrams directly within pages. This makes it easier to present ideas processes and relationships visually without needing to switch between applications.
+  A plataforma apresenta um editor de rich text limpo e fácil de usar que oferece suporte a comentários de tabelas de formatação avançada e conteúdo visual. Ele se integra a ferramentas como Excalidraw Drawio e Mermaid para permitir a criação e incorporação de diagramas diretamente nas páginas. Isso facilita a apresentação visual de processos e relacionamentos de ideias, sem a necessidade de alternar entre aplicativos.
 
 
-  Docmost organizes content through a system of spaces pages and groups with flexible permission settings. This structure allows teams to maintain clear boundaries between departments projects or knowledge areas while keeping navigation straightforward. Users can also search across the entire knowledge base with ease ensuring that information is always accessible when needed.
+  Docmost organiza o conteúdo por meio de um sistema de páginas e grupos de espaços com configurações de permissão flexíveis. Essa estrutura permite que as equipes mantenham limites claros entre projetos de departamentos ou áreas de conhecimento, ao mesmo tempo que mantêm a navegação simples. Os usuários também podem pesquisar toda a base de conhecimento com facilidade, garantindo que as informações estejam sempre acessíveis quando necessárias.
 
 
-  Built with extensibility in mind Docmost includes a plugin system supports translations and provides an API for custom integrations. Teams can self host the platform or opt for a managed cloud version depending on their infrastructure and compliance needs.
+  Construído com a extensibilidade em mente, o Docmost inclui um sistema de plugins que suporta traduções e fornece uma API para integrações personalizadas. As equipes podem hospedar a plataforma por conta própria ou optar por uma versão em nuvem gerenciada, dependendo de suas necessidades de infraestrutura e conformidade.
 
 
-  The core software is licensed under the AGPL which ensures that it remains free and open while encouraging contributions and transparency. For organizations seeking additional features or enterprise level support Docmost also offers a commercial edition with advanced capabilities and dedicated services.
+  O software principal é licenciado pela AGPL, o que garante que ele permaneça gratuito e aberto, ao mesmo tempo que incentiva contribuições e transparência. Para organizações que buscam recursos adicionais ou suporte de nível empresarial, a Docmost também oferece uma edição comercial com recursos avançados e serviços dedicados.
 
 
-  Overall Docmost provides a powerful yet flexible solution for teams that value collaborative knowledge sharing and want full control over their data and workflows.
+  No geral, o Docmost fornece uma solução poderosa e flexível para equipes que valorizam o compartilhamento colaborativo de conhecimento e desejam controle total sobre seus dados e fluxos de trabalho.
 developer: Docmost, Inc.
 website: https://docmost.com/
 submitter: Tascok
@@ -33,12 +33,12 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/docmost/docmost
 support: https://github.com/docmost/docmost/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-docmost/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-docmost/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-docmost/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-docmost/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-docmost/5.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-docmost/6.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-docmost/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-docmost/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-docmost/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-docmost/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-docmost/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-docmost/6.jpg
 releaseNotes: >-
   This update introduces the ability to copy pages to different spaces, improves handling of SSO URL casing, and fixes previously unhandled exceptions.
 dependencies:

@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-retroassembly
 name: RetroAssembly
-tagline: A personal retro game collection cabinet
+tagline: Um armário pessoal de coleção de jogos retrô
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-retroassembly/logo.png
 category: gaming
 version: "1.0"
 port: 5999
 description: >-
-  👾 RetroAssembly is a platform designed to let users build and enjoy their own personal library of retro video games. It takes ROM files provided by the user and transforms them into a beautifully presented collection, complete with cover art and detailed information. The interface makes it easy to explore the library, search for specific titles, and rediscover forgotten classics in an engaging and organized way.
+  👾 RetroAssembly é uma plataforma projetada para permitir que os usuários criem e desfrutem de sua própria biblioteca pessoal de videogames retrô. Ele pega os arquivos ROM fornecidos pelo usuário e os transforma em uma coleção lindamente apresentada, completa com capa e informações detalhadas. A interface facilita a exploração da biblioteca, a busca por títulos específicos e a redescoberta de clássicos esquecidos de forma envolvente e organizada.
 
 
-  Once a game is selected, it can be launched immediately, providing a seamless transition from browsing to playing. All progress is automatically saved, allowing players to return to their exact point in the game at any time. This persistence ensures that even long, challenging titles can be completed over multiple sessions without losing any achievements.
+  Depois que um jogo é selecionado, ele pode ser iniciado imediatamente, proporcionando uma transição perfeita entre a navegação e o jogo. Todo o progresso é salvo automaticamente, permitindo que os jogadores retornem ao ponto exato do jogo a qualquer momento. Essa persistência garante que mesmo títulos longos e desafiadores possam ser concluídos em várias sessões sem perder nenhuma conquista.
 
 
-  The gameplay experience is enhanced by a variety of features that recreate the feel of original hardware while adding modern conveniences. Visual filters mimic the appearance of classic CRT and handheld screens, bringing an authentic atmosphere to each session. A rewind function allows players to reverse gameplay in real time, offering the chance to retry difficult sections without starting over completely. Save states provide another layer of control, letting users preserve specific points in a game for quick reloads.
+  A experiência de jogo é aprimorada por uma variedade de recursos que recriam a sensação do hardware original ao mesmo tempo que adicionam conveniências modernas. Os filtros visuais imitam a aparência dos CRT clássicos e das telas portáteis, trazendo uma atmosfera autêntica a cada sessão. Uma função de retrocesso permite aos jogadores reverter o jogo em tempo real, oferecendo a oportunidade de repetir seções difíceis sem recomeçar completamente. Os estados de salvamento fornecem outra camada de controle, permitindo que os usuários preservem pontos específicos em um jogo para recargas rápidas.
 
 
-  Navigation throughout the library and during gameplay is smooth and intuitive, with full support for both keyboard and controller input. Every element is designed to keep the focus on the games themselves, removing unnecessary distractions and making it simple to enjoy everything from quick sessions of arcade-style action to long adventures spanning many hours.
+  A navegação pela biblioteca e durante o jogo é suave e intuitiva, com suporte total para entrada de teclado e controlador. Cada elemento foi projetado para manter o foco nos próprios jogos, eliminando distrações desnecessárias e simplificando a diversão de tudo, desde sessões rápidas de ação no estilo arcade até longas aventuras que duram muitas horas.
 developer: arianrhodsandlot
 website: https://retroassembly.com/
 submitter: Tascok
@@ -24,16 +24,16 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/arianrhodsandlot/retroassembly
 support: https://github.com/arianrhodsandlot/retroassembly/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-retroassembly/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-retroassembly/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-retroassembly/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-retroassembly/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-retroassembly/5.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-retroassembly/6.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-retroassembly/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-retroassembly/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-retroassembly/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-retroassembly/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-retroassembly/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-retroassembly/6.jpg
 releaseNotes: >-
   This version marks the official v1 release of RetroAssembly, introducing several major improvements over the initial version. 
-  
-  
+
+
   New features include Docker self-hosting, dark mode, automatic continuation from the latest saved state, full screen mode, and MD5-based metadata matching.
 dependencies: []
 path: ""

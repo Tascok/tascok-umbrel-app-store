@@ -1,28 +1,28 @@
 manifestVersion: 1
 id: tascok-coolify
 name: Coolify
-tagline: A lightweight platform to deploy apps easily
+tagline: Uma plataforma leve para implantar aplicativos facilmente
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-coolify/logo.png
 category: developer tools
 version: "4.1.2"
 port: 8527
 description: >-
-  🧊 Coolify is a modern platform designed to simplify the deployment and management of web applications. It provides an intuitive interface that allows developers to launch and maintain projects with minimal configuration. By automating complex DevOps processes, it eliminates the need for manual server setup, making application delivery faster and more reliable.
+  🧊 Coolify é uma plataforma moderna projetada para simplificar a implantação e o gerenciamento de aplicações web. Ele fornece uma interface intuitiva que permite aos desenvolvedores iniciar e manter projetos com configuração mínima. Ao automatizar processos DevOps complexos, elimina a necessidade de configuração manual do servidor, tornando a entrega de aplicativos mais rápida e confiável.
 
 
-  At its core, Coolify automatically builds and runs applications inside containerized environments, ensuring consistency across different projects and versions. It supports multiple programming languages and frameworks, allowing users to deploy both static websites and full-stack applications with ease. Coolify also manages databases and background services, keeping all essential components connected and optimized for performance.
+  Basicamente, o Coolify cria e executa aplicativos automaticamente dentro de ambientes em contêineres, garantindo consistência em diferentes projetos e versões. Ele oferece suporte a várias linguagens de programação e estruturas, permitindo aos usuários implantar sites estáticos e aplicativos full-stack com facilidade. Coolify também gerencia bancos de dados e serviços em segundo plano, mantendo todos os componentes essenciais conectados e otimizados para desempenho.
 
 
-  Security and stability are central to its design. The platform automatically provisions SSL certificates for secure connections, handles environment variables safely, and manages updates to keep everything running smoothly. It also includes real-time monitoring tools that track resource usage, logs, and deployment statuses, helping developers maintain full visibility over their applications.
+  Segurança e estabilidade são fundamentais para o seu design. A plataforma provisiona automaticamente certificados SSL para conexões seguras, lida com variáveis ​​de ambiente com segurança e gerencia atualizações para manter tudo funcionando perfeitamente. Também inclui ferramentas de monitoramento em tempo real que rastreiam o uso de recursos, logs e status de implantação, ajudando os desenvolvedores a manter visibilidade total sobre seus aplicativos.
 
 
-  Coolify integrates seamlessly with Git repositories, enabling automatic deployments whenever new code is pushed. This makes continuous delivery effortless while maintaining full control over the build and release process. Its flexible configuration options allow teams to adapt the platform to their workflows, combining the simplicity of managed services with the freedom of full customization.
+  Coolify se integra perfeitamente aos repositórios Git, permitindo implantações automáticas sempre que um novo código é enviado. Isso facilita a entrega contínua, ao mesmo tempo que mantém controle total sobre o processo de criação e lançamento. Suas opções flexíveis de configuração permitem que as equipes adaptem a plataforma aos seus fluxos de trabalho, combinando a simplicidade dos serviços gerenciados com a liberdade de personalização total.
 
 
-  In essence, Coolify transforms the process of hosting and managing applications into a straightforward, automated experience while preserving complete control, transparency, and flexibility for developers.
+  Em essência, Coolify transforma o processo de hospedagem e gerenciamento de aplicativos em uma experiência simples e automatizada, preservando total controle, transparência e flexibilidade para os desenvolvedores.
 
 
-  ⚠️ For setup instructions and important usage information, please refer to the https://github.com/dennysubke/dennys-umbrel-app-store/blob/master/tascok-coolify/README.md.
+  ⚠️ Para obter instruções de configuração e informações importantes de uso, consulte o https://github.com/dennysubke/dennys-umbrel-app-store/blob/master/tascok-coolify/README.md.
 developer: coolLabs
 website: https://coolify.io/
 submitter: Tascok
@@ -30,15 +30,15 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/coollabsio/coolify
 support: https://github.com/coollabsio/coolify/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-coolify/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-coolify/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-coolify/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-coolify/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-coolify/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-coolify/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-coolify/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-coolify/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-coolify/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-coolify/5.jpg
 releaseNotes: >-
   This release updates Coolify to version 4.1.2 and improves deployment security, authentication, permission validation, and configuration checks. It also fixes issues with private Git submodules, SSH deploy keys, preview deployments, environment variables, and container image tags. 
-  
-  
+
+
   Additional stability and reliability improvements have been added across the deployment workflow.
 dependencies: []
 path: ""

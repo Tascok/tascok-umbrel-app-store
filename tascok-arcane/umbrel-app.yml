@@ -3,31 +3,31 @@ id: tascok-arcane
 category: developer tools
 name: Arcane
 version: "1.8.0"
-tagline: An easy and modern Docker management platform
+tagline: Uma plataforma de gerenciamento Docker fácil e moderna
 description: >-
-   Arcane is a powerful and modern container management platform designed to simplify the way developers interact with Docker environments. It provides a seamless and visually appealing interface that brings all aspects of container management together in one place. Users can create, start, stop, and inspect containers, explore networks, manage images, and handle volumes with precision and control.
+  Arcane é uma plataforma poderosa e moderna de gerenciamento de contêineres projetada para simplificar a maneira como os desenvolvedores interagem com ambientes Docker. Ele fornece uma interface integrada e visualmente atraente que reúne todos os aspectos do gerenciamento de contêineres em um só lugar. Os usuários podem criar, iniciar, parar e inspecionar contêineres, explorar redes, gerenciar imagens e manipular volumes com precisão e controle.
 
 
-   Beyond basic management, Arcane enhances productivity by offering integrated tools that developers typically rely on during their daily workflows. Its built-in terminal allows direct interaction with running containers, while the embedded code editor enables quick configuration or script adjustments without switching to external applications. Real-time system insights and detailed logging give users a clear view of their infrastructure’s performance and resource usage.
+  Além do gerenciamento básico, o Arcane aumenta a produtividade ao oferecer ferramentas integradas nas quais os desenvolvedores normalmente contam durante seus fluxos de trabalho diários. Seu terminal integrado permite interação direta com contêineres em execução, enquanto o editor de código incorporado permite configuração rápida ou ajustes de script sem alternar para aplicativos externos. Insights do sistema em tempo real e registros detalhados oferecem aos usuários uma visão clara do desempenho de sua infraestrutura e do uso de recursos.
 
 
-   The platform is designed to bridge the gap between simplicity and advanced control. It combines a clean, modern design with powerful backend capabilities, making it equally suitable for developers experimenting locally and professionals managing larger setups. With Arcane, managing containers feels more like using a well-crafted development environment than an administrative dashboard, allowing users to focus on building and running applications instead of dealing with complex Docker commands.
+  A plataforma foi projetada para preencher a lacuna entre simplicidade e controle avançado. Ele combina um design limpo e moderno com recursos de back-end poderosos, tornando-o igualmente adequado para desenvolvedores que fazem experiências localmente e para profissionais que gerenciam configurações maiores. Com o Arcane, gerenciar contêineres parece mais usar um ambiente de desenvolvimento bem elaborado do que um painel administrativo, permitindo que os usuários se concentrem na construção e execução de aplicativos em vez de lidar com comandos complexos do Docker.
 
 
 
-   🧩 Arcane on Umbrel is designed for advanced users who want complete control over their containers. Follow these recommendations to ensure a reliable and stable experience.  
-  
+  🧩 Arcane on Umbrel foi projetado para usuários avançados que desejam controle total sobre seus contêineres. Siga estas recomendações para garantir uma experiência confiável e estável.  
 
-   1. Persistent data: Always use named Docker volumes for your containers and projects. Any data stored in bind mounts will be lost when the Arcane app is updated or restarted.  
-  
-  
-   2. Port usage: Be mindful of port conflicts between your containers, Umbrel system services, and other installed or future apps. Assign unique port numbers to prevent conflicts.  
-  
-  
-   3. Restart behavior: Configure your containers with the restart policy set to unless stopped or always. This ensures they automatically restart after Arcane restarts or updates.  
-  
-  
-   4. Web access: You can access any container that exposes a web interface at `umbrel.local:PORT_NUMBER`. For example, if your app runs on port 5050, open `http://umbrel.local:5050` in your browser. 
+
+  1. Dados persistentes: sempre use volumes nomeados do Docker para seus contêineres e projetos. Quaisquer dados armazenados em montagens vinculadas serão perdidos quando o aplicativo Arcane for atualizado ou reiniciado.  
+
+
+  2. Uso de portas: Esteja atento aos conflitos de portas entre seus contêineres, serviços do sistema Umbrel e outros aplicativos instalados ou futuros. Atribua números de porta exclusivos para evitar conflitos.  
+
+
+  3. Comportamento de reinicialização: configure seus contêineres com a política de reinicialização definida como a menos que seja interrompido ou sempre. Isso garante que eles sejam reiniciados automaticamente após a reinicialização ou atualização do Arcane.  
+
+
+  4. Acesso Web: Você pode acessar qualquer contêiner que exponha uma interface web em `umbrel.local:PORT_NUMBER`. Por exemplo, se seu aplicativo for executado na porta 5050, abra `http://umbrel.local:5050` no seu navegador. 
 website: https://getarcane.app/
 dependencies: []
 repo: https://github.com/getarcaneapp/arcane
@@ -35,11 +35,11 @@ support: https://github.com/getarcaneapp/arcane/issues
 port: 3552
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-arcane/logo.png
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-arcane/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-arcane/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-arcane/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-arcane/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-arcane/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-arcane/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-arcane/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-arcane/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-arcane/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-arcane/5.jpg
 path: ""
 defaultUsername: "arcane"
 defaultPassword: "arcane-admin"
@@ -55,7 +55,7 @@ releaseNotes: >-
 
   Full release notes are found at https://getarcane.app/changelog.
 permissions:
-  - GPU
+- GPU
 developer: Arcane
 submitter: Tascok
 submission: https://github.com/getumbrel/umbrel-apps/pull/

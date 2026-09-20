@@ -1,28 +1,28 @@
 manifestVersion: 1
 id: tascok-appwrite
 name: Appwrite
-tagline: An all-in-one platform for app development
+tagline: Uma plataforma completa para desenvolvimento de aplicativos
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-appwrite/logo.png
 category: developer tools
 version: "1.9.5"
 port: 8191
 description: >-
-  Appwrite is an open-source backend platform for developers who want to build modern web, mobile, and server applications without setting up every backend component from scratch.
+  Appwrite é uma plataforma de back-end de código aberto para desenvolvedores que desejam construir aplicativos modernos para web, dispositivos móveis e servidores sem configurar todos os componentes de back-end do zero.
 
 
-  It provides a complete set of ready-to-use backend services in one place, including authentication, user management, databases, file storage, serverless functions, realtime updates, messaging, and web hosting. With Appwrite, developers can focus on building their application while Appwrite handles many of the core backend features that are usually required for production-ready projects.
+  Ele fornece um conjunto completo de serviços de back-end prontos para uso em um só lugar, incluindo autenticação, gerenciamento de usuários, bancos de dados, armazenamento de arquivos, funções sem servidor, atualizações em tempo real, mensagens e hospedagem na web. Com o Appwrite, os desenvolvedores podem se concentrar na construção de seus aplicativos, enquanto o Appwrite lida com muitos dos principais recursos de back-end que geralmente são necessários para projetos prontos para produção.
 
 
-  The platform is especially useful for creating dashboards, mobile apps, SaaS products, internal tools, prototypes, and custom web applications. It offers SDKs and APIs that make it easy to connect frontend applications with a secure and structured backend. Features like role-based permissions, project management, database collections, file buckets, API keys, OAuth providers, and realtime subscriptions make Appwrite a powerful foundation for many different development workflows.
+  A plataforma é especialmente útil para criar painéis, aplicativos móveis, produtos SaaS, ferramentas internas, protótipos e aplicativos web personalizados. Oferece SDKs e APIs que facilitam a conexão de aplicativos front-end com um back-end seguro e estruturado. Recursos como permissões baseadas em funções, gerenciamento de projetos, coleções de bancos de dados, depósitos de arquivos, chaves de API, provedores OAuth e assinaturas em tempo real tornam o Appwrite uma base poderosa para muitos fluxos de trabalho de desenvolvimento diferentes.
 
 
-  Appwrite can be seen as an open-source alternative to services like Firebase or Supabase, with a strong focus on self-hosting and control over your own infrastructure. This makes it a good choice for developers who want to keep their backend, user data, files, and application logic under their own management.
+  O Appwrite pode ser visto como uma alternativa de código aberto a serviços como Firebase ou Supabase, com forte foco na auto-hospedagem e controle sobre sua própria infraestrutura. Isso o torna uma boa escolha para desenvolvedores que desejam manter back-end, dados de usuário, arquivos e lógica de aplicativo sob seu próprio gerenciamento.
 
 
-  After installation, you can open the Appwrite console, create your first project, configure authentication methods, set up databases and storage buckets, and start connecting your applications through Appwrite’s APIs and SDKs.
+  Após a instalação, você pode abrir o console do Appwrite, criar seu primeiro projeto, configurar métodos de autenticação, configurar bancos de dados e buckets de armazenamento e começar a conectar seus aplicativos por meio de APIs e SDKs do Appwrite.
 
 
-  ⚠️ Please note: Appwrite is primarily a developer platform, not a traditional end-user application. It is intended for users who want to build, host, or manage the backend of their own apps and services.
+  ⚠️ Observação: Appwrite é principalmente uma plataforma de desenvolvedor, não um aplicativo tradicional de usuário final. Destina-se a usuários que desejam criar, hospedar ou gerenciar o back-end de seus próprios aplicativos e serviços.
 developer: Appwrite Ltd.
 website: https://appwrite.io/
 submitter: Tascok
@@ -30,12 +30,12 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/appwrite/appwrite
 support: https://github.com/appwrite/appwrite/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-appwrite/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-appwrite/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-appwrite/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-appwrite/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-appwrite/5.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-appwrite/6.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-appwrite/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-appwrite/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-appwrite/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-appwrite/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-appwrite/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-appwrite/6.jpg
 releaseNotes: >-
   Appwrite 1.9.5 is a major maintenance and reliability release with many new public APIs for project settings, proxy management, authentication, SMTP, OAuth providers, services, platforms, and organization projects.
 

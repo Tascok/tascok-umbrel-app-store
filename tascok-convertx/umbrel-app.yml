@@ -1,44 +1,44 @@
 manifestVersion: 1
 id: tascok-convertx
 name: ConvertX
-tagline: A self-hosted online file converter that converts tons of file types
+tagline: Um conversor de arquivos online auto-hospedado que converte vários tipos de arquivos
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-convertx/logo.png
 category: files & productivity
 version: "0.6.0"
 port: 13000
 description: >-
-    ConvertX is a self-hosted online file converter running on your Umbrel server, supporting the conversion of files into over a thousand different formats. 
-    
-    
-    The app allows you to process multiple files simultaneously, offers password protection, and supports multiple user accounts.
-    
-    With ConvertX, you have full control over your file conversions, while enjoying the flexibility of a powerful conversion tool directly on your Umbrel server.
-
-    
-    Here’s an overview of some supported formats for conversion:
+  ConvertX é um conversor de arquivos online auto-hospedado rodando em seu servidor Umbrel, suportando a conversão de arquivos em mais de mil formatos diferentes. 
 
 
-    🖼️Images: Converts from 211 formats and to 156 formats.
-    
+  O aplicativo permite processar vários arquivos simultaneamente, oferece proteção por senha e oferece suporte a várias contas de usuário.
 
-    📺Video (FFmpeg): Converts from 473 formats and to 280 formats.
-    
+  Com o ConvertX, você tem controle total sobre as conversões de seus arquivos, enquanto aproveita a flexibilidade de uma poderosa ferramenta de conversão diretamente em seu servidor Umbrel.
 
-    📄Documents: Converts from 43 formats and to 65 formats.
-    
 
-    📦3D Assets: Converts from 70 formats and to 24 formats.
-    
+  Aqui está uma visão geral de alguns formatos suportados para conversão:
 
-    📐SVG: Converts from 1 format and to 1 format.
-    
-    
-    📊JPEG XL: Converts from 11 formats and to 11 formats.
-    
-    
-    📑LaTeX: Converts from 1 format and to 1 format.
-    
-    
+
+  🖼️Imagens: Converte de 211 formatos para 156 formatos.
+
+
+  📺Vídeo (FFmpeg): Converte de 473 formatos para 280 formatos.
+
+
+  📄Documentos: Converte de 43 formatos para 65 formatos.
+
+
+  📦Ativos 3D: Converte de 70 formatos para 24 formatos.
+
+
+  📐SVG: Converte de 1 formato para 1 formato.
+
+
+  📊JPEG XL: Converte de 11 formatos para 11 formatos.
+
+
+  📑LaTeX: Converte de 1 formato para 1 formato.
+
+
 developer: C4illin
 website: https://emrik.org/
 submitter: Tascok
@@ -46,12 +46,12 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/C4illin/ConvertX
 support: https://github.com/C4illin/ConvertX/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-convertx/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-convertx/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-convertx/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-convertx/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-convertx/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-convertx/3.jpg
 
 releaseNotes: >-
-   This update features a complete remake of the user interface using Tailwind CSS, enhancing the overall design and responsiveness of the application. Additionally, the CSS file has been renamed to force a cache update, effectively resolving previous issues related to outdated styles. This update improves both the visual appeal and functionality of the application, ensuring a smoother user experience.
+  This update features a complete remake of the user interface using Tailwind CSS, enhancing the overall design and responsiveness of the application. Additionally, the CSS file has been renamed to force a cache update, effectively resolving previous issues related to outdated styles. This update improves both the visual appeal and functionality of the application, ensuring a smoother user experience.
 dependencies: []
 path: ""
 defaultUsername: ""

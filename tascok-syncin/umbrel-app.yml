@@ -1,19 +1,19 @@
 manifestVersion: 1
 id: tascok-syncin
 name: Sync-in
-tagline: A platform to sync, share, and collaborate securely
+tagline: Uma plataforma para sincronizar, compartilhar e colaborar com segurança
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-syncin/logo.png
 category: files & productivity
 version: "1.3.2"
 port: 8943
 description: >-
-  🔄 Sync-in is a collaborative platform that allows users to store, manage, and work on files together in a secure and organized environment. It enables real time collaboration on documents, spreadsheets, and presentations, complete with commenting, feedback, and activity tracking to keep everyone aligned. Users can create dedicated spaces for projects or teams, organize files without duplication, and share content internally or externally with precise control over access and permissions.
+  🔄 Sync-in é uma plataforma colaborativa que permite aos usuários armazenar, gerenciar e trabalhar juntos em arquivos em um ambiente seguro e organizado. Ele permite a colaboração em tempo real em documentos, planilhas e apresentações, completa com comentários, feedback e rastreamento de atividades para manter todos alinhados. Os usuários podem criar espaços dedicados para projetos ou equipes, organizar arquivos sem duplicação e compartilhar conteúdo interna ou externamente com controle preciso sobre acessos e permissões.
 
 
-  Advanced search makes it easy to find information within file contents, including text, PDFs, and Office formats. The platform includes a powerful file manager with drag and drop, sorting, filtering, and preview capabilities, as well as tools for managing offline tasks and clipboard operations. Synchronization keeps files up to date across devices, while version history and detailed logs ensure transparency and accountability.
+  A pesquisa avançada facilita a localização de informações no conteúdo do arquivo, incluindo texto, PDFs e formatos do Office. A plataforma inclui um poderoso gerenciador de arquivos com recursos de arrastar e soltar, classificar, filtrar e visualizar, bem como ferramentas para gerenciar tarefas offline e operações da área de transferência. A sincronização mantém os arquivos atualizados em todos os dispositivos, enquanto o histórico de versões e os registros detalhados garantem transparência e responsabilidade.
 
 
-  Through integrated editing, secure sharing options, and structured collaboration features, Sync-in streamlines teamwork and centralizes project content in one accessible place.
+  Por meio de edição integrada, opções de compartilhamento seguro e recursos de colaboração estruturada, o Sync-in agiliza o trabalho em equipe e centraliza o conteúdo do projeto em um local acessível.
 developer: Johan Legrand
 website: https://sync-in.com/
 submitter: Tascok
@@ -21,11 +21,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/sync-in
 support: https://github.com/Sync-in/server/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-syncin/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-syncin/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-syncin/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-syncin/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-syncin/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-syncin/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-syncin/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-syncin/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-syncin/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-syncin/5.jpg
 releaseNotes: >-
   Version 1.3.2 adds a new CLI command to create and manage users, enhancing user administration capabilities.
 dependencies:

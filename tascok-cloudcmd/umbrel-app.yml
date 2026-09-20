@@ -1,25 +1,25 @@
 manifestVersion: 1
 id: tascok-cloudcmd
 name: Cloud Commander
-tagline: A file manager for the web
+tagline: Um gerenciador de arquivos para a web
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cloudcmd/logo.png
 category: files & productivity
 version: "19.0.5"
 port: 8631
 description: >-
-  ☁️ Cloud Commander is a web based file manager that allows users to interact with their files through a browser in a clean and intuitive way. It is designed around a dual panel layout that places two directories side by side, making it easy to move files, compare folder contents, and organize data without unnecessary steps. The interface feels familiar to anyone who has used a traditional desktop file manager but adds the convenience of accessibility through a single application.
+  ☁️ Cloud Commander é um gerenciador de arquivos baseado na web que permite aos usuários interagir com seus arquivos por meio de um navegador de forma limpa e intuitiva. Ele foi projetado em torno de um layout de painel duplo que coloca dois diretórios lado a lado, facilitando a movimentação de arquivos, a comparação do conteúdo das pastas e a organização de dados sem etapas desnecessárias. A interface parece familiar para quem já usou um gerenciador de arquivos de desktop tradicional, mas adiciona a conveniência de acessibilidade por meio de um único aplicativo.
 
 
-  At its core, the application supports all common file operations such as creating new directories, copying and moving items between folders, renaming files, and removing content that is no longer needed. It can also handle more advanced tasks like packing files into archives and unpacking compressed formats including zip and tar. These features make it not just a viewer but a full replacement for manual file handling.
+  Basicamente, o aplicativo oferece suporte a todas as operações comuns de arquivos, como criação de novos diretórios, cópia e movimentação de itens entre pastas, renomeação de arquivos e remoção de conteúdo que não é mais necessário. Ele também pode lidar com tarefas mais avançadas, como empacotar arquivos em arquivos compactados e descompactar formatos compactados, incluindo zip e tar. Esses recursos o tornam não apenas um visualizador, mas um substituto completo para o manuseio manual de arquivos.
 
 
-  Beyond file management, Cloud Commander integrates additional tools that extend its capabilities. It includes a built in text editor with syntax highlighting that allows direct modification of code or configuration files. Multiple editor options are available, giving flexibility in how content is displayed and manipulated. This removes the need to download files to a separate program and streamlines quick edits directly where the data resides.
+  Além do gerenciamento de arquivos, o Cloud Commander integra ferramentas adicionais que ampliam seus recursos. Inclui um editor de texto integrado com destaque de sintaxe que permite a modificação direta de código ou arquivos de configuração. Várias opções de editor estão disponíveis, proporcionando flexibilidade na forma como o conteúdo é exibido e manipulado. Isso elimina a necessidade de baixar arquivos para um programa separado e simplifica edições rápidas diretamente no local onde os dados residem.
 
 
-  Another key feature is the built in console. This terminal environment enables execution of commands alongside file operations, combining graphical navigation with command line control. Users can run scripts, manage processes, or interact with the system without switching to another tool. The editor, console, and file manager work together seamlessly, creating a unified environment that blends usability with power.
+  Outro recurso importante é o console integrado. Este ambiente de terminal permite a execução de comandos juntamente com operações de arquivo, combinando navegação gráfica com controle de linha de comando. Os usuários podem executar scripts, gerenciar processos ou interagir com o sistema sem mudar para outra ferramenta. O editor, o console e o gerenciador de arquivos funcionam perfeitamente juntos, criando um ambiente unificado que combina usabilidade com potência.
 
 
-  Overall, Cloud Commander provides a complete solution for working with files, editing content, and running commands in one place. It emphasizes efficiency, flexibility, and simplicity, making file management both approachable and powerful for a wide range of tasks.
+  No geral, o Cloud Commander oferece uma solução completa para trabalhar com arquivos, editar conteúdo e executar comandos em um só lugar. Ele enfatiza a eficiência, flexibilidade e simplicidade, tornando o gerenciamento de arquivos acessível e poderoso para uma ampla gama de tarefas.
 developer: coderaiser
 website: https://cloudcmd.io/
 submitter: Tascok
@@ -27,15 +27,15 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/coderaiser/cloudcmd
 support: https://github.com/coderaiser/cloudcmd/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cloudcmd/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cloudcmd/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cloudcmd/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cloudcmd/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cloudcmd/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cloudcmd/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cloudcmd/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cloudcmd/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cloudcmd/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cloudcmd/5.jpg
 releaseNotes: >-
   In Version 19.0.5 of Cloud Commander a bug with client listeners was fixed by stopping event propagation. 
-  
-  
+
+
   Additionally the release introduces the new feature Aleman v1.12.4.
 dependencies: []
 path: ""

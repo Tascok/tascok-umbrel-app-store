@@ -1,19 +1,19 @@
 manifestVersion: 1
 id: tascok-tasktrove
 name: TaskTrove
-tagline: A task manager that respects your privacy
+tagline: Um gerenciador de tarefas que respeita sua privacidade
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tasktrove/logo.png
 category: files & productivity
 version: "0.3.0"
 port: 3493
 description: >-
-  ✔️ TaskTrove is a modern task management application designed to help people organize their daily work and personal projects with clarity and efficiency. It provides a clean and intuitive interface where tasks can be quickly added, edited, and managed. The application supports natural language input so due dates, reminders, and scheduling details can be written in everyday language and immediately transformed into structured information. Tasks can be grouped into projects and further refined with labels, subtasks, and recurring patterns, making it easy to manage both simple to do lists and more complex workflows.
+  ✔️ TaskTrove é um aplicativo moderno de gerenciamento de tarefas desenvolvido para ajudar as pessoas a organizar seu trabalho diário e projetos pessoais com clareza e eficiência. Ele fornece uma interface limpa e intuitiva onde as tarefas podem ser rapidamente adicionadas, editadas e gerenciadas. O aplicativo suporta entrada em linguagem natural para que datas de vencimento, lembretes e detalhes de agendamento possam ser escritos em linguagem cotidiana e imediatamente transformados em informações estruturadas. As tarefas podem ser agrupadas em projetos e ainda mais refinadas com rótulos, subtarefas e padrões recorrentes, facilitando o gerenciamento de listas simples de tarefas e fluxos de trabalho mais complexos.
 
 
-  TaskTrove offers multiple ways to view and interact with tasks including a traditional list view, a compact view for dense overviews, and a Kanban style board that is especially useful for visual organization and progress tracking. Searching and filtering are central features, allowing users to focus only on what is relevant at a given moment without losing sight of the bigger picture. Upcoming additions such as calendar integration and analytical tools extend its ability to provide insights into productivity and time management.
+  TaskTrove oferece várias maneiras de visualizar e interagir com tarefas, incluindo uma visualização de lista tradicional, uma visualização compacta para visões gerais densas e um quadro estilo Kanban que é especialmente útil para organização visual e rastreamento de progresso. A pesquisa e a filtragem são recursos centrais, permitindo que os usuários se concentrem apenas no que é relevante em um determinado momento, sem perder de vista o panorama geral. Adições futuras, como integração de calendário e ferramentas analíticas, ampliam sua capacidade de fornecer insights sobre produtividade e gerenciamento de tempo.
 
 
-  The application is built with privacy in mind and avoids unnecessary tracking or telemetry. It encourages a personal and distraction free workflow where the user stays in full control of their information. Its flexibility makes it suitable for different styles of productivity whether that means a simple checklist for everyday errands or a structured system for managing multiple projects at once.
+  O aplicativo foi desenvolvido pensando na privacidade e evita rastreamento ou telemetria desnecessários. Ele incentiva um fluxo de trabalho pessoal e sem distrações, onde o usuário permanece no controle total de suas informações. Sua flexibilidade o torna adequado para diferentes estilos de produtividade, seja uma simples lista de verificação para tarefas diárias ou um sistema estruturado para gerenciar vários projetos ao mesmo tempo.
 developer: Mushroom Theory Inc.
 website: https://tasktrove.io/
 submitter: Tascok
@@ -21,11 +21,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/dohsimpson/TaskTrove
 support: https://github.com/dohsimpson/TaskTrove/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tasktrove/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tasktrove/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tasktrove/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tasktrove/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tasktrove/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tasktrove/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tasktrove/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tasktrove/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tasktrove/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tasktrove/5.jpg
 releaseNotes: >-
   TaskTrove v0.3.0 introduces support for nested projects and an adaptive recurring mode that adjusts based on task completion dates.
 

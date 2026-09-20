@@ -1,25 +1,25 @@
 manifestVersion: 1
 id: tascok-zipline
 name: Zipline
-tagline: An advanced solution for seamless and secure file sharing
+tagline: Uma solução avançada para compartilhamento de arquivos seguro e contínuo
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-zipline/logo.png
 category: files & productivity
 version: "4.6.4"
 port: 3472
 description: >-
-  Zipline is an open-source, self-hosted file-sharing and upload server designed primarily for use with ShareX but also supports other upload methods. It allows users to upload and share files, screenshots, and text snippets via a custom domain while maintaining control over their data.
+  Zipline é um servidor de compartilhamento e upload de arquivos auto-hospedado de código aberto projetado principalmente para uso com ShareX, mas também oferece suporte a outros métodos de upload. Ele permite que os usuários carreguem e compartilhem arquivos, capturas de tela e trechos de texto por meio de um domínio personalizado, mantendo o controle sobre seus dados.
 
 
-  Zipline simplifies deployment with Docker and offers manual installation for customization. It supports various upload methods, including ShareX, cURL, Web UI, and a public API. Users can manage files efficiently with a web-based dashboard, delete files, or set expiration dates. Security features such as password protection, rate limiting, and API token authentication enhance data safety.
+  Zipline simplifica a implantação com Docker e oferece instalação manual para personalização. Ele suporta vários métodos de upload, incluindo ShareX, cURL, Web UI e uma API pública. Os usuários podem gerenciar arquivos de forma eficiente com um painel baseado na web, excluir arquivos ou definir datas de expiração. Recursos de segurança como proteção por senha, limitação de taxa e autenticação de token de API melhoram a segurança dos dados.
 
 
-  The platform enables temporary uploads with automatic deletion and provides storage options like local storage, Amazon S3, and Google Cloud Storage. Custom domains and short links offer greater personalization. Users can access upload statistics and logs to monitor usage.
+  A plataforma permite uploads temporários com exclusão automática e oferece opções de armazenamento como armazenamento local, Amazon S3 e Google Cloud Storage. Domínios personalizados e links curtos oferecem maior personalização. Os usuários podem acessar estatísticas e registros de upload para monitorar o uso.
 
 
-  Zipline is suitable for content creators, teams, and self-hosting enthusiasts who need a private, controlled file-sharing solution. Developers can leverage its extensible API for automation and integration. Installation via Docker is straightforward, with a quick setup process. For more details and configuration options, the official GitHub repository provides comprehensive guidance.
+  Zipline é adequado para criadores de conteúdo, equipes e entusiastas de auto-hospedagem que precisam de uma solução de compartilhamento de arquivos privada e controlada. Os desenvolvedores podem aproveitar sua API extensível para automação e integração. A instalação via Docker é simples, com um processo de configuração rápido. Para mais detalhes e opções de configuração, o repositório oficial do GitHub fornece orientações abrangentes.
 
 
-  By offering a private, efficient, and highly customizable solution, Zipline ensures full control over uploaded data, making it an ideal alternative to centralized services.
+  Ao oferecer uma solução privada, eficiente e altamente personalizável, a Zipline garante controle total sobre os dados carregados, tornando-se uma alternativa ideal aos serviços centralizados.
 developer: diced
 website: https://zipline.diced.sh/
 submitter: Tascok
@@ -27,9 +27,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/diced/zipline
 support: https://github.com/diced/zipline/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-zipline/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-zipline/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-zipline/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-zipline/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-zipline/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-zipline/3.jpg
 releaseNotes: >-
   This update includes:
     - Enhanced File Management: Introduced nested folders, a new full-screen file viewer with keyboard navigation, and batch uploading for up to 500 files.

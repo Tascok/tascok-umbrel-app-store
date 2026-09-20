@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-bip47-verifier
 name: BIP47 Message Verifier
-tagline: An easy way to verify BIP47 signatures
+tagline: Uma maneira fácil de verificar assinaturas BIP47
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-bip47-verifier/logo.png
 category: bitcoin
 version: "1.0.0"
 port: 8047
 description: >-
-  🔏 BIP47 Message Verifier is a lightweight tool for verifying messages signed with a BIP47 notification address. BIP47 is a Bitcoin standard for reusable yet private payment addresses. Instead of creating a new address for each transaction or reusing the same one BIP47 enables encrypted communication through a so called payment code.
+  🔏 BIP47 Message Verifier é uma ferramenta leve para verificar mensagens assinadas com um endereço de notificação BIP47. BIP47 é um padrão Bitcoin para endereços de pagamento reutilizáveis, porém privados. Em vez de criar um novo endereço para cada transação ou reutilizar o mesmo, o BIP47 permite a comunicação criptografada através do chamado código de pagamento.
 
 
-  The notification address is a technical part of this code and is used to establish initial contact between two wallets. With BIP47 Message Verifier you can check whether a message was truly signed with the notification address of a specific payment code. This is especially useful for PayNym users who want to prove their identity or sign messages without compromising their privacy.
+  O endereço de notificação é uma parte técnica deste código e é utilizado para estabelecer o contato inicial entre duas carteiras. Com o Verificador de Mensagens BIP47 você pode verificar se uma mensagem foi realmente assinada com o endereço de notificação de um código de pagamento específico. Isto é especialmente útil para usuários PayNym que desejam provar sua identidade ou assinar mensagens sem comprometer sua privacidade.
 
 
-  In addition to Samourai Wallet which originally introduced BIP47 and PayNym newer projects like Ashigaru focus on an independent and minimalist use of these technologies. Ashigaru enables PayNym communication without centralized infrastructure and without requiring an Android device.
+  Além da Carteira Samourai, que originalmente introduziu o BIP47 e o PayNym, projetos mais recentes como o Ashigaru focam no uso independente e minimalista dessas tecnologias. Ashigaru permite a comunicação PayNym sem infraestrutura centralizada e sem a necessidade de um dispositivo Android.
 
 
-  In this context BIP47 Message Verifier is a practical tool for verifying signed messages and establishing trust between PayNym users without the need for any middleman.
+  Neste contexto, o BIP47 Message Verifier é uma ferramenta prática para verificar mensagens assinadas e estabelecer confiança entre usuários PayNym sem a necessidade de qualquer intermediário.
 developer: PavelTheCoder
 website: https://github.com/pajasevi/bip47-verifier/
 submitter: Tascok
@@ -24,9 +24,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/dennysubke/bip47-verifier
 support: https://github.com/dennysubke/bip47-verifier/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-bip47-verifier/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-bip47-verifier/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-bip47-verifier/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-bip47-verifier/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-bip47-verifier/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-bip47-verifier/3.jpg
 releaseNotes: >-
   This project does not follow semantic versioning and does not maintain a changelog. Changes may occur at any time without formal version tags or release notes.
 dependencies:

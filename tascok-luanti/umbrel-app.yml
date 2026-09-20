@@ -1,25 +1,25 @@
 manifestVersion: 1
 id: tascok-luanti
-name: Luanti 
-tagline: A limitless playground for builders, adventurers, and creators
+name: Luanti
+tagline: Um playground ilimitado para construtores, aventureiros e criadores
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-luanti/logo.png
 category: gaming
 version: "5.11.0"
 port: 30000
 description: >-
-  🌍 Luanti is an open-source voxel game engine that offers a vast, immersive world filled with endless possibilities. Whether you want to explore, build, survive, or create, Luanti gives you the freedom to play your way. With massive maps stretching 62,000 blocks in every direction, the world feels truly limitless, inviting you to dig deep into the earth or build sky-high structures without running out of space. The engine supports both single-player adventures and multiplayer experiences, allowing you to play locally with friends or join online servers filled with other players.
+  🌍 Luanti é um motor de jogo voxel de código aberto que oferece um mundo vasto e envolvente cheio de possibilidades infinitas. Quer você queira explorar, construir, sobreviver ou criar, Luanti lhe dá a liberdade de jogar do seu jeito. Com mapas enormes que se estendem por 62.000 blocos em todas as direções, o mundo parece verdadeiramente ilimitado, convidando você a cavar fundo na terra ou construir estruturas altíssimas sem ficar sem espaço. O mecanismo suporta aventuras para um jogador e experiências multijogador, permitindo que você jogue localmente com amigos ou entre em servidores online cheios de outros jogadores.
 
 
-  Luanti’s visual style is entirely customizable through texture packs, ensuring you can shape the world’s look and feel to match your preferences. It also features an impressive selection of built-in map generators, creating diverse, beautiful landscapes for you to explore — and if that’s not enough, you can install additional ones through mods.
+  O estilo visual de Luanti é totalmente personalizável por meio de pacotes de textura, garantindo que você possa moldar a aparência do mundo de acordo com suas preferências. Ele também apresenta uma seleção impressionante de geradores de mapas integrados, criando diversas e belas paisagens para você explorar – e se isso não for suficiente, você pode instalar outros por meio de mods.
 
 
-  For those who want to go beyond playing, Luanti’s Lua-based API allows you to create your own games, bringing new mechanics, items, and worlds to life without worrying about complex networking or rendering. Modding is just as accessible, letting you tweak existing games or build entirely new experiences from scratch. The ContentDB platform hosts a massive library of community-made mods, ready to download, use, or adapt for your own projects.
+  Para quem quer ir além do jogo, a API baseada em Lua do Luanti permite que você crie seus próprios jogos, dando vida a novas mecânicas, itens e mundos sem se preocupar com redes ou renderizações complexas. Modding é igualmente acessível, permitindo ajustar jogos existentes ou criar experiências totalmente novas do zero. A plataforma ContentDB hospeda uma enorme biblioteca de mods feitos pela comunidade, prontos para download, uso ou adaptação para seus próprios projetos.
 
 
-  The Luanti community is welcoming and supportive, helping both players and developers get the most out of the engine. As an open-source project, Luanti evolves transparently, with new features and improvements driven by contributors from around the world. Whether you’re here to play, mod, or create, Luanti empowers you to make the voxel world your own.
+  A comunidade Luanti é acolhedora e solidária, ajudando jogadores e desenvolvedores a tirar o máximo proveito do motor. Como um projeto de código aberto, o Luanti evolui de forma transparente, com novos recursos e melhorias impulsionadas por colaboradores de todo o mundo. Esteja você aqui para jogar, modificar ou criar, Luanti permite que você torne o mundo voxel seu.
 
 
-  ⚠️ Luanti is a server-side application with no user interface (UI), designed for running Minetest servers. It runs on port 30000/UDP. The world maps, mods folder, and configuration files can be found in /data/minetest_conf. To ensure a smooth experience, both the client and the server must be running the same version of Minetest. This server provides a stable environment for hosting Minetest worlds, without requiring additional graphical interfaces.
+  ⚠️ Luanti é um aplicativo do lado do servidor sem interface de usuário (UI), projetado para executar servidores Minetest. Ele roda na porta 30000/UDP. Os mapas mundiais, a pasta mods e os arquivos de configuração podem ser encontrados em /data/minetest_conf. Para garantir uma experiência tranquila, tanto o cliente quanto o servidor devem estar executando a mesma versão do Minetest. Este servidor fornece um ambiente estável para hospedar mundos Minetest, sem a necessidade de interfaces gráficas adicionais.
 developer: The Luanti Team
 website: https://www.luanti.org/
 submitter: Tascok
@@ -27,11 +27,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/luanti-org/luanti
 support: https://github.com/luanti-org/luanti/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-luanti/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-luanti/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-luanti/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-luanti/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-luanti/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-luanti/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-luanti/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-luanti/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-luanti/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-luanti/5.jpg
 releaseNotes: >-
   Luanti 5.11.0 introduces several updates, including the renaming of the engine to "Luanti" in the previous release. Irrlicht is no longer required as a separate download, and "Minetest Game" is no longer intended to be packaged with Luanti.
 dependencies:

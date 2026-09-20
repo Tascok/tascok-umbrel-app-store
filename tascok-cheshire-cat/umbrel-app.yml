@@ -1,43 +1,43 @@
 manifestVersion: 1
 id: tascok-cheshire-cat
 name: Cheshire Cat AI
-tagline: A framework to build custom AIs on top of any language model
+tagline: Uma estrutura para construir IAs personalizadas sobre qualquer modelo de linguagem
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cheshire-cat/logo.png
 category: AI
 version: "1.7.1"
 port: 1865
 description: >-
-  Cheshire Cat AI is an advanced AI agent framework built for developers to create highly customizable, intelligent systems. It simplifies the development of AI agents by supporting the training of models from various document formats, such as PDFs, JSON, and Markdown. The platform integrates seamlessly with external APIs, offering an extensible plugin architecture that enables adding functionality through community-driven plugins, hooks, and tools.
+  Cheshire Cat AI é uma estrutura avançada de agente de IA desenvolvida para que os desenvolvedores criem sistemas inteligentes e altamente personalizáveis. Ele simplifica o desenvolvimento de agentes de IA, apoiando o treinamento de modelos de vários formatos de documentos, como PDFs, JSON e Markdown. A plataforma integra-se perfeitamente com APIs externas, oferecendo uma arquitetura de plug-ins extensível que permite adicionar funcionalidades por meio de plug-ins, ganchos e ferramentas orientados pela comunidade.
 
 
-  Cheshire Cat AI emphasizes ease of use with a robust admin panel, making management straightforward. It supports both open-source and commercial large language models (LLMs).
+  Cheshire Cat AI enfatiza a facilidade de uso com um painel de administração robusto, tornando o gerenciamento simples. Ele oferece suporte a modelos de linguagem grande (LLMs) de código aberto e comerciais.
 
 
-  Key Features:
+  Principais recursos:
 
 
-  📄 Document Training: Easily train your AI agents using multiple document formats like PDF, Markdown, and JSON. The system allows for the training of agents with diverse information sources.
-  
-  
-  🔗 API Integrations: You can integrate external APIs, allowing for intelligent responses or interactions based on third-party services or data sources.
-  
-  
-  🎨 Customization: The framework supports extensive customization. Developers can use plugins, hooks, and forms to tailor AI behavior according to their needs.
-  
-  
-  🖥️ Admin Interface: A user-friendly admin panel is provided, allowing easy management of agents, settings, and configurations without deep technical knowledge.
-  
-  
-  🔌 Extensibility: Cheshire Cat AI supports a wide variety of community plugins, allowing you to extend the platform’s functionality beyond its core offering.
-  
-  
-  🤖 Large Language Models: Cheshire Cat AI works with both commercial and open-source LLMs, offering flexibility in choosing the underlying AI model.
-  
-  
-  🏗️ Microservice Architecture: The platform uses a microservice-first design, allowing scalability, modularity, and maintainability across different environments.
+  📄 Treinamento de documentos: treine facilmente seus agentes de IA usando vários formatos de documentos, como PDF, Markdown e JSON. O sistema permite a formação de agentes com diversas fontes de informação.
 
-  
-  This framework is ideal for developers looking to implement conversational agents, intelligent assistants, or any AI-driven application that requires handling natural language, data processing, or external interactions. It provides the flexibility to adapt to various use cases, from simple chatbot applications to more complex, enterprise-level AI systems.
+
+  🔗 Integrações de API: você pode integrar APIs externas, permitindo respostas ou interações inteligentes com base em serviços ou fontes de dados de terceiros.
+
+
+  🎨 Personalização: A estrutura oferece suporte a ampla personalização. Os desenvolvedores podem usar plug-ins, ganchos e formulários para adaptar o comportamento da IA ​​de acordo com suas necessidades.
+
+
+  🖥️ Interface de administração: é fornecido um painel de administração fácil de usar, permitindo fácil gerenciamento de agentes, configurações e configurações sem conhecimento técnico profundo.
+
+
+  🔌 Extensibilidade: Cheshire Cat AI oferece suporte a uma ampla variedade de plug-ins da comunidade, permitindo estender a funcionalidade da plataforma além de sua oferta principal.
+
+
+  🤖 Grandes modelos de linguagem: Cheshire Cat AI funciona com LLMs comerciais e de código aberto, oferecendo flexibilidade na escolha do modelo de IA subjacente.
+
+
+  🏗️ Arquitetura de microsserviços: a plataforma usa um design que prioriza os microsserviços, permitindo escalabilidade, modularidade e capacidade de manutenção em diferentes ambientes.
+
+
+  Essa estrutura é ideal para desenvolvedores que desejam implementar agentes de conversação, assistentes inteligentes ou qualquer aplicativo baseado em IA que exija manipulação de linguagem natural, processamento de dados ou interações externas. Ele fornece flexibilidade para se adaptar a vários casos de uso, desde aplicativos simples de chatbot até sistemas de IA de nível empresarial mais complexos.
 
 developer: Cheshire Cat AI
 website: https://cheshirecat.ai/
@@ -46,11 +46,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/cheshire-cat-ai/core
 support: https://github.com/cheshire-cat-ai/core/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cheshire-cat/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cheshire-cat/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cheshire-cat/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cheshire-cat/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cheshire-cat/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cheshire-cat/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cheshire-cat/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cheshire-cat/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cheshire-cat/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cheshire-cat/5.jpg
 releaseNotes: >-
   Version 1.7.1 of Cheshire Cat AI introduces a user and permission system, JWT support for authentication, and custom authorization options. It also adds features like White Rabbit and the new StrayCat.classify function for enhanced AI capabilities.
 dependencies:

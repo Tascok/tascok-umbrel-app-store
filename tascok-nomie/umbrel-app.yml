@@ -1,16 +1,16 @@
 manifestVersion: 1
 id: tascok-nomie
 name: Nomie
-tagline: A privacy-first journaling app for tracking life on your terms
+tagline: Um aplicativo de registro no diário com foco na privacidade para monitorar a vida de acordo com seus termos
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nomie/logo.png
 category: social
 version: "6.3.0"
 port: 8737
 description: >-
-  🐘 Nomie is a privacy-focused journaling app designed for effortless daily tracking. Built with simplicity in mind, it allows users to log activities, moods, habits, and personal experiences with a single tap. Unlike many other tracking apps, Nomie ensures complete data ownership by storing everything locally or allowing users to self-host their data. There are no accounts, no ads, and no third-party analytics, making it a truly private solution for personal journaling.
+  🐘 Nomie é um aplicativo de registro no diário com foco na privacidade, projetado para rastreamento diário sem esforço. Construído com a simplicidade em mente, permite aos usuários registrar atividades, humores, hábitos e experiências pessoais com um único toque. Ao contrário de muitos outros aplicativos de rastreamento, o Nomie garante a propriedade completa dos dados, armazenando tudo localmente ou permitindo que os usuários hospedem seus dados por conta própria. Não há contas, anúncios e análises de terceiros, o que o torna uma solução verdadeiramente privada para registro em diário pessoal.
 
 
-  The app’s flexibility makes it suitable for a wide range of use cases, whether someone wants to track their mental health, monitor productivity, or simply keep a record of daily life. Customizable trackers enable users to tailor the experience to their specific needs, and the open-source nature of the project allows for continuous community-driven improvements. By prioritizing privacy and ease of use, Nomie provides a seamless way to document life without worrying about data security or intrusive monitoring.
+  A flexibilidade do aplicativo o torna adequado para uma ampla variedade de casos de uso, quer alguém queira monitorar sua saúde mental, monitorar a produtividade ou simplesmente manter um registro da vida diária. Rastreadores personalizáveis ​​permitem que os usuários adaptem a experiência às suas necessidades específicas, e a natureza de código aberto do projeto permite melhorias contínuas impulsionadas pela comunidade. Ao priorizar a privacidade e a facilidade de uso, o Nomie oferece uma maneira perfeita de documentar a vida sem se preocupar com a segurança dos dados ou monitoramento intrusivo.
 developer: Happy Data, LLC
 website: https://nomie.app/
 submitter: Tascok
@@ -18,11 +18,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/open-nomie/nomie6-oss
 support: https://github.com/open-nomie/nomie6-oss/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nomie/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nomie/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nomie/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nomie/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nomie/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nomie/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nomie/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nomie/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nomie/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nomie/5.jpg
 releaseNotes: >-
   This update introduces resumable timers, multiple widgets for a single plugin, and improved input retention when switching tabs on desktop. It also fixes issues with the tracking board not loading after onboarding, plugin titles in the database editor, location caching on startup, and a text overwrite bug in the capture field.
 dependencies:

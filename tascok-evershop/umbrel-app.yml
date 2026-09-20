@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-evershop
 name: Evershop
-tagline: An All-in-One Open Source E-commerce Solution
+tagline: Uma solução completa de comércio eletrônico de código aberto
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-evershop/logo.png
 category: files & productivity
 version: "1.2.2"
 port: 3385
 description: >-
-  🛒 Evershop is a powerful and versatile e-commerce platform designed to provide extensive functionality for managing and operating online stores. It offers a comprehensive administrative dashboard that gives store owners complete control over their business operations. Within this dashboard, users can efficiently manage a wide range of aspects including product catalogs, inventory levels, pricing, promotions, customer information, and order fulfillment processes. The platform streamlines these tasks to ensure smooth day-to-day store management.
+  🛒 Evershop é uma plataforma de comércio eletrônico poderosa e versátil projetada para fornecer ampla funcionalidade para gerenciamento e operação de lojas online. Ele oferece um painel administrativo abrangente que dá aos proprietários de lojas controle total sobre suas operações comerciais. Dentro deste painel, os usuários podem gerenciar com eficiência uma ampla gama de aspectos, incluindo catálogos de produtos, níveis de estoque, preços, promoções, informações do cliente e processos de atendimento de pedidos. A plataforma agiliza essas tarefas para garantir um gerenciamento diário tranquilo da loja.
 
 
-  On the customer-facing side, Evershop delivers a highly customizable storefront experience. Store owners can modify the appearance and layout using adaptable themes and a variety of widgets, enabling the creation of a unique and engaging shopping environment that reflects their brand identity. This flexibility extends to user experience features such as navigation, product display, and checkout flows, all designed to optimize customer satisfaction and conversion rates.
+  No lado voltado para o cliente, Evershop oferece uma experiência de loja altamente personalizável. Os proprietários de lojas podem modificar a aparência e o layout usando temas adaptáveis ​​e uma variedade de widgets, permitindo a criação de um ambiente de compras único e envolvente que reflete a identidade de sua marca. Essa flexibilidade se estende aos recursos de experiência do usuário, como navegação, exibição de produtos e fluxos de checkout, todos projetados para otimizar a satisfação do cliente e as taxas de conversão.
 
 
-  Evershop also supports integration with multiple popular payment gateways, enabling secure and convenient payment options for customers. This includes support for major providers like Stripe, PayPal, and Klarna, among others, which helps cater to diverse customer preferences and regional payment standards. Beyond payments, the platform is built around a modular architecture, allowing developers and store owners to extend its core capabilities by adding custom extensions and modules. This modularity ensures that the platform can adapt to evolving business needs, whether that involves adding new features, integrating third-party services, or tailoring specific workflows.
+  Evershop também oferece suporte à integração com vários gateways de pagamento populares, permitindo opções de pagamento seguras e convenientes para os clientes. Isso inclui suporte para grandes provedores como Stripe, PayPal e Klarna, entre outros, o que ajuda a atender a diversas preferências dos clientes e padrões de pagamento regionais. Além dos pagamentos, a plataforma é construída em torno de uma arquitetura modular, permitindo que desenvolvedores e proprietários de lojas ampliem seus recursos principais adicionando extensões e módulos personalizados. Essa modularidade garante que a plataforma possa se adaptar às necessidades de negócios em evolução, seja adicionando novos recursos, integrando serviços de terceiros ou adaptando fluxos de trabalho específicos.
 
 
-  Overall, Evershop is engineered to combine robust functionality with flexibility, empowering businesses to build and maintain online stores that meet complex requirements while providing a seamless shopping experience. Its focus on extensibility and customization makes it suitable for a wide range of e-commerce use cases, from small boutique shops to larger enterprises seeking tailored solutions.
+  No geral, o Evershop foi projetado para combinar funcionalidade robusta com flexibilidade, capacitando as empresas a construir e manter lojas online que atendam a requisitos complexos, ao mesmo tempo que proporcionam uma experiência de compra perfeita. Seu foco na extensibilidade e na personalização o torna adequado para uma ampla variedade de casos de uso de comércio eletrônico, desde pequenas boutiques até grandes empresas que buscam soluções personalizadas.
 developer: EverShop
 website: https://evershop.io/
 submitter: Tascok
@@ -24,12 +24,12 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/evershopcommerce/evershop
 support: https://github.com/evershopcommerce/evershop/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-evershop/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-evershop/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-evershop/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-evershop/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-evershop/5.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-evershop/6.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-evershop/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-evershop/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-evershop/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-evershop/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-evershop/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-evershop/6.jpg
 releaseNotes: >-
   Version 1.2.2 of EverShop introduces improvements to order status management and allows order cancellations directly from the admin panel. It adds scheduled jobs, customizable admin page footer and logo options, and enhances payment integrations with Stripe and PayPal, including refund and capture support. The update also improves cart and address book functions, fixes multiple bugs, and addresses security vulnerabilities for better stability.
 dependencies:

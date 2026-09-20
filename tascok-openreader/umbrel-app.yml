@@ -1,36 +1,36 @@
 manifestVersion: 1
 id: tascok-openreader
 name: OpenReader WebUI
-tagline: A document reader with Text-to-Speech capabilities
+tagline: Um leitor de documentos com recursos de conversão de texto em fala
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-openreader/logo.png
 category: AI
 version: "0.2.6"
 port: 3391
 description: >-
-  OpenReader WebUI is a web-based document reader that integrates text-to-speech (TTS) functionality, allowing users to listen to text from various document formats, including PDF and EPUB. Designed to enhance accessibility and improve the reading experience, it features synchronized text highlighting, ensuring that the currently read portion of the document is visually emphasized as the speech engine narrates the content. This makes it particularly useful for individuals with visual impairments, reading difficulties, or those who simply prefer an auditory learning style.
+  OpenReader WebUI é um leitor de documentos baseado na web que integra a funcionalidade de conversão de texto em fala (TTS), permitindo aos usuários ouvir texto de vários formatos de documentos, incluindo PDF e EPUB. Projetado para aprimorar a acessibilidade e melhorar a experiência de leitura, ele apresenta realce de texto sincronizado, garantindo que a parte do documento atualmente lida seja visualmente enfatizada à medida que o mecanismo de fala narra o conteúdo. Isto o torna particularmente útil para indivíduos com deficiência visual, dificuldades de leitura ou aqueles que simplesmente preferem um estilo de aprendizagem auditivo.
 
 
-  The application is built with compatibility in mind, supporting any OpenAI-compatible TTS backend, such as Kokoro-FastAPI and Orpheus-FastAPI. This allows users to select a preferred speech synthesis engine, offering flexibility in voice selection, pronunciation accuracy, and overall reading quality. By leveraging these backends, OpenReader WebUI can generate natural-sounding speech, making long-form reading more engaging and reducing the cognitive load associated with traditional reading.
+  O aplicativo foi desenvolvido pensando na compatibilidade, suportando qualquer back-end TTS compatível com OpenAI, como Kokoro-FastAPI e Orpheus-FastAPI. Isso permite que os usuários selecionem um mecanismo de síntese de fala preferido, oferecendo flexibilidade na seleção de voz, precisão de pronúncia e qualidade geral de leitura. Ao aproveitar esses backends, o OpenReader WebUI pode gerar uma fala com som natural, tornando a leitura longa mais envolvente e reduzindo a carga cognitiva associada à leitura tradicional.
 
 
-  The user interface is designed to be intuitive and lightweight, providing a seamless experience without unnecessary complexity. Users can upload documents directly through the web interface, control playback speed, pause and resume narration, and navigate through the document efficiently. The software aims to cater to a diverse audience, including students, professionals, and individuals with disabilities, ensuring that reading materials are more accessible to everyone.
+  A interface do usuário foi projetada para ser intuitiva e leve, proporcionando uma experiência perfeita sem complexidade desnecessária. Os usuários podem fazer upload de documentos diretamente pela interface da web, controlar a velocidade de reprodução, pausar e retomar a narração e navegar pelo documento com eficiência. O software visa atender um público diversificado, incluindo estudantes, profissionais e pessoas com deficiência, garantindo que os materiais de leitura sejam mais acessíveis a todos.
 
 
-  Additionally, OpenReader WebUI is available as an open-source project, allowing developers to contribute to its improvement and expand its capabilities. A public demo is accessible online, enabling users to test its features without requiring installation, making it easy to evaluate its functionality before setting up a local instance. With a focus on usability and accessibility, OpenReader WebUI represents a modern approach to document reading, bridging the gap between text and speech in a user-friendly manner.
+  Além disso, o OpenReader WebUI está disponível como um projeto de código aberto, permitindo que os desenvolvedores contribuam para seu aprimoramento e expandam seus recursos. Uma demonstração pública pode ser acessada on-line, permitindo que os usuários testem seus recursos sem a necessidade de instalação, facilitando a avaliação de sua funcionalidade antes de configurar uma instância local. Com foco na usabilidade e acessibilidade, o OpenReader WebUI representa uma abordagem moderna para leitura de documentos, preenchendo a lacuna entre texto e fala de uma maneira fácil de usar.
 
 
-  ⚠️ This app only works in Chromium-based browsers (e.g., Chrome, Edge, Brave).
+  ⚠️ Este aplicativo funciona apenas em navegadores baseados em Chromium (por exemplo, Chrome, Edge, Brave).
 developer: Richard Roberson
-website: hhttps://openreader.richardr.dev/
+website: https://openreader.richardr.dev/
 submitter: Tascok
 submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/richardr1126/OpenReader-WebUI
 support: https://github.com/richardr1126/OpenReader-WebUI/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-openreader/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-openreader/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-openreader/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-openreader/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-openreader/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-openreader/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-openreader/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-openreader/4.jpg
 releaseNotes: >-
   Version 0.2.6 of OpenReader WebUI adds support for Orpheus-FastAPI and improves space detection in PDF text extraction to prevent missing spaces between words in certain formats. Additionally, it ensures that the TTS correctly pauses when changing pages.
 dependencies:

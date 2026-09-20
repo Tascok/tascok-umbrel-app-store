@@ -1,13 +1,13 @@
 manifestVersion: 1
 id: tascok-changedetection
 name: Changedetection
-tagline: An easy tool to track website changes and get alerts for updates
+tagline: Uma ferramenta fácil para rastrear alterações no site e receber alertas de atualizações
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-changedetection/logo.png
 category: networking
 version: "0.49.1"
 port: 5555
 description: >-
-  🔍Changedetection is a tool that tracks changes on websites, such as price updates or content revisions. It notifies users of updates via email, Slack, or Discord. With its cloud-based setup, no installation is needed, making it convenient for monitoring multiple pages. Features include custom alerts, JSON/XML tracking for specific content, and restock notifications. It's especially helpful for monitoring products with limited availability or time-sensitive content.
+  🔍Changedetection é uma ferramenta que rastreia alterações em sites, como atualizações de preços ou revisões de conteúdo. Ele notifica os usuários sobre atualizações por e-mail, Slack ou Discord. Com sua configuração baseada em nuvem, nenhuma instalação é necessária, tornando-o conveniente para monitorar múltiplas páginas. Os recursos incluem alertas personalizados, rastreamento JSON/XML para conteúdo específico e notificações de reabastecimento. É especialmente útil para monitorar produtos com disponibilidade limitada ou conteúdo urgente.
 developer: dgtlmoon
 website: https://changedetection.io/
 submitter: Tascok
@@ -15,11 +15,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/dgtlmoon/changedetection.io
 support: https://github.com/dgtlmoon/changedetection.io/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-changedetection/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-changedetection/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-changedetection/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-changedetection/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-changedetection/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-changedetection/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-changedetection/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-changedetection/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-changedetection/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-changedetection/5.jpg
 releaseNotes: >-
   Version 0.49.1 of Changedetection includes several fixes and improvements, such as fixing custom header parsing, adding Jinja2/browsersteps tests, and supporting multiple semver tags for Docker releases. Additionally, it handles ByteOrderMark in JSON strings and updates Italian translations for the "stock-not-in-stock.js" file.
 dependencies:

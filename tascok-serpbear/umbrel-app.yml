@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-serpbear
 name: SerpBear
-tagline: An SEO tool designed for accuracy and simplicity
+tagline: Uma ferramenta de SEO projetada para precisão e simplicidade
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-serpbear/logo.png
 category: files & productivity
 version: "2.0.6"
 port: 3232
 description: >-
-  SerpBear is a feature-rich, open-source tool designed to simplify the process of monitoring and managing your search engine rankings. Built for individuals, businesses, and SEO professionals alike, it provides a user-friendly platform for tracking keyword performance and website visibility across major search engines such as Google and Bing. By offering real-time updates and detailed insights, SerpBear empowers users to identify trends, measure progress, and optimize their strategies to stay competitive in the ever-changing world of search engine optimization.
+  SerpBear é uma ferramenta de código aberto rica em recursos, projetada para simplificar o processo de monitoramento e gerenciamento de classificações em mecanismos de pesquisa. Criado para indivíduos, empresas e profissionais de SEO, ele fornece uma plataforma fácil de usar para rastrear o desempenho de palavras-chave e a visibilidade do site nos principais mecanismos de pesquisa, como Google e Bing. Ao oferecer atualizações em tempo real e insights detalhados, o SerpBear capacita os usuários a identificar tendências, medir o progresso e otimizar suas estratégias para se manterem competitivos no mundo em constante mudança da otimização de mecanismos de pesquisa.
 
 
-  The platform is highly customizable and supports the management of multiple websites and keywords, making it an ideal choice for both small-scale projects and large campaigns. Its clean interface ensures that even those with minimal technical expertise can navigate the dashboard and access key data points. With automated updates, users can save time and focus on actionable improvements rather than manual tracking.
+  A plataforma é altamente personalizável e suporta o gerenciamento de vários sites e palavras-chave, sendo a escolha ideal tanto para projetos de pequena escala quanto para grandes campanhas. Sua interface limpa garante que mesmo aqueles com conhecimento técnico mínimo possam navegar no painel e acessar os principais pontos de dados. Com atualizações automatizadas, os usuários podem economizar tempo e se concentrar em melhorias viáveis, em vez de no rastreamento manual.
 
 
-  As an open-source solution, SerpBear is free to use and can be self-hosted, offering full control over your data and configurations. This makes it not only cost-effective but also a secure and flexible choice for SEO monitoring. Whether you’re looking to track a handful of keywords or manage rankings for multiple domains, SerpBear provides the tools, insights, and flexibility needed to achieve your goals and maintain a strong online presence.
+  Por ser uma solução de código aberto, o SerpBear é de uso gratuito e pode ser auto-hospedado, oferecendo controle total sobre seus dados e configurações. Isso o torna não apenas econômico, mas também uma escolha segura e flexível para monitoramento de SEO. Esteja você procurando rastrear algumas palavras-chave ou gerenciar classificações de vários domínios, o SerpBear fornece as ferramentas, os insights e a flexibilidade necessários para atingir seus objetivos e manter uma forte presença online.
 
 
-  🔑 By default, the username is "admin" and the password is "umbrel".
+  🔑 Por padrão, o nome de usuário é “admin” e a senha é “umbrel”.
 developer: towfiqi
 website: https://docs.serpbear.com/
 submitter: Tascok
@@ -24,9 +24,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/towfiqi/serpbear
 support: https://github.com/towfiqi/serpbear/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-serpbear/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-serpbear/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-serpbear/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-serpbear/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-serpbear/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-serpbear/3.jpg
 releaseNotes: >-
   Version 2.0.6 addresses several issues, including fixing the Docker build by ensuring npm package versions match and resolving the Proxy Scraper functionality. It also fixes a loading issue with Google Ads search volume data.
 dependencies:

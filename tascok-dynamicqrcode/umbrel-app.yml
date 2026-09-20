@@ -1,31 +1,31 @@
 manifestVersion: 1
 id: tascok-dynamicqrcode
 name: Dynamic QR Code
-tagline: An intuitive dashboard for seamless QR code creation
+tagline: Um painel intuitivo para criação perfeita de códigos QR
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dynamicqrcode/logo.png
 category: files & productivity
 version: "2.2.7"
 port: 8216
 description: >-
-  PHP Dynamic QR Code is a powerful script designed for generating and managing both dynamic and static QR codes. It features a sleek, responsive, and user-friendly interface, making it ideal for users who need accessible QR code management.
+  PHP Dynamic QR Code é um script poderoso projetado para gerar e gerenciar códigos QR dinâmicos e estáticos. Possui uma interface elegante, ágil e fácil de usar, tornando-o ideal para usuários que precisam de gerenciamento acessível de código QR.
 
 
-  Built on the popular AdminLte template, this script leverages the strengths of the open-source AdminLte dashboard theme, which is known for its compatibility with Bootstrap and its extensive control panel features. The script uses Core PHP Admin Panel, which simplifies website management by providing essential functionalities like:
+  Construído no popular modelo AdminLte, este script aproveita os pontos fortes do tema de painel AdminLte de código aberto, que é conhecido por sua compatibilidade com Bootstrap e seus extensos recursos de painel de controle. O script usa o Core PHP Admin Panel, que simplifica o gerenciamento do site, fornecendo funcionalidades essenciais como:
 
 
-  🗂️ Record Management (CRUD): Create, Read, Update, and Delete operations for easy data handling.
-
-  
-  🔒 Secure Authentication: Ensures only authorized users can access the admin panel.
-
-  
-  🔍 Pagination and Filters: Helps manage large sets of data with organized, searchable views.
-  
-
-  This script can be a great solution for any website requiring QR code generation with a structured, secure admin panel.
+  🗂️ Gerenciamento de registros (CRUD): operações de criação, leitura, atualização e exclusão para fácil manuseio de dados.
 
 
-  🗝️ The default username is "superadmin" and the password is "superadmin".
+  🔒 Autenticação segura: garante que apenas usuários autorizados possam acessar o painel de administração.
+
+
+  🔍 Paginação e filtros: ajuda a gerenciar grandes conjuntos de dados com visualizações organizadas e pesquisáveis.
+
+
+  Este script pode ser uma ótima solução para qualquer site que exija geração de código QR com um painel de administração estruturado e seguro.
+
+
+  🗝️ O nome de usuário padrão é “superadmin” e a senha é “superadmin”.
 developer: Giandonato Inverso
 website: https://github.com/giandonatoinverso/PHP-Dynamic-Qr-code
 submitter: Tascok
@@ -33,16 +33,16 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/giandonatoinverso/PHP-Dynamic-Qr-code
 support: https://github.com/giandonatoinverso/PHP-Dynamic-Qr-code/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dynamicqrcode/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dynamicqrcode/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dynamicqrcode/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dynamicqrcode/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dynamicqrcode/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dynamicqrcode/3.jpg
 releaseNotes: >-
   The changelog covers several versions of the project. In version 2.2, released on October 16, 2023, the process for building Docker images was refactored, and support for Docker Compose was added. In the previous version 2.1, also released on October 16, 2023, database tables were refactored, a script for upgrading to versions 2.0 and above was introduced, and multi-user support for dynamic and static QR codes was implemented.
 
-  
+
   Version 2.0, released on October 15, 2023, included the elimination of unnecessary files, the relocation of the read.php file within the project, and the introduction of a Qrcode class abstraction. Additionally, bulk download functionality was improved, and general refactoring was performed.
 
-  
+
   The initial version, version 1.0, was released in September 2020, marking the original launch of the project.
 dependencies:
 path: ""

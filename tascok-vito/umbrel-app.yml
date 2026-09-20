@@ -1,38 +1,38 @@
 manifestVersion: 1
 id: tascok-vito
 name: Vito
-tagline: A secure, self-hosted secret sharing application
+tagline: Um aplicativo de compartilhamento de segredos seguro e auto-hospedado
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-vito/logo.png
 category: files & productivity
 version: "0.0.4"
 port: 9998
 description: >-
-  🕵️‍♂️ Vito is a self-hosted application designed to securely share secrets such as passwords, access tokens, or other sensitive information. Developed by GlobusGroup, Vito gives users complete control over the confidentiality and handling of their data by removing the need to rely on third-party services. The goal of the project is to provide a simple and secure way for individuals or teams to exchange private information without compromising on privacy or usability.
+  🕵️‍♂️ Vito é um aplicativo auto-hospedado projetado para compartilhar segredos com segurança, como senhas, tokens de acesso ou outras informações confidenciais. Desenvolvido pelo GlobusGroup, o Vito oferece aos usuários controle total sobre a confidencialidade e o tratamento de seus dados, eliminando a necessidade de depender de serviços de terceiros. O objetivo do projeto é fornecer uma maneira simples e segura para indivíduos ou equipes trocarem informações privadas sem comprometer a privacidade ou a usabilidade.
 
 
-  The core strength of Vito lies in its ability to encrypt secrets and make them available for one-time access through a link. Once a secret is viewed, it is immediately deleted to prevent reuse or unauthorized access. This approach ensures that even if the link is intercepted after use, it holds no value, offering a practical and effective defense against leaks or breaches.
+  A principal força do Vito reside na sua capacidade de criptografar segredos e disponibilizá-los para acesso único através de um link. Depois que um segredo é visualizado, ele é imediatamente excluído para evitar reutilização ou acesso não autorizado. Essa abordagem garante que mesmo que o link seja interceptado após o uso, ele não terá valor, oferecendo uma defesa prática e eficaz contra vazamentos ou violações.
 
 
-  Vito is open source and licensed under the AGPL 3.0, which ensures that users are free to inspect the code, contribute improvements, and deploy the software in environments they fully control. Transparency and user sovereignty are at the heart of the project, aligning with the values of privacy-conscious developers and administrators.
+  Vito é de código aberto e licenciado pela AGPL 3.0, o que garante que os usuários sejam livres para inspecionar o código, contribuir com melhorias e implantar o software em ambientes que eles controlam totalmente. A transparência e a soberania do usuário estão no centro do projeto, alinhando-se aos valores de desenvolvedores e administradores preocupados com a privacidade.
 
 
-  Vito is particularly useful for teams that need to exchange sensitive credentials on a regular basis, such as DevOps engineers, system administrators, or developers working in security-aware environments. It offers peace of mind by combining modern encryption techniques with a minimal and focused user experience, all under the user’s full control.
+  O Vito é particularmente útil para equipes que precisam trocar credenciais confidenciais regularmente, como engenheiros de DevOps, administradores de sistema ou desenvolvedores que trabalham em ambientes com segurança. Ele oferece tranquilidade ao combinar técnicas modernas de criptografia com uma experiência de usuário mínima e focada, tudo sob controle total do usuário.
 
 
-  By choosing Vito, individuals and teams can confidently share secrets in a way that is secure, private, and independent from centralized providers.
+  Ao escolher o Vito, indivíduos e equipes podem compartilhar segredos com segurança, de forma privada e independente de provedores centralizados.
 
 
-  ⚠️ Vito requires HTTPS to function properly and ensure that all secrets are transmitted securely. The easiest way to enable HTTPS is by using the Cloudflare app available in the Umbrel App Store. 
-developer: Globus Group 
+  ⚠️ Vito requer HTTPS para funcionar corretamente e garantir que todos os segredos sejam transmitidos com segurança. A maneira mais fácil de habilitar HTTPS é usando o aplicativo Cloudflare disponível na Umbrel App Store. 
+developer: Globus Group
 website: https://github.com/GlobusGroup/vito
 submitter: Tascok
 submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/GlobusGroup/vito
 support: https://github.com/GlobusGroup/vito/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-vito/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-vito/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-vito/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-vito/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-vito/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-vito/3.jpg
 releaseNotes: >-
   This update introduces Docker support to simplify self-hosting. Additionally, the backend code was refactored for better maintainability and minor performance optimizations were made.
 dependencies:

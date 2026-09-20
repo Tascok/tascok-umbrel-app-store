@@ -1,31 +1,31 @@
 manifestVersion: 1
 id: tascok-odoo
 name: Odoo
-tagline: A suite of web based open source business apps
+tagline: Um conjunto de aplicativos empresariais de código aberto baseados na web
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-odoo/logo.png
 category: files & productivity
 version: "18.0"
 port: 8069
 description: >-
-  💼 Odoo is a powerful business management software designed to help companies manage and optimize their daily operations. It provides a wide range of tools that allow businesses to handle accounting, monitor inventory levels, manage sales processes, and coordinate human resources effectively. By centralizing these functions, Odoo helps organizations maintain accurate records and ensures that critical business data is always up to date.
+  💼 Odoo é um poderoso software de gestão empresarial desenvolvido para ajudar empresas a gerenciar e otimizar suas operações diárias. Ele fornece uma ampla gama de ferramentas que permitem às empresas lidar com a contabilidade, monitorar os níveis de estoque, gerenciar processos de vendas e coordenar os recursos humanos de forma eficaz. Ao centralizar essas funções, o Odoo ajuda as organizações a manter registros precisos e garante que os dados críticos de negócios estejam sempre atualizados.
 
 
-  The platform also offers comprehensive project management capabilities, enabling teams to plan, track, and execute projects efficiently. It allows users to assign tasks, set deadlines, monitor progress, and collaborate seamlessly across departments. This centralized approach reduces miscommunication, ensures accountability, and enhances overall productivity.
+  A plataforma também oferece recursos abrangentes de gerenciamento de projetos, permitindo que as equipes planejem, acompanhem e executem projetos com eficiência. Ele permite que os usuários atribuam tarefas, estabeleçam prazos, monitorem o progresso e colaborem perfeitamente entre departamentos. Esta abordagem centralizada reduz a falta de comunicação, garante a responsabilização e aumenta a produtividade geral.
 
 
-  Customer relationship management is another key feature of Odoo. Businesses can manage customer interactions, track leads and opportunities, and maintain detailed records of communications. This enables companies to provide better customer service, nurture long-term relationships, and make informed decisions based on actionable insights.
+  O gerenciamento de relacionamento com o cliente é outro recurso importante do Odoo. As empresas podem gerenciar as interações com os clientes, rastrear leads e oportunidades e manter registros detalhados das comunicações. Isso permite que as empresas forneçam um melhor atendimento ao cliente, cultivem relacionamentos de longo prazo e tomem decisões informadas com base em insights acionáveis.
 
 
-  Odoo further supports procurement, inventory management, and supply chain operations by providing tools to track products, monitor stock levels, manage orders, and streamline vendor interactions. This helps reduce errors, prevent stockouts, and optimize the flow of goods and services within the company.
+  Odoo oferece suporte adicional a compras, gerenciamento de estoque e operações da cadeia de suprimentos, fornecendo ferramentas para rastrear produtos, monitorar níveis de estoque, gerenciar pedidos e agilizar as interações com fornecedores. Isso ajuda a reduzir erros, evitar rupturas de estoque e otimizar o fluxo de bens e serviços dentro da empresa.
 
 
-  The software also facilitates reporting and analytics, allowing organizations to generate detailed insights into financial performance, sales trends, and operational efficiency. By providing a clear view of business metrics, Odoo empowers managers to make strategic decisions, plan resources effectively, and identify areas for improvement.
+  O software também facilita relatórios e análises, permitindo que as organizações gerem insights detalhados sobre desempenho financeiro, tendências de vendas e eficiência operacional. Ao fornecer uma visão clara das métricas de negócios, o Odoo capacita os gerentes a tomar decisões estratégicas, planejar recursos de forma eficaz e identificar áreas de melhoria.
 
 
-  Overall, Odoo provides a unified environment where all core business functions work together seamlessly. It enables automation of routine tasks, improves collaboration, and ensures consistency across departments. The platform’s integrated approach helps companies enhance efficiency, maintain control over their operations, and adapt to changing business needs with ease.
+  No geral, o Odoo oferece um ambiente unificado onde todas as principais funções de negócios funcionam juntas de maneira integrada. Ele permite a automação de tarefas rotineiras, melhora a colaboração e garante consistência entre departamentos. A abordagem integrada da plataforma ajuda as empresas a aumentar a eficiência, manter o controle sobre suas operações e se adaptar facilmente às mudanças nas necessidades de negócios.
 
 
-  ⚠️ During the initial setup, you must enter "db" when prompted for the database name.
+  ⚠️ Durante a configuração inicial, você deve inserir "db" quando for solicitado o nome do banco de dados.
 developer: Odoo SA
 website: https://www.odoo.com
 submitter: Tascok
@@ -33,14 +33,14 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/odoo/odoo
 support: https://github.com/odoo/odoo/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-odoo/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-odoo/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-odoo/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-odoo/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-odoo/5.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-odoo/6.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-odoo/7.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-odoo/8.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-odoo/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-odoo/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-odoo/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-odoo/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-odoo/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-odoo/6.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-odoo/7.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-odoo/8.jpg
 releaseNotes: >-
   This update introduces keyboard shortcuts to switch between companies quickly and enhances contact search by address. Error messages are now clearer, allowing users to provide technical details more easily, and the error debugging menu provides direct access to underlying models.
 

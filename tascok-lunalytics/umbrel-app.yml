@@ -1,28 +1,28 @@
 manifestVersion: 1
 id: tascok-lunalytics
 name: Lunalytics
-tagline: A monitoring tool for teams
+tagline: Uma ferramenta de monitoramento para equipes
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-lunalytics/logo.png
 category: networking
 version: "0.9.7"
 port: 8183
 description: >-
-  🔍 Lunalytics offers a rich set of features designed to give you full visibility into the health of your services. It continuously monitors HTTP and TCP endpoints and provides detailed uptime and latency statistics with precise response time tracking.
+  🔍 Lunalytics oferece um rico conjunto de recursos projetados para lhe dar visibilidade total da saúde de seus serviços. Ele monitora continuamente endpoints HTTP e TCP e fornece estatísticas detalhadas de tempo de atividade e latência com rastreamento preciso do tempo de resposta.
 
 
-  The tool also includes automatic TLS certificate monitoring so you are alerted before certificates expire or become invalid. This helps prevent unexpected downtime caused by certificate issues.
+  A ferramenta também inclui monitoramento automático de certificados TLS para que você seja alertado antes que os certificados expirem ou se tornem inválidos. Isso ajuda a evitar tempos de inatividade inesperados causados ​​por problemas de certificados.
 
 
-  Each monitored endpoint can be configured with custom intervals, tags, and descriptions, allowing for flexible organization and categorization. You can group services by project, type, or any other criteria that fits your workflow.
+  Cada endpoint monitorado pode ser configurado com intervalos, tags e descrições personalizadas, permitindo organização e categorização flexíveis. Você pode agrupar serviços por projeto, tipo ou qualquer outro critério adequado ao seu fluxo de trabalho.
 
 
-  The built-in alerting system notifies you when a service goes down or shows abnormal behavior so you can react immediately. Alerts are sent only when they matter to avoid unnecessary noise.
+  O sistema de alerta integrado notifica quando um serviço fica inativo ou mostra comportamento anormal para que você possa reagir imediatamente. Os alertas são enviados apenas quando são importantes para evitar ruídos desnecessários.
 
 
-  Lunalytics supports multiple users with role based access control, enabling teams to share dashboards while maintaining permission boundaries. Admins can invite users and assign roles to manage access levels effectively.
+  Lunalytics oferece suporte a vários usuários com controle de acesso baseado em funções, permitindo que as equipes compartilhem painéis enquanto mantêm os limites de permissão. Os administradores podem convidar usuários e atribuir funções para gerenciar os níveis de acesso de maneira eficaz.
 
 
-  All monitoring data is displayed in real time through an intuitive and interactive dashboard. Historical charts and request logs allow for deeper analysis and help you spot trends or recurring issues over time.
+  Todos os dados de monitoramento são exibidos em tempo real através de um painel intuitivo e interativo. Gráficos históricos e registros de solicitações permitem análises mais profundas e ajudam a identificar tendências ou problemas recorrentes ao longo do tempo.
 developer: KSJaay
 website: https://lunalytics.xyz/
 submitter: Tascok
@@ -30,11 +30,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/KSJaay/Lunalytics
 support: https://github.com/KSJaay/Lunalytics/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-lunalytics/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-lunalytics/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-lunalytics/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-lunalytics/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-lunalytics/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-lunalytics/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-lunalytics/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-lunalytics/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-lunalytics/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-lunalytics/5.jpg
 releaseNotes: >-
   Version 0.9.7 introduces new monitoring types: Ping and JSON Query. It also fixes Telegram-related issues, including support for negative Chat IDs and proper Markdown escaping.
 dependencies:

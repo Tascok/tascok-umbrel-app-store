@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-haus
 name: Haus
-tagline: A calm space for focus and productivity
+tagline: Um espaço calmo para foco e produtividade
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-haus/logo.png
 category: files & productivity
 version: "0.0.2"
 port: 8392
 description: >-
-  🏠 Haus is a minimalistic online workstation that brings together essential tools for focus and productivity within a single, calm, and visually pleasing environment. It is designed to reduce distractions and create a sense of mental clarity, allowing you to concentrate fully on the task at hand.
+  🏠 Haus é uma estação de trabalho online minimalista que reúne ferramentas essenciais para foco e produtividade em um ambiente único, calmo e visualmente agradável. Ele foi projetado para reduzir distrações e criar uma sensação de clareza mental, permitindo que você se concentre totalmente na tarefa em questão.
 
 
-  Within Haus you can create and manage to do lists to keep track of your responsibilities, write and organize notes for quick reference, and set gentle reminders to help maintain momentum throughout your day. It offers a clean writing space where you can jot down thoughts or work on longer pieces without intrusive formatting or visual noise.
+  No Haus, você pode criar e gerenciar listas de tarefas para controlar suas responsabilidades, escrever e organizar notas para referência rápida e definir lembretes gentis para ajudar a manter o ritmo ao longo do dia. Ele oferece um espaço de escrita limpo onde você pode anotar pensamentos ou trabalhar em peças mais longas sem formatação intrusiva ou ruído visual.
 
 
-  To enhance concentration, Haus also provides ambient background sounds such as soft rain, gentle waves, or subtle white noise, which can help block out unwanted interruptions and establish a consistent work rhythm.
+  Para aumentar a concentração, Haus também fornece sons ambientais de fundo, como chuva suave, ondas suaves ou ruído branco sutil, que podem ajudar a bloquear interrupções indesejadas e estabelecer um ritmo de trabalho consistente.
 
 
-  The interface is intuitive and aesthetically restrained, encouraging a feeling of order and calm. By combining organization, focus, and atmosphere in one place, Haus aims to be a digital space where your ideas can flow freely and your work can progress smoothly without the usual distractions of a busy online environment.
+  A interface é intuitiva e esteticamente contida, estimulando uma sensação de ordem e calma. Ao combinar organização, foco e atmosfera em um só lugar, a Haus pretende ser um espaço digital onde suas ideias possam fluir livremente e seu trabalho possa progredir sem problemas, sem as distrações habituais de um ambiente on-line movimentado.
 developer: remvze
 website: https://use.haus/
 submitter: Tascok
@@ -24,11 +24,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/awwwsm/haus
 support: https://github.com/awwwsm/haus/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-haus/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-haus/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-haus/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-haus/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-haus/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-haus/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-haus/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-haus/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-haus/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-haus/5.jpg
 releaseNotes: >-
   Version 0.0.2 adds a sample deployment for Kubernetes support and includes various bug fixes to improve stability.
 dependencies: []

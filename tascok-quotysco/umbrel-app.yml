@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-quotysco
 name: Quotysco
-tagline: A creative hub for bloggers, writers, and visionaries
+tagline: Um centro criativo para blogueiros, escritores e visionários
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-quotysco/logo.png
 category: social
 version: "2.0.0"
 port: 1337
 description: >-
-  📝Quotysco is a powerful open-source blogging platform designed for writers, creators, and thought leaders to share their ideas, insights, and work with a broad audience.
+  📝Quotysco é uma poderosa plataforma de blog de código aberto projetada para escritores, criadores e líderes inovadores compartilharem suas ideias, insights e trabalharem com um público amplo.
 
 
-  With a modern, user-friendly, and intuitive interface, Quotysco makes it especially easy to create, publish, and manage high-quality blog posts. The platform offers numerous features that provide an optimal experience for both beginners and experienced bloggers.
+  Com uma interface moderna, fácil de usar e intuitiva, o Quotysco torna especialmente fácil criar, publicar e gerenciar postagens de blog de alta qualidade. A plataforma oferece vários recursos que proporcionam uma experiência ideal para blogueiros iniciantes e experientes.
 
 
-  Similar to Medium, Quotysco emphasizes sleek design and a smooth user experience. Users can effortlessly format their content, add images and media, and distribute their posts strategically to reach a wide audience. Thanks to its open and transparent open-source structure, developers and community members can actively contribute to the platform’s evolution and introduce new features.
+  Semelhante ao Médio, o Quotysco enfatiza o design elegante e uma experiência de usuário tranquila. Os usuários podem formatar seu conteúdo sem esforço, adicionar imagens e mídia e distribuir suas postagens estrategicamente para atingir um público amplo. Graças à sua estrutura de código aberto aberta e transparente, os desenvolvedores e membros da comunidade podem contribuir ativamente para a evolução da plataforma e introduzir novos recursos.
 
 
-  Whether for personal blogging, a professional writing portfolio, or a platform for in-depth analysis and opinion pieces—Quotysco offers a flexible and versatile solution for anyone looking to share their thoughts with the world.
+  Seja para um blog pessoal, um portfólio de redação profissional ou uma plataforma para análises aprofundadas e artigos de opinião, o Quotysco oferece uma solução flexível e versátil para quem deseja compartilhar suas idéias com o mundo.
 developer: InteraApps
 website: https://quotysco.eu/
 submitter: Tascok
@@ -24,9 +24,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/interaapps/quotysco
 support: https://github.com/interaapps/quotysco/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-quotysco/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-quotysco/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-quotysco/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-quotysco/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-quotysco/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-quotysco/3.jpg
 releaseNotes: >-
   Version 2.0.0 introduces several improvements, including the addition of docker-hub.yml.
 dependencies:

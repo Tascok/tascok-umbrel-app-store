@@ -1,19 +1,19 @@
 manifestVersion: 1
 id: tascok-github
 name: Github Desktop
-tagline: An efficient way to manage your code
+tagline: Uma maneira eficiente de gerenciar seu código
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-github/logo.png
 category: developer tools
 version: "3.4.8"
 port: 3303
 description: >-
-  GitHub Desktop is a user-friendly application designed to make working with GitHub repositories much easier, especially for those who prefer not to use the command line. It provides a graphical interface that allows users to interact with their Git repositories, manage their projects, and make changes in a way that's intuitive and accessible. With GitHub Desktop, you can clone repositories, create new branches, commit your changes, and push them to GitHub—all through a point-and-click interface.
+  GitHub Desktop é um aplicativo amigável projetado para facilitar muito o trabalho com repositórios GitHub, especialmente para aqueles que preferem não usar a linha de comando. Ele fornece uma interface gráfica que permite aos usuários interagir com seus repositórios Git, gerenciar seus projetos e fazer alterações de forma intuitiva e acessível. Com o GitHub Desktop, você pode clonar repositórios, criar novas ramificações, confirmar suas alterações e enviá-las para o GitHub, tudo por meio de uma interface de apontar e clicar.
 
 
-  The tool simplifies many of the tasks associated with version control, like syncing local repositories with the remote GitHub repository, without requiring you to remember or type out complex Git commands. It also makes it easier to resolve merge conflicts by providing visual tools that help you compare and merge different versions of files. This way, users can focus more on coding and less on the technical details of Git.
+  A ferramenta simplifica muitas das tarefas associadas ao controle de versão, como sincronizar repositórios locais com o repositório GitHub remoto, sem exigir que você se lembre ou digite comandos Git complexos. Também facilita a resolução de conflitos de mesclagem, fornecendo ferramentas visuais que ajudam a comparar e mesclar diferentes versões de arquivos. Dessa forma, os usuários podem se concentrar mais na codificação e menos nos detalhes técnicos do Git.
 
 
-  GitHub Desktop is particularly useful for people new to version control or anyone who prefers a more visual approach to managing their projects. Whether you're a beginner or a more experienced developer, GitHub Desktop helps streamline the workflow and makes collaboration on GitHub more accessible.
+  GitHub Desktop é particularmente útil para pessoas novas no controle de versão ou para qualquer pessoa que prefira uma abordagem mais visual para gerenciar seus projetos. Quer você seja um desenvolvedor iniciante ou mais experiente, o GitHub Desktop ajuda a agilizar o fluxo de trabalho e torna a colaboração no GitHub mais acessível.
 developer: GitHub Inc.
 website: https://github.com/apps/desktop
 submitter: Tascok
@@ -21,11 +21,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/desktop
 support: https://github.com/desktop/desktop/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-github/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-github/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-github/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-github/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-github/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-github/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-github/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-github/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-github/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-github/5.jpg
 releaseNotes: >-
   App no longer crash for first time users going through the welcome flow and attempting to sign in more than once.
 dependencies:

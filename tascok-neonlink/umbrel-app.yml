@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-neonlink
 name: NeonLink
-tagline: A simple self-hosted bookmark service
+tagline: Um serviço simples de favoritos auto-hospedado
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-neonlink/logo.png
 category: files & productivity
 version: "1.4.19"
 port: 8332
 description: >-
-  🔗 NeonLink is a self-hosted web application designed to give users complete control over how they collect, organize, and revisit their favorite web resources. It provides a clean, intuitive, and visually engaging interface that transforms a simple list of bookmarks into a personalized library of online content. Each link saved in NeonLink is automatically enriched with metadata such as the website title, a brief description, and its favicon, creating a polished and easily recognizable collection that is both functional and aesthetically pleasing.
+  🔗 NeonLink é um aplicativo da web auto-hospedado projetado para dar aos usuários controle total sobre como eles coletam, organizam e revisitam seus recursos da web favoritos. Ele fornece uma interface limpa, intuitiva e visualmente envolvente que transforma uma lista simples de marcadores em uma biblioteca personalizada de conteúdo online. Cada link salvo no NeonLink é automaticamente enriquecido com metadados como o título do site, uma breve descrição e seu favicon, criando uma coleção refinada e facilmente reconhecível que é funcional e esteticamente agradável.
 
 
-  The application allows users to apply tags to bookmarks, enabling precise categorization and filtering. This makes it effortless to group similar resources together or to quickly locate a specific link using the built-in search functionality. Whether you are managing a large archive of research material or a small set of frequently visited sites, the tagging and search tools make navigation smooth and efficient.
+  O aplicativo permite que os usuários apliquem tags aos favoritos, permitindo categorização e filtragem precisas. Isso facilita agrupar recursos semelhantes ou localizar rapidamente um link específico usando a funcionalidade de pesquisa integrada. Esteja você gerenciando um grande arquivo de material de pesquisa ou um pequeno conjunto de sites visitados com frequência, as ferramentas de marcação e pesquisa tornam a navegação fácil e eficiente.
 
 
-  NeonLink also offers a high degree of customization to suit individual tastes and workflows. Users can select or add their own background images to give the dashboard a distinct visual identity, turning it from a generic list into a space that feels personal and tailored. The organized layout presents bookmarks in a way that balances clarity and design, ensuring that the information you need is always easy to find.
+  NeonLink também oferece um alto grau de personalização para atender aos gostos e fluxos de trabalho individuais. Os usuários podem selecionar ou adicionar suas próprias imagens de fundo para dar ao painel uma identidade visual distinta, transformando-o de uma lista genérica em um espaço pessoal e personalizado. O layout organizado apresenta marcadores de forma que equilibra clareza e design, garantindo que as informações que você precisa sejam sempre fáceis de encontrar.
 
 
-  At its core, NeonLink is focused on privacy and autonomy. All bookmarks are stored under the user’s control, without reliance on third-party services, which ensures that personal browsing habits remain private. It is built for people who value both functionality and independence in managing their online resources, making it an elegant and secure solution for anyone seeking a better way to store and access the websites that matter most to them.
+  Basicamente, o NeonLink está focado na privacidade e na autonomia. Todos os favoritos são armazenados sob o controle do usuário, sem dependência de serviços de terceiros, o que garante que os hábitos de navegação pessoal permaneçam privados. Ele foi desenvolvido para pessoas que valorizam a funcionalidade e a independência no gerenciamento de seus recursos online, tornando-o uma solução elegante e segura para quem busca a melhor maneira de armazenar e acessar os sites que mais lhes interessam.
 developer: AlexSciFier
 website: https://github.com/AlexSciFier/neonlink
 submitter: Tascok
@@ -24,11 +24,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/AlexSciFier/neonlink
 support: https://github.com/AlexSciFier/neonlink/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-neonlink/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-neonlink/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-neonlink/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-neonlink/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-neonlink/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-neonlink/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-neonlink/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-neonlink/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-neonlink/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-neonlink/5.jpg
 releaseNotes: >-
   In version 1.4.19, several dependencies were updated to their latest versions, including cross-spawn, tar-fs, and rollup, improving stability and compatibility. The server framework Fastify was also upgraded to version 5.4.0, ensuring better performance and security. Overall, this release focuses on maintenance and keeping the project up to date.
 dependencies: []

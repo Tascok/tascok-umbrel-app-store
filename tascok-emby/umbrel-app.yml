@@ -1,25 +1,25 @@
 manifestVersion: 1
 id: tascok-emby
 name: Emby
-tagline: A personal media server
+tagline: Um servidor de mídia pessoal
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-emby/logo.png
 category: media
 version: "4.8.11"
 port: 8097
 description: >-
-  ▶️ Emby is a powerful media server software designed to help users manage, stream, and enjoy their personal collection of movies, TV shows, music, photos, and home videos across a wide range of devices. It acts as a central hub for all your digital media, automatically organizing content and enriching it with metadata like cover art, descriptions, and ratings. Emby provides a clean and intuitive interface that allows users to easily browse and play their media, whether they are at home or on the go.
+  ▶️ Emby é um poderoso software de servidor de mídia projetado para ajudar os usuários a gerenciar, transmitir e desfrutar de sua coleção pessoal de filmes, programas de TV, músicas, fotos e vídeos caseiros em uma ampla variedade de dispositivos. Ele atua como um hub central para todas as suas mídias digitais, organizando automaticamente o conteúdo e enriquecendo-o com metadados como capas, descrições e classificações. Emby fornece uma interface limpa e intuitiva que permite aos usuários navegar e reproduzir facilmente suas mídias, estejam em casa ou em trânsito.
 
 
-  The system supports a broad array of devices including smart TVs, smartphones, tablets, computers, streaming boxes, and game consoles. It offers live TV functionality and DVR support if compatible tuner hardware is connected. One of Emby's standout features is its ability to transcode media in real time, adjusting video quality and format to suit the capabilities of the device being used and the speed of the internet connection.
+  O sistema oferece suporte a uma ampla variedade de dispositivos, incluindo smart TVs, smartphones, tablets, computadores, caixas de streaming e consoles de jogos. Ele oferece funcionalidade de TV ao vivo e suporte DVR se um hardware de sintonizador compatível estiver conectado. Um dos recursos de destaque do Emby é a capacidade de transcodificar mídia em tempo real, ajustando a qualidade e o formato do vídeo de acordo com as capacidades do dispositivo usado e a velocidade da conexão com a Internet.
 
 
-  Emby includes user management tools that allow families to create separate accounts with customized access restrictions and parental controls. This is particularly useful for households with children, as it helps tailor the media experience based on age and content preferences.
+  Emby inclui ferramentas de gerenciamento de usuários que permitem às famílias criar contas separadas com restrições de acesso e controles parentais personalizados. Isto é particularmente útil para famílias com crianças, pois ajuda a adaptar a experiência mediática com base na idade e nas preferências de conteúdo.
 
 
-  Emby is often compared to other media servers like Plex and Jellyfin. Unlike Jellyfin, which is fully open source, Emby transitioned to a proprietary license, which led to the creation of Jellyfin as a community-driven fork. Despite this, Emby continues to develop rapidly and maintains a strong user base thanks to its blend of ease of use, rich feature set, and professional polish.
+  O Emby é frequentemente comparado a outros servidores de mídia como Plex e Jellyfin. Ao contrário do Jellyfin, que é totalmente de código aberto, Emby fez a transição para uma licença proprietária, o que levou à criação do Jellyfin como um fork voltado para a comunidade. Apesar disso, Emby continua a se desenvolver rapidamente e mantém uma forte base de usuários graças à sua combinação de facilidade de uso, rico conjunto de recursos e polimento profissional.
 
 
-  In summary, Emby is an ideal solution for anyone looking to take full control of their media library and stream it seamlessly across different devices while maintaining a personalized and private environment.
+  Em resumo, o Emby é a solução ideal para quem deseja assumir o controle total de sua biblioteca de mídia e transmiti-la perfeitamente em diferentes dispositivos, mantendo um ambiente personalizado e privado.
 developer: Emby LLC
 website: https://emby.media/
 submitter: Tascok
@@ -27,17 +27,17 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/MediaBrowser/Emby
 support: https://github.com/MediaBrowser/Emby/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-emby/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-emby/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-emby/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-emby/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-emby/5.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-emby/6.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-emby/7.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-emby/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-emby/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-emby/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-emby/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-emby/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-emby/6.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-emby/7.jpg
 releaseNotes: >-
   The Emby 4.8.11 introduces numerous enhancements and fixes, including improved performance for library scans, live TV guide updates, and database operations. It brings full .NET 8 and SQLite 3.49.2 support, refined transcoding and subtitle handling, expanded customization options for users and libraries, and new UI features like drag-and-drop reordering and playback tweaks. 
-  
-  
+
+
   This update significantly boosts server stability, efficiency, and the overall user experience.
 dependencies:
 path: ""

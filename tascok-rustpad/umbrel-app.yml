@@ -1,19 +1,19 @@
 manifestVersion: 1
 id: tascok-rustpad
 name: Rustpad
-tagline: An easy solution for real-time collaborative writing
+tagline: Uma solução fácil para escrita colaborativa em tempo real
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-rustpad/logo.png
 category: developer tools
 version: "0.1.0"
 port: 3038
 description: >-
-  📝 Rustpad is an open-source, real-time collaborative writing platform designed for simplicity and performance. Built with the efficiency of Rust, it enables seamless, fast, and resource-light collaboration on documents. Whether you're working with a team, collaborating with classmates, or just sharing ideas with a group, Rustpad allows multiple users to edit a document simultaneously, with changes reflected instantly.
+  📝 Rustpad é uma plataforma de escrita colaborativa de código aberto e em tempo real projetada para simplicidade e desempenho. Construído com a eficiência do Rust, ele permite uma colaboração contínua, rápida e com poucos recursos em documentos. Esteja você trabalhando em equipe, colaborando com colegas de classe ou apenas compartilhando ideias com um grupo, o Rustpad permite que vários usuários editem um documento simultaneamente, com as alterações refletidas instantaneamente.
 
 
-  What sets Rustpad apart is its ease of use—there’s no need for sign-ups, downloads, or complex setups. Simply create a document, share the link, and start working together. It’s perfect for brainstorming sessions, team projects, writing workshops, or casual collaboration. The platform provides a clutter-free interface, making it easy to focus on what matters most: the content.
+  O que diferencia o Rustpad é sua facilidade de uso – não há necessidade de inscrições, downloads ou configurações complexas. Basta criar um documento, compartilhar o link e começar a trabalhar juntos. É perfeito para sessões de brainstorming, projetos de equipe, workshops de redação ou colaboração casual. A plataforma oferece uma interface descomplicada, facilitando o foco no que é mais importante: o conteúdo.
 
 
-  Rustpad’s open-source nature also means it’s customizable and can be adapted to suit various use cases, from professional collaborations to personal note-taking. Whether you're drafting proposals, planning a project, or simply taking notes, Rustpad offers a simple, fast, and reliable solution for all your collaborative writing needs.
+  A natureza de código aberto do Rustpad também significa que ele é personalizável e pode ser adaptado para vários casos de uso, desde colaborações profissionais até anotações pessoais. Esteja você redigindo propostas, planejando um projeto ou simplesmente fazendo anotações, Rustpad oferece uma solução simples, rápida e confiável para todas as suas necessidades de escrita colaborativa.
 
 developer: Eric Zhang
 website: https://rustpad.io/
@@ -22,10 +22,10 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/ekzhang/rustpad
 support: https://github.com/ekzhang/rustpad/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-rustpad/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-rustpad/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-rustpad/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-rustpad/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-rustpad/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-rustpad/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-rustpad/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-rustpad/4.jpg
 releaseNotes: >-
   Updated dependency to the latest stable version, improving performance and security. Cleaned up versioning and removed legacy code, resulting in a more efficient and streamlined user experience.
 dependencies:

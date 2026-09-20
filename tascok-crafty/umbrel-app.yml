@@ -1,31 +1,31 @@
 manifestVersion: 1
 id: tascok-crafty
 name: Crafty Controller
-tagline: An intuitive way to automate and manage your Minecraft server with ease
+tagline: Uma maneira intuitiva de automatizar e gerenciar seu servidor Minecraft com facilidade
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-crafty/logo.png
 category: gaming
 version: "4.5.4"
 port: 18443
 description: >-
-  ⛏️ Crafty Controller is an open-source, web-based interface designed to manage and control Crafty Bots, which are used for automating and managing Minecraft servers. Crafty itself is a bot framework that allows administrators to automate various tasks on Minecraft servers, from running tests to managing in-game events, controlling server settings, and much more. Crafty Controller provides a centralized platform where administrators can monitor and control these bots from one place.
+  ⛏️ Crafty Controller é uma interface de código aberto baseada na web projetada para gerenciar e controlar Crafty Bots, que são usados ​​para automatizar e gerenciar servidores Minecraft. O próprio Crafty é uma estrutura de bot que permite aos administradores automatizar várias tarefas nos servidores do Minecraft, desde a execução de testes até o gerenciamento de eventos no jogo, controle de configurações do servidor e muito mais. O Crafty Controller fornece uma plataforma centralizada onde os administradores podem monitorar e controlar esses bots em um só lugar.
 
 
-  The main benefit of Crafty Controller is its simplicity and ease of use. Instead of having to manually interact with each bot through code or a command-line interface, Crafty Controller provides a user-friendly web dashboard where administrators can configure bot behaviors, track their actions, and issue commands. It allows you to add or remove bots, view their statuses, and monitor logs, which is especially helpful for troubleshooting or optimizing bot performance.
+  O principal benefício do Crafty Controller é sua simplicidade e facilidade de uso. Em vez de ter que interagir manualmente com cada bot por meio de código ou interface de linha de comando, o Crafty Controller fornece um painel da web amigável onde os administradores podem configurar comportamentos do bot, rastrear suas ações e emitir comandos. Ele permite adicionar ou remover bots, visualizar seus status e monitorar logs, o que é especialmente útil para solucionar problemas ou otimizar o desempenho do bot.
 
 
-  Additionally, Crafty Controller is highly customizable. Server administrators can configure bots to perform specific actions based on events or player interactions, and developers can extend the functionality with custom scripts or plugins. This flexibility makes it a valuable tool for anyone running a Minecraft server who needs to automate tasks or create custom, bot-driven gameplay.
+  Além disso, o Crafty Controller é altamente personalizável. Os administradores de servidor podem configurar bots para executar ações específicas com base em eventos ou interações do jogador, e os desenvolvedores podem estender a funcionalidade com scripts ou plug-ins personalizados. Essa flexibilidade o torna uma ferramenta valiosa para qualquer pessoa que execute um servidor Minecraft e precise automatizar tarefas ou criar uma jogabilidade personalizada baseada em bots.
 
 
-  Ultimately, Crafty Controller is a powerful tool for automating and managing Minecraft servers, providing a central hub that simplifies bot management and enables more efficient administration of server tasks.
+  Em última análise, o Crafty Controller é uma ferramenta poderosa para automatizar e gerenciar servidores Minecraft, fornecendo um hub central que simplifica o gerenciamento de bots e permite uma administração mais eficiente das tarefas do servidor.
 
 
-  ⚠️ Crafty Controller uses HTTPS to protect your personal data. When accessing Crafty Controller, you must explicitly type "https" in the address, for example, https://umbrel.local:18443.
+  ⚠️ Crafty Controller usa HTTPS para proteger seus dados pessoais. Ao acessar o Crafty Controller, você deve digitar explicitamente "https" no endereço, por exemplo, https://umbrel.local:18443.
 
 
-  ℹ️ Crafty Controller uses a self-signed certificate, which may trigger a browser warning like "Your connection is not private." You can safely proceed by clicking "Advanced" and then "Proceed to umbrel.local (unsafe)" or a similar option, depending on your browser.
+  ℹ️ O Crafty Controller usa um certificado autoassinado, que pode acionar um aviso do navegador como “Sua conexão não é privada”. Você pode prosseguir com segurança clicando em "Avançado" e depois em "Prosseguir para umbrel.local (inseguro)" ou uma opção semelhante, dependendo do seu navegador.
 
 
-  🔑 The default username for Crafty Controller is 'admin', and the password is randomly generated. You can find the password in the file located at: /umbrel/app-data/tascok-crafty/data/config/default-creds.txt. It is highly recommended to change the password immediately after logging in for security purposes.
+  🔑 O nome de usuário padrão do Crafty Controller é 'admin' e a senha é gerada aleatoriamente. Você pode encontrar a senha no arquivo localizado em: /umbrel/app-data/tascok-crafty/data/config/default-creds.txt. É altamente recomendável alterar a senha imediatamente após fazer login por motivos de segurança.
 developer: Arcadia Technology
 website: https://craftycontrol.com/
 submitter: Tascok
@@ -33,11 +33,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://gitlab.com/crafty-controller
 support: https://gitlab.com/groups/crafty-controller/-/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-crafty/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-crafty/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-crafty/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-crafty/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-crafty/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-crafty/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-crafty/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-crafty/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-crafty/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-crafty/5.jpg
 releaseNotes: >-
   Version 4.5.4 fixes bugs by refactoring the upload process to ensure asynchronous file operations. It also removes all third-party font requests.
 dependencies:

@@ -1,25 +1,20 @@
 manifestVersion: 1
 id: tascok-pingvin-share
 name: Pingvin Share
-tagline: A self-hosted file sharing solution, combining ease and elegance
+tagline: Uma solução de compartilhamento de arquivos auto-hospedada, combinando facilidade e elegância
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-pingvin-share/logo.png
 category: files & productivity
 version: "1.1.3"
 port: 6453
 description: >-
-  Pingvin Share is an open-source, self-hosted file-sharing platform designed for
-  private and secure sharing of files without relying on third-party cloud services.
-  It allows users to share files directly between devices with end-to-end encryption, ensuring data privacy.
-  
-  
-  The platform emphasizes ease of use, featuring a simple user interface
-  and making it ideal for those who prioritize control over their data and want to avoid
-  cloud-based sharing solutions from large providers.
-  
+  Pingvin Share é uma plataforma de compartilhamento de arquivos auto-hospedada de código aberto, projetada para compartilhamento privado e seguro de arquivos sem depender de serviços de nuvem de terceiros. Ele permite que os usuários compartilhem arquivos diretamente entre dispositivos com criptografia ponta a ponta, garantindo a privacidade dos dados.
 
-  ⚠️ It is recommended to use the Cloudflare app to host Pingvin Share for improved performance.
-  The easiest way to do this is to use the 'Cloudflare Tunnel' app from the Umbrel app store.
-  
+
+  A plataforma enfatiza a facilidade de uso, apresentando uma interface de usuário simples e tornando-a ideal para quem prioriza o controle sobre seus dados e deseja evitar soluções de compartilhamento baseadas em nuvem de grandes provedores.
+
+
+  ⚠️ Recomenda-se usar o aplicativo Cloudflare para hospedar o Pingvin Share para melhorar o desempenho. A maneira mais fácil de fazer isso é usar o aplicativo ‘Cloudflare Tunnel’ da loja de aplicativos Umbrel.
+
 developer: stonith404
 website: stonith404.github.io/pingvin-share/
 submitter: Tascok
@@ -27,9 +22,9 @@ submission: https://github.com/dennysubke/dennys-umbrel-app-store
 repo: https://github.com/stonith404/pingvin-share
 support: https://github.com/stonith404/pingvin-share/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-pingvin-share/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-pingvin-share/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-pingvin-share/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-pingvin-share/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-pingvin-share/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-pingvin-share/3.jpg
 releaseNotes: >-
   General improvements were made, allowing SMTP connections without authentication
   and introducing automatic redirection to the OAuth provider when it's the

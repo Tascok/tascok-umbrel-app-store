@@ -1,25 +1,25 @@
 manifestVersion: 1
-id: tascok-etherpad  
+id: tascok-etherpad
 name: Etherpad
-tagline: An intuitive tool for real-time collaborative writing
+tagline: Uma ferramenta intuitiva para escrita colaborativa em tempo real
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-etherpad/logo.png
 category: files & productivity
 version: "2.2.7"
 port: 9002
 description: >-
-  📝 Etherpad is an open-source, web-based collaborative real-time editor that enables multiple users to simultaneously edit a document from different locations. It’s particularly valuable for teamwork, group projects, or situations where many people need to contribute to the same document at once. One of Etherpad’s standout features is its live collaboration functionality - as users make changes, those changes appear in real-time for all participants, with each user's contributions color-coded to distinguish them.
+  📝 Etherpad é um editor colaborativo em tempo real de código aberto baseado na web que permite que vários usuários editem simultaneamente um documento em diferentes locais. É particularmente valioso para trabalho em equipe, projetos em grupo ou situações em que muitas pessoas precisam contribuir para o mesmo documento ao mesmo tempo. Um dos recursos de destaque do Etherpad é sua funcionalidade de colaboração ao vivo – conforme os usuários fazem alterações, essas alterações aparecem em tempo real para todos os participantes, com as contribuições de cada usuário codificadas por cores para distingui-los.
 
 
-  The platform is designed to be simple and intuitive, with a clean and straightforward interface that emphasizes writing and editing. Etherpad doesn’t require users to sign up or install any software, making it easy for anyone to start collaborating quickly.
+  A plataforma foi projetada para ser simples e intuitiva, com uma interface limpa e direta que enfatiza a escrita e a edição. O Etherpad não exige que os usuários se inscrevam ou instalem nenhum software, tornando mais fácil para qualquer pessoa começar a colaborar rapidamente.
 
 
-  Another key feature of Etherpad is its version history system, which allows users to view and revert to previous versions of the document. This ensures that changes can be tracked and recovered if necessary, making it a useful tool for managing long-term collaborative projects.
+  Outra característica importante do Etherpad é o sistema de histórico de versões, que permite aos usuários visualizar e reverter para versões anteriores do documento. Isto garante que as alterações possam ser rastreadas e recuperadas, se necessário, tornando-o uma ferramenta útil para gerenciar projetos colaborativos de longo prazo.
 
 
-  As an open-source tool, Etherpad offers flexibility in how it’s used. Users can run it on their own servers for greater control and customization or simply use a public instance hosted by various service providers. The platform is highly extensible, with plugins available for additional features like embedding images, adding task lists, or even integrating with other tools.
+  Como uma ferramenta de código aberto, o Etherpad oferece flexibilidade na forma como é usado. Os usuários podem executá-lo em seus próprios servidores para maior controle e personalização ou simplesmente usar uma instância pública hospedada por vários provedores de serviços. A plataforma é altamente extensível, com plug-ins disponíveis para recursos adicionais, como incorporação de imagens, adição de listas de tarefas ou até mesmo integração com outras ferramentas.
 
 
-  Etherpad has gained popularity in academic, business, and development environments for its simple yet effective collaboration features. Whether you're writing meeting notes, drafting a report, or brainstorming ideas with a team, Etherpad offers a powerful and user-friendly solution for collaborative writing.
+  O Etherpad ganhou popularidade em ambientes acadêmicos, empresariais e de desenvolvimento por seus recursos de colaboração simples, mas eficazes. Esteja você escrevendo notas de reunião, redigindo um relatório ou debatendo ideias com uma equipe, o Etherpad oferece uma solução poderosa e fácil de usar para escrita colaborativa.
 developer: The Etherpad Foundation
 website: https://etherpad.org/
 submitter: Tascok
@@ -27,9 +27,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/ether/etherpad-lite
 support: https://github.com/ether/etherpad-lite/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-etherpad/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-etherpad/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-etherpad/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-etherpad/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-etherpad/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-etherpad/3.jpg
 releaseNotes: >-
   The latest update includes notable enhancements and fixes, such as the migration of all important pages to React 19 and React Router v7, with only dependency updates beyond that.
 dependencies:

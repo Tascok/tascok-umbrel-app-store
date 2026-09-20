@@ -1,28 +1,28 @@
 manifestVersion: 1
 id: tascok-nexterm
 name: Nexterm
-tagline: An efficient way to manage remote terminals with ease
+tagline: Uma maneira eficiente de gerenciar terminais remotos com facilidade
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nexterm/logo.png
 category: networking
 version: "1.0.2"
 port: 6989
 description: >-
-  Nexterm is a modern, open-source tool designed to simplify the process of interacting with remote terminals, primarily for developers and system administrators. It enables secure, efficient management of SSH connections, making it easier to execute commands, manage workflows, and automate tasks across remote environments.
+  Nexterm é uma ferramenta moderna e de código aberto projetada para simplificar o processo de interação com terminais remotos, principalmente para desenvolvedores e administradores de sistema. Ele permite o gerenciamento seguro e eficiente de conexões SSH, facilitando a execução de comandos, o gerenciamento de fluxos de trabalho e a automatização de tarefas em ambientes remotos.
 
 
-  At its core, Nexterm leverages SSH (Secure Shell) to establish encrypted connections to remote servers, ensuring that communication between your local machine and the server is secure. This is particularly important for users who need to manage remote systems or execute scripts over a network.
+  Basicamente, o Nexterm aproveita SSH (Secure Shell) para estabelecer conexões criptografadas com servidores remotos, garantindo que a comunicação entre sua máquina local e o servidor seja segura. Isto é particularmente importante para usuários que precisam gerenciar sistemas remotos ou executar scripts em uma rede.
 
 
-  One of Nexterm’s standout features is its ability to handle multiple terminal sessions at once. This means you can manage several remote connections simultaneously, switching between them with ease. Whether you’re administering multiple servers or running multiple tasks across different environments, Nexterm streamlines the process. Additionally, it offers session persistence, so if you disconnect or lose your network connection, your session can be restored without losing progress.
+  Um dos recursos de destaque do Nexterm é a capacidade de lidar com várias sessões de terminal ao mesmo tempo. Isto significa que você pode gerenciar várias conexões remotas simultaneamente, alternando entre elas com facilidade. Esteja você administrando vários servidores ou executando várias tarefas em ambientes diferentes, o Nexterm agiliza o processo. Além disso, oferece persistência de sessão, portanto, se você desconectar ou perder a conexão de rede, sua sessão poderá ser restaurada sem perder o progresso.
 
 
-  For users who frequently connect to the same servers, Nexterm allows you to set up custom profiles that store connection details like host, port, and authentication keys. This makes reconnecting a breeze, eliminating the need to manually enter these details each time you need to access a remote system.
+  Para usuários que se conectam frequentemente aos mesmos servidores, Nexterm permite configurar perfis personalizados que armazenam detalhes de conexão como host, porta e chaves de autenticação. Isso facilita a reconexão, eliminando a necessidade de inserir manualmente esses detalhes sempre que precisar acessar um sistema remoto.
 
 
-  Nexterm is also designed for power users who need to execute commands and scripts remotely. It allows you to run single commands or create more complex workflows that can be executed across multiple servers. This can save a lot of time, especially for repetitive tasks or server maintenance.
+  Nexterm também foi projetado para usuários avançados que precisam executar comandos e scripts remotamente. Ele permite executar comandos únicos ou criar fluxos de trabalho mais complexos que podem ser executados em vários servidores. Isso pode economizar muito tempo, especialmente para tarefas repetitivas ou manutenção de servidores.
 
 
-  For those who work in environments with multiple servers or systems, Nexterm provides terminal multiplexing, allowing you to split the terminal into multiple panes. This feature lets you monitor different processes or logs simultaneously, making multitasking more efficient and reducing the need to constantly switch between different terminal windows.
+  Para quem trabalha em ambientes com vários servidores ou sistemas, o Nexterm oferece multiplexação de terminal, permitindo dividir o terminal em vários painéis. Este recurso permite monitorar diferentes processos ou logs simultaneamente, tornando a multitarefa mais eficiente e reduzindo a necessidade de alternar constantemente entre diferentes janelas de terminal.
 developer: Mathias Wagner
 website: https://docs.nexterm.dev/
 submitter: Tascok
@@ -30,15 +30,15 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/gnmyt/Nexterm
 support: https://github.com/gnmyt/Nexterm/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nexterm/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nexterm/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nexterm/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nexterm/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nexterm/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nexterm/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nexterm/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nexterm/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nexterm/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nexterm/5.jpg
 releaseNotes: >-
   The release 1.0.2 introduces several new features, including Google TOTP support, an App Store, clipboard synchronization, multiple user support, and SFTP/file management, along with a bug fix for protocol errors. 
 
-  
+
   It also includes a breaking change, requiring users to either remove the database or change their role to admin.
 dependencies:
 path: ""

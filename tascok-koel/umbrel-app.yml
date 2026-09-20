@@ -1,16 +1,16 @@
 manifestVersion: 1
 id: tascok-koel
 name: Koel
-tagline: An API-enabled audio server for private music streaming
+tagline: Um servidor de áudio habilitado para API para streaming privado de música
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-koel/logo.png
 category: media
 version: "9.11.0"
 port: 8333
 description: >-
-  🎵 Koel is a personal music streaming application for organizing, browsing, searching, and playing a private music collection through a modern web interface. Music can be explored by artist, album, genre, or song, while playlists and favorites make it easy to create and revisit personal collections.
+  🎵 Koel é um aplicativo pessoal de streaming de música para organizar, navegar, pesquisar e reproduzir uma coleção particular de músicas por meio de uma interface web moderna. A música pode ser explorada por artista, álbum, gênero ou música, enquanto as listas de reprodução e os favoritos facilitam a criação e a revisitação de coleções pessoais.
 
 
-  Koel includes queue management, album artwork, lyrics, listening history, music uploads, and a responsive interface that works across desktop and mobile devices. It also supports compatible third-party music clients through its Subsonic-compatible API.
+  Koel inclui gerenciamento de filas, arte do álbum, letras, histórico de audição, uploads de músicas e uma interface responsiva que funciona em desktops e dispositivos móveis. Ele também oferece suporte a clientes de música de terceiros compatíveis por meio de sua API compatível com Subsonic.
 developer: Phan An
 website: https://koel.dev/
 submitter: Tascok
@@ -18,10 +18,10 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/koel/koel
 support: https://github.com/koel/koel/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-koel/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-koel/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-koel/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-koel/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-koel/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-koel/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-koel/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-koel/4.jpg
 releaseNotes: >-
   This version adds faster AAC transcoding through FFmpeg and introduces nested playlist folders for improved organization. It also prevents smaller images from being unnecessarily upscaled.
 dependencies:

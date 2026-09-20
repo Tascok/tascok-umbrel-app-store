@@ -1,25 +1,25 @@
 manifestVersion: 1
 id: tascok-moocup
 name: Moocup
-tagline: A visual editor to create stunning screenshots
+tagline: Um editor visual para criar capturas de tela impressionantes
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-moocup/logo.png
 category: files & productivity
 version: "1.0.0"
 port: 3458
 description: >-
-  ☕ Moocup is an open source application designed to turn plain screenshots into beautiful and professional looking visuals. Instead of leaving a screenshot in its raw form, the tool enhances it with refined design elements that make the image stand out. The goal is to provide an effortless way to transform something ordinary into something visually engaging.
+  ☕ Moocup é um aplicativo de código aberto projetado para transformar capturas de tela simples em visuais bonitos e com aparência profissional. Em vez de deixar uma captura de tela em sua forma bruta, a ferramenta a aprimora com elementos de design refinados que fazem a imagem se destacar. O objetivo é fornecer uma maneira fácil de transformar algo comum em algo visualmente atraente.
 
 
-  At its core, Moocup focuses on simplicity. You start with a screenshot, and the application automatically applies a clean base style. This initial styling already improves the overall appearance, but you are not limited to it. You can continue to adjust and refine the design so that the final result fits your personal taste or the visual identity of your project.
+  Basicamente, o Moocup se concentra na simplicidade. Você começa com uma captura de tela e o aplicativo aplica automaticamente um estilo básico limpo. Esse estilo inicial já melhora a aparência geral, mas você não está limitado a isso. Você pode continuar ajustando e refinando o design para que o resultado final se adapte ao seu gosto pessoal ou à identidade visual do seu projeto.
 
 
-  The real strength of Moocup lies in how it bridges the gap between design and accessibility. It enables people without design expertise to produce screenshots that look as if they were crafted by a professional. At the same time, it is flexible enough for creative users who want to fine tune details and create highly polished results.
+  A verdadeira força do Moocup reside na forma como ele preenche a lacuna entre design e acessibilidade. Ele permite que pessoas sem experiência em design produzam capturas de tela que parecem ter sido feitas por um profissional. Ao mesmo tempo, é flexível o suficiente para usuários criativos que desejam ajustar detalhes e criar resultados altamente sofisticados.
 
 
-  Because the process is so fast and straightforward, Moocup is well suited for situations where presentation matters. Screenshots used in portfolios, product showcases, documentation, or social media posts instantly gain more impact when styled with Moocup. The tool reduces the effort required to make content look appealing while keeping the creative control in your hands.
+  Como o processo é muito rápido e direto, o Moocup é adequado para situações em que a apresentação é importante. Capturas de tela usadas em portfólios, vitrines de produtos, documentação ou postagens em mídias sociais ganham instantaneamente mais impacto quando estilizadas com Moocup. A ferramenta reduz o esforço necessário para tornar o conteúdo atraente, ao mesmo tempo que mantém o controle criativo em suas mãos.
 
 
-  In essence, Moocup is about transforming the everyday screenshot into a visual asset. It empowers you to communicate ideas more effectively by giving even the simplest image a sense of style and professionalism.
+  Em essência, o Moocup trata de transformar a captura de tela do dia a dia em um recurso visual. Ele permite que você comunique ideias de maneira mais eficaz, dando até mesmo à imagem mais simples um senso de estilo e profissionalismo.
 developer: Jaydip Sanghani
 website: https://moocup.jaydip.me/
 submitter: Tascok
@@ -27,9 +27,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/jellydeck/moocup
 support: https://github.com/jellydeck/moocup/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-moocup/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-moocup/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-moocup/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-moocup/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-moocup/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-moocup/3.jpg
 releaseNotes: >-
   This version marks the first official release of Moocup and introduces multi-arch Docker builds for amd64 and arm64. It also enables automatic semantic versioning for future updates and improves the Docker build and push workflow, with images now published under both latest and versioned tags.
 dependencies: []

@@ -1,19 +1,19 @@
 manifestVersion: 1
 id: tascok-mstream
 name: mStream
-tagline: A private music server
+tagline: Um servidor de música privado
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mstream/logo.png
 category: media
 version: "5.13.1"
 port: 3840
 description: >-
-  💿 mStream is a self-hosted music streaming server that allows you to stream your personal music collection from anywhere using a web browser or compatible app. Once installed, it scans your local music directory and creates a library that you can access remotely, making your music available on your phone, tablet, or computer without relying on third-party services.
+  💿 mStream é um servidor de streaming de música auto-hospedado que permite transmitir sua coleção pessoal de músicas de qualquer lugar usando um navegador da web ou aplicativo compatível. Uma vez instalado, ele verifica seu diretório de músicas local e cria uma biblioteca que você pode acessar remotamente, disponibilizando suas músicas em seu telefone, tablet ou computador sem depender de serviços de terceiros.
 
 
-  It supports high-quality audio formats such as FLAC and offers gapless playback for a smooth and uninterrupted listening experience. The user interface is clean, responsive, and easy to navigate, providing a familiar experience similar to commercial music platforms.
+  Ele suporta formatos de áudio de alta qualidade, como FLAC, e oferece reprodução contínua para uma experiência auditiva suave e ininterrupta. A interface do usuário é limpa, responsiva e fácil de navegar, proporcionando uma experiência familiar semelhante às plataformas musicais comerciais.
 
 
-  Because mStream is open source and runs entirely on your own hardware, all your music and data remain private. There are no ads, no subscriptions, and no data collection, making it a reliable and privacy-focused solution for managing and enjoying your music library on your own terms.
+  Como o mStream é de código aberto e funciona inteiramente em seu próprio hardware, todas as suas músicas e dados permanecem privados. Não há anúncios, assinaturas e coleta de dados, o que o torna uma solução confiável e focada na privacidade para gerenciar e desfrutar de sua biblioteca de música em seus próprios termos.
 developer: Iros Software
 website: https://mstream.io/
 submitter: Tascok
@@ -21,11 +21,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/IrosTheBeggar/mStream
 support: https://github.com/IrosTheBeggar/mStream/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mstream/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mstream/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mstream/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mstream/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mstream/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mstream/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mstream/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mstream/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mstream/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mstream/5.jpg
 releaseNotes: >-
   Version 5.13.1 includes several improvements. Additionally, the 32-bit Windows installer has been removed for now.
 dependencies:

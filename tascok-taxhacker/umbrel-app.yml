@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-taxhacker
 name: TaxHacker
-tagline: A powerful AI accounting app
+tagline: Um poderoso aplicativo de contabilidade de IA
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-taxhacker/logo.png
 category: finance
 version: "0.6.0"
 port: 7332
 description: >-
-  👩‍💻 TaxHacker is an intelligent accounting application that simplifies the management of receipts, invoices and financial records through the use of artificial intelligence. It is designed to automatically analyze uploaded documents, extracting key details such as dates, amounts, taxes, currencies and vendors with high accuracy.
+  👩‍💻 TaxHacker é um aplicativo de contabilidade inteligente que simplifica o gerenciamento de recebimentos, faturas e registros financeiros por meio do uso de inteligência artificial. Ele foi projetado para analisar automaticamente documentos carregados, extraindo detalhes importantes como datas, valores, impostos, moedas e fornecedores com alta precisão.
 
 
-  The app combines advanced optical character recognition with AI-driven data interpretation, ensuring reliable parsing even for low-quality scans or documents in different languages. It can process a wide variety of currencies, including cryptocurrencies, and converts them using the historical exchange rate at the exact date of the transaction.
+  O aplicativo combina reconhecimento óptico avançado de caracteres com interpretação de dados orientada por IA, garantindo uma análise confiável mesmo para digitalizações de baixa qualidade ou documentos em diferentes idiomas. Ele pode processar uma ampla variedade de moedas, incluindo criptomoedas, e convertê-las usando a taxa de câmbio histórica na data exata da transação.
 
 
-  All extracted data is presented in a structured format that makes it easy to search, filter and export. Users can create customized data fields, projects and categories, allowing the system to adapt to individual bookkeeping needs.
+  Todos os dados extraídos são apresentados em um formato estruturado que facilita a pesquisa, filtragem e exportação. Os usuários podem criar campos de dados, projetos e categorias customizados, permitindo que o sistema se adapte às necessidades individuais de contabilidade.
 
 
-  By leveraging powerful AI models, TaxHacker offers intelligent categorization and context-aware data extraction that goes far beyond traditional invoice scanning. Its main objective is to minimize manual effort in financial administration and provide users with a precise, well-organized overview of their financial activities.
+  Ao aproveitar modelos de IA poderosos, o TaxHacker oferece categorização inteligente e extração de dados com reconhecimento de contexto que vai muito além da digitalização tradicional de faturas. Seu principal objetivo é minimizar o esforço manual na administração financeira e fornecer aos usuários uma visão precisa e bem organizada de suas atividades financeiras.
 developer: Vasily Zubarev
 website: https://taxhacker.app/
 submitter: Tascok
@@ -24,16 +24,16 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/vas3k/TaxHacker
 support: https://github.com/vas3k/TaxHacker/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-taxhacker/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-taxhacker/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-taxhacker/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-taxhacker/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-taxhacker/5.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-taxhacker/6.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-taxhacker/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-taxhacker/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-taxhacker/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-taxhacker/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-taxhacker/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-taxhacker/6.jpg
 releaseNotes: >-
   Version 0.6.0 introduces support for custom LLM providers like OpenAI, Google Gemini and Mistral, along with improved item detection that can split invoices into multiple transactions. 
-  
-  
+
+
   It adds an "Analyze all" button, enhances the design and user experience, and includes bug fixes for authentication sessions, file parsing and transaction exports.
 dependencies:
 path: ""

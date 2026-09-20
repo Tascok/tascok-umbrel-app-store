@@ -1,31 +1,31 @@
 manifestVersion: 1
 id: tascok-slskd
 name: slskd
-tagline: A modern client-server application for the Soulseek file sharing network
+tagline: Um aplicativo cliente-servidor moderno para a rede de compartilhamento de arquivos Soulseek
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-slskd/logo.png
 category: media
 version: "0.22.5"
 port: 5030
 description: >-
-  slskd is a self-hosted client-server application designed for the Soulseek file-sharing network. It is implemented in C# and distributed under the AGPL-3.0 license. Unlike the traditional Soulseek client, slskd is structured as a daemon that can run on various platforms, including Linux, and provides a modern, web-based user interface accessible through a web browser. This approach allows users to interact with the Soulseek network without relying on the official client while maintaining the ability to search for, download, and share files.
+  slskd é um aplicativo cliente-servidor auto-hospedado projetado para a rede de compartilhamento de arquivos Soulseek. É implementado em C# e distribuído sob a licença AGPL-3.0. Ao contrário do cliente Soulseek tradicional, o slskd é estruturado como um daemon que pode ser executado em várias plataformas, incluindo Linux, e fornece uma interface de usuário moderna baseada na web, acessível por meio de um navegador da web. Essa abordagem permite que os usuários interajam com a rede Soulseek sem depender do cliente oficial, mantendo a capacidade de pesquisar, baixar e compartilhar arquivos.
 
 
-  The primary goal of slskd is to offer a more flexible and accessible way to use Soulseek, especially for those who prefer or require a self-hosted solution. It leverages a token-based authentication system that integrates smoothly with reverse proxies, enhancing security and providing more control over access. Users can configure the application using a YAML configuration file, where they can input their Soulseek login credentials and adjust various settings to suit their preferences.
+  O objetivo principal do slskd é oferecer uma maneira mais flexível e acessível de usar o Soulseek, especialmente para aqueles que preferem ou precisam de uma solução auto-hospedada. Ele aproveita um sistema de autenticação baseado em token que se integra perfeitamente com proxies reversos, aumentando a segurança e fornecendo mais controle sobre o acesso. Os usuários podem configurar o aplicativo usando um arquivo de configuração YAML, onde podem inserir suas credenciais de login do Soulseek e ajustar várias configurações de acordo com suas preferências.
 
 
-  One of the standout features of slskd is its comprehensive search functionality, allowing users to perform multiple simultaneous searches, filter results, and manage ongoing downloads through a single, centralized interface. The web interface is intuitive and designed to be responsive, making it easy to manage files from any device with a web browser.
+  Um dos recursos de destaque do slskd é sua funcionalidade de pesquisa abrangente, permitindo aos usuários realizar várias pesquisas simultâneas, filtrar resultados e gerenciar downloads contínuos por meio de uma interface única e centralizada. A interface web é intuitiva e projetada para ser responsiva, facilitando o gerenciamento de arquivos de qualquer dispositivo com um navegador web.
 
 
-  For those looking to extend or automate their interactions with slskd, there is a dedicated Python API called slskd-api. This API provides endpoints for interacting with the daemon programmatically, enabling developers to integrate Soulseek functionality into other applications or workflows.
+  Para aqueles que desejam estender ou automatizar suas interações com o slskd, existe uma API Python dedicada chamada slskd-api. Esta API fornece endpoints para interagir com o daemon de forma programática, permitindo que os desenvolvedores integrem a funcionalidade do Soulseek em outros aplicativos ou fluxos de trabalho.
 
 
-  slskd also includes mechanisms for secure authentication, ensuring that only authorized users can access the interface. This makes it particularly suitable for multi-user setups or scenarios where the server is exposed to the internet through a reverse proxy.
+  O slskd também inclui mecanismos para autenticação segura, garantindo que apenas usuários autorizados possam acessar a interface. Isso o torna particularmente adequado para configurações multiusuário ou cenários em que o servidor é exposto à Internet por meio de um proxy reverso.
 
 
-  Overall, slskd represents a modernized approach to Soulseek, combining the familiar functionality of the original client with the scalability, security, and convenience of a self-hosted, web-based service.
+  No geral, o slskd representa uma abordagem modernizada do Soulseek, combinando a funcionalidade familiar do cliente original com a escalabilidade, segurança e conveniência de um serviço auto-hospedado baseado na web.
 
 
-  ⚙️ For detailed configuration instructions, please refer to the documentation here: https://github.com/dennysubke/dennys-umbrel-app-store/blob/master/tascok-slskd/readme.md.
+  ⚙️ Para obter instruções detalhadas de configuração, consulte a documentação aqui: https://github.com/dennysubke/dennys-umbrel-app-store/blob/master/tascok-slskd/readme.md.
 developer: JP Dillingham
 website: https://github.com/slskd/slskd
 submitter: Tascok
@@ -33,10 +33,10 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/slskd/slskd
 support: https://github.com/slskd/slskd/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-slskd/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-slskd/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-slskd/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-slskd/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-slskd/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-slskd/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-slskd/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-slskd/4.jpg
 releaseNotes: >-
   The latest version 0.22.5 of slskd was released last month and includes a fix for a cryptic error message that appeared when a remote client did not return any files when requesting directory contents.
 dependencies:

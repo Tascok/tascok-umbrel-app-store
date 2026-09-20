@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-poznote
 name: Poznote
-tagline: A powerful app for taking notes
+tagline: Um aplicativo poderoso para fazer anotações
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-poznote/logo.png
 category: files & productivity
 version: "1.9.9"
 port: 8387
 description: >-
-  📝 Poznote is a clean and focused application designed to help users capture, structure, and refine information in a flexible workspace. It combines a rich text editor with Markdown formatting to support both quick jotting and long form writing, allowing thoughts to grow and change without friction.
+  📝 Poznote é um aplicativo limpo e focado, projetado para ajudar os usuários a capturar, estruturar e refinar informações em um espaço de trabalho flexível. Ele combina um editor de rich text com formatação Markdown para suportar anotações rápidas e escritas longas, permitindo que os pensamentos cresçam e mudem sem atrito.
 
 
-  The interface encourages fluid organization through tags, search, and customizable workspaces so ideas remain easy to find even as the collection expands. Poznote supports attachments for images, documents, and other files, making it possible to keep related material together within a single note.
+  A interface incentiva a organização fluida por meio de tags, pesquisa e espaços de trabalho personalizáveis ​​para que as ideias permaneçam fáceis de encontrar, mesmo à medida que a coleção se expande. Poznote suporta anexos de imagens, documentos e outros arquivos, tornando possível manter o material relacionado reunido em uma única nota.
 
 
-  It includes tools for creating checklists, tasks, and reminders that integrate directly into the writing flow rather than feeling like separate modules. A built in drawing and diagramming tool powered by an Excalidraw integration allows users to sketch concepts, create charts, or visualize ideas alongside text.
+  Inclui ferramentas para criar listas de verificação, tarefas e lembretes que se integram diretamente ao fluxo de escrita, em vez de parecerem módulos separados. Uma ferramenta integrada de desenho e diagramação alimentada por uma integração Excalidraw permite aos usuários esboçar conceitos, criar gráficos ou visualizar ideias junto com o texto.
 
 
-  Notes can be edited, restored from the trash, exported for safekeeping, or duplicated to act as templates for recurring structures. Poznote aims to create a writing environment where text, media, ideas, and tasks coexist naturally, offering a streamlined way to manage information with clarity and continuity.
+  As notas podem ser editadas, restauradas da lixeira, exportadas para proteção ou duplicadas para atuar como modelos para estruturas recorrentes. Poznote visa criar um ambiente de escrita onde texto, mídia, ideias e tarefas coexistam naturalmente, oferecendo uma forma simplificada de gerenciar informações com clareza e continuidade.
 developer: Timothé Poznanski
 website: https://poznote.com/
 submitter: Tascok
@@ -24,10 +24,10 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/timothepoznanski/poznote
 support: https://github.com/timothepoznanski/poznote/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-poznote/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-poznote/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-poznote/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-poznote/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-poznote/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-poznote/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-poznote/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-poznote/4.jpg
 releaseNotes: >-
   This version was generated automatically after the system detected a new release in the repository and contains no functional changes.
 dependencies: []

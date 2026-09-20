@@ -1,25 +1,25 @@
 manifestVersion: 1
 id: tascok-sillytavern
 name: SillyTavern
-tagline: An immersive LLM chat with image generation and TTS support
+tagline: Um bate-papo LLM envolvente com geração de imagens e suporte TTS
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-sillytavern/logo.png
 category: AI
 version: "1.13.1"
 port: 8321
 description: >-
-  🤖 SillyTavern is an advanced and immersive chat interface designed for engaging with AI characters in dynamic and creative ways. It provides a rich environment for storytelling, roleplaying, and simulating conversations, making it ideal for users who want to build meaningful interactions with custom characters or explore fictional scenarios in depth.
+  🤖 SillyTavern é uma interface de bate-papo avançada e envolvente projetada para interagir com personagens de IA de maneira dinâmica e criativa. Ele fornece um ambiente rico para contar histórias, interpretar e simular conversas, tornando-o ideal para usuários que desejam construir interações significativas com personagens personalizados ou explorar cenários fictícios em profundidade.
 
 
-  At the core of SillyTavern is its ability to manage multi-character conversations, allowing users to create entire casts of personalities that can respond individually or participate in group chats. Each character can have its own personality, background, goals, and speech style, making interactions feel alive and consistent over time. Built-in memory systems help characters remember past events or details, adding continuity to longer conversations or narratives.
+  No centro do SillyTavern está sua capacidade de gerenciar conversas com vários personagens, permitindo aos usuários criar elencos inteiros de personalidades que podem responder individualmente ou participar de bate-papos em grupo. Cada personagem pode ter sua própria personalidade, histórico, objetivos e estilo de fala, fazendo com que as interações pareçam vivas e consistentes ao longo do tempo. Sistemas de memória integrados ajudam os personagens a lembrar eventos ou detalhes passados, adicionando continuidade a conversas ou narrativas mais longas.
 
 
-  SillyTavern also supports advanced prompt editing and context management, giving users fine-grained control over how the AI responds. You can inject world lore, adjust character instructions, or tailor the narrative tone, all in real time. This makes the platform especially powerful for writers and creatives who want to use AI as a collaborative storytelling partner.
+  SillyTavern também suporta edição avançada de prompts e gerenciamento de contexto, dando aos usuários controle refinado sobre como a IA responde. Você pode injetar conhecimento mundial, ajustar as instruções dos personagens ou personalizar o tom narrativo, tudo em tempo real. Isso torna a plataforma especialmente poderosa para escritores e criativos que desejam usar a IA como um parceiro colaborativo para contar histórias.
 
 
-  To enhance immersion, SillyTavern integrates optional text-to-speech features, allowing characters to speak aloud using natural-sounding voices. Image generation tools can also be added to visualize characters, scenes, or story elements, providing a multimedia layer to the experience.
+  Para aumentar a imersão, SillyTavern integra recursos opcionais de conversão de texto em fala, permitindo que os personagens falem em voz alta usando vozes com som natural. Ferramentas de geração de imagens também podem ser adicionadas para visualizar personagens, cenas ou elementos da história, proporcionando uma camada multimídia à experiência.
 
 
-  Whether you're developing characters for a novel, playing out roleplay scenarios, or simply enjoying open-ended conversations with AI personalities, SillyTavern offers a feature-rich and highly customizable space for creative exploration.
+  Esteja você desenvolvendo personagens para um romance, representando cenários de RPG ou simplesmente desfrutando de conversas abertas com personalidades de IA, SillyTavern oferece um espaço altamente personalizável e rico em recursos para exploração criativa.
 developer: SillyTavern
 website: https://sillytavern.app/
 submitter: Tascok
@@ -27,17 +27,17 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/SillyTavern/SillyTavern
 support: https://github.com/SillyTavern/SillyTavern/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-sillytavern/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-sillytavern/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-sillytavern/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-sillytavern/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-sillytavern/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-sillytavern/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-sillytavern/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-sillytavern/4.jpg
 releaseNotes: >-
   SillyTavern version 1.13.1 introduces important backend updates including support for Google Vertex AI Gemini models, new Gemini 2.5 Pro models in Google AI Studio, and additional features for OpenRouter, MistralAI, and others. 
-  
-  
+
+
   The update also brings various improvements like multi-value secrets management, better chat interface controls, video attachments for Gemini models, and performance enhancements. 
 
-  
+
   Several bugs related to chat generation, image prompts, and memory leaks have been fixed to ensure a smoother user experience.
 dependencies:
 path: ""

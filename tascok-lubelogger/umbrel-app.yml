@@ -1,25 +1,25 @@
 manifestVersion: 1
 id: tascok-lubelogger
 name: LubeLogger
-tagline: A vehicle maintenance and fuel mileage tracker
+tagline: Um rastreador de manutenção de veículos e consumo de combustível
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-lubelogger/logo.png
 category: files & productivity
 version: "1.5.5"
 port: 8835
 description: >-
-  🚗 LubeLogger is a vehicle management application designed to help users keep a complete and accurate history of their vehicles. It allows detailed tracking of maintenance, repairs, and regular service activities so that every oil change, inspection, or part replacement is documented in one place. Over time, this creates a clear record of how a vehicle has been cared for and what work has been performed.
+  🚗 LubeLogger é um aplicativo de gerenciamento de veículos desenvolvido para ajudar os usuários a manter um histórico completo e preciso de seus veículos. Ele permite o rastreamento detalhado de manutenção, reparos e atividades regulares de serviço para que cada troca de óleo, inspeção ou substituição de peça seja documentada em um só lugar. Com o tempo, isso cria um registro claro de como um veículo foi cuidado e qual trabalho foi executado.
 
 
-  The app also focuses heavily on fuel tracking and cost analysis. Users can record fuel fill ups, mileage, and prices, which enables precise calculations of fuel consumption and long term efficiency. Based on this data, LubeLogger provides insights into running costs and trends, making it easier to understand how driving habits or vehicle condition affect expenses.
+  O aplicativo também se concentra fortemente no rastreamento de combustível e análise de custos. Os usuários podem registrar abastecimentos de combustível, quilometragem e preços, o que permite cálculos precisos de consumo de combustível e eficiência a longo prazo. Com base nesses dados, o LubeLogger fornece insights sobre custos de operação e tendências, facilitando a compreensão de como os hábitos de direção ou as condições do veículo afetam as despesas.
 
 
-  Another core function is expense and cost management. LubeLogger lets users categorize and review all vehicle related costs, including maintenance, fuel, and other recurring or one time expenses. This makes it simple to see how much a vehicle costs to own over months or years and to compare costs between multiple vehicles.
+  Outra função central é o gerenciamento de despesas e custos. O LubeLogger permite aos usuários categorizar e revisar todos os custos relacionados ao veículo, incluindo manutenção, combustível e outras despesas recorrentes ou únicas. Isso torna simples ver quanto custa possuir um veículo ao longo de meses ou anos e comparar os custos entre vários veículos.
 
 
-  LubeLogger includes planning and reminder features that help users stay on top of upcoming maintenance tasks. Service intervals can be tracked based on time or mileage, ensuring that important work is not forgotten. This helps improve vehicle reliability and can extend the lifespan of the vehicle through timely care.
+  O LubeLogger inclui recursos de planejamento e lembrete que ajudam os usuários a ficarem atualizados sobre as próximas tarefas de manutenção. Os intervalos de manutenção podem ser monitorados com base no tempo ou na quilometragem, garantindo que trabalhos importantes não sejam esquecidos. Isso ajuda a melhorar a confiabilidade do veículo e pode prolongar sua vida útil por meio de cuidados oportunos.
 
 
-  The application also supports managing multiple vehicles and organizing all related data in a structured and searchable way. Documents such as receipts or service records can be attached to entries, creating a complete digital archive for each vehicle. Overall, LubeLogger is built to give vehicle owners full visibility into maintenance history, fuel usage, and total cost of ownership in a clear and practical manner.
+  O aplicativo também suporta o gerenciamento de vários veículos e a organização de todos os dados relacionados de forma estruturada e pesquisável. Documentos como recibos ou registros de serviços podem ser anexados aos lançamentos, criando um arquivo digital completo para cada veículo. No geral, o LubeLogger foi desenvolvido para oferecer aos proprietários de veículos visibilidade total do histórico de manutenção, uso de combustível e custo total de propriedade de maneira clara e prática.
 developer: Hargata Softworks
 website: https://lubelogger.com/
 submitter: Tascok
@@ -27,11 +27,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/hargata/lubelog
 support: https://github.com/hargata/lubelog/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-lubelogger/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-lubelogger/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-lubelogger/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-lubelogger/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-lubelogger/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-lubelogger/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-lubelogger/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-lubelogger/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-lubelogger/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-lubelogger/5.jpg
 releaseNotes: >-
   This version focuses on improving overall stability and reliability of the application. Several bugs were fixed, including issues with exporting records that contained images in notes and a limitation that prevented configuring fewer than six visible tabs.
 

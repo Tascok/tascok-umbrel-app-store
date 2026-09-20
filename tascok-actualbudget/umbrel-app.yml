@@ -1,57 +1,57 @@
 manifestVersion: 1
 id: tascok-actualbudget
 name: Actual Budget
-tagline: A super fast privacy-focused app for managing your finances
+tagline: Um aplicativo super rápido com foco na privacidade para gerenciar suas finanças
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-actualbudget/logo.png
 category: finance
 version: "26.7.0"
 port: 5006
 description: >-
-  Actual Budget is a privacy-first personal finance tool designed for users to self-host their data and manage their budgets with complete control. It offers real-time budgeting, detailed tracking of expenses, and advanced reporting, empowering users to make informed financial decisions. The app supports encrypted syncing across multiple devices and features mobile apps for both iOS and Android, making financial management accessible on the go. With its clean and intuitive interface, Actual Budget simplifies complex finances while ensuring data remains secure and private.
+  Actual Budget é uma ferramenta de finanças pessoais que prioriza a privacidade, projetada para que os usuários hospedem seus dados e gerenciem seus orçamentos com controle total. Oferece orçamento em tempo real, rastreamento detalhado de despesas e relatórios avançados, capacitando os usuários a tomar decisões financeiras informadas. O aplicativo oferece suporte à sincronização criptografada em vários dispositivos e possui aplicativos móveis para iOS e Android, tornando o gerenciamento financeiro acessível em qualquer lugar. Com sua interface limpa e intuitiva, o Actual Budget simplifica finanças complexas e ao mesmo tempo garante que os dados permaneçam seguros e privados.
 
 
-  Here are some key features of Actual Budget:
+  Aqui estão alguns recursos principais do orçamento real:
 
 
-  🗃️ Everything in one place: Add all of your accounts and track everything in one place. Get valuable information like net worth from all your accounts together.
+  🗃️ Tudo em um só lugar: adicione todas as suas contas e acompanhe tudo em um só lugar. Obtenha informações valiosas, como patrimônio líquido, de todas as suas contas juntas.
 
 
-  💰 Payees: Manage payees quickly. Merge them, set up custom rules for how they are matched, and use default categories to automatically categorize transactions.
+  💰 Beneficiários: gerencie os beneficiários rapidamente. Mescle-os, configure regras personalizadas para a correspondência e use categorias padrão para categorizar transações automaticamente.
 
 
-  💵 Budgeting: Track your spending with budgets. You can only budget cash you have on hand, which means your budget stays realistic and you don't make numbers up.
+  💵 Orçamento: acompanhe seus gastos com orçamentos. Você só pode orçar o dinheiro que tem em mãos, o que significa que seu orçamento permanece realista e você não inventa números.
 
 
-  📥 Importing Transactions: Import transactions from the most popular financial files: QIF, OFX, QFX, and CSV.
+  📥 Importação de transações: importe transações dos arquivos financeiros mais populares: QIF, OFX, QFX e CSV.
 
 
-  📂 Migrate your data: Actual Budget provides a builtin YNAB4 importer that keeps all of your history.
+  📂 Migre seus dados: O Actual Budget fornece um importador YNAB4 integrado que mantém todo o seu histórico.
 
 
-  🔄 Syncing across devices: Actual Budget offers a syncing service which uses sophisticated distributed systems technology to sync changes across any number of devices.
+  🔄 Sincronização entre dispositivos: Actual Budget oferece um serviço de sincronização que usa tecnologia sofisticada de sistemas distribuídos para sincronizar alterações em qualquer número de dispositivos.
 
 
-  📱 Mobile app: A proper mobile app is critical to stay engaged with your finances.
+  📱 Aplicativo móvel: um aplicativo móvel adequado é fundamental para se manter envolvido com suas finanças.
 
 
-  ➗ Split transactions: Use split transactions to separate a single expense into multiple categories. An inline editor makes this seamless.
+  ➗ Dividir transações: use transações divididas para separar uma única despesa em várias categorias. Um editor embutido torna isso perfeito.
 
 
-  ➡️ Transfers: Manage transfers easily by creating transfer transactions. Actual will link the transactions on both sides and update them together.
+  ➡️ Transferências: Gerencie transferências facilmente criando transações de transferência. Actual vinculará as transações de ambos os lados e as atualizará juntas.
 
 
-  🔁 Undo & redo: A robust undo system allows you to rollback any changes you make, and redo them if desired. Never worry about making mistakes.
+  🔁 Desfazer e refazer: um sistema robusto de desfazer permite reverter quaisquer alterações feitas e refazê-las, se desejar. Nunca se preocupe em cometer erros.
 
 
-  🔌 API: Use the fully-featured API to write custom importers or build your own features. This API simply runs on your local data.
+  🔌 API: Use a API completa para escrever importadores personalizados ou criar seus próprios recursos. Esta API simplesmente é executada em seus dados locais.
 
 
-  🛡️ End-to-end encryption: Actaul Budget offers a syncing service which uses sophisticated distributed systems technology to sync changes across any number of devices.
+  🛡️ Criptografia ponta a ponta: Actaul Budget oferece um serviço de sincronização que usa tecnologia sofisticada de sistemas distribuídos para sincronizar alterações em qualquer número de dispositivos.
 
    
-  🔑 Initial Setup of Actual Budget:
+  🔑 Configuração inicial do orçamento real:
 
-   During the initial setup of Actual Budget, you will need a password, which is set to "password." Please note that the HTTPS warning can be ignored.
+   Durante a configuração inicial do Orçamento Real, você precisará de uma senha, que é definida como “senha”. Observe que o aviso HTTPS pode ser ignorado.
 
 developer: Shift Reset LLC
 website: https://actualbudget.com/
@@ -60,10 +60,10 @@ submission: https://github.com/dennysubke/dennys-umbrel-app-store
 repo: https://github.com/actualbudget/actual-server
 support: https://github.com/actualbudget/actual-server/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-actualbudget/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-actualbudget/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-actualbudget/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-actualbudget/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-actualbudget/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-actualbudget/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-actualbudget/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-actualbudget/4.jpg
 releaseNotes: >-
   Actual Budget 26.7.0 introduces a new experimental bank sync provider for New Zealand through Akahu and makes the Actual CLI officially stable.
 

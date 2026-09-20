@@ -1,25 +1,25 @@
 manifestVersion: 1
 id: tascok-scummvm
 name: ScummVM
-tagline: A home for classic adventures
+tagline: Um lar para aventuras clássicas
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-scummvm/logo.png
 category: gaming
 version: "2026.3.0"
 port: 8373
 description: >-
-  ScummVM brings decades of classic gaming history directly to your Umbrel. It allows you to play hundreds of supported point and click adventures, role playing games and interactive stories through a convenient browser based interface. Rediscover legendary titles from series such as Monkey Island, King’s Quest, Broken Sword, Simon the Sorcerer and many more, without needing the original operating systems or hardware they were designed for.
+  ScummVM traz décadas de história de jogos clássicos diretamente para o seu Umbrel. Ele permite que você jogue centenas de aventuras de apontar e clicar, jogos de RPG e histórias interativas através de uma interface conveniente baseada em navegador. Redescubra títulos lendários de séries como Monkey Island, King’s Quest, Broken Sword, Simon the Sorcerer e muito mais, sem precisar dos sistemas operacionais ou hardware originais para os quais foram projetados.
 
 
-  Instead of emulating an entire computer, ScummVM recreates the individual game engines used by supported titles. This approach provides improved compatibility on modern systems while preserving the original graphics, audio, gameplay and atmosphere. Games can be added to a central library, searched, grouped and launched through the built in ScummVM launcher.
+  Em vez de emular um computador inteiro, o ScummVM recria os motores de jogo individuais usados ​​pelos títulos suportados. Essa abordagem fornece compatibilidade aprimorada em sistemas modernos, preservando os gráficos, áudio, jogabilidade e atmosfera originais. Os jogos podem ser adicionados a uma biblioteca central, pesquisados, agrupados e iniciados através do iniciador ScummVM integrado.
 
 
-  ScummVM offers configurable graphics scaling, audio settings, subtitles, language selection, keyboard mappings and game specific options. Integrated save and load management makes it easy to continue an adventure, while autosaves help protect your progress. Many games also benefit from engine specific fixes, improved controls and quality of life enhancements that were not available in their original releases.
+  ScummVM oferece dimensionamento gráfico configurável, configurações de áudio, legendas, seleção de idioma, mapeamentos de teclado e opções específicas de jogos. O gerenciamento integrado de salvamento e carregamento facilita a continuação de uma aventura, enquanto os salvamentos automáticos ajudam a proteger seu progresso. Muitos jogos também se beneficiam de correções específicas de motor, controles aprimorados e melhorias de qualidade de vida que não estavam disponíveis em seus lançamentos originais.
 
 
-  Running ScummVM on Umbrel gives you a personal retro gaming library that can be accessed from a web browser across your local network. Your game files, settings and saved games remain stored on your own Umbrel, giving you a private and centralized place for your classic adventure collection.
+  Executar o ScummVM no Umbrel oferece uma biblioteca pessoal de jogos retrô que pode ser acessada a partir de um navegador da web em sua rede local. Seus arquivos de jogos, configurações e jogos salvos permanecem armazenados em seu próprio Umbrel, proporcionando um local privado e centralizado para sua coleção de aventuras clássicas.
 
 
-  ⚠️ ScummVM does not include commercial games or copyrighted game data. To play a supported title, you must provide the required data files from a copy of the game that you legally own.
+  ⚠️ ScummVM não inclui jogos comerciais ou dados de jogos protegidos por direitos autorais. Para jogar um título compatível, você deve fornecer os arquivos de dados necessários de uma cópia do jogo que você possui legalmente.
 developer: The ScummVM Team
 website: https://www.scummvm.org/
 submitter: Tascok
@@ -27,11 +27,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/scummvm/scummvm
 support: https://github.com/scummvm/scummvm/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-scummvm/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-scummvm/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-scummvm/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-scummvm/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-scummvm/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-scummvm/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-scummvm/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-scummvm/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-scummvm/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-scummvm/5.jpg
 releaseNotes: >-
   This version expands ScummVM’s supported game library with several new titles, including two Nancy Drew adventures, Noctropolis, Cartoon Carnival, Alfred Pelrock, and multiple Pilot Brothers games.
 

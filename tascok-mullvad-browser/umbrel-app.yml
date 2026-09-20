@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-mullvad-browser
 name: Mullvad Browser
-tagline: A privacy-focused browser designed to minimize tracking and fingerprinting
+tagline: Um navegador focado na privacidade projetado para minimizar rastreamento e impressões digitais
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mullvad-browser/logo.png
 category: networking
 version: "14.0.5"
 port: 5880
 description: >-
-  Mullvad Browser is a privacy-focused web browser developed by Mullvad VPN in collaboration with the Tor Project. It is designed to minimize online tracking and fingerprinting, providing users with a more private browsing experience without requiring the use of a VPN or the Tor network. Built on Mozilla Firefox, it incorporates various privacy-enhancing features, such as anti-fingerprinting technology, strict cookie and cache management, and automatic blocking of trackers and third-party scripts.
+  Mullvad Browser é um navegador com foco na privacidade desenvolvido pela Mullvad VPN em colaboração com o Projeto Tor. Ele foi projetado para minimizar o rastreamento on-line e impressões digitais, proporcionando aos usuários uma experiência de navegação mais privada sem a necessidade do uso de VPN ou da rede Tor. Construído no Mozilla Firefox, ele incorpora vários recursos de aprimoramento de privacidade, como tecnologia anti-impressão digital, gerenciamento rigoroso de cookies e cache e bloqueio automático de rastreadores e scripts de terceiros.
 
 
-  One of its key design principles is to make all users appear as identical as possible to websites, reducing the effectiveness of browser fingerprinting techniques. Unlike standard browsers, which often store extensive browsing data, Mullvad Browser limits data retention and disables telemetry by default. It also enforces HTTPS connections where possible and prevents WebRTC leaks that could expose a user’s real IP address.
+  Um dos seus principais princípios de design é fazer com que todos os usuários pareçam tão idênticos quanto possível aos sites, reduzindo a eficácia das técnicas de impressão digital do navegador. Ao contrário dos navegadores padrão, que geralmente armazenam muitos dados de navegação, o Mullvad Browser limita a retenção de dados e desativa a telemetria por padrão. Ele também reforça conexões HTTPS sempre que possível e evita vazamentos de WebRTC que poderiam expor o endereço IP real de um usuário.
 
 
-  While the browser can be used on its own, it is particularly effective when paired with a VPN, such as Mullvad VPN, for an additional layer of anonymity. By prioritizing user privacy over personalization and convenience, Mullvad Browser offers a simple yet robust solution for those seeking to browse the web with minimal tracking and data exposure.
+  Embora o navegador possa ser usado sozinho, ele é particularmente eficaz quando combinado com uma VPN, como o Mullvad VPN, para obter uma camada adicional de anonimato. Ao priorizar a privacidade do usuário em vez da personalização e conveniência, o Mullvad Browser oferece uma solução simples, porém robusta, para quem busca navegar na web com o mínimo de rastreamento e exposição de dados.
 
 
-  ⚠️ Mullvad Browser is for power users. If you're using a VPN, set LOCAL_NET=192.168.0.0/16 in the docker-compose file to your local LAN IP range using CIDR notation. Without it, you won't be able to access the web interface.
+  ⚠️ Mullvad Browser é para usuários avançados. Se você estiver usando uma VPN, defina LOCAL_NET=192.168.0.0/16 no arquivo docker-compose para o intervalo de IP da LAN local usando a notação CIDR. Sem ele, você não conseguirá acessar a interface web.
 developer: Mullvad VPN
 website: https://mullvad.net/de/browser
 submitter: Tascok
@@ -24,9 +24,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/linuxserver/docker-mullvad-browser
 support: https://github.com/linuxserver/docker-mullvad-browser/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mullvad-browser/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mullvad-browser/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mullvad-browser/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mullvad-browser/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mullvad-browser/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mullvad-browser/3.jpg
 releaseNotes: >-
   The release 14.0.5 of Mullvad Browser includes a rebase to noble.
 dependencies:

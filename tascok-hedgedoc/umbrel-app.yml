@@ -1,22 +1,22 @@
 manifestVersion: 1
-id: tascok-hedgedoc  
+id: tascok-hedgedoc
 name: HedgeDoc
-tagline: A secure and flexible markdown solution for teams
+tagline: Uma solução de descontos segura e flexível para equipes
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-hedgedoc/logo.png
 category: files & productivity
 version: "1.10.3"
 port: 3456
 description: >-
-  🦔 HedgeDoc is an open-source, collaborative markdown editor designed to facilitate real-time collaboration and efficient document creation. It allows multiple users to simultaneously edit a document, with all changes reflected in real time. The platform uses markdown, a lightweight markup language, for text formatting, which makes it easy to structure content without the complexity of traditional word processing software.
+  🦔 HedgeDoc é um editor de markdown colaborativo de código aberto projetado para facilitar a colaboração em tempo real e a criação eficiente de documentos. Permite que vários usuários editem simultaneamente um documento, com todas as alterações refletidas em tempo real. A plataforma usa markdown, uma linguagem de marcação leve, para formatação de texto, o que facilita a estruturação do conteúdo sem a complexidade do software tradicional de processamento de texto.
 
 
-  HedgeDoc is particularly useful for teams, groups, or individuals working on shared projects, brainstorming sessions, documentation, meeting notes, or even writing code, as markdown is ideal for such tasks. The interface is clean, intuitive, and user-friendly, enabling users to focus on their content without distraction. It also includes a variety of features that enhance collaborative workflows, such as support for tables, mathematical formulas, embedded images, and task lists.
+  HedgeDoc é particularmente útil para equipes, grupos ou indivíduos que trabalham em projetos compartilhados, sessões de brainstorming, documentação, notas de reuniões ou até mesmo escrever código, já que o markdown é ideal para tais tarefas. A interface é limpa, intuitiva e fácil de usar, permitindo que os usuários se concentrem no conteúdo sem distrações. Também inclui uma variedade de recursos que aprimoram os fluxos de trabalho colaborativos, como suporte para tabelas, fórmulas matemáticas, imagens incorporadas e listas de tarefas.
 
 
-  One of the key advantages of HedgeDoc is that it can be self-hosted, meaning users can deploy it on their own servers for complete control over their data and privacy. This makes it an excellent choice for organizations that prioritize security or want to keep their content within their own infrastructure. Additionally, being open-source, HedgeDoc offers flexibility for customization and integration with other tools, catering to a wide range of use cases from personal note-taking to professional document management.
+  Uma das principais vantagens do HedgeDoc é que ele pode ser auto-hospedado, o que significa que os usuários podem implantá-lo em seus próprios servidores para ter controle total sobre seus dados e privacidade. Isto o torna uma excelente escolha para organizações que priorizam a segurança ou desejam manter seu conteúdo dentro de sua própria infraestrutura. Além disso, por ser de código aberto, o HedgeDoc oferece flexibilidade para personalização e integração com outras ferramentas, atendendo a uma ampla gama de casos de uso, desde anotações pessoais até gerenciamento profissional de documentos.
 
 
-  Overall, HedgeDoc provides a streamlined, secure, and powerful platform for anyone looking to collaborate on text-based content in a simple, efficient way, without compromising on control or privacy.
+  No geral, o HedgeDoc fornece uma plataforma simplificada, segura e poderosa para quem deseja colaborar em conteúdo baseado em texto de maneira simples e eficiente, sem comprometer o controle ou a privacidade.
 developer: HedgeDoc Project
 website: https://hedgedoc.org/
 submitter: Tascok
@@ -24,14 +24,14 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/hedgedoc/hedgedoc
 support: https://github.com/hedgedoc/hedgedoc/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-hedgedoc/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-hedgedoc/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-hedgedoc/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-hedgedoc/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-hedgedoc/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-hedgedoc/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-hedgedoc/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-hedgedoc/4.jpg
 releaseNotes: >-
   HedgeDoc 1.10.3 addresses a security vulnerability related to brute-forcing local email/passwords due to missing rate-limits, recommending an upgrade for users with local logins. 
-  
-  
+
+
   The release also changes the default configuration of the HSTS preload attribute for compliance and deprecates support for Node 18, urging users to upgrade to Node 20 or higher. Additionally, it introduces rate-limiting for login, register, and notes endpoints, along with several bug fixes.
 dependencies:
 path: ""

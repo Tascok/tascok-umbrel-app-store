@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-papra
 name: Papra
-tagline: A minimalistic document archiving platform
+tagline: Uma plataforma minimalista de arquivamento de documentos
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-papra/logo.png
 category: files & productivity
 version: "0.4.0"
 port: 1221
 description: >-
-  📄 Papra is an open-source document management platform designed to help individuals, startups, and businesses organize and securely store their documents in a centralized location. The platform aims to simplify document handling by offering an intuitive interface where users can upload, categorize, and search their files easily.
+  📄 Papra é uma plataforma de gerenciamento de documentos de código aberto projetada para ajudar indivíduos, startups e empresas a organizar e armazenar com segurança seus documentos em um local centralizado. A plataforma visa simplificar o manuseio de documentos, oferecendo uma interface intuitiva onde os usuários podem fazer upload, categorizar e pesquisar seus arquivos facilmente.
 
 
-  One of the standout features of Papra is its email integration, which provides users with a unique email address that automatically saves email attachments as documents within the system. This makes it effortless to keep important files without manual uploading. Papra also supports tagging, allowing users to label documents with relevant keywords to improve organization and make retrieval faster. The search functionality is powerful and enables users to quickly find the documents they need among large collections.
+  Um dos recursos de destaque do Papra é a integração de e-mail, que fornece aos usuários um endereço de e-mail exclusivo que salva automaticamente anexos de e-mail como documentos dentro do sistema. Isso torna mais fácil manter arquivos importantes sem upload manual. Papra também suporta marcação, permitindo aos usuários rotular documentos com palavras-chave relevantes para melhorar a organização e tornar a recuperação mais rápida. A funcionalidade de pesquisa é poderosa e permite que os usuários encontrem rapidamente os documentos necessários em grandes coleções.
 
 
-  The application is currently in its beta phase but already offers a stable core experience with ongoing active development and frequent updates. Users interested in trying the platform can access a live demo, and those who prefer more control can host the application themselves following available documentation and guides.
+  O aplicativo está atualmente em fase beta, mas já oferece uma experiência central estável com desenvolvimento ativo contínuo e atualizações frequentes. Os usuários interessados ​​em experimentar a plataforma podem acessar uma demonstração ao vivo, e aqueles que preferem mais controle podem hospedar eles próprios o aplicativo seguindo a documentação e os guias disponíveis.
 
 
-  Papra is community-driven and encourages contributions and feedback to continuously enhance its features and usability. Overall, Papra provides a practical and efficient solution for managing digital documents with a focus on simplicity, automation, and security.
+  Papra é voltado para a comunidade e incentiva contribuições e feedback para aprimorar continuamente seus recursos e usabilidade. No geral, o Papra oferece uma solução prática e eficiente para gerenciamento de documentos digitais com foco na simplicidade, automação e segurança.
 developer: Corentin Thomasset
 website: https://papra.app/
 submitter: Tascok
@@ -24,10 +24,10 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/papra-hq/papra
 support: https://github.com/papra-hq/papra/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-papra/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-papra/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-papra/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-papra/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-papra/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-papra/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-papra/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-papra/4.jpg
 releaseNotes: >-
   This update introduces support for Backblaze B2 and Azure Blob storage, webhook management, API keys, and editable searchable document content. It also adds a tag creation button, fixes ingestion configuration, properly handles file names without extensions, and excludes deleted documents from the document count.
 dependencies:

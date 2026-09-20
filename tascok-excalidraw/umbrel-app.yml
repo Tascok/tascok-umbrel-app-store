@@ -1,25 +1,25 @@
 manifestVersion: 1
 id: tascok-excalidraw
 name: Excalidraw
-tagline: An open source virtual hand-drawn style whiteboard
+tagline: Um quadro branco virtual desenhado à mão de código aberto
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-excalidraw/logo.png
 category: files & productivity
 version: "0.18.0"
 port: 4422
 description: >-
-  ✏️ Excalidraw is a free and open-source virtual whiteboard that allows users to create diagrams, sketches, and visual concepts in a hand-drawn style. Designed to simulate the look of informal sketches, it offers a playful yet functional way to visualize ideas, plan projects, and collaborate with others. Unlike traditional diagramming tools that aim for polished, rigid layouts, Excalidraw embraces rough edges and fluid lines, making it ideal for creative thinking, brainstorming sessions, and rapid prototyping.
+  ✏️ Excalidraw é um quadro branco virtual gratuito e de código aberto que permite aos usuários criar diagramas, esboços e conceitos visuais em estilo desenhado à mão. Projetado para simular a aparência de esboços informais, oferece uma maneira lúdica e funcional de visualizar ideias, planejar projetos e colaborar com outras pessoas. Ao contrário das ferramentas de diagramação tradicionais que visam layouts rígidos e polidos, o Excalidraw adota arestas e linhas fluidas, tornando-o ideal para pensamento criativo, sessões de brainstorming e prototipagem rápida.
 
 
-  At its core, Excalidraw is built for simplicity and ease of use. Users can draw shapes like rectangles, circles, and arrows, add text, and use a freehand tool to sketch ideas. The interface is intuitive and minimalist, allowing even those with no prior design experience to jump in and start drawing immediately. It supports real-time collaboration, enabling multiple people to work together on the same canvas simply by sharing a link. This feature makes it a popular choice for remote teams, educators, and facilitators who need a shared visual space for interaction.
+  Em sua essência, o Excalidraw foi desenvolvido para ser simples e fácil de usar. Os usuários podem desenhar formas como retângulos, círculos e setas, adicionar texto e usar uma ferramenta à mão livre para esboçar ideias. A interface é intuitiva e minimalista, permitindo que mesmo aqueles sem experiência anterior em design entrem e comecem a desenhar imediatamente. Ele oferece suporte à colaboração em tempo real, permitindo que várias pessoas trabalhem juntas na mesma tela simplesmente compartilhando um link. Esse recurso o torna uma escolha popular para equipes remotas, educadores e facilitadores que precisam de um espaço visual compartilhado para interação.
 
 
-  One of the standout features of Excalidraw is its offline capability. As a progressive web app, it works directly in the browser and saves data locally, so users can keep working even without an internet connection. It also supports exporting drawings in multiple formats, including PNG, SVG, and JSON, which makes it easy to use content created in Excalidraw elsewhere.
+  Um dos recursos de destaque do Excalidraw é sua capacidade offline. Por ser um aplicativo web progressivo, ele funciona diretamente no navegador e salva dados localmente, para que os usuários possam continuar trabalhando mesmo sem conexão com a internet. Ele também suporta a exportação de desenhos em vários formatos, incluindo PNG, SVG e JSON, o que facilita o uso do conteúdo criado no Excalidraw em outros lugares.
 
 
-  Because it is open source, Excalidraw has gained a strong developer following. The codebase is available on GitHub, allowing contributors to extend its features or integrate it into other platforms. This flexibility has led to its adoption in tools like Obsidian, Visual Studio Code, and various project management environments, where visual collaboration is a valuable asset.
+  Por ser de código aberto, o Excalidraw ganhou fortes seguidores de desenvolvedores. A base de código está disponível no GitHub, permitindo que os contribuidores estendam seus recursos ou integrem-no a outras plataformas. Essa flexibilidade levou à sua adoção em ferramentas como Obsidian, Visual Studio Code e vários ambientes de gerenciamento de projetos, onde a colaboração visual é um ativo valioso.
 
 
-  Overall, Excalidraw stands out as a lightweight, accessible, and community-driven alternative to more complex design and diagramming software. Its focus on clarity, collaboration, and the freedom to draw without friction makes it a beloved tool for thinkers, tinkerers, and teams around the world.
+  No geral, o Excalidraw se destaca como uma alternativa leve, acessível e voltada para a comunidade a softwares de design e diagramação mais complexos. Seu foco na clareza, na colaboração e na liberdade de desenhar sem atrito o torna uma ferramenta adorada por pensadores, criadores e equipes em todo o mundo.
 developer: Excalidraw Team
 website: https://excalidraw.com/
 submitter: Tascok
@@ -27,9 +27,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/ozencb/excalidraw-persist
 support: https://github.com/ozencb/excalidraw-persist/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-excalidraw/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-excalidraw/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-excalidraw/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-excalidraw/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-excalidraw/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-excalidraw/3.jpg
 releaseNotes: >-
   Key highlights in this release include:
     - ⚡ Significant improvements in page initialization and chat performance

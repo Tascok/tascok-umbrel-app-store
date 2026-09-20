@@ -1,31 +1,31 @@
 manifestVersion: 1
-id: tascok-ghost  
+id: tascok-ghost
 name: Ghost
-tagline: A platform for creators to publish, grow, and monetize their content
+tagline: Uma plataforma para criadores publicarem, desenvolverem e monetizarem seu conteúdo
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ghost/logo.png
 category: files & productivity
 version: "5.109.2"
 port: 3368
 description: >-
-  Ghost is a powerful, open-source content management system (CMS) primarily designed for professional bloggers, journalists, and content creators. Unlike more traditional CMS platforms like WordPress, which offer a wide range of plugins and customization options, Ghost focuses on providing a streamlined, fast, and minimalist platform that prioritizes the writing and publishing experience. It was initially created with bloggers in mind, but over time, it has evolved to include more features such as membership management, email newsletters, and monetization tools.
+  Ghost é um sistema de gerenciamento de conteúdo (CMS) poderoso e de código aberto, projetado principalmente para blogueiros, jornalistas e criadores de conteúdo profissionais. Ao contrário das plataformas CMS mais tradicionais como o WordPress, que oferecem uma ampla gama de plug-ins e opções de personalização, o Ghost se concentra em fornecer uma plataforma simplificada, rápida e minimalista que prioriza a experiência de escrita e publicação. Ele foi inicialmente criado pensando nos blogueiros, mas com o tempo evoluiu para incluir mais recursos, como gerenciamento de membros, boletins informativos por e-mail e ferramentas de monetização.
 
 
-  The platform is known for its speed and performance, ensuring fast load times for websites. This is important for improving user experience and search engine optimization (SEO). Ghost’s user interface is designed to be clean, intuitive, and distraction-free, allowing creators to focus solely on their content without getting bogged down by unnecessary options or settings.
+  A plataforma é conhecida por sua velocidade e desempenho, garantindo tempos de carregamento rápidos para sites. Isso é importante para melhorar a experiência do usuário e a otimização do mecanismo de pesquisa (SEO). A interface de usuário do Ghost foi projetada para ser limpa, intuitiva e livre de distrações, permitindo que os criadores se concentrem exclusivamente em seu conteúdo, sem se prenderem a opções ou configurações desnecessárias.
 
 
-  One of the standout features of Ghost is its membership and subscription functionality. Content creators can monetize their work by offering paid subscriptions to readers, providing them with exclusive content or newsletters. This makes Ghost an ideal choice for those looking to build a business around their content, such as premium blogs or news outlets.
+  Um dos recursos de destaque do Ghost é sua funcionalidade de associação e assinatura. Os criadores de conteúdo podem monetizar seu trabalho oferecendo assinaturas pagas aos leitores, fornecendo-lhes conteúdo exclusivo ou newsletters. Isso torna o Ghost a escolha ideal para quem deseja construir um negócio em torno de seu conteúdo, como blogs premium ou veículos de notícias.
 
 
-  Although Ghost is designed to be simple and straightforward, it also offers customization options for developers. Users can modify themes, add custom code, or integrate third-party services, allowing them to tailor the platform to meet their needs. Additionally, Ghost includes built-in SEO features, such as customizable meta descriptions, clean URLs, and a focus on fast, responsive designs, all of which contribute to better search engine rankings.
-  
-  
-  Overall, Ghost is a highly efficient and user-friendly platform for content creation and publishing. Its focus on speed, simplicity, and monetization makes it an excellent option for anyone who wants to create a professional online presence without the complexity of other CMS platforms.
+  Embora o Ghost tenha sido projetado para ser simples e direto, ele também oferece opções de personalização para desenvolvedores. Os usuários podem modificar temas, adicionar código personalizado ou integrar serviços de terceiros, permitindo-lhes adaptar a plataforma às suas necessidades. Além disso, o Ghost inclui recursos de SEO integrados, como meta descrições personalizáveis, URLs limpos e foco em designs rápidos e responsivos, todos os quais contribuem para melhores classificações nos mecanismos de pesquisa.
 
 
-  ⚠️ You can access your new website at 'http://umbrel.local:3368'. It can easily be tunneled to your own domain using the Cloudflare app from the Umbrel App Store.
+  No geral, o Ghost é uma plataforma altamente eficiente e fácil de usar para criação e publicação de conteúdo. Seu foco na velocidade, simplicidade e monetização o torna uma excelente opção para quem deseja criar uma presença online profissional sem a complexidade de outras plataformas CMS.
 
 
-  🔑 To access the Ghost Admin panel, go to 'http://umbrel.local:3368/ghost'.
+  ⚠️ Você pode acessar seu novo site em 'http://umbrel.local:3368'. Ele pode ser facilmente encapsulado em seu próprio domínio usando o aplicativo Cloudflare da Umbrel App Store.
+
+
+  🔑 Para acessar o painel de administração do Ghost, vá para 'http://umbrel.local:3368/ghost'.
 developer: Ghost Foundation Ltd
 website: https://ghost.org/
 submitter: Tascok
@@ -33,13 +33,13 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/TryGhost/Ghost
 support: https://github.com/TryGhost/Ghost/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ghost/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ghost/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ghost/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ghost/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ghost/5.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ghost/6.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ghost/7.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ghost/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ghost/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ghost/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ghost/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ghost/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ghost/6.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ghost/7.jpg
 releaseNotes: >-
   This release contains fixes for minor bugs and issues reported by Ghost users.
 dependencies:

@@ -1,19 +1,19 @@
 manifestVersion: 1
 id: tascok-postgresus
 name: Postgresus
-tagline: An open source PostgreSQL backup tool
+tagline: Uma ferramenta de backup PostgreSQL de código aberto
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-postgresus/logo.png
 category: networking
 version: "1.33.0"
 port: 4005
 description: >-
-  🐘 Postgresus is an application designed to simplify the entire workflow of creating, managing, and storing backups for PostgreSQL databases. It provides a structured environment where backups can be scheduled at custom intervals, automatically executed, and organized in a consistent format. The system handles the full lifecycle of a backup, from initiating the dump process to compressing the data so that storage usage remains efficient. Once created, each backup is transferred to a preferred storage destination and catalogued, allowing users to maintain a clear overview of their database history.
+  🐘 Postgresus é um aplicativo desenvolvido para simplificar todo o fluxo de trabalho de criação, gerenciamento e armazenamento de backups de bancos de dados PostgreSQL. Ele fornece um ambiente estruturado onde os backups podem ser agendados em intervalos personalizados, executados automaticamente e organizados em um formato consistente. O sistema lida com todo o ciclo de vida de um backup, desde o início do processo de despejo até a compactação dos dados para que o uso do armazenamento permaneça eficiente. Depois de criado, cada backup é transferido para um destino de armazenamento preferencial e catalogado, permitindo que os usuários mantenham uma visão clara do histórico do banco de dados.
 
 
-  The application also includes mechanisms to monitor the health of a PostgreSQL instance. It performs periodic checks to determine whether a database is reachable and operational, sending alerts when problems occur. This ensures that issues are detected early and reduces the risk of unnoticed downtime.
+  A aplicação também inclui mecanismos para monitorar a integridade de uma instância do PostgreSQL. Ele realiza verificações periódicas para determinar se um banco de dados está acessível e operacional, enviando alertas quando ocorrem problemas. Isso garante que os problemas sejam detectados precocemente e reduz o risco de tempo de inatividade despercebido.
 
 
-  Postgresus provides a central dashboard where past backups can be reviewed, restored, or deleted. Metadata such as timestamps, sizes, retention policies, and execution results help users keep track of their backup strategy and maintain clarity even in complex environments. The goal of the application is to make PostgreSQL backup management reliable, transparent, and easy to control without requiring custom scripts or manual intervention.
+  Postgresus fornece um painel central onde backups anteriores podem ser revisados, restaurados ou excluídos. Metadados como carimbos de data/hora, tamanhos, políticas de retenção e resultados de execução ajudam os usuários a acompanhar sua estratégia de backup e a manter a clareza mesmo em ambientes complexos. O objetivo do aplicativo é tornar o gerenciamento de backup do PostgreSQL confiável, transparente e fácil de controlar, sem a necessidade de scripts personalizados ou intervenção manual.
 developer: Rostislav Dugin
 website: https://postgresus.com/
 submitter: Tascok
@@ -21,9 +21,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/RostislavDugin/postgresus
 support: https://github.com/RostislavDugin/postgresus/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-postgresus/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-postgresus/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-postgresus/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-postgresus/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-postgresus/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-postgresus/3.jpg
 releaseNotes: >-
   This release improves notifications by including the workspace name in success and failure messages. It also provides an updated Docker image available for both amd64 and arm64 platforms.
 dependencies:

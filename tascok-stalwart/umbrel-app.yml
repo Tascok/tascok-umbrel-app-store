@@ -1,30 +1,30 @@
 manifestVersion: 1
 id: tascok-stalwart
 name: Stalwart
-tagline: An all-in-one Mail & Collaboration server
+tagline: Um servidor de correio e colaboração completo
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-stalwart/logo.png
 category: networking
 version: "0.14.1"
 port: 18080
 description: >-
-  📮 Stalwart is a modern open-source mail and collaboration server designed to streamline and modernize traditional email infrastructure. Built from the ground up with performance, scalability, and security in mind, it combines a wide range of functionalities into a single efficient platform. Stalwart supports both legacy and modern protocols, making it compatible with a broad range of clients and services. It allows seamless communication through protocols such as IMAP, SMTP, and POP3, while also supporting next-generation standards like JMAP, CalDAV, and CardDAV.
+  📮 Stalwart é um servidor moderno de correio e colaboração de código aberto projetado para agilizar e modernizar a infraestrutura de e-mail tradicional. Construído desde o início com desempenho, escalabilidade e segurança em mente, ele combina uma ampla gama de funcionalidades em uma única plataforma eficiente. Stalwart oferece suporte a protocolos legados e modernos, tornando-o compatível com uma ampla gama de clientes e serviços. Ele permite comunicação contínua por meio de protocolos como IMAP, SMTP e POP3, ao mesmo tempo que oferece suporte a padrões de próxima geração como JMAP, CalDAV e CardDAV.
 
 
-  One of the core goals of Stalwart is to provide a complete self-hosted solution for communication and collaboration. In addition to email, it includes built-in support for calendars, contacts, and file storage. All of these features are based on open standards, enabling interoperability with other tools and platforms. This eliminates the need for multiple separate systems and simplifies administration and maintenance.
+  Um dos principais objetivos do Stalwart é fornecer uma solução completa e auto-hospedada para comunicação e colaboração. Além de e-mail, inclui suporte integrado para calendários, contatos e armazenamento de arquivos. Todos esses recursos são baseados em padrões abertos, permitindo a interoperabilidade com outras ferramentas e plataformas. Isto elimina a necessidade de vários sistemas separados e simplifica a administração e a manutenção.
 
 
-  Security is a foundational principle of Stalwart. It offers comprehensive protection through features like end-to-end encryption, strong transport layer security, and robust authentication mechanisms. Its architecture is designed to prevent common attack vectors and ensure data privacy, both in transit and at rest.
+  A segurança é um princípio fundamental da Stalwart. Ele oferece proteção abrangente por meio de recursos como criptografia ponta a ponta, forte segurança da camada de transporte e mecanismos de autenticação robustos. Sua arquitetura foi projetada para prevenir vetores de ataque comuns e garantir a privacidade dos dados, tanto em trânsito quanto em repouso.
 
 
-  Stalwart is written in Rust, a systems programming language known for its safety and performance. This choice allows it to achieve high efficiency while maintaining a low memory footprint and strong stability. Whether deployed on a single machine or scaled across a distributed infrastructure, Stalwart can handle demanding workloads with ease.
+  Stalwart é escrito em Rust, uma linguagem de programação de sistemas conhecida por sua segurança e desempenho. Esta escolha permite alcançar alta eficiência, mantendo um baixo consumo de memória e forte estabilidade. Seja implantado em uma única máquina ou dimensionado em uma infraestrutura distribuída, o Stalwart pode lidar com cargas de trabalho exigentes com facilidade.
 
 
-  The project is developed and maintained by Stalwart Labs, a company based in the United Kingdom and the United States. Since its founding in 2019, the team has focused on creating a next-generation mail server that is not only powerful and secure but also easy to deploy and manage. With its open-source foundation and modular design, Stalwart is an ideal choice for individuals, small teams, and enterprises looking to regain control over their communications without sacrificing modern features or usability.
+  O projeto é desenvolvido e mantido pela Stalwart Labs, empresa com sede no Reino Unido e nos Estados Unidos. Desde a sua fundação em 2019, a equipe tem se concentrado na criação de um servidor de e-mail de próxima geração que não seja apenas poderoso e seguro, mas também fácil de implantar e gerenciar. Com sua base de código aberto e design modular, o Stalwart é a escolha ideal para indivíduos, pequenas equipes e empresas que buscam recuperar o controle sobre suas comunicações sem sacrificar recursos modernos ou usabilidade.
 
 
-  ⚙️ Installation and setup are described here:
-  
-  
+  ⚙️ A instalação e configuração estão descritas aqui:
+
+
   https://github.com/dennysubke/dennys-umbrel-app-store/blob/master/tascok-stalwart/README.md
 developer: Stalwart Labs
 website: https://stalw.art/
@@ -33,11 +33,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/stalwartlabs/stalwart
 support: https://github.com/stalwartlabs/stalwart/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-stalwart/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-stalwart/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-stalwart/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-stalwart/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-stalwart/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-stalwart/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-stalwart/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-stalwart/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-stalwart/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-stalwart/5.jpg
 releaseNotes: >-
   Version 0.14.1 introduces breaking changes to the internal directory, calendar, and contacts, and adds autoconfiguration support for CalDAV, CardDAV, and WebDAV. It also fixes issues with OTP/AppPasswords retention and corrects JMAP operations related to contact and calendar item deletion.
 dependencies:

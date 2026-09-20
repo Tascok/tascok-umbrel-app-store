@@ -1,19 +1,19 @@
 manifestVersion: 1
 id: tascok-ungoogled-chromium
 name: Ungoogled Chromium
-tagline: An optimized, privacy-focused browser experience
+tagline: Uma experiência de navegador otimizada e focada na privacidade
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ungoogled-chromium/logo.png
 category: networking
 version: "135.0.7049"
 port: 3330
 description: >-
-  🌐 Ungoogled Chromium is an open-source web browser based on Chromium, designed with privacy and security in mind. Unlike the standard Chromium or Google Chrome browser, Ungoogled Chromium eliminates all integrations with Google services and removes various tracking and data collection features. The goal is to provide a fast, fully functional browser while protecting the user's privacy by removing Google's influence, including features like automatic synchronization with Google accounts, Google-specific APIs, and telemetry data collection.
+  🌐 Ungoogled Chromium é um navegador de código aberto baseado em Chromium, projetado com privacidade e segurança em mente. Ao contrário do navegador padrão Chromium ou Google Chrome, o Ungoogled Chromium elimina todas as integrações com os serviços do Google e remove vários recursos de rastreamento e coleta de dados. O objetivo é fornecer um navegador rápido e totalmente funcional, ao mesmo tempo que protege a privacidade do usuário, removendo a influência do Google, incluindo recursos como sincronização automática com contas do Google, APIs específicas do Google e coleta de dados de telemetria.
 
 
-  This version of Chromium provides users with a browsing experience similar to Google's Chrome, but with a stronger emphasis on user control and data protection. It is highly customizable and offers a wide range of tools for privacy-conscious users, including enhanced cookie handling, stronger content blocking, and reduced tracking.
+  Esta versão do Chromium oferece aos usuários uma experiência de navegação semelhante ao Chrome do Google, mas com maior ênfase no controle do usuário e na proteção de dados. É altamente personalizável e oferece uma ampla gama de ferramentas para usuários preocupados com a privacidade, incluindo gerenciamento aprimorado de cookies, bloqueio de conteúdo mais forte e rastreamento reduzido.
 
 
-  When integrated as an app in Umbrel, Ungoogled Chromium could serve as a privacy-respecting browser that users can access directly from their Umbrel server setup. This integration would ensure that all browsing activities are conducted with increased security and without reliance on Google’s data collection mechanisms. Additionally, by running the browser within the Umbrel environment, users can benefit from the convenience of using their personal server as a secure gateway for browsing, while also maintaining full control over their online footprint.
+  Quando integrado como um aplicativo no Umbrel, o Ungoogled Chromium pode servir como um navegador que respeita a privacidade que os usuários podem acessar diretamente da configuração do servidor Umbrel. Esta integração garantiria que todas as atividades de navegação fossem conduzidas com maior segurança e sem dependência dos mecanismos de recolha de dados do Google. Além disso, ao executar o navegador no ambiente Umbrel, os usuários podem se beneficiar da conveniência de usar seu servidor pessoal como um gateway seguro para navegação, ao mesmo tempo que mantêm controle total sobre sua presença online.
 developer: ungoogled-software
 website: https://github.com/ungoogled-software/ungoogled-chromium
 submitter: Tascok
@@ -21,9 +21,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/linuxserver/docker-ungoogled-chromium
 support: https://github.com/linuxserver/docker-ungoogled-chromium/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ungoogled-chromium/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ungoogled-chromium/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ungoogled-chromium/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ungoogled-chromium/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ungoogled-chromium/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ungoogled-chromium/3.jpg
 releaseNotes: >-
   This version introduces updated launch options for improved performance and adds a portable Linux build.
 dependencies:

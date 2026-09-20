@@ -1,25 +1,25 @@
 manifestVersion: 1
 id: tascok-jotty
 name: Jotty
-tagline: A simple app for notes and checklists
+tagline: Um aplicativo simples para anotações e listas de verificação
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jotty/logo.png
 category: files & productivity
 version: "1.9.2"
 port: 3396
 description: >-
-  🟣 Jotty is a modern open source application that focuses on simplicity, clarity, and control when managing notes and checklists. It is designed for people who prefer an organized yet minimal approach to writing and planning. The goal of Jotty is to make the process of capturing ideas, structuring thoughts, and tracking tasks as seamless as possible. Its clean interface encourages focus while maintaining enough flexibility for both personal and professional use.
+  🟣 Jotty é um aplicativo moderno de código aberto que foca na simplicidade, clareza e controle ao gerenciar notas e listas de verificação. Ele foi projetado para pessoas que preferem uma abordagem organizada, porém minimalista, de redação e planejamento. O objetivo do Jotty é tornar o processo de captura de ideias, estruturação de pensamentos e rastreamento de tarefas o mais simples possível. Sua interface limpa incentiva o foco, mantendo flexibilidade suficiente para uso pessoal e profissional.
 
 
-  At its core, Jotty allows users to create and manage notes with a powerful rich text editor that supports formatting, hyperlinks, inline code, and syntax highlighting. This makes it suitable for anything from quick thoughts to technical documentation. Users can also create checklists and to-do lists that can be sorted and rearranged with ease, offering a clear overview of progress and priorities.
+  Basicamente, o Jotty permite aos usuários criar e gerenciar notas com um poderoso editor de rich text que suporta formatação, hiperlinks, código embutido e realce de sintaxe. Isso o torna adequado para qualquer coisa, desde reflexões rápidas até documentação técnica. Os usuários também podem criar listas de verificação e listas de tarefas que podem ser classificadas e reorganizadas com facilidade, oferecendo uma visão geral clara do progresso e das prioridades.
 
 
-  The app emphasizes structure without imposing restrictions. Notes and lists can be organized into categories, tagged for quick reference, and searched efficiently using a fast built-in search feature. The experience is intuitive and responsive, offering instant feedback and smooth navigation between notes and lists.
+  O aplicativo enfatiza a estrutura sem impor restrições. Notas e listas podem ser organizadas em categorias, marcadas para referência rápida e pesquisadas de forma eficiente usando um recurso de pesquisa rápido integrado. A experiência é intuitiva e responsiva, oferecendo feedback instantâneo e navegação suave entre notas e listas.
 
 
-  Beyond individual productivity, Jotty enables collaboration by allowing users to share notes or lists through links or restricted access. This makes it practical for teams, couples, or anyone who wants to coordinate projects or daily routines in a lightweight and elegant environment.
+  Além da produtividade individual, o Jotty permite a colaboração, permitindo que os usuários compartilhem notas ou listas por meio de links ou acesso restrito. Isso o torna prático para equipes, casais ou qualquer pessoa que queira coordenar projetos ou rotinas diárias em um ambiente leve e elegante.
 
 
-  Jotty aims to bridge the gap between a rich writing tool and a structured task manager. It delivers a calm, minimal space for thinking, planning, and documenting without distractions, offering both creative freedom and precise organization in one unified workspace.
+  Jotty pretende preencher a lacuna entre uma ferramenta de escrita rica e um gerenciador de tarefas estruturado. Ele oferece um espaço calmo e mínimo para pensar, planejar e documentar sem distrações, oferecendo liberdade criativa e organização precisa em um espaço de trabalho unificado.
 developer: fccview
 website: https://jotty.page/
 submitter: Tascok
@@ -27,11 +27,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/fccview/jotty
 support: https://github.com/fccview/jotty/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jotty/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jotty/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jotty/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jotty/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jotty/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jotty/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jotty/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jotty/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jotty/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jotty/5.jpg
 releaseNotes: >-
   This version focuses on refining the overall experience with several important bug fixes and small but useful improvements. It resolves issues with OIDC group claims, filename handling, mobile text wrapping, and checkbox behavior, while finally preserving line breaks correctly.
 

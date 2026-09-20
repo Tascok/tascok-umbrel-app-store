@@ -1,19 +1,19 @@
 manifestVersion: 1
 id: tascok-crumbs
 name: Crumbs
-tagline: An offline-first note-taking app
+tagline: Um aplicativo de anotações off-line
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-crumbs/logo.png
 category: files & productivity
 version: "0.30.1"
 port: 8776
 description: >-
-  🥨 Crumbs turns scattered thoughts into a calm and organized personal knowledge space. Capture quick ideas, detailed notes, tasks, checklists, reference material, and everything in between without losing track of what matters.
+  🥨 O Crumbs transforma pensamentos dispersos em um espaço de conhecimento pessoal calmo e organizado. Capture ideias rápidas, notas detalhadas, tarefas, listas de verificação, material de referência e tudo mais sem perder o controle do que é importante.
 
 
-  A flexible editor combines Markdown, rich text, tables, code blocks, links, and image attachments, while tags, colors, pinning, search, archives, and version history keep growing collections easy to navigate. Notes can be shared privately or published through read-only links, and the responsive offline-first interface works smoothly across desktop and mobile devices.
+  Um editor flexível combina Markdown, rich text, tabelas, blocos de código, links e anexos de imagens, enquanto tags, cores, fixação, pesquisa, arquivos e histórico de versões mantêm as coleções crescentes fáceis de navegar. As notas podem ser compartilhadas de forma privada ou publicadas por meio de links somente leitura, e a interface responsiva off-line funciona perfeitamente em desktops e dispositivos móveis.
 
 
-  With support for multiple users, secure authentication, API keys, and optional integrations with OAuth, OpenID Connect, email services, and compatible AI assistants, Crumbs is built to grow from a simple notebook into a powerful personal workspace.
+  Com suporte para vários usuários, autenticação segura, chaves de API e integrações opcionais com OAuth, OpenID Connect, serviços de e-mail e assistentes de IA compatíveis, o Crumbs foi desenvolvido para evoluir de um simples notebook para um poderoso espaço de trabalho pessoal.
 developer: Bretzel
 website: https://crumbs.bretzel.app/
 submitter: Tascok
@@ -21,9 +21,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/bretzel-app/crumbs
 support: https://github.com/bretzel-app/crumbs/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-crumbs/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-crumbs/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-crumbs/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-crumbs/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-crumbs/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-crumbs/3.jpg
 releaseNotes: >-
   Initial Umbrel release based on Crumbs 0.30.1. Includes offline-first note synchronization, rich text and Markdown editing, checklists, image attachments, tags, sharing, version history, multi-user authentication, progressive web app support, API keys, and the built-in MCP endpoint.
 dependencies: []

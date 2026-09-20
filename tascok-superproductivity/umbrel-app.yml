@@ -1,40 +1,40 @@
 manifestVersion: 1
 id: tascok-superproductivity
 name: Super Productivity
-tagline: An efficient way to manage tasks, time, and projects all in one place
+tagline: Uma maneira eficiente de gerenciar tarefas, tempo e projetos em um só lugar
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-superproductivity/logo.png
 category: files & productivity
 version: "10.2.3"
 port: 8020
 description: >-
-  Super Productivity is a comprehensive, open-source productivity app tailored to help individuals and teams organize their work with ease. Ideal for developers, project managers, freelancers, and anyone seeking a streamlined approach to task and time management, this tool combines essential features in one intuitive platform.
+  Super Productivity é um aplicativo de produtividade abrangente e de código aberto, feito sob medida para ajudar indivíduos e equipes a organizar seu trabalho com facilidade. Ideal para desenvolvedores, gerentes de projeto, freelancers e qualquer pessoa que busque uma abordagem simplificada para gerenciamento de tarefas e tempo, esta ferramenta combina recursos essenciais em uma plataforma intuitiva.
 
 
-  With Super Productivity, users can create detailed to-do lists, manage tasks within projects, and track progress efficiently. You can easily prioritize tasks, set deadlines, and track your productivity with built-in time tracking features. Whether you’re working on a single project or juggling multiple tasks, this app allows you to stay organized and on top of your work.
+  Com Super Produtividade, os usuários podem criar listas de tarefas detalhadas, gerenciar tarefas dentro de projetos e acompanhar o progresso com eficiência. Você pode priorizar tarefas facilmente, definir prazos e monitorar sua produtividade com recursos integrados de controle de tempo. Esteja você trabalhando em um único projeto ou realizando malabarismos com várias tarefas, este aplicativo permite que você se mantenha organizado e em dia com seu trabalho.
 
 
-  Key features include:
+  Os principais recursos incluem:
 
 
-  📅 Task and Project Management: Create, organize, and prioritize tasks. Group them into projects, assign due dates, and monitor completion status.
-  
-
-  🕒 Time Tracking: Log work hours directly within the app to gain insights into how your time is spent. You can also track your productivity with the Pomodoro timer or manual time entries.
-  
-
-  🔗 Super Productivity integrates with popular tools like Jira, GitHub, and GitLab, so you can import tasks and manage them without leaving your workflow.
-  
-
-  📊 Reports and Analytics: Generate time reports to analyze how much time you’ve spent on tasks and projects, helping you make data-driven decisions about your work habits.
- 
-
-  📴 Offline Mode: The app works offline, meaning you can continue managing your tasks and tracking time even without an internet connection.
-  
-
-  🛡️ Privacy and Data Security: As an open-source app, Super Productivity ensures that your data remains private and is stored locally, providing a secure and customizable solution for your productivity needs.
+  📅 Gerenciamento de tarefas e projetos: crie, organize e priorize tarefas. Agrupe-os em projetos, atribua datas de vencimento e monitore o status de conclusão.
 
 
-  Super Productivity is designed for those who want to boost their productivity while maintaining control over their data. It's perfect for individuals who prefer a simple yet powerful tool, and teams that need seamless task and project management without relying on complex software. Available for Windows, macOS, Linux, and as a web app, Super Productivity is a versatile tool that fits into your workflow, whether you’re working solo or collaborating with others.
+  🕒 Controle de tempo: registre horas de trabalho diretamente no aplicativo para obter informações sobre como seu tempo é gasto. Você também pode monitorar sua produtividade com o cronômetro Pomodoro ou entradas manuais de tempo.
+
+
+  🔗 O Super Productivity se integra a ferramentas populares como Jira, GitHub e GitLab, para que você possa importar tarefas e gerenciá-las sem sair do seu fluxo de trabalho.
+
+
+  📊 Relatórios e análises: gere relatórios de tempo para analisar quanto tempo você gastou em tarefas e projetos, ajudando você a tomar decisões baseadas em dados sobre seus hábitos de trabalho.
+
+
+  📴 Modo Offline: O aplicativo funciona offline, o que significa que você pode continuar gerenciando suas tarefas e monitorando o tempo mesmo sem conexão com a internet.
+
+
+  🛡️ Privacidade e segurança de dados: como um aplicativo de código aberto, o Super Productivity garante que seus dados permaneçam privados e armazenados localmente, fornecendo uma solução segura e personalizável para suas necessidades de produtividade.
+
+
+  A Super Produtividade foi projetada para quem deseja aumentar sua produtividade enquanto mantém o controle sobre seus dados. É perfeito para indivíduos que preferem uma ferramenta simples, mas poderosa, e equipes que precisam de gerenciamento contínuo de tarefas e projetos, sem depender de software complexo. Disponível para Windows, macOS, Linux e como aplicativo web, Super Productivity é uma ferramenta versátil que se adapta ao seu fluxo de trabalho, esteja você trabalhando sozinho ou colaborando com outras pessoas.
 
 developer: Johannes Schickling
 website: https://super-productivity.com/
@@ -43,10 +43,10 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/johannesjo/super-productivity
 support: https://github.com/johannesjo/super-productivity/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-superproductivity/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-superproductivity/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-superproductivity/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-superproductivity/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-superproductivity/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-superproductivity/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-superproductivity/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-superproductivity/4.jpg
 releaseNotes: >-
   The commit "Revert build try different workaround for npm install issue" undoes a change testing an alternative fix for an npm install issue. Multiarch support for Docker was added to enable containers to run on different CPU architectures like ARM and x86.
 dependencies:

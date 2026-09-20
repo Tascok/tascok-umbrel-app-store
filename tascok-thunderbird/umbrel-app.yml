@@ -1,25 +1,25 @@
 manifestVersion: 1
 id: tascok-thunderbird
 name: Thunderbird
-tagline: A secure, flexible, and efficient email client
+tagline: Um cliente de e-mail seguro, flexível e eficiente
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-thunderbird/logo.png
 category: networking
 version: "24.12.1"
 port: 5858
 description: >-
- ✉️ Thunderbird is a free and open-source email client developed by the Mozilla Foundation, designed to give users a feature-rich, customizable, and secure platform for managing emails, calendars, contacts, and tasks. It supports multiple email accounts, allowing users to manage various email addresses (via IMAP, POP, and SMTP) from a single interface.
+  ✉️ Thunderbird é um cliente de e-mail gratuito e de código aberto desenvolvido pela Mozilla Foundation, projetado para oferecer aos usuários uma plataforma segura, personalizável e rica em recursos para gerenciar e-mails, calendários, contatos e tarefas. Ele suporta múltiplas contas de e-mail, permitindo aos usuários gerenciar vários endereços de e-mail (via IMAP, POP e SMTP) a partir de uma única interface.
 
 
- The client offers advanced organizational tools, such as message filtering, tagging, and customizable folder structures, making it easier to sort and find emails. It also integrates with calendars and task management tools, supporting both local and online calendars, with the ability to add extensions for enhanced calendar features.
+  O cliente oferece ferramentas organizacionais avançadas, como filtragem de mensagens, marcação e estruturas de pastas personalizáveis, facilitando a classificação e localização de e-mails. Ele também se integra a calendários e ferramentas de gerenciamento de tarefas, suportando calendários locais e online, com a capacidade de adicionar extensões para recursos aprimorados de calendário.
 
 
- Security is a priority in Thunderbird, with built-in options for email encryption, phishing protection, and spam filtering. Users can also add digital signatures for enhanced email security.
+  A segurança é uma prioridade no Thunderbird, com opções integradas para criptografia de e-mail, proteção contra phishing e filtragem de spam. Os usuários também podem adicionar assinaturas digitais para aumentar a segurança do e-mail.
 
 
- A key strength of Thunderbird is its support for a wide range of add-ons, allowing users to extend its functionality. These add-ons cover everything from layout and appearance tweaks to productivity tools and privacy enhancements.
+  Um ponto forte do Thunderbird é o suporte para uma ampla gama de complementos, permitindo aos usuários ampliar sua funcionalidade. Esses complementos cobrem tudo, desde ajustes de layout e aparência até ferramentas de produtividade e melhorias de privacidade.
 
 
- With regular updates and a dedicated community of developers, Thunderbird remains a reliable choice for users seeking an open-source, private, and flexible email solution for both personal and professional use.
+  Com atualizações regulares e uma comunidade dedicada de desenvolvedores, o Thunderbird continua sendo uma escolha confiável para usuários que buscam uma solução de e-mail de código aberto, privada e flexível para uso pessoal e profissional.
 developer: Mozilla Foundation
 website: https://www.thunderbird.net/
 submitter: Tascok
@@ -27,11 +27,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/jlesage/docker-thunderbird
 support: https://github.com/jlesage/docker-thunderbird/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-thunderbird/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-thunderbird/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-thunderbird/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-thunderbird/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-thunderbird/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-thunderbird/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-thunderbird/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-thunderbird/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-thunderbird/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-thunderbird/5.jpg
 releaseNotes: >-
   In this release, Thunderbird has been updated to version 128.5.1-r0, and the base image has been updated to version 4.6.7. This resolves several issues, such as the web audio feature, TLS connection problems for VNC, and CJK font installation, while also incorporating security fixes from the latest distribution images.
 dependencies:

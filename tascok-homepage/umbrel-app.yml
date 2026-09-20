@@ -1,43 +1,37 @@
 manifestVersion: 1
 id: tascok-homepage
 name: Homepage
-tagline: A customizable dashboard application
+tagline: Um aplicativo de painel personalizável
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-homepage/logo.png
 category: files & productivity
 version: "1.7.0"
 port: 3852
 description: >-
-  Homepage is a customizable dashboard application that allows you to gather important information in a single organized interface. It gives you full control over the layout by using simple configuration files that define what appears on the screen and how it is arranged. This approach makes it easy to adapt the dashboard to your own needs without complexity or technical overhead.
+  Homepage é um aplicativo de painel personalizável que permite reunir informações importantes em uma única interface organizada. Dá a você controle total sobre o layout usando arquivos de configuração simples que definem o que aparece na tela e como é organizado. Essa abordagem facilita a adaptação do painel às suas próprias necessidades, sem complexidade ou sobrecarga técnica.
 
 
-  The application focuses on clarity and visual balance. It presents links, widgets, and informational elements in a clean design that helps you access everything quickly and without distractions. Whether you want a minimal overview or a richer information display, the structure of the interface can be shaped to match your personal workflow.
+  O aplicativo se concentra na clareza e no equilíbrio visual. Apresenta links, widgets e elementos informativos em um design clean que ajuda você a acessar tudo de forma rápida e sem distrações. Se você deseja uma visão geral mínima ou uma exibição de informações mais rica, a estrutura da interface pode ser moldada para corresponder ao seu fluxo de trabalho pessoal.
 
 
-  Homepage also supports many types of content that can be combined freely. You can include application entries, metrics, bookmarks, search fields, or small status indicators. These items can be grouped and ordered to create a dashboard that feels natural and efficient. Its flexibility makes it useful for both personal and professional environments where an organized starting point is essential.
+  A página inicial também oferece suporte a muitos tipos de conteúdo que podem ser combinados livremente. Você pode incluir entradas de aplicativos, métricas, marcadores, campos de pesquisa ou pequenos indicadores de status. Esses itens podem ser agrupados e ordenados para criar um painel que pareça natural e eficiente. A sua flexibilidade torna-o útil tanto para ambientes pessoais como profissionais onde um ponto de partida organizado é essencial.
 
 
-  By keeping everything in a single space, Homepage turns your daily routine into a smooth experience. It serves as a central place where you can focus on what matters most and access the tools or information you rely on every day.
+  Ao manter tudo em um único espaço, o Homepage transforma sua rotina diária em uma experiência tranquila. Ele serve como um local central onde você pode se concentrar no que é mais importante e acessar as ferramentas ou informações nas quais você confia todos os dias.
 
 
-  ⚙️ Homepage on Umbrel works through a file-based configuration system where all settings and interface elements are defined in YAML files inside the app’s data directory.
+  ⚙️ A página inicial no Umbrel funciona por meio de um sistema de configuração baseado em arquivos onde todas as configurações e elementos de interface são definidos em arquivos YAML dentro do diretório de dados do aplicativo.
 
 
-  All configuration files must be placed in
-  /data/config/
-  This directory should contain settings.yaml, services.yaml, widgets.yaml and bookmarks.yaml.
-  After each modification, the Homepage app in Umbrel should be restarted so the changes are applied.
+  Todos os arquivos de configuração devem ser colocados em /data/config/ Este diretório deve conter settings.yaml, services.yaml, widgets.yaml e bookmarks.yaml. Após cada modificação, o aplicativo Homepage no Umbrel deve ser reiniciado para que as alterações sejam aplicadas.
 
 
-  Custom images can be stored in
-  /data/public/images/
-  and referenced in settings.yaml
+  Imagens personalizadas podem ser armazenadas em /data/public/images/ e referenciadas em settings.yaml
 
 
-  YAML formatting requires precision. Always use spaces, avoid tabs and keep indentation consistent.
-  To prevent “API Error Information” messages, remove or simplify widget blocks that use external API calls.
+  A formatação YAML requer precisão. Sempre use espaços, evite tabulações e mantenha o recuo consistente. Para evitar mensagens de “Informações de erro de API”, remova ou simplifique blocos de widgets que usam chamadas de API externas.
 
 
-  For full documentation, visit https://gethomepage.dev/
+  Para documentação completa, visite https://gethomepage.dev/
 developer: gethomepage
 website: https://gethomepage.dev/
 submitter: Tascok
@@ -45,16 +39,16 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/gethomepage/homepage
 support: https://github.com/gethomepage/homepage/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-homepage/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-homepage/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-homepage/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-homepage/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-homepage/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-homepage/1.jpg
 releaseNotes: >-
   This version focuses on improving stability and refinement across several parts of the application. 
-  
-  
+
+
   It enhances event handling in the iCal integration, strengthens UID support, and fixes limitations in the ESP Home widget. 
-  
-  
+
+
   Dependency updates further improve build consistency and overall reliability.
 dependencies:
 path: ""

@@ -1,46 +1,46 @@
 manifestVersion: 1
 id: tascok-wagmios
 name: Wagmi
-tagline: A self-hosted container management system with AI-powered automation
+tagline: Um sistema de gerenciamento de contêineres auto-hospedado com automação alimentada por IA
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wagmios/logo.png
 category: networking
 version: "2.0.0"
 port: 5174
 description: >-
-  🤖 Wagmi is a self-hosted container management system designed with AI-powered automation to streamline container management. At its core is W.I.L.L.O.W (Workflow Intelligent Localized Learning & Optimized Worker), an AI-driven assistant that guides users through the setup and management of containers while helping to optimize workflows.
+  🤖 Wagmi é um sistema de gerenciamento de contêineres auto-hospedado projetado com automação alimentada por IA para agilizar o gerenciamento de contêineres. Em sua essência está o W.I.L.L.O.W (Workflow Intelligent Localized Learning & Optimized Worker), um assistente orientado por IA que orienta os usuários na configuração e gerenciamento de contêineres, ajudando a otimizar os fluxos de trabalho.
 
 
-  The system allows you to host everything on your own infrastructure, providing full control and security over your data. Wagmi features a customizable interface, enabling users to bookmark their favorite websites and applications for quick access.
+  O sistema permite hospedar tudo em sua própria infraestrutura, proporcionando total controle e segurança sobre seus dados. Wagmi apresenta uma interface personalizável, permitindo aos usuários marcar seus sites e aplicativos favoritos para acesso rápido.
 
 
-  Wagmi includes a Docker marketplace UI, where users can browse, install, and manage containers with ease. This simple interface simplifies handling Docker containers and allows for quick deployment of various applications or services. The integration of W.I.L.L.O.W further enhances this process by offering suggestions to improve container configurations, recommending automation, and even suggesting new containers based on the user’s needs.
+  Wagmi inclui uma interface de mercado Docker, onde os usuários podem navegar, instalar e gerenciar contêineres com facilidade. Essa interface simples simplifica o manuseio de contêineres Docker e permite a implantação rápida de vários aplicativos ou serviços. A integração do W.I.L.L.O.W aprimora ainda mais esse processo, oferecendo sugestões para melhorar as configurações dos containers, recomendando automação e até sugerindo novos containers de acordo com a necessidade do usuário.
 
 
-  Another key feature of Wagmi is support for popular integrations like Home Assistant and Jenkins, allowing it to be used for both home automation and CI/CD pipelines. These integrations make Wagmi a more versatile platform that continuously evolves to add new features and enhance the user experience.
+  Outro recurso importante do Wagmi é o suporte para integrações populares como Home Assistant e Jenkins, permitindo que ele seja usado tanto para automação residencial quanto para pipelines de CI/CD. Essas integrações tornam o Wagmi uma plataforma mais versátil que evolui continuamente para adicionar novos recursos e aprimorar a experiência do usuário.
 
 
-  Overall, Wagmi combines the benefits of self-hosted infrastructure with the power of AI to not only simplify but also automate and optimize container management. W.I.L.L.O.W plays a central role as a personal assistant, learning over time and constantly working to improve the user's workflows.
+  No geral, Wagmi combina os benefícios da infraestrutura auto-hospedada com o poder da IA ​​para não apenas simplificar, mas também automatizar e otimizar o gerenciamento de contêineres. W.I.L.L.O.W desempenha um papel central como assistente pessoal, aprendendo ao longo do tempo e trabalhando constantemente para melhorar os fluxos de trabalho do usuário.
 
 
-  🔧 Getting Started with W.I.L.L.O.W
+  🔧 Primeiros passos com W.I.L.L.O.W
 
 
-  W.I.L.L.O.W (Workflow Intelligent Localized Learning & Optimized Worker) is a powerful self-hosted AI agent built specifically for WAGMI – the ultimate Docker management layer on top of your OS.
+  W.I.L.L.O.W (Workflow Intelligent Localized Learning & Optimized Worker) é um poderoso agente de IA auto-hospedado desenvolvido especificamente para WAGMI – a camada de gerenciamento Docker definitiva sobre seu sistema operacional.
 
 
-  You can find all setup instructions and details in the following article:
+  Você pode encontrar todas as instruções e detalhes de configuração no seguinte artigo:
 
-  
+
   https://medium.com/@webdevmike01/introducing-w-i-l-l-o-w-827c3e965ef6
 
 
-  ⚠️ Warning: Use Wagmi at your own risk!
+  ⚠️ Aviso: use Wagmi por sua conta e risco!
 
 
-  This app is currently in an alpha stage of development and may be unstable or incomplete. Additionally, it requires access to /var/run/docker.sock to interact with the Docker daemon. This grants the app elevated privileges, including the ability to start, stop, and modify containers, which poses a significant security risk if the app is compromised or behaves unexpectedly.
+  Este aplicativo está atualmente em estágio alfa de desenvolvimento e pode estar instável ou incompleto. Além disso, requer acesso a /var/run/docker.sock para interagir com o daemon Docker. Isso concede privilégios elevados ao aplicativo, incluindo a capacidade de iniciar, parar e modificar contêineres, o que representa um risco de segurança significativo se o aplicativo for comprometido ou se comportar de forma inesperada.
 
 
-  Please proceed with caution. You install and use this app at your own risk. Make sure you fully understand the implications before continuing.
+  Por favor, proceda com cautela. Você instala e usa este aplicativo por sua própria conta e risco. Certifique-se de compreender totalmente as implicações antes de continuar.
 developer: itzmizzle
 website: https://os.wagmilabs.fun/
 submitter: Tascok
@@ -48,9 +48,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/mentholmike/wagmios
 support: https://github.com/mentholmike/wagmios/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wagmios/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wagmios/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wagmios/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wagmios/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wagmios/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wagmios/3.jpg
 releaseNotes: >-
   Wagmi v2.0.0 is the latest stable version, now fully containerized. There’s no need for backend installations - just Docker. The update includes a light mode, added ports to the container view, styling improvements for better visibility in light mode, and a smaller footprint. The older version is still available for use if preferred.
 dependencies:

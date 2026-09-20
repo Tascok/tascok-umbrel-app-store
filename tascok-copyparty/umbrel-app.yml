@@ -1,25 +1,25 @@
 manifestVersion: 1
 id: tascok-copyparty
 name: copyparty
-tagline: A versatile all-in-one file server for everything
+tagline: Um servidor de arquivos multifuncional versátil para tudo
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-copyparty/logo.png
 category: files & productivity
 version: "1.19.19"
 port: 3923
 description: >-
-  📼 copyparty is a lightweight yet incredibly powerful file sharing platform designed to give you complete control over your data. It transforms any environment into a personal and fully featured file hub where you can upload, download, edit, and organize files directly through an intuitive web interface. Everything happens in the browser without the need for additional software, making it fast, convenient, and accessible from virtually anywhere.
+  📼 copyparty é uma plataforma de compartilhamento de arquivos leve, mas incrivelmente poderosa, projetada para fornecer controle total sobre seus dados. Ele transforma qualquer ambiente em um hub de arquivos pessoal e completo, onde você pode fazer upload, download, editar e organizar arquivos diretamente por meio de uma interface web intuitiva. Tudo acontece no navegador sem a necessidade de software adicional, tornando-o rápido, conveniente e acessível de praticamente qualquer lugar.
 
 
-  At its core, copyparty is built around simplicity and flexibility. It supports multiple standard protocols such as HTTP, WebDAV, and FTP, allowing seamless integration with a wide range of clients and devices. You can drag and drop files into the browser, create folders, manage permissions, and instantly share links with others. Whether you want to host a temporary upload area, organize long term archives, or maintain a personal workspace, copyparty adapts to your needs without complexity.
+  Em sua essência, o copyparty é construído em torno da simplicidade e da flexibilidade. Ele oferece suporte a vários protocolos padrão, como HTTP, WebDAV e FTP, permitindo integração perfeita com uma ampla variedade de clientes e dispositivos. Você pode arrastar e soltar arquivos no navegador, criar pastas, gerenciar permissões e compartilhar links instantaneamente com outras pessoas. Se você deseja hospedar uma área de upload temporária, organizar arquivos de longo prazo ou manter um espaço de trabalho pessoal, o copyparty se adapta às suas necessidades sem complexidade.
 
 
-  Beyond basic file management, copyparty includes advanced tools that make it much more than a typical file server. It comes with an integrated media player for streaming music and videos directly from your library, along with text and Markdown editors for in browser document editing. You can tag files, perform instant searches across large directories, and even restore previous versions of files when needed.
+  Além do gerenciamento básico de arquivos, o copyparty inclui ferramentas avançadas que o tornam muito mais do que um servidor de arquivos típico. Ele vem com um reprodutor de mídia integrado para streaming de músicas e vídeos diretamente de sua biblioteca, junto com editores de texto e Markdown para edição de documentos no navegador. Você pode marcar arquivos, realizar pesquisas instantâneas em diretórios grandes e até mesmo restaurar versões anteriores de arquivos quando necessário.
 
 
-  Security and customization are also at the heart of copyparty’s design. It offers granular user access controls, password protection, and finely tuned configuration options to match your workflow. The interface can be completely restyled with custom CSS themes, making it easy to create a personalized look and feel.
+  Segurança e personalização também estão no centro do design do copyparty. Ele oferece controles granulares de acesso do usuário, proteção por senha e opções de configuração ajustadas para corresponder ao seu fluxo de trabalho. A interface pode ser completamente reestilizada com temas CSS personalizados, facilitando a criação de uma aparência personalizada.
 
 
-  In essence, copyparty is not just a file server but a flexible and elegant file management ecosystem. It can serve as a private cloud, a collaborative workspace, or a full featured digital archive, combining performance, simplicity, and freedom in one compact application.
+  Em essência, o copyparty não é apenas um servidor de arquivos, mas um ecossistema de gerenciamento de arquivos flexível e elegante. Ele pode servir como uma nuvem privada, um espaço de trabalho colaborativo ou um arquivo digital completo, combinando desempenho, simplicidade e liberdade em um aplicativo compacto.
 developer: 9001
 website: https://github.com/9001/copyparty
 submitter: Tascok
@@ -27,11 +27,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/9001/copyparty
 support: https://github.com/9001/copyparty/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-copyparty/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-copyparty/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-copyparty/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-copyparty/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-copyparty/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-copyparty/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-copyparty/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-copyparty/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-copyparty/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-copyparty/5.jpg
 releaseNotes: >-
   This release includes several new features and improvements:
 

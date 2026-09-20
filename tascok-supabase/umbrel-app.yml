@@ -3,30 +3,29 @@ id: tascok-supabase
 category: developer tools
 name: Supabase
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-supabase/logo.png
-tagline: An open source Firebase alternative
+tagline: Uma alternativa de código aberto ao Firebase
 version: "2025.05.21"
 port: 53000
 description: >-
-  🐊 Supabase is an open-source backend-as-a-service platform that provides developers with a powerful and scalable infrastructure for building modern web and mobile applications. It offers a suite of tools that combine the convenience of a traditional backend with the flexibility and control of an open-source stack. Built on top of PostgreSQL, Supabase adds real-time capabilities, instant APIs, and user authentication without requiring developers to write complex backend logic.
+  🐊 Supabase é uma plataforma de backend como serviço de código aberto que fornece aos desenvolvedores uma infraestrutura poderosa e escalonável para a construção de aplicativos móveis e web modernos. Ele oferece um conjunto de ferramentas que combinam a conveniência de um back-end tradicional com a flexibilidade e o controle de uma pilha de código aberto. Construído com base no PostgreSQL, o Supabase adiciona recursos em tempo real, APIs instantâneas e autenticação de usuário sem exigir que os desenvolvedores escrevam lógica de back-end complexa.
 
 
-  At its core, Supabase transforms a Postgres database into a complete backend solution. When a new table is created in the database, a RESTful and real-time API is automatically generated, making it easy to interact with the data from the frontend. This reduces development time and eliminates the need for repetitive backend code. Developers can manage their data, track changes in real time, and even subscribe to database events directly from the client.
+  Basicamente, o Supabase transforma um banco de dados Postgres em uma solução de back-end completa. Quando uma nova tabela é criada no banco de dados, uma API RESTful e em tempo real é gerada automaticamente, facilitando a interação com os dados do frontend. Isso reduz o tempo de desenvolvimento e elimina a necessidade de código de back-end repetitivo. Os desenvolvedores podem gerenciar seus dados, rastrear alterações em tempo real e até assinar eventos de banco de dados diretamente do cliente.
 
 
-  Authentication is another essential part of Supabase. It includes a complete user management system with features such as email and password login, third-party OAuth providers, and magic links. All authentication events are integrated directly into the database, giving developers full control and visibility over user behavior and access rules.
+  A autenticação é outra parte essencial do Supabase. Inclui um sistema completo de gerenciamento de usuários com recursos como login por e-mail e senha, provedores OAuth terceirizados e links mágicos. Todos os eventos de autenticação são integrados diretamente no banco de dados, dando aos desenvolvedores total controle e visibilidade sobre o comportamento do usuário e as regras de acesso.
 
 
-  Storage is handled with similar simplicity. Supabase offers a file storage solution that supports secure uploads and downloads, integrates with access policies, and can be managed entirely from the dashboard or through API calls. It is particularly useful for storing media files, documents, and other static assets related to an application.
+  O armazenamento é tratado com simplicidade semelhante. Supabase oferece uma solução de armazenamento de arquivos que suporta uploads e downloads seguros, integra-se a políticas de acesso e pode ser gerenciado inteiramente a partir do painel ou por meio de chamadas de API. É particularmente útil para armazenar arquivos de mídia, documentos e outros ativos estáticos relacionados a um aplicativo.
 
 
-  The Supabase dashboard provides a user-friendly interface for managing every part of the backend. It allows developers to browse their database, run SQL queries, define authentication settings, manage file storage, and monitor real-time usage. It combines ease of use with deep functionality, making it accessible for beginners while remaining powerful enough for advanced users.
+  O painel Supabase fornece uma interface amigável para gerenciar cada parte do backend. Ele permite que os desenvolvedores naveguem em seu banco de dados, executem consultas SQL, definam configurações de autenticação, gerenciem o armazenamento de arquivos e monitorem o uso em tempo real. Ele combina facilidade de uso com funcionalidade profunda, tornando-o acessível para iniciantes e ao mesmo tempo poderoso o suficiente para usuários avançados.
 
 
-  Overall, Supabase empowers developers to build production-ready applications faster by abstracting away the complexity of backend development while preserving the flexibility to customize and scale as needed.
+  No geral, o Supabase capacita os desenvolvedores a criar aplicativos prontos para produção com mais rapidez, abstraindo a complexidade do desenvolvimento de back-end e preservando a flexibilidade para personalizar e dimensionar conforme necessário.
 
 
-  ⚠️ Make sure to go through setup steps after installing Supabase:
-  https://github.com/dennysubke/dennys-umbrel-app-store/blob/master/tascok-supabase/README.md
+  ⚠️ Certifique-se de seguir as etapas de configuração após instalar o Supabase: https://github.com/dennysubke/dennys-umbrel-app-store/blob/master/tascok-supabase/README.md
 developer: Supabase
 website: https://supabase.com
 submitter: Starfreck
@@ -34,16 +33,16 @@ submission: https://github.com/dennysubke/dennys-umbrel-app-store/pull/7
 repo: https://github.com/supabase/supabase
 support: https://supabase.com/support
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-supabase/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-supabase/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-supabase/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-supabase/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-supabase/5.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-supabase/6.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-supabase/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-supabase/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-supabase/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-supabase/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-supabase/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-supabase/6.jpg
 releaseNotes: >-
   This update brings a wave of new tutorials and tools, including a reusable Team component built with Next.js and Shadcn, a Grocery Tracker app using Vue and Supabase, and the new SupaWP plugin for seamless WordPress integration. You’ll also find deep dives into multi-tenancy with Clerk, building AI agents powered by n8n and Supabase, setting up custom SMTP for authentication, and using Supabase MCP in VSCode, Cursor, and Agno. 
- 
- 
+
+
   On the platform side, Supabase now supports project-scoped roles for all Team plans, has released a new SOC 2 report, and published comprehensive documentation outlining its security practices.
 path: ""
 defaultUsername: "umbrel"

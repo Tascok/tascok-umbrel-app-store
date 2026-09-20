@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-groupoffice
 name: Group Office
-tagline: An enterprise CRM and groupware tool
+tagline: Uma ferramenta empresarial de CRM e groupware
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-groupoffice/logo.png
 category: files & productivity
 version: "25.0.33"
 port: 9090
 description: >-
-  📧 Group Office is a powerful and flexible collaboration and customer relationship management platform developed by Intermesh BV. It helps teams manage communication, schedules, tasks, files, and client interactions in one unified interface. The software is available as a free and open source Community edition as well as a Professional edition that includes extended business tools such as project management, time tracking, invoicing, and helpdesk functionality.
+  📧 Group Office é uma plataforma poderosa e flexível de colaboração e gerenciamento de relacionamento com o cliente desenvolvida pela Intermesh BV. Ajuda as equipes a gerenciar comunicações, agendas, tarefas, arquivos e interações com clientes em uma interface unificada. O software está disponível como uma edição Community gratuita e de código aberto, bem como uma edição Professional que inclui ferramentas de negócios estendidas, como gerenciamento de projetos, controle de tempo, faturamento e funcionalidade de helpdesk.
 
 
-  The application runs as a web-based platform and includes integrated email with support for IMAP and S MIME, a shared calendar, contact and CRM features, a document system with real-time collaboration, and task management. Its modular structure allows for customization and extension depending on the specific needs of the team or organization.
+  O aplicativo funciona como uma plataforma baseada na web e inclui e-mail integrado com suporte para IMAP e S MIME, calendário compartilhado, recursos de contato e CRM, sistema de documentos com colaboração em tempo real e gerenciamento de tarefas. Sua estrutura modular permite customização e ampliação dependendo das necessidades específicas da equipe ou organização.
 
 
-  Group Office is built with PHP and supports standards like CalDAV, CardDAV, WebDAV, and ActiveSync, enabling synchronization with a wide range of clients and devices. It is available in over 20 languages and is designed to comply with strict data privacy standards such as the GDPR.
+  O Group Office é construído com PHP e oferece suporte a padrões como CalDAV, CardDAV, WebDAV e ActiveSync, permitindo a sincronização com uma ampla variedade de clientes e dispositivos. Está disponível em mais de 20 idiomas e foi projetado para cumprir padrões rígidos de privacidade de dados, como o GDPR.
 
 
-  With its comprehensive feature set and focus on productivity and secure collaboration, Group Office is well suited for small and medium-sized teams looking for an integrated solution to manage their daily operations.
+  Com seu conjunto abrangente de recursos e foco na produtividade e colaboração segura, o Group Office é adequado para equipes de pequeno e médio porte que procuram uma solução integrada para gerenciar suas operações diárias.
 developer: Intermesh BV
 website: https://www.group-office.com/
 submitter: Tascok
@@ -24,11 +24,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/Intermesh/groupoffice
 support: https://github.com/Intermesh/groupoffice/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-groupoffice/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-groupoffice/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-groupoffice/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-groupoffice/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-groupoffice/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-groupoffice/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-groupoffice/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-groupoffice/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-groupoffice/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-groupoffice/5.jpg
 releaseNotes: >-
   Version 25.0.33 introduces enhanced validation for expression handling, significantly improving the reliability and accuracy of cron job executions within core system modules. This update helps prevent execution errors and ensures smoother scheduling workflows, contributing to overall system stability and performance.
 dependencies:

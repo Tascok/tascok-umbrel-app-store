@@ -1,19 +1,19 @@
 manifestVersion: 1
 id: tascok-karakeep
 name: Karakeep
-tagline: A bookmark-everything app
+tagline: Um aplicativo para marcar tudo
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-karakeep/logo.png
 category: files & productivity
 version: "0.24.1"
 port: 8620
 description: >-
-  📒 Karakeep is a modern application designed to help users collect, organize, and rediscover information in a way that feels natural and effortless. It blends the functions of a bookmarking tool, a note-taking app, and an image archive, enhanced by intelligent automation that makes managing digital content simple and intuitive. Users can save links, jot down ideas, or store visual inspiration, and Karakeep immediately processes this input to make it more accessible and useful. With the help of built-in artificial intelligence, the app automatically assigns relevant tags based on content, so users can stay organized without needing to manually sort or categorize their entries.
+  📒 Karakeep é um aplicativo moderno projetado para ajudar os usuários a coletar, organizar e redescobrir informações de uma forma natural e sem esforço. Ele combina as funções de uma ferramenta de bookmarking, um aplicativo de anotações e um arquivo de imagens, aprimorado por automação inteligente que torna o gerenciamento de conteúdo digital simples e intuitivo. Os usuários podem salvar links, anotar ideias ou armazenar inspiração visual, e o Karakeep processa imediatamente essa entrada para torná-la mais acessível e útil. Com a ajuda da inteligência artificial integrada, o aplicativo atribui automaticamente tags relevantes com base no conteúdo, para que os usuários possam se manter organizados sem a necessidade de classificar ou categorizar manualmente suas entradas.
 
 
-  What makes Karakeep unique is its focus on helping users rediscover what they have saved. Everything is fully indexed for fast and accurate full text search, allowing users to find anything they saved just by recalling a keyword or a phrase. There is no need to remember specific titles or folders, as the system is designed to bring content to the surface quickly and intuitively. The interface is clean and distraction free, placing the user’s content at the center and removing unnecessary complexity.
+  O que torna o Karakeep único é seu foco em ajudar os usuários a redescobrirem o que salvaram. Tudo é totalmente indexado para pesquisa de texto completo rápida e precisa, permitindo que os usuários encontrem tudo o que salvaram apenas lembrando uma palavra-chave ou frase. Não há necessidade de lembrar títulos ou pastas específicas, pois o sistema foi projetado para trazer o conteúdo à tona de forma rápida e intuitiva. A interface é limpa e sem distrações, colocando o conteúdo do usuário no centro e eliminando complexidade desnecessária.
 
 
-  Karakeep supports the creation of custom lists to group related entries in meaningful ways, adapting to the personal workflows and habits of each user. Instead of relying on rigid structures or manual effort, the app encourages a more fluid and natural way of working with digital information. Whether someone is gathering research, saving useful links, capturing notes, or archiving visual material, Karakeep turns this process into a smooth and rewarding experience. It gives users full control over their digital space and helps them stay connected to what matters most in their personal and creative work.
+  Karakeep suporta a criação de listas personalizadas para agrupar entradas relacionadas de maneiras significativas, adaptando-se aos fluxos de trabalho e hábitos pessoais de cada usuário. Em vez de depender de estruturas rígidas ou de esforço manual, o aplicativo incentiva uma forma mais fluida e natural de trabalhar com a informação digital. Esteja alguém coletando pesquisas, salvando links úteis, capturando notas ou arquivando material visual, o Karakeep transforma esse processo em uma experiência tranquila e gratificante. Dá aos usuários controle total sobre seu espaço digital e os ajuda a permanecer conectados ao que é mais importante em seu trabalho pessoal e criativo.
 developer: karakeep.app
 website: https://karakeep.app/
 submitter: Tascok
@@ -21,10 +21,10 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/karakeep-app/karakeep
 support: https://github.com/karakeep-app/karakeep/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-karakeep/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-karakeep/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-karakeep/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-karakeep/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-karakeep/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-karakeep/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-karakeep/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-karakeep/4.jpg
 releaseNotes: >-
   Version 0.24.1 is a hotfix for 0.24.0, addressing an issue where smart list expansion in qualifiers caused Karakeep's server to run out of memory (OOM). It also adds missing translations for new features introduced in 0.24.0.
 dependencies:

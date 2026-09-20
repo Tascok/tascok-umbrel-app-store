@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-noflux
 name: Noflux
-tagline: A simple decentralized feed reader powered by Nostr
+tagline: Um leitor de feed descentralizado simples desenvolvido pela Nostr
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-noflux/logo.png
 category: files & productivity
 version: "0.1.0"
 port: 8064
 description: >-
-  📡 Noflux is a decentralized feed reader built on the Nostr protocol. It allows users to subscribe to and follow feeds, similar to traditional RSS readers, but with the added benefits of decentralization and censorship resistance. Noflux leverages the Nostr protocol to distribute and receive content, ensuring that the platform remains independent of centralized servers.
+  📡 Noflux é um leitor de feeds descentralizado baseado no protocolo Nostr. Ele permite que os usuários assinem e acompanhem feeds, de forma semelhante aos leitores RSS tradicionais, mas com os benefícios adicionais de descentralização e resistência à censura. Noflux aproveita o protocolo Nostr para distribuir e receber conteúdo, garantindo que a plataforma permaneça independente de servidores centralizados.
 
 
-  By using Nostr, Noflux provides a way for users to consume and share news, posts, and articles while maintaining full control over their data. This decentralized approach ensures that content cannot be easily censored or manipulated, giving users a more secure and private way to interact with feeds across the web.
+  Ao usar o Nostr, o Noflux oferece aos usuários uma maneira de consumir e compartilhar notícias, postagens e artigos, mantendo controle total sobre seus dados. Essa abordagem descentralizada garante que o conteúdo não possa ser facilmente censurado ou manipulado, proporcionando aos usuários uma forma mais segura e privada de interagir com feeds na web.
 
 
-  In essence, Noflux is a modern feed reader that combines the functionality of traditional RSS with the power of decentralization, offering a censorship-resistant, user-controlled experience for consuming and sharing content.
+  Em essência, o Noflux é um leitor de feeds moderno que combina a funcionalidade do RSS tradicional com o poder da descentralização, oferecendo uma experiência resistente à censura e controlada pelo usuário para consumir e compartilhar conteúdo.
 
 
-  🔑 By default, the username is "admin" and the password is "umbrel".
+  🔑 Por padrão, o nome de usuário é “admin” e a senha é “umbrel”.
 developer: fiatjaf
 website: https://noflux.nostr.technology/
 submitter: Tascok
@@ -24,9 +24,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/fiatjaf/noflux
 support: https://github.com/fiatjaf/noflux/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-noflux/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-noflux/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-noflux/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-noflux/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-noflux/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-noflux/3.jpg
 releaseNotes: >-
   This is the initial release (v0.1.0) of Noflux. There are no prior release notes as this marks the first version of the project.
 dependencies:

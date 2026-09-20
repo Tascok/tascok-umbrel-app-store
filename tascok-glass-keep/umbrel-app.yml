@@ -1,25 +1,25 @@
 manifestVersion: 1
 id: tascok-glass-keep
 name: Glass Keep
-tagline: A fast and elegant note keeper
+tagline: Um anotador rápido e elegante
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-glass-keep/logo.png
 category: files & productivity
 version: "1.0.8"
 port: 8153
 description: >-
-  🗒️ Glass Keep is a beautifully designed note taking application that brings a calm and modern experience to organizing thoughts and ideas. It features a clean glassmorphic interface inspired by Google Keep, creating a smooth and elegant environment for writing and creativity.
+  🗒️ Glass Keep é um aplicativo de anotações lindamente projetado que traz uma experiência calma e moderna para organizar pensamentos e ideias. Possui uma interface glassmorphic limpa inspirada no Google Keep, criando um ambiente suave e elegante para escrita e criatividade.
 
 
-  It allows users to create, edit, and manage notes with ease. Each note can contain rich text, checklists, and markdown formatting, offering flexibility for anything from quick reminders to detailed reflections. Notes can be color coded and tagged to keep information neatly structured and personalized.
+  Ele permite aos usuários criar, editar e gerenciar notas com facilidade. Cada nota pode conter rich text, listas de verificação e formatação remarcada, oferecendo flexibilidade para qualquer coisa, desde lembretes rápidos até reflexões detalhadas. As notas podem ser codificadas por cores e marcadas para manter as informações bem estruturadas e personalizadas.
 
 
-  Images can be added directly to notes, allowing users to visually enrich their thoughts or capture moments of inspiration. Pinned notes stay at the top, making sure that important information is always visible and easy to access.
+  As imagens podem ser adicionadas diretamente às notas, permitindo aos usuários enriquecer visualmente seus pensamentos ou capturar momentos de inspiração. As notas fixadas ficam no topo, garantindo que informações importantes estejam sempre visíveis e de fácil acesso.
 
 
-  Users can edit notes inline, archive older ones for later reference, or delete them permanently when they are no longer needed. A powerful search and filter system ensures that even large collections of notes remain easy to navigate and organize.
+  Os usuários podem editar notas inline, arquivar as mais antigas para referência posterior ou excluí-las permanentemente quando não forem mais necessárias. Um poderoso sistema de pesquisa e filtro garante que mesmo grandes coleções de notas permaneçam fáceis de navegar e organizar.
 
 
-  With its responsive and minimal design, Glass Keep feels fluid and pleasant to use on any device. Whether writing a long journal entry, managing a to do list, or collecting creative ideas, it combines simplicity, clarity, and elegance to make note taking both productive and enjoyable.
+  Com seu design responsivo e minimalista, o Glass Keep é fluido e agradável de usar em qualquer dispositivo. Seja escrevendo um longo diário, gerenciando uma lista de tarefas ou coletando ideias criativas, ele combina simplicidade, clareza e elegância para tornar as anotações produtivas e agradáveis.
 developer: Nikunj Singh
 website: https://github.com/nikunjsingh93/react-glass-keep
 submitter: Tascok
@@ -27,10 +27,10 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/nikunjsingh93/react-glass-keep
 support: https://github.com/nikunjsingh93/react-glass-keep/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-glass-keep/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-glass-keep/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-glass-keep/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-glass-keep/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-glass-keep/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-glass-keep/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-glass-keep/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-glass-keep/4.jpg
 releaseNotes: >-
   This update introduced Search & AI Assistance: experience a more powerful way to navigate your data with Deep Search, which now covers titles, Markdown text, tags, checklist items, and image names. You can now ask questions directly about your notes by pressing Enter in the search bar, leveraging Smart Grounding for accurate, private answers based on your content, and enjoy a streamlined experience with a one-click clear that resets your search query when closing the AI response box.
 dependencies: []

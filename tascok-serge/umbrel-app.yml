@@ -1,31 +1,31 @@
 manifestVersion: 1
 id: tascok-serge
 name: Serge
-tagline: An easy way to chat with Alpaca & other LLaMa based models
+tagline: Uma maneira fácil de conversar com Alpaca e outros modelos baseados em LLaMa
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-serge/logo.png
 category: AI
 version: "0.9.0"
 port: 8803
 description: >-
-  Serge is an open-source platform designed for hosting large language models (LLMs) like LLaMA on local infrastructure, offering privacy, security, and control over data. It is built for individuals, researchers, or businesses that need to deploy a conversational AI system without relying on external APIs. Serge simplifies deployment by providing a lightweight web interface for interaction and supports easy integration with various messaging platforms.
+  Serge é uma plataforma de código aberto projetada para hospedar grandes modelos de linguagem (LLMs) como LLaMA em infraestrutura local, oferecendo privacidade, segurança e controle sobre os dados. Ele foi desenvolvido para indivíduos, pesquisadores ou empresas que precisam implantar um sistema de IA conversacional sem depender de APIs externas. Serge simplifica a implantação fornecendo uma interface web leve para interação e suporta fácil integração com diversas plataformas de mensagens.
 
 
-  Key features include:
+  Os principais recursos incluem:
 
 
-  🖥️ Self-hosting of LLM models.
-  
-  
-  🏠 No reliance on cloud services.
-  
-  
-  🧠 Supports LLaMA models for natural conversation.
-  
-  
-  👤 User-friendly web interface for easy access.
-  
+  🖥️ Auto-hospedagem de modelos LLM.
 
-  Serge is ideal for anyone seeking to deploy AI chatbots within a controlled environment, ensuring data privacy, particularly for organizations with strict security requirements. It can be tailored for customer service, internal support, research projects, or even personal use, allowing full control over conversations and data management.
+
+  🏠 Não há dependência de serviços em nuvem.
+
+
+  🧠 Suporta modelos LLaMA para conversas naturais.
+
+
+  👤 Interface web amigável para fácil acesso.
+
+
+  Serge é ideal para quem busca implantar chatbots de IA em um ambiente controlado, garantindo a privacidade dos dados, principalmente para organizações com requisitos rígidos de segurança. Pode ser adaptado para atendimento ao cliente, suporte interno, projetos de pesquisa ou até mesmo uso pessoal, permitindo total controle das conversas e gerenciamento de dados.
 developer: Juan Calderon-Perez
 website: https://serge.chat/
 submitter: Tascok
@@ -33,9 +33,9 @@ submission: https://github.com/dennysubke/dennys-umbrel-app-store
 repo: https://github.com/serge-chat/serge
 support: https://github.com/serge-chat/serge/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-serge/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-serge/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-serge/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-serge/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-serge/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-serge/3.jpg
 releaseNotes: >-
   The latest update to the Serge project introduces several new features, including IPv6 support, an updated LLaMA-CPP-Python version (v0.2.41), and a sidebar menu. In terms of models, the OpenChat version was updated, and support was added for Phi 2, Mixtral 2.7, MedicineLLM, MistralLite, and Notux. Various updates were made, such as UI improvements, dependency cleanups, and multiple updates to LLaMA-CPP-Python, NodeJS dependencies, and project documentation. Additionally, the project migrated to SvelteKit v2 and made adjustments to tooltips and documentation titles.
 dependencies: []

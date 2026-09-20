@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-romm
 name: RomM
-tagline: An elegant, powerful, and self-hosted ROM manager for seamless gaming
+tagline: Um gerenciador de ROM elegante, poderoso e auto-hospedado para jogos perfeitos
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-romm/logo.png
 category: gaming
 version: "3.7.3"
 port: 9221
 description: >-
-  👾 RomM is a beautifully designed, powerful, and self-hosted ROM manager that offers a comprehensive solution for gamers looking to organize, manage, and enjoy their game collections. With support for multiple platforms and naming conventions, RomM ensures your ROM library is organized and accessible while automatically adding metadata and cover art to enrich the experience. The platform seamlessly integrates an emulator for instant gameplay, offering a smooth and hassle-free experience, all within the comfort of your own private server.
+  👾 RomM é um gerenciador de ROM lindamente projetado, poderoso e auto-hospedado que oferece uma solução abrangente para jogadores que desejam organizar, gerenciar e desfrutar de suas coleções de jogos. Com suporte para múltiplas plataformas e convenções de nomenclatura, RomM garante que sua biblioteca ROM esteja organizada e acessível, ao mesmo tempo que adiciona automaticamente metadados e capas para enriquecer a experiência. A plataforma integra perfeitamente um emulador para jogabilidade instantânea, oferecendo uma experiência tranquila e descomplicada, tudo no conforto do seu servidor privado.
 
 
-  Built with privacy and security in mind, RomM allows you to maintain full control over your data while eliminating the need for third-party services. As an open-source and community-driven project, RomM is constantly evolving, with regular updates and new features driven by the feedback of passionate users. Future plans include features like device synchronization, enabling you to access and play your games across multiple devices effortlessly. Whether you're a casual gamer or a retro enthusiast, RomM provides the ultimate tool for managing your ROM collection while ensuring a streamlined, personalized, and secure experience.
+  Construído com privacidade e segurança em mente, o RomM permite manter controle total sobre seus dados, eliminando a necessidade de serviços de terceiros. Como um projeto de código aberto e voltado para a comunidade, o RomM está em constante evolução, com atualizações regulares e novos recursos impulsionados pelo feedback de usuários apaixonados. Os planos futuros incluem recursos como sincronização de dispositivos, permitindo que você acesse e jogue seus jogos em vários dispositivos sem esforço. Quer você seja um jogador casual ou um entusiasta retrô, o RomM oferece a ferramenta definitiva para gerenciar sua coleção de ROMs, garantindo uma experiência simplificada, personalizada e segura.
 
 
-  ⚠️ To enable RomM to fetch game data, covers, and metadata from external sources, you need to manually add API keys to the 'docker-compose.yml' file. Generate the required keys from IGDB, MobyGames, and SteamGridDB, then insert them as environment variables under the RomM service. After saving the file, restart the app to apply the changes.
+  ⚠️ Para permitir que o RomM busque dados, capas e metadados de jogos de fontes externas, você precisa adicionar manualmente chaves de API ao arquivo 'docker-compose.yml'. Gere as chaves necessárias de IGDB, MobyGames e SteamGridDB e insira-as como variáveis ​​de ambiente no serviço RomM. Após salvar o arquivo, reinicie o aplicativo para aplicar as alterações.
 
 
-  🔧 For more configuration details, visit the official RomM GitHub repository: https://github.com/rommapp/romm
+  🔧 Para mais detalhes de configuração, visite o repositório oficial do RomM GitHub: https://github.com/rommapp/romm
 developer: The RomM Project
 website: https://romm.app/
 submitter: Tascok
@@ -24,17 +24,17 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/rommapp/romm
 support: https://github.com/rommapp/romm/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-romm/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-romm/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-romm/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-romm/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-romm/5.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-romm/6.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-romm/7.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-romm/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-romm/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-romm/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-romm/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-romm/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-romm/6.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-romm/7.jpg
 releaseNotes: >-
   Version 3.7.3 of RomM introduces new features and bug fixes. Highlights include the display of game summaries with Markdown editor support, the use of spiciness ratings for difficulty, and the ability to remember search queries when returning to a page. 
-  
-  
+
+
   Bug fixes address issues with the PSX Mednafen core, game playability checks, and improved support for older PostgreSQL versions. Additional improvements include performance optimizations and updates to dependencies.
 dependencies:
 path: ""

@@ -1,25 +1,25 @@
 manifestVersion: 1
 id: tascok-traggo
 name: Traggo
-tagline: An open-source time tracking tool designed for self-hosting
+tagline: Uma ferramenta de controle de tempo de código aberto projetada para auto-hospedagem
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-traggo/logo.png
 category: files & productivity
 version: "0.5.0"
 port: 3083
 description: >-
-    Traggo is an open-source time tracking tool that offers a flexible and self-hosted solution for managing time across projects and tasks. It is designed to help individuals and teams efficiently monitor the hours they spend on various activities, making it ideal for freelancers, small businesses, or larger organizations looking for a customizable time tracking system.
+  Traggo é uma ferramenta de controle de tempo de código aberto que oferece uma solução flexível e auto-hospedada para gerenciar o tempo em projetos e tarefas. Ele foi projetado para ajudar indivíduos e equipes a monitorar com eficiência as horas gastas em diversas atividades, tornando-o ideal para freelancers, pequenas empresas ou organizações maiores que procuram um sistema de controle de tempo personalizável.
 
 
-    One of the standout features of this tool is its support for organizing tasks through projects and tags, allowing users to categorize their work in a structured way. In addition to its intuitive dashboard, Traggo makes it easy to view reports and analyze time data, providing valuable insights into productivity and resource allocation.
+  Um dos destaques desta ferramenta é o suporte à organização de tarefas por meio de projetos e tags, permitindo ao usuário categorizar seu trabalho de forma estruturada. Além de seu painel intuitivo, o Traggo facilita a visualização de relatórios e a análise de dados de tempo, fornecendo informações valiosas sobre produtividade e alocação de recursos.
 
 
-    With multi-user support, several people can collaborate and track their time simultaneously, making it a great choice for teams. Being a self-hosted solution, it gives users full control over their data, ensuring privacy and security by running on their own servers.
+  Com suporte multiusuário, várias pessoas podem colaborar e controlar seu tempo simultaneamente, sendo uma ótima opção para equipes. Por ser uma solução auto-hospedada, oferece aos usuários controle total sobre seus dados, garantindo privacidade e segurança ao rodar em servidores próprios.
 
 
-    Traggo offers a comprehensive yet user-friendly approach to time management, combining the power of open-source software with the flexibility to meet the needs of different work environments.
+  Traggo oferece uma abordagem abrangente e fácil de usar para gerenciamento de tempo, combinando o poder do software de código aberto com a flexibilidade para atender às necessidades de diferentes ambientes de trabalho.
 
 
-    🔑 The default username is "admin" and the password is "umbrel".
+  🔑 O nome de usuário padrão é “admin” e a senha é “umbrel”.
 developer: Jannis Mattheis
 website: https://traggo.net/
 submitter: Tascok
@@ -27,15 +27,13 @@ submission: https://github.com/dennysubke/dennys-umbrel-app-store/
 repo: https://github.com/traggo/server
 support: https://github.com/traggo/server/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-traggo/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-traggo/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-traggo/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-traggo/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-traggo/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-traggo/3.jpg
 releaseNotes: >-
-  Several improvements were made to the project, including enhancing the mobile design by moving the show/hide notes button into the triple-dot menu. 
-  A percentage display was added to the pie chart, along with a new work week (5-day week) calendar view. 
-  Issues with the escape key in the tag selector were fixed, as well as an exception on the list page. 
-  
-  
+  Several improvements were made to the project, including enhancing the mobile design by moving the show/hide notes button into the triple-dot menu.  A percentage display was added to the pie chart, along with a new work week (5-day week) calendar view.  Issues with the escape key in the tag selector were fixed, as well as an exception on the list page. 
+
+
   Additionally, the project's dependencies were updated. These changes bring significant enhancements to the overall functionality.
 dependencies:
 path: ""

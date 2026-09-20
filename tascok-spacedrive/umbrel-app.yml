@@ -1,16 +1,16 @@
 manifestVersion: 1
 id: tascok-spacedrive
 name: Spacedrive
-tagline: A file manager from the future
+tagline: Um gerenciador de arquivos do futuro
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spacedrive/logo.png
 category: files & productivity
 version: "0.4.2"
 port: 8199
 description: >-
-  Spacedrive is an innovative file management solution that unifies access to files across devices, cloud services, and local storage in one seamless interface. Ideal for users managing extensive media and data collections, Spacedrive provides a centralized platform for organizing, accessing, and efficiently searching content. As an open-source tool, it prioritizes user control, privacy, and customization, with flexible deployment options for local or self-hosted use. Its streamlined design, powerful search capabilities, and adaptable setup make it a valuable resource for professionals and digital creators seeking a cohesive and efficient approach to file management across diverse data sources.
+  Spacedrive é uma solução inovadora de gerenciamento de arquivos que unifica o acesso a arquivos em dispositivos, serviços em nuvem e armazenamento local em uma interface integrada. Ideal para usuários que gerenciam extensas coleções de mídia e dados, o Spacedrive fornece uma plataforma centralizada para organizar, acessar e pesquisar conteúdo de forma eficiente. Por ser uma ferramenta de código aberto, ela prioriza o controle, a privacidade e a personalização do usuário, com opções flexíveis de implantação para uso local ou auto-hospedado. Seu design simplificado, recursos de pesquisa poderosos e configuração adaptável fazem dele um recurso valioso para profissionais e criadores digitais que buscam uma abordagem coesa e eficiente para gerenciamento de arquivos em diversas fontes de dados.
 
-  
-  ⚠️ Spacedrive is currently in its Alpha phase, allowing early adopters to explore its features while the platform continues to evolve. For optimal performance with its Docker container, it’s best to run on Linux (linux/amd64), as the container is not yet optimized for other platforms. Additionally, Spacedrive does not currently run on Raspberry Pi (ARM) due to compatibility limitations. For the best experience, using Spacedrive on an Umbrel Home setup or a virtual machine (VM) is highly suggested.
+
+  ⚠️ O Spacedrive está atualmente em fase Alpha, permitindo que os primeiros usuários explorem seus recursos enquanto a plataforma continua a evoluir. Para um desempenho ideal com seu contêiner Docker, é melhor rodar em Linux (linux/amd64), pois o contêiner ainda não está otimizado para outras plataformas. Além disso, o Spacedrive não funciona atualmente em Raspberry Pi (ARM) devido a limitações de compatibilidade. Para a melhor experiência, é altamente recomendável usar o Spacedrive em uma configuração Umbrel Home ou em uma máquina virtual (VM).
 developer: Spacedrive Technology Inc.
 website: https://www.spacedrive.com
 submitter: Tascok
@@ -18,13 +18,13 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/spacedriveapp
 support: https://github.com/spacedriveapp/spacedrive/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spacedrive/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spacedrive/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spacedrive/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spacedrive/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spacedrive/5.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spacedrive/6.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spacedrive/7.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spacedrive/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spacedrive/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spacedrive/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spacedrive/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spacedrive/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spacedrive/6.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spacedrive/7.jpg
 releaseNotes: >-
   The Spacedrive 0.4.2 release focuses on stability and user experience, featuring UI improvements, bug fixes, and platform updates, including Tauri v2 integration and improved file management. Added Chinese translations and updated dependencies enhance overall functionality. The next update will bring cloud sync, P2P features, and a mobile app preview.
 dependencies:

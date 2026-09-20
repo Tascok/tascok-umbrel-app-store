@@ -1,28 +1,28 @@
 manifestVersion: 1
 id: tascok-puter
 name: Puter
-tagline: An advanced, open-source internet operating system
+tagline: Um sistema operacional de Internet avançado e de código aberto
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-puter/logo.png
 category: files & productivity
 version: "2.4.2"
 port: 4100
 description: >-
-  Puter is an advanced, open-source internet operating system designed to be feature-rich, exceptionally fast, and highly extensible. Puter can be used as:
+  Puter é um sistema operacional de Internet avançado e de código aberto, projetado para ser rico em recursos, excepcionalmente rápido e altamente extensível. Puter pode ser usado como:
 
 
-  🔒 A privacy-first personal cloud to keep all your files, apps, and games in one secure place, accessible from anywhere at any time.
+  🔒 Uma nuvem pessoal que prioriza a privacidade para manter todos os seus arquivos, aplicativos e jogos em um local seguro, acessível de qualquer lugar e a qualquer hora.
 
-  
-  🕹️ A platform for building and publishing websites, web apps, and games.
 
-  
-  💾 An alternative to Dropbox, Google Drive, OneDrive, etc. with a fresh interface and powerful features.
+  🕹️ Uma plataforma para construção e publicação de sites, aplicativos web e jogos.
 
-  
-  📡 A remote desktop environment for servers and workstations.
 
-  
-  🤝 A friendly, open-source project and community to learn about web development, cloud computing, distributed systems, and much more!
+  💾 Uma alternativa ao Dropbox, Google Drive, OneDrive, etc. com uma interface nova e recursos poderosos.
+
+
+  📡 Um ambiente de desktop remoto para servidores e estações de trabalho.
+
+
+  🤝 Um projeto e comunidade amigável e de código aberto para aprender sobre desenvolvimento web, computação em nuvem, sistemas distribuídos e muito mais!
 
 
 developer: Puter Technologies Inc.
@@ -32,9 +32,9 @@ submission: https://github.com/dennysubke/dennys-umbrel-app-store
 repo: https://github.com/HeyPuter/puter
 support: https://github.com/HeyPuter/puter/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-puter/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-puter/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-puter/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-puter/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-puter/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-puter/3.jpg
 releaseNotes: >-
   New features such as JSON support and custom templates,
   numerous translation updates and corrections, documentation improvements,

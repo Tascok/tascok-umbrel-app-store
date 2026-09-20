@@ -1,31 +1,31 @@
 manifestVersion: 1
 id: tascok-unifi
 name: UniFi Network Server
-tagline: An intuitive solution for seamless network management
+tagline: Uma solução intuitiva para gerenciamento de rede contínuo
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-unifi/logo.png
 category: networking
 version: "9.0.114"
 port: 8892
 description: >-
-  The UniFi Network Server is a software platform developed by Ubiquiti Networks to manage and monitor UniFi network devices, which include routers, switches, access points, and other networking hardware. The UniFi ecosystem is designed to provide scalable, high-performance network solutions, and the Network Server serves as the central hub for controlling and overseeing these devices. It acts as a centralized management console, allowing network administrators to configure, monitor, and maintain the entire UniFi network infrastructure from a single interface.
+  O UniFi Network Server é uma plataforma de software desenvolvida pela Ubiquiti Networks para gerenciar e monitorar dispositivos de rede UniFi, que incluem roteadores, switches, pontos de acesso e outros hardwares de rede. O ecossistema UniFi foi projetado para fornecer soluções de rede escalonáveis ​​e de alto desempenho, e o Network Server serve como hub central para controlar e supervisionar esses dispositivos. Ele atua como um console de gerenciamento centralizado, permitindo aos administradores de rede configurar, monitorar e manter toda a infraestrutura da rede UniFi a partir de uma única interface.
 
 
-  The software provides a wide range of features for network management. It enables the configuration of devices such as access points and switches, the creation and management of network security settings (like firewalls and VPNs), and the monitoring of network traffic and performance. Administrators can view detailed network analytics, including usage statistics and device health, helping them troubleshoot and optimize network performance. Additionally, the UniFi Network Server allows for the deployment of software and firmware updates across all connected devices, ensuring the network is running the latest and most secure versions of the software.
+  O software oferece uma ampla gama de recursos para gerenciamento de rede. Ele permite a configuração de dispositivos como pontos de acesso e switches, a criação e o gerenciamento de configurações de segurança de rede (como firewalls e VPNs) e o monitoramento do tráfego e do desempenho da rede. Os administradores podem visualizar análises detalhadas da rede, incluindo estatísticas de uso e integridade do dispositivo, ajudando-os a solucionar problemas e otimizar o desempenho da rede. Além disso, o UniFi Network Server permite a implantação de atualizações de software e firmware em todos os dispositivos conectados, garantindo que a rede esteja executando as versões mais recentes e seguras do software.
 
 
-  One of the key benefits of the UniFi Network Server is its user-friendly interface, which simplifies network management tasks. It provides a streamlined approach for both experienced network administrators and those new to managing network infrastructures. The platform can be deployed either on local servers or through cloud-based solutions, offering flexibility depending on the needs of the organization. Overall, the UniFi Network Server is an essential tool for businesses and individuals looking to manage and optimize their UniFi-based network infrastructure efficiently.
+  Um dos principais benefícios do UniFi Network Server é sua interface amigável, que simplifica as tarefas de gerenciamento de rede. Ele fornece uma abordagem simplificada tanto para administradores de rede experientes quanto para aqueles que são novos no gerenciamento de infraestruturas de rede. A plataforma pode ser implantada em servidores locais ou por meio de soluções baseadas em nuvem, oferecendo flexibilidade dependendo das necessidades da organização. No geral, o UniFi Network Server é uma ferramenta essencial para empresas e indivíduos que buscam gerenciar e otimizar com eficiência sua infraestrutura de rede baseada em UniFi.
 
 
-  ⚙️ The UniFi Network Application requires several ports for proper functionality:
+  ⚙️ O aplicativo de rede UniFi requer várias portas para funcionar corretamente:
 
 
-  Port 8893 is used for the web interface of the controller and is only accessible via HTTPS. Port 3478/UDP is the STUN port, which allows devices outside the local network to connect. Port 10001/UDP is required for discovering UniFi access points within the local network. Port 8080 is used for communication between the controller and UniFi devices.
+  A porta 8893 é usada para a interface web do controlador e só pode ser acessada via HTTPS. A porta 3478/UDP é a porta STUN, que permite a conexão de dispositivos fora da rede local. A porta 10001/UDP é necessária para descobrir pontos de acesso UniFi na rede local. A porta 8080 é usada para comunicação entre o controlador e os dispositivos UniFi.
 
 
-  Port 1900/UDP is necessary when the “Make controller discoverable on L2 network” option is enabled. Ports 8843 and 8880 are used for the UniFi guest portal — 8893 for HTTPS redirects and 8892 for HTTP redirects. Port 6789 enables throughput testing via the UniFi mobile app. Finally, port 5514/UDP is used to send remote syslog data to external logging systems.
+  A porta 1900/UDP é necessária quando a opção “Tornar o controlador detectável na rede L2” está habilitada. As portas 8843 e 8880 são usadas para o portal de convidados UniFi – 8893 para redirecionamentos HTTPS e 8892 para redirecionamentos HTTP. A porta 6789 permite testes de rendimento por meio do aplicativo móvel UniFi. Finalmente, a porta 5514/UDP é usada para enviar dados syslog remotos para sistemas de registro externos.
 
 
-  ⚠️ Important: The web interface only works with TLS (HTTPS). Access over plain HTTP is not possible. Reverse proxies or Cloudflare Tunnel setups must forward HTTPS traffic directly to port 8893.
+  ⚠️ Importante: A interface web só funciona com TLS (HTTPS). O acesso por HTTP simples não é possível. Proxies reversos ou configurações do Cloudflare Tunnel devem encaminhar o tráfego HTTPS diretamente para a porta 8893.
 developer: Ubiquiti Inc.
 website: https://ui.com/eu/en
 submitter: Tascok
@@ -33,11 +33,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/linuxserver/docker-unifi-network-application
 support: https://github.com/linuxserver/docker-unifi-network-application/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-unifi/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-unifi/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-unifi/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-unifi/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-unifi/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-unifi/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-unifi/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-unifi/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-unifi/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-unifi/5.jpg
 releaseNotes: >-
   The release 9.0.114 reverts the JRE to version 17, addressing compatibility or performance issues, and includes an update to UniFi Network Server version 9.0.114. The changes also reflect improvements or fixes based on feedback from remote updates, ensuring better functionality and stability.
 dependencies:

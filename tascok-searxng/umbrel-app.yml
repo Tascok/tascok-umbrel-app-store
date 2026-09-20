@@ -1,19 +1,19 @@
 manifestVersion: 1
 id: tascok-searxng
 name: SearXNG
-tagline: A free internet metasearch engine
+tagline: Um mecanismo de metabusca gratuito na Internet
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-searxng/logo.png
 category: networking
 version: "2025.7.19"
 port: 8182
 description: >-
-  🔍 SearxNG is a metasearch engine that enables users to search the internet by combining results from multiple search providers into one comprehensive list. When a user submits a query, SearxNG sends that query simultaneously to a variety of external search engines and services. It then collects and merges the responses, presenting the user with a unified set of search results. This approach allows users to access a wider range of information from different sources without having to search each one individually.
+  🔍 SearxNG é um mecanismo de metabusca que permite aos usuários pesquisar na Internet combinando resultados de vários provedores de pesquisa em uma lista abrangente. Quando um usuário envia uma consulta, o SearxNG a envia simultaneamente para uma variedade de mecanismos e serviços de pesquisa externos. Em seguida, ele coleta e mescla as respostas, apresentando ao usuário um conjunto unificado de resultados de pesquisa. Esta abordagem permite aos usuários acessar uma gama mais ampla de informações de diferentes fontes sem ter que pesquisar cada uma delas individualmente.
 
 
-  The application emphasizes delivering diverse and balanced search outcomes by aggregating results from many different platforms. By pooling these various results, SearxNG helps reduce bias that might come from relying on a single search engine, offering users a more neutral and varied perspective on their search topics. The system is designed to handle many types of searches, from web pages to images, videos, news, and other categories, depending on which providers are queried.
+  O aplicativo enfatiza a entrega de resultados de pesquisa diversos e equilibrados, agregando resultados de muitas plataformas diferentes. Ao reunir esses vários resultados, o SearxNG ajuda a reduzir o preconceito que pode advir da dependência de um único mecanismo de pesquisa, oferecendo aos usuários uma perspectiva mais neutra e variada sobre seus tópicos de pesquisa. O sistema foi projetado para lidar com diversos tipos de pesquisas, desde páginas da web até imagens, vídeos, notícias e outras categorias, dependendo dos provedores consultados.
 
 
-  In addition, SearxNG is built to respect user privacy by not storing search histories or personal data. This means that every search is treated independently, and no personal tracking or profiling takes place. The anonymity of searches helps users feel more secure when looking up information online. Overall, SearxNG functions as a powerful tool for searching by leveraging the strengths of multiple search engines while protecting user privacy and promoting an open, unbiased search experience.
+  Além disso, o SearxNG foi desenvolvido para respeitar a privacidade do usuário, não armazenando históricos de pesquisa ou dados pessoais. Isso significa que cada pesquisa é tratada de forma independente e não ocorre nenhum rastreamento ou perfil pessoal. O anonimato das pesquisas ajuda os usuários a se sentirem mais seguros ao pesquisar informações online. No geral, o SearxNG funciona como uma ferramenta poderosa de pesquisa, aproveitando os pontos fortes de vários mecanismos de pesquisa, ao mesmo tempo que protege a privacidade do usuário e promove uma experiência de pesquisa aberta e imparcial.
 developer: SearXNG
 website: https://docs.searxng.org/
 submitter: Tascok
@@ -21,11 +21,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/searxng/searxng
 support: https://github.com/searxng/searxng/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-searxng/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-searxng/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-searxng/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-searxng/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-searxng/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-searxng/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-searxng/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-searxng/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-searxng/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-searxng/5.jpg
 releaseNotes: >-
   Version 2025.7.19 updates translations from Weblate and fixes the container by removing the static path mount.
 dependencies:

@@ -1,16 +1,16 @@
 manifestVersion: 1
 id: tascok-kodbox
 name: kodbox
-tagline: A seamless web-based file manager for effortless cloud storage
+tagline: Um gerenciador de arquivos baseado na Web para armazenamento em nuvem sem esforço
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-kodbox/logo.png
 category: files & productivity
 version: "1.56"
 port: 8383
 description: >-
-  KodCloud is an advanced, web-based file management platform that brings efficiency and ease to cloud storage and file organization. It offers users a highly intuitive and user-friendly interface, making it simple to manage, store, and share files across devices. Whether you're handling documents, images, or other types of content, KodCloud provides a seamless experience for accessing and organizing your files.
+  KodCloud é uma plataforma avançada de gerenciamento de arquivos baseada na web que traz eficiência e facilidade ao armazenamento em nuvem e organização de arquivos. Ele oferece aos usuários uma interface altamente intuitiva e fácil de usar, simplificando o gerenciamento, o armazenamento e o compartilhamento de arquivos entre dispositivos. Esteja você lidando com documentos, imagens ou outros tipos de conteúdo, o KodCloud oferece uma experiência perfeita para acessar e organizar seus arquivos.
 
 
-  The platform is designed with collaboration in mind, enabling users to easily share files and folders with others while maintaining control over permissions and access. Additionally, KodCloud can be integrated with other cloud services, enhancing its flexibility and usability for both personal and professional use. With its powerful tools and customizable features, KodCloud is an excellent choice for anyone looking for a robust and efficient way to manage their cloud-based files.
+  A plataforma foi projetada pensando na colaboração, permitindo que os usuários compartilhem facilmente arquivos e pastas com outras pessoas, mantendo o controle sobre permissões e acesso. Além disso, o KodCloud pode ser integrado a outros serviços em nuvem, aumentando sua flexibilidade e usabilidade tanto para uso pessoal quanto profissional. Com suas ferramentas poderosas e recursos personalizáveis, KodCloud é uma excelente escolha para quem procura uma maneira robusta e eficiente de gerenciar seus arquivos baseados em nuvem.
 developer: Kodcloud Network Co., Ltd.
 website: https://kodcloud.com/
 submitter: Tascok
@@ -18,11 +18,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/kalcaddle/kodbox
 support: https://github.com/kalcaddle/kodbox/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-kodbox/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-kodbox/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-kodbox/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-kodbox/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-kodbox/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-kodbox/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-kodbox/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-kodbox/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-kodbox/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-kodbox/5.jpg
 releaseNotes: >-
   Version 1.56 introduces a fix for a security issue, enhancing the overall safety and stability of the platform.
 dependencies:

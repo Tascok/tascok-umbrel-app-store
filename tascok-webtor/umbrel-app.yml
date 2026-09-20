@@ -1,31 +1,31 @@
 manifestVersion: 1
 id: tascok-webtor
 name: Webtor
-tagline: An instant torrent stream in your browser
+tagline: Um fluxo de torrent instantâneo no seu navegador
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-webtor/logo.png
 category: media
 version: "1.0.4"
 port: 8488
 description: >-
-  🎬 Webtor is a web-based torrent streaming and downloading service that allows users to interact with torrent files directly through their browser without the need for a traditional torrent client. It functions as a cloud-based torrent engine that fetches, processes, and delivers torrent content entirely server-side. Users can upload a .torrent file or paste a magnet link, and Webtor will download and convert the content for immediate playback or download.
+  🎬 Webtor é um serviço de streaming e download de torrent baseado na web que permite aos usuários interagir com arquivos torrent diretamente por meio de seu navegador, sem a necessidade de um cliente de torrent tradicional. Ele funciona como um mecanismo de torrent baseado em nuvem que busca, processa e entrega conteúdo de torrent inteiramente no lado do servidor. Os usuários podem fazer upload de um arquivo .torrent ou colar um link magnético, e o Webtor fará o download e converterá o conteúdo para reprodução ou download imediato.
 
 
-  One of the main features of Webtor is its ability to stream video and audio files directly in the browser using adaptive HLS technology. Supported formats include common video and audio containers like MP4, MKV, AVI, WEBM, MP3, and FLAC. This streaming begins almost instantly and continues while the file is still being downloaded, providing a seamless media experience. For users who prefer to download the content instead of streaming it, Webtor offers the option to download individual files or the entire torrent as a ZIP archive.
+  Uma das principais características do Webtor é a capacidade de transmitir arquivos de vídeo e áudio diretamente no navegador usando tecnologia HLS adaptativa. Os formatos suportados incluem contêineres comuns de vídeo e áudio como MP4, MKV, AVI, WEBM, MP3 e FLAC. Esse streaming começa quase instantaneamente e continua enquanto o arquivo ainda está sendo baixado, proporcionando uma experiência de mídia perfeita. Para usuários que preferem baixar o conteúdo em vez de transmiti-lo, o Webtor oferece a opção de baixar arquivos individuais ou o torrent inteiro como um arquivo ZIP.
 
 
-  Webtor emphasizes user privacy and ease of use. Because all torrenting activity occurs on Webtor’s servers, the user’s IP address is never exposed to the peer-to-peer network. All traffic is encrypted using HTTPS, and from an internet service provider’s perspective, the interaction looks like ordinary web browsing. This offers an added layer of privacy and reduces the need for VPNs or special anonymizing tools.
+  Webtor enfatiza a privacidade do usuário e a facilidade de uso. Como todas as atividades de torrent ocorrem nos servidores do Webtor, o endereço IP do usuário nunca é exposto à rede ponto a ponto. Todo o tráfego é criptografado usando HTTPS e, do ponto de vista de um provedor de serviços de Internet, a interação parece uma navegação normal na web. Isso oferece uma camada adicional de privacidade e reduz a necessidade de VPNs ou ferramentas especiais de anonimato.
 
 
-  Technically, Webtor is built using a modern microservices architecture and is fully open-source under the MIT license. Its backend is written primarily in Go and relies on popular technologies such as FFmpeg for media transcoding and Kubernetes for container orchestration. It uses the anacrolix/torrent library to fetch torrents and perform sequential downloading to allow streaming before the entire file is downloaded.
+  Tecnicamente, o Webtor é construído usando uma arquitetura moderna de microsserviços e é totalmente de código aberto sob a licença do MIT. Seu backend é escrito principalmente em Go e depende de tecnologias populares como FFmpeg para transcodificação de mídia e Kubernetes para orquestração de contêineres. Ele usa a biblioteca anacrolix/torrent para buscar torrents e realizar downloads sequenciais para permitir o streaming antes que o arquivo inteiro seja baixado.
 
 
-  Webtor also provides a Chrome browser extension that enables users to handle magnet links directly in the browser. Developers and advanced users can self-host the entire platform using Docker and Kubernetes, and there is a public SDK available for integration into other projects.
+  Webtor também fornece uma extensão do navegador Chrome que permite aos usuários gerenciar links magnéticos diretamente no navegador. Desenvolvedores e usuários avançados podem hospedar toda a plataforma por conta própria usando Docker e Kubernetes, e há um SDK público disponível para integração em outros projetos.
 
 
-  Despite its technical robustness and open nature, users should be cautious about the content they choose to access, especially considering the legal and ethical implications of torrenting copyrighted material. Some online safety platforms have flagged Webtor as medium-risk, mainly due to its association with file sharing and the potential for abuse. However, Webtor has been active for several years, uses standard security practices like SSL encryption and domain protection via Cloudflare, and is generally considered legitimate by the open-source community.
+  Apesar da sua robustez técnica e natureza aberta, os utilizadores devem ser cautelosos sobre o conteúdo que escolhem aceder, especialmente considerando as implicações legais e éticas do torrent de material protegido por direitos de autor. Algumas plataformas de segurança online sinalizaram o Webtor como de risco médio, principalmente devido à sua associação com o compartilhamento de arquivos e ao potencial de abuso. No entanto, o Webtor está ativo há vários anos, usa práticas de segurança padrão, como criptografia SSL e proteção de domínio via Cloudflare, e é geralmente considerado legítimo pela comunidade de código aberto.
 
 
-  In summary, Webtor offers a modern, privacy-conscious way to stream or download torrents directly in the browser. It is ideal for users who want quick access to media content without exposing their identity within torrent networks.
+  Em resumo, o Webtor oferece uma maneira moderna e preocupada com a privacidade de transmitir ou baixar torrents diretamente no navegador. É ideal para usuários que desejam acesso rápido ao conteúdo de mídia sem expor sua identidade nas redes de torrent.
 developer: Pavel Tatarskiy
 website: https://webtor.io/
 submitter: Tascok
@@ -33,9 +33,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/webtor-io/self-hosted
 support: https://github.com/webtor-io/self-hosted/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-webtor/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-webtor/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-webtor/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-webtor/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-webtor/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-webtor/3.jpg
 releaseNotes: >-
   Version 1.0.4 focuses on increased stability.
 dependencies:

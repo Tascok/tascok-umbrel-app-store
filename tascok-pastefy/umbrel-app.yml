@@ -1,19 +1,19 @@
 manifestVersion: 1
 id: tascok-pastefy
 name: Pastefy
-tagline: An easy paste for seamless sharing
+tagline: Uma pasta fácil para compartilhamento perfeito
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-pastefy/logo.png
 category: developer tools
 version: "6.7.5"
 port: 9900
 description: >-
-  Pastefy is a user-friendly online platform that allows you to quickly and securely store and share text, code, or other notes. Perfect for developers, creatives, or anyone who needs to exchange ideas in real time, Pastefy offers a simple way to save and share content without the hassle of sending files back and forth.
+  Pastefy é uma plataforma online fácil de usar que permite armazenar e compartilhar texto, código ou outras notas de forma rápida e segura. Perfeito para desenvolvedores, criativos ou qualquer pessoa que precise trocar ideias em tempo real, o Pastefy oferece uma maneira simples de salvar e compartilhar conteúdo sem o incômodo de enviar e receber arquivos.
 
 
-  With just a click, you can paste your text or code and receive a link to easily share it. For added security, Pastefy also offers the option to create private pastes, giving you full control over who has access to your information.
+  Com apenas um clique, você pode colar seu texto ou código e receber um link para compartilhá-lo facilmente. Para maior segurança, o Pastefy também oferece a opção de criar pastas privadas, dando a você controle total sobre quem tem acesso às suas informações.
 
 
-  Whether you're sharing code snippets with a colleague, keeping track of notes, or just quickly saving something for later, Pastefy makes sharing information faster, easier, and more secure.
+  Esteja você compartilhando trechos de código com um colega, acompanhando anotações ou apenas salvando algo rapidamente para mais tarde, o Pastefy torna o compartilhamento de informações mais rápido, fácil e seguro.
 developer: InteraApps
 website: https://pastefy.app/
 submitter: Tascok
@@ -21,11 +21,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/interaapps/pastefy
 support: https://github.com/interaapps/pastefy/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-pastefy/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-pastefy/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-pastefy/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-pastefy/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-pastefy/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-pastefy/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-pastefy/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-pastefy/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-pastefy/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-pastefy/5.jpg
 releaseNotes: >-
   This version merges the 'jws-upgrade' branch into the main branch.
 dependencies:

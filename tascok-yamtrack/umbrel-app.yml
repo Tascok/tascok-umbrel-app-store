@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-yamtrack
 name: Yamtrack
-tagline: A self hosted media tracker
+tagline: Um rastreador de mídia auto-hospedado
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-yamtrack/logo.png
 category: media
 version: "0.24.6 "
 port: 8742
 description: >-
-  🎬 Yamtrack is an open-source self-hosted media tracking application designed to help users organize and keep track of a wide range of entertainment content including movies, TV shows, anime, manga, video games, books, and comics. It provides a comprehensive platform where users can record detailed information about their media consumption such as ratings, viewing status, progress, start and end dates, and personal notes. Every action performed within the application is logged, enabling users to maintain a history of their interactions such as adding new media, starting to watch or read, and resuming paused content.
+  🎬 Yamtrack é um aplicativo de rastreamento de mídia auto-hospedado de código aberto projetado para ajudar os usuários a organizar e acompanhar uma ampla variedade de conteúdo de entretenimento, incluindo filmes, programas de TV, anime, mangá, videogames, livros e quadrinhos. Ele fornece uma plataforma abrangente onde os usuários podem registrar informações detalhadas sobre seu consumo de mídia, como classificações, status de visualização, progresso, datas de início e término e notas pessoais. Cada ação realizada no aplicativo é registrada, permitindo que os usuários mantenham um histórico de suas interações, como adicionar novas mídias, começar a assistir ou ler e retomar o conteúdo pausado.
 
 
-  One of the notable features of Yamtrack is its flexibility in managing both automatically imported data from popular services and manually created entries for media items that might not be available through external APIs. This allows for a personalized and complete tracking experience. Users can organize their tracked media into custom lists and share these collections with others, enhancing community interaction. A calendar view provides an overview of upcoming releases, keeping users informed about new content relevant to their interests. Notifications can be configured through various platforms such as Discord, Telegram, Slack, and email using Apprise, allowing users to stay updated on new releases or other significant events.
+  Um dos recursos notáveis ​​do Yamtrack é sua flexibilidade no gerenciamento de dados importados automaticamente de serviços populares e entradas criadas manualmente para itens de mídia que podem não estar disponíveis por meio de APIs externas. Isso permite uma experiência de rastreamento personalizada e completa. Os usuários podem organizar suas mídias rastreadas em listas personalizadas e compartilhar essas coleções com outras pessoas, melhorando a interação da comunidade. Uma visualização de calendário fornece uma visão geral dos próximos lançamentos, mantendo os usuários informados sobre novos conteúdos relevantes aos seus interesses. As notificações podem ser configuradas através de diversas plataformas como Discord, Telegram, Slack e e-mail usando Apprise, permitindo que os usuários fiquem atualizados sobre novos lançamentos ou outros eventos significativos.
 
 
-  Yamtrack supports multiple users, each with their own accounts and personalized tracking data, making it suitable for households or small groups of media enthusiasts. Integration with Jellyfin enables automatic tracking of episodes once they are watched, seamlessly connecting media playback with tracking data. Data import is supported from several well-known services including Trakt, Simkl, MyAnimeList, The Movie Database, AniList, and Kitsu, allowing users to migrate their existing media tracking information easily. Users also have the option to export all their tracked data into a CSV file and re-import it when needed.
+  O Yamtrack oferece suporte a vários usuários, cada um com suas próprias contas e dados de rastreamento personalizados, tornando-o adequado para residências ou pequenos grupos de entusiastas da mídia. A integração com Jellyfin permite o rastreamento automático de episódios assim que são assistidos, conectando perfeitamente a reprodução de mídia com dados de rastreamento. A importação de dados é suportada por vários serviços conhecidos, incluindo Trakt, Simkl, MyAnimeList, The Movie Database, AniList e Kitsu, permitindo aos usuários migrar facilmente suas informações de rastreamento de mídia existentes. Os usuários também têm a opção de exportar todos os dados rastreados para um arquivo CSV e reimportá-los quando necessário.
 
 
-  Yamtrack is actively developed with regular updates that enhance its functionality, such as improved integration with media servers and better search capabilities for video games. Users appreciate the application for its ease of use, comprehensive tracking features, and the ability to host their own data privately without relying on third-party platforms. It is a valuable tool for anyone looking to keep a detailed and organized record of their diverse media consumption in one centralized place.
+  O Yamtrack é desenvolvido ativamente com atualizações regulares que aprimoram sua funcionalidade, como melhor integração com servidores de mídia e melhores recursos de pesquisa para videogames. Os usuários apreciam o aplicativo por sua facilidade de uso, recursos abrangentes de rastreamento e capacidade de hospedar seus próprios dados de forma privada, sem depender de plataformas de terceiros. É uma ferramenta valiosa para quem deseja manter um registro detalhado e organizado de seu consumo diversificado de mídia em um local centralizado.
 developer: Xila Cai
 website: https://github.com/FuzzyGrim/Yamtrack
 submitter: Tascok
@@ -24,12 +24,12 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/FuzzyGrim/Yamtrack
 support: https://github.com/FuzzyGrim/Yamtrack/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-yamtrack/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-yamtrack/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-yamtrack/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-yamtrack/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-yamtrack/5.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-yamtrack/6.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-yamtrack/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-yamtrack/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-yamtrack/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-yamtrack/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-yamtrack/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-yamtrack/6.jpg
 releaseNotes: >-
   Version 0.24.6 adds progress and status fields to media grids and cards, enhancing list and statistics views. Additionally, duplicate entries on the media list page are now hidden and replaced with the latest entry plus a count.
 dependencies:

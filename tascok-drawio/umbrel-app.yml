@@ -1,25 +1,25 @@
 manifestVersion: 1
 id: tascok-drawio
 name: draw.io
-tagline: A configurable diagramming and whiteboarding visualization application
+tagline: Um aplicativo configurável de diagramação e visualização de quadro branco
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-drawio/logo.png
 category: files & productivity
 version: "24.7.17"
 port: 5022
 description: >-
-  🖌️draw.io is a versatile, open-source diagramming tool widely used for creating flowcharts, network diagrams, organizational charts, process flows, and mind maps. Known for its intuitive design and flexibility, draw.io allows users to visualize and structure complex information seamlessly.
+  🖌️draw.io é uma ferramenta de diagramação versátil e de código aberto amplamente usada para criar fluxogramas, diagramas de rede, organogramas, fluxos de processos e mapas mentais. Conhecido por seu design intuitivo e flexibilidade, o draw.io permite aos usuários visualizar e estruturar informações complexas de maneira integrada.
 
 
-  A major advantage of draw.io is its accessibility: as a web-based application, it runs directly in the browser without requiring software installation. Users can go to the website and immediately start building diagrams without needing an account or plugins. For offline work, a desktop version is available for Windows, macOS, and Linux, offering the same range of features.
+  Uma grande vantagem do draw.io é a sua acessibilidade: como um aplicativo baseado na web, ele roda diretamente no navegador sem a necessidade de instalação de software. Os usuários podem acessar o site e começar imediatamente a construir diagramas sem precisar de uma conta ou plug-ins. Para trabalho offline, uma versão desktop está disponível para Windows, macOS e Linux, oferecendo a mesma gama de recursos.
 
 
-  draw.io includes an extensive library of shapes, icons, and templates for different types of diagrams, from technical layouts to organizational structures. Its drag-and-drop functionality makes diagram creation straightforward, while features like grid snapping, layer management, and dynamic connector lines help maintain precision and clarity.
+  draw.io inclui uma extensa biblioteca de formas, ícones e modelos para diferentes tipos de diagramas, desde layouts técnicos até estruturas organizacionais. Sua funcionalidade de arrastar e soltar simplifica a criação de diagramas, enquanto recursos como ajuste de grade, gerenciamento de camadas e linhas de conector dinâmicas ajudam a manter a precisão e a clareza.
 
 
-  Diagrams can be saved locally in various formats, such as PNG, JPEG, PDF, and SVG, providing flexibility in how users share and utilize their work. draw.io also prioritizes data security; it does not retain user files on its servers, giving users complete control over their diagrams.
+  Os diagramas podem ser salvos localmente em vários formatos, como PNG, JPEG, PDF e SVG, proporcionando flexibilidade na forma como os usuários compartilham e utilizam seu trabalho. draw.io também prioriza a segurança dos dados; ele não retém arquivos de usuários em seus servidores, dando aos usuários controle total sobre seus diagramas.
 
 
-  draw.io has gained popularity among software developers, engineers, project managers, and educators due to its ease of use, extensive features, and adaptability, making it a go-to choice for anyone needing to create high-quality, professional diagrams.
+  draw.io ganhou popularidade entre desenvolvedores de software, engenheiros, gerentes de projeto e educadores devido à sua facilidade de uso, amplos recursos e adaptabilidade, tornando-o uma escolha ideal para quem precisa criar diagramas profissionais de alta qualidade.
 developer: JGraph Ltd.
 website: https://www.drawio.com/
 submitter: Tascok
@@ -27,10 +27,10 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/jgraph/drawio
 support: https://github.com/jgraph/drawio/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-drawio/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-drawio/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-drawio/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-drawio/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-drawio/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-drawio/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-drawio/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-drawio/4.jpg
 releaseNotes: >-
   These updates for the cloud module in Draw.io address two key improvements: they fix an issue with viewing older diagram versions in page history and introduce the ability to edit or add libraries directly from within the editor. These changes enhance version tracking and customization in the editor environment.
 dependencies:

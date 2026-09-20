@@ -1,25 +1,25 @@
 manifestVersion: 1
 id: tascok-rstudio
 name: RStudio
-tagline: An intuitive IDE for data analysis
+tagline: Um IDE intuitivo para análise de dados
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-rstudio/logo.png
 category: developer tools
 version: "4.4.2"
 port: 8787
 description: >-
-  RStudio is an integrated development environment (IDE) designed for the R programming language, which is widely used in statistical computing and data analysis. It provides an intuitive interface that makes writing, testing, and debugging R code much easier. RStudio enables users to interactively explore data, run scripts, and visualize results in a seamless environment.
+  RStudio é um ambiente de desenvolvimento integrado (IDE) projetado para a linguagem de programação R, amplamente utilizada em computação estatística e análise de dados. Ele fornece uma interface intuitiva que torna muito mais fácil escrever, testar e depurar código R. O RStudio permite que os usuários explorem dados de forma interativa, executem scripts e visualizem resultados em um ambiente integrado.
 
 
-  The IDE includes a script editor, where users can write and edit R code with features like syntax highlighting and code completion. It also provides a console to execute commands interactively and view immediate outputs. The environment pane displays all the variables and datasets currently loaded in R, helping users manage their workspace. For visualizations, the plots pane shows graphical outputs such as charts and graphs, while the viewer pane supports interactive displays and web content.
+  O IDE inclui um editor de script, onde os usuários podem escrever e editar código R com recursos como realce de sintaxe e conclusão de código. Ele também fornece um console para executar comandos de forma interativa e visualizar resultados imediatos. O painel de ambiente exibe todas as variáveis ​​e conjuntos de dados atualmente carregados em R, ajudando os usuários a gerenciar seu espaço de trabalho. Para visualizações, o painel de plotagens mostra resultados gráficos, como tabelas e gráficos, enquanto o painel do visualizador oferece suporte a exibições interativas e conteúdo da web.
 
 
-  RStudio also integrates with R Markdown, allowing users to create dynamic reports by combining R code and narrative text. Additionally, it simplifies the management of R packages, supports version control with Git, and offers debugging tools to track down and fix errors in code. For users developing web applications, RStudio has native support for Shiny, a framework for building interactive web apps directly within R.
+  O RStudio também se integra ao R Markdown, permitindo aos usuários criar relatórios dinâmicos combinando código R e texto narrativo. Além disso, simplifica o gerenciamento de pacotes R, oferece suporte ao controle de versão com Git e oferece ferramentas de depuração para rastrear e corrigir erros no código. Para usuários que desenvolvem aplicações web, o RStudio tem suporte nativo para Shiny, um framework para construção de aplicações web interativas diretamente em R.
 
 
-  Overall, RStudio is a powerful, user-friendly IDE that facilitates efficient data analysis, project management, and reproducible research. It's available for Windows, macOS, and Linux, and also offers a server version for remote access. As an open-source tool, RStudio benefits from active community support, making it a popular choice among data scientists, statisticians, and researchers.
+  No geral, o RStudio é um IDE poderoso e fácil de usar que facilita a análise eficiente de dados, o gerenciamento de projetos e a pesquisa reproduzível. Está disponível para Windows, macOS e Linux, e também oferece uma versão de servidor para acesso remoto. Como uma ferramenta de código aberto, o RStudio se beneficia do apoio ativo da comunidade, o que o torna uma escolha popular entre cientistas de dados, estatísticos e pesquisadores.
 
 
-  🔑 By default, the username is "rstudio" and the password is "umbrel".
+  🔑 Por padrão, o nome de usuário é “rstudio” e a senha é “umbrel”.
 developer: Posit PBC
 website: https://posit.co/
 submitter: Tascok
@@ -27,15 +27,15 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/rstudio/rstudio
 support: https://github.com/rstudio/rstudio/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-rstudio/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-rstudio/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-rstudio/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-rstudio/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-rstudio/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-rstudio/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-rstudio/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-rstudio/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-rstudio/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-rstudio/5.jpg
 releaseNotes: >-
   The R4.4.2 release includes several updates and fixes, such as automatic updates to container definition files, improvements in the installation process with the use of gdebi-core to install RStudio, and fixes to the devel builds of rocker/tidyverse and rocker/verse platforms. Additionally, it addresses cache issues for rocker/rstudio:devel and rocker/tidyverse:devel, removes outdated workarounds for old RStudio Server versions, and updates dependencies. 
-  
-  
+
+
   The release also includes minor version updates and general maintenance improvements.
 dependencies:
 path: ""

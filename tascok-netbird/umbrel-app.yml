@@ -1,31 +1,31 @@
 manifestVersion: 1
 id: tascok-netbird
 name: NetBird
-tagline: An adaptive client for Zero Trust Networking
+tagline: Um cliente adaptável para Zero Trust Networking
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-netbird/logo.png
 category: networking
 version: "0.59.12"
 port: 8479
 description: >-
-  NetBird is a secure networking platform that creates private, peer-to-peer connections between devices using encrypted communication channels. It builds a trusted network layer that allows seamless and direct communication without exposing data to intermediaries. Every connection is protected with modern encryption standards and managed automatically through a zero trust security model that authenticates identities rather than networks.
+  NetBird é uma plataforma de rede segura que cria conexões privadas ponto a ponto entre dispositivos usando canais de comunicação criptografados. Ele cria uma camada de rede confiável que permite uma comunicação direta e contínua, sem expor os dados a intermediários. Cada conexão é protegida com padrões modernos de criptografia e gerenciada automaticamente por meio de um modelo de segurança de confiança zero que autentica identidades em vez de redes.
 
 
-  The NetBird Client is the component that brings this system to life. It handles all encrypted communication, key management, and access control between connected peers. Once active, it securely links the device to the NetBird network and continuously manages all background operations to maintain a reliable and private connection.
+  O NetBird Client é o componente que dá vida a este sistema. Ele lida com toda a comunicação criptografada, gerenciamento de chaves e controle de acesso entre pares conectados. Uma vez ativo, ele conecta o dispositivo com segurança à rede NetBird e gerencia continuamente todas as operações em segundo plano para manter uma conexão confiável e privada.
 
 
-  By combining simplicity, automation, and strong cryptography, the NetBird Client enables secure networking without configuration. It provides a stable foundation for private communication and collaboration while ensuring that every connection remains fully encrypted, authenticated, and resilient.
+  Ao combinar simplicidade, automação e criptografia forte, o NetBird Client permite redes seguras sem configuração. Ele fornece uma base estável para comunicação e colaboração privadas, ao mesmo tempo que garante que cada conexão permaneça totalmente criptografada, autenticada e resiliente.
 
 
-  ⚙️ Get your Umbrel connected with NetBird
+  ⚙️ Conecte seu Umbrel com NetBird
 
 
-  Right click on the app and select Troubleshoot to open the console. In the console, you will see the address containing your unique login code, for example:
+  Clique com o botão direito no aplicativo e selecione Solucionar problemas para abrir o console. No console, você verá o endereço que contém seu código de login exclusivo, por exemplo:
 
 
   https://login.netbird.io/activate?user_code=[YOUR-CODE]
 
 
-  Open this link in your browser on your computer or mobile device and sign in with the same NetBird account you use for the dashboard. Approve the device when prompted. After confirmation, your Umbrel client will automatically register itself and remain connected across restarts.
+  Abra este link no navegador do seu computador ou dispositivo móvel e faça login com a mesma conta NetBird que você usa para o painel. Aprove o dispositivo quando solicitado. Após a confirmação, seu cliente Umbrel se registrará automaticamente e permanecerá conectado durante as reinicializações.
 developer: NetBird
 website: https://netbird.io/
 submitter: Tascok
@@ -33,9 +33,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/netbirdio/netbird
 support: https://github.com/netbirdio/netbird/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-netbird/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-netbird/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-netbird/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-netbird/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-netbird/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-netbird/3.jpg
 releaseNotes: >-
   This version introduces several updates and refinements to the NetBird client and management components. The deprecated gRPC client code has been replaced, DNS forwarding has been improved, and network monitoring on macOS has been extended with wakeup detection for better responsiveness.
 

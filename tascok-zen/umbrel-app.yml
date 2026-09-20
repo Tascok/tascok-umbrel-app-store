@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-zen
 name: Zen
-tagline: A simple app for focused and private note-taking
+tagline: Um aplicativo simples para anotações focadas e privadas
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-zen/logo.png
 category: files & productivity
 version: "1.0.0"
 port: 8094
 description: >-
-  📒 Zen is a minimalist note-taking application focused on providing a simple and efficient way to capture and manage information. It allows users to create notes using Markdown, supporting a wide range of formatting options such as tables, checklists, code blocks, and text highlighting. All notes are stored locally in a lightweight SQLite database, ensuring that your data remains private and fully under your control.
+  📒 Zen é um aplicativo minimalista de anotações focado em fornecer uma maneira simples e eficiente de capturar e gerenciar informações. Ele permite aos usuários criar notas usando Markdown, suportando uma ampla gama de opções de formatação, como tabelas, listas de verificação, blocos de código e destaque de texto. Todas as notas são armazenadas localmente em um banco de dados SQLite leve, garantindo que seus dados permaneçam privados e totalmente sob seu controle.
 
 
-  The application offers a clean and distraction-free interface designed for ease of use on both desktop and mobile devices. It includes a powerful full-text search function that enables users to quickly find relevant notes as they type, and uses tags instead of traditional folders to organize content flexibly. Users can upload and preview images directly within their notes, helping to enrich the information stored.
+  O aplicativo oferece uma interface limpa e sem distrações, projetada para ser fácil de usar em desktops e dispositivos móveis. Inclui uma poderosa função de pesquisa de texto completo que permite aos usuários encontrar rapidamente notas relevantes enquanto digitam e usa tags em vez de pastas tradicionais para organizar o conteúdo de maneira flexível. Os usuários podem fazer upload e visualizar imagens diretamente em suas notas, ajudando a enriquecer as informações armazenadas.
 
 
-  Zen also provides features like soft-delete and archiving, which help keep your workspace organized without permanently losing information. Keyboard shortcuts improve productivity by allowing fast navigation and editing without relying solely on the mouse. The app supports offline use through its progressive web app functionality, so you can access and edit your notes even without an internet connection.
+  O Zen também oferece recursos como exclusão reversível e arquivamento, que ajudam a manter seu espaço de trabalho organizado sem perder informações permanentemente. Os atalhos de teclado melhoram a produtividade, permitindo navegação e edição rápidas sem depender apenas do mouse. O aplicativo oferece suporte ao uso offline por meio de sua funcionalidade progressiva de aplicativo da web, para que você possa acessar e editar suas anotações mesmo sem uma conexão com a Internet.
 
 
-  Overall, Zen serves as a lightweight, fast, and privacy-focused tool for personal knowledge management, journaling, or simple note-taking, giving you full control over your data in a user-friendly environment.
+  No geral, o Zen serve como uma ferramenta leve, rápida e focada na privacidade para gerenciamento de conhecimento pessoal, registro em diário ou simples anotações, oferecendo controle total sobre seus dados em um ambiente amigável.
 developer: Sheshbabu
 website: https://www.sheshbabu.com/zen/
 submitter: Tascok
@@ -24,15 +24,15 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/sheshbabu/zen
 support: https://github.com/sheshbabu/zen/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-zen/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-zen/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-zen/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-zen/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-zen/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-zen/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-zen/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-zen/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-zen/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-zen/5.jpg
 releaseNotes: >-
   No detailed changelogs or versioning are available since the app is distributed using only a continuously updated latest tag. Users always receive the most current version without separate version histories.
-  
-  
+
+
   Additionally, a Discord community has been created for users to share ideas and receive support.
 dependencies:
 path: ""

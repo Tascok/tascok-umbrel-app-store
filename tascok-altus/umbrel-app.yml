@@ -1,19 +1,19 @@
 manifestVersion: 1
 id: tascok-altus
 name: Altus
-tagline: A WhatsApp client with themes and multiple account support
+tagline: Um cliente WhatsApp com temas e suporte para múltiplas contas
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-altus/logo.png
 category: files & productivity
 version: "5.4.0"
 port: 3344
 description: >-
-  📱 Altus is a powerful Electron-based WhatsApp client that enhances the desktop WhatsApp experience by adding a variety of extra features. Using the GitHub-developed Electron framework, Altus integrates WhatsApp Web while adding functionality that goes beyond what the standard WhatsApp Web offers. One of the standout features of Altus is its support for multiple WhatsApp accounts, allowing users to manage and switch between different accounts simultaneously.
+  📱 Altus é um poderoso cliente WhatsApp baseado em Electron que aprimora a experiência do WhatsApp no ​​desktop adicionando uma variedade de recursos extras. Usando a estrutura Electron desenvolvida pelo GitHub, a Altus integra o WhatsApp Web ao mesmo tempo em que adiciona funcionalidades que vão além do que o WhatsApp Web padrão oferece. Um dos destaques do Altus é o suporte para múltiplas contas do WhatsApp, permitindo aos usuários gerenciar e alternar entre diferentes contas simultaneamente.
 
 
-  The app also provides native notification support, so users are instantly notified when new messages arrive. Clicking on a notification opens the corresponding chat directly. A useful online indicator shows in the bottom-left corner of each chat whether the contact is currently online, making communication easier. For a more comfortable experience in low light or during the evening, Altus offers a Dark Mode that reduces eye strain and adapts the app's design to the lighting conditions.
+  O aplicativo também oferece suporte de notificação nativo, para que os usuários sejam notificados instantaneamente quando novas mensagens chegarem. Clicar em uma notificação abre o chat correspondente diretamente. Um útil indicador online mostra no canto inferior esquerdo de cada chat se o contato está online no momento, facilitando a comunicação. Para uma experiência mais confortável com pouca luz ou à noite, a Altus oferece um Modo Escuro que reduz o cansaço visual e adapta o design do aplicativo às condições de iluminação.
 
 
-  Additionally, Altus allows users to fully customize their WhatsApp interface. They can create custom themes either by writing their own CSS or using the built-in theme customizer, which allows for easy color selection to personalize the app's appearance. This flexibility in interface customization ensures a more tailored and comfortable user experience. Altus thus provides not only a practical but also a highly customizable solution for WhatsApp on the desktop.
+  Além disso, a Altus permite que os usuários personalizem totalmente sua interface do WhatsApp. Eles podem criar temas personalizados escrevendo seu próprio CSS ou usando o personalizador de tema integrado, que permite fácil seleção de cores para personalizar a aparência do aplicativo. Essa flexibilidade na personalização da interface garante uma experiência de usuário mais personalizada e confortável. A Altus oferece assim não apenas uma solução prática, mas também altamente personalizável para WhatsApp no ​​desktop.
 developer: Aman Harwara
 website: https://github.com/amanharwara/altus
 submitter: Tascok
@@ -21,9 +21,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/amanharwara/altus
 support: https://github.com/amanharwara/altus/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-altus/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-altus/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-altus/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-altus/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-altus/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-altus/3.jpg
 releaseNotes: >-
   The per-tab microphone and camera permission option is enabled by default, allowing users to manage permissions on a tab-by-tab basis for enhanced privacy and security. In addition, various other improvements have been implemented, such as performance optimizations, bug fixes, and a more streamlined user interface for better overall experience.
 dependencies:

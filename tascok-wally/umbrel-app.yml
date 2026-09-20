@@ -1,19 +1,19 @@
 manifestVersion: 1
 id: tascok-wally
 name: Wally
-tagline: A lightweight expense tracker
+tagline: Um rastreador de despesas leve
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wally/logo.png
 category: finance
 version: "1.14"
 port: 3811
 description: >-
-  👛 Wally is a personal finance management application designed to help users take control of their money and gain a clear understanding of their financial situation. It provides a platform where users can easily record their income and expenses, ensuring that every transaction is accounted for. By keeping a detailed history of financial activity, Wally enables users to track their spending patterns over time and identify areas where they can save or adjust their budget.
+  👛 Wally é um aplicativo de gerenciamento de finanças pessoais desenvolvido para ajudar os usuários a controlar seu dinheiro e obter uma compreensão clara de sua situação financeira. Fornece uma plataforma onde os usuários podem registrar facilmente suas receitas e despesas, garantindo que cada transação seja contabilizada. Ao manter um histórico detalhado da atividade financeira, o Wally permite que os usuários acompanhem seus padrões de gastos ao longo do tempo e identifiquem áreas onde podem economizar ou ajustar seu orçamento.
 
 
-  The application allows users to categorize transactions, making it simple to see how much is being spent on different aspects of life such as groceries, transportation, or entertainment. This categorization helps users recognize trends in their spending and make informed decisions about where to allocate resources. Users can also view summaries and overviews of their financial activity, giving a comprehensive snapshot of their current financial health at a glance.
+  O aplicativo permite aos usuários categorizar as transações, simplificando a visualização de quanto está sendo gasto em diferentes aspectos da vida, como mantimentos, transporte ou entretenimento. Esta categorização ajuda os utilizadores a reconhecer tendências nos seus gastos e a tomar decisões informadas sobre onde alocar recursos. Os usuários também podem visualizar resumos e visões gerais de suas atividades financeiras, fornecendo rapidamente um panorama abrangente de sua saúde financeira atual.
 
 
-  Wally emphasizes clarity and simplicity in its design, providing a clean and intuitive interface that makes managing finances accessible to everyone. It focuses on essential functionality without unnecessary features or distractions, allowing users to stay organized and make decisions based on accurate financial data. By offering insight into both income and expenses, Wally helps users plan for the future, manage their budget effectively, and develop healthier financial habits over time.
+  Wally enfatiza clareza e simplicidade em seu design, fornecendo uma interface limpa e intuitiva que torna o gerenciamento financeiro acessível a todos. Ele se concentra em funcionalidades essenciais sem recursos desnecessários ou distrações, permitindo que os usuários se mantenham organizados e tomem decisões com base em dados financeiros precisos. Ao oferecer informações sobre receitas e despesas, Wally ajuda os usuários a planejar o futuro, gerenciar seu orçamento de maneira eficaz e desenvolver hábitos financeiros mais saudáveis ​​ao longo do tempo.
 developer: Pol Alzina
 website: https://github.com/polius/Wally
 submitter: Tascok
@@ -21,10 +21,10 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/polius/Wally
 support: https://github.com/polius/Wally/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wally/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wally/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wally/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wally/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wally/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wally/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wally/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wally/4.jpg
 releaseNotes: >-
   This update includes:
 

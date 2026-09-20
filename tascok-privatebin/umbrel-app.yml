@@ -1,45 +1,43 @@
 manifestVersion: 1
 id: tascok-privatebin
 name: PrivateBin
-tagline: A minimalist, open source online pastebin
+tagline: Um pastebin online minimalista e de código aberto
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-privatebin/logo.png
 category: files & productivity
 version: "1.7.4"
 port: 3070
 description: >-
-  PrivateBin is an open-source, minimalist, and encrypted pastebin service.
-  It allows users to share text or code snippets securely, with end-to-end encryption, ensuring that only the intended recipient can read the contents.
-  The server hosting PrivateBin cannot decrypt or access the data being shared, providing a high level of privacy.
+  PrivateBin é um serviço pastebin de código aberto, minimalista e criptografado. Ele permite que os usuários compartilhem textos ou trechos de código de forma segura, com criptografia de ponta a ponta, garantindo que apenas o destinatário pretendido possa ler o conteúdo. O servidor que hospeda o PrivateBin não pode descriptografar ou acessar os dados compartilhados, proporcionando um alto nível de privacidade.
 
 
-  Here are some key features of PrivateBin:
-
-  
-  🔒 End-to-End Encryption: All data is encrypted in the browser before it's sent to the server. The server never sees the unencrypted content.
+  Aqui estão alguns recursos principais do PrivateBin:
 
 
-  🔥 Expiration and Burn-After-Reading: Users can set expiration times for their pastes, or opt for a "burn-after-reading" option where the content self-destructs after a single viewing.
+  🔒 Criptografia ponta a ponta: todos os dados são criptografados no navegador antes de serem enviados ao servidor. O servidor nunca vê o conteúdo não criptografado.
 
 
-  👤 No User Accounts: PrivateBin doesn’t require user registration or authentication, making it ideal for anonymous sharing of sensitive information.
+  🔥 Expiração e gravação após leitura: os usuários podem definir prazos de validade para suas pastas ou optar por uma opção de “gravação após leitura”, onde o conteúdo se autodestrói após uma única visualização.
 
 
-  🛡️ Password Protection: Users can add an extra layer of security by setting a password for the paste.
+  👤 Sem contas de usuário: PrivateBin não requer registro ou autenticação de usuário, o que o torna ideal para compartilhamento anônimo de informações confidenciais.
 
 
-  📜 Syntax Highlighting: PrivateBin supports syntax highlighting for programming languages, making it useful for sharing code snippets.
+  🛡️ Proteção por senha: os usuários podem adicionar uma camada extra de segurança definindo uma senha para colar.
 
 
-  🏠 Self-Hosted: As a self-hosted solution, PrivateBin offers full control over where the data is stored and the ability to integrate it with various server environments.
+  📜 Destaque de sintaxe: PrivateBin suporta realce de sintaxe para linguagens de programação, tornando-o útil para compartilhar trechos de código.
 
 
-  🚫 No Metadata: Unlike some other pastebin services, PrivateBin doesn’t store IP addresses or any identifiable metadata about users or pastes.
+  🏠 Auto-hospedado: Como solução auto-hospedada, o PrivateBin oferece controle total sobre onde os dados são armazenados e a capacidade de integrá-los a vários ambientes de servidor.
 
 
-  It's popular in privacy-conscious communities for securely sharing snippets without leaving a trace.
+  🚫 Sem metadados: Ao contrário de alguns outros serviços pastebin, o PrivateBin não armazena endereços IP ou quaisquer metadados identificáveis ​​sobre usuários ou pastas.
 
 
-  ⚠️ To use PrivateBin as intended you may need to expose it to the public internet. The easiest way to do this is to download the "Cloudflare Tunnel" app from the umbrel app store, and expose PrivateBin (running on port 3070) using your own domain.
+  É popular em comunidades preocupadas com a privacidade por compartilhar trechos com segurança, sem deixar rastros.
+
+
+  ⚠️ Para usar o PrivateBin conforme pretendido, pode ser necessário expô-lo à Internet pública. A maneira mais fácil de fazer isso é baixar o aplicativo “Cloudflare Tunnel” da umbrel app store e expor o PrivateBin (em execução na porta 3070) usando seu próprio domínio.
 
 developer: PrivateBin Community
 website: https://privatebin.info/
@@ -48,10 +46,10 @@ submission: https://github.com/dennysubke/dennys-umbrel-app-store
 repo: https://github.com/PrivateBin/PrivateBin
 support: https://github.com/PrivateBin/PrivateBin/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-privatebin/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-privatebin/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-privatebin/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-privatebin/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-privatebin/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-privatebin/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-privatebin/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-privatebin/4.jpg
 releaseNotes: >-
   In version 1.7.4 of PrivateBin, several changes and fixes were implemented. Key changes include the use of the .md extension for saved markdown pastes instead of .txt, and the enabling of strict type checking in PHP. There were also tweaks to the Bootstrap5 template based on community suggestions.
 

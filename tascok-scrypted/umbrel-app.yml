@@ -1,28 +1,28 @@
 manifestVersion: 1
 id: tascok-scrypted
 name: Scrypted
-tagline: A high performance home video integration platform
+tagline: Uma plataforma de integração de vídeo doméstico de alto desempenho
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-scrypted/logo.png
 category: Home & Automation
 version: "0.122.0"
 port: 11080
 description: >-
-  🎥 Scrypted is an open-source platform designed for home automation, providing users with the tools to integrate, manage, and automate various smart home devices seamlessly. Its primary focus is on camera management and video surveillance, making it an ideal solution for users looking to enhance their home security while also controlling a wide range of smart devices.
+  🎥 Scrypted é uma plataforma de código aberto projetada para automação residencial, fornecendo aos usuários as ferramentas para integrar, gerenciar e automatizar vários dispositivos domésticos inteligentes de forma integrada. Seu foco principal está no gerenciamento de câmeras e vigilância por vídeo, tornando-o uma solução ideal para usuários que buscam aprimorar a segurança de sua casa e, ao mesmo tempo, controlar uma ampla variedade de dispositivos inteligentes.
 
 
-  Scrypted supports a diverse array of smart home devices from different manufacturers, enabling users to create a cohesive ecosystem regardless of brand or technology. This flexibility allows for the integration of devices that use protocols such as Zigbee, Z-Wave, and Wi-Fi. One of Scrypted’s standout features is its robust support for IP cameras and video streams. Users can easily integrate their existing security cameras to view live video feeds, record and store footage based on motion detection or scheduled intervals, and receive instant notifications for motion events or other triggers, thereby enhancing home security.
+  Scrypted oferece suporte a uma ampla gama de dispositivos domésticos inteligentes de diferentes fabricantes, permitindo que os usuários criem um ecossistema coeso, independentemente da marca ou tecnologia. Essa flexibilidade permite a integração de dispositivos que utilizam protocolos como Zigbee, Z-Wave e Wi-Fi. Um dos recursos de destaque do Scrypted é seu suporte robusto para câmeras IP e streams de vídeo. Os usuários podem integrar facilmente suas câmeras de segurança existentes para visualizar feeds de vídeo ao vivo, gravar e armazenar imagens com base na detecção de movimento ou em intervalos programados e receber notificações instantâneas para eventos de movimento ou outros gatilhos, melhorando assim a segurança doméstica.
 
 
-  The platform allows users to create custom automations and scenes that link multiple devices and define specific behaviors based on triggers. For instance, users can set up rules that turn on lights when motion is detected or adjust the thermostat when the house is empty. Scrypted features an intuitive web interface that simplifies device management and configuration, enabling users to access their smart home system from any web browser and making it easy to monitor and control devices remotely.
+  A plataforma permite aos usuários criar automações e cenas personalizadas que conectam vários dispositivos e definem comportamentos específicos com base em gatilhos. Por exemplo, os usuários podem configurar regras que acendem as luzes quando um movimento é detectado ou ajustam o termostato quando a casa está vazia. Scrypted apresenta uma interface web intuitiva que simplifica o gerenciamento e configuração de dispositivos, permitindo que os usuários acessem seu sistema doméstico inteligente a partir de qualquer navegador da web e facilitando o monitoramento e controle remoto de dispositivos.
 
 
-  For Apple users, Scrypted provides seamless integration with Apple’s HomeKit. This feature allows users to control their smart devices through the Apple Home app, leveraging Siri for voice commands and automating tasks using Apple’s ecosystem. Being an open-source platform, Scrypted encourages developers to create plugins and custom integrations. This extensibility means users can adapt the platform to their specific needs, including the development of new features or the incorporation of niche devices.
+  Para usuários da Apple, o Scrypted oferece integração perfeita com o HomeKit da Apple. Este recurso permite que os usuários controlem seus dispositivos inteligentes por meio do aplicativo Apple Home, aproveitando o Siri para comandos de voz e automatizando tarefas usando o ecossistema da Apple. Por ser uma plataforma de código aberto, o Scrypted incentiva os desenvolvedores a criar plug-ins e integrações personalizadas. Esta extensibilidade significa que os utilizadores podem adaptar a plataforma às suas necessidades específicas, incluindo o desenvolvimento de novas funcionalidades ou a incorporação de dispositivos de nicho.
 
 
-  Scrypted can be deployed on various platforms, including Raspberry Pi and Docker, allowing users to choose the environment that best fits their setup. This flexibility makes it accessible for both hobbyists and those looking for a robust smart home solution. As an open-source project, Scrypted has an active community of users and developers who contribute to its ongoing development, providing support, sharing ideas, and accessing resources through forums and community channels.
+  O Scrypted pode ser implantado em diversas plataformas, incluindo Raspberry Pi e Docker, permitindo aos usuários escolher o ambiente que melhor se adapta à sua configuração. Essa flexibilidade o torna acessível tanto para amadores quanto para aqueles que procuram uma solução robusta para casa inteligente. Por ser um projeto de código aberto, o Scrypted possui uma comunidade ativa de usuários e desenvolvedores que contribuem para seu desenvolvimento contínuo, fornecendo suporte, compartilhando ideias e acessando recursos por meio de fóruns e canais comunitários.
 
 
-  In conclusion, Scrypted stands out as a versatile and powerful home automation platform that excels in video management and device integration. Its open-source nature, combined with a focus on user experience and extensibility, makes it an attractive option for anyone looking to enhance their smart home setup. Whether you are a beginner in home automation or an experienced developer seeking a flexible solution, Scrypted provides the tools and features to meet your needs.
+  Concluindo, Scrypted se destaca como uma plataforma de automação residencial versátil e poderosa que se destaca no gerenciamento de vídeo e integração de dispositivos. Sua natureza de código aberto, combinada com o foco na experiência do usuário e na extensibilidade, torna-o uma opção atraente para quem deseja aprimorar a configuração de sua casa inteligente. Quer você seja um iniciante em automação residencial ou um desenvolvedor experiente em busca de uma solução flexível, o Scrypted fornece as ferramentas e recursos para atender às suas necessidades.
 developer: ClockworkMod
 website: https://www.scrypted.app/
 submitter: Tascok
@@ -30,10 +30,10 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/koush/scrypted
 support: https://github.com/koush/scrypted/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-scrypted/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-scrypted/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-scrypted/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-scrypted/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-scrypted/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-scrypted/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-scrypted/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-scrypted/4.jpg
 releaseNotes: >-
   This update introduces support for notification channels in the SDK's NotifierOptions. Key changes include enhancements to Docker integration for better volume handling and improved error handling during container restoration, along with options to disable auto-enabling of devices. Various optimizations and bug fixes have also been implemented to enhance overall usability and stability.
 dependencies:

@@ -1,28 +1,28 @@
 manifestVersion: 1
 id: tascok-glances
 name: Glances
-tagline: An eye on your system
+tagline: De olho no seu sistema
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-glances/logo.png
 category: networking
 version: "4.5.5"
 port: 61208
 description: >-
-  Glances is a versatile, open-source system monitoring tool designed to provide real-time insights into various aspects of your system's performance. Written in Python, it works across multiple platforms, including Linux, macOS, and Windows. The main purpose of Glances is to offer a quick, comprehensive overview of critical system metrics such as CPU, memory, disk, network, and process usage.
+  Glances é uma ferramenta versátil de monitoramento de sistema de código aberto, projetada para fornecer insights em tempo real sobre vários aspectos do desempenho do seu sistema. Escrito em Python, funciona em várias plataformas, incluindo Linux, macOS e Windows. O principal objetivo do Glances é oferecer uma visão geral rápida e abrangente de métricas críticas do sistema, como CPU, memória, disco, rede e uso de processos.
 
 
-  One of Glances' standout features is its ability to display all relevant system information in a single, continuously updated screen. This enables users to track system performance without needing to open multiple tools or interfaces. The tool's user-friendly design offers both a command-line interface and a web-based interface, making it accessible and convenient for different types of users.
+  Um dos recursos de destaque do Glances é a capacidade de exibir todas as informações relevantes do sistema em uma única tela continuamente atualizada. Isso permite que os usuários acompanhem o desempenho do sistema sem a necessidade de abrir várias ferramentas ou interfaces. O design amigável da ferramenta oferece uma interface de linha de comando e uma interface baseada na web, tornando-a acessível e conveniente para diferentes tipos de usuários.
 
 
-  While Glances is mainly used for monitoring system health in real time, it also provides the ability to set up alerts and thresholds to notify users when certain system parameters exceed predefined limits. This feature makes it particularly useful for system administrators who need to maintain server stability and prevent potential issues from escalating unnoticed.
+  Embora o Glances seja usado principalmente para monitorar a integridade do sistema em tempo real, ele também oferece a capacidade de configurar alertas e limites para notificar os usuários quando determinados parâmetros do sistema excedem limites predefinidos. Esse recurso o torna particularmente útil para administradores de sistema que precisam manter a estabilidade do servidor e evitar que possíveis problemas aumentem despercebidos.
 
 
-  Another key strength of Glances is its lightweight nature. It does not consume significant system resources, which means it can run efficiently on low-power systems, such as Raspberry Pi, without causing performance degradation. Moreover, Glances can be integrated with more advanced monitoring setups, such as Prometheus, for even more detailed analytics and historical data.
+  Outro ponto forte do Glances é sua leveza. Ele não consome recursos significativos do sistema, o que significa que pode funcionar com eficiência em sistemas de baixo consumo de energia, como Raspberry Pi, sem causar degradação de desempenho. Além disso, o Glances pode ser integrado a configurações de monitoramento mais avançadas, como o Prometheus, para análises e dados históricos ainda mais detalhados.
 
 
-  In addition to its core monitoring features, Glances supports the monitoring of various system components through plugins. These plugins allow users to extend the tool's functionality to suit specific needs, like tracking additional system parameters or integrating with external services.
+  Além de seus principais recursos de monitoramento, o Glances oferece suporte ao monitoramento de vários componentes do sistema por meio de plug-ins. Esses plug-ins permitem que os usuários ampliem a funcionalidade da ferramenta para atender a necessidades específicas, como rastrear parâmetros adicionais do sistema ou integração com serviços externos.
 
 
-  Overall, Glances is an excellent tool for anyone looking for a quick, reliable, and cross-platform solution to monitor the health of their systems, whether for personal use or as part of a larger infrastructure management strategy. Its simplicity, extensibility, and low resource usage make it a popular choice for both novice and experienced users alike.
+  No geral, o Glances é uma excelente ferramenta para quem procura uma solução rápida, confiável e multiplataforma para monitorar a integridade de seus sistemas, seja para uso pessoal ou como parte de uma estratégia maior de gerenciamento de infraestrutura. Sua simplicidade, extensibilidade e baixo uso de recursos o tornam uma escolha popular tanto para usuários novatos quanto para usuários experientes.
 developer: Nicolas Hennion
 website: https://nicolargo.github.io/glances/
 submitter: Tascok
@@ -30,9 +30,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/nicolargo/glances
 support: https://github.com/nicolargo/glances/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-glances/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-glances/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-glances/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-glances/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-glances/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-glances/3.jpg
 releaseNotes: >-
   This update includes:
     - Code refactoring: Simplified plugin code across start(), mem, connections, containers, amps, and exports for better maintainability

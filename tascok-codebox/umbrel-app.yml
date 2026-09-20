@@ -1,25 +1,25 @@
 manifestVersion: 1
 id: tascok-codebox
 name: Pastefy CodeBox
-tagline: An efficient tool for sharing and storing code
+tagline: Uma ferramenta eficiente para compartilhar e armazenar código
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-codebox/logo.png
 category: developer tools
 version: "1.0.12"
 port: 9996
 description: >-
-  Pastefy Codebox is a powerful and flexible feature of the Pastefy platform, specifically designed for sharing code in a secure, structured, and readable manner. Pastefy, as a platform for quick text sharing, takes it a step further with the Codebox, providing a dedicated environment for sharing code snippets.
+  Pastefy Codebox é um recurso poderoso e flexível da plataforma Pastefy, projetado especificamente para compartilhar código de maneira segura, estruturada e legível. Pastefy, como plataforma para compartilhamento rápido de texto, vai um passo além com o Codebox, fornecendo um ambiente dedicado para compartilhamento de trechos de código.
 
 
-  The Codebox supports a wide range of programming languages, including Python, JavaScript, HTML, CSS, and many more. With syntax highlighting, the code is visually enhanced, making key language constructs like variables, functions, or keywords stand out in different colors. This not only improves readability but also helps identify errors more quickly, as the code is clearly structured.
+  O Codebox oferece suporte a uma ampla variedade de linguagens de programação, incluindo Python, JavaScript, HTML, CSS e muito mais. Com o realce de sintaxe, o código é visualmente aprimorado, fazendo com que as principais construções da linguagem, como variáveis, funções ou palavras-chave, se destaquem em cores diferentes. Isso não apenas melhora a legibilidade, mas também ajuda a identificar erros mais rapidamente, pois o código está claramente estruturado.
 
 
-  Another practical feature of Pastefy Codebox is its customizability. Users can choose how their code is shared: they can generate links that are publicly accessible, or create private, password-protected links to share the code only with selected individuals. Additionally, an expiration date can be set for each posted snippet, meaning that the code will be automatically deleted after a certain period of time. This is ideal when sharing temporary information or solutions without worrying about long-term storage.
+  Outra característica prática do Pastefy Codebox é a sua personalização. Os usuários podem escolher como seu código será compartilhado: eles podem gerar links que sejam acessíveis publicamente ou criar links privados protegidos por senha para compartilhar o código apenas com indivíduos selecionados. Além disso, uma data de validade pode ser definida para cada trecho postado, o que significa que o código será excluído automaticamente após um determinado período de tempo. Isto é ideal para compartilhar informações ou soluções temporárias sem se preocupar com armazenamento de longo prazo.
 
 
-  Pastefy Codebox also offers versioning, allowing users to view or restore previous versions of a code snippet when necessary. This feature is particularly useful when code is edited over time or collaboratively used by multiple people.
+  Pastefy Codebox também oferece controle de versão, permitindo aos usuários visualizar ou restaurar versões anteriores de um trecho de código quando necessário. Esse recurso é particularmente útil quando o código é editado ao longo do tempo ou usado de forma colaborativa por várias pessoas.
 
 
-  Overall, Pastefy Codebox is an extremely practical and user-friendly tool for developers looking for a secure and organized way to share their code, whether for collaboration, troubleshooting, or simply exchanging ideas quickly. It combines convenience, security, and flexibility, making it a valuable resource for anyone who regularly works with code.
+  No geral, Pastefy Codebox é uma ferramenta extremamente prática e fácil de usar para desenvolvedores que buscam uma forma segura e organizada de compartilhar seu código, seja para colaboração, solução de problemas ou simplesmente para troca de ideias rapidamente. Ele combina conveniência, segurança e flexibilidade, tornando-o um recurso valioso para quem trabalha regularmente com código.
 developer: InteraApps
 website: https://box.pastefy.app/
 submitter: Tascok
@@ -27,9 +27,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/interaapps/pastefy-codebox
 support: https://github.com/interaapps/pastefy-codebox/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-codebox/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-codebox/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-codebox/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-codebox/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-codebox/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-codebox/3.jpg
 releaseNotes: >-
   Version 1.0.12-alpha includes a fix for mobile bugs.
 dependencies:

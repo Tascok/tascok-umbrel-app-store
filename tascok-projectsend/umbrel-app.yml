@@ -1,28 +1,28 @@
 manifestVersion: 1
 id: tascok-projectsend
 name: ProjectSend
-tagline: A private file sharing platform for client access
+tagline: Uma plataforma privada de compartilhamento de arquivos para acesso do cliente
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-projectsend/logo.png
 category: files & productivity
 version: "r1720"
 port: 8181
 description: >-
-  📤 ProjectSend is a self-hosted file sharing application that allows individuals or organizations to securely upload and share files with clients, teams, or collaborators. It is open-source software released under the GPL v2 license and is designed to be installed on a private server or shared hosting environment, giving users complete control over their data and infrastructure. Unlike commercial file sharing platforms that rely on third-party storage, ProjectSend provides a privacy-focused solution where all files and user data remain on your own server.
+  📤 ProjectSend é um aplicativo de compartilhamento de arquivos auto-hospedado que permite que indivíduos ou organizações carreguem e compartilhem arquivos com segurança com clientes, equipes ou colaboradores. É um software de código aberto lançado sob a licença GPL v2 e foi projetado para ser instalado em um servidor privado ou ambiente de hospedagem compartilhada, dando aos usuários controle total sobre seus dados e infraestrutura. Ao contrário das plataformas comerciais de compartilhamento de arquivos que dependem de armazenamento de terceiros, o ProjectSend oferece uma solução focada na privacidade, onde todos os arquivos e dados do usuário permanecem em seu próprio servidor.
 
 
-  The core concept behind ProjectSend is to simplify the process of distributing large files to specific users while maintaining a professional and organized interface. Each user has a private login and can only access the files assigned to them. This makes the platform ideal for photographers, designers, agencies, educational institutions, and small to medium-sized businesses that need to share sensitive materials with clients or team members. Administrators can manage user accounts, monitor activity through detailed logs, and control permissions for both uploading and downloading files.
+  O conceito central por trás do ProjectSend é simplificar o processo de distribuição de arquivos grandes para usuários específicos, mantendo uma interface profissional e organizada. Cada usuário possui um login privado e só pode acessar os arquivos que lhe foram atribuídos. Isso torna a plataforma ideal para fotógrafos, designers, agências, instituições educacionais e pequenas e médias empresas que precisam compartilhar materiais confidenciais com clientes ou membros da equipe. Os administradores podem gerenciar contas de usuários, monitorar atividades por meio de registros detalhados e controlar permissões para upload e download de arquivos.
 
 
-  ProjectSend features a clean and responsive interface that works well on both desktop and mobile devices. It supports custom branding, so users can replace logos and color schemes to match their organization’s identity. The platform is also multilingual and supports many translations contributed by the community. Because it is open-source, developers have the freedom to modify and extend the functionality as needed, making it a flexible solution for a wide range of use cases.
+  ProjectSend apresenta uma interface limpa e responsiva que funciona bem em desktops e dispositivos móveis. Ele oferece suporte a marcas personalizadas, para que os usuários possam substituir logotipos e esquemas de cores para combinar com a identidade de sua organização. A plataforma também é multilíngue e suporta muitas traduções fornecidas pela comunidade. Por ser de código aberto, os desenvolvedores têm a liberdade de modificar e ampliar a funcionalidade conforme necessário, tornando-o uma solução flexível para uma ampla variedade de casos de uso.
 
 
-  The software is continually improved through community involvement, and the source code is available on GitHub. However, because it is self-hosted, users are responsible for maintaining their installation, applying updates, and ensuring server security. This includes staying up to date with patches, especially in light of previously discovered security vulnerabilities that have since been addressed in newer versions.
+  O software é continuamente melhorado através do envolvimento da comunidade e o código-fonte está disponível no GitHub. Porém, por ser auto-hospedado, os usuários são responsáveis ​​por manter sua instalação, aplicar atualizações e garantir a segurança do servidor. Isso inclui manter-se atualizado com os patches, especialmente à luz das vulnerabilidades de segurança descobertas anteriormente que foram corrigidas em versões mais recentes.
 
 
-  ProjectSend is a focused alternative to larger collaboration platforms. While it does not offer real-time collaboration tools or integrated messaging, it excels at what it was built for: fast, secure, and controlled file sharing between users. For anyone looking for a private and customizable solution to replace commercial cloud storage services for client-facing file distribution, ProjectSend is a powerful and professional choice.
+  ProjectSend é uma alternativa focada para plataformas de colaboração maiores. Embora não ofereça ferramentas de colaboração em tempo real ou mensagens integradas, ele se destaca naquilo para o qual foi criado: compartilhamento de arquivos rápido, seguro e controlado entre usuários. Para quem procura uma solução privada e personalizável para substituir os serviços comerciais de armazenamento em nuvem para distribuição de arquivos voltada para o cliente, o ProjectSend é uma escolha poderosa e profissional.
 
 
-  ⚠️ Configure the database with the following settings: host set to db, database name projectsend, username psuser, password pspassword, and table prefix tbl_.
+  ⚠️ Configure o banco de dados com as seguintes configurações: host definido como db, nome do banco de dados projectend, nome de usuário psuser, senha pspassword e prefixo da tabela tbl_.
 developer: ProjectSend
 website: https://www.projectsend.org/
 submitter: Tascok
@@ -30,12 +30,12 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/projectsend/projectsend
 support: https://github.com/projectsend/projectsend/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-projectsend/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-projectsend/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-projectsend/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-projectsend/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-projectsend/5.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-projectsend/6.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-projectsend/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-projectsend/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-projectsend/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-projectsend/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-projectsend/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-projectsend/6.jpg
 releaseNotes: >-
   The latest ProjectSend update (r1720) introduces highly requested folders and subfolders with drag-and-drop rearrangement and breadcrumb navigation. It also adds features like showing image dimensions, support for SVG branding images, improved file management options, SMTP environment variable support, and multiple bug fixes including PHP 8 warnings and 2FA validation. Admin pages have been improved for session handling, and security updates address vulnerabilities and dependency upgrades.
 dependencies:

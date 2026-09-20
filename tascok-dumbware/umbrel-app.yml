@@ -1,40 +1,40 @@
 manifestVersion: 1
 id: tascok-dumbware
 name: DumbWare Suite
-tagline: A simple suite for everyday tasks
+tagline: Um conjunto simples para tarefas diárias
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dumbware/logo.png
 category: files & productivity
 version: "1.0.0"
 port: 13330
 description: >-
-  DumbWare is a lightweight app suite built around the idea that everyday digital tools should be simple, immediate and distraction free. Each application focuses on doing one job well, without configuration screens, cluttered interfaces or unnecessary features. The suite creates a calm and efficient environment for writing, organising, tracking and sharing, all while keeping the experience as minimal as possible.
+  DumbWare é um conjunto de aplicativos leve construído em torno da ideia de que as ferramentas digitais do dia a dia devem ser simples, imediatas e livres de distrações. Cada aplicativo se concentra em fazer bem um trabalho, sem telas de configuração, interfaces desordenadas ou recursos desnecessários. A suíte cria um ambiente calmo e eficiente para escrever, organizar, rastrear e compartilhar, tudo isso mantendo a experiência o mais mínima possível.
 
 
-  The suite includes the following applications, each designed with the same clean and focused philosophy:
+  A suíte inclui os seguintes aplicativos, cada um projetado com a mesma filosofia limpa e focada:
 
 
-  💰 DumbBudget offers a clear interface for managing income and expenses, making budgeting straightforward and easy to maintain.
+  💰 DumbBudget oferece uma interface clara para gerenciar receitas e despesas, tornando o orçamento simples e fácil de manter.
 
 
-  📋 DumbDo is a clean and fast task list that helps capture and complete tasks without unnecessary distractions.
+  📋 DumbDo é uma lista de tarefas limpa e rápida que ajuda a capturar e concluir tarefas sem distrações desnecessárias.
 
 
-  📦 DumbDrop provides an effortless way to upload files and share them through a simple link without accounts or extra steps.
-
-  
-  📝 DumbPad is a minimalist writing space for instant note taking with automatic saving and smooth Markdown support.
+  📦 DumbDrop oferece uma maneira fácil de fazer upload de arquivos e compartilhá-los por meio de um link simples, sem contas ou etapas extras.
 
 
-  🗃️ DumbKan is a compact Kanban board that helps organise ideas and tasks visually with an intuitive and minimal layout.
+  📝 DumbPad é um espaço de escrita minimalista para anotações instantâneas com salvamento automático e suporte Markdown suave.
 
 
-  🧰 DumbWhois provides domain information through a single search field with a clean and readable output.
+  🗃️ DumbKan é um quadro Kanban compacto que ajuda a organizar ideias e tarefas visualmente com um layout intuitivo e minimalista.
 
 
-  💻 DumbTerm delivers a simplified in browser terminal for executing quick commands in a tidy and modern shell environment.
+  🧰 DumbWhois fornece informações de domínio por meio de um único campo de pesquisa com uma saída limpa e legível.
 
 
-  🗂️ DumbAssets serves as a lightweight asset tracker for recording items, components and related information in a structured way.  
+  💻 DumbTerm oferece um terminal de navegador simplificado para executar comandos rápidos em um ambiente shell moderno e organizado.
+
+
+  🗂️ DumbAssets serve como um rastreador de ativos leve para registrar itens, componentes e informações relacionadas de forma estruturada.  
 developer: Dumbware.io
 website: https://dumbware.io/
 submitter: Tascok
@@ -42,15 +42,15 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/DumbWareio
 support: https://github.com/DumbWareio/DumbCompose/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dumbware/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dumbware/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dumbware/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dumbware/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dumbware/5.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dumbware/6.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dumbware/7.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dumbware/8.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dumbware/9.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dumbware/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dumbware/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dumbware/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dumbware/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dumbware/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dumbware/6.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dumbware/7.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dumbware/8.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dumbware/9.jpg
 releaseNotes: >-
   There are no changelogs available, but you can find more information here: https://github.com/DumbWareio
 dependencies: []

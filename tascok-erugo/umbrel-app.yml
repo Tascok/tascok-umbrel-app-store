@@ -1,28 +1,28 @@
 manifestVersion: 1
 id: tascok-erugo
 name: Erugo
-tagline: A powerful file sharing platform
+tagline: Uma poderosa plataforma de compartilhamento de arquivos
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-erugo/logo.png
 category: files & productivity
 version: "0.1.1"
 port: 8564
 description: >-
-  ↗️ Erugo is a modern and elegant file sharing application designed to offer a smooth and secure experience when sending or receiving files. Unlike traditional cloud based services, Erugo puts simplicity and clarity at the center of its interface, allowing users to upload files and instantly generate clean, human readable share links that are easy to share and remember.
+  ↗️ Erugo é um aplicativo de compartilhamento de arquivos moderno e elegante, projetado para oferecer uma experiência tranquila e segura ao enviar ou receber arquivos. Ao contrário dos serviços tradicionais baseados em nuvem, o Erugo coloca a simplicidade e a clareza no centro de sua interface, permitindo aos usuários fazer upload de arquivos e gerar instantaneamente links de compartilhamento limpos e legíveis por humanos, fáceis de compartilhar e lembrar.
 
 
-  One of the key features of Erugo is the ability to create upload requests. These allow users to invite others to send files back to them through a unique upload page, without requiring an account or any technical setup. This makes collaboration and file collection simple and efficient, whether for personal use or in professional environments.
+  Uma das principais características do Erugo é a capacidade de criar solicitações de upload. Eles permitem que os usuários convidem outras pessoas para enviar arquivos de volta para eles por meio de uma página de upload exclusiva, sem exigir uma conta ou qualquer configuração técnica. Isto torna a colaboração e a coleta de arquivos simples e eficientes, seja para uso pessoal ou em ambientes profissionais.
 
 
-  With its focus on user friendly design and practical functionality, Erugo stands as a privacy conscious alternative to mainstream file transfer platforms such as WeTransfer, Google Drive, Dropbox, and Send Anywhere. While these services often rely on centralized infrastructure and advertising based business models, Erugo offers a refreshing and focused experience by removing unnecessary complexity and distractions.
+  Com foco em design amigável e funcionalidade prática, Erugo se destaca como uma alternativa consciente da privacidade às principais plataformas de transferência de arquivos, como WeTransfer, Google Drive, Dropbox e Send Anywhere. Embora esses serviços muitas vezes dependam de infraestrutura centralizada e modelos de negócios baseados em publicidade, a Erugo oferece uma experiência refrescante e focada, eliminando complexidades e distrações desnecessárias.
 
 
-  The platform is ideal for anyone who needs a straightforward way to share files without navigating cluttered dashboards or being exposed to ads. Every element in Erugo, from its minimal interface to the clean structure of its shareable links, is crafted to make file sharing fast, reliable, and pleasant.
+  A plataforma é ideal para quem precisa de uma maneira simples de compartilhar arquivos, sem navegar em painéis desordenados ou ser exposto a anúncios. Cada elemento do Erugo, desde sua interface mínima até a estrutura limpa de seus links compartilháveis, é criado para tornar o compartilhamento de arquivos rápido, confiável e agradável.
 
 
-  By providing a simple and calm alternative to the big names in file transfer, Erugo redefines what file sharing can be. It delivers an experience that is clear, efficient, and truly enjoyable to use.
+  Ao fornecer uma alternativa simples e tranquila aos grandes nomes da transferência de arquivos, Erugo redefine o que pode ser o compartilhamento de arquivos. Ele oferece uma experiência clara, eficiente e verdadeiramente agradável de usar.
 
 
-  ⚠️ Erugo delivers its full potential only when accessible from the internet. It is recommended to use the Cloudflare app available in the Umbrel App Store for easy and secure exposure.
+  ⚠️ Erugo entrega todo o seu potencial somente quando acessível pela internet. Recomenda-se usar o aplicativo Cloudflare disponível na Umbrel App Store para uma exposição fácil e segura.
 developer: ErugoOSS
 website: https://erugo.app/
 submitter: Tascok
@@ -30,11 +30,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/ErugoOSS/Erugo
 support: https://github.com/ErugoOSS/Erugo/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-erugo/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-erugo/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-erugo/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-erugo/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-erugo/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-erugo/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-erugo/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-erugo/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-erugo/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-erugo/5.jpg
 releaseNotes: >-
   Version 0.1.1 marks Erugo’s shift to semantic versioning, making it easier to track updates and understand the scope of each release.
 

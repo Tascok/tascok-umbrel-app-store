@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-dashy
 name: Dashy
-tagline: A personal dashboard built for you
+tagline: Um painel pessoal criado para você
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dashy/logo.png
 category: files & productivity
 version: "3.1.1"
 port: 4444
 description: >-
-  Dashy is a modern, highly customizable dashboard application designed to serve as a central hub for managing and accessing all of your self-hosted services, tools, and web links. It is commonly used in homelab environments, where users run multiple services on personal servers, and need a visually appealing and efficient way to monitor and launch them from a single interface.
+  Dashy é um aplicativo de painel moderno e altamente personalizável, projetado para servir como um hub central para gerenciar e acessar todos os seus serviços, ferramentas e links da web auto-hospedados. É comumente usado em ambientes homelab, onde os usuários executam vários serviços em servidores pessoais e precisam de uma maneira visualmente atraente e eficiente de monitorá-los e iniciá-los a partir de uma única interface.
 
 
-  At its core, Dashy provides a sleek and responsive web interface where users can organize their resources using a YAML-based configuration file or an integrated configuration editor. The interface supports themes, icons, dynamic widgets, and service status indicators, allowing users to tailor the experience to fit their needs. It supports everything from simple link tiles to more advanced integrations, including Docker container monitoring, service uptime checks, and direct embedding of external applications via iframes.
+  Basicamente, Dashy fornece uma interface web elegante e responsiva onde os usuários podem organizar seus recursos usando um arquivo de configuração baseado em YAML ou um editor de configuração integrado. A interface oferece suporte a temas, ícones, widgets dinâmicos e indicadores de status de serviço, permitindo aos usuários personalizar a experiência de acordo com suas necessidades. Ele oferece suporte a tudo, desde blocos de links simples até integrações mais avançadas, incluindo monitoramento de contêiner Docker, verificações de tempo de atividade de serviço e incorporação direta de aplicativos externos por meio de iframes.
 
 
-  Built using modern web technologies like Vue.js, Dashy is lightweight but powerful, offering fast load times and a user-friendly experience on both desktop and mobile devices. It runs as a standalone web app, often deployed in Docker containers, making it easy to integrate into existing setups without the need for heavy dependencies. Users can set it up behind a reverse proxy for secure remote access, and because it's fully open-source, it's ideal for those who want full control over their infrastructure without relying on third-party dashboards or portals.
+  Construído usando tecnologias web modernas como Vue.js, Dashy é leve, mas poderoso, oferecendo tempos de carregamento rápidos e uma experiência amigável em desktops e dispositivos móveis. Ele é executado como um aplicativo da web independente, geralmente implantado em contêineres Docker, facilitando a integração em configurações existentes sem a necessidade de dependências pesadas. Os usuários podem configurá-lo atrás de um proxy reverso para acesso remoto seguro e, por ser totalmente de código aberto, é ideal para quem deseja controle total sobre sua infraestrutura sem depender de painéis ou portais de terceiros.
 
 
-  Dashy also includes a built-in search feature that lets users query across bookmarks, internal services, or even trigger external search engines directly from the dashboard. With its focus on self-hosting, customization, and ease of use, Dashy has become a popular choice among developers, system administrators, and tech enthusiasts looking to bring order and efficiency to their increasingly complex digital environments.
+  Dashy também inclui um recurso de pesquisa integrado que permite aos usuários consultar marcadores, serviços internos ou até mesmo acionar mecanismos de pesquisa externos diretamente do painel. Com foco em auto-hospedagem, personalização e facilidade de uso, Dashy se tornou uma escolha popular entre desenvolvedores, administradores de sistema e entusiastas de tecnologia que buscam trazer ordem e eficiência a seus ambientes digitais cada vez mais complexos.
 developer: Alicia Sykes
 website: https://dashy.to/
 submitter: Tascok
@@ -24,11 +24,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/Lissy93/dashy
 support: https://github.com/Lissy93/dashy/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dashy/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dashy/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dashy/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dashy/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dashy/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dashy/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dashy/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dashy/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dashy/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dashy/5.jpg
 releaseNotes: >-
   This release improves both user experience and security by organizing backup configs into their own folder, hardening authentication, and allowing protection of the config via HTTP auth. It also includes various bug fixes, UI tweaks, and documentation updates.
 dependencies:

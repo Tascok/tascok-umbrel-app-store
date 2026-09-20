@@ -1,41 +1,41 @@
 manifestVersion: 1
 id: tascok-facturascripts
 name: FacturaScripts
-tagline: A complete solution for your business
+tagline: Uma solução completa para o seu negócio
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-facturascripts/logo.png
 category: files & productivity
 version: "2025.4"
 port: 8774
 description: >-
-  🏢 FacturaScripts is an open-source business management software that combines accounting, invoicing, and ERP functions into one flexible platform. It helps companies create and manage invoices, quotes, purchase orders, and delivery notes while keeping track of clients, suppliers, and products in a unified system.
+  🏢 FacturaScripts é um software de gerenciamento empresarial de código aberto que combina funções de contabilidade, faturamento e ERP em uma plataforma flexível. Ajuda as empresas a criar e gerenciar faturas, cotações, pedidos de compra e notas de entrega, ao mesmo tempo que monitora clientes, fornecedores e produtos em um sistema unificado.
 
 
-  The application allows users to record expenses, monitor stock levels, and manage sales and purchases efficiently. It includes comprehensive accounting features such as ledgers, journal entries, and balance sheets, making it suitable for small and medium businesses that need reliable financial control.
+  O aplicativo permite aos usuários registrar despesas, monitorar níveis de estoque e gerenciar vendas e compras com eficiência. Inclui recursos contábeis abrangentes, como livros contábeis, lançamentos contábeis manuais e balanços, tornando-o adequado para pequenas e médias empresas que precisam de controle financeiro confiável.
 
 
-  FacturaScripts can generate detailed financial reports and summaries that support decision-making and ensure accurate bookkeeping. Its modular architecture allows the installation of additional plugins that extend its functionality to cover payroll, taxes, analytics, and project management.
+  FacturaScripts pode gerar relatórios financeiros detalhados e resumos que apoiam a tomada de decisões e garantem uma contabilidade precisa. Sua arquitetura modular permite a instalação de plug-ins adicionais que estendem sua funcionalidade para cobrir folha de pagamento, impostos, análises e gerenciamento de projetos.
 
 
-  The interface is designed to be intuitive and adaptable so users can customize workflows, forms, and templates according to their business needs. Overall, FacturaScripts provides a complete digital solution for managing daily administrative and financial tasks in one integrated environment.
+  A interface foi projetada para ser intuitiva e adaptável para que os usuários possam personalizar fluxos de trabalho, formulários e modelos de acordo com suas necessidades de negócios. No geral, o FacturaScripts fornece uma solução digital completa para gerenciar tarefas administrativas e financeiras diárias em um ambiente integrado.
 
 
-  ⚙️ After starting the application, the database must be populated with the following values to ensure proper operation. These parameters define the connection to the database where all business data will be stored and managed. The configuration requires setting the host, user, password, and database name as shown below:
+  ⚙️ Após iniciar a aplicação, o banco de dados deve ser preenchido com os seguintes valores para garantir o bom funcionamento. Esses parâmetros definem a conexão com o banco de dados onde todos os dados do negócio serão armazenados e gerenciados. A configuração requer a definição do host, usuário, senha e nome do banco de dados conforme mostrado abaixo:
 
-  
-  SQL server type: MySQL
-  
-  Database Server: mysql
 
-  Database port: 3306
-  
-  Database name: facturascripts
+  Tipo de servidor SQL: MySQL
 
-  Database user: facturascripts
+  Servidor de banco de dados: mysql
 
-  Database password: mypassword
-  
+  Porta do banco de dados: 3306
 
-  Once these values are set and the system is running, FacturaScripts will automatically connect to the database and create the necessary tables. Make sure that the database service is active before launching the application to avoid connection errors.
+  Nome do banco de dados: facturascripts
+
+  Usuário do banco de dados: facturascripts
+
+  Senha do banco de dados: minha senha
+
+
+  Assim que esses valores forem definidos e o sistema estiver em execução, o FacturaScripts se conectará automaticamente ao banco de dados e criará as tabelas necessárias. Certifique-se de que o serviço de banco de dados esteja ativo antes de iniciar o aplicativo para evitar erros de conexão.
 developer: FacturaScripts
 website: https://facturascripts.com/
 submitter: Tascok
@@ -43,12 +43,12 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/NeoRazorX/facturascripts
 support: https://facturascripts.com/contacto
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-facturascripts/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-facturascripts/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-facturascripts/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-facturascripts/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-facturascripts/5.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-facturascripts/6.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-facturascripts/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-facturascripts/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-facturascripts/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-facturascripts/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-facturascripts/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-facturascripts/6.jpg
 releaseNotes: >-
   Version 2025.4 introduces fixes for image and file widgets, improving overall stability and usability.
 dependencies: []

@@ -1,19 +1,19 @@
 manifestVersion: 1
 id: tascok-fontgenerator
 name: Font Generator
-tagline: A creative text styling app
+tagline: Um aplicativo de estilo de texto criativo
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-fontgenerator/logo.png
 category: files & productivity
 version: "0.3.6"
 port: 3876
 description: >-
-  🔤 Font Generator is an application that converts regular text into a wide variety of stylized fonts by making use of the vast range of available Unicode characters. Instead of relying on images or special graphic files, it replaces each standard letter and number with visually distinct Unicode symbols that mimic different typefaces and effects. This approach ensures that the resulting text remains fully selectable, searchable, and can be pasted into any platform or application that supports text input.
+  🔤 Font Generator é um aplicativo que converte texto normal em uma ampla variedade de fontes estilizadas, utilizando a vasta gama de caracteres Unicode disponíveis. Em vez de depender de imagens ou arquivos gráficos especiais, ele substitui cada letra e número padrão por símbolos Unicode visualmente distintos que imitam diferentes fontes e efeitos. Essa abordagem garante que o texto resultante permaneça totalmente selecionável, pesquisável e possa ser colado em qualquer plataforma ou aplicativo que suporte entrada de texto.
 
 
-  The application offers a rich selection of creative styles, ranging from bold and italic variations to script, serif, sans serif, small caps, and handwritten-like designs. It can also generate playful transformations such as mirrored or upside-down text, adding a fun twist to otherwise standard messages. Each style is carefully mapped so that the output retains readability while still standing out in a unique way.
+  O aplicativo oferece uma rica seleção de estilos criativos, variando de variações em negrito e itálico a script, serifa, sem serifa, versalete e designs semelhantes a manuscritos. Ele também pode gerar transformações divertidas, como texto espelhado ou invertido, adicionando um toque divertido a mensagens que de outra forma seriam padrão. Cada estilo é cuidadosamente mapeado para que a saída mantenha a legibilidade e ainda se destaque de uma forma única.
 
 
-  By enabling quick and effortless conversion, Font Generator makes it easy for users to add personality, emphasis, or decorative flair to their writing. Whether the goal is to highlight a social media post, create visually appealing headings, or simply make a message more engaging, it provides a toolset for transforming plain words into something more expressive. The underlying text remains semantically the same, meaning that despite its eye-catching appearance, it communicates the original content without losing meaning or accessibility.
+  Ao permitir uma conversão rápida e fácil, o Font Generator torna mais fácil para os usuários adicionarem personalidade, ênfase ou toque decorativo à sua escrita. Quer o objetivo seja destacar uma postagem nas redes sociais, criar títulos visualmente atraentes ou simplesmente tornar uma mensagem mais envolvente, ele fornece um conjunto de ferramentas para transformar palavras simples em algo mais expressivo. O texto subjacente permanece semanticamente o mesmo, o que significa que apesar da sua aparência atraente, comunica o conteúdo original sem perder significado ou acessibilidade.
 developer: Sead Feng
 website: https://www.fontgenerator.dev/
 submitter: Tascok
@@ -21,9 +21,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/seadfeng/font-generator
 support: https://github.com/seadfeng/font-generator/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-fontgenerator/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-fontgenerator/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-fontgenerator/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-fontgenerator/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-fontgenerator/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-fontgenerator/3.jpg
 releaseNotes: >-
   Version 0.3.6 adds Google AdSense support and includes various improvements. It also contains minor maintenance and release updates.
 dependencies: []

@@ -1,19 +1,19 @@
 manifestVersion: 1
 id: tascok-tududi
 name: Tududi
-tagline: A thoughtful way to manage everything
+tagline: Uma maneira cuidadosa de gerenciar tudo
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tududi/logo.png
 category: files & productivity
 version: "1.2.4"
 port: 3382
 description: >-
-  ✔ Tududi is a minimalist task and project management application designed to help users organize their work and personal life with a strong focus on privacy and flexibility. It offers a clean and intuitive interface that works smoothly across desktop, tablet, and mobile devices, enabling productivity anytime and anywhere. The application features intelligent recurring task management, allowing users to create tasks that repeat on daily, weekly, monthly, or more complex schedules, with support for parent-child task relationships to enhance organization and workflow.
+  ✔ Tududi é um aplicativo minimalista de gerenciamento de tarefas e projetos projetado para ajudar os usuários a organizar seu trabalho e vida pessoal com forte foco na privacidade e flexibilidade. Ele oferece uma interface limpa e intuitiva que funciona perfeitamente em desktops, tablets e dispositivos móveis, permitindo produtividade a qualquer hora e em qualquer lugar. O aplicativo apresenta gerenciamento inteligente de tarefas recorrentes, permitindo aos usuários criar tarefas que se repetem em programações diárias, semanais, mensais ou mais complexas, com suporte para relacionamentos de tarefas pai-filho para melhorar a organização e o fluxo de trabalho.
 
 
-  The project structure is hierarchical, dividing work into areas, projects, and tasks, which aligns well with popular productivity methods like Getting Things Done. Users can separate different life domains such as work, personal, health, or learning, providing clear focus and balance. Tasks can be enriched with priorities, due dates, and custom tags, and powerful filtering and sorting options help quickly find and manage important items.
+  A estrutura do projeto é hierárquica, dividindo o trabalho em áreas, projetos e tarefas, o que se alinha bem com métodos populares de produtividade, como Getting Things Done. Os usuários podem separar diferentes domínios da vida, como trabalho, pessoal, saúde ou aprendizagem, proporcionando foco e equilíbrio claros. As tarefas podem ser enriquecidas com prioridades, datas de vencimento e tags personalizadas, e opções poderosas de filtragem e classificação ajudam a encontrar e gerenciar rapidamente itens importantes.
 
 
-  Tududi also supports project documentation by allowing users to add notes, meeting minutes, and reference materials within projects in a searchable and organized manner. Integration with messaging platforms like Telegram enables quick task creation from messages and daily summaries, making task capture seamless. With multi-language support and a strong commitment to data privacy, Tududi offers a modern and powerful productivity tool that balances simplicity with advanced features for individuals and teams who want full control over their workflow and information.
+  Tududi também oferece suporte à documentação do projeto, permitindo que os usuários adicionem notas, atas de reuniões e materiais de referência aos projetos de maneira pesquisável e organizada. A integração com plataformas de mensagens como o Telegram permite a criação rápida de tarefas a partir de mensagens e resumos diários, tornando a captura de tarefas perfeita. Com suporte multilíngue e um forte compromisso com a privacidade dos dados, Tududi oferece uma ferramenta de produtividade moderna e poderosa que equilibra simplicidade com recursos avançados para indivíduos e equipes que desejam controle total sobre seu fluxo de trabalho e informações.
 developer: Chris Veleris
 website: https://tududi.com/
 submitter: Tascok
@@ -21,11 +21,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/chrisvel/tududi
 support: https://github.com/chrisvel/tududi/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tududi/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tududi/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tududi/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tududi/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tududi/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tududi/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tududi/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tududi/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tududi/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tududi/5.jpg
 releaseNotes: >-
   This update (v1.2.4) resolves various bugs across core features, including Kanban/Eisenhower boards, calendar display, project views, and CalDAV synchronization.
 

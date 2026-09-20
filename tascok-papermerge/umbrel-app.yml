@@ -1,28 +1,28 @@
 manifestVersion: 1
 id: tascok-papermerge
 name: Papermerge
-tagline: An open-source document management system for digital archives
+tagline: Um sistema de gerenciamento de documentos de código aberto para arquivos digitais
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-papermerge/logo.png
 category: files & productivity
 version: "3.5.3"
 port: 12000
 description: >-
-  📑 Papermerge is a powerful open-source document management system (DMS) tailored to the needs of individuals, small teams, or organizations seeking a streamlined way to manage large volumes of scanned documents and PDFs. Unlike traditional file management systems that rely heavily on folder structures, Papermerge leverages Optical Character Recognition (OCR) to extract text from scanned documents, transforming them into fully searchable content. This enables users to find information within images and PDFs quickly, reducing the time spent manually browsing through physical or digital files.
+  📑 Papermerge é um poderoso sistema de gerenciamento de documentos (DMS) de código aberto, adaptado às necessidades de indivíduos, pequenas equipes ou organizações que buscam uma maneira simplificada de gerenciar grandes volumes de documentos digitalizados e PDFs. Ao contrário dos sistemas tradicionais de gerenciamento de arquivos que dependem fortemente de estruturas de pastas, o Papermerge aproveita o reconhecimento óptico de caracteres (OCR) para extrair texto de documentos digitalizados, transformando-os em conteúdo totalmente pesquisável. Isso permite que os usuários encontrem informações em imagens e PDFs rapidamente, reduzindo o tempo gasto na navegação manual em arquivos físicos ou digitais.
 
 
-  The core functionality of Papermerge revolves around its ability to process documents that are typically in image formats, such as TIFFs, JPGs, and PDFs, and make them more manageable by converting them into searchable and indexable text. The OCR feature plays a crucial role in this, as it extracts and indexes the text from scanned pages, which would otherwise remain inaccessible in terms of search and analysis.
+  A principal funcionalidade do Papermerge gira em torno de sua capacidade de processar documentos que normalmente estão em formatos de imagem, como TIFFs, JPGs e PDFs, e torná-los mais gerenciáveis, convertendo-os em texto pesquisável e indexável. O recurso OCR desempenha um papel crucial nisso, pois extrai e indexa o texto das páginas digitalizadas, que de outra forma permaneceriam inacessíveis em termos de pesquisa e análise.
 
 
-  The system provides a user-friendly, web-based interface for document management, where users can organize their files into folders and assign tags to easily categorize and locate documents. This makes it particularly useful for handling legal, administrative, or business documents, where quick retrieval of specific information is often required. Papermerge also includes advanced document workflow automation features, such as setting rules for automatic sorting, categorization, and filing of documents based on predefined criteria, which helps save time and improve productivity.
+  O sistema fornece uma interface amigável baseada na web para gerenciamento de documentos, onde os usuários podem organizar seus arquivos em pastas e atribuir tags para categorizar e localizar documentos facilmente. Isto o torna particularmente útil para lidar com documentos legais, administrativos ou comerciais, onde muitas vezes é necessária a recuperação rápida de informações específicas. O Papermerge também inclui recursos avançados de automação do fluxo de trabalho de documentos, como configuração de regras para classificação, categorização e arquivamento automáticos de documentos com base em critérios predefinidos, o que ajuda a economizar tempo e melhorar a produtividade.
 
 
-  In addition to its primary functions, Papermerge supports integration with other systems and applications through a robust REST API. This allows for customization and extension of the system to fit the specific needs of a business or user, providing further flexibility in managing document workflows. It is designed to be highly scalable, suitable for individual use, as well as small and medium-sized teams or businesses.
+  Além de suas funções primárias, o Papermerge oferece suporte à integração com outros sistemas e aplicativos por meio de uma API REST robusta. Isto permite a personalização e extensão do sistema para atender às necessidades específicas de uma empresa ou usuário, proporcionando maior flexibilidade no gerenciamento de fluxos de trabalho de documentos. Ele foi projetado para ser altamente escalável, adequado para uso individual, bem como para equipes ou empresas de pequeno e médio porte.
 
 
-  While Papermerge offers an open-source version for free, there is also a commercial version called Papermerge Pro. This version includes enhanced features, such as advanced support, priority updates, and additional enterprise-grade functionality, making it suitable for businesses that require a more comprehensive document management solution.
+  Embora o Papermerge ofereça uma versão de código aberto gratuita, também existe uma versão comercial chamada Papermerge Pro. Esta versão inclui recursos aprimorados, como suporte avançado, atualizações prioritárias e funcionalidades adicionais de nível empresarial, tornando-a adequada para empresas que exigem uma solução de gerenciamento de documentos mais abrangente.
 
 
-  Overall, Papermerge is an ideal solution for those looking to go paperless, offering an efficient and accessible platform for organizing, managing, and retrieving documents, all while ensuring that they are searchable and easily accessible with minimal effort.
+  No geral, o Papermerge é uma solução ideal para quem deseja deixar de usar o papel, oferecendo uma plataforma eficiente e acessível para organizar, gerenciar e recuperar documentos, ao mesmo tempo que garante que sejam pesquisáveis ​​e facilmente acessíveis com o mínimo de esforço.
 developer: Eugen Ciur
 website: https://papermerge.com/
 submitter: Tascok
@@ -30,13 +30,13 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/ciur/papermerge
 support: https://github.com/ciur/papermerge/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-papermerge/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-papermerge/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-papermerge/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-papermerge/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-papermerge/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-papermerge/3.jpg
 releaseNotes: >-
   Version 3.5.3 introduces asynchronous REST API and database operations for improved performance, adds NOT NULL constraints for home/inbox folders at the database level, and features a user-friendly RoleForm as a tree of checkboxes. 
-  
-  
+
+
   It also updates the auth-server to version 1.1.5 and includes dependency updates via Dependabot.
 dependencies:
 path: ""

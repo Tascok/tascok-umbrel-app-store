@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-picsur
 name: Picsur
-tagline: An easy to use image sharing service
+tagline: Um serviço de compartilhamento de imagens fácil de usar
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-picsur/logo.png
 category: files & productivity
 version: "0.5.6"
 port: 8286
 description: >-
-  🖼️ Picsur is a lightweight, self-hosted image hosting platform designed for simplicity and control. It allows users to upload, store, and share images directly from their own server, without relying on third-party services. Inspired by the functionality of platforms like Imgur and Pastebin, Picsur focuses on offering a clean and efficient experience for users who need a straightforward way to manage images online.
+  🖼️ Picsur é uma plataforma de hospedagem de imagens leve e auto-hospedada, projetada para simplicidade e controle. Ele permite aos usuários fazer upload, armazenar e compartilhar imagens diretamente de seu próprio servidor, sem depender de serviços de terceiros. Inspirado nas funcionalidades de plataformas como Imgur e Pastebin, o Picsur se concentra em oferecer uma experiência limpa e eficiente para usuários que precisam de uma maneira simples de gerenciar imagens online.
 
 
-  Unlike more complex photo management solutions such as PhotoPrism or Immich, which include features like facial recognition, albums, and AI-assisted sorting, Picsur is purpose-built for quick uploads and direct sharing. It supports a wide range of image formats, including common ones like JPEG, PNG, and GIF, as well as newer or less standard types such as QOI and animated WebP files. Once uploaded, images can be edited with basic tools such as resizing, rotating, flipping, or applying grayscale and negative effects.
+  Ao contrário de soluções de gerenciamento de fotos mais complexas, como PhotoPrism ou Immich, que incluem recursos como reconhecimento facial, álbuns e classificação assistida por IA, o Picsur foi desenvolvido especificamente para uploads rápidos e compartilhamento direto. Ele suporta uma ampla variedade de formatos de imagem, incluindo formatos comuns como JPEG, PNG e GIF, bem como tipos mais novos ou menos padrão, como QOI e arquivos WebP animados. Depois de carregadas, as imagens podem ser editadas com ferramentas básicas, como redimensionar, girar, inverter ou aplicar tons de cinza e efeitos negativos.
 
 
-  The platform includes a user-friendly web interface that supports drag-and-drop uploads and provides direct links for sharing images instantly. Administrators can access a backend panel to manage uploaded files and user permissions, offering full control over how the service operates.
+  A plataforma inclui uma interface web amigável que suporta uploads de arrastar e soltar e fornece links diretos para compartilhar imagens instantaneamente. Os administradores podem acessar um painel de back-end para gerenciar arquivos carregados e permissões de usuário, oferecendo controle total sobre como o serviço funciona.
 
 
-  Because Picsur is self-hosted, it ensures maximum privacy and independence from cloud providers. It can be deployed using Docker on systems like a Synology NAS, making it accessible even to users without deep technical knowledge. This makes it an ideal solution for individuals or small teams looking to host images privately, efficiently, and with minimal overhead.
+  Como o Picsur é auto-hospedado, ele garante o máximo de privacidade e independência dos provedores de nuvem. Ele pode ser implantado usando Docker em sistemas como Synology NAS, tornando-o acessível até mesmo para usuários sem profundo conhecimento técnico. Isso o torna uma solução ideal para indivíduos ou pequenas equipes que desejam hospedar imagens de maneira privada, eficiente e com sobrecarga mínima.
 developer: CaramelFur
 website: https://picsur.org/upload
 submitter: Tascok
@@ -24,11 +24,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/CaramelFur/Picsur
 support: https://github.com/CaramelFur/Picsur/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-picsur/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-picsur/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-picsur/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-picsur/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-picsur/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-picsur/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-picsur/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-picsur/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-picsur/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-picsur/5.jpg
 releaseNotes: >-
   Version 0.5.6 of Picsur finally fixes a persistent thumbnail bug that remained unresolved in the previous release.
 dependencies:

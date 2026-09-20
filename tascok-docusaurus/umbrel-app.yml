@@ -1,46 +1,46 @@
 manifestVersion: 1
 id: tascok-docusaurus
 name: Docusaurus
-tagline: A streamlined way to build powerful documentation sites
+tagline: Uma maneira simplificada de criar sites de documentação poderosos
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-docusaurus/logo.png
 category: files & productivity
 version: "2.0.0-rc.1"
 port: 9550
 description: >-
-  ⚠️ This is an old version of Docusaurus provided for testing purposes only. The Docusaurus source files are located in "/umbrel/app-data/tascok-docusaurus/data/docusaurus/". 
-  
-  
-  In the first run, it may take several minutes to download and prepare the entire source code from the Internet.
-  
-  
-  Docusaurus is an open-source framework designed specifically for building high-quality documentation websites. It’s built on top of React and uses modern JavaScript tools, making it a great choice for projects that need well-organized, user-friendly documentation without requiring a custom website build from scratch.
-
-  
-  Key features and benefits of Docusaurus:
+  ⚠️ Esta é uma versão antiga do Docusaurus fornecida apenas para fins de teste. Os arquivos fonte do Docusaurus estão localizados em "/umbrel/app-data/tascok-docusaurus/data/docusaurus/". 
 
 
-  🚀 Quick Setup: Docusaurus offers an easy setup process, allowing users to create a professional documentation site with minimal configuration. Its out-of-the-box templates and default theme provide a clean, structured look that is immediately usable.
+  Na primeira execução, pode levar vários minutos para baixar e preparar todo o código-fonte da Internet.
 
 
-  📜 Markdown Support: One of Docusaurus' biggest strengths is its support for Markdown, allowing users to write and manage content without needing HTML or complex styling. Markdown’s simplicity speeds up the documentation process, making it more accessible to contributors who may not be as familiar with coding.
+  Docusaurus é uma estrutura de código aberto projetada especificamente para a construção de sites de documentação de alta qualidade. Ele é construído com base no React e usa ferramentas JavaScript modernas, o que o torna uma ótima opção para projetos que precisam de documentação bem organizada e fácil de usar, sem a necessidade de construir um site personalizado do zero.
 
 
-  🧩 Customization with Plugins and Themes: Docusaurus provides a flexible plugin architecture, making it easy to add features like search, analytics, localization, and more. Additionally, custom themes or color schemes can be applied to align with your project’s brand, while advanced users can further personalize the appearance by extending or overriding default React components.
+  Principais recursos e benefícios do Docusaurus:
 
 
-  📂 Content Versioning: Versioning in Docusaurus is a standout feature, particularly valuable for projects with ongoing development. With versioning, you can maintain separate versions of the documentation for different software releases. This is crucial for projects where users may be working with various releases, each potentially having different features or behaviors.
+  🚀 Configuração rápida: Docusaurus oferece um processo de configuração fácil, permitindo aos usuários criar um site de documentação profissional com configuração mínima. Seus modelos prontos para uso e tema padrão fornecem uma aparência limpa e estruturada que pode ser usada imediatamente.
 
 
-  📱 SEO and Mobile Optimization: Docusaurus generates static websites, meaning they are SEO-friendly, fast, and can be easily indexed by search engines. Additionally, it ensures that websites are mobile-responsive, providing a seamless experience for users on any device.
+  📜 Suporte Markdown: Um dos maiores pontos fortes do Docusaurus é o suporte para Markdown, permitindo aos usuários escrever e gerenciar conteúdo sem a necessidade de HTML ou estilos complexos. A simplicidade do Markdown acelera o processo de documentação, tornando-o mais acessível para colaboradores que talvez não estejam tão familiarizados com codificação.
 
 
-  📚 Built-in Blog Capability: Docusaurus allows users to add a blog section, making it easy to share project updates, community news, or technical articles directly on the documentation site. The blog feature uses Markdown as well, so posts can be created and edited in the same way as other documentation content.
+  🧩 Personalização com plug-ins e temas: o Docusaurus fornece uma arquitetura de plug-ins flexível, facilitando a adição de recursos como pesquisa, análise, localização e muito mais. Além disso, temas personalizados ou esquemas de cores podem ser aplicados para alinhar com a marca do seu projeto, enquanto usuários avançados podem personalizar ainda mais a aparência estendendo ou substituindo os componentes padrão do React.
 
 
-  👥 Community and Ecosystem: As Docusaurus is open-source, there is a large community that contributes plugins, themes, and various integrations. This allows for a robust ecosystem of add-ons and support resources, helping users to extend Docusaurus to fit their unique requirements.
+  📂 Versionamento de conteúdo: O versionamento no Docusaurus é um recurso de destaque, particularmente valioso para projetos com desenvolvimento contínuo. Com o versionamento, você pode manter versões separadas da documentação para diferentes versões de software. Isso é crucial para projetos em que os usuários podem trabalhar com várias versões, cada uma com recursos ou comportamentos potencialmente diferentes.
 
 
-  Overall, Docusaurus is designed to streamline the documentation process, reducing time spent on setup and design so that teams can focus on creating high-quality content. Its combination of Markdown-based authoring, React customization, and version control make it an ideal tool for creating scalable and maintainable documentation for any project.
+  📱 SEO e Otimização Mobile: Docusaurus gera sites estáticos, o que significa que eles são otimizados para SEO, rápidos e podem ser facilmente indexados pelos mecanismos de busca. Além disso, garante que os sites sejam responsivos a dispositivos móveis, proporcionando uma experiência perfeita para usuários em qualquer dispositivo.
+
+
+  📚 Capacidade de blog integrada: O Docusaurus permite que os usuários adicionem uma seção de blog, facilitando o compartilhamento de atualizações de projetos, notícias da comunidade ou artigos técnicos diretamente no site de documentação. O recurso de blog também usa Markdown, para que as postagens possam ser criadas e editadas da mesma forma que outros conteúdos de documentação.
+
+
+  👥 Comunidade e Ecossistema: Como o Docusaurus é de código aberto, existe uma grande comunidade que contribui com plugins, temas e diversas integrações. Isso permite um ecossistema robusto de complementos e recursos de suporte, ajudando os usuários a estender o Docusaurus para atender às suas necessidades específicas.
+
+
+  No geral, o Docusaurus foi projetado para agilizar o processo de documentação, reduzindo o tempo gasto na configuração e no design para que as equipes possam se concentrar na criação de conteúdo de alta qualidade. Sua combinação de autoria baseada em Markdown, personalização do React e controle de versão o torna uma ferramenta ideal para criar documentação escalonável e de fácil manutenção para qualquer projeto.
 
 
 developer: Meta Platforms Inc.
@@ -50,10 +50,10 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/facebook/docusaurus
 support: https://github.com/facebook/docusaurus/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-docusaurus/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-docusaurus/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-docusaurus/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-docusaurus/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-docusaurus/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-docusaurus/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-docusaurus/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-docusaurus/4.jpg
 releaseNotes: >-
   The latest Docusaurus 2 beta comes with automatic updating and many improvements.
 dependencies:

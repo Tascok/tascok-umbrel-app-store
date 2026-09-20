@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-mykonos
 name: Mykonos Island Voxels
-tagline: A Mediterranean playground made of voxels
+tagline: Um playground mediterrâneo feito de voxels
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mykonos/logo.png
 category: gaming
 version: "ca5faee"
 port: 8371
 description: >-
-  🏝️ Mykonos Island Voxels is a relaxing browser-based island builder that lets you create a small Mediterranean world on an isometric grid. Arrange whitewashed houses, blue-domed chapels, windmills, trees, gardens, paths, bridges, water, and decorative objects to design your own sunlit Greek island.
+  🏝️ Mykonos Island Voxels é um relaxante construtor de ilhas baseado em navegador que permite criar um pequeno mundo mediterrâneo em uma grade isométrica. Organize casas caiadas, capelas com cúpulas azuis, moinhos de vento, árvores, jardins, caminhos, pontes, água e objetos decorativos para projetar sua própria ilha grega ensolarada.
 
 
-  More than 75 detailed assets are divided into terrain, nature, props, water, and building categories. Objects can be placed individually or painted across several tiles, while zooming, panning, flipping, grid controls, and erase tools make it easy to reshape the island from desktop or mobile devices.
+  Mais de 75 ativos detalhados são divididos em categorias de terreno, natureza, adereços, água e construção. Os objetos podem ser colocados individualmente ou pintados em vários blocos, enquanto as ferramentas de zoom, panorâmica, inversão, controles de grade e apagamento facilitam a remodelagem da ilha a partir de desktops ou dispositivos móveis.
 
 
-  There are no resources to collect, scores to chase, or objectives to complete. The experience focuses entirely on experimenting, decorating, and building at your own pace.
+  Não há recursos para coletar, pontuações para perseguir ou objetivos para completar. A experiência se concentra inteiramente em experimentar, decorar e construir no seu próprio ritmo.
 
 
-  Your current island is saved automatically in the local storage of the browser and restored when you return. Saved islands are therefore tied to the browser and device being used and are not synchronized between different devices.
+  Sua ilha atual é salva automaticamente no armazenamento local do navegador e restaurada quando você retornar. As ilhas salvas estão, portanto, vinculadas ao navegador e ao dispositivo usado e não são sincronizadas entre diferentes dispositivos.
 developer: boona13
 website: https://mykonos-island-voxels.netlify.app/
 submitter: Tascok
@@ -24,9 +24,9 @@ submission: https://github.com/dennysubke/dennys-umbrel-app-store
 repo: https://github.com/boona13/mykonos-island-voxels
 support: https://github.com/boona13/mykonos-island-voxels/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mykonos/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mykonos/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mykonos/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mykonos/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mykonos/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mykonos/3.jpg
 releaseNotes: >-
   Initial release of Mykonos Island Voxels for Umbrel.
 dependencies: []

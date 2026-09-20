@@ -1,28 +1,28 @@
 manifestVersion: 1
 id: tascok-dokploy
 name: Dokploy
-tagline: A seamless platform for effortless deployments
+tagline: Uma plataforma perfeita para implantações sem esforço
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dokploy/logo.png
 category: developer tools
 version: "0.29.12"
 port: 8528
 description: >-
-  🐳 Dokploy is an advanced deployment and management platform designed to make the entire lifecycle of web applications simple, reliable, and efficient. It brings together all essential tools for deploying and managing applications in one intuitive interface, allowing developers to focus on building rather than configuring. With Dokploy, the process of launching, updating, and maintaining applications becomes a seamless experience that requires minimal manual intervention.
+  🐳 Dokploy é uma plataforma avançada de implantação e gerenciamento projetada para tornar todo o ciclo de vida de aplicativos da web simples, confiável e eficiente. Ele reúne todas as ferramentas essenciais para implantação e gerenciamento de aplicativos em uma interface intuitiva, permitindo que os desenvolvedores se concentrem na construção em vez de na configuração. Com o Dokploy, o processo de inicialização, atualização e manutenção de aplicativos torna-se uma experiência contínua que requer intervenção manual mínima.
 
 
-  At its core, Dokploy automates the deployment of applications, services, and databases. It handles the setup of environment variables, network routing, and security certificates automatically, ensuring that each application runs smoothly and securely. Developers can connect their Git repositories and enable continuous deployment pipelines, so every code change can be built, tested, and released without leaving the interface. This automation not only speeds up workflows but also reduces human error and ensures consistency across environments.
+  Basicamente, o Dokploy automatiza a implantação de aplicativos, serviços e bancos de dados. Ele lida com a configuração de variáveis ​​de ambiente, roteamento de rede e certificados de segurança automaticamente, garantindo que cada aplicativo seja executado de maneira suave e segura. Os desenvolvedores podem conectar seus repositórios Git e habilitar pipelines de implantação contínua, para que cada alteração de código possa ser criada, testada e lançada sem sair da interface. Essa automação não apenas acelera os fluxos de trabalho, mas também reduz erros humanos e garante consistência entre ambientes.
 
 
-  Dokploy also provides detailed insight into each application’s status. Through its real time monitoring and logging features, users can track performance, identify issues, and analyze behavior instantly. Integrated backup and restore functions safeguard important data, while automatic SSL management ensures that all applications are served securely. This combination of reliability and transparency makes it easier to maintain high uptime and stable performance.
+  Dokploy também fornece informações detalhadas sobre o status de cada aplicativo. Através de seus recursos de monitoramento e registro em tempo real, os usuários podem acompanhar o desempenho, identificar problemas e analisar o comportamento instantaneamente. As funções integradas de backup e restauração protegem dados importantes, enquanto o gerenciamento automático de SSL garante que todos os aplicativos sejam atendidos com segurança. Essa combinação de confiabilidade e transparência facilita a manutenção de um alto tempo de atividade e desempenho estável.
 
 
-  Beyond its technical capabilities, Dokploy aims to streamline collaboration and project organization. It allows multiple applications to be managed side by side, each with its own configuration and environment. This structure helps teams stay organized and makes it possible to handle complex infrastructures with confidence.
+  Além de suas capacidades técnicas, o Dokploy visa agilizar a colaboração e a organização de projetos. Ele permite que vários aplicativos sejam gerenciados lado a lado, cada um com sua própria configuração e ambiente. Essa estrutura ajuda as equipes a se manterem organizadas e possibilita lidar com infraestruturas complexas com confiança.
 
 
-  Overall, Dokploy turns what used to be a complicated process into an accessible and enjoyable experience. It provides the power and flexibility of modern DevOps tools while keeping the interface simple and approachable. By combining automation, observability, and intelligent resource management, Dokploy empowers developers and teams to deploy with confidence and focus entirely on creating great software.
+  No geral, o Dokploy transforma o que costumava ser um processo complicado em uma experiência acessível e agradável. Ele fornece o poder e a flexibilidade das ferramentas DevOps modernas, ao mesmo tempo que mantém a interface simples e acessível. Ao combinar automação, observabilidade e gerenciamento inteligente de recursos, o Dokploy capacita desenvolvedores e equipes a implantar com confiança e focar inteiramente na criação de software excelente.
 
 
-  ⚠️ Before installing, please read https://github.com/dennysubke/dennys-umbrel-app-store/tree/master/tascok-dokploy carefully for important setup instructions, port information, limitations, and security considerations.
+  ⚠️ Antes de instalar, leia https://github.com/dennysubke/dennys-umbrel-app-store/tree/master/tascok-dokploy cuidadosamente para obter instruções importantes de configuração, informações de porta, limitações e considerações de segurança.
 developer: Dokploy
 website: https://dokploy.com/
 submitter: Tascok
@@ -30,11 +30,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/Dokploy/dokploy
 support: https://github.com/Dokploy/dokploy/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dokploy/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dokploy/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dokploy/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dokploy/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dokploy/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dokploy/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dokploy/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dokploy/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dokploy/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dokploy/5.jpg
 releaseNotes: >-
   Version 0.29.12 fixes layout issues on the two-factor authentication screen by preventing button overflow.
 

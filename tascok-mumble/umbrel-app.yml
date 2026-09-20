@@ -1,19 +1,19 @@
 manifestVersion: 1
 id: tascok-mumble
 name: Mumble Server
-tagline: A low-latency, high-quality voice chat
+tagline: Um bate-papo por voz de baixa latência e alta qualidade
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mumble/logo.png
 category: social
 version: "1.5.634"
 port: 8879
 description: >-
-  🎧 Mumble is an open-source voice communication software that is primarily used for real-time communication, particularly in gaming and collaborative environments. The software is known for its low-latency, high-quality audio, which is a key feature for users who need clear communication with minimal delays. One of the main advantages of Mumble is that it operates in a decentralized manner, allowing users to host their own servers, providing greater control and security over their communications. This decentralized setup ensures that users don't rely on third-party servers, giving them more privacy and reducing the risk of data breaches.
+  🎧 Mumble é um software de comunicação de voz de código aberto usado principalmente para comunicação em tempo real, principalmente em jogos e ambientes colaborativos. O software é conhecido por seu áudio de baixa latência e alta qualidade, um recurso fundamental para usuários que precisam de comunicação clara com atrasos mínimos. Uma das principais vantagens do Mumble é que ele opera de forma descentralizada, permitindo que os usuários hospedem seus próprios servidores, proporcionando maior controle e segurança em suas comunicações. Essa configuração descentralizada garante que os usuários não dependam de servidores de terceiros, proporcionando-lhes mais privacidade e reduzindo o risco de violação de dados.
 
 
-  The software offers various features such as encrypted communication, customizable user permissions, and support for multiple channels, making it suitable for both casual and professional use. Mumble is also efficient in terms of bandwidth usage, maintaining high audio quality even on slower internet connections. It includes additional features like push-to-talk, voice activity detection, and text chat, which enhance the overall communication experience.
+  O software oferece vários recursos, como comunicação criptografada, permissões de usuário personalizáveis ​​e suporte para vários canais, tornando-o adequado para uso casual e profissional. O Mumble também é eficiente em termos de uso de largura de banda, mantendo alta qualidade de áudio mesmo em conexões de internet mais lentas. Inclui recursos adicionais como push to talk, detecção de atividade de voz e chat de texto, que aprimoram a experiência geral de comunicação.
 
 
-  Mumble is available for multiple platforms, including Windows, macOS, Linux, and mobile devices, ensuring it can be used by a broad audience. Its open-source nature allows developers to modify and customize the software according to their needs, leading to a strong community of contributors that continuously improve the platform. This combination of privacy, flexibility, and high-quality communication makes Mumble a popular choice for both gaming and professional collaboration.
+  O Mumble está disponível para diversas plataformas, incluindo Windows, macOS, Linux e dispositivos móveis, garantindo que possa ser usado por um público amplo. Sua natureza de código aberto permite que os desenvolvedores modifiquem e personalizem o software de acordo com suas necessidades, gerando uma forte comunidade de colaboradores que melhoram continuamente a plataforma. Esta combinação de privacidade, flexibilidade e comunicação de alta qualidade torna o Mumble uma escolha popular tanto para jogos quanto para colaboração profissional.
 developer: Mumble Project
 website: https://www.mumble.info/
 submitter: Tascok
@@ -21,11 +21,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/mumble-voip/mumble-docker
 support: https://github.com/mumble-voip/mumble-docker/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mumble/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mumble/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mumble/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mumble/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mumble/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mumble/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mumble/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mumble/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mumble/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mumble/5.jpg
 releaseNotes: >-
   Mumble 1.5.634 brings numerous changes after almost two years, including bug fixes and some long-awaited improvements, with a focus on enhancing the positional audio system. Notable updates include increased maximum distance thresholds, reintroduced volume settings, and new psychoacoustic effects, alongside a new in-client "Positional Audio Viewer" for developers to better debug and fine-tune audio plugins.
 dependencies:

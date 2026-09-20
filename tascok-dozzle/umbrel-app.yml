@@ -1,28 +1,28 @@
 manifestVersion: 1
 id: tascok-dozzle
 name: Dozzle
-tagline: A realtime log viewer for Docker containers
+tagline: Um visualizador de log em tempo real para contêineres Docker
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dozzle/logo.png
 category: networking
 version: "8.12.8"
 port: 8558
 description: >-
-  Dozzle is a modern, lightweight, web-based application designed for real-time viewing of Docker container logs. It provides developers, DevOps engineers, and system administrators with a simple yet powerful interface to monitor logs from all running containers directly in their browser, without the need for log aggregation, external storage, or complex setup.
+  Dozzle é um aplicativo moderno, leve e baseado na web, projetado para visualização em tempo real de logs de contêineres Docker. Ele fornece aos desenvolvedores, engenheiros de DevOps e administradores de sistema uma interface simples, porém poderosa, para monitorar logs de todos os contêineres em execução diretamente em seus navegadores, sem a necessidade de agregação de log, armazenamento externo ou configuração complexa.
 
 
-  At its core, Dozzle is built to be fast and responsive. It connects directly to the Docker daemon by mounting the Docker socket, allowing it to stream logs in real time as they are generated. This makes it especially useful for debugging containers, identifying issues on the fly, and observing the behavior of applications without delay. Unlike other logging solutions that often require extensive infrastructure involving databases or log shippers, Dozzle remains minimalistic and efficient, focusing solely on providing instant access to container logs.
+  Basicamente, o Dozzle foi desenvolvido para ser rápido e responsivo. Ele se conecta diretamente ao daemon Docker montando o soquete Docker, permitindo transmitir logs em tempo real à medida que são gerados. Isso o torna especialmente útil para depurar contêineres, identificar problemas rapidamente e observar o comportamento dos aplicativos sem demora. Ao contrário de outras soluções de registro que muitas vezes exigem infraestrutura extensa envolvendo bancos de dados ou transportadores de registros, o Dozzle permanece minimalista e eficiente, concentrando-se exclusivamente em fornecer acesso instantâneo aos registros de contêineres.
 
 
-  One of Dozzle’s key strengths is its user-friendly web interface. It supports advanced search and filtering capabilities, including fuzzy search and regular expressions, which help users quickly find relevant log entries even in large output streams. The interface is designed to be intuitive and clean, making it easy to navigate across containers, search logs, and follow log output in real time.
+  Um dos principais pontos fortes do Dozzle é sua interface web amigável. Ele oferece suporte a recursos avançados de pesquisa e filtragem, incluindo pesquisa difusa e expressões regulares, que ajudam os usuários a encontrar rapidamente entradas de log relevantes, mesmo em grandes fluxos de saída. A interface foi projetada para ser intuitiva e limpa, facilitando a navegação entre contêineres, a pesquisa de logs e o acompanhamento da saída do log em tempo real.
 
 
-  In addition to basic log viewing, Dozzle supports advanced features such as live resource usage monitoring, shell access into containers, and even multi-host support, enabling administrators to manage logs from distributed Docker environments within a single dashboard. It also offers compatibility with Docker Swarm and Kubernetes, broadening its usability in more complex container orchestration scenarios.
+  Além da visualização básica de logs, o Dozzle oferece suporte a recursos avançados, como monitoramento de uso de recursos ao vivo, acesso de shell a contêineres e até suporte a vários hosts, permitindo que os administradores gerenciem logs de ambientes Docker distribuídos em um único painel. Também oferece compatibilidade com Docker Swarm e Kubernetes, ampliando sua usabilidade em cenários de orquestração de contêineres mais complexos.
 
 
-  Security and scalability are also considered in Dozzle’s architecture. It includes options for setting up authentication, and a secure agent mode that allows remote hosts to send logs to a central Dozzle instance without exposing sensitive endpoints.
+  Segurança e escalabilidade também são consideradas na arquitetura do Dozzle. Inclui opções para configurar autenticação e um modo de agente seguro que permite que hosts remotos enviem logs para uma instância central do Dozzle sem expor terminais confidenciais.
 
 
-  Dozzle is open source and released under the MIT license, actively maintained and developed by Amir Raminfar. It has gained popularity among the Docker community for its ease of use, clean design, and focus on doing one thing well—log viewing. By stripping away unnecessary complexity, Dozzle provides a seamless and efficient way to monitor container output in real time, making it an excellent tool for both development and production environments.
+  Dozzle é de código aberto e lançado sob a licença do MIT, mantido e desenvolvido ativamente por Amir Raminfar. Ele ganhou popularidade entre a comunidade Docker por sua facilidade de uso, design limpo e foco em fazer uma coisa bem: visualização de logs. Ao eliminar a complexidade desnecessária, o Dozzle fornece uma maneira contínua e eficiente de monitorar a saída do contêiner em tempo real, tornando-o uma excelente ferramenta para ambientes de desenvolvimento e produção.
 developer: Amir Raminfar
 website: https://dozzle.dev/
 submitter: Tascok
@@ -30,9 +30,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/amir20/dozzle
 support: https://github.com/amir20/dozzle/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dozzle/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dozzle/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dozzle/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dozzle/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dozzle/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dozzle/3.jpg
 releaseNotes: >-
   Version 8.12.8 of Dozzle includes several improvements and bug fixes. It introduces the use of /tmp for better permission handling, visual tweaks for the light theme, a fixed link on container titles, and updates to dependencies and documentation.
 dependencies:

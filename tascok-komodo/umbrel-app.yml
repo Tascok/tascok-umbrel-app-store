@@ -1,31 +1,31 @@
 manifestVersion: 1
 id: tascok-komodo
 name: Komodo
-tagline: A tool to build and deploy software
+tagline: Uma ferramenta para construir e implantar software
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-komodo/logo.png
 category: developer tools
 version: "1.18.4"
 port: 9120
 description: >-
-  🦎 Komodo is an open-source platform focused on streamlining and automating the management of servers, application builds, deployments, and containerized environments. It offers a unified interface that enables users to monitor critical system metrics such as CPU load, memory consumption, and disk usage across multiple servers, providing comprehensive operational visibility. A key feature of Komodo is its ability to manage Docker containers and Docker Compose applications, delivering real-time insights into their status, logs, and uptime. This detailed container management simplifies troubleshooting and operational oversight, making it easier for teams to maintain and optimize their deployments.
+  🦎 Komodo é uma plataforma de código aberto focada em agilizar e automatizar o gerenciamento de servidores, construção de aplicativos, implantações e ambientes em contêineres. Ele oferece uma interface unificada que permite aos usuários monitorar métricas críticas do sistema, como carga de CPU, consumo de memória e uso de disco em vários servidores, proporcionando visibilidade operacional abrangente. Um recurso importante do Komodo é sua capacidade de gerenciar contêineres Docker e aplicativos Docker Compose, fornecendo insights em tempo real sobre seu status, logs e tempo de atividade. Esse gerenciamento detalhado de contêineres simplifica a solução de problemas e a supervisão operacional, tornando mais fácil para as equipes manter e otimizar suas implantações.
 
 
-  Built on a core-periphery architecture, Komodo consists of a central control unit that coordinates with lightweight agents running on connected hosts. This structure allows for secure and scalable communication, enabling users to execute commands remotely, trigger automated builds and deployments, and access shell sessions across their infrastructure with ease. The platform’s robust management of environment variables and secrets ensures sensitive information is handled securely and flexibly, supporting features like global variables and secret interpolation.
+  Construído em uma arquitetura núcleo-periferia, o Komodo consiste em uma unidade de controle central que se coordena com agentes leves executados em hosts conectados. Essa estrutura permite comunicação segura e escalonável, permitindo que os usuários executem comandos remotamente, acionem compilações e implantações automatizadas e acessem sessões shell em sua infraestrutura com facilidade. O gerenciamento robusto de variáveis ​​de ambiente e segredos da plataforma garante que informações confidenciais sejam tratadas de forma segura e flexível, suportando recursos como variáveis ​​globais e interpolação secreta.
 
 
-  Komodo exposes extensive REST and WebSocket APIs that empower teams to automate workflows, integrate with external tools, and customize infrastructure management processes programmatically. It also supports multi-user authentication with role-based access controls and OAuth integration, ensuring secure collaboration within teams. As a powerful alternative to Portainer, Komodo consolidates monitoring, deployment, and management capabilities into a single platform, helping organizations increase efficiency, reduce manual overhead, and maintain clear oversight of their distributed environments. 
-developer: mogh.tech 
+  Komodo expõe extensas APIs REST e WebSocket que capacitam as equipes a automatizar fluxos de trabalho, integrar-se com ferramentas externas e personalizar processos de gerenciamento de infraestrutura de forma programática. Ele também oferece suporte à autenticação multiusuário com controles de acesso baseados em funções e integração OAuth, garantindo colaboração segura entre as equipes. Como uma alternativa poderosa ao Portainer, o Komodo consolida recursos de monitoramento, implantação e gerenciamento em uma única plataforma, ajudando as organizações a aumentar a eficiência, reduzir a sobrecarga manual e manter uma supervisão clara de seus ambientes distribuídos. 
+developer: mogh.tech
 website: https://komo.do/
 submitter: Tascok
 submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/moghtech/komodo
 support: https://github.com/moghtech/komodo/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-komodo/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-komodo/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-komodo/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-komodo/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-komodo/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-komodo/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-komodo/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-komodo/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-komodo/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-komodo/5.jpg
 releaseNotes: >-
   Komodo version 1.18.4 introduces support for resource templates that serve as starting points when creating new resources, enhancing workflow flexibility. It also adds container port display and linking features for easier navigation, along with improvements to environment variable handling, server statistics, and internal code refactoring to increase stability and consistency. Both Core and Periphery agents should be updated to ensure full compatibility.
 dependencies:

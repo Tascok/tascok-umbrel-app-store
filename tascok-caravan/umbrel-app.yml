@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-caravan
 name: Caravan
-tagline: A stateless coordinator for secure Bitcoin multisig wallets
+tagline: Um coordenador apátrida para carteiras multisig Bitcoin seguras
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-caravan/logo.png
 category: bitcoin
 version: "1.19.2"
 port: 8376
 description: >-
-  🏜️ Caravan is a stateless Bitcoin multisig coordinator for creating wallets, generating receive addresses, reviewing balances, constructing transactions, and coordinating signatures without handing custody of private keys to the application.
-  
-  
-  It supports common multisig workflows based on output descriptors and partially signed Bitcoin transactions, allowing participants to exchange wallet configurations, public keys, and signatures between separate devices or locations.
-  
-  
-  Caravan can work with supported hardware wallets and with manually imported or exported key and signature data. Blockchain information can be obtained from public providers such as mempool.space and Blockstream, or from a separately configured Bitcoin Core endpoint.
-  
-  
-  Wallet configuration files and recovery information must be backed up independently. Caravan is intentionally stateless and does not store the information required to reconstruct a multisig wallet on the Umbrel device.
+  🏜️ Caravan é um coordenador multisig de Bitcoin sem estado para criar carteiras, gerar endereços de recebimento, revisar saldos, construir transações e coordenar assinaturas sem entregar a custódia das chaves privadas ao aplicativo.
+
+
+  Ele suporta fluxos de trabalho multisig comuns baseados em descritores de saída e transações Bitcoin parcialmente assinadas, permitindo que os participantes troquem configurações de carteira, chaves públicas e assinaturas entre dispositivos ou locais separados.
+
+
+  O Caravan pode funcionar com carteiras de hardware suportadas e com chaves e dados de assinatura importados ou exportados manualmente. As informações do Blockchain podem ser obtidas de provedores públicos, como mempool.space e Blockstream, ou de um endpoint Bitcoin Core configurado separadamente.
+
+
+  Os arquivos de configuração da carteira e as informações de recuperação devem ter backup independente. O Caravan é intencionalmente apátrida e não armazena as informações necessárias para reconstruir uma carteira multisig no dispositivo Umbrel.
 developer: Caravan Bitcoin
 website: https://www.caravanmultisig.com
 submitter: Tascok
@@ -24,10 +24,10 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/caravan-bitcoin/caravan
 support: https://github.com/caravan-bitcoin/caravan/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-caravan/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-caravan/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-caravan/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-caravan/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-caravan/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-caravan/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-caravan/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-caravan/4.jpg
 releaseNotes: >-
   Initial Umbrel release based on Caravan Coordinator 1.19.2.
 dependencies: []

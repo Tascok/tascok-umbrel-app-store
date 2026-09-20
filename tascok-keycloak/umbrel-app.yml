@@ -1,28 +1,28 @@
 manifestVersion: 1
 id: tascok-keycloak
 name: Keycloak
-tagline: An Open Source Identity and Access Management
+tagline: Um gerenciamento de identidade e acesso de código aberto
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-keycloak/logo.png
 category: developer tools
 version: "26.2.4"
 port: 8711
 description: >-
-  🔐 Keycloak is an open source identity and access management solution that provides authentication and authorization services for modern applications and services. It allows developers and system administrators to delegate the responsibility of managing user identities, roles, and access permissions to a centralized platform, which simplifies the development and security processes of distributed systems.
+  🔐 Keycloak é uma solução de código aberto de gerenciamento de identidade e acesso que fornece serviços de autenticação e autorização para aplicativos e serviços modernos. Ele permite que desenvolvedores e administradores de sistemas deleguem a responsabilidade de gerenciar identidades de usuários, funções e permissões de acesso a uma plataforma centralizada, o que simplifica os processos de desenvolvimento e segurança de sistemas distribuídos.
 
 
-  At its core, Keycloak is designed to support modern security protocols such as OpenID Connect, OAuth 2.0, and SAML 2.0. These standards enable seamless integration with a wide range of web applications, APIs, and identity providers. One of the main features of Keycloak is its ability to offer single sign on. This means that users can log in once and gain access to multiple connected applications without having to authenticate again for each service. This improves the user experience and reduces the complexity of managing multiple login systems.
+  Basicamente, o Keycloak foi projetado para oferecer suporte a protocolos de segurança modernos, como OpenID Connect, OAuth 2.0 e SAML 2.0. Esses padrões permitem integração perfeita com uma ampla variedade de aplicativos web, APIs e provedores de identidade. Uma das principais características do Keycloak é a capacidade de oferecer login único. Isso significa que os usuários podem fazer login uma vez e obter acesso a vários aplicativos conectados sem precisar se autenticar novamente para cada serviço. Isso melhora a experiência do usuário e reduz a complexidade do gerenciamento de vários sistemas de login.
 
 
-  Keycloak also supports social login integration. This allows users to authenticate using their existing accounts from popular platforms such as Google or GitHub. Additionally, Keycloak offers two factor authentication, account recovery options, and detailed session management features to improve security.
+  Keycloak também suporta integração de login social. Isso permite que os usuários se autentiquem usando suas contas existentes em plataformas populares como Google ou GitHub. Além disso, Keycloak oferece autenticação de dois fatores, opções de recuperação de conta e recursos detalhados de gerenciamento de sessão para melhorar a segurança.
 
 
-  The platform includes an administrative console where administrators can create and manage user accounts, define roles and groups, configure identity providers, and monitor login events. Users can also access a self service account management portal where they can update their profile information, change passwords, and view login history.
+  A plataforma inclui um console administrativo onde os administradores podem criar e gerenciar contas de usuários, definir funções e grupos, configurar provedores de identidade e monitorar eventos de login. Os usuários também podem acessar um portal de gerenciamento de contas de autoatendimento, onde podem atualizar suas informações de perfil, alterar senhas e visualizar o histórico de login.
 
 
-  Another important aspect of Keycloak is its support for multi tenancy through a concept called realms. A realm is a separate space where configurations, users, and roles are isolated from others. This allows organizations to manage different environments or customer bases independently within the same Keycloak instance.
+  Outro aspecto importante do Keycloak é o suporte para multilocação por meio de um conceito chamado reinos. Um domínio é um espaço separado onde configurações, usuários e funções são isolados de outros. Isso permite que as organizações gerenciem diferentes ambientes ou bases de clientes de forma independente na mesma instância do Keycloak.
 
 
-  Overall, Keycloak helps developers and organizations secure their applications by centralizing identity management. It removes the need to build and maintain custom login systems and ensures consistent and secure user authentication across different services.
+  No geral, o Keycloak ajuda desenvolvedores e organizações a proteger seus aplicativos centralizando o gerenciamento de identidades. Ele elimina a necessidade de criar e manter sistemas de login personalizados e garante autenticação de usuário consistente e segura em diferentes serviços.
 developer: Keycloak
 website: https://www.keycloak.org/
 submitter: Tascok
@@ -30,12 +30,12 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/keycloak/keycloak
 support: https://github.com/keycloak/keycloak/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-keycloak/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-keycloak/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-keycloak/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-keycloak/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-keycloak/5.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-keycloak/6.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-keycloak/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-keycloak/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-keycloak/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-keycloak/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-keycloak/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-keycloak/6.jpg
 releaseNotes: >-
   This update includes important bug fixes and enhancements such as improved Podman documentation and better IPv6 support. It addresses issues with login errors, token expiration, UI performance, and containerized deployments. Reviewing the migration guide before upgrading is recommended.
 dependencies:

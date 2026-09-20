@@ -3,25 +3,25 @@ id: tascok-firefox
 category: networking
 name: Firefox
 version: "139.0.4"
-tagline: A free and open-source web browser
+tagline: Um navegador gratuito e de código aberto
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-firefox/logo.png
 description: >-
-  ⚠️ This app was removed from the official Umbrel App Store because it was disabled as there are no more updates that work without HTTPS.
-  
-  
-  Get the browser that protects what is important.
+  ⚠️ Este aplicativo foi removido da App Store oficial da Umbrel porque foi desativado porque não há mais atualizações que funcionem sem HTTPS.
 
 
-  No shady privacy policies or back doors for advertisers. Just a lightning fast browser that does not sell you out.
+  Obtenha o navegador que protege o que é importante.
 
 
-  Get all the speed and tools with none of the invasions of privacy. Firefox Browser collects so little data about you, we do not even require your email address to download. That is because unlike other browsers, we have no financial stake in following you around the web.
+  Nenhuma política de privacidade duvidosa ou portas secretas para os anunciantes. Apenas um navegador extremamente rápido que não o vende.
 
 
-  Firefox is for everyone:
+  Obtenha toda a velocidade e ferramentas sem nenhuma invasão de privacidade. O navegador Firefox coleta tão poucos dados sobre você que nem precisamos do seu endereço de e-mail para fazer o download. Isso ocorre porque, diferentemente de outros navegadores, não temos interesse financeiro em segui-lo pela web.
 
 
-  Available in over 90 languages, and compatible with Windows, Mac and Linux machines, Firefox works no matter what you are using or where you are. Make sure your operating system is up to date for the best experience.
+  O Firefox é para todos:
+
+
+  Disponível em mais de 90 idiomas e compatível com máquinas Windows, Mac e Linux, o Firefox funciona independentemente do que você esteja usando ou de onde esteja. Certifique-se de que seu sistema operacional esteja atualizado para obter a melhor experiência.
 releaseNotes: >-
   This release of Firefox brings multiple bug fixes and improvements:
 
@@ -41,9 +41,9 @@ repo: https://support.mozilla.org/en-US/contribute
 support: https://support.mozilla.org/en-US/products/firefox
 port: 3434
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-firefox/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-firefox/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-firefox/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-firefox/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-firefox/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-firefox/3.jpg
 path: ""
 deterministicPassword: false
 torOnly: false

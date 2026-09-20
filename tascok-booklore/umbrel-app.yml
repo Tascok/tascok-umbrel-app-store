@@ -1,40 +1,37 @@
 manifestVersion: 1
 id: tascok-booklore
 name: BookLore
-tagline: An app for managing and reading books
+tagline: Um aplicativo para gerenciar e ler livros
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-booklore/logo.png
 category: files & productivity
 version: "1.2.1"
 port: 6060
 description: >-
-  📖 BookLore is a modern web application created to transform the way digital libraries are managed and experienced. It is designed for readers who want to bring order and beauty to their collection of books and comics while also making them instantly accessible. Instead of leaving files scattered across folders, BookLore gathers them into a central library that can be explored and enjoyed directly through the browser. It provides a seamless reading environment where organization, discovery, and enjoyment flow together.
+  📖 BookLore é um aplicativo web moderno criado para transformar a forma como as bibliotecas digitais são gerenciadas e experimentadas. Ele foi projetado para leitores que desejam trazer ordem e beleza à sua coleção de livros e quadrinhos, ao mesmo tempo que os torna instantaneamente acessíveis. Em vez de deixar os arquivos espalhados em pastas, o BookLore os reúne em uma biblioteca central que pode ser explorada e aproveitada diretamente pelo navegador. Ele fornece um ambiente de leitura contínuo onde organização, descoberta e diversão fluem juntas.
 
 
-  One of the most defining features of BookLore is its ability to automatically retrieve detailed information about each book. When a new file is added, the application fetches metadata such as title, author, description, and cover art, ensuring that the library always looks complete and polished. This automation removes the tedious task of entering details by hand and makes the collection feel like a professional archive. Users can browse their books with confidence that the information they see is accurate and visually appealing.
+  Um dos recursos mais marcantes do BookLore é a capacidade de recuperar automaticamente informações detalhadas sobre cada livro. Quando um novo arquivo é adicionado, o aplicativo busca metadados como título, autor, descrição e capa, garantindo que a biblioteca sempre pareça completa e refinada. Essa automação elimina a tediosa tarefa de inserir detalhes manualmente e faz com que a coleção pareça um arquivo profissional. Os usuários podem navegar em seus livros com a confiança de que as informações que veem são precisas e visualmente atraentes.
 
 
-  Organization is at the heart of the experience. Books can be sorted and displayed in a variety of ways, including by library, shelf, genre, author, or even mood. This flexibility allows each reader to create a system that matches personal habits and preferences, whether the goal is to maintain a precise catalog or to simply group titles in a way that feels natural. The interface encourages exploration and makes it easy to rediscover forgotten gems within the collection.
+  A organização está no centro da experiência. Os livros podem ser classificados e exibidos de diversas maneiras, inclusive por biblioteca, estante, gênero, autor ou até mesmo humor. Essa flexibilidade permite que cada leitor crie um sistema que corresponda a hábitos e preferências pessoais, seja o objetivo manter um catálogo preciso ou simplesmente agrupar títulos de uma forma que pareça natural. A interface incentiva a exploração e facilita a redescoberta de joias esquecidas na coleção.
 
 
-  Reading itself is made enjoyable through the integrated BookLore reader, which supports popular formats such as PDF, EPUB, and CBZ. The reader is not only functional but also customizable, allowing themes and layouts to be adjusted so that each session feels comfortable. Whether someone prefers dark mode for nighttime reading or a lighter background during the day, the application adapts to the needs of the reader. This level of care ensures that the act of reading is always pleasant, no matter the device or environment.
+  A leitura em si é divertida por meio do leitor BookLore integrado, que suporta formatos populares como PDF, EPUB e CBZ. O leitor não é apenas funcional, mas também personalizável, permitindo ajustar temas e layouts para que cada sessão seja confortável. Quer alguém prefira o modo escuro para leitura noturna ou um fundo mais claro durante o dia, o aplicativo se adapta às necessidades do leitor. Esse nível de cuidado garante que o ato de ler seja sempre prazeroso, não importa o aparelho ou ambiente.
 
 
-  BookLore is also built for sharing and collaboration. It supports multiple users with individually assigned permissions, making it possible to create a communal library without giving up control. Some users can be allowed to upload and edit entries, while others may only be able to read or download. This approach makes the application suitable for families, reading groups, or anyone who wants to curate a shared space for books while maintaining order and consistency.
+  BookLore também foi desenvolvido para compartilhamento e colaboração. Ele oferece suporte a vários usuários com permissões atribuídas individualmente, possibilitando a criação de uma biblioteca comunitária sem abrir mão do controle. Alguns usuários podem ter permissão para fazer upload e editar entradas, enquanto outros podem apenas ler ou fazer download. Essa abordagem torna o aplicativo adequado para famílias, grupos de leitura ou qualquer pessoa que queira fazer a curadoria de um espaço compartilhado para livros, mantendo a ordem e a consistência.
 
 
-  Another powerful element is the way BookLore integrates with external reading tools. Through support for OPDS, it can synchronize with many popular reader applications, allowing books to be accessed beyond the browser while still being part of the same collection. This flexibility ensures that the library feels connected and portable, no matter which reading environment is preferred.
+  Outro elemento poderoso é a forma como o BookLore se integra a ferramentas de leitura externas. Através do suporte para OPDS, ele pode sincronizar com muitos aplicativos de leitura populares, permitindo que os livros sejam acessados ​​fora do navegador e ainda façam parte da mesma coleção. Essa flexibilidade garante que a biblioteca pareça conectada e portátil, independentemente do ambiente de leitura preferido.
 
 
-  Adding new titles is effortless thanks to the BookDrop feature. Instead of manually managing file names and directories, users can simply place a book into a designated space, and BookLore automatically processes it, retrieves the correct metadata, and adds it to the collection. The process is smooth and requires almost no interaction, transforming what is usually a chore into a delightfully simple act.
+  Adicionar novos títulos é fácil graças ao recurso BookDrop. Em vez de gerenciar manualmente nomes de arquivos e diretórios, os usuários podem simplesmente colocar um livro em um espaço designado e o BookLore o processa automaticamente, recupera os metadados corretos e os adiciona à coleção. O processo é tranquilo e quase não requer interação, transformando o que normalmente é uma tarefa árdua em um ato deliciosamente simples.
 
 
-  The application also makes it easy to share individual books directly with others. With built in email functionality, a title can be sent straight to a recipient, which is especially useful for sending documents or transferring books to dedicated e reading devices such as a Kindle. This convenience bridges the gap between managing a collection and actually putting the books into the hands of readers.
+  O aplicativo também facilita o compartilhamento de livros individuais diretamente com outras pessoas. Com a funcionalidade de e-mail integrada, um título pode ser enviado diretamente a um destinatário, o que é especialmente útil para enviar documentos ou transferir livros para dispositivos de leitura eletrônica dedicados, como o Kindle. Essa conveniência preenche a lacuna entre o gerenciamento de uma coleção e a colocação efetiva dos livros nas mãos dos leitores.
 
 
-  The design of the interface is another strength of BookLore. It is responsive, intuitive, and built to adapt to different screen sizes, ensuring that browsing the library is equally pleasant on a phone, tablet, or desktop. The layout emphasizes clarity and usability, encouraging readers to engage with their collection in a way that feels natural and inviting.
-
-
-  At its core, BookLore is more than just a management tool. It is a thoughtful environment for digital reading that combines organization, automation, sharing, and customization into a single experience. By bringing together the functional needs of cataloging with the emotional enjoyment of reading, it helps transform a scattered set of files into a living, evolving library that is both beautiful and deeply personal.
+  O design da interface é outro ponto forte do BookLore. É responsivo, intuitivo e construído para se adaptar a diferentes tamanhos de tela, garantindo que a navegação na biblioteca seja igualmente agradável em um telefone, tablet ou desktop. O layout enfatiza a clareza e a usabilidade, incentivando os leitores a se envolverem com sua coleção de uma forma natural e convidativa.Em sua essência, BookLore é mais do que apenas uma ferramenta de gerenciamento. É um ambiente pensado para leitura digital que combina organização, automação, compartilhamento e personalização em uma única experiência. Ao reunir as necessidades funcionais da catalogação com o prazer emocional da leitura, ajuda a transformar um conjunto disperso de arquivos numa biblioteca viva e em evolução que é ao mesmo tempo bela e profundamente pessoal.
 developer: BookLore
 website: https://demo.booklore.dev/login
 submitter: Tascok
@@ -42,12 +39,12 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/booklore-app/booklore
 support: https://github.com/booklore-app/booklore/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-booklore/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-booklore/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-booklore/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-booklore/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-booklore/5.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-booklore/6.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-booklore/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-booklore/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-booklore/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-booklore/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-booklore/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-booklore/6.jpg
 releaseNotes: >-
   The v1.2.1 update for Booklore fixes critical issues, including database lockouts caused by duplicate files, and improves file permission management in Docker. Users can now set USER_ID and GROUP_ID to ensure proper ownership of files, preventing previous permission problems.
 

@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-wizarr
 name: Wizarr
-tagline: An advanced invitation and management system for media servers
+tagline: Um sistema avançado de convite e gerenciamento para servidores de mídia
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wizarr/logo.png
 category: media
 version: "2025.10.4"
 port: 5690
 description: >-
-  🧙 Wizarr is an application created to streamline the process of managing and onboarding users for media servers. It provides a centralized system that allows administrators to generate invitation links, which can be shared with new users to grant them access to the server. This process eliminates the need for manual setup and reduces administrative overhead, making it easier to manage multiple users efficiently. The application ensures that every new user receives guidance through the setup process, helping them configure their clients and connect to the server in a straightforward manner.
+  🧙 Wizarr é um aplicativo criado para agilizar o processo de gerenciamento e integração de usuários em servidores de mídia. Ele fornece um sistema centralizado que permite aos administradores gerar links de convite, que podem ser compartilhados com novos usuários para conceder-lhes acesso ao servidor. Esse processo elimina a necessidade de configuração manual e reduz a sobrecarga administrativa, facilitando o gerenciamento eficiente de vários usuários. O aplicativo garante que cada novo usuário receba orientação durante o processo de configuração, ajudando-o a configurar seus clientes e conectar-se ao servidor de maneira direta.
 
 
-  The app also offers a system for tracking invitations and user activity, giving administrators detailed insights into who has joined, when they joined, and how they interact with the server. This tracking allows for better management of access permissions, including options for temporary memberships or restricted access levels. By monitoring activity and requests, Wizarr ensures that the server remains organized and that users receive the appropriate level of access and support.
+  O aplicativo também oferece um sistema para rastrear convites e atividades do usuário, fornecendo aos administradores informações detalhadas sobre quem ingressou, quando ingressou e como interage com o servidor. Esse rastreamento permite um melhor gerenciamento das permissões de acesso, incluindo opções para associações temporárias ou níveis de acesso restritos. Ao monitorar atividades e solicitações, o Wizarr garante que o servidor permaneça organizado e que os usuários recebam o nível adequado de acesso e suporte.
 
 
-  In addition, Wizarr integrates with various platforms and communication tools to automate certain tasks, such as sending notifications or coordinating user onboarding. It supports a guided onboarding experience, providing clear instructions and steps to ensure that users can navigate the server environment without confusion. This reduces support requests and makes the user experience smoother and more intuitive.
+  Além disso, o Wizarr se integra a diversas plataformas e ferramentas de comunicação para automatizar determinadas tarefas, como o envio de notificações ou a coordenação da integração do usuário. Ele oferece suporte a uma experiência de integração guiada, fornecendo instruções e etapas claras para garantir que os usuários possam navegar no ambiente do servidor sem confusão. Isso reduz as solicitações de suporte e torna a experiência do usuário mais tranquila e intuitiva.
 
 
-  Overall, Wizarr is focused on making user management seamless, efficient, and transparent. It provides administrators with the tools to monitor interactions, handle requests, and maintain control over access, while giving users an easy and structured way to join and use the server. By combining invitation management, activity tracking, and automated guidance, Wizarr enhances the overall server experience for both administrators and users.
+  No geral, o Wizarr está focado em tornar o gerenciamento de usuários contínuo, eficiente e transparente. Ele fornece aos administradores as ferramentas para monitorar interações, lidar com solicitações e manter o controle sobre o acesso, ao mesmo tempo que oferece aos usuários uma maneira fácil e estruturada de ingressar e usar o servidor. Ao combinar gerenciamento de convites, rastreamento de atividades e orientação automatizada, o Wizarr aprimora a experiência geral do servidor para administradores e usuários.
 developer: Wizarr
 website: https://wizarr.org/
 submitter: Tascok
@@ -24,17 +24,17 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/wizarrrr/wizarr
 support: https://github.com/wizarrrr/wizarr/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wizarr/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wizarr/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wizarr/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wizarr/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wizarr/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wizarr/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wizarr/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wizarr/4.jpg
 releaseNotes: >-
   Version 2025.10.4 introduces major improvements to activity monitoring, historical data import, and user management. 
-  
-  
+
+
   Performance has been enhanced with optimized SQLite handling, better logging, and a refined production setup. 
-  
-  
+
+
   The release also includes numerous bug fixes, a revamped setup wizard, and extensive code cleanup.
 dependencies: []
 path: ""

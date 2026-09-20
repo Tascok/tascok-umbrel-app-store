@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-cobalt
 name: Cobalt
-tagline: A media downloader that doesn't piss you off
+tagline: Um downloader de mídia que não te irrita
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cobalt/logo.png
 category: media
 version: "11.5"
 port: 9009
 description: >-
-  Cobalt is a powerful and intuitive media downloader built to simplify the process of saving your favorite content from the web. Designed for users who want to enjoy their media without the interruptions of ads, trackers, or paywalls, Cobalt offers a streamlined experience. Whether you're downloading videos, music, images, or other types of media, Cobalt acts as a proxy that fetches content directly from its source, ensuring a fast and seamless process.
+  Cobalt é um downloader de mídia poderoso e intuitivo criado para simplificar o processo de salvar seu conteúdo favorito da web. Projetado para usuários que desejam aproveitar sua mídia sem interrupções de anúncios, rastreadores ou acesso pago, o Cobalt oferece uma experiência simplificada. Esteja você baixando vídeos, músicas, imagens ou outros tipos de mídia, o Cobalt atua como um proxy que busca conteúdo diretamente de sua fonte, garantindo um processo rápido e contínuo.
 
 
-  What sets Cobalt apart is its commitment to user privacy and freedom. The tool doesn’t cache content, so you’re always downloading directly from the original source. It also avoids unnecessary distractions, like ads or third-party interference, letting you enjoy a cleaner, faster, and more reliable media retrieval process.
+  O que diferencia o Cobalt é o seu compromisso com a privacidade e a liberdade do usuário. A ferramenta não armazena conteúdo em cache, então você sempre baixa diretamente da fonte original. Também evita distrações desnecessárias, como anúncios ou interferência de terceiros, permitindo que você desfrute de um processo de recuperação de mídia mais limpo, rápido e confiável.
 
 
-  Cobalt is ideal for anyone who values simplicity and control over their media downloads. With its easy-to-use interface and efficient functionality, you can quickly retrieve and store content without the usual hassle. Whether you’re an enthusiast collecting media or someone simply trying to access content without restrictions, Cobalt makes it easy to download what you love, whenever you want.
+  O Cobalt é ideal para quem valoriza a simplicidade e o controle sobre os downloads de mídia. Com sua interface fácil de usar e funcionalidade eficiente, você pode recuperar e armazenar conteúdo rapidamente sem os problemas habituais. Quer você seja um entusiasta da coleta de mídia ou alguém simplesmente tentando acessar conteúdo sem restrições, o Cobalt facilita o download do que você ama, quando quiser.
 
 
-  ⚠️ To ensure proper functionality, go to /settings/instances and set the processing server to http://umbrel.local:9000.
+  ⚠️ Para garantir a funcionalidade adequada, acesse /settings/instances e configure o servidor de processamento para http://umbrel.local:9000.
 developer: imputnet
 website: https://cobalt.tools/
 submitter: Tascok
@@ -24,11 +24,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/imputnet/cobalt
 support: https://github.com/imputnet/cobalt/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cobalt/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cobalt/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cobalt/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cobalt/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cobalt/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cobalt/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cobalt/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cobalt/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cobalt/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cobalt/5.jpg
 releaseNotes: >-
   This version adds a warning about the deprecation of API_EXTERNAL_PROXY in api/env and updates youtubei.js to version 15.0.1.
 dependencies:

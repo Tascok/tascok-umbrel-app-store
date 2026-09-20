@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-kodi
 name: Kodi Headless
-tagline: A simple way to sync and stream with Kodi
+tagline: Uma maneira simples de sincronizar e transmitir com Kodi
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-kodi/logo.png
 category: media
 version: "21.1"
 port: 8585
 description: >-
-  Kodi Headless is a version of Kodi that operates without a graphical user interface. It is primarily used when Kodi is intended to function as a central media server, running in the background without the need for a screen or direct user interaction. This means Kodi can automatically update and manage the media library without requiring the user to interact with the usual visual interface.
+  Kodi Headless é uma versão do Kodi que opera sem interface gráfica de usuário. É usado principalmente quando o Kodi pretende funcionar como um servidor de mídia central, rodando em segundo plano sem a necessidade de uma tela ou interação direta do usuário. Isso significa que o Kodi pode atualizar e gerenciar automaticamente a biblioteca de mídia sem exigir que o usuário interaja com a interface visual usual.
 
 
-  This setup is especially useful for users who want to make their media collection accessible on multiple devices. By using Kodi Headless, a central database for the media library can be utilized, which can be accessed by multiple Kodi clients simultaneously. This makes it easier to manage the media library and keep it synchronized across different devices, as all clients display the same library.
+  Esta configuração é especialmente útil para usuários que desejam tornar sua coleção de mídia acessível em vários dispositivos. Ao usar o Kodi Headless, pode ser utilizado um banco de dados central para a biblioteca de mídia, que pode ser acessado por vários clientes Kodi simultaneamente. Isso facilita o gerenciamento da biblioteca de mídia e a manutenção da sincronização entre diferentes dispositivos, pois todos os clientes exibem a mesma biblioteca.
 
 
-  Another advantage of Kodi Headless is its lower resource consumption compared to the standard Kodi installation with a graphical interface. Since no interface needs to be rendered, Kodi Headless is particularly resource-efficient and works well on low-power devices like the Raspberry Pi or in Docker containers. This allows Kodi to serve as a backend server that streams media to other devices on the network, while the user interface is rendered on those devices.
+  Outra vantagem do Kodi Headless é o menor consumo de recursos em comparação com a instalação padrão do Kodi com interface gráfica. Como nenhuma interface precisa ser renderizada, o Kodi Headless é particularmente eficiente em termos de recursos e funciona bem em dispositivos de baixo consumo de energia, como o Raspberry Pi ou em contêineres Docker. Isso permite que o Kodi atue como um servidor back-end que transmite mídia para outros dispositivos na rede, enquanto a interface do usuário é renderizada nesses dispositivos.
 
 
-  Overall, Kodi Headless is an ideal solution for users who want centralized media management and distribution without constantly interacting with the graphical user interface of Kodi.
+  No geral, o Kodi Headless é uma solução ideal para usuários que desejam gerenciamento e distribuição centralizados de mídia sem interagir constantemente com a interface gráfica do usuário do Kodi.
 developer: Kodi Foundation
 website: https://kodi.tv/
 submitter: Tascok
@@ -24,9 +24,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/matthuisman/docker-kodi-headless
 support: https://github.com/matthuisman/docker-kodi-headless/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-kodi/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-kodi/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-kodi/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-kodi/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-kodi/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-kodi/3.jpg
 releaseNotes: >-
   The recent updates for Kodi include numerous bug fixes, performance improvements, and feature enhancements. Key changes include fixes for heap-user-after-free issues, improved playback performance, enhanced support for various video formats, and several bug fixes related to PVR, video player, and subtitle handling. Additionally, multiple platform-specific issues were addressed, such as improvements for Android, MacOS, Linux, and Xbox, along with updates to the web interface and several backported features for better compatibility and stability.
 dependencies:

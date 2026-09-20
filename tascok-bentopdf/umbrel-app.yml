@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-bentopdf
 name: BentoPDF
-tagline: A Privacy First PDF Toolkit
+tagline: Um kit de ferramentas PDF para privacidade em primeiro lugar
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-bentopdf/logo.png
 category: files & productivity
 version: "1.0.0"
 port: 8730
 description: >-
-  📄 BentoPDF is an advanced privacy-oriented application designed to give users complete control over their PDF documents directly within the browser. It eliminates the need for external uploads or online conversion services, ensuring that every action takes place locally and confidentially. This focus on privacy makes BentoPDF a secure alternative to traditional cloud-based PDF tools.
+  📄 BentoPDF é um aplicativo avançado voltado para a privacidade, projetado para fornecer aos usuários controle total sobre seus documentos PDF diretamente no navegador. Elimina a necessidade de uploads externos ou serviços de conversão online, garantindo que cada ação ocorra localmente e de forma confidencial. Esse foco na privacidade torna o BentoPDF uma alternativa segura às ferramentas tradicionais de PDF baseadas em nuvem.
 
 
-  At its core, BentoPDF provides an extensive set of features for working with digital documents. Users can merge multiple PDFs into a single file, split them into separate sections, or reorganize individual pages in just a few clicks. The application allows rotating, duplicating, or removing pages with ease, offering full flexibility when editing complex files. Visual adjustments such as background color changes, watermarks, headers, and footers can also be applied to enhance the appearance of professional documents.
+  Basicamente, o BentoPDF oferece um amplo conjunto de recursos para trabalhar com documentos digitais. Os usuários podem mesclar vários PDFs em um único arquivo, dividi-los em seções separadas ou reorganizar páginas individuais com apenas alguns cliques. O aplicativo permite girar, duplicar ou remover páginas com facilidade, oferecendo total flexibilidade na edição de arquivos complexos. Ajustes visuais como alterações na cor de fundo, marcas d'água, cabeçalhos e rodapés também podem ser aplicados para melhorar a aparência de documentos profissionais.
 
 
-  BentoPDF includes a robust conversion engine that supports transforming images into PDFs and exporting individual pages back into common image formats. It also enables file compression to optimize storage space without compromising quality. For document security, users can apply passwords, encrypt sensitive information, or remove existing restrictions to regain editing access. These tools make it suitable for both personal use and professional document preparation.
+  BentoPDF inclui um mecanismo de conversão robusto que suporta a transformação de imagens em PDFs e a exportação de páginas individuais de volta para formatos de imagem comuns. Também permite a compactação de arquivos para otimizar o espaço de armazenamento sem comprometer a qualidade. Para segurança dos documentos, os usuários podem aplicar senhas, criptografar informações confidenciais ou remover restrições existentes para recuperar o acesso de edição. Essas ferramentas o tornam adequado tanto para uso pessoal quanto para preparação profissional de documentos.
 
 
-  Another highlight is the integrated OCR functionality, which scans and recognizes text from image-based PDFs, turning them into fully searchable documents. Metadata editing options let users refine document properties and improve organization. With all these capabilities combined, BentoPDF offers a comprehensive, user-friendly environment for creating, editing, and managing PDFs efficiently — all while maintaining the highest level of privacy and control.
+  Outro destaque é a funcionalidade OCR integrada, que digitaliza e reconhece texto de PDFs baseados em imagens, transformando-os em documentos totalmente pesquisáveis. As opções de edição de metadados permitem aos usuários refinar as propriedades do documento e melhorar a organização. Com todos esses recursos combinados, o BentoPDF oferece um ambiente abrangente e fácil de usar para criar, editar e gerenciar PDFs com eficiência — tudo isso mantendo o mais alto nível de privacidade e controle.
 developer: BentoPDF
 website: https://bentopdf.com/
 submitter: Tascok
@@ -24,10 +24,10 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/alam00000/bentopdf
 support: https://github.com/alam00000/bentopdf/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-bentopdf/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-bentopdf/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-bentopdf/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-bentopdf/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-bentopdf/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-bentopdf/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-bentopdf/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-bentopdf/4.jpg
 releaseNotes: >-
   There is currently no versioning implemented, which is why changelogs are not available.
 dependencies: []

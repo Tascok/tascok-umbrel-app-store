@@ -1,19 +1,19 @@
 manifestVersion: 1
 id: tascok-beaverhabits
 name: Beaver Habit Tracker
-tagline: A self-hosted habit tracking app without "Goals"
+tagline: Um aplicativo de rastreamento de hábitos auto-hospedado sem "Metas"
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-beaverhabits/logo.png
 category: files & productivity
 version: "0.6.2"
 port: 8732
 description: >-
-  🦫 BeaverHabits is a habit tracking app designed to support consistency and mindfulness in daily routines. Instead of pushing users toward fixed goals or productivity metrics, it encourages a gentle, repetition-based approach to habit formation. The app centers around the idea that long-term change comes from showing up every day, even if progress is gradual. It allows users to track a wide range of habits - whether simple daily tasks, wellness activities, or creative practices and gives a clear visual overview of what has been completed and what still needs attention.
+  🦫 BeaverHabits é um aplicativo de rastreamento de hábitos projetado para apoiar a consistência e a atenção plena nas rotinas diárias. Em vez de levar os usuários a metas fixas ou métricas de produtividade, incentiva uma abordagem suave e baseada na repetição para a formação de hábitos. O aplicativo gira em torno da ideia de que mudanças de longo prazo surgem todos os dias, mesmo que o progresso seja gradual. Ele permite que os usuários monitorem uma ampla gama de hábitos – sejam tarefas diárias simples, atividades de bem-estar ou práticas criativas e fornece uma visão geral clara do que foi concluído e do que ainda precisa de atenção.
 
 
-  Users can define custom schedules for each habit, such as specific days of the week or intervals like every three days. This flexibility makes it easy to tailor the experience to individual rhythms and preferences. The interface is clean, focused, and free from distractions, placing emphasis on the actual act of tracking rather than overwhelming users with stats or gamification. Over time, users can spot patterns, maintain streaks, and develop a deeper awareness of their behavior.
+  Os usuários podem definir horários personalizados para cada hábito, como dias específicos da semana ou intervalos como a cada três dias. Essa flexibilidade facilita a adaptação da experiência aos ritmos e preferências individuais. A interface é limpa, focada e livre de distrações, enfatizando o ato real de rastreamento, em vez de sobrecarregar os usuários com estatísticas ou gamificação. Com o tempo, os usuários podem detectar padrões, manter sequências e desenvolver uma consciência mais profunda de seu comportamento.
 
 
-  BeaverHabits is ideal for anyone looking to build structure, maintain balance, or bring more intention into their daily life. Whether you're trying to drink more water, meditate regularly, or simply remember to stretch, it provides a simple and effective way to stay on track.
+  BeaverHabits é ideal para quem busca construir estrutura, manter o equilíbrio ou trazer mais intenção para sua vida diária. Esteja você tentando beber mais água, meditar regularmente ou simplesmente lembrar de se alongar, esta é uma maneira simples e eficaz de se manter no caminho certo.
 developer: Henry Zhu
 website: https://beaverhabits.com/
 submitter: Tascok
@@ -21,9 +21,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/daya0576/beaverhabits
 support: https://github.com/daya0576/beaverhabits/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-beaverhabits/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-beaverhabits/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-beaverhabits/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-beaverhabits/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-beaverhabits/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-beaverhabits/3.jpg
 releaseNotes: >-
   Version 0.6.2 introduces light mode, support for custom CSS themes, and improvements to the API, including new options for periods and tags. It also fixes a PWA startup issue and resolves a potential memory leak.
 dependencies:

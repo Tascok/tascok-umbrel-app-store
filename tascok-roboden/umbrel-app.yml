@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-roboden
 name: Roboden
-tagline: An autonomous robotic strategy game
+tagline: Um jogo de estratégia robótico autônomo
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/master/denny-roboden/logo.png
 category: gaming
 version: "9a5d355"
 port: 8375
 description: >-
-  🤖 Roboden is an indirect-control real-time strategy game where autonomous robotic colonies compete for resources, territory, and survival. Instead of commanding every unit individually, you define priorities and strategies while your drones independently gather materials, construct buildings, evolve, defend the colony, and attack opposing forces.
+  🤖 Roboden é um jogo de estratégia em tempo real com controle indireto, onde colônias robóticas autônomas competem por recursos, território e sobrevivência. Em vez de comandar cada unidade individualmente, você define prioridades e estratégias enquanto seus drones coletam materiais de forma independente, constroem edifícios, evoluem, defendem a colônia e atacam as forças opostas.
 
 
-  Each match develops differently depending on the selected game mode, map, colony configuration, available resources, and the decisions you make. Experiment with different colony cores, unit combinations, upgrades, and tactical approaches to build an efficient robotic ecosystem capable of adapting to changing battlefield conditions.
+  Cada partida se desenvolve de forma diferente dependendo do modo de jogo selecionado, mapa, configuração da colônia, recursos disponíveis e decisões que você toma. Experimente diferentes núcleos de colônias, combinações de unidades, atualizações e abordagens táticas para construir um ecossistema robótico eficiente, capaz de se adaptar às mudanças nas condições do campo de batalha.
 
 
-  Roboden includes several game modes, procedurally generated scenarios, multiple difficulty levels, colony customization, achievements, and support for keyboard, touch, and compatible game controllers. The minimalist visual style keeps the battlefield readable even when large numbers of units are active at the same time.
+  Roboden inclui vários modos de jogo, cenários gerados processualmente, vários níveis de dificuldade, personalização de colônias, conquistas e suporte para teclado, toque e controladores de jogo compatíveis. O estilo visual minimalista mantém o campo de batalha legível mesmo quando um grande número de unidades estão ativas ao mesmo tempo.
 
 
-  💡 This Umbrel package runs the official WebAssembly version locally through your browser. Game progress and settings are stored in the browser profile rather than on the Umbrel device. Clearing browser data or opening the game from another browser may therefore result in a separate save. A Chromium-based browser is recommended for the best performance.
+  💡 Este pacote Umbrel executa a versão oficial do WebAssembly localmente através do seu navegador. O progresso e as configurações do jogo são armazenados no perfil do navegador e não no dispositivo Umbrel. Limpar os dados do navegador ou abrir o jogo em outro navegador pode, portanto, resultar em um salvamento separado. Um navegador baseado em Chromium é recomendado para obter o melhor desempenho.
 developer: quasilyte
 website: https://quasilyte.itch.io/roboden
 submitter: Tascok
@@ -24,10 +24,10 @@ submission: https://github.com/dennysubke/dennys-umbrel-app-store/tree/master/ta
 repo: https://github.com/quasilyte/roboden-game
 support: https://github.com/quasilyte/roboden-game/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/master/denny-roboden/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/master/denny-roboden/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/master/denny-roboden/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/master/denny-roboden/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/master/denny-roboden/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/master/denny-roboden/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/master/denny-roboden/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/master/denny-roboden/4.jpg
 releaseNotes: >-
   Initial Umbrel release based on upstream commit 9a5d355.
 dependencies: []

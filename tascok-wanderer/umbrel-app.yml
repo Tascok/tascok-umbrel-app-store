@@ -1,19 +1,19 @@
 manifestVersion: 1
 id: tascok-wanderer
 name: Wanderer
-tagline: A self-hosted trail database
+tagline: Um banco de dados de trilhas auto-hospedado
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wanderer/logo.png
 category: files & productivity
 version: "0.17.0"
 port: 3111
 description: >-
-  🗺️ Wanderer is a self-hosted, open-source platform designed for outdoor enthusiasts who want to manage, explore, and share hiking and biking routes on their own terms. It provides a clean and modern interface for uploading GPX files, drawing new routes on an interactive map, and organizing them with detailed metadata such as difficulty, duration, and elevation gain. Wanderer supports full-text search and powerful filtering to help users find exactly the route they are looking for based on various criteria like region, length, or type of activity.
+  🗺️ Wanderer é uma plataforma auto-hospedada e de código aberto projetada para entusiastas de atividades ao ar livre que desejam gerenciar, explorar e compartilhar rotas de caminhada e ciclismo em seus próprios termos. Ele fornece uma interface limpa e moderna para fazer upload de arquivos GPX, desenhar novas rotas em um mapa interativo e organizá-las com metadados detalhados, como dificuldade, duração e ganho de elevação. O Wanderer suporta pesquisa de texto completo e filtragem poderosa para ajudar os usuários a encontrar exatamente a rota que procuram com base em vários critérios, como região, duração ou tipo de atividade.
 
 
-  The app places a strong emphasis on user privacy and data ownership, offering a fully offline experience that can be run on your own server without any third-party involvement. It uses open map layers from providers like OpenStreetMap and allows for GPX export so routes can be used with common navigation devices.
+  O aplicativo dá grande ênfase à privacidade do usuário e à propriedade dos dados, oferecendo uma experiência totalmente offline que pode ser executada em seu próprio servidor sem qualquer envolvimento de terceiros. Ele usa camadas de mapas abertas de provedores como OpenStreetMap e permite a exportação GPX para que as rotas possam ser usadas com dispositivos de navegação comuns.
 
 
-  Wanderer is especially popular among people who enjoy organizing their personal collection of trails or sharing curated outdoor experiences with a group, club, or local community. It is easy to deploy on self-hosting platforms such as YunoHost and supports collaborative features that make it useful for small teams or families planning outdoor activities together. Its clean design, strong focus on privacy, and independence from commercial platforms make it an ideal solution for anyone who values control over their outdoor data.
+  O Wanderer é especialmente popular entre pessoas que gostam de organizar sua coleção pessoal de trilhas ou de compartilhar experiências ao ar livre com um grupo, clube ou comunidade local. É fácil de implantar em plataformas de auto-hospedagem, como YunoHost, e oferece suporte a recursos colaborativos que o tornam útil para pequenas equipes ou famílias que planejam atividades ao ar livre juntas. Seu design limpo, forte foco na privacidade e independência de plataformas comerciais fazem dele uma solução ideal para quem valoriza o controle sobre seus dados externos.
 developer: Flomp
 website: https://wanderer.to/
 submitter: Tascok
@@ -21,13 +21,13 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/Flomp/wanderer
 support: https://github.com/Flomp/wanderer/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wanderer/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wanderer/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wanderer/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wanderer/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wanderer/5.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wanderer/6.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wanderer/7.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wanderer/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wanderer/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wanderer/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wanderer/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wanderer/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wanderer/6.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wanderer/7.jpg
 releaseNotes: >-
   Version 0.17.0 of Wanderer brings improved performance when displaying many trails on the map and now recalculates elevation data on import for more accurate stats. It also fixes several issues, including missing tags on the front page, broken direct links to lists, and problems with uploading trails containing waypoints or summit logs.
 dependencies:

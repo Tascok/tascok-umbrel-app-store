@@ -1,28 +1,28 @@
 manifestVersion: 1
 id: tascok-hyperhdr
 name: HyperHDR
-tagline: A high-performance ambient lighting system
+tagline: Um sistema de iluminação ambiente de alto desempenho
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-hyperhdr/logo.png
 category: Home & Automation
 version: "21.0.0.0"
 port: 8098
 description: >-
-  🌈 HyperHDR is an advanced ambient lighting system that analyzes video and audio sources in real time and transforms their colors into dynamic lighting effects around a television, monitor, or entertainment setup.
+  🌈 HyperHDR é um sistema avançado de iluminação ambiente que analisa fontes de vídeo e áudio em tempo real e transforma suas cores em efeitos de iluminação dinâmicos em torno de uma televisão, monitor ou configuração de entretenimento.
 
 
-  The application captures visual content from compatible video grabbers, software capture clients, network streams, and supported external sources. It processes the incoming image, detects the dominant colors across configurable screen regions, and sends synchronized color information to connected LED strips and smart lights.
+  O aplicativo captura conteúdo visual de capturadores de vídeo compatíveis, clientes de captura de software, fluxos de rede e fontes externas suportadas. Ele processa a imagem recebida, detecta as cores dominantes em regiões configuráveis ​​da tela e envia informações de cores sincronizadas para faixas de LED e luzes inteligentes conectadas.
 
 
-  HyperHDR supports a wide range of LED controllers and lighting systems, including WLED, Philips Hue, Home Assistant lights, Zigbee2MQTT devices, Adalight-compatible controllers, and various network-based LED drivers. Multiple lighting instances can be configured independently for different screens, rooms, or LED layouts.
+  O HyperHDR oferece suporte a uma ampla variedade de controladores de LED e sistemas de iluminação, incluindo WLED, Philips Hue, luzes Home Assistant, dispositivos Zigbee2MQTT, controladores compatíveis com Adalight e vários drivers de LED baseados em rede. Várias instâncias de iluminação podem ser configuradas independentemente para diferentes telas, salas ou layouts de LED.
 
 
-  The integrated web interface provides tools for arranging LEDs around the screen, adjusting brightness, gamma, color balance, smoothing, refresh rates, and image processing settings. Users can preview captured video, test individual LEDs, create custom effects, manage priorities, and switch between different input sources.
+  A interface web integrada fornece ferramentas para organizar LEDs ao redor da tela, ajustar brilho, gama, equilíbrio de cores, suavização, taxas de atualização e configurações de processamento de imagem. Os usuários podem visualizar o vídeo capturado, testar LEDs individuais, criar efeitos personalizados, gerenciar prioridades e alternar entre diferentes fontes de entrada.
 
 
-  HyperHDR includes automatic HDR tone mapping, LUT-based color calibration, HDR10 and P010 video support, image cropping, black-bar detection, and configurable color correction. These features help produce accurate and responsive ambient lighting across both SDR and HDR content.
+  O HyperHDR inclui mapeamento automático de tons HDR, calibração de cores baseada em LUT, suporte de vídeo HDR10 e P010, corte de imagem, detecção de barra preta e correção de cores configurável. Esses recursos ajudam a produzir iluminação ambiente precisa e responsiva em conteúdo SDR e HDR.
 
 
-  Built-in APIs and network protocols allow external applications, media players, capture clients, and home automation systems to control lighting states, stream image data, trigger effects, and integrate HyperHDR into broader entertainment or smart home workflows.
+  APIs e protocolos de rede integrados permitem que aplicativos externos, reprodutores de mídia, clientes de captura e sistemas de automação residencial controlem os estados de iluminação, transmitam dados de imagem, acionem efeitos e integrem o HyperHDR em entretenimento mais amplo ou fluxos de trabalho domésticos inteligentes.
 developer: Awawa
 website: https://www.hyperhdr.eu/
 submitter: Tascok
@@ -30,11 +30,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/awawa-dev/HyperHDR
 support: https://github.com/awawa-dev/HyperHDR/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-hyperhdr/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-hyperhdr/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-hyperhdr/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-hyperhdr/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-hyperhdr/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-hyperhdr/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-hyperhdr/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-hyperhdr/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-hyperhdr/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-hyperhdr/5.jpg
 releaseNotes: >-
   HyperHDR 21 introduces automatic HDR tone mapping, P010 HDR10 video support, MP4-based LUT calibration, Home Assistant light integration, and experimental Zigbee2MQTT support.
 

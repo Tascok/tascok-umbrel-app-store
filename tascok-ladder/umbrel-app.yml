@@ -1,56 +1,56 @@
 manifestVersion: 1
 id: tascok-ladder
 name: Ladder
-tagline: An adaptable proxy solution for secure, rule-based web filtering
+tagline: Uma solução de proxy adaptável para filtragem da Web segura e baseada em regras
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ladder/logo.png
 category: networking
 version: "0.0.21"
 port: 8050
 description: >-
-  🪜 Ladder is a versatile and secure proxy server designed for precise, rule-based filtering of web traffic, giving administrators exceptional control over access to web resources. Built for environments where managing information access is critical, especially in self-hosted setups, Ladder supports domain filtering, custom headers, and user authentication, ensuring sensitive applications are secure yet accessible to those authorized. As a self-hosted alternative to services like 12ft.io, Ladder enables users to bypass certain paywalls and restricted content within the bounds of their own server setup, maintaining accessibility without relying on third-party solutions.
+  🪜 Ladder é um servidor proxy versátil e seguro projetado para filtragem precisa e baseada em regras do tráfego da web, dando aos administradores controle excepcional sobre o acesso aos recursos da web. Desenvolvido para ambientes onde o gerenciamento do acesso às informações é fundamental, especialmente em configurações auto-hospedadas, o Ladder oferece suporte a filtragem de domínio, cabeçalhos personalizados e autenticação de usuário, garantindo que aplicativos confidenciais sejam seguros, mas acessíveis aos autorizados. Como uma alternativa auto-hospedada a serviços como o 12ft.io, o Ladder permite que os usuários contornem certos acessos pagos e conteúdo restrito dentro dos limites de sua própria configuração de servidor, mantendo a acessibilidade sem depender de soluções de terceiros.
 
 
-  As access to information becomes increasingly restricted by paywalls and access policies, tools like Ladder help maintain a balance, enabling controlled access without entirely blocking information flow. Ladder’s ability to authenticate, filter, and monitor traffic supports a model where knowledge can be managed responsibly, aligning with the vision of information as a shared resource rather than a commodity. By supporting both privacy and accessibility, Ladder empowers administrators to create secure, open environments for informed use.
-  
-  
-  ⚙️ Ruleset: 
-  
-  
-  A ruleset allows you to apply custom rules to modify the response or requested URL. This can be used to remove unwanted elements or adjust specific parts of a page. The ruleset can be a YAML file, a directory containing YAML files, or a URL pointing to a YAML file. Each file lists rules for specific domains, and these are loaded at startup.
-  
-  
-  A basic ruleset is available here: https://raw.githubusercontent.com/everywall/ladder-rules/main/ruleset.yaml. If you prefer a local file, you can use ${APP_DATA_DIR}/data/ruleset/ruleset.yaml instead. Alternatively, you can add your own file by specifying the path to your file. You can check the ruleset at http://umbrel.local:8050/ruleset.
-  
-  
-  Some example rulesets are also available here: https://github.com/everywall/ladder-rules/tree/main/rulesets.
+  À medida que o acesso à informação se torna cada vez mais restrito por paywalls e políticas de acesso, ferramentas como o Ladder ajudam a manter o equilíbrio, permitindo o acesso controlado sem bloquear totalmente o fluxo de informações. A capacidade do Ladder de autenticar, filtrar e monitorar o tráfego apoia um modelo onde o conhecimento pode ser gerenciado de forma responsável, alinhando-se com a visão da informação como um recurso compartilhado e não como uma mercadoria. Ao apoiar a privacidade e a acessibilidade, o Ladder capacita os administradores a criar ambientes abertos e seguros para uso informado.
 
 
-  🎨 Customizing:
+  ⚙️ Conjunto de regras: 
 
 
-  With Ladder, custom forms can be applied to handle requests more flexibly. This requires modifying the form.html file, located at ${APP_DATA_DIR}/data/form/. 
-  
-  
-  In this HTML file, you can define fields, layouts, and scripts to meet specific input requirements. Once customized, the form is automatically integrated into Ladder and made available to users.
+  Um conjunto de regras permite aplicar regras personalizadas para modificar a resposta ou o URL solicitado. Isso pode ser usado para remover elementos indesejados ou ajustar partes específicas de uma página. O conjunto de regras pode ser um arquivo YAML, um diretório contendo arquivos YAML ou uma URL apontando para um arquivo YAML. Cada arquivo lista regras para domínios específicos e elas são carregadas na inicialização.
 
 
-  ⚠️ Limitations:
-  
-  
-  Some sites restrict access to their content for search engines, which may prevent this proxy from retrieving the content.
-  
-  
-  Please note that certain sites may display missing images or formatting issues when accessed through this proxy. This is often due to the site's reliance on JavaScript or CSS for loading images and other resources, which may not be fully supported in the proxy environment.
-developer: everywall 
+  Um conjunto de regras básico está disponível aqui: https://raw.githubusercontent.com/everywall/ladder-rules/main/ruleset.yaml. Se preferir um arquivo local, você pode usar ${APP_DATA_DIR}/data/ruleset/ruleset.yaml. Alternativamente, você pode adicionar seu próprio arquivo especificando o caminho para ele. Você pode verificar o conjunto de regras em http://umbrel.local:8050/ruleset.
+
+
+  Alguns exemplos de conjuntos de regras também estão disponíveis aqui: https://github.com/everywall/ladder-rules/tree/main/rulesets.
+
+
+  🎨 Personalização:
+
+
+  Com o Ladder, formulários personalizados podem ser aplicados para lidar com solicitações de maneira mais flexível. Isso requer a modificação do arquivo form.html, localizado em ${APP_DATA_DIR}/data/form/. 
+
+
+  Neste arquivo HTML, você pode definir campos, layouts e scripts para atender a requisitos de entrada específicos. Depois de customizado, o formulário é automaticamente integrado ao Ladder e disponibilizado aos usuários.
+
+
+  ⚠️ Limitações:
+
+
+  Alguns sites restringem o acesso ao seu conteúdo para mecanismos de busca, o que pode impedir que esse proxy recupere o conteúdo.
+
+
+  Observe que alguns sites podem exibir imagens ausentes ou problemas de formatação quando acessados ​​por meio deste proxy. Muitas vezes, isso se deve à dependência do site de JavaScript ou CSS para carregar imagens e outros recursos, que podem não ser totalmente suportados no ambiente de proxy.
+developer: everywall
 website: https://github.com/everywall/ladder
 submitter: Tascok
 submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/everywall/ladder
 support: https://github.com/everywall/ladder/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ladder/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ladder/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ladder/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ladder/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ladder/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ladder/3.jpg
 releaseNotes: >-
   In version 0.0.21, the form type has been changed to "URL," and an HTTP timeout feature has been added to improve handling of slow or unresponsive connections.
 dependencies:

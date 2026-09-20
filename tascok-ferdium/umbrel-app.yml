@@ -1,28 +1,28 @@
 manifestVersion: 1
 id: tascok-ferdium
 name: Ferdium
-tagline: An all-in-one messaging hub
+tagline: Um hub de mensagens completo
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ferdium/logo.png
 category: files & productivity
 version: "2.0.10"
 port: 3333
 description: >-
-  Ferdium is an open-source application designed to consolidate multiple messaging and web services into a single interface. It was created as a fork of Franz, a similar tool, with the goal of removing certain limitations and making the platform more privacy-friendly and accessible. Unlike Franz, Ferdium does not require users to create an account, allowing them to use the application without relying on external servers for authentication or synchronization.
+  Ferdium é um aplicativo de código aberto projetado para consolidar vários serviços de mensagens e web em uma única interface. Foi criado como um fork do Franz, ferramenta semelhante, com o objetivo de eliminar certas limitações e tornar a plataforma mais amigável e acessível à privacidade. Ao contrário do Franz, o Ferdium não exige que os usuários criem uma conta, permitindo-lhes usar o aplicativo sem depender de servidores externos para autenticação ou sincronização.
 
 
-  The primary function of Ferdium is to streamline the user experience by integrating various communication and productivity tools into one unified app. It supports a wide range of services, including messaging apps, email clients, social media platforms, and collaboration tools. Users can access multiple accounts from different services without needing to switch between browser tabs or separate applications.
+  A principal função do Ferdium é agilizar a experiência do usuário integrando várias ferramentas de comunicação e produtividade em um aplicativo unificado. Ele oferece suporte a uma ampla gama de serviços, incluindo aplicativos de mensagens, clientes de e-mail, plataformas de mídia social e ferramentas de colaboração. Os usuários podem acessar várias contas de diferentes serviços sem precisar alternar entre guias do navegador ou aplicativos separados.
 
 
-  One of the key aspects of Ferdium is its customization options. Users can add predefined services or create their own custom integrations, giving them flexibility in managing their digital workspace. Additionally, the application includes built-in privacy features, such as an ad and tracker blocker, which helps reduce distractions and enhance security.
+  Um dos principais aspectos do Ferdium são suas opções de personalização. Os usuários podem adicionar serviços predefinidos ou criar suas próprias integrações personalizadas, proporcionando flexibilidade no gerenciamento de seu espaço de trabalho digital. Além disso, o aplicativo inclui recursos de privacidade integrados, como bloqueador de anúncios e rastreadores, que ajudam a reduzir distrações e aumentar a segurança.
 
 
-  Ferdium is available for Windows, macOS, and Linux, making it a versatile solution for users across different operating systems. Since it is an open-source project, it benefits from community contributions and ongoing improvements, ensuring that it remains a viable alternative to proprietary applications. By providing a more user-friendly and privacy-conscious alternative to Franz, Ferdium appeals to those who want to efficiently manage multiple services in one place without unnecessary restrictions.
+  Ferdium está disponível para Windows, macOS e Linux, tornando-o uma solução versátil para usuários de diferentes sistemas operacionais. Por ser um projeto de código aberto, beneficia das contribuições da comunidade e de melhorias contínuas, garantindo que continua a ser uma alternativa viável às aplicações proprietárias. Ao fornecer uma alternativa ao Franz mais fácil de usar e preocupada com a privacidade, a Ferdium atrai aqueles que desejam gerenciar com eficiência vários serviços em um só lugar, sem restrições desnecessárias.
 
 
-  ⚠️ Note: This app is not the Ferdium client. It is the Ferdium server. A custom server allows you to manage the data of all registered users yourself and add your own recipes to the repository.
-  
-  
-  💡 To use Ferdium, you also need the client, which can be downloaded here: ferdium.org/download
+  ⚠️ Nota: Este aplicativo não é cliente Ferdium. É o servidor Ferdium. Um servidor personalizado permite que você mesmo gerencie os dados de todos os usuários registrados e adicione suas próprias receitas ao repositório.
+
+
+  💡 Para usar o Ferdium você também precisa do cliente, que pode ser baixado aqui: ferdium.org/download
 developer: Ferdium Team
 website: https://ferdium.org/
 submitter: Tascok
@@ -30,9 +30,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/ferdium/ferdium-server
 support: https://github.com/ferdium/ferdium-server/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ferdium/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ferdium/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ferdium/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ferdium/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ferdium/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ferdium/3.jpg
 releaseNotes: >-
   Ferdium-Server version 2.0.10 includes various improvements and refinements to enhance the user experience.
 dependencies:

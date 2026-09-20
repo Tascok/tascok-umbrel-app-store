@@ -1,19 +1,19 @@
 manifestVersion: 1
 id: tascok-microbin
 name: MicroBin
-tagline: A tiny, self-contained, configurable paste bin and URL shortener
+tagline: Um pequeno compartimento de pasta e encurtador de URL configurável e independente
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-microbin/logo.png
 category: files & productivity
 version: "2.0.4"
 port: 8065
 description: >-
-    MicroBin is an incredibly compact, self-hosted tool for quickly sharing text, files, and URLs. Instead of random numbers, MicroBin uses animal names as identifiers for shared content (“pastas”), which can be accessed via URLs like “server.com/file/pig-dog-cat”. It supports file uploads, raw text serving, and URL shortening with redirection. Additionally, QR codes can be generated to simplify access to shared content.
+  MicroBin é uma ferramenta incrivelmente compacta e auto-hospedada para compartilhar rapidamente textos, arquivos e URLs. Em vez de números aleatórios, o MicroBin usa nomes de animais como identificadores para conteúdo compartilhado (“pastas”), que pode ser acessado por meio de URLs como “server.com/file/pig-dog-cat”. Ele suporta upload de arquivos, exibição de texto bruto e encurtamento de URL com redirecionamento. Além disso, códigos QR podem ser gerados para simplificar o acesso ao conteúdo compartilhado.
 
 
-    MicroBin offers flexibility in managing your content: you can choose between private and public, editable and final, automatically or never expiring “pastas”. Syntax highlighting and automatic dark mode are integrated, with a minimal interface that can easily be customized with your own CSS. Thanks to its simple database structure (JSON and files), MicroBin is portable, allowing for straightforward backups and seamless integration into other systems. You can list and manually remove content through a dedicated “pastalist” page, which can also be disabled if desired.
+  MicroBin oferece flexibilidade no gerenciamento de seu conteúdo: você pode escolher entre privado e público, editável e final, “pastas” que expiram automaticamente ou nunca. O realce de sintaxe e o modo escuro automático estão integrados, com uma interface mínima que pode ser facilmente personalizada com seu próprio CSS. Graças à sua estrutura de banco de dados simples (JSON e arquivos), o MicroBin é portátil, permitindo backups simples e integração perfeita com outros sistemas. Você pode listar e remover conteúdo manualmente por meio de uma página “pastalista” dedicada, que também pode ser desativada, se desejar.
 
 
-    What exactly is a “pasta”? In MicroBin, a pasta can be many things: a text you want to transfer from one machine to another, a file too large for other platforms, or a URL redirect. MicroBin can be used in many ways – as a URL shortener, for sending long texts or large files, as a web server for files, or even as a note-taking system. Whether for personal use or in a team, MicroBin offers a flexible, simple solution for various use cases.
+  O que exatamente é uma “macarrão”? No MicroBin, uma pasta pode ser muitas coisas: um texto que você deseja transferir de uma máquina para outra, um arquivo grande demais para outras plataformas ou um redirecionamento de URL. O MicroBin pode ser usado de várias maneiras – como encurtador de URL, para enviar textos longos ou arquivos grandes, como servidor web para arquivos ou até mesmo como sistema de anotações. Seja para uso pessoal ou em equipe, o MicroBin oferece uma solução simples e flexível para vários casos de uso.
 
 developer: Dániel Szabó
 website: https://microbin.eu/
@@ -22,18 +22,18 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/szabodanika/microbin
 support: https://github.com/szabodanika/microbin/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-microbin/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-microbin/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-microbin/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-microbin/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-microbin/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-microbin/3.jpg
 
 releaseNotes: >-
-   The latest update introduces a range of new features and improvements, enhancing both functionality and user experience. It now supports server-side and client-side encryption for uploads, including file attachments, ensuring secure file sharing. SQLite database support is enabled by default, providing a lightweight and reliable backend. The upload settings have been reworked with five distinct privacy levels, and a new administrator console (/admin) allows for easy management. Syntax highlighting is automatically applied, while image and video embedding make content sharing more dynamic.
+  The latest update introduces a range of new features and improvements, enhancing both functionality and user experience. It now supports server-side and client-side encryption for uploads, including file attachments, ensuring secure file sharing. SQLite database support is enabled by default, providing a lightweight and reliable backend. The upload settings have been reworked with five distinct privacy levels, and a new administrator console (/admin) allows for easy management. Syntax highlighting is automatically applied, while image and video embedding make content sharing more dynamic.
 
-   
-   The user interface has been refreshed with updated styling and quality-of-life improvements. A new user guide page has been added to assist users, and HTML embedding is now supported for the footer. File upload size limits have been introduced, and a password for uploader access in read-only mode enhances security. A sample .env file is included, with descriptions for each environmental variable, making configuration easier.
 
-   
-   Some changes have been made to streamline the user experience: the Info page has been removed and integrated into the admin page, and the upload list is now sorted from newest to oldest. Files are served through a dedicated service rather than being publicly accessible via a directory. Additionally, "pastas" are now referred to as "uploads," and the "pastalist" is simply called the "list." Numerous bugs have also been fixed, ensuring a smoother and more reliable experience.
+  The user interface has been refreshed with updated styling and quality-of-life improvements. A new user guide page has been added to assist users, and HTML embedding is now supported for the footer. File upload size limits have been introduced, and a password for uploader access in read-only mode enhances security. A sample .env file is included, with descriptions for each environmental variable, making configuration easier.
+
+
+  Some changes have been made to streamline the user experience: the Info page has been removed and integrated into the admin page, and the upload list is now sorted from newest to oldest. Files are served through a dedicated service rather than being publicly accessible via a directory. Additionally, "pastas" are now referred to as "uploads," and the "pastalist" is simply called the "list." Numerous bugs have also been fixed, ensuring a smoother and more reliable experience.
 dependencies: []
 path: ""
 defaultUsername: ""

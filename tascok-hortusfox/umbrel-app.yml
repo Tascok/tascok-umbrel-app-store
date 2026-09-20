@@ -1,28 +1,28 @@
 manifestVersion: 1
 id: tascok-hortusfox
 name: HortusFox
-tagline: A collaborative plant tracking and management application
+tagline: Um aplicativo colaborativo de rastreamento e gerenciamento de plantas
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-hortusfox/logo.png
 category: files & productivity
 version: "5.1"
 port: 8838
 description: >-
-  🌿 HortusFox is a self-hosted web application designed for plant lovers who want to manage their houseplants and gardens in a structured and privacy-respecting way. It is completely free and open-source, allowing users to customize and extend the software to suit their personal needs. Whether you're taking care of a few potted plants on your windowsill or managing a large garden, HortusFox provides a digital space to track, organize, and plan all aspects of plant care.
+  🌿 HortusFox é um aplicativo da web auto-hospedado desenvolvido para amantes de plantas que desejam gerenciar suas plantas domésticas e jardins de forma estruturada e que respeite a privacidade. É totalmente gratuito e de código aberto, permitindo aos usuários personalizar e ampliar o software para atender às suas necessidades pessoais. Esteja você cuidando de alguns vasos de plantas no parapeito da janela ou administrando um grande jardim, o HortusFox oferece um espaço digital para rastrear, organizar e planejar todos os aspectos do cuidado das plantas.
 
 
-  At its core, HortusFox enables you to catalog your plants with detailed information such as species names, notes, custom attributes, and images. Plants can be grouped by location, making it easier to manage different rooms or outdoor spaces. The system supports recurring tasks and reminders for activities like watering, fertilizing, or repotting, helping you maintain a consistent care routine.
+  Basicamente, o HortusFox permite catalogar suas plantas com informações detalhadas, como nomes de espécies, notas, atributos personalizados e imagens. As plantas podem ser agrupadas por localização, facilitando o gerenciamento de diferentes ambientes ou espaços externos. O sistema suporta tarefas recorrentes e lembretes para atividades como regar, fertilizar ou replantar, ajudando você a manter uma rotina de cuidados consistente.
 
 
-  HortusFox goes beyond plant tracking by offering tools for managing related items such as pots, fertilizers, and tools. This inventory feature helps keep your gardening supplies organized and accounted for. For outdoor gardeners, weather data integration supports better decision-making by aligning care schedules with current conditions.
+  HortusFox vai além do rastreamento de plantas, oferecendo ferramentas para gerenciar itens relacionados, como vasos, fertilizantes e ferramentas. Este recurso de inventário ajuda a manter seus materiais de jardinagem organizados e contabilizados. Para jardineiros ao ar livre, a integração de dados meteorológicos apoia uma melhor tomada de decisões, alinhando os cronogramas de cuidados com as condições atuais.
 
 
-  The application is collaborative by design. If multiple users are managing the same plant collection, a built-in group chat function allows them to communicate and coordinate tasks. HortusFox also includes a built-in plant recognition feature to assist with identifying unknown species.
+  O aplicativo é colaborativo por design. Se vários usuários estiverem gerenciando a mesma coleção de plantas, uma função integrada de bate-papo em grupo permite que eles se comuniquem e coordenem tarefas. HortusFox também inclui um recurso integrado de reconhecimento de plantas para ajudar na identificação de espécies desconhecidas.
 
 
-  The interface is responsive and works across devices, ensuring that plant information and task management are easily accessible whether you're at your computer or out in the garden with your phone. Users can also personalize their experience by selecting from various themes to match their aesthetic preferences.
+  A interface é responsiva e funciona em vários dispositivos, garantindo que as informações da planta e o gerenciamento de tarefas sejam facilmente acessíveis, esteja você no computador ou no jardim com o telefone. Os usuários também podem personalizar sua experiência selecionando vários temas que correspondam às suas preferências estéticas.
 
 
-  HortusFox is ideal for individuals and families who enjoy caring for plants and want a modern, secure, and customizable way to support their gardening routines. With its thoughtful design and rich feature set, it transforms the way people interact with their green spaces.
+  HortusFox é ideal para indivíduos e famílias que gostam de cuidar de plantas e desejam uma forma moderna, segura e personalizável de apoiar suas rotinas de jardinagem. Com o seu design inteligente e rico conjunto de funcionalidades, transforma a forma como as pessoas interagem com os seus espaços verdes.
 developer: Daniel Brendel
 website: https://www.hortusfox.com/
 submitter: Tascok
@@ -30,12 +30,12 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/danielbrendel/hortusfox-web
 support: https://github.com/danielbrendel/hortusfox-web/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-hortusfox/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-hortusfox/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-hortusfox/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-hortusfox/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-hortusfox/5.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-hortusfox/6.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-hortusfox/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-hortusfox/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-hortusfox/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-hortusfox/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-hortusfox/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-hortusfox/6.jpg
 releaseNotes: >-
   Version 5.1 of HortusFox adds Russian language support and fixes several issues, including backup inconsistencies, API authentication errors, and group item linking. The location API endpoint now supports pagination.
 dependencies:

@@ -1,30 +1,30 @@
 manifestVersion: 1
 id: tascok-bisq
 name: Bisq
-tagline: A private peer-to-peer Bitcoin exchange
+tagline: Uma troca privada de Bitcoin ponto a ponto
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/master/denny-bisq/logo.png
 category: bitcoin
 version: "1.10.4"
 port: 8399
 description: >-
-  🛡️ Bisq is a decentralized peer-to-peer exchange that lets you buy and sell Bitcoin directly with other people without handing custody of your funds to a centralized exchange.
+  🛡️ Bisq é uma bolsa ponto a ponto descentralizada que permite comprar e vender Bitcoin diretamente com outras pessoas, sem entregar a custódia de seus fundos a uma bolsa centralizada.
 
 
-  🌐 The full Bisq desktop interface runs continuously on your Umbrel and is available through your browser. Offers, trade communication, Tor connectivity, the integrated wallet, payment accounts, and dispute handling remain accessible even when your computer is turned off.
+  🌐 A interface completa do desktop Bisq é executada continuamente no seu Umbrel e está disponível através do seu navegador. Ofertas, comunicação comercial, conectividade Tor, carteira integrada, contas de pagamento e tratamento de disputas permanecem acessíveis mesmo quando o computador está desligado.
 
 
-  🔐 Wallet data, payment account information, trade history, and settings are stored locally on your Umbrel. The browser interface is protected by Umbrel authentication, and no VNC port is exposed directly.
+  🔐 Dados da carteira, informações da conta de pagamento, histórico de negociações e configurações são armazenados localmente no seu Umbrel. A interface do navegador é protegida pela autenticação Umbrel e nenhuma porta VNC é exposta diretamente.
 
 
-  ⚠️ Bisq contains a hot wallet. Only store the amount required for active trades and security deposits, and back up your wallet seed and Bisq data before funding it.
+  ⚠️ Bisq contém uma carteira quente. Armazene apenas o valor necessário para negociações ativas e depósitos de segurança e faça backup da semente da sua carteira e dos dados do Bisq antes de financiá-la.
 
 
-  💻 This app is available only for amd64/x86-64 systems and is not compatible with Raspberry Pi or other ARM64 devices. Bisq is resource-intensive because it runs Java, a full desktop environment, Tor, wallet services, and large network datasets. At least 8 GB of RAM and 4 CPU cores are recommended, especially for the initial startup and DAO data import.
+  💻 Este aplicativo está disponível apenas para sistemas AMD64/x86-64 e não é compatível com Raspberry Pi ou outros dispositivos ARM64. Bisq consome muitos recursos porque executa Java, um ambiente de desktop completo, Tor, serviços de carteira e grandes conjuntos de dados de rede. Recomenda-se pelo menos 8 GB de RAM e 4 núcleos de CPU, especialmente para a inicialização inicial e importação de dados DAO.
 
 
-  📖 For detailed installation guidance, system requirements, and further information, please refer to the README: 
-  
-  
+  📖 Para orientações detalhadas de instalação, requisitos do sistema e mais informações, consulte o README: 
+
+
   https://github.com/dennysubke/dennys-umbrel-app-store/blob/master/tascok-bisq/README.md
 developer: Bisq Network
 website: https://bisq.network/
@@ -33,11 +33,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/bisq-network/bisq
 support: https://bisq.wiki/
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-bisq/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-bisq/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-bisq/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-bisq/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-bisq/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-bisq/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-bisq/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-bisq/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-bisq/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-bisq/5.jpg
 releaseNotes: >-
   Bisq 1.10.4 is an important security update that fixes several vulnerabilities identified during a recent security audit. Updating is required to continue trading, and BSQ Swaps have also been re-enabled.
 

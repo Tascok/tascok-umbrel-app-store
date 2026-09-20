@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-siyuan
 name: SiYuan
-tagline: A privacy-first personal knowledge management system
+tagline: Um sistema de gerenciamento de conhecimento pessoal que prioriza a privacidade
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-siyuan/logo.png
 category: files & productivity
 version: "3.1.28"
 port: 6806
 description: >-
-  📚 SiYuan is a powerful and privacy-focused personal knowledge management (PKM) system designed for users who value full control over their data. Unlike many mainstream note-taking applications that rely heavily on cloud storage and online access, SiYuan is built around the principle of local-first data storage and offline accessibility. At its core, it employs a block-based editor, which allows users to structure and interconnect their content in a highly flexible and modular way. This approach supports fine-grained referencing and bi-directional linking between blocks, encouraging users to build rich, interrelated knowledge graphs.
+  📚 SiYuan é um sistema de gerenciamento de conhecimento pessoal (PKM) poderoso e focado na privacidade, projetado para usuários que valorizam o controle total sobre seus dados. Ao contrário de muitos aplicativos convencionais de anotações que dependem fortemente de armazenamento em nuvem e acesso online, o SiYuan é construído em torno do princípio de armazenamento de dados local e acessibilidade offline. Basicamente, ele emprega um editor baseado em blocos, que permite aos usuários estruturar e interconectar seu conteúdo de uma forma altamente flexível e modular. Essa abordagem oferece suporte a referências refinadas e links bidirecionais entre blocos, incentivando os usuários a construir gráficos de conhecimento ricos e inter-relacionados.
 
 
-  The user experience in SiYuan centers on a WYSIWYG editor that preserves the simplicity of Markdown while enhancing it with advanced features such as mathematical formulas, diagrams, flowcharts, Gantt charts, and musical notation. It supports importing and annotating PDFs, clipping web content, and embedding various types of media, making it suitable not only for writing notes but also for managing research, documentation, and creative projects. SiYuan also includes a built-in spaced repetition system, enabling users to turn their notes into flashcards for long-term memory retention.
+  A experiência do usuário no SiYuan gira em torno de um editor WYSIWYG que preserva a simplicidade do Markdown enquanto o aprimora com recursos avançados, como fórmulas matemáticas, diagramas, fluxogramas, gráficos de Gantt e notação musical. Ele suporta importação e anotação de PDFs, recorte de conteúdo da web e incorporação de vários tipos de mídia, tornando-o adequado não apenas para escrever notas, mas também para gerenciar pesquisas, documentação e projetos criativos. SiYuan também inclui um sistema de repetição espaçada integrado, permitindo aos usuários transformar suas anotações em cartões para retenção de memória de longo prazo.
 
 
-  One of SiYuan’s distinguishing features is its commitment to privacy. All data remains stored locally by default, and even when users choose to sync their data across devices, SiYuan offers end-to-end encryption through user-hosted solutions like S3 or WebDAV. This ensures that no third party can access the contents of a user’s notes, even during synchronization. For those who prefer a more integrated experience, SiYuan provides optional cloud-based services, available under a one-time or lifetime license, without compromising its core philosophy of user autonomy and data ownership.
+  Uma das características distintivas da SiYuan é o seu compromisso com a privacidade. Todos os dados permanecem armazenados localmente por padrão e, mesmo quando os usuários optam por sincronizar seus dados entre dispositivos, o SiYuan oferece criptografia ponta a ponta por meio de soluções hospedadas pelo usuário, como S3 ou WebDAV. Isso garante que nenhum terceiro possa acessar o conteúdo das notas de um usuário, mesmo durante a sincronização. Para aqueles que preferem uma experiência mais integrada, a SiYuan oferece serviços opcionais baseados em nuvem, disponíveis sob licença única ou vitalícia, sem comprometer sua filosofia central de autonomia do usuário e propriedade de dados.
 
 
-  In addition to its functional robustness, SiYuan is highly extensible. It features a plugin and theme system, enabling users to customize and enhance their workflows. The project is open-source and actively maintained, with a growing community of contributors and users who continue to expand its capabilities. Overall, SiYuan is well-suited for anyone seeking a comprehensive, customizable, and privacy-respecting tool to manage personal knowledge, write documents, and build a long-term second brain.
+  Além da sua robustez funcional, o SiYuan é altamente extensível. Possui um sistema de plugins e temas, permitindo aos usuários personalizar e aprimorar seus fluxos de trabalho. O projeto é de código aberto e mantido ativamente, com uma comunidade crescente de colaboradores e usuários que continuam a expandir suas capacidades. No geral, o SiYuan é adequado para quem procura uma ferramenta abrangente, personalizável e que respeite a privacidade para gerenciar conhecimento pessoal, escrever documentos e construir um segundo cérebro de longo prazo.
 developer: B3log
 website: https://b3log.org/siyuan/en/
 submitter: Tascok
@@ -24,14 +24,14 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/siyuan-note/siyuan
 support: https://github.com/siyuan-note/siyuan/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-siyuan/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-siyuan/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-siyuan/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-siyuan/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-siyuan/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-siyuan/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-siyuan/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-siyuan/4.jpg
 releaseNotes: >-
   This SiYuan update delivers various usability improvements and bug fixes, particularly enhancing tag handling, table editing, web clipping, and PDF exports. It also improves the user experience on Android and introduces better synchronization and search behavior. 
-  
-  
+
+
   Additionally, the software has been upgraded to Electron v34.5.0 and includes refinements to its internal API and plugin system.
 dependencies:
 path: ""

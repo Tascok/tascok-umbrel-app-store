@@ -1,40 +1,40 @@
 manifestVersion: 1
 id: tascok-jenkins
 name: Jenkins
-tagline: An automation server which enables developers to reliably build, test, and deploy their software
+tagline: Um servidor de automação que permite aos desenvolvedores construir, testar e implantar seu software de maneira confiável
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jenkins/logo.png
 category: developer tools
 version: "2.480"
 port: 3212
 description: >-
-  Jenkins is an open-source automation server that helps automate parts of software development related to building, testing, and deploying applications. It is widely used in Continuous Integration (CI) and Continuous Deployment (CD) processes. 
-  
-  
-  Here are some key features and concepts related to Jenkins:
+  Jenkins é um servidor de automação de código aberto que ajuda a automatizar partes do desenvolvimento de software relacionadas à construção, teste e implantação de aplicativos. É amplamente utilizado em processos de Integração Contínua (CI) e Implantação Contínua (CD). 
 
 
-  🤖 Continuous Integration/Continuous Deployment (CI/CD): Jenkins allows developers to automatically build and test code changes, ensuring that issues are detected early in the development process. It can also automate the deployment of applications to production environments.
+  Aqui estão alguns recursos e conceitos principais relacionados ao Jenkins:
 
 
-  🧩 Plugins: Jenkins has a rich ecosystem of plugins that extend its functionality. These plugins enable integration with various tools and services, such as version control systems (like Git), cloud platforms, testing frameworks, and more.
+  🤖 Integração Contínua/Implantação Contínua (CI/CD): Jenkins permite que os desenvolvedores criem e testem alterações de código automaticamente, garantindo que os problemas sejam detectados no início do processo de desenvolvimento. Também pode automatizar a implantação de aplicativos em ambientes de produção.
 
 
-  📜 Pipeline as Code: Jenkins supports the definition of build pipelines through a domain-specific language (DSL) called Jenkins Pipeline. This allows you to describe the entire build and deployment process in code, making it easy to version control and maintain.
+  🧩 Plugins: Jenkins possui um rico ecossistema de plugins que ampliam sua funcionalidade. Esses plug-ins permitem a integração com diversas ferramentas e serviços, como sistemas de controle de versão (como Git), plataformas em nuvem, estruturas de teste e muito mais.
 
 
-  🏗️ Distributed Builds: Jenkins can distribute the workload of building and testing across multiple machines, which can help speed up the development process.
+  📜 Pipeline como código: Jenkins oferece suporte à definição de pipelines de construção por meio de uma linguagem específica de domínio (DSL) chamada Jenkins Pipeline. Isso permite descrever todo o processo de construção e implantação em código, facilitando o controle e a manutenção de versões.
 
 
-  🖥️ User Interface: Jenkins has a web-based interface where users can monitor jobs, view logs, and manage configurations.
+  🏗️ Construções distribuídas: Jenkins pode distribuir a carga de trabalho de construção e teste em várias máquinas, o que pode ajudar a acelerar o processo de desenvolvimento.
 
 
-  🤝 Community Support: As a widely used tool, Jenkins has a large and active community, providing support, documentation, and a wealth of resources.
+  🖥️ Interface do usuário: Jenkins possui uma interface baseada na web onde os usuários podem monitorar trabalhos, visualizar logs e gerenciar configurações.
 
 
-  Overall, Jenkins is a powerful tool for automating software development tasks, making it easier for teams to deliver high-quality software more quickly.
+  🤝 Suporte da comunidade: Por ser uma ferramenta amplamente utilizada, Jenkins possui uma comunidade grande e ativa, fornecendo suporte, documentação e uma riqueza de recursos.
 
 
-  🔑 To ensure that Jenkins is initialized securely by an authorized administrator, a randomly generated password is written to the log and this file on the server: '/var/jenkins_home/secrets/initialAdminPassword'. To do this, right-click on the app icon and select troubleshoot to open the terminal.
+  No geral, Jenkins é uma ferramenta poderosa para automatizar tarefas de desenvolvimento de software, tornando mais fácil para as equipes entregar software de alta qualidade com mais rapidez.
+
+
+  🔑 Para garantir que o Jenkins seja inicializado com segurança por um administrador autorizado, uma senha gerada aleatoriamente é gravada no log e neste arquivo no servidor: '/var/jenkins_home/secrets/initialAdminPassword'. Para fazer isso, clique com o botão direito no ícone do aplicativo e selecione solucionar problemas para abrir o terminal.
 
 developer: Jenkins Foundation
 website: https://www.jenkins.io/
@@ -43,13 +43,13 @@ submission: https://github.com/dennysubke/dennys-umbrel-app-store
 repo: https://github.com/jenkinsci/jenkins
 support: https://community.jenkins.io/
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jenkins/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jenkins/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jenkins/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jenkins/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jenkins/5.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jenkins/6.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jenkins/7.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jenkins/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jenkins/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jenkins/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jenkins/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jenkins/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jenkins/6.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jenkins/7.jpg
 releaseNotes: >-
   Jenkins version 2.480 includes several enhancements and bug fixes.
 

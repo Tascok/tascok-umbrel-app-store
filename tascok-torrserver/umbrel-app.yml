@@ -1,19 +1,19 @@
 manifestVersion: 1
 id: tascok-torrserver
 name: TorrServer
-tagline: A torrent streaming server
+tagline: Um servidor de streaming de torrent
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-torrserver/logo.png
 category: networking
 version: "MatriX.137"
 port: 5665
 description: >-
-  📡 TorrServer is an application that receives torrent sources and transforms them into a direct and continuous media stream. It accepts magnet links or torrent files, connects to the swarm, retrieves the necessary data segments and prepares them in a way that media players can access immediately without waiting for a complete download. The application manages buffering, caching and sequential reading so that playback begins as soon as the first pieces of the file are available. It keeps track of the torrent structure, selects the required pieces in the correct order, maintains connections to peers and ensures a stable data flow for smooth playback.
+  📡 TorrServer é um aplicativo que recebe fontes de torrent e as transforma em um fluxo de mídia direto e contínuo. Ele aceita links magnéticos ou arquivos torrent, conecta-se ao enxame, recupera os segmentos de dados necessários e os prepara de forma que os players de mídia possam acessar imediatamente, sem esperar por um download completo. O aplicativo gerencia buffer, cache e leitura sequencial para que a reprodução comece assim que as primeiras partes do arquivo estiverem disponíveis. Ele acompanha a estrutura do torrent, seleciona as peças necessárias na ordem correta, mantém conexões com pares e garante um fluxo de dados estável para uma reprodução suave.
 
 
-  TorrServer presents each file inside the torrent as a streamable resource. A media player can read the video or audio track in real time while the application continues to gather remaining data in the background. It organizes active torrents, caches recently used segments and optimizes retrieval so that jumps within the media or resuming playback remain fluid.
+  TorrServer apresenta cada arquivo dentro do torrent como um recurso streamable. Um reprodutor de mídia pode ler a trilha de vídeo ou áudio em tempo real enquanto o aplicativo continua coletando os dados restantes em segundo plano. Ele organiza torrents ativos, armazena em cache segmentos usados ​​recentemente e otimiza a recuperação para que os saltos dentro da mídia ou a retomada da reprodução permaneçam fluidos.
 
 
-  The core purpose of the application is to simplify torrent based media consumption by acting as a translator between peer to peer data and traditional streaming. It removes the need for manual torrent management, hides protocol complexity and provides an immediate streaming experience for any supported media file contained within a torrent source.
+  O objetivo principal do aplicativo é simplificar o consumo de mídia baseado em torrent, atuando como um tradutor entre dados ponto a ponto e streaming tradicional. Ele elimina a necessidade de gerenciamento manual de torrent, oculta a complexidade do protocolo e fornece uma experiência de streaming imediata para qualquer arquivo de mídia suportado contido em uma fonte de torrent.
 developer: YouROK
 website: https://yourok.ru/
 submitter: Tascok
@@ -21,9 +21,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/YouROK/TorrServer
 support: https://github.com/YouROK/TorrServer/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-torrserver/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-torrserver/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-torrserver/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-torrserver/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-torrserver/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-torrserver/3.jpg
 releaseNotes: >-
   This version introduces several new features and improvements.
 

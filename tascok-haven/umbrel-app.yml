@@ -1,25 +1,25 @@
 manifestVersion: 1
 id: tascok-haven
 name: Haven
-tagline: An easy way to create your own private blog
+tagline: Uma maneira fácil de criar seu próprio blog privado
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-haven/logo.png
 category: social
 version: "ed8777c"
 port: 3338
 description: >-
-  Haven is an open-source platform that allows you to host your own private blog on a personal server. It enables users to create posts, add images, and control who has access to their content, all without relying on large corporations. Haven prioritizes privacy and security by avoiding ads and tracking.
+  Haven é uma plataforma de código aberto que permite hospedar seu próprio blog privado em um servidor pessoal. Ele permite que os usuários criem postagens, adicionem imagens e controlem quem tem acesso ao seu conteúdo, tudo isso sem depender de grandes corporações. Haven prioriza privacidade e segurança, evitando anúncios e rastreamento.
 
 
-  Haven uses Markdown for writing posts and provides a live preview, allowing you to see how your posts will look in real time. Uploaded images are automatically compressed for faster load times, while the original files are preserved for high-quality viewing.
+  Haven usa Markdown para escrever postagens e fornece uma visualização ao vivo, permitindo que você veja como ficarão suas postagens em tempo real. As imagens enviadas são compactadas automaticamente para tempos de carregamento mais rápidos, enquanto os arquivos originais são preservados para visualização de alta qualidade.
 
 
-  One standout feature is the integrated feed reader, which lets users create private feeds from websites and other Havens, consolidating all favorite content in one place.
+  Um recurso de destaque é o leitor de feeds integrado, que permite aos usuários criar feeds privados de sites e outros refúgios, consolidando todo o conteúdo favorito em um só lugar.
 
 
-  Haven is ideal for users seeking a private platform to share content with friends and family, rather than using public blogs or social media.
+  Haven é ideal para usuários que buscam uma plataforma privada para compartilhar conteúdo com amigos e familiares, em vez de usar blogs públicos ou mídias sociais.
 
 
-  🔑 By default, the username is "haven@umbrel.blog" and the password is "umbrel".
+  🔑 Por padrão, o nome de usuário é “haven@umbrel.blog” e a senha é “umbrel”.
 developer: havenweb
 website: https://havenweb.org/
 submitter: Tascok
@@ -27,11 +27,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/havenweb/haven
 support: https://github.com/havenweb/haven/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-haven/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-haven/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-haven/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-haven/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-haven/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-haven/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-haven/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-haven/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-haven/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-haven/5.jpg
 releaseNotes: >-
   Currently, no specific release notes are available for Haven. However, more information on changes and updates can be found directly in the project's GitHub repository.
 dependencies:

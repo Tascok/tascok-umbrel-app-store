@@ -1,28 +1,28 @@
 manifestVersion: 1
 id: tascok-wger
 name: wger
-tagline: A fitness tracker for workouts and nutrition
+tagline: Um rastreador de fitness para exercícios e nutrição
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wger/logo.png
 category: files & productivity
 version: "2.4"
 port: 8450
 description: >-
-  📈 wger is a powerful and flexible open-source fitness management software designed to assist users in planning, tracking, and optimizing their workouts, nutrition, and overall fitness progress. Whether you are an individual looking to improve your training efficiency, a personal trainer managing multiple clients, or a gym owner searching for a digital solution to streamline workout programming, wger provides a feature-rich platform tailored to various fitness needs.
+  📈 wger ​​é um software de gerenciamento de condicionamento físico de código aberto poderoso e flexível, projetado para ajudar os usuários a planejar, monitorar e otimizar seus treinos, nutrição e progresso geral do condicionamento físico. Quer você seja um indivíduo em busca de melhorar a eficiência de seu treinamento, um personal trainer gerenciando vários clientes ou o proprietário de uma academia em busca de uma solução digital para agilizar a programação de exercícios, o wger ​​fornece uma plataforma rica em recursos adaptada a diversas necessidades de condicionamento físico.
 
 
-  At its core, wger offers an extensive exercise database that includes detailed instructions, images, and muscle group classifications. Users can create fully customized workout routines by selecting from pre-existing exercises or adding their own. Each workout plan can be structured with sets, repetitions, rest times, and progression strategies, allowing for precise training adjustments over time. Additionally, the software includes a workout tracking system that logs completed exercises and provides historical insights into performance trends.
+  Basicamente, o wger ​​oferece um extenso banco de dados de exercícios que inclui instruções detalhadas, imagens e classificações de grupos musculares. Os usuários podem criar rotinas de treino totalmente personalizadas, selecionando exercícios pré-existentes ou adicionando os seus próprios. Cada plano de treino pode ser estruturado com séries, repetições, tempos de descanso e estratégias de progressão, permitindo ajustes precisos de treino ao longo do tempo. Além disso, o software inclui um sistema de rastreamento de treino que registra os exercícios concluídos e fornece informações históricas sobre as tendências de desempenho.
 
 
-  Beyond training, wger incorporates a comprehensive nutrition planning module. Users can log their meals, calculate caloric intake, and track macronutrient distribution to ensure their diet aligns with their fitness goals. The integrated food database simplifies meal logging by providing nutritional information for a wide range of ingredients, and users can also add custom food entries.
+  Além do treinamento, o wger ​​incorpora um módulo abrangente de planejamento nutricional. Os usuários podem registrar suas refeições, calcular a ingestão calórica e monitorar a distribuição de macronutrientes para garantir que sua dieta esteja alinhada com seus objetivos de condicionamento físico. O banco de dados de alimentos integrado simplifica o registro de refeições, fornecendo informações nutricionais para uma ampla variedade de ingredientes, e os usuários também podem adicionar entradas personalizadas de alimentos.
 
 
-  To support long-term progress monitoring, wger includes visualization tools such as weight tracking charts, workout performance graphs, and statistical summaries. These features help users identify trends, set realistic goals, and stay motivated throughout their fitness journey.
+  Para apoiar o monitoramento do progresso a longo prazo, o wger ​​inclui ferramentas de visualização, como gráficos de monitoramento de peso, gráficos de desempenho de treino e resumos estatísticos. Esses recursos ajudam os usuários a identificar tendências, definir metas realistas e permanecer motivados durante sua jornada de preparação física.
 
 
-  One of the standout aspects of wger is its multi-user functionality, which makes it an ideal tool for trainers, coaches, and gyms. The platform allows for different user roles, enabling trainers to assign workout plans and monitor client progress efficiently. For those who value privacy and control over their data, wger can be self-hosted, giving users full autonomy over their fitness information. Alternatively, a hosted version is available for those who prefer a managed solution with minimal setup requirements.
+  Um dos aspectos de destaque do wger ​​é sua funcionalidade multiusuário, o que o torna uma ferramenta ideal para treinadores, treinadores e academias. A plataforma permite diferentes funções de usuário, permitindo que os treinadores atribuam planos de treino e monitorem o progresso do cliente de forma eficiente. Para aqueles que valorizam a privacidade e o controle sobre seus dados, o wger ​​pode ser auto-hospedado, dando aos usuários total autonomia sobre suas informações de condicionamento físico. Alternativamente, uma versão hospedada está disponível para aqueles que preferem uma solução gerenciada com requisitos mínimos de configuração.
 
 
-  As an open-source project, wger is continuously evolving, with an active community contributing new features and improvements. Its flexibility, extensive feature set, and emphasis on customization make it a valuable tool for anyone serious about fitness, whether they are beginners, experienced athletes, or fitness professionals.
+  Como um projeto de código aberto, o wger ​​está em constante evolução, com uma comunidade ativa contribuindo com novos recursos e melhorias. Sua flexibilidade, amplo conjunto de recursos e ênfase na personalização tornam-no uma ferramenta valiosa para qualquer pessoa que leva o condicionamento físico a sério, sejam eles iniciantes, atletas experientes ou profissionais de fitness.
 developer: wger Project
 website: https://wger.de/
 submitter: Tascok
@@ -30,12 +30,12 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/wger-project/wger
 support: https://github.com/wger-project/wger/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wger/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wger/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wger/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wger/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wger/5.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wger/6.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wger/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wger/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wger/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wger/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wger/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wger/6.jpg
 releaseNotes: >-
   The latest wger update introduces several new features, bug fixes, and improvements. Notable additions include support for exercise videos, ingredient images, and improved exercise recognition, as well as enhancements to the nutrition planner and API functionality. Various bugs have been resolved, such as issues with calorie tracking, exercise downloads, and user preferences, while updates to dependencies and infrastructure ensure better performance and stability.
 dependencies:

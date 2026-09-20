@@ -1,19 +1,19 @@
 manifestVersion: 1
 id: tascok-notediscovery
 name: NoteDiscovery
-tagline: A lightweight, privacy-focused note-taking application
+tagline: Um aplicativo de anotações leve e focado na privacidade
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-notediscovery/logo.png
 category: files & productivity
 version: "0.6.1"
 port: 8734
 description: >-
-  📄 NoteDiscovery is a lightweight and flexible knowledge tool designed to create, edit and organize notes in a clean and intuitive way. It focuses entirely on the writing and thinking process by using plain text and Markdown so that every note remains simple, readable and easy to structure. The editor provides real time previews for text, code and formulas, which makes it suitable for technical documentation, study notes or personal writing. Notes can reference each other through wikilinks, allowing you to build interconnected knowledge structures and navigate them quickly.
+  📄 NoteDiscovery é uma ferramenta de conhecimento leve e flexível projetada para criar, editar e organizar notas de forma limpa e intuitiva. Ele se concentra inteiramente no processo de escrita e pensamento usando texto simples e Markdown para que cada nota permaneça simples, legível e fácil de estruturar. O editor fornece visualizações em tempo real de texto, código e fórmulas, o que o torna adequado para documentação técnica, notas de estudo ou redação pessoal. As notas podem fazer referência umas às outras por meio de wikilinks, permitindo construir estruturas de conhecimento interconectadas e navegar por elas rapidamente.
 
 
-  The application supports diagrams, mathematical notation and syntax highlighted code blocks, giving you a broad range of expressive tools inside a minimal interface. Tags and frontmatter metadata help categorize and filter content, while templates make it easy to create repeatable structures for recurring note types. Images and attachments can be added to any note, and the visual layout adapts smoothly to different screen sizes so the writing experience stays consistent.
+  O aplicativo suporta diagramas, notação matemática e blocos de código com destaque de sintaxe, oferecendo uma ampla gama de ferramentas expressivas dentro de uma interface mínima. Tags e metadados frontmatter ajudam a categorizar e filtrar conteúdo, enquanto os modelos facilitam a criação de estruturas repetíveis para tipos de notas recorrentes. Imagens e anexos podem ser adicionados a qualquer nota, e o layout visual se adapta perfeitamente a diferentes tamanhos de tela para que a experiência de escrita permaneça consistente.
 
 
-  NoteDiscovery aims to give you a calm and distraction free environment where your notes remain fully accessible in plain text and where your knowledge grows through simple connections between documents. Its design encourages clarity, long term organization and freedom from proprietary formats, making it a reliable companion for personal knowledge management.
+  O NoteDiscovery tem como objetivo oferecer um ambiente calmo e sem distrações, onde suas anotações permanecem totalmente acessíveis em texto simples e onde seu conhecimento cresce por meio de conexões simples entre documentos. Seu design incentiva a clareza, a organização de longo prazo e a liberdade de formatos proprietários, tornando-o um companheiro confiável para a gestão do conhecimento pessoal.
 developer: Guillermo Villar
 website: https://www.notediscovery.com/
 submitter: Tascok
@@ -21,11 +21,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/gamosoft/NoteDiscovery
 support: https://github.com/gamosoft/NoteDiscovery/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-notediscovery/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-notediscovery/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-notediscovery/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-notediscovery/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-notediscovery/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-notediscovery/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-notediscovery/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-notediscovery/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-notediscovery/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-notediscovery/5.jpg
 releaseNotes: >-
   Version 0.6.1 introduces a new properties pane that improves how note details and metadata can be viewed and managed. This update focuses on enhancing usability with a clearer way to access note information.
 dependencies:

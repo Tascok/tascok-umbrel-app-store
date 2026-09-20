@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-filebrowser-quantum
 name: FileBrowser Quantum
-tagline: A better filebrowser than Filebrowser
+tagline: Um navegador de arquivos melhor que o Filebrowser
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-filebrowser-quantum/logo.png
 category: files & productivity
 version: "0.7.8"
 port: 8633
 description: >-
-  📂 Filebrowser Quantum is a modern and advanced version of the well known File Browser application written in Go. It offers a fast, clean and user friendly web interface that allows users to manage files and directories directly in their browser. With Filebrowser Quantum, users can upload, download, move, rename, delete and edit files without needing any additional software. Each user can have a personal home directory with custom permissions that control access to files and folders.
+  📂 Filebrowser Quantum é uma versão moderna e avançada do conhecido aplicativo File Browser escrito em Go. Ele oferece uma interface web rápida, limpa e amigável que permite aos usuários gerenciar arquivos e diretórios diretamente em seus navegadores. Com o Filebrowser Quantum, os usuários podem fazer upload, download, mover, renomear, excluir e editar arquivos sem a necessidade de nenhum software adicional. Cada usuário pode ter um diretório inicial pessoal com permissões personalizadas que controlam o acesso a arquivos e pastas.
 
 
-  What sets Filebrowser Quantum apart is its powerful index based search engine. Unlike traditional file managers that scan directories on demand, this version creates and maintains a search index in the background. This means that search results appear instantly as the user types, even when working with large and complex file structures. This makes managing and finding files much faster and more efficient.
+  O que diferencia o Filebrowser Quantum é seu poderoso mecanismo de pesquisa baseado em índice. Ao contrário dos gerenciadores de arquivos tradicionais que verificam diretórios sob demanda, esta versão cria e mantém um índice de pesquisa em segundo plano. Isso significa que os resultados da pesquisa aparecem instantaneamente conforme o usuário digita, mesmo quando trabalha com estruturas de arquivos grandes e complexas. Isso torna o gerenciamento e a localização de arquivos muito mais rápidos e eficientes.
 
 
-  The application also introduces modern authentication features including support for bearer tokens. This allows integration with external authentication services and makes it possible to access the application programmatically using its well designed REST API. The API gives developers and administrators full control over files and directories through automated tools or scripts.
+  O aplicativo também apresenta recursos de autenticação modernos, incluindo suporte para tokens ao portador. Isso permite a integração com serviços de autenticação externos e possibilita o acesso programático ao aplicativo usando sua API REST bem projetada. A API oferece aos desenvolvedores e administradores controle total sobre arquivos e diretórios por meio de ferramentas ou scripts automatizados.
 
 
-  Filebrowser Quantum focuses on performance, security and ease of use. It updates and simplifies the underlying codebase by using current dependencies and removing outdated components. This ensures that the application remains reliable, maintainable and ready for future development. It is an ideal solution for users who want a powerful self hosted file manager with fast search capabilities and flexible access controls.
+  Filebrowser Quantum concentra-se em desempenho, segurança e facilidade de uso. Ele atualiza e simplifica a base de código subjacente usando dependências atuais e removendo componentes desatualizados. Isso garante que o aplicativo permaneça confiável, de fácil manutenção e pronto para desenvolvimento futuro. É uma solução ideal para usuários que desejam um poderoso gerenciador de arquivos auto-hospedado com recursos de pesquisa rápida e controles de acesso flexíveis.
 developer: Graham Steffaniak
 website: https://github.com/gtsteffaniak/filebrowser
 submitter: Tascok
@@ -24,12 +24,12 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/gtsteffaniak/filebrowser
 support: https://github.com/gtsteffaniak/filebrowser/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-filebrowser-quantum/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-filebrowser-quantum/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-filebrowser-quantum/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-filebrowser-quantum/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-filebrowser-quantum/5.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-filebrowser-quantum/6.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-filebrowser-quantum/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-filebrowser-quantum/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-filebrowser-quantum/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-filebrowser-quantum/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-filebrowser-quantum/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-filebrowser-quantum/6.jpg
 releaseNotes: >-
   This version 0.7.8-beta of Filebrowser Quantum fixes OIDC login issues and adds more control over OIDC user creation, requiring explicit enabling for automatic user creation and supporting admin group mapping. It also resolves bugs related to file saving in the editor, Ctrl-select on macOS and Windows, and respects non-default base URLs during OIDC login.
 dependencies:

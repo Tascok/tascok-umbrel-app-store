@@ -1,19 +1,19 @@
 manifestVersion: 1
 id: tascok-shiori
 name: Shiori
-tagline: A simple and elegant bookmark manager
+tagline: Um gerenciador de favoritos simples e elegante
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-shiori/logo.png
 category: files & productivity
 version: "1.8.0"
 port: 8749
 description: >-
-  🔖 Shiori is a lightweight and elegant bookmark manager that helps you collect and organize your favorite websites in one place. It is designed for people who want to save useful articles, resources, and references without relying on external services. Every time you save a link, Shiori automatically fetches its title, description, and metadata to make your collection both structured and easy to browse.
+  🔖 Shiori é um gerenciador de favoritos leve e elegante que ajuda você a coletar e organizar seus sites favoritos em um só lugar. Ele foi projetado para pessoas que desejam salvar artigos, recursos e referências úteis sem depender de serviços externos. Cada vez que você salva um link, Shiori busca automaticamente seu título, descrição e metadados para tornar sua coleção estruturada e fácil de navegar.
 
 
-  Beyond simple bookmarking, Shiori allows you to store readable versions of pages so you can revisit the content even when the original site is unavailable. This makes it perfect for research, long-term reference collections, or simply building your personal digital library. You can add tags, edit details, and search your saved content with fast, responsive filters that make finding information effortless.
+  Além de um simples marcador, o Shiori permite armazenar versões legíveis de páginas para que você possa revisitar o conteúdo mesmo quando o site original não estiver disponível. Isso o torna perfeito para pesquisas, coleções de referência de longo prazo ou simplesmente para construir sua biblioteca digital pessoal. Você pode adicionar tags, editar detalhes e pesquisar o conteúdo salvo com filtros rápidos e responsivos que facilitam a localização de informações.
 
 
-  The interface is clean and distraction-free, focusing entirely on your saved content. Shiori aims to make managing bookmarks as natural and intuitive as possible while preserving the flexibility and control that power users appreciate. It turns your bookmarks into a personal archive that is searchable, reliable, and fully under your control.
+  A interface é limpa e sem distrações, concentrando-se inteiramente no conteúdo salvo. Shiori pretende tornar o gerenciamento de marcadores o mais natural e intuitivo possível, preservando ao mesmo tempo a flexibilidade e o controle que os usuários avançados apreciam. Ele transforma seus favoritos em um arquivo pessoal pesquisável, confiável e totalmente sob seu controle.
 developer: Shiori
 website: https://github.com/go-shiori/shiori
 submitter: Tascok
@@ -21,9 +21,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/go-shiori/shiori
 support: https://github.com/go-shiori/shiori/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-shiori/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-shiori/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-shiori/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-shiori/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-shiori/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-shiori/3.jpg
 releaseNotes: >-
   This version introduces major improvements to performance and usability, including new API features for tag management, better SQLite efficiency, and support for PWA functionality with link sharing. It also adds proxy authentication and several enhancements to API v1 for filtering and retrieving tag data.
 

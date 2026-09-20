@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-fusion
 name: Fusion
-tagline: A lightweight RSS reader
+tagline: Um leitor RSS leve
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-fusion/logo.png
 category: files & productivity
 version: "0.9.8"
 port: 8899
 description: >-
-  📰 Fusion is a web application that functions as a personal feed reader, enabling users to collect, organize, and read content from a wide range of online sources that publish RSS, Atom, or JSON feeds. It is designed for individuals who prefer to consume news and updates from multiple websites in a centralized and distraction-free environment. Once set up, Fusion automatically fetches new entries from subscribed feeds at regular intervals and stores them in a local database, ensuring that content is always available and up to date.
+  📰 Fusion é um aplicativo da web que funciona como um leitor de feed pessoal, permitindo aos usuários coletar, organizar e ler conteúdo de uma ampla variedade de fontes online que publicam feeds RSS, Atom ou JSON. Ele foi projetado para pessoas que preferem consumir notícias e atualizações de vários sites em um ambiente centralizado e sem distrações. Uma vez configurado, o Fusion busca automaticamente novas entradas de feeds assinados em intervalos regulares e as armazena em um banco de dados local, garantindo que o conteúdo esteja sempre disponível e atualizado.
 
 
-  The application presents articles in a clean and responsive interface that works seamlessly across devices, including desktops, tablets, and smartphones. It supports full-text previews, dark and light themes, and quick navigation using keyboard shortcuts, making it a convenient tool for frequent readers. Feeds can be organized into custom categories, and individual entries can be bookmarked for later reading. Fusion also includes a powerful search function that allows users to quickly locate articles based on keywords or phrases, even across large numbers of feed entries.
+  O aplicativo apresenta artigos em uma interface limpa e responsiva que funciona perfeitamente em vários dispositivos, incluindo desktops, tablets e smartphones. Ele suporta visualizações de texto completo, temas claros e escuros e navegação rápida usando atalhos de teclado, tornando-o uma ferramenta conveniente para leitores frequentes. Os feeds podem ser organizados em categorias personalizadas e entradas individuais podem ser marcadas para leitura posterior. O Fusion também inclui uma poderosa função de pesquisa que permite aos usuários localizar rapidamente artigos com base em palavras-chave ou frases, mesmo em um grande número de entradas de feed.
 
 
-  Fusion respects user privacy by operating without tracking or relying on external services. It supports multilingual interfaces, including English, German, French, Spanish, Chinese, Russian, and others, making it accessible to a global audience. The application allows easy import and export of subscriptions using the widely supported OPML format, so users can migrate their reading lists from other feed readers or share them with others.
+  A Fusion respeita a privacidade do usuário operando sem rastreamento ou dependendo de serviços externos. Suporta interfaces multilíngues, incluindo inglês, alemão, francês, espanhol, chinês, russo e outros, tornando-o acessível a um público global. O aplicativo permite fácil importação e exportação de assinaturas usando o formato OPML amplamente suportado, para que os usuários possam migrar suas listas de leitura de outros leitores de feeds ou compartilhá-las com outras pessoas.
 
 
-  Built with performance and simplicity in mind, Fusion uses a lightweight backend written in Go and stores its data in a SQLite database. It can be deployed effortlessly via Docker or as a standalone binary, and it requires minimal system resources. This makes it particularly well-suited for small servers, Raspberry Pi setups, or any environment that values efficiency and privacy. Fusion is an ideal solution for users who want complete control over their feed-reading experience without relying on third-party platforms.
+  Construído com desempenho e simplicidade em mente, o Fusion usa um back-end leve escrito em Go e armazena seus dados em um banco de dados SQLite. Ele pode ser implantado sem esforço via Docker ou como um binário independente e requer recursos mínimos do sistema. Isso o torna particularmente adequado para pequenos servidores, configurações de Raspberry Pi ou qualquer ambiente que valorize eficiência e privacidade. Fusion é uma solução ideal para usuários que desejam controle total sobre sua experiência de leitura de feeds sem depender de plataformas de terceiros.
 developer: Yuan
 website: https://github.com/0x2E/fusion
 submitter: Tascok
@@ -24,10 +24,10 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/0x2E/fusion
 support: https://github.com/0x2E/fusion/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-fusion/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-fusion/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-fusion/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-fusion/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-fusion/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-fusion/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-fusion/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-fusion/4.jpg
 releaseNotes: >-
   Version 0.9.8 includes important fixes such as using the update time when an item lacks a publish time. It also ensures that the load process is properly retriggered when item filters are updated.
 dependencies:

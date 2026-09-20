@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-foldergram
 name: Foldergram
-tagline: A private Instagram-style feed for your memories
+tagline: Um feed privado no estilo Instagram para suas memórias
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-foldergram/logo.png
 category: files & productivity
 version: "1.2.2"
 port: 4141
 description: >-
-  Foldergram turns a collection of photos and videos into a clean, modern media gallery. It scans folders, organizes the discovered media, and presents everything in a visual interface designed for browsing, rediscovering, and managing personal image and video collections.
+  O Foldergram transforma uma coleção de fotos e vídeos em uma galeria de mídia moderna e limpa. Ele verifica pastas, organiza a mídia descoberta e apresenta tudo em uma interface visual projetada para navegar, redescobrir e gerenciar coleções pessoais de imagens e vídeos.
 
 
-  The app creates album views from folder structures and makes it easy to move through large libraries without manually sorting every file. Photos and videos can be viewed in a timeline style feed, opened individually, explored through recent and random views, or revisited through rediscovery features that bring older memories back into focus.
+  O aplicativo cria visualizações de álbuns a partir de estruturas de pastas e facilita a movimentação por grandes bibliotecas sem classificar manualmente cada arquivo. Fotos e vídeos podem ser visualizados em um feed estilo linha do tempo, abertos individualmente, explorados por meio de visualizações recentes e aleatórias ou revisitados por meio de recursos de redescoberta que trazem memórias antigas de volta ao foco.
 
 
-  Foldergram supports browsing media by albums, collections, places, and library sections. It generates previews and thumbnails so that galleries feel fast and visually organized, even when the media library contains many files. Videos can be watched directly in the interface, while photo collections can be explored in a smooth, gallery focused layout.
+  Foldergram oferece suporte à navegação na mídia por álbuns, coleções, locais e seções da biblioteca. Ele gera visualizações e miniaturas para que as galerias pareçam rápidas e visualmente organizadas, mesmo quando a biblioteca de mídia contém muitos arquivos. Os vídeos podem ser assistidos diretamente na interface, enquanto as coleções de fotos podem ser exploradas em um layout suave e focado na galeria.
 
 
-  The app also includes tools for organizing and maintaining a media library. Items can be moved to trash, collections can be used to group selected media, and the library view helps keep photos and videos accessible without changing the original folder based structure. Foldergram is designed to make existing media folders feel like a polished personal photo app, with a focus on simple browsing, visual discovery, and easy navigation through personal memories.
+  O aplicativo também inclui ferramentas para organizar e manter uma biblioteca de mídia. Os itens podem ser movidos para a lixeira, as coleções podem ser usadas para agrupar mídias selecionadas e a visualização da biblioteca ajuda a manter fotos e vídeos acessíveis sem alterar a estrutura original baseada em pastas. O Foldergram foi projetado para fazer com que as pastas de mídia existentes pareçam um aplicativo de fotos pessoais sofisticado, com foco na navegação simples, descoberta visual e navegação fácil por memórias pessoais.
 developer: Sajjad Ali
 website: https://foldergram.github.io/
 submitter: Tascok
@@ -24,15 +24,15 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/foldergram/foldergram
 support: https://github.com/foldergram/foldergram/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-foldergram/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-foldergram/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-foldergram/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-foldergram/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-foldergram/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-foldergram/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-foldergram/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-foldergram/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-foldergram/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-foldergram/5.jpg
 releaseNotes: >-
   This update adds app-wide language support for English, Spanish, and Chinese, improves nested album titles for clearer browsing, and fixes Home feed startup behavior. 
-  
-  
+
+
   It also makes auth-aware menu actions more consistent across different access states.
 dependencies: []
 path: ""

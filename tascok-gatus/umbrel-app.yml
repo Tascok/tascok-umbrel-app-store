@@ -1,28 +1,28 @@
 manifestVersion: 1
 id: tascok-gatus
 name: Gatus
-tagline: An uptime guardian for critical endpoints
+tagline: Um guardião do tempo de atividade para endpoints críticos
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gatus/logo.png
 category: networking
 version: "5.13.1"
 port: 8443
 description: >-
-  ⚙️ Gatus is an open-source monitoring solution that provides an intuitive, reliable, and efficient way to ensure the uptime and performance of critical services, APIs, and infrastructure. Designed for simplicity, it uses a YAML-based configuration to define endpoints, intervals, and conditions, making it accessible for both small teams and large-scale operations. With support for various protocols such as HTTP, TCP, and DNS, Gatus adapts seamlessly to diverse monitoring needs.
+  ⚙️ Gatus é uma solução de monitoramento de código aberto que fornece uma maneira intuitiva, confiável e eficiente de garantir o tempo de atividade e o desempenho de serviços, APIs e infraestrutura críticos. Projetado para ser simples, ele usa uma configuração baseada em YAML para definir endpoints, intervalos e condições, tornando-o acessível tanto para equipes pequenas quanto para operações de grande escala. Com suporte a diversos protocolos como HTTP, TCP e DNS, o Gatus se adapta perfeitamente a diversas necessidades de monitoramento.
 
 
-  Its user-friendly dashboard visualizes the health and performance of endpoints, while its robust alerting system ensures issues are addressed before they escalate. Notifications can be sent through popular platforms like Slack, Telegram, Discord, and more, keeping teams informed in real-time. Gatus also excels in advanced use cases, such as SSL certificate expiration checks, response time monitoring, and content validation.
+  Seu painel fácil de usar visualiza a integridade e o desempenho dos endpoints, enquanto seu sistema de alerta robusto garante que os problemas sejam resolvidos antes que aumentem. As notificações podem ser enviadas por meio de plataformas populares como Slack, Telegram, Discord e muito mais, mantendo as equipes informadas em tempo real. Gatus também se destaca em casos de uso avançados, como verificações de expiração de certificados SSL, monitoramento de tempo de resposta e validação de conteúdo.
 
 
-  Whether you're managing APIs, websites, or backend services, Gatus is a versatile tool designed to enhance reliability and minimize downtime, providing peace of mind in maintaining mission-critical systems.
+  Esteja você gerenciando APIs, sites ou serviços de back-end, Gatus é uma ferramenta versátil projetada para aumentar a confiabilidade e minimizar o tempo de inatividade, proporcionando tranquilidade na manutenção de sistemas de missão crítica.
 
 
-  ⚠️ Custom Configuration Path Setup: 
-  
-  
-  By default, the configuration file is expected to be located at config/config.yaml in the Umbrel App Folder. To specify a custom path, set the GATUS_CONFIG_PATH environment variable. If GATUS_CONFIG_PATH points to a directory, all *.yaml and *.yml files inside that directory and its subdirectories will be merged. All maps and objects will be deep merged, meaning you can define alerting.slack in one file and alerting.pagerduty in another. Slices and arrays are appended, allowing you to define multiple endpoints across different files, with each endpoint being added to the final list. Parameters with primitive values (e.g., metrics, alerting.slack.webhook-url) can only be defined once to prevent ambiguity. For example, you cannot define alerting.slack.webhook-url in two files with different values. All files are merged into one before processing, and this behavior is by design.
+  ⚠️ Configuração do caminho de configuração personalizada: 
 
 
-  🌐 For a full configuration guide, visit: https://github.com/TwiN/gatus.
+  Por padrão, espera-se que o arquivo de configuração esteja localizado em config/config.yaml na pasta do aplicativo Umbrel. Para especificar um caminho customizado, defina a variável de ambiente GATUS_CONFIG_PATH. Se GATUS_CONFIG_PATH apontar para um diretório, todos os arquivos *.yaml e *.yml dentro desse diretório e seus subdiretórios serão mesclados. Todos os mapas e objetos serão mesclados profundamente, o que significa que você pode definir alerting.slack em um arquivo e alerting.pagerduty em outro. Fatias e matrizes são anexadas, permitindo definir vários pontos de extremidade em arquivos diferentes, com cada ponto de extremidade sendo adicionado à lista final. Parâmetros com valores primitivos (por exemplo, métricas, alerting.slack.webhook-url) só podem ser definidos uma vez para evitar ambiguidade. Por exemplo, você não pode definir alerting.slack.webhook-url em dois arquivos com valores diferentes. Todos os arquivos são mesclados em um antes do processamento e esse comportamento ocorre por design.
+
+
+  🌐 Para obter um guia de configuração completo, visite: https://github.com/TwiN/gatus.
 developer: TwiN
 website: https://gatus.io/
 submitter: Tascok
@@ -30,10 +30,10 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/TwiN/gatus
 support: https://github.com/TwiN/gatus/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gatus/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gatus/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gatus/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gatus/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gatus/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gatus/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gatus/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gatus/4.jpg
 releaseNotes: >-
   Version 5.13.1 of Gatus fixes an issue with missing support for default-alert in teams workflows, and updates dependencies like go-oidc and gofiber. Additionally, a typo in the README was corrected.
 dependencies:

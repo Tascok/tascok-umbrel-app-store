@@ -1,25 +1,25 @@
 manifestVersion: 1
 id: tascok-docspell
 name: Docspell
-tagline: A personal document organizer
+tagline: Um organizador de documentos pessoais
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-docspell/logo.png
 category: files & productivity
 version: "0.42.0"
 port: 7853
 description: >-
-  🗃️ Docspell is an open source document management system designed to simplify the way users handle their digital documents. The application focuses on organizing, categorizing, and making documents easily retrievable, providing an efficient solution for managing both personal and professional paperwork. It automatically extracts important metadata from documents, such as sender information, dates, and relevant tags. This feature allows users to sort and organize their files without spending time on manual classification, ensuring that documents are systematically stored and ready for retrieval whenever needed.
+  🗃️ Docspell é um sistema de gerenciamento de documentos de código aberto projetado para simplificar a maneira como os usuários lidam com seus documentos digitais. O aplicativo tem como foco organizar, categorizar e tornar os documentos facilmente recuperáveis, fornecendo uma solução eficiente para o gerenciamento de documentação pessoal e profissional. Ele extrai automaticamente metadados importantes de documentos, como informações do remetente, datas e tags relevantes. Esse recurso permite que os usuários classifiquem e organizem seus arquivos sem perder tempo com classificação manual, garantindo que os documentos sejam armazenados sistematicamente e prontos para recuperação sempre que necessário.
 
 
-  One of the key features of Docspell is its ability to process scanned documents through optical character recognition technology. This transforms images and PDF files into fully searchable text, allowing users to locate specific information within documents quickly. The system’s powerful full text search functionality ensures that even documents with large volumes of content can be searched effortlessly, making it easy to find precise information based on any keyword or phrase.
+  Um dos principais recursos do Docspell é a capacidade de processar documentos digitalizados por meio da tecnologia de reconhecimento óptico de caracteres. Isso transforma imagens e arquivos PDF em texto totalmente pesquisável, permitindo que os usuários localizem informações específicas nos documentos rapidamente. A poderosa funcionalidade de pesquisa de texto completo do sistema garante que mesmo documentos com grandes volumes de conteúdo possam ser pesquisados ​​sem esforço, facilitando a localização de informações precisas com base em qualquer palavra-chave ou frase.
 
 
-  Docspell also offers a highly intuitive and user friendly web interface that can be accessed across different devices. The interface is designed to be visually clear and supports both light and dark modes, providing a comfortable user experience in various lighting conditions. Users can import documents directly from emails or upload files from cloud services, streamlining the process of adding new documents to the system.
+  Docspell também oferece uma interface web altamente intuitiva e amigável que pode ser acessada em diferentes dispositivos. A interface foi projetada para ser visualmente clara e suporta os modos claro e escuro, proporcionando uma experiência de usuário confortável em várias condições de iluminação. Os usuários podem importar documentos diretamente de e-mails ou fazer upload de arquivos de serviços em nuvem, agilizando o processo de adição de novos documentos ao sistema.
 
 
-  In addition, Docspell provides a well documented REST API that allows integration with other applications. This enables automation and connectivity with other systems, enhancing workflow efficiency. The overall goal of the application is to reduce the effort required to manage documents, increase accessibility, and ensure that all information is organized in a logical and reliable manner, allowing users to focus on their work without worrying about lost or misplaced documents.
+  Além disso, o Docspell fornece uma API REST bem documentada que permite a integração com outras aplicações. Isso permite automação e conectividade com outros sistemas, melhorando a eficiência do fluxo de trabalho. O objetivo geral da aplicação é reduzir o esforço necessário para gerir documentos, aumentar a acessibilidade e garantir que toda a informação é organizada de forma lógica e fiável, permitindo aos utilizadores concentrarem-se no seu trabalho sem se preocuparem com documentos perdidos ou extraviados.
 
 
-  ⚠️ When you add your own credentials, ensure the Collective ID and User Login are the same.
+  ⚠️ Ao adicionar suas próprias credenciais, certifique-se de que o ID coletivo e o login do usuário sejam iguais.
 developer: eikek
 website: https://docspell.org/
 submitter: Tascok
@@ -27,16 +27,16 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/eikek/docspell
 support: https://github.com/eikek/docspell/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-docspell/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-docspell/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-docspell/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-docspell/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-docspell/5.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-docspell/6.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-docspell/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-docspell/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-docspell/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-docspell/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-docspell/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-docspell/6.jpg
 releaseNotes: >-
   This version of Docspell mainly focuses on bug fixes and maintenance improvements. It resolves issues like sidebar scrolling, duplicate tasks on reboot, and deprecated options in WeasyPrint, while also correcting a German word typo. 
-  
-  
+
+
   Additionally, it cleans up development workflows, updates gitignore files, and moves Docker-related workflows to a separate repository.
 dependencies: []
 path: ""

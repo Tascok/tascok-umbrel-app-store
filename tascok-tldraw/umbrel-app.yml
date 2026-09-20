@@ -1,25 +1,25 @@
 manifestVersion: 1
 id: tascok-tldraw
 name: tldraw
-tagline: An intuitive whiteboard for ideas
+tagline: Um quadro branco intuitivo para ideias
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tldraw/logo.png
 category: files & productivity
 version: "2.0.0"
 port: 8505
 description: >-
-  🎨 tldraw is an open-source, browser-based digital whiteboard designed to empower users to express their ideas visually, whether through sketching, diagramming, or collaborative brainstorming. It provides an intuitive, clean canvas where users can draw freely, create shapes, add text, and import images — all without the need for installation or complex setup. The interface is minimalist yet functional, ensuring that the creative process remains smooth and distraction-free.
+  🎨 tldraw é um quadro branco digital de código aberto baseado em navegador, projetado para capacitar os usuários a expressar suas ideias visualmente, seja por meio de esboços, diagramas ou brainstorming colaborativo. Ele fornece uma tela intuitiva e limpa onde os usuários podem desenhar livremente, criar formas, adicionar texto e importar imagens – tudo sem a necessidade de instalação ou configuração complexa. A interface é minimalista, mas funcional, garantindo que o processo criativo permaneça tranquilo e sem distrações.
 
 
-  One of tldraw’s standout features is its real-time collaboration capability, allowing multiple users to join the same canvas and contribute simultaneously. This makes it an excellent tool for remote teams, educators, and creatives who need a shared visual workspace. Each user can see the others' changes instantly, fostering dynamic brainstorming sessions, live design work, or even remote teaching.
+  Um dos recursos de destaque do tldraw é a capacidade de colaboração em tempo real, permitindo que vários usuários participem da mesma tela e contribuam simultaneamente. Isso o torna uma excelente ferramenta para equipes remotas, educadores e criativos que precisam de um espaço de trabalho visual compartilhado. Cada usuário pode ver as alterações dos outros instantaneamente, promovendo sessões dinâmicas de brainstorming, trabalho de design ao vivo ou até mesmo ensino remoto.
 
 
-  What sets tldraw apart is its flexibility and openness. Since it’s open-source, developers can modify, extend, or integrate it into their own projects. Whether it's embedding the whiteboard into an existing platform or customizing the functionality for a specialized workflow, tldraw's architecture supports a wide range of use cases. This adaptability has led to it being used in diverse environments, from software design and product planning to education and collaborative art projects.
+  O que diferencia o tldraw é sua flexibilidade e abertura. Por ser de código aberto, os desenvolvedores podem modificá-lo, ampliá-lo ou integrá-lo em seus próprios projetos. Seja incorporando o quadro branco em uma plataforma existente ou personalizando a funcionalidade para um fluxo de trabalho especializado, a arquitetura do tldraw oferece suporte a uma ampla variedade de casos de uso. Essa adaptabilidade fez com que fosse usado em diversos ambientes, desde design de software e planejamento de produtos até projetos educacionais e artísticos colaborativos.
 
 
-  Furthermore, tldraw embraces modern web technologies, ensuring smooth performance and accessibility across different devices and browsers. Its lightweight nature means it loads quickly, making it ideal for spontaneous ideation sessions without delays or complicated logins. The platform supports both personal use — for quick sketches or visual notes — and professional scenarios, where structured diagrams, flowcharts, or collaborative mind maps are needed.
+  Além disso, o tldraw adota tecnologias web modernas, garantindo bom desempenho e acessibilidade em diferentes dispositivos e navegadores. Sua natureza leve significa que carrega rapidamente, tornando-o ideal para sessões de idealização espontânea, sem atrasos ou logins complicados. A plataforma suporta tanto o uso pessoal — para esboços rápidos ou anotações visuais — quanto cenários profissionais, onde são necessários diagramas estruturados, fluxogramas ou mapas mentais colaborativos.
 
 
-  Overall, tldraw stands out as a versatile, user-friendly, and customizable tool that bridges the gap between casual drawing apps and professional diagramming software. Its blend of simplicity, power, and openness makes it a compelling choice for anyone looking to think visually, whether alone or with a team.
+  No geral, o tldraw se destaca como uma ferramenta versátil, fácil de usar e personalizável que preenche a lacuna entre aplicativos de desenho casuais e software de diagramação profissional. Sua mistura de simplicidade, poder e abertura o torna uma escolha atraente para quem deseja pensar visualmente, seja sozinho ou em equipe.
 developer: Steve Ruiz
 website: https://www.tldraw.com/
 submitter: Tascok
@@ -27,9 +27,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/tldraw/tldraw
 support: https://github.com/tldraw/tldraw/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tldraw/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tldraw/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tldraw/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tldraw/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tldraw/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tldraw/3.jpg
 releaseNotes: >-
   This tldraw release has loads of performance improvements, plus completely redesigned sticky notes.
 

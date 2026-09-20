@@ -1,38 +1,38 @@
 manifestVersion: 1
 id: tascok-homarr
 name: Homarr
-tagline: A customizable browser home page to interact with your Umbrel
+tagline: Uma página inicial do navegador personalizável para interagir com seu Umbrel
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-homarr/logo.png
 category: files & productivity
 version: "1.21.0 "
 port: 7575
 description: >-
-  🦞 Homarr is a modern self-hosted dashboard designed to help users manage and organize their web applications and services in one central place. It acts as a personalized homepage accessible through a web browser, allowing individuals to have quick and easy access to all their important links, servers, containers, and APIs. This makes it especially useful for people who run multiple services on their own servers or devices and want a clean, unified interface to interact with them.
+  🦞 Homarr é um painel moderno auto-hospedado projetado para ajudar os usuários a gerenciar e organizar seus aplicativos e serviços da web em um local central. Ele atua como uma página inicial personalizada acessível por meio de um navegador da web, permitindo que os indivíduos tenham acesso rápido e fácil a todos os seus links, servidores, contêineres e APIs importantes. Isso o torna especialmente útil para pessoas que executam vários serviços em seus próprios servidores ou dispositivos e desejam uma interface limpa e unificada para interagir com eles.
 
 
-  The main purpose of Homarr is to provide an intuitive and visually appealing overview of various self-hosted services. Users can create customizable cards or tiles representing different applications or endpoints. These tiles can be arranged to suit personal preferences, making it simple to find and launch the desired service without having to remember multiple URLs or manage numerous bookmarks. The dashboard offers flexibility in design, allowing adjustments in layout, colors, and icons to match the user's style or to improve usability.
+  O principal objetivo do Homarr é fornecer uma visão geral intuitiva e visualmente atraente de vários serviços auto-hospedados. Os usuários podem criar cartões ou blocos personalizáveis ​​representando diferentes aplicativos ou terminais. Esses blocos podem ser organizados de acordo com as preferências pessoais, simplificando a localização e o lançamento do serviço desejado, sem a necessidade de lembrar vários URLs ou gerenciar vários marcadores. O dashboard oferece flexibilidade no design, permitindo ajustes de layout, cores e ícones para combinar com o estilo do usuário ou para melhorar a usabilidade.
 
 
-  Because Homarr is self-hosted, it gives users full control over their data and environment. It can be deployed on devices such as home servers, network-attached storage systems, or virtual private servers. Security features can be enabled to restrict access to authorized users only, which ensures that the dashboard and the linked services remain protected from unauthorized use.
+  Como o Homarr é auto-hospedado, ele oferece aos usuários controle total sobre seus dados e ambiente. Ele pode ser implantado em dispositivos como servidores domésticos, sistemas de armazenamento conectados à rede ou servidores virtuais privados. Os recursos de segurança podem ser ativados para restringir o acesso apenas a usuários autorizados, o que garante que o painel e os serviços vinculados permaneçam protegidos contra uso não autorizado.
 
 
-  Homarr is particularly appealing to tech enthusiasts, system administrators, and anyone who manages a complex setup of self-hosted applications. It reduces the hassle of navigating through different interfaces and provides a streamlined experience for monitoring and accessing services. By consolidating everything into a single, easy-to-use interface, Homarr improves productivity and organization.
+  Homarr é particularmente atraente para entusiastas de tecnologia, administradores de sistema e qualquer pessoa que gerencie uma configuração complexa de aplicativos auto-hospedados. Reduz o incômodo de navegar por diferentes interfaces e fornece uma experiência simplificada para monitorar e acessar serviços. Ao consolidar tudo em uma interface única e fácil de usar, Homarr melhora a produtividade e a organização.
 
 
-  In summary, Homarr is a customizable and secure dashboard solution for individuals looking to centralize access to their self-hosted web applications. It enhances convenience by offering a visually structured and personalized entry point to a variety of online services and tools.
-developer: homarr-labs 
+  Em resumo, Homarr é uma solução de painel personalizável e segura para indivíduos que desejam centralizar o acesso aos seus aplicativos web auto-hospedados. Ele aumenta a conveniência ao oferecer um ponto de entrada visualmente estruturado e personalizado para uma variedade de serviços e ferramentas online.
+developer: homarr-labs
 website: https://homarr.dev/
 submitter: Tascok
 submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/ajnart/homarr
 support: https://github.com/ajnart/homarr/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-homarr/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-homarr/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-homarr/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-homarr/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-homarr/5.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-homarr/6.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-homarr/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-homarr/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-homarr/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-homarr/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-homarr/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-homarr/6.jpg
 releaseNotes: >-
   This update introduces a new Docker widget and includes numerous dependency upgrades. It also fixes several bugs, such as layout issues, reordering problems in the downloads widget, and a missing esbuild dependency.
 dependencies:

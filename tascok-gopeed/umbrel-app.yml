@@ -1,28 +1,28 @@
 manifestVersion: 1
 id: tascok-gopeed
 name: Gopeed
-tagline: A modern download manager
+tagline: Um gerenciador de downloads moderno
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gopeed/logo.png
 category: media
 version: "1.6.11"
 port: 9999
 description: >-
-  📥 Gopeed is an advanced, open-source download manager that focuses on performance, flexibility, and ease of use. It is developed using Golang and Flutter, allowing it to take advantage of Goroutines, a lightweight concurrency model that enables multiple downloads to run simultaneously. This approach significantly boosts download speed while keeping resource usage low. The result is a highly efficient performance that remains stable even on systems with limited hardware capabilities.
+  📥 Gopeed é um gerenciador de download avançado de código aberto que se concentra no desempenho, flexibilidade e facilidade de uso. Ele é desenvolvido usando Golang e Flutter, permitindo aproveitar as vantagens do Goroutines, um modelo de simultaneidade leve que permite que vários downloads sejam executados simultaneamente. Essa abordagem aumenta significativamente a velocidade de download, mantendo baixo o uso de recursos. O resultado é um desempenho altamente eficiente que permanece estável mesmo em sistemas com capacidades de hardware limitadas.
 
 
-  One of Gopeed’s most impressive features is its ability to support various download protocols. It works seamlessly with HTTP, HTTPS, BitTorrent, and Magnet links. This broad compatibility ensures that users can handle everything from standard file downloads to large torrent-based content within a single application. There is no need to rely on multiple, specialized tools to cover different types of downloads. Gopeed can also split files into smaller parts to accelerate downloads and resume interrupted transfers without losing progress.
+  Um dos recursos mais impressionantes do Gopeed é a capacidade de oferecer suporte a vários protocolos de download. Funciona perfeitamente com links HTTP, HTTPS, BitTorrent e Magnet. Essa ampla compatibilidade garante que os usuários possam lidar com tudo, desde downloads de arquivos padrão até grandes conteúdos baseados em torrents em um único aplicativo. Não há necessidade de depender de diversas ferramentas especializadas para cobrir diferentes tipos de downloads. Gopeed também pode dividir arquivos em partes menores para acelerar downloads e retomar transferências interrompidas sem perder o progresso.
 
 
-  The user interface follows modern Material Design principles and combines a clean layout with intuitive controls. This ensures that beginners can easily find their way around the app while advanced users still have access to powerful management features. It includes options to prioritize downloads, limit speeds, and monitor progress in detail. This balance between simplicity and control ensures that Gopeed remains user-friendly without sacrificing functionality.
+  A interface do usuário segue os princípios modernos do Material Design e combina um layout limpo com controles intuitivos. Isso garante que os iniciantes possam se orientar facilmente no aplicativo, enquanto os usuários avançados ainda terão acesso a poderosos recursos de gerenciamento. Inclui opções para priorizar downloads, limitar velocidades e monitorar o progresso detalhadamente. Este equilíbrio entre simplicidade e controle garante que o Gopeed permaneça fácil de usar sem sacrificar a funcionalidade.
 
 
-  In addition to its flexible download management, Gopeed offers an API that supports integration with other applications and services. This feature makes it possible to automate downloads or adapt Gopeed to fit more complex workflows. Users with specific needs can tailor the software to suit their individual requirements, whether that involves automating repetitive tasks or creating custom extensions to expand its capabilities.
+  Além do gerenciamento flexível de downloads, Gopeed oferece uma API que suporta integração com outros aplicativos e serviços. Esse recurso permite automatizar downloads ou adaptar o Gopeed para fluxos de trabalho mais complexos. Usuários com necessidades específicas podem personalizar o software para atender às suas necessidades individuais, seja isso envolvendo a automatização de tarefas repetitivas ou a criação de extensões personalizadas para expandir seus recursos.
 
 
-  Gopeed remains lightweight despite its extensive feature set. It avoids unnecessary bloat and keeps system performance smooth, even when handling large queues or high-speed downloads. It stays responsive and reliable, whether it is managing individual files or overseeing complex, multi-part downloads. This combination of speed, stability, and low resource consumption makes it an ideal choice for anyone who wants a download manager that works efficiently without slowing down their system.
+  Gopeed permanece leve, apesar de seu extenso conjunto de recursos. Ele evita inchaço desnecessário e mantém o desempenho do sistema estável, mesmo ao lidar com grandes filas ou downloads em alta velocidade. Ele permanece responsivo e confiável, seja gerenciando arquivos individuais ou supervisionando downloads complexos de várias partes. Essa combinação de velocidade, estabilidade e baixo consumo de recursos o torna a escolha ideal para quem deseja um gerenciador de downloads que funcione de forma eficiente sem deixar o sistema lento.
 
-  
-  With its powerful performance, extensive protocol support, and user-friendly design, Gopeed offers a modern and reliable solution for managing downloads. It provides the right balance of speed, control, and simplicity, making it suitable for both everyday users and those with more advanced needs.
+
+  Com seu desempenho poderoso, amplo suporte a protocolos e design fácil de usar, Gopeed oferece uma solução moderna e confiável para gerenciamento de downloads. Ele fornece o equilíbrio certo entre velocidade, controle e simplicidade, tornando-o adequado tanto para usuários comuns quanto para aqueles com necessidades mais avançadas.
 developer: GopeedLab
 website: https://gopeed.com/
 submitter: Tascok
@@ -30,13 +30,13 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/GopeedLab/gopeed
 support: https://github.com/GopeedLab/gopeed/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gopeed/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gopeed/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gopeed/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gopeed/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gopeed/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gopeed/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gopeed/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gopeed/4.jpg
 releaseNotes: >-
   The latest Gopeed update introduces several improvements, including caching and gzip support for the built-in web file server, an auto-updater, and an enhanced HTTP download retry strategy. 
-  
+
   It also fixes various bugs, such as issues with file size mismatches, URL encoding, and Windows title bar theme switching. Additionally, Hungarian language support has been added, along with new Linux ARM64 builds.
 dependencies:
 path: ""

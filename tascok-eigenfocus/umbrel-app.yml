@@ -1,25 +1,25 @@
 manifestVersion: 1
 id: tascok-eigenfocus
 name: Eigenfocus
-tagline: An all-in-one project management, planning and time tracking app
+tagline: Um aplicativo completo de gerenciamento de projetos, planejamento e controle de tempo
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-eigenfocus/logo.png
 category: files & productivity
 version: "1.5.1"
 port: 3390
 description: >-
-  ⏱️ Eigenfocus is a comprehensive application designed to bring together project management, task organization, time tracking and focus enhancing features in one unified environment. It is built to simplify the way projects are structured and followed through, while at the same time helping users stay concentrated and productive during their work sessions.
+  ⏱️ Eigenfocus é um aplicativo abrangente projetado para reunir recursos de gerenciamento de projetos, organização de tarefas, controle de tempo e aprimoramento de foco em um ambiente unificado. Ele foi desenvolvido para simplificar a forma como os projetos são estruturados e acompanhados, ao mesmo tempo que ajuda os usuários a permanecerem concentrados e produtivos durante suas sessões de trabalho.
 
 
-  At its core, Eigenfocus provides flexible project management tools. Users can create projects, break them down into tasks and organize those tasks within customizable boards. Each task can include detailed information, labels and statuses, allowing projects to remain structured and transparent at every stage. This makes it possible to oversee both small and large projects with a clear understanding of what needs to be done and how progress is unfolding.
+  Basicamente, o Eigenfocus fornece ferramentas flexíveis de gerenciamento de projetos. Os usuários podem criar projetos, dividi-los em tarefas e organizá-las em quadros personalizáveis. Cada tarefa pode incluir informações detalhadas, rótulos e status, permitindo que os projetos permaneçam estruturados e transparentes em todas as etapas. Isto torna possível supervisionar projetos pequenos e grandes com uma compreensão clara do que precisa ser feito e de como o progresso está se desenvolvendo.
 
 
-  Time tracking is deeply integrated into the workflow. Work sessions can be logged directly on tasks or projects, giving users accurate data about how much time is being spent on specific activities. Reports can then be generated to show a complete overview of time distribution, making it easier to analyze productivity, identify bottlenecks and reflect on working habits.
+  O controle de tempo está profundamente integrado ao fluxo de trabalho. As sessões de trabalho podem ser registradas diretamente em tarefas ou projetos, fornecendo aos usuários dados precisos sobre quanto tempo está sendo gasto em atividades específicas. Os relatórios podem então ser gerados para mostrar uma visão completa da distribuição do tempo, facilitando a análise da produtividade, a identificação de gargalos e a reflexão sobre os hábitos de trabalho.
 
 
-  Another defining aspect of Eigenfocus is its focus oriented environment. The application includes features such as timers and ambient sounds that are designed to support deep work and concentration. These tools transform the workspace into a place where distractions are minimized and attention can be directed fully toward the task at hand.
+  Outro aspecto definidor do Eigenfocus é o seu ambiente orientado para o foco. O aplicativo inclui recursos como temporizadores e sons ambientes projetados para apoiar trabalho profundo e concentração. Estas ferramentas transformam o espaço de trabalho num local onde as distrações são minimizadas e a atenção pode ser totalmente direcionada para a tarefa em questão.
 
 
-  By combining project planning, detailed task management, precise time tracking and tools that promote focus, Eigenfocus offers a seamless workflow that connects planning, execution and reflection. It provides a space where ideas can be organized, work can be tracked and focus can be maintained, creating a balanced approach that supports both individual productivity and collaborative project success.
+  Ao combinar planejamento de projetos, gerenciamento detalhado de tarefas, controle preciso de tempo e ferramentas que promovem o foco, o Eigenfocus oferece um fluxo de trabalho contínuo que conecta planejamento, execução e reflexão. Ele fornece um espaço onde as ideias podem ser organizadas, o trabalho pode ser monitorado e o foco pode ser mantido, criando uma abordagem equilibrada que apoia tanto a produtividade individual quanto o sucesso do projeto colaborativo.
 developer: SoftVoid, LLC
 website: https://eigenfocus.com/
 submitter: Tascok
@@ -27,12 +27,12 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/Eigenfocus/eigenfocus
 support: https://github.com/Eigenfocus/eigenfocus/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-eigenfocus/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-eigenfocus/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-eigenfocus/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-eigenfocus/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-eigenfocus/5.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-eigenfocus/6.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-eigenfocus/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-eigenfocus/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-eigenfocus/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-eigenfocus/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-eigenfocus/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-eigenfocus/6.jpg
 releaseNotes: >-
   Eigenfocus has introduced significant improvements across versions 1.3.0 through 1.5.1, focusing on enhanced time tracking functionality, better issue management, and improved user experience. The releases bring time tracking alerts to prevent forgotten timers, flexible manual time entry in minutes or hours, easier issue completion workflows, global issue URLs for sharing, and improved draft saving for better collaboration.
 

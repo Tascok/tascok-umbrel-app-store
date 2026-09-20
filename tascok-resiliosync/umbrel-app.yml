@@ -1,25 +1,25 @@
 manifestVersion: 1
 id: tascok-resiliosync
 name: Resilio Sync
-tagline: A secure way to keep files in sync
+tagline: Uma maneira segura de manter os arquivos sincronizados
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-resiliosync/logo.png
 category: files & productivity
 version: "3.1.0"
 port: 8777
 description: >-
-  🔄 Resilio Sync is an application that enables secure and efficient file synchronization between devices using peer to peer technology. It transfers data directly between connected devices without relying on cloud storage which ensures privacy and control over the shared content.
+  🔄 Resilio Sync é um aplicativo que permite a sincronização segura e eficiente de arquivos entre dispositivos usando tecnologia ponto a ponto. Ele transfere dados diretamente entre dispositivos conectados sem depender de armazenamento em nuvem, o que garante privacidade e controle sobre o conteúdo compartilhado.
 
 
-  The app can synchronize large files and entire folders quickly by taking advantage of multiple simultaneous connections and optimized data transfer methods. It works in real time so changes made to files on one device are instantly updated on all other connected devices.
+  O aplicativo pode sincronizar arquivos grandes e pastas inteiras rapidamente, aproveitando várias conexões simultâneas e métodos otimizados de transferência de dados. Funciona em tempo real para que as alterações feitas nos arquivos de um dispositivo sejam atualizadas instantaneamente em todos os outros dispositivos conectados.
 
 
-  All transfers are encrypted end to end providing a secure way to share personal or work related data with others. Resilio Sync also supports selective synchronization allowing users to choose which files or folders to download to a specific device while keeping the rest available remotely.
+  Todas as transferências são criptografadas de ponta a ponta, proporcionando uma maneira segura de compartilhar dados pessoais ou relacionados ao trabalho com outras pessoas. O Resilio Sync também oferece suporte à sincronização seletiva, permitindo aos usuários escolher quais arquivos ou pastas baixar para um dispositivo específico, mantendo o restante disponível remotamente.
 
 
-  This makes it suitable for both personal use and collaborative projects where multiple people need access to the same files while maintaining full security and data ownership.
+  Isso o torna adequado tanto para uso pessoal quanto para projetos colaborativos onde várias pessoas precisam acessar os mesmos arquivos, mantendo total segurança e propriedade dos dados.
 
 
-  ⚠️ Please make sure to register your free Resilio account and wait for the license key and activation instructions sent to your email.
+  ⚠️ Certifique-se de registrar sua conta Resilio gratuita e aguarde a chave de licença e as instruções de ativação enviadas para seu e-mail.
 developer: Resilio, Inc.
 website: https://www.resilio.com/
 submitter: Tascok
@@ -27,10 +27,10 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/linuxserver/docker-resilio-sync
 support: https://github.com/linuxserver/docker-resilio-sync/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-resiliosync/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-resiliosync/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-resiliosync/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-resiliosync/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-resiliosync/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-resiliosync/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-resiliosync/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-resiliosync/4.jpg
 releaseNotes: >-
   Version 3.1.0 introduces a new option to prioritize file downloads by timestamp or size. It fixes non-clickable error messages and adds @__thumb* to the default IgnoreList. Several other minor bugs were also addressed.
 dependencies: []

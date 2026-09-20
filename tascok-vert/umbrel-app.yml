@@ -1,19 +1,19 @@
 manifestVersion: 1
 id: tascok-vert
 name: VERT
-tagline: A file conversion utility
+tagline: Um utilitário de conversão de arquivos
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-vert/logo.png
 category: files & productivity
 version: "sha-d89a343"
 port: 3884
 description: >-
-  🔄 VERT is a modern and intelligent file conversion utility built to make transforming files effortless, secure, and efficient. It is designed to support a broad spectrum of file types including images, videos, audio, and documents, allowing users to convert between formats with precision and speed. Every conversion is handled smoothly, ensuring that the original quality and structure of the files are preserved as much as possible.
+  🔄 VERT é um utilitário de conversão de arquivos moderno e inteligente desenvolvido para tornar a transformação de arquivos fácil, segura e eficiente. Ele foi projetado para suportar uma ampla gama de tipos de arquivos, incluindo imagens, vídeos, áudio e documentos, permitindo aos usuários converter entre formatos com precisão e velocidade. Cada conversão é realizada sem problemas, garantindo que a qualidade e a estrutura originais dos arquivos sejam preservadas tanto quanto possível.
 
 
-  What makes VERT stand out is its focus on privacy and performance. Conversions are processed locally, meaning the files stay entirely under the user’s control without being sent to external servers. This not only protects sensitive data but also removes upload size limits and minimizes waiting times.
+  O que diferencia o VERT é seu foco na privacidade e no desempenho. As conversões são processadas localmente, o que significa que os arquivos ficam inteiramente sob o controle do usuário sem serem enviados para servidores externos. Isso não apenas protege dados confidenciais, mas também remove os limites de tamanho de upload e minimiza os tempos de espera.
 
 
-  VERT combines a clean, intuitive interface with advanced conversion logic, giving users both simplicity and flexibility. Whether it’s converting a single file or processing multiple files in sequence, it provides a seamless experience that adapts to different needs. The result is a reliable and privacy-respecting tool that turns file conversion into a fast, straightforward, and enjoyable process.
+  VERT combina uma interface limpa e intuitiva com lógica de conversão avançada, oferecendo aos usuários simplicidade e flexibilidade. Seja convertendo um único arquivo ou processando vários arquivos em sequência, ele oferece uma experiência perfeita que se adapta a diferentes necessidades. O resultado é uma ferramenta confiável e que respeita a privacidade que transforma a conversão de arquivos em um processo rápido, direto e agradável.
 developer: VERT
 website: https://vert.sh/
 submitter: Tascok
@@ -21,13 +21,13 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/VERT-sh/VERT
 support: https://github.com/VERT-sh/VERT/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-vert/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-vert/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-vert/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-vert/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-vert/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-vert/3.jpg
 releaseNotes: >-
   This update introduces new Japanese and Turkish translations, along with improvements to existing Spanish text. It also refines documentation and SEO descriptions for better clarity and search performance. 
-  
-  
+
+
   Additionally, videos are now kept for debugging, and several small fixes and merges improve overall stability and consistency.
 dependencies: []
 path: ""

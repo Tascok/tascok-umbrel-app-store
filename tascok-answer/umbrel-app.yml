@@ -1,46 +1,46 @@
 manifestVersion: 1
 id: tascok-answer
 name: Answer
-tagline: A Q&A platform software for teams at any scale
+tagline: Um software de plataforma de perguntas e respostas para equipes de qualquer escala
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-answer/logo.png
 category: social
 version: "2.0.1"
 port: 9082
 description: >-
-  Apache Answer is a modern, open-source Q&A platform software designed for teams and communities of any scale. It enables organizations to deploy their own help centers, community forums, or knowledge management systems, facilitating structured knowledge sharing and efficient problem-solving for users.
+  Apache Answer é um software de plataforma de perguntas e respostas moderno e de código aberto, projetado para equipes e comunidades de qualquer escala. Ele permite que as organizações implantem suas próprias centrais de ajuda, fóruns comunitários ou sistemas de gerenciamento de conhecimento, facilitando o compartilhamento estruturado de conhecimento e a solução eficiente de problemas para os usuários.
 
 
-  ⚠️ During the installation, you need to select the "SQLite database". Please make sure to specify the path "/data/answer.db" to store the data correctly and ensure the application runs smoothly.
+  ⚠️ Durante a instalação, você precisa selecionar o “banco de dados SQLite”. Certifique-se de especificar o caminho "/data/answer.db" para armazenar os dados corretamente e garantir que o aplicativo funcione sem problemas.
 
 
-  🛠️ Key Features:
+  🛠️ Principais recursos:
 
 
-    - Comprehensive Q&A System: Full-featured tools for posting questions, providing answers, adding comments, and voting on content to ensure the highest quality of shared knowledge.
-    - Knowledge Management & Discovery: An intuitive tagging system for efficient content categorization, allowing users to quickly locate relevant information and organize the knowledge base.
-    - Reputation System: A built-in gamification and reputation engine that rewards contributors for providing high-quality answers and valuable community contributions.
-    - Plugin Architecture: A robust plugin system that allows developers to extend the platform's functionality to meet specific requirements.
-    - API Support: RESTful APIs and webhooks for seamless integration with existing tools and automated workflows.
-    - Security & Access Control: Support for OAuth, Single Sign-On (SSO), fine-grained Role-Based Access Control (RBAC), and comprehensive moderation tools.
-    - Global Scalability: Built-in internationalization (i18n) and a scalable architecture designed to handle everything from small internal teams to high-traffic enterprise deployments.
+    - Sistema abrangente de perguntas e respostas: ferramentas completas para postar perguntas, fornecer respostas, adicionar comentários e votar no conteúdo para garantir a mais alta qualidade de conhecimento compartilhado.
+    - Gerenciamento e descoberta de conhecimento: um sistema de marcação intuitivo para categorização eficiente de conteúdo, permitindo aos usuários localizar rapidamente informações relevantes e organizar a base de conhecimento.
+    - Sistema de reputação: um mecanismo integrado de gamificação e reputação que recompensa os colaboradores por fornecerem respostas de alta qualidade e contribuições valiosas à comunidade.
+    - Arquitetura de plug-ins: um sistema robusto de plug-ins que permite aos desenvolvedores estender a funcionalidade da plataforma para atender a requisitos específicos.
+    - Suporte API: APIs RESTful e webhooks para integração perfeita com ferramentas existentes e fluxos de trabalho automatizados.
+    - Segurança e controle de acesso: suporte para OAuth, Single Sign-On (SSO), controle de acesso baseado em função (RBAC) refinado e ferramentas de moderação abrangentes.
+    - Escalabilidade Global: Internacionalização integrada (i18n) e uma arquitetura escalável projetada para lidar com tudo, desde pequenas equipes internas até implantações empresariais de alto tráfego.
 
 
-  🎯 Use Cases:
+  🎯 Casos de uso:
 
 
-  👥 Community Support Forum: Build a public-facing hub where your users can ask questions, share tips, and help each other. This reduces the load on your official support channels by creating a searchable, community-driven knowledge base.
+  👥 Fórum de suporte da comunidade: crie um hub público onde seus usuários possam fazer perguntas, compartilhar dicas e ajudar uns aos outros. Isso reduz a carga em seus canais de suporte oficiais, criando uma base de conhecimento pesquisável e voltada para a comunidade.
 
 
-  🏢 Internal Corporate Knowledge Base: Create a private Q&A portal for your employees to document internal processes, technical specifications, and "how-to" guides. It prevents knowledge silos and helps onboard new team members faster.
+  🏢 Base de conhecimento corporativo interno: Crie um portal privado de perguntas e respostas para seus funcionários documentarem processos internos, especificações técnicas e guias de "como fazer". Ele evita silos de conhecimento e ajuda a integrar novos membros da equipe com mais rapidez.
 
 
-  🛠️ Product Help Center: Deploy a structured help center for a specific product or service. By using tags and categories, you can organize documentation and FAQs into a user-friendly format that guides users toward the right solutions.
+  🛠️ Central de Ajuda do Produto: Implante uma central de ajuda estruturada para um produto ou serviço específico. Ao usar tags e categorias, você pode organizar a documentação e as perguntas frequentes em um formato amigável que orienta os usuários nas soluções certas.
 
 
-  💻 Technical Documentation Hub: Complement your static documentation with a dynamic Q&A layer. Developers can ask for clarification on specific API endpoints or library functions, and the official team can provide "verified" answers.
+  💻 Centro de documentação técnica: complemente sua documentação estática com uma camada dinâmica de perguntas e respostas. Os desenvolvedores podem solicitar esclarecimentos sobre endpoints de API específicos ou funções de biblioteca, e a equipe oficial pode fornecer respostas “verificadas”.
 
 
-  🎓 Educational & Academic Portal: Set up a platform for students and teachers to discuss course materials, clarify complex topics, and share academic resources in a structured, threaded conversation format.
+  🎓 Portal Educacional e Acadêmico: Configure uma plataforma para alunos e professores discutirem materiais do curso, esclarecerem tópicos complexos e compartilharem recursos acadêmicos em um formato de conversação estruturada e encadeada.
 
 
 developer: Apache Software Foundation
@@ -50,9 +50,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/apache/answer
 support: https://github.com/apache/answer/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-answer/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-answer/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-answer/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-answer/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-answer/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-answer/3.jpg
 releaseNotes: >-
   This release includes several new features and many improvements:
 

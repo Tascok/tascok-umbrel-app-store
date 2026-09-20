@@ -1,25 +1,25 @@
 manifestVersion: 1
 id: tascok-owncloud
 name: ownCloud
-tagline: A smart cloud for your files
+tagline: Uma nuvem inteligente para seus arquivos
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-owncloud/logo.png
 category: files & productivity
 version: "10.15.3"
 port: 8666
 description: >-
-  ☁️ ownCloud is a comprehensive software application designed to provide users with a personal cloud storage solution that combines file management, collaboration, and organizational tools in one platform. It allows users to upload, store, and organize their files in a secure, centralized environment, making it easy to keep track of documents, photos, videos, and other types of data. With OwnCloud, files can be synchronized seamlessly across multiple devices such as computers, smartphones, and tablets, ensuring that users always have access to the most up-to-date versions no matter where they are or what device they are using.
+  ☁️ ownCloud é um aplicativo de software abrangente projetado para fornecer aos usuários uma solução de armazenamento em nuvem pessoal que combina gerenciamento de arquivos, colaboração e ferramentas organizacionais em uma plataforma. Ele permite que os usuários carreguem, armazenem e organizem seus arquivos em um ambiente seguro e centralizado, facilitando o controle de documentos, fotos, vídeos e outros tipos de dados. Com o OwnCloud, os arquivos podem ser sincronizados perfeitamente em vários dispositivos, como computadores, smartphones e tablets, garantindo que os usuários sempre tenham acesso às versões mais atualizadas, independentemente de onde estejam ou do dispositivo que estejam usando.
 
 
-  The application offers advanced sharing capabilities, enabling users to share files and folders with colleagues, friends, or family members. Access permissions can be finely tuned to grant read-only, editing, or full control rights, which helps maintain privacy and security while promoting collaboration. ownCloud also supports real-time collaboration on documents, allowing multiple users to work together efficiently, whether it is for business projects, academic work, or personal tasks.
+  O aplicativo oferece recursos avançados de compartilhamento, permitindo aos usuários compartilhar arquivos e pastas com colegas, amigos ou familiares. As permissões de acesso podem ser ajustadas para conceder direitos somente leitura, edição ou controle total, o que ajuda a manter a privacidade e a segurança enquanto promove a colaboração. ownCloud também suporta colaboração em tempo real em documentos, permitindo que vários usuários trabalhem juntos de forma eficiente, seja para projetos de negócios, trabalhos acadêmicos ou tarefas pessoais.
 
 
-  Beyond basic file storage and sharing, ownCloud includes a range of integrated productivity features. Users can manage calendars to keep track of appointments and events, organize contacts to maintain communication information, create and track tasks to boost productivity, and take notes that are easily accessible from any device. These additional tools turn OwnCloud into more than just a file repository; it becomes a centralized hub for managing various aspects of daily life and work.
+  Além do armazenamento e compartilhamento básico de arquivos, o ownCloud inclui uma variedade de recursos de produtividade integrados. Os usuários podem gerenciar calendários para acompanhar compromissos e eventos, organizar contatos para manter informações de comunicação, criar e rastrear tarefas para aumentar a produtividade e fazer anotações facilmente acessíveis em qualquer dispositivo. Essas ferramentas adicionais transformam o OwnCloud em mais do que apenas um repositório de arquivos; torna-se um centro centralizado para gerenciar vários aspectos da vida diária e do trabalho.
 
 
-  Security and control are core aspects of ownCloud. The platform places a strong emphasis on data privacy by offering encryption options, user authentication, and detailed logging of access and changes. This ensures that sensitive information remains protected and that users have full visibility over who accesses their data and how it is used.
+  Segurança e controle são aspectos centrais do ownCloud. A plataforma dá grande ênfase à privacidade dos dados, oferecendo opções de criptografia, autenticação de usuário e registro detalhado de acessos e alterações. Isso garante que as informações confidenciais permaneçam protegidas e que os usuários tenham total visibilidade sobre quem acessa seus dados e como eles são usados.
 
 
-  Overall, ownCloud combines the convenience of cloud storage with powerful collaboration and organizational tools, providing users with a versatile and secure environment to manage their digital content efficiently and on their own terms.
+  No geral, o ownCloud combina a conveniência do armazenamento em nuvem com poderosas ferramentas organizacionais e de colaboração, proporcionando aos usuários um ambiente versátil e seguro para gerenciar seu conteúdo digital de forma eficiente e em seus próprios termos.
 developer: ownCloud GmbH
 website: https://owncloud.com
 submitter: Tascok
@@ -27,10 +27,10 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/owncloud-docker/server
 support: https://github.com/owncloud-docker/server/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-owncloud/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-owncloud/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-owncloud/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-owncloud/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-owncloud/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-owncloud/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-owncloud/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-owncloud/4.jpg
 releaseNotes: >-
   The ownCloud Core 10.15.3 update disables the outdated web updater by removing its integration from the admin interface to prevent potential issues. Additionally, it improves security by strengthening how remote services like WebDAV and CalDAV are resolved, ensuring they are loaded only from trusted sources.
 dependencies: []

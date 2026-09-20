@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-wikigo
 name: Wiki-Go
-tagline: A modern flat-file wiki built with Go
+tagline: Um wiki moderno de arquivo simples criado com Go
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wikigo/logo.png
 category: files & productivity
 version: "1.3.14"
 port: 8833
 description: >-
-  Wiki-Go is a lightweight, self-hosted wiki application written in the Go programming language. Designed for simplicity and speed, it allows users to create and edit pages through a clean, web-based interface. Instead of relying on a traditional database, Wiki-Go stores all its content as Markdown files, making it easy to back up, version control, or edit with any standard text editor. The application compiles into a single executable binary, which means it can run on virtually any platform without the need for complex installations or external dependencies.
+  Wiki-Go é um aplicativo wiki leve e auto-hospedado, escrito na linguagem de programação Go. Projetado para simplicidade e velocidade, ele permite aos usuários criar e editar páginas por meio de uma interface limpa baseada na web. Em vez de depender de um banco de dados tradicional, o Wiki-Go armazena todo o seu conteúdo como arquivos Markdown, facilitando o backup, o controle de versão ou a edição com qualquer editor de texto padrão. O aplicativo é compilado em um único binário executável, o que significa que pode ser executado em praticamente qualquer plataforma sem a necessidade de instalações complexas ou dependências externas.
 
 
-  The project aims to provide a minimal yet functional wiki system that can be deployed quickly and managed with little effort. Whether used for personal notes, project documentation, or as an internal knowledge base for a small team, Wiki-Go offers a fast and straightforward solution. The interface is intentionally minimalistic, focusing on content creation and readability, while still offering basic features like templating and theming for customization.
+  O projeto visa fornecer um sistema wiki mínimo, porém funcional, que possa ser implantado rapidamente e gerenciado com pouco esforço. Seja usado para anotações pessoais, documentação de projetos ou como base de conhecimento interna para uma pequena equipe, o Wiki-Go oferece uma solução rápida e direta. A interface é intencionalmente minimalista, com foco na criação e legibilidade do conteúdo, ao mesmo tempo que oferece recursos básicos como templates e temas para personalização.
 
 
-  Because it’s written in Go, Wiki-Go is highly performant and can handle a large number of pages efficiently. It is particularly well-suited for developers or enthusiasts who appreciate open-source software and want a no-fuss, portable wiki system. Since the entire application runs as a single binary, it’s also easy to containerize or integrate into environments like Docker or self-hosting platforms such as Umbrel.
+  Por estar escrito em Go, o Wiki-Go tem alto desempenho e pode lidar com um grande número de páginas com eficiência. É particularmente adequado para desenvolvedores ou entusiastas que apreciam software de código aberto e desejam um sistema wiki portátil e descomplicado. Como todo o aplicativo é executado como um único binário, também é fácil conteinerizar ou integrar em ambientes como Docker ou plataformas de auto-hospedagem como Umbrel.
 
 
-  In essence, Wiki-Go is ideal for anyone seeking a markdown-based wiki with a lightweight footprint and a focus on ease of use, deployment, and maintenance.
+  Em essência, o Wiki-Go é ideal para quem procura um wiki baseado em markdown, leve e com foco na facilidade de uso, implantação e manutenção.
 developer: LeoMoon Studios
 website: https://leomoon.com/
 submitter: Tascok
@@ -24,10 +24,10 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/leomoon-studios/wiki-go
 support: https://github.com/leomoon-studios/wiki-go/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wikigo/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wikigo/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wikigo/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wikigo/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wikigo/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wikigo/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wikigo/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wikigo/4.jpg
 releaseNotes: >-
   Release v1.3.14 introduces several improvements: comment timestamps are now displayed in a human-readable format. The document picker search input now supports bidirectional text and includes new translations. Additionally, CSS for the recent edits stats has been refined.
 dependencies:

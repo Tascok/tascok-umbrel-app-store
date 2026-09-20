@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-omnitools
 name: OmniTools
-tagline: An all-in-one collection of powerful web-based tools for everyday tasks
+tagline: Uma coleção completa de ferramentas poderosas baseadas na Web para tarefas diárias
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-omnitools/logo.png
 category: files & productivity
 version: "0.5.0"
 port: 8678
 description: >-
-  🛠️ OmniTools is a versatile all in one web application that offers a comprehensive collection of over 80 practical utilities designed to simplify everyday digital tasks. It acts as a Swiss Army knife for your browser enabling you to handle a wide range of file formats conversions and manipulations all without relying on external servers or cloud uploads.
+  🛠️ OmniTools é um aplicativo da web versátil e completo que oferece uma coleção abrangente de mais de 80 utilitários práticos projetados para simplificar as tarefas digitais diárias. Ele atua como um canivete suíço para o seu navegador, permitindo que você lide com uma ampla variedade de conversões e manipulações de formatos de arquivo, tudo sem depender de servidores externos ou uploads na nuvem.
 
 
-  With OmniTools you can easily edit images by removing backgrounds resizing or converting formats manipulate PDFs by merging splitting or annotating documents trim and modify videos and transform text through various formatting and conversion options. It also includes powerful data helpers such as CSV and JSON viewers and converters XML parsing tools and handy utilities for generating QR codes.
+  Com OmniTools você pode editar imagens facilmente removendo fundos, redimensionando ou convertendo formatos, manipulando PDFs mesclando, dividindo ou anotando documentos, cortando e modificando vídeos e transformando texto por meio de várias opções de formatação e conversão. Ele também inclui auxiliares de dados poderosos, como visualizadores e conversores CSV e JSON, ferramentas de análise XML e utilitários úteis para gerar códigos QR.
 
 
-  Beyond file processing OmniTools provides useful calculators and converters for dates times units and mathematical operations making it a true multi purpose companion for digital workflows. Each feature is designed to work efficiently and privately within your browser ensuring your data never leaves your control.
+  Além do processamento de arquivos, o OmniTools fornece calculadoras e conversores úteis para datas, unidades e operações matemáticas, tornando-o um verdadeiro companheiro multifuncional para fluxos de trabalho digitais. Cada recurso foi projetado para funcionar de maneira eficiente e privada em seu navegador, garantindo que seus dados nunca saiam do seu controle.
 
 
-  Whether you are a creative professional needing quick image edits a developer working with data formats or simply someone looking to streamline common file related tasks OmniTools offers a lightweight user friendly environment that brings a broad spectrum of functionality into one convenient place. It focuses on privacy performance and ease of use empowering you to get more done with less hassle.
+  Quer você seja um profissional criativo que precisa de edições rápidas de imagens, um desenvolvedor que trabalha com formatos de dados ou simplesmente alguém que deseja agilizar tarefas comuns relacionadas a arquivos, o OmniTools oferece um ambiente leve e amigável que traz um amplo espectro de funcionalidades em um local conveniente. Ele se concentra no desempenho da privacidade e na facilidade de uso, permitindo que você faça mais com menos complicações.
 developer: Ibrahima Gaye Coulibaly
 website: https://omnitools.app/
 submitter: Tascok
@@ -24,12 +24,12 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/iib0011/omni-tools
 support: https://github.com/iib0011/omni-tools/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-omnitools/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-omnitools/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-omnitools/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-omnitools/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-omnitools/5.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-omnitools/6.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-omnitools/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-omnitools/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-omnitools/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-omnitools/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-omnitools/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-omnitools/6.jpg
 releaseNotes: >-
   Version 0.5.0 introduces a wide range of new tools across various categories: image editing (crop, rotate, filters, watermark), PDF editing and conversion, video-to-GIF, and several audio tools like trimming, merging, and speed adjustment. It also adds handy utilities like a Crontab explainer, text censoring, and XML validation and beautification.
 dependencies:

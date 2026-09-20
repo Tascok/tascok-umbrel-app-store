@@ -1,25 +1,25 @@
 manifestVersion: 1
 id: tascok-invoicerr
 name: Invoicerr
-tagline: A freelance-focused invoicing app
+tagline: Um aplicativo de faturamento focado em freelance
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-invoicerr/logo.png
 category: finance
 version: "1.0.8"
 port: 8092
 description: >-
-  📊 Invoicerr is a modern open source web application designed specifically for freelancers and small business owners who need a simple yet powerful way to manage their quotes and invoices.
+  📊 Invoicerr é um aplicativo web moderno de código aberto projetado especificamente para freelancers e proprietários de pequenas empresas que precisam de uma maneira simples, mas poderosa, de gerenciar seus orçamentos e faturas.
 
 
-  It allows users to create professional PDF documents that comply with European tax and invoice regulations, making it especially suitable for users within the EU. These PDFs can include details such as VAT, banking information, and optional QR codes for convenient payment processing.
+  Ele permite que os usuários criem documentos PDF profissionais que cumpram os regulamentos fiscais e de faturas europeus, tornando-o especialmente adequado para usuários na UE. Esses PDFs podem incluir detalhes como IVA, informações bancárias e códigos QR opcionais para processamento conveniente de pagamentos.
 
 
-  With its clean and intuitive user interface, Invoicerr streamlines the process of tracking quotes, sending invoices, and monitoring their status from draft to paid. It also supports electronic signatures, giving clients the ability to accept quotes directly and securely.
+  Com sua interface de usuário limpa e intuitiva, o Invoicerr agiliza o processo de rastreamento de cotações, envio de faturas e monitoramento de seu status, desde o rascunho até o pagamento. Ele também suporta assinaturas eletrônicas, dando aos clientes a capacidade de aceitar cotações de forma direta e segura.
 
 
-  The application includes customizable design options and integrated email templates, enabling users to adapt the appearance and messaging of their invoices to match their personal or business branding. There is no unnecessary complexity or clutter, making it ideal for those who want to focus on their work rather than learning a complicated system.
+  O aplicativo inclui opções de design personalizáveis ​​e modelos de e-mail integrados, permitindo que os usuários adaptem a aparência e as mensagens de suas faturas para combinar com sua marca pessoal ou comercial. Não há complexidade ou confusão desnecessária, o que o torna ideal para quem deseja se concentrar no trabalho em vez de aprender um sistema complicado.
 
 
-  Invoicerr is particularly well-suited for tech-savvy individuals who value control, privacy, and simplicity in their financial workflows.
+  O Invoicerr é particularmente adequado para indivíduos com experiência em tecnologia que valorizam controle, privacidade e simplicidade em seus fluxos de trabalho financeiros.
 developer: Romeo Chevrier
 website: https://github.com/Impre-visible/invoicerr
 submitter: Tascok
@@ -27,11 +27,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/Impre-visible/invoicerr
 support: https://github.com/Impre-visible/invoicerr/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-invoicerr/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-invoicerr/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-invoicerr/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-invoicerr/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-invoicerr/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-invoicerr/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-invoicerr/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-invoicerr/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-invoicerr/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-invoicerr/5.jpg
 releaseNotes: >-
   This version 1.0.8 introduces a new feature that allows users to add notes directly to both quote and invoice forms, enhancing the ability to include additional information and improve communication with clients.
 dependencies:

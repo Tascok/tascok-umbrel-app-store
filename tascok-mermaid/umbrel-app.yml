@@ -1,16 +1,16 @@
 manifestVersion: 1
 id: tascok-mermaid
 name: Mermaid Live Editor
-tagline: A live editor for instant Mermaid diagram visualization
+tagline: Um editor ao vivo para visualização instantânea do diagrama Mermaid
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mermaid/logo.png
 category: developer tools
 version: "11.2.1"
 port: 9084
 description: >-
-  🧜‍♀️ The Mermaid Live Editor is a web-based tool that facilitates the creation, preview, and editing of diagrams written in Mermaid syntax. Mermaid is a JavaScript-based syntax that allows users to generate complex diagrams such as flowcharts, sequence diagrams, Gantt charts, class diagrams, and entity-relationship diagrams directly from text. The Mermaid Live Editor provides a real-time preview, which updates as you type, making it easy to see how changes in the Mermaid code affect the output diagram. This feature is especially valuable for users who are integrating diagrams into documentation, presentations, or technical documents, as it allows for rapid iteration and fine-tuning.
+  🧜‍♀️ O Mermaid Live Editor é uma ferramenta baseada na web que facilita a criação, visualização e edição de diagramas escritos na sintaxe Mermaid. Mermaid é uma sintaxe baseada em JavaScript que permite aos usuários gerar diagramas complexos, como fluxogramas, diagramas de sequência, gráficos de Gantt, diagramas de classes e diagramas de entidade-relacionamento diretamente do texto. O Mermaid Live Editor fornece uma visualização em tempo real, que é atualizada conforme você digita, facilitando a visualização de como as alterações no código Mermaid afetam o diagrama de saída. Esse recurso é especialmente valioso para usuários que integram diagramas em documentação, apresentações ou documentos técnicos, pois permite iteração rápida e ajuste fino.
 
 
-  In addition to the live preview, the editor includes an export feature, enabling users to download their diagrams as images or SVGs, which can be easily embedded into various document types or shared with others. The tool supports syntax highlighting, error checking, and also offers examples and templates to help users get started quickly. It’s widely used by developers, technical writers, and educators who want to add clear, visual elements to their content without relying on graphic design software.
+  Além da visualização ao vivo, o editor inclui um recurso de exportação, permitindo aos usuários baixar seus diagramas como imagens ou SVGs, que podem ser facilmente incorporados em vários tipos de documentos ou compartilhados com outras pessoas. A ferramenta suporta destaque de sintaxe, verificação de erros e também oferece exemplos e modelos para ajudar os usuários a começar rapidamente. É amplamente utilizado por desenvolvedores, redatores técnicos e educadores que desejam adicionar elementos visuais claros ao seu conteúdo sem depender de software de design gráfico.
 
 developer: Mermaid Chart Inc.
 website: https://mermaid.live/
@@ -19,9 +19,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/mermaid-js/mermaid-live-editor
 support: https://github.com/mermaid-js/mermaid-live-editor/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mermaid/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mermaid/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mermaid/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mermaid/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mermaid/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mermaid/3.jpg
 releaseNotes: >-
   These updates include version bumps for multiple dependencies: production dependencies mermaid and rollup, along with development dependencies vite-svg-loader, standard, and vite, to incorporate stability and security improvements in the latest versions
 dependencies:

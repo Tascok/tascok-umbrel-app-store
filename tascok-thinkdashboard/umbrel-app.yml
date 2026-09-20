@@ -1,25 +1,25 @@
 manifestVersion: 1
 id: tascok-thinkdashboard
 name: ThinkDashboard
-tagline: A simple self-hosted bookmark dashboard
+tagline: Um painel simples de favoritos auto-hospedado
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-thinkdashboard/logo.png
 category: files & productivity
 version: "0.5.5"
 port: 8788
 description: >-
-  🔢 ThinkDashboard is an open source web application created to help users organize and access their favorite websites from a single elegant dashboard. It provides a clean and minimal interface that removes distractions and focuses entirely on usability and speed. The main goal of ThinkDashboard is to offer a simple yet powerful space where users can keep all their important links in one central place.
+  🔢 ThinkDashboard é um aplicativo da web de código aberto criado para ajudar os usuários a organizar e acessar seus sites favoritos a partir de um único painel elegante. Ele fornece uma interface limpa e minimalista que elimina distrações e se concentra inteiramente na usabilidade e na velocidade. O principal objetivo do ThinkDashboard é oferecer um espaço simples, mas poderoso, onde os usuários possam manter todos os seus links importantes em um local central.
 
 
-  At its core, ThinkDashboard functions as a personal homepage for bookmarks. Users can create and arrange links into custom categories, making it easy to switch between collections such as work tools, news sources, or entertainment pages. Each link can be opened instantly using keyboard shortcuts, allowing for a seamless and efficient browsing experience without leaving the main dashboard view.
+  Basicamente, o ThinkDashboard funciona como uma página inicial pessoal para marcadores. Os usuários podem criar e organizar links em categorias personalizadas, facilitando a alternância entre coleções, como ferramentas de trabalho, fontes de notícias ou páginas de entretenimento. Cada link pode ser aberto instantaneamente usando atalhos de teclado, permitindo uma experiência de navegação contínua e eficiente sem sair da visualização do painel principal.
 
 
-  Customization is one of the key aspects of ThinkDashboard. It includes a flexible theme system that allows users to adjust colors, fonts, and layouts to match their personal style. The design is fully responsive and automatically adapts to different screen sizes, providing a smooth experience on computers, tablets, and mobile devices. This makes ThinkDashboard both practical and visually appealing for everyday use.
+  A personalização é um dos principais aspectos do ThinkDashboard. Inclui um sistema de tema flexível que permite aos usuários ajustar cores, fontes e layouts de acordo com seu estilo pessoal. O design é totalmente responsivo e se adapta automaticamente a diferentes tamanhos de tela, proporcionando uma experiência tranquila em computadores, tablets e dispositivos móveis. Isso torna o ThinkDashboard prático e visualmente atraente para o uso diário.
 
 
-  All data is stored locally in simple JSON files, including bookmarks, theme configurations, and user preferences. By keeping everything on the local system, ThinkDashboard ensures complete privacy and independence from cloud services or external databases. Users have full ownership of their information and can easily back it up or move it between systems.
+  Todos os dados são armazenados localmente em arquivos JSON simples, incluindo marcadores, configurações de tema e preferências do usuário. Ao manter tudo no sistema local, o ThinkDashboard garante total privacidade e independência de serviços em nuvem ou bancos de dados externos. Os usuários têm total propriedade de suas informações e podem facilmente fazer backup delas ou movê-las entre sistemas.
 
 
-  In essence, ThinkDashboard delivers an elegant and lightweight solution for building a personal homepage that is fast, intuitive, and entirely customizable. It transforms daily web navigation into a clear and organized process for anyone who values simplicity, design, and control.
+  Em essência, o ThinkDashboard oferece uma solução elegante e leve para construir uma página inicial pessoal que seja rápida, intuitiva e totalmente personalizável. Ele transforma a navegação diária na web em um processo claro e organizado para quem valoriza simplicidade, design e controle.
 developer: MatiasDesu
 website: https://github.com/MatiasDesuu/ThinkDashboard
 submitter: Tascok
@@ -27,10 +27,10 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/MatiasDesuu/ThinkDashboard
 support: https://github.com/MatiasDesuu/ThinkDashboard/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-thinkdashboard/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-thinkdashboard/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-thinkdashboard/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-thinkdashboard/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-thinkdashboard/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-thinkdashboard/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-thinkdashboard/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-thinkdashboard/4.jpg
 releaseNotes: >-
   This update adds a full backup feature that allows users to export and import their entire data directory directly from the interface. Backups can now be created and restored through the configuration page, making it much easier to manage and safeguard personal data.
 

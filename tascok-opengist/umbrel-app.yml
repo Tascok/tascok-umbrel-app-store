@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-opengist
 name: Opengist
-tagline: A Git-powered pastebin for code snippets and notes
+tagline: Um pastebin baseado em Git para trechos de código e notas
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-opengist/logo.png
 category: developer tools
 version: "1.13.1"
 port: 6157
 description: >-
-  Opengist is an open-source pastebin and code snippet platform powered by Git. It lets you create, edit, organize, version, and share code snippets, notes, Markdown files, scripts, configuration examples, and small file collections in a clean and lightweight interface.
+  Opengist é uma plataforma de pastebin e snippet de código de código aberto desenvolvida por Git. Ele permite criar, editar, organizar, versionar e compartilhar trechos de código, notas, arquivos Markdown, scripts, exemplos de configuração e pequenas coleções de arquivos em uma interface limpa e leve.
 
 
-  Each snippet is stored as its own Git repository, so changes can be tracked over time and managed through the web interface or with standard Git commands over HTTP or SSH. Snippets can be public, unlisted, or private, giving you control over what stays personal and what can be shared with others.
+  Cada snippet é armazenado como seu próprio repositório Git, para que as alterações possam ser rastreadas ao longo do tempo e gerenciadas por meio da interface da web ou com comandos Git padrão por HTTP ou SSH. Os snippets podem ser públicos, não listados ou privados, dando a você controle sobre o que permanece pessoal e o que pode ser compartilhado com outras pessoas.
 
 
-  Opengist includes syntax highlighting, Markdown rendering, multiple files per snippet, drag-and-drop uploads, ZIP downloads, revision history, diffs, search, topics, likes, forks, embeds, and JSON access. It also supports different authentication options, making it flexible for personal use, small teams, and homelab setups.
+  Opengist inclui destaque de sintaxe, renderização Markdown, vários arquivos por snippet, uploads de arrastar e soltar, downloads ZIP, histórico de revisões, diferenças, pesquisa, tópicos, curtidas, bifurcações, incorporações e acesso JSON. Ele também oferece suporte a diferentes opções de autenticação, tornando-o flexível para uso pessoal, pequenas equipes e configurações de homelab.
 
 
-  It is a practical alternative to GitHub Gist for developers, self-hosters, administrators, and anyone who wants a simple place to store and share reusable code, commands, configuration examples, or technical notes.
+  É uma alternativa prática ao GitHub Gist para desenvolvedores, auto-hosters, administradores e qualquer pessoa que queira um local simples para armazenar e compartilhar código reutilizável, comandos, exemplos de configuração ou notas técnicas.
 developer: Thomas Miceli
 website: https://opengist.io/
 submitter: Tascok
@@ -24,11 +24,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/thomiceli/opengist
 support: https://github.com/thomiceli/opengist/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-opengist/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-opengist/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-opengist/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-opengist/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-opengist/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-opengist/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-opengist/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-opengist/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-opengist/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-opengist/5.jpg
 releaseNotes: >-
   This update fixes issues with embedded gists, improving vertical scrolling and padding for a cleaner display. It also corrects the CSS URL handling for JSON embed URLs.
 dependencies:

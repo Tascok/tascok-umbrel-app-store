@@ -1,19 +1,19 @@
 manifestVersion: 1
-id: tascok-picprose  
+id: tascok-picprose
 name: PicProse
-tagline: An article cover image generator tool for stunning visuals
+tagline: Uma ferramenta geradora de imagens de capa de artigo para visuais impressionantes
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-picprose/logo.png
 category: files & productivity
 version: "0.1.1"
 port: 3345
 description: >-
-  PicProse is an open-source tool designed to help users create visually appealing images for a variety of purposes, including social media posts, presentations, and marketing materials. It provides an intuitive interface where users can upload images, add text overlays, apply filters, and customize designs using pre-made templates. The tool simplifies the process of producing professional-looking visuals without requiring advanced graphic design skills.
+  PicProse é uma ferramenta de código aberto projetada para ajudar os usuários a criar imagens visualmente atraentes para diversos fins, incluindo postagens em mídias sociais, apresentações e materiais de marketing. Ele fornece uma interface intuitiva onde os usuários podem fazer upload de imagens, adicionar sobreposições de texto, aplicar filtros e personalizar designs usando modelos predefinidos. A ferramenta simplifica o processo de produção de recursos visuais com aparência profissional sem exigir habilidades avançadas de design gráfico.
 
 
-  One of PicProse’s key features is its collaboration functionality, allowing teams to work together on projects, make edits in real time, and refine their designs collectively. This makes it particularly useful for content creators, marketers, and professionals who need to produce high-quality visuals efficiently. The tool supports various customization options, giving users the flexibility to create unique and engaging graphics tailored to their needs.
+  Um dos principais recursos do PicProse é a funcionalidade de colaboração, permitindo que as equipes trabalhem juntas em projetos, façam edições em tempo real e refinem seus designs coletivamente. Isso o torna particularmente útil para criadores de conteúdo, profissionais de marketing e profissionais que precisam produzir recursos visuais de alta qualidade com eficiência. A ferramenta oferece suporte a várias opções de personalização, dando aos usuários a flexibilidade de criar gráficos exclusivos e envolventes, adaptados às suas necessidades.
 
 
-  PicProse was initially created as a learning project focused on React and has since evolved into a practical solution for visual content creation. While the codebase remains unstructured in some areas, it is open to contributions from the community. Available on GitHub under the MIT license, the project encourages developers and designers to collaborate, improve its features, and expand its capabilities over time.
+  PicProse foi inicialmente criado como um projeto de aprendizagem focado em React e desde então evoluiu para uma solução prática para criação de conteúdo visual. Embora a base de código permaneça não estruturada em algumas áreas, ela está aberta a contribuições da comunidade. Disponível no GitHub sob licença do MIT, o projeto incentiva desenvolvedores e designers a colaborar, melhorar seus recursos e expandir suas capacidades ao longo do tempo.
 developer: jaaronkot
 website: https://picprose.net/
 submitter: Tascok
@@ -21,9 +21,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/jaaronkot/picprose
 support: https://github.com/jaaronkot/picprose/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-picprose/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-picprose/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-picprose/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-picprose/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-picprose/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-picprose/3.jpg
 releaseNotes: >-
   The 0.1.1 release includes system configuration support, internationalization (i18n) features, custom font support, and options to adjust title and author font sizes. These updates enhance customization and usability for users.
 dependencies:

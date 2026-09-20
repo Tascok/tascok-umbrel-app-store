@@ -1,43 +1,43 @@
 manifestVersion: 1
 id: tascok-spotube
 name: Spotube
-tagline: An Open Source Spotify Client for every platform
+tagline: Um cliente Spotify de código aberto para todas as plataformas
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spotube/logo.png
 category: media
 version: "3.8.3"
 port: 30123
 description: >-
-  Spotube is an innovative, open-source music streaming application that offers users a versatile platform to enjoy music from Spotify without the need for a premium subscription. Designed with a focus on user experience, Spotube combines a sleek and intuitive interface with a range of powerful features to enhance music discovery and playback.
-  
-  
-  Key Features:
+  Spotube é um aplicativo de streaming de música inovador e de código aberto que oferece aos usuários uma plataforma versátil para curtir músicas do Spotify sem a necessidade de uma assinatura premium. Projetado com foco na experiência do usuário, o Spotube combina uma interface elegante e intuitiva com uma variedade de recursos poderosos para aprimorar a descoberta e a reprodução de músicas.
 
 
-  👩‍💻 User-Friendly Interface: Spotube boasts an easy-to-navigate design that allows users to quickly find their favorite songs, albums, and playlists. Its clean layout ensures that even new users can get accustomed to the app without a steep learning curve.
+  Principais recursos:
 
 
-  🎶 Spotify Integration: While Spotube operates independently of the Spotify app, it utilizes the Spotify API to provide access to the extensive Spotify music library. Users can search for any track or playlist available on Spotify, ensuring a vast selection of music at their fingertips.
+  👩‍💻 Interface amigável: Spotube possui um design fácil de navegar que permite aos usuários encontrar rapidamente suas músicas, álbuns e playlists favoritos. Seu layout limpo garante que até mesmo novos usuários possam se acostumar com o aplicativo sem uma curva de aprendizado acentuada.
 
 
-  📥 Offline Listening: Spotube allows users to download music for offline listening, which is perfect for those who want to enjoy their favorite tracks without using data. This feature is particularly useful for users who travel frequently or have limited internet connectivity.
+  🎶 Integração com Spotify: Embora o Spotube opere independentemente do aplicativo Spotify, ele utiliza a API do Spotify para fornecer acesso à extensa biblioteca de música do Spotify. Os usuários podem pesquisar qualquer faixa ou playlist disponível no Spotify, garantindo uma vasta seleção de músicas ao seu alcance.
 
 
-  👁️‍🗨️ Privacy-Centric: One of Spotube's standout features is its commitment to user privacy. Unlike traditional streaming services, Spotube does not track user behavior or require personal information, allowing users to enjoy music without compromising their privacy.
+  📥 Escuta offline: o Spotube permite aos usuários baixar músicas para ouvir offline, o que é perfeito para quem quer curtir suas faixas favoritas sem usar dados. Este recurso é particularmente útil para usuários que viajam com frequência ou têm conectividade limitada à Internet.
 
 
-  ✨ Customizable Experience: Spotube provides a range of customization options, allowing users to personalize their music listening experience. From theme adjustments to playback settings, users can tailor the app to meet their preferences.
+  👁️‍🗨️ Centrado na privacidade: um dos recursos de destaque do Spotube é seu compromisso com a privacidade do usuário. Ao contrário dos serviços de streaming tradicionais, o Spotube não rastreia o comportamento do usuário nem exige informações pessoais, permitindo que os usuários curtam música sem comprometer sua privacidade.
 
 
-  ▶️ Playback Control: Spotube offers robust playback controls, including features such as shuffle, repeat, and the ability to create and manage playlists. Users can easily organize their music and create a tailored listening experience that suits their mood.
+  ✨ Experiência personalizável: o Spotube oferece uma variedade de opções de personalização, permitindo aos usuários personalizar sua experiência de ouvir música. Desde ajustes de tema até configurações de reprodução, os usuários podem personalizar o aplicativo para atender às suas preferências.
 
 
-  ⚡️ Lightweight and Fast: As a lightweight application, Spotube is designed to perform efficiently, consuming minimal system resources. This ensures smooth playback even on devices with limited processing power.
+  ▶️ Controle de reprodução: o Spotube oferece controles de reprodução robustos, incluindo recursos como reprodução aleatória, repetição e a capacidade de criar e gerenciar playlists. Os usuários podem organizar facilmente suas músicas e criar uma experiência auditiva personalizada que se adapte ao seu humor.
 
 
-  👥 Community-Driven Development: Being an open-source project, Spotube benefits from community contributions and feedback. Users can participate in its development, report bugs, and suggest new features, fostering a collaborative environment that enhances the application over time.
+  ⚡️ Leve e rápido: Por ser um aplicativo leve, o Spotube foi projetado para funcionar de forma eficiente, consumindo o mínimo de recursos do sistema. Isso garante uma reprodução suave mesmo em dispositivos com poder de processamento limitado.
 
 
-  🎧 Overall, Spotube stands out as a flexible and privacy-focused alternative to mainstream music streaming services. By combining the best aspects of music discovery, playback, and customization, it caters to a wide range of users—from casual listeners to dedicated music aficionados. With its commitment to user privacy and a robust feature set, Spotube is a compelling choice for anyone looking to enjoy music in a more personal and liberated way.
+  👥 Desenvolvimento orientado para a comunidade: Sendo um projeto de código aberto, o Spotube se beneficia das contribuições e feedback da comunidade. Os usuários podem participar de seu desenvolvimento, reportar bugs e sugerir novos recursos, promovendo um ambiente colaborativo que aprimora o aplicativo ao longo do tempo.
+
+
+  🎧 No geral, o Spotube se destaca como uma alternativa flexível e focada na privacidade aos principais serviços de streaming de música. Ao combinar os melhores aspectos de descoberta, reprodução e personalização de música, ele atende a uma ampla gama de usuários – desde ouvintes casuais até aficionados por música dedicados. Com seu compromisso com a privacidade do usuário e um conjunto robusto de recursos, o Spotube é uma escolha atraente para quem procura curtir música de uma forma mais pessoal e livre.
 
 developer: Kingkor Roy Tirtho
 website: https://spotube.krtirtho.dev/
@@ -46,14 +46,14 @@ submission: https://github.com/dennysubke/dennys-umbrel-app-store
 repo: https://github.com/KRTirtho/spotube
 support: https://github.com/KRTirtho/spotube/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spotube/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spotube/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spotube/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spotube/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spotube/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spotube/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spotube/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spotube/4.jpg
 releaseNotes: >-
   The recent update includes a bug fix where the youtube_explode_dart package was updated to version 2.2.3 to resolve a playback issue. 
-  
-  
+
+
   Additionally, a new feature has been added for macOS, enabling support for same-window webviews. Overall, the change reflects the update of youtube_explode_dart to version 2.2.3.
 dependencies: []
 path: ""

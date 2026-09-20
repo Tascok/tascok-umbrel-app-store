@@ -1,25 +1,25 @@
 manifestVersion: 1
 id: tascok-filerise
 name: FileRise
-tagline: A secure platform for file management
+tagline: Uma plataforma segura para gerenciamento de arquivos
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-filerise/logo.png
 category: files & productivity
 version: "1.3.9"
 port: 8733
 description: >-
-  📂 FileRise is a comprehensive web-based file management application designed to simplify the way users handle their digital files and folders. It offers an intuitive and visually appealing interface that makes uploading, organizing, and accessing files effortless. Users can easily drag and drop multiple files or entire folders for upload, with support for large files through resumable uploads that can pause and continue without losing progress.
+  📂 FileRise é um aplicativo abrangente de gerenciamento de arquivos baseado na web, projetado para simplificar a maneira como os usuários gerenciam seus arquivos e pastas digitais. Ele oferece uma interface intuitiva e visualmente atraente que facilita o upload, a organização e o acesso a arquivos. Os usuários podem facilmente arrastar e soltar vários arquivos ou pastas inteiras para upload, com suporte para arquivos grandes por meio de uploads recuperáveis ​​que podem pausar e continuar sem perder o progresso.
 
 
-  Once files are uploaded, FileRise allows users to manage their content with a variety of tools. They can move, copy, rename, and delete files and folders directly within the browser. The application also supports extracting ZIP archives and creating new files on the fly, enabling users to maintain their file structure and content efficiently without needing external software.
+  Depois que os arquivos são carregados, o FileRise permite aos usuários gerenciar seu conteúdo com uma variedade de ferramentas. Eles podem mover, copiar, renomear e excluir arquivos e pastas diretamente no navegador. O aplicativo também suporta a extração de arquivos ZIP e a criação de novos arquivos dinamicamente, permitindo aos usuários manter a estrutura e o conteúdo de seus arquivos de forma eficiente, sem a necessidade de software externo.
 
 
-  One of the key features of FileRise is its rich preview capabilities. Users can view images, play videos and audio files, and read PDF documents right inside the app, eliminating the need to download files just to check their content. Additionally, the built-in editor supports editing text and code files with syntax highlighting, making it a useful tool for developers or anyone working with code.
+  Um dos principais recursos do FileRise são seus ricos recursos de visualização. Os usuários podem visualizar imagens, reproduzir vídeos e arquivos de áudio e ler documentos PDF diretamente no aplicativo, eliminando a necessidade de baixar arquivos apenas para verificar seu conteúdo. Além disso, o editor integrado suporta a edição de arquivos de texto e código com destaque de sintaxe, tornando-o uma ferramenta útil para desenvolvedores ou qualquer pessoa que trabalhe com código.
 
 
-  File sharing is handled securely and flexibly in FileRise. Users can generate shareable links for files and folders that can be protected by passwords and set to expire after a defined period. This ensures controlled access to sensitive information. The platform also supports allowing external users to upload files into designated folders, facilitating collaboration and file collection from third parties.
+  O compartilhamento de arquivos é feito de forma segura e flexível no FileRise. Os usuários podem gerar links compartilháveis ​​para arquivos e pastas que podem ser protegidos por senhas e configurados para expirar após um período definido. Isso garante acesso controlado a informações confidenciais. A plataforma também permite que usuários externos carreguem arquivos em pastas designadas, facilitando a colaboração e coleta de arquivos de terceiros.
 
 
-  Security and user management are important aspects of FileRise. It includes support for single sign-on and two-factor authentication to safeguard user accounts and data. The combination of ease of use, powerful file handling, secure sharing options, and in-browser editing make FileRise a versatile solution for individuals and teams looking to manage and share files efficiently through a web interface.
+  Segurança e gerenciamento de usuários são aspectos importantes do FileRise. Inclui suporte para logon único e autenticação de dois fatores para proteger contas e dados de usuários. A combinação de facilidade de uso, manipulação poderosa de arquivos, opções de compartilhamento seguro e edição no navegador tornam o FileRise uma solução versátil para indivíduos e equipes que buscam gerenciar e compartilhar arquivos de forma eficiente por meio de uma interface web.
 developer: Ryan
 website: https://demo.filerise.net/
 submitter: Tascok
@@ -27,18 +27,18 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/error311/FileRise
 support: https://github.com/error311/FileRise/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-filerise/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-filerise/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-filerise/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-filerise/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-filerise/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-filerise/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-filerise/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-filerise/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-filerise/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-filerise/5.jpg
 releaseNotes: >-
   FileRise version 1.3.9 introduces support for mounting CIFS (SMB) network shares via Docker volumes, allowing easier integration of network storage. 
-  
-  
+
+
   It adds a new script to generate metadata for imported files and folders, with an option to trigger automatic scanning on container startup. 
-  
-  
+
+
   Additionally, users can now paste images directly into the web interface, which are automatically renamed and added to the upload queue for seamless uploading.
 dependencies: []
 path: ""

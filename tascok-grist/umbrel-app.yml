@@ -1,34 +1,34 @@
 manifestVersion: 1
 id: tascok-grist
 name: Grist
-tagline: A modern, open source spreadsheet that goes beyond the grid
+tagline: Uma planilha moderna e de código aberto que vai além da grade
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grist/logo.png
 category: files & productivity
 version: "1.7.16"
 port: 8484
 description: >-
-  Grist is a flexible, database-driven application that allows users to manage and analyze their data in a structured format. It combines the functionalities of a spreadsheet with those of a database, enabling users to create complex data models, establish relationships between data, and generate data visualizations.
+  Grist é um aplicativo flexível baseado em banco de dados que permite aos usuários gerenciar e analisar seus dados em um formato estruturado. Combina as funcionalidades de uma planilha com as de um banco de dados, permitindo aos usuários criar modelos de dados complexos, estabelecer relações entre dados e gerar visualizações de dados.
 
 
-  Key Features of Grist:
+  Principais recursos do Grist:
 
 
-  📊 Flexible Tables: Grist enables users to create tables with various data types, including text, numbers, dates, and more.
+  📊 Tabelas flexíveis: Grist permite aos usuários criar tabelas com vários tipos de dados, incluindo texto, números, datas e muito mais.
 
 
-  📋 Formulas and Calculations: Similar to spreadsheet software, users can use formulas to perform calculations and dynamically link data.
+  📋 Fórmulas e cálculos: semelhante ao software de planilha, os usuários podem usar fórmulas para realizar cálculos e vincular dados dinamicamente.
 
 
-  🔗 Data Relationships: Grist allows for the establishment of relationships between different tables, facilitating more complex data analysis.
+  🔗 Relacionamentos de Dados: O Grist permite o estabelecimento de relacionamentos entre diferentes tabelas, facilitando análises de dados mais complexas.
 
 
-  📈 Visualizations: The application provides functions for creating charts and reports to present data visually.
+  📈 Visualizações: O aplicativo oferece funções para criação de gráficos e relatórios para apresentar dados visualmente.
 
 
-  👥 Collaboration: Grist supports real-time collaboration, allowing multiple users to work on the same data simultaneously.
+  👥 Colaboração: Grist oferece suporte à colaboração em tempo real, permitindo que vários usuários trabalhem nos mesmos dados simultaneamente.
 
 
-  Grist is suitable for various applications, including project management, CRM, inventory management, and much more. It is often used by businesses and teams seeking a user-friendly, customizable solution for data management.
+  Grist é adequado para várias aplicações, incluindo gerenciamento de projetos, CRM, gerenciamento de estoque e muito mais. É frequentemente usado por empresas e equipes que buscam uma solução fácil de usar e personalizável para gerenciamento de dados.
 developer: Grist Labs
 website: https://www.getgrist.com/
 submitter: Tascok
@@ -36,9 +36,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/gristlabs/grist-core
 support: https://github.com/gristlabs/grist-core/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grist/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grist/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grist/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grist/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grist/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grist/3.jpg
 releaseNotes: >-
   This update improves overall stability and setup experience. Large Airtable imports no longer time out, ACL condition editors now display correctly in Firefox, and the Quick Setup flow now includes a telemetry toggle and authentication recommendations.
 

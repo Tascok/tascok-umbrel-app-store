@@ -1,34 +1,34 @@
 manifestVersion: 1
 id: tascok-ihatemoney
 name: IHateMoney
-tagline: A simple shared budget manager web application 
+tagline: Um aplicativo web simples de gerenciamento de orçamento compartilhado
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ihatemoney/logo.png
 category: finance
 version: "6.1.5"
 port: 8976
 description: >-
-  I Hate Money is an open-source web application designed to simplify the management of shared expenses. It is commonly used for group activities where multiple people are involved in the costs, such as trips, events, or communal living arrangements.
-  
-  
-  Key Features:
+  I Hate Money é um aplicativo web de código aberto desenvolvido para simplificar o gerenciamento de despesas compartilhadas. É comumente usado para atividades em grupo onde várias pessoas estão envolvidas nos custos, como viagens, eventos ou arranjos de vida comunitária.
 
 
-  💰 Easy Expense Management: Users can add expenses and indicate who paid for them, helping to keep track of debts and credits.
+  Principais recursos:
 
 
-  👪 Group Management: The application allows users to create different groups to manage expenses for various occasions or projects.
+  💰 Fácil gerenciamento de despesas: os usuários podem adicionar despesas e indicar quem as pagou, ajudando a controlar dívidas e créditos.
 
 
-  🧮 Debt Calculation: I Hate Money automatically calculates how much each participant owes to others, streamlining the settlement process.
+  👪 Gerenciamento de Grupos: O aplicativo permite aos usuários criar diferentes grupos para gerenciar despesas de diversas ocasiões ou projetos.
 
 
-  ✨ User-Friendly Interface: The interface is designed to be intuitive, making it accessible even for those who are less tech-savvy.
+  🧮 Cálculo da dívida: I Hate Money calcula automaticamente quanto cada participante deve aos outros, agilizando o processo de liquidação.
 
 
-  🌐 Open Source: As an open-source application, developers can customize and extend its features to meet specific needs.
+  ✨ Interface amigável: A interface foi projetada para ser intuitiva, tornando-a acessível mesmo para aqueles que não entendem de tecnologia.
 
 
-  I Hate Money is ideal for users who want to manage shared costs without losing track of their financial interactions.
+  🌐 Código aberto: como um aplicativo de código aberto, os desenvolvedores podem personalizar e estender seus recursos para atender a necessidades específicas.
+
+
+  I Hate Money é ideal para usuários que desejam gerenciar custos compartilhados sem perder o controle de suas interações financeiras.
 
 developer: The Spiral Project
 website: https://ihatemoney.org/
@@ -37,10 +37,10 @@ submission: https://github.com/dennysubke/dennys-umbrel-app-store
 repo: https://github.com/spiral-project/ihatemoney
 support: https://github.com/spiral-project/ihatemoney/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ihatemoney/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ihatemoney/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ihatemoney/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ihatemoney/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ihatemoney/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ihatemoney/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ihatemoney/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ihatemoney/4.jpg
 releaseNotes: >-
   The update to Flask and Werkzeug 2.3 has been reverted due to a regression, and some performance improvements have been implemented.
 path: ""

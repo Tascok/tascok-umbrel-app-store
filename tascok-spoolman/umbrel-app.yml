@@ -1,16 +1,16 @@
 manifestVersion: 1
 id: tascok-spoolman
 name: Spoolman
-tagline: An efficient filament manager
+tagline: Um gerenciador de filamentos eficiente
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spoolman/logo.png
 category: Home & Automation
 version: " 0.22.1"
 port: 7912
 description: >-
-  🧵 Spoolman is a modern open source application that helps makers organize and track their 3D printing filament collection with precision and ease. It provides a clear way to record important details about each spool such as material type, color, brand, weight, and remaining amount. The app automatically keeps your inventory up to date as you print, removing the need for manual calculations or guesswork.
+  🧵 Spoolman é um aplicativo moderno de código aberto que ajuda os fabricantes a organizar e rastrear sua coleção de filamentos de impressão 3D com precisão e facilidade. Ele fornece uma maneira clara de registrar detalhes importantes sobre cada bobina, como tipo de material, cor, marca, peso e quantidade restante. O aplicativo mantém automaticamente seu inventário atualizado enquanto você imprime, eliminando a necessidade de cálculos manuais ou suposições.
 
 
-  It is designed to make filament management effortless for both hobbyists and professionals who want reliable data about their supplies. By maintaining accurate information about every spool, users can plan prints better, avoid running out of material, and reduce waste. Spoolman turns filament tracking into a simple and enjoyable part of the 3D printing process, keeping every project organized from start to finish.
+  Ele foi projetado para facilitar o gerenciamento de filamentos tanto para amadores quanto para profissionais que desejam dados confiáveis ​​sobre seus suprimentos. Ao manter informações precisas sobre cada bobina, os usuários podem planejar melhor as impressões, evitar a falta de material e reduzir o desperdício. Spoolman transforma o rastreamento de filamentos em uma parte simples e divertida do processo de impressão 3D, mantendo cada projeto organizado do início ao fim.
 developer: Donkie
 website: https://github.com/Donkie/Spoolman
 submitter: Tascok
@@ -18,9 +18,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/Donkie/Spoolman
 support: https://github.com/Donkie/Spoolman/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spoolman/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spoolman/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spoolman/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spoolman/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spoolman/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spoolman/3.jpg
 releaseNotes: >-
   This release includes several new features and improvements:
 

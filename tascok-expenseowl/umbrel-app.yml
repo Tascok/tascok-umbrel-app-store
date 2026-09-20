@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-expenseowl
 name: ExpenseOwl
-tagline: A beautifully simple expense tracker
+tagline: Um rastreador de despesas lindamente simples
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-expenseowl/logo.png
 category: finance
 version: "4.0"
 port: 5007
 description: >-
-  🦉 ExpenseOwl is a simple and focused expense tracking application that allows users to quickly log and review their financial activity. It supports adding income and expenses with just a date, amount, and category, while also offering optional tags for further organization. The app provides a clean and responsive user interface with both light and dark themes, making it easy to navigate and visually appealing.
+  🦉 ExpenseOwl é um aplicativo de rastreamento de despesas simples e focado que permite aos usuários registrar e revisar rapidamente suas atividades financeiras. Ele suporta a adição de receitas e despesas com apenas uma data, valor e categoria, ao mesmo tempo que oferece tags opcionais para organização adicional. O aplicativo oferece uma interface de usuário limpa e responsiva com temas claros e escuros, tornando-o fácil de navegar e visualmente atraente.
 
 
-  The main dashboard features a monthly pie chart that breaks down expenses by category, along with a cashflow summary that shows total income, total expenses, and the resulting balance. Users can interact with the chart by hiding or showing categories to tailor the view. A detailed table lists all transactions chronologically and supports easy searching and deletion.
+  O painel principal apresenta um gráfico mensal que divide as despesas por categoria, junto com um resumo do fluxo de caixa que mostra a receita total, as despesas totais e o saldo resultante. Os usuários podem interagir com o gráfico ocultando ou mostrando categorias para personalizar a visualização. Uma tabela detalhada lista todas as transações cronologicamente e permite fácil pesquisa e exclusão.
 
 
-  Recurring transactions are supported for both income and expenses, and users can fully customize their categories, currency symbol, and the starting day of each month. Tags are automatically highlighted when used, helping users identify spending patterns. The app also includes CSV import and export functionality for easy data management.
+  As transações recorrentes são suportadas tanto para receitas quanto para despesas, e os usuários podem personalizar totalmente suas categorias, símbolo monetário e o dia de início de cada mês. As tags são destacadas automaticamente quando usadas, ajudando os usuários a identificar padrões de gastos. O aplicativo também inclui funcionalidade de importação e exportação de CSV para fácil gerenciamento de dados.
 
 
-  ExpenseOwl is designed to give a clear and instant overview of personal finances without the distractions of budgeting features or account management. It focuses entirely on fast, straightforward tracking and clean visualization.
+  ExpenseOwl foi projetado para fornecer uma visão geral clara e instantânea das finanças pessoais, sem as distrações dos recursos de orçamento ou gerenciamento de contas. Ele se concentra inteiramente no rastreamento rápido e direto e na visualização limpa.
 developer: Tanishq
 website: https://github.com/Tanq16/ExpenseOwl
 submitter: Tascok
@@ -24,13 +24,13 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/Tanq16/ExpenseOwl
 support: https://github.com/Tanq16/ExpenseOwl/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-expenseowl/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-expenseowl/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-expenseowl/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-expenseowl/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-expenseowl/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-expenseowl/3.jpg
 releaseNotes: >-
   Version 4.0 introduces a completely refactored backend along with partial frontend updates that include multiple bug fixes and new features. 
-  
-  
+
+
   It adds recurring expenses, optional tags for better categorization, improved UI elements, support for negative expenses and positive income, smart CSV import, the option to use Postgres as a backend, and expanded currency options with customizable decimal and separator formats.
 dependencies:
 path: ""

@@ -1,28 +1,28 @@
 manifestVersion: 1
 id: tascok-reitti
 name: Reitti
-tagline: A location tracking and analysis application
+tagline: Um aplicativo de rastreamento e análise de localização
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-reitti/logo.png
 category: files & productivity
 version: "2.4.2"
 port: 8744
 description: >-
-  🗺️ Reitti is an application designed to monitor and record your movements in a comprehensive and automated way. It continuously tracks your location throughout the day and identifies the places you visit, creating a detailed log of your daily activities. By analyzing your movements, it can detect the mode of transportation you use, whether you are walking, cycling, or driving, and provides insights into how you travel between different locations.
+  🗺️ Reitti é um aplicativo desenvolvido para monitorar e registrar seus movimentos de forma abrangente e automatizada. Ele rastreia continuamente sua localização ao longo do dia e identifica os lugares que você visita, criando um registro detalhado de suas atividades diárias. Ao analisar seus movimentos, ele pode detectar o meio de transporte que você usa, seja caminhando, pedalando ou dirigindo, e fornece informações sobre como você viaja entre diferentes locais.
 
 
-  The app also identifies significant places that you frequently visit and allows you to assign custom names to them, helping you better understand the locations that matter most in your life. It organizes this information into an interactive timeline that shows when and for how long you stayed at each place, as well as the distances traveled between them. This timeline gives a clear overview of your daily routines and patterns.
+  O aplicativo também identifica lugares importantes que você visita com frequência e permite atribuir nomes personalizados a eles, ajudando você a entender melhor os locais mais importantes em sua vida. Ele organiza essas informações em uma linha do tempo interativa que mostra quando e por quanto tempo você permaneceu em cada local, bem como as distâncias percorridas entre eles. Esta linha do tempo oferece uma visão geral clara de suas rotinas e padrões diários.
 
 
-  Reitti offers detailed visualizations of your complete travel paths using precise GPS data. These visual representations make it easy to see your movement habits, recurring routes, and overall mobility trends. By providing these insights, the app helps users gain a deeper understanding of their personal travel behaviors, the places they frequent, and the way they navigate their daily environment.
+  Reitti oferece visualizações detalhadas de seus caminhos de viagem completos usando dados GPS precisos. Essas representações visuais facilitam a visualização de seus hábitos de movimento, rotas recorrentes e tendências gerais de mobilidade. Ao fornecer esses insights, o aplicativo ajuda os usuários a obter uma compreensão mais profunda de seus comportamentos pessoais de viagem, dos lugares que frequentam e da maneira como navegam em seu ambiente diário.
 
 
-  Overall, Reitti focuses on giving users a comprehensive picture of their mobility patterns and the spatial context of their daily life, turning raw location data into meaningful information about how they move and interact with their surroundings.
+  No geral, Reitti se concentra em fornecer aos usuários uma imagem abrangente de seus padrões de mobilidade e do contexto espacial de sua vida diária, transformando dados brutos de localização em informações significativas sobre como eles se movem e interagem com o ambiente.
 
 
-  ⚙️ After starting the application, the first step is to generate an API token in the Settings under API Tokens, which is needed for mobile app integration. Next, geocoding services should be added in Settings under Geocoding to enable accurate address resolution. You can then import your existing location data through Settings under Import Data. Finally, configure mobile apps such as OwnTracks or GPSLogger to enable real-time tracking of your movements.
+  ⚙️ Após iniciar o aplicativo, o primeiro passo é gerar um token de API nas Configurações em Tokens de API, necessário para integração do aplicativo móvel. Em seguida, os serviços de geocodificação devem ser adicionados em Configurações em Geocodificação para permitir uma resolução precisa de endereços. Você pode então importar seus dados de localização existentes por meio de Configurações em Importar dados. Por fim, configure aplicativos móveis como OwnTracks ou GPSLogger para permitir o rastreamento em tempo real de seus movimentos.
 
 
-  🔧 For detailed instructions on configuring Reitti, please refer to the official documentation at https://www.dedicatedcode.com/projects/reitti/getting-started/.
+  🔧 Para obter instruções detalhadas sobre como configurar o Reitti, consulte a documentação oficial em https://www.dedicatedcode.com/projects/reitti/getting-started/.
 developer: Daniel Graf
 website: https://www.dedicatedcode.com/projects/reitti/overview/
 submitter: Tascok
@@ -30,11 +30,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/dedicatedcode/reitti
 support: https://github.com/dedicatedcode/reitti/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-reitti/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-reitti/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-reitti/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-reitti/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-reitti/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-reitti/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-reitti/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-reitti/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-reitti/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-reitti/5.jpg
 releaseNotes: >-
   This version fixes an issue with OwnTracks ping messages that caused incorrect timestamps to be recorded. Reitti now completely ignores these ping events, while regular location and transition events continue to work as expected.
 dependencies: []

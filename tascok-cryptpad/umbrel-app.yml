@@ -1,25 +1,25 @@
 manifestVersion: 1
 id: tascok-cryptpad
 name: CryptPad
-tagline: An all-in-one encrypted workspace for your team
+tagline: Um espaço de trabalho criptografado completo para sua equipe
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cryptpad/logo.png
 category: In Progress
 version: "2024.12.0"
 port: 3790
 description: >-
-  🛡️ CryptPad is an innovative, privacy-first collaboration platform designed to provide secure, encrypted tools for individuals and teams to work together without compromising their data. Unlike traditional cloud-based services, CryptPad employs end-to-end encryption, meaning that all your data is encrypted locally in your browser before being uploaded to the server. This ensures that no one, not even the platform's operators, can access your files or see your activities. Your data is truly your own.
+  🛡️ CryptPad é uma plataforma de colaboração inovadora que prioriza a privacidade, projetada para fornecer ferramentas seguras e criptografadas para indivíduos e equipes trabalharem juntos sem comprometer seus dados. Ao contrário dos serviços tradicionais baseados em nuvem, o CryptPad emprega criptografia ponta a ponta, o que significa que todos os seus dados são criptografados localmente no seu navegador antes de serem carregados no servidor. Isso garante que ninguém, nem mesmo os operadores da plataforma, possa acessar seus arquivos ou ver suas atividades. Seus dados são verdadeiramente seus.
 
 
-  CryptPad offers a wide range of features to support both personal and professional workflows. Its suite of tools includes collaborative text editors, spreadsheets, presentations, Kanban boards, polls, code editors, and more. All of these tools operate in real-time, allowing users to collaborate seamlessly while maintaining full control over their privacy. Whether you're brainstorming ideas, managing a project, or organizing sensitive data, CryptPad provides a safe, efficient, and user-friendly environment.
+  O CryptPad oferece uma ampla gama de recursos para oferecer suporte a fluxos de trabalho pessoais e profissionais. Seu conjunto de ferramentas inclui editores de texto colaborativos, planilhas, apresentações, quadros Kanban, enquetes, editores de código e muito mais. Todas essas ferramentas operam em tempo real, permitindo que os usuários colaborem perfeitamente, mantendo total controle sobre sua privacidade. Esteja você debatendo ideias, gerenciando um projeto ou organizando dados confidenciais, o CryptPad oferece um ambiente seguro, eficiente e fácil de usar.
 
 
-  One of CryptPad's key strengths is its focus on anonymity and accessibility. The platform can be used without creating an account, enabling instant access to its tools without the need to share personal information. For users who need to save and organize their work over multiple sessions, accounts with secure login options are available. Paid plans are also offered for those requiring additional storage or advanced features.
+  Um dos principais pontos fortes do CryptPad é o foco no anonimato e na acessibilidade. A plataforma pode ser utilizada sem criação de conta, possibilitando acesso instantâneo às suas ferramentas sem a necessidade de compartilhamento de informações pessoais. Para usuários que precisam salvar e organizar seu trabalho em várias sessões, estão disponíveis contas com opções de login seguras. Planos pagos também são oferecidos para aqueles que necessitam de armazenamento adicional ou recursos avançados.
 
 
-  As an open-source platform, CryptPad is transparent and community-driven. It complies with strict privacy regulations, including the GDPR, and avoids the use of trackers, ads, or intrusive data collection practices. CryptPad is ideal for anyone who values privacy, whether you're a journalist handling sensitive information, a team working on confidential projects, an educator collaborating with students, or an individual seeking a secure workspace.
+  Como plataforma de código aberto, o CryptPad é transparente e voltado para a comunidade. Ele cumpre regulamentos rígidos de privacidade, incluindo o GDPR, e evita o uso de rastreadores, anúncios ou práticas intrusivas de coleta de dados. O CryptPad é ideal para quem valoriza a privacidade, seja você um jornalista que lida com informações confidenciais, uma equipe trabalhando em projetos confidenciais, um educador colaborando com alunos ou um indivíduo que procura um espaço de trabalho seguro.
 
 
-  CryptPad is more than just a tool; it's a commitment to redefining how we work together in a world where privacy matters. With its robust features and security guarantees, it empowers users to focus on their work without worrying about their data being exploited.
+  CryptPad é mais do que apenas uma ferramenta; é um compromisso de redefinir a forma como trabalhamos juntos num mundo onde a privacidade é importante. Com seus recursos robustos e garantias de segurança, ele permite que os usuários se concentrem em seu trabalho sem se preocupar com a exploração de seus dados.
 developer: XWiki SAS
 website: https://cryptpad.fr/
 submitter: Tascok
@@ -27,9 +27,9 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/cryptpad/cryptpad
 support: https://github.com/cryptpad/cryptpad/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cryptpad/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cryptpad/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cryptpad/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cryptpad/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cryptpad/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cryptpad/3.jpg
 releaseNotes: >-
   This version delivers fixes and improvements across CryptPad. We are particularly happy to release a fix of our OnlyOffice integration that could address long-standing issues with documents becoming corrupted. If confirmed at scale, this fix could dramatically improve the use of OnlyOffice apps in CryptPad.
 dependencies:

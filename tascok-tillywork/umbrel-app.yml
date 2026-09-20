@@ -1,25 +1,25 @@
 manifestVersion: 1
 id: tascok-tillywork
 name: Tillywork
-tagline: A work management solution for startups
+tagline: Uma solução de gestão de trabalho para startups
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tillywork/logo.png
 category: files & productivity
 version: "0.1.2"
 port: 8556
 description: >-
-  💼 Tillywork is an open-source work management platform tailored for B2B teams, offering a unified solution for managing projects, sales pipelines, and agile workflows. It positions itself as a modern, customizable alternative to commercial tools like ClickUp, monday.com, and Jira, with a strong emphasis on flexibility, privacy, and user ownership.
+  💼 Tillywork é uma plataforma de gerenciamento de trabalho de código aberto adaptada para equipes B2B, oferecendo uma solução unificada para gerenciamento de projetos, pipelines de vendas e fluxos de trabalho ágeis. Ele se posiciona como uma alternativa moderna e personalizável a ferramentas comerciais como ClickUp, monday.com e Jira, com forte ênfase na flexibilidade, privacidade e propriedade do usuário.
 
 
-  The platform combines traditional project management with integrated CRM functionality and agile development support. This means teams can track tasks, manage customer relationships, and coordinate development sprints all within the same interface. By bringing these features together, tillywork helps organizations eliminate the friction caused by switching between separate tools and fosters greater efficiency and transparency across departments.
+  A plataforma combina gerenciamento de projetos tradicional com funcionalidade integrada de CRM e suporte ágil ao desenvolvimento. Isso significa que as equipes podem rastrear tarefas, gerenciar relacionamentos com clientes e coordenar sprints de desenvolvimento, tudo na mesma interface. Ao reunir esses recursos, o tiltywork ajuda as organizações a eliminar o atrito causado pela alternância entre ferramentas separadas e promove maior eficiência e transparência entre departamentos.
 
 
-  Built with modern web technologies, tillywork delivers a clean, responsive user experience designed for clarity and ease of use. The interface supports dynamic, real-time collaboration, allowing teams to adapt quickly to changing requirements. The system’s design is intuitive enough for non-technical users while also being powerful enough to support complex organizational structures and workflows.
+  Construído com tecnologias web modernas, o tiltywork oferece uma experiência de usuário limpa e responsiva, projetada para clareza e facilidade de uso. A interface oferece suporte à colaboração dinâmica e em tempo real, permitindo que as equipes se adaptem rapidamente às mudanças nos requisitos. O design do sistema é intuitivo o suficiente para usuários não técnicos, ao mesmo tempo que é poderoso o suficiente para suportar estruturas organizacionais e fluxos de trabalho complexos.
 
 
-  What sets tillywork apart is its open-source nature. Released under the permissive MIT license, it gives organizations complete freedom to use, modify, and extend the software according to their specific needs. This approach not only lowers costs but also empowers teams to maintain full control over their tools and data, fostering a sense of digital independence.
+  O que diferencia o tiltywork é sua natureza de código aberto. Lançado sob a licença permissiva do MIT, dá às organizações total liberdade para usar, modificar e estender o software de acordo com suas necessidades específicas. Esta abordagem não só reduz os custos, mas também permite que as equipas mantenham o controlo total sobre as suas ferramentas e dados, promovendo um sentimento de independência digital.
 
 
-  With a growing community and active development, tillywork is continually evolving to meet the demands of modern businesses. Its goal is to offer a transparent, adaptable, and efficient environment for collaborative work—helping teams stay focused, organized, and aligned.
+  Com uma comunidade crescente e um desenvolvimento ativo, a tiltywork está em constante evolução para atender às demandas das empresas modernas. Seu objetivo é oferecer um ambiente transparente, adaptável e eficiente para o trabalho colaborativo, ajudando as equipes a permanecerem focadas, organizadas e alinhadas.
 developer: tillywork
 website: https://tilly.work/
 submitter: Tascok
@@ -27,11 +27,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/tillywork/tillywork
 support: https://github.com/tillywork/tillywork/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tillywork/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tillywork/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tillywork/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tillywork/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tillywork/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tillywork/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tillywork/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tillywork/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tillywork/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tillywork/5.jpg
 releaseNotes: >-
   The v0.1.2 introduces the new Gantt view feature and general bug fixes.
 dependencies:

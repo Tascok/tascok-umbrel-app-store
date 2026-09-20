@@ -1,25 +1,25 @@
 manifestVersion: 1
 id: tascok-datetime
 name: Datetime
-tagline: A powerful time viewing and conversion tool
+tagline: Uma poderosa ferramenta de visualização e conversão de tempo
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-datetime/logo.png
 category: files & productivity
 version: "1.0"
 port: 3771
 description: >-
-  ⏱️ Datetime is a sleek and modern web application designed to help users understand and manage time across different time zones with ease. At its core, Datetime simplifies the complex task of time conversion by offering a clean and intuitive interface that allows users to instantly compare times in various locations around the world. Whether you're planning a remote meeting, coordinating with a distributed team, or simply curious about what time it is in another part of the globe, Datetime provides a seamless and accurate experience.
+  ⏱️ Datetime é um aplicativo da web elegante e moderno projetado para ajudar os usuários a compreender e gerenciar o tempo em diferentes fusos horários com facilidade. Basicamente, o Datetime simplifica a complexa tarefa de conversão de tempo, oferecendo uma interface limpa e intuitiva que permite aos usuários comparar instantaneamente os tempos em vários locais ao redor do mundo. Esteja você planejando uma reunião remota, coordenando com uma equipe distribuída ou simplesmente curioso para saber que horas são em outra parte do globo, o Datetime oferece uma experiência perfeita e precisa.
 
 
-  The application focuses on clarity and usability. When you open it, you're presented with a visually appealing layout where you can view multiple time zones side by side. You can quickly add or remove locations, and the interface updates in real time to reflect current conditions. The design encourages exploration and makes it effortless to see how time differs around the world without needing to dig through confusing menus or enter complicated settings.
+  O aplicativo se concentra na clareza e usabilidade. Ao abri-lo, você verá um layout visualmente atraente, onde poderá visualizar vários fusos horários lado a lado. Você pode adicionar ou remover locais rapidamente, e a interface é atualizada em tempo real para refletir as condições atuais. O design incentiva a exploração e torna fácil ver como o tempo difere em todo o mundo, sem a necessidade de navegar em menus confusos ou inserir configurações complicadas.
 
 
-  Datetime is particularly useful for people who work across regions. Developers, digital nomads, project managers, and global teams can rely on it to coordinate schedules and deadlines. Instead of juggling calendar apps or using search engines to convert times, users can find everything they need in one focused environment. The app emphasizes precision and consistency, ensuring that the time data is always up to date and accurate.
+  Datetime é particularmente útil para pessoas que trabalham em várias regiões. Desenvolvedores, nômades digitais, gerentes de projeto e equipes globais podem contar com ele para coordenar cronogramas e prazos. Em vez de fazer malabarismos com aplicativos de calendário ou usar mecanismos de pesquisa para converter horários, os usuários podem encontrar tudo o que precisam em um ambiente focado. O aplicativo enfatiza a precisão e a consistência, garantindo que os dados de tempo estejam sempre atualizados e precisos.
 
 
-  The time zone visualization is not just functional but also aesthetically pleasing. The smooth transitions and subtle animations enhance the experience without distracting from the core functionality. By combining form and function, Datetime manages to make an often tedious task feel almost enjoyable.
+  A visualização do fuso horário não é apenas funcional, mas também esteticamente agradável. As transições suaves e animações sutis melhoram a experiência sem desviar a atenção da funcionalidade principal. Ao combinar forma e função, o Datetime consegue fazer com que uma tarefa muitas vezes tediosa pareça quase agradável.
 
 
-  Overall, Datetime is more than just a time converter. It is a thoughtfully crafted tool that turns a common everyday need into an elegant, efficient, and even delightful experience.
+  No geral, Datetime é mais do que apenas um conversor de hora. É uma ferramenta cuidadosamente elaborada que transforma uma necessidade comum do dia a dia em uma experiência elegante, eficiente e até agradável.
 developer: Airyland
 website: https://datetime.app/
 submitter: Tascok
@@ -27,12 +27,12 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/airyland/datetime.app
 support: https://github.com/airyland/datetime.app/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-datetime/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-datetime/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-datetime/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-datetime/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-datetime/5.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-datetime/6.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-datetime/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-datetime/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-datetime/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-datetime/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-datetime/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-datetime/6.jpg
 releaseNotes: >-
   Datetime does not use versioning and does not maintain a changelog. The application is continuously improved without formal version tags or release notes.
 dependencies:

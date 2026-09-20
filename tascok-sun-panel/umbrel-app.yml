@@ -1,16 +1,16 @@
 manifestVersion: 1
 id: tascok-sun-panel
 name: Sun Panel
-tagline: An elegant home panel
+tagline: Um elegante painel inicial
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-sun-panel/logo.png
 category: files & productivity
 version: "1.8.0"
 port: 3911
 description: >-
-  🌞 Sun Panel is a clean and visually pleasing homepage and application dashboard designed to bring structure and simplicity to environments with many services. It presents all available applications and links in an elegant grid and allows the user to organize them into meaningful categories. Each tile can display custom icons, colors, labels or status indicators, which makes the entire interface feel personal and easy to navigate. The panel also offers a lightweight monitoring view that shows essential system information such as performance metrics or service activity in real time, giving users a quick overview of what is happening behind the scenes.
+  🌞 Sun Panel é uma página inicial limpa e visualmente agradável e um painel de aplicativos projetado para trazer estrutura e simplicidade a ambientes com diversos serviços. Apresenta todos os aplicativos e links disponíveis em uma grade elegante e permite ao usuário organizá-los em categorias significativas. Cada bloco pode exibir ícones, cores, rótulos ou indicadores de status personalizados, o que torna toda a interface pessoal e fácil de navegar. O painel também oferece uma visão de monitoramento leve que mostra informações essenciais do sistema, como métricas de desempenho ou atividade de serviço em tempo real, proporcionando aos usuários uma visão geral rápida do que está acontecendo nos bastidores.
 
 
-  A central part of Sun Panel is its focus on convenience. It provides a smooth way to add, edit or reorder entries so users can shape the homepage exactly how they want it. Custom scripts, themes and small visual adjustments can be applied to match personal style preferences. Sun Panel aims to remove clutter and present a single unified doorway to all tools and services a person uses regularly. Everything is placed in one polished interface that is easy to access and pleasant to look at. The experience is intentionally simple and friendly while still offering enough flexibility for individual customization.
+  Uma parte central do Sun Panel é o foco na conveniência. Ele fornece uma maneira fácil de adicionar, editar ou reordenar entradas para que os usuários possam moldar a página inicial exatamente como desejam. Scripts personalizados, temas e pequenos ajustes visuais podem ser aplicados para corresponder às preferências de estilo pessoal. O Sun Panel visa eliminar a desordem e apresentar uma porta única e unificada para todas as ferramentas e serviços que uma pessoa usa regularmente. Tudo é colocado em uma interface sofisticada, fácil de acessar e agradável de ver. A experiência é intencionalmente simples e amigável, ao mesmo tempo que oferece flexibilidade suficiente para personalização individual.
 developer: Sun-Panel
 website: https://doc.sun-panel.top/
 submitter: Tascok
@@ -18,14 +18,14 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/hslr-s/sun-panel
 support: https://github.com/hslr-s/sun-panel/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-sun-panel/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-sun-panel/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-sun-panel/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-sun-panel/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-sun-panel/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-sun-panel/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-sun-panel/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-sun-panel/4.jpg
 releaseNotes: >-
   This version introduces a significantly improved experience across search, navigation and asset management. The search engine now supports sorting, and project cards gain a richer right click menu with multiple open modes and clearer address handling. 
-  
-  
+
+
   Image management has been heavily redesigned, offering faster loading, category based browsing, batch uploads and a shared public library for admin provided assets. Backup capabilities for admins have expanded to include project data, media files and configurations, while several interface elements and system behaviors were optimized and multiple bugs related to storage data and command line logs were fixed.
 dependencies:
 path: ""

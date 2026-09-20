@@ -1,58 +1,58 @@
 manifestVersion: 1
 id: tascok-grafana
 name: Grafana
-tagline: An advanced platform for logging, metrics, and application monitoring
+tagline: Uma plataforma avançada para registro, métricas e monitoramento de aplicativos
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grafana/logo.png
 category: networking
 version: "11.3.0"
 port: 3384
 description: >-
-  Grafana is an open-source analytics and monitoring platform designed for visualizing time-series data. It enables users to create dynamic and customizable dashboards that help track and analyze metrics from various data sources in real-time. With its intuitive user interface and powerful features, Grafana is widely used across industries for monitoring applications, infrastructure, and business metrics.
+  Grafana é uma plataforma de análise e monitoramento de código aberto projetada para visualizar dados de séries temporais. Ele permite que os usuários criem painéis dinâmicos e personalizáveis ​​que ajudam a rastrear e analisar métricas de várias fontes de dados em tempo real. Com sua interface de usuário intuitiva e recursos poderosos, o Grafana é amplamente utilizado em todos os setores para monitorar aplicativos, infraestrutura e métricas de negócios.
 
 
-  Key Features and Use Cases:
-  
-
-  💾 Data Source Integration: Grafana supports a wide range of data sources, including Prometheus, InfluxDB, Graphite, Elasticsearch, MySQL, PostgreSQL, and more. This flexibility allows users to pull data from multiple systems and consolidate it into a single dashboard.
+  Principais recursos e casos de uso:
 
 
-  🎛️ Customizable Dashboards: Users can create visually appealing and interactive dashboards with various panel types, such as graphs, tables, heatmaps, and more. Each panel can be customized to display specific metrics, enabling users to tailor dashboards to their needs.
+  💾 Integração de fontes de dados: Grafana oferece suporte a uma ampla variedade de fontes de dados, incluindo Prometheus, InfluxDB, Graphite, Elasticsearch, MySQL, PostgreSQL e muito mais. Essa flexibilidade permite que os usuários extraiam dados de vários sistemas e os consolidem em um único painel.
 
 
-  🚨 Alerting: Grafana provides robust alerting capabilities that notify users of potential issues in their data. Alerts can be configured based on specific conditions, and notifications can be sent via email, Slack, PagerDuty, and other channels.
+  🎛️ Painéis personalizáveis: os usuários podem criar painéis visualmente atraentes e interativos com vários tipos de painéis, como gráficos, tabelas, mapas de calor e muito mais. Cada painel pode ser personalizado para exibir métricas específicas, permitindo que os usuários adaptem os painéis às suas necessidades.
 
 
-  🧩 Templating: Users can create reusable templates to filter and manipulate data dynamically. This feature is particularly useful for creating dashboards that need to display information for multiple entities or environments.
+  🚨 Alertas: o Grafana fornece recursos robustos de alerta que notificam os usuários sobre possíveis problemas em seus dados. Os alertas podem ser configurados com base em condições específicas e as notificações podem ser enviadas por e-mail, Slack, PagerDuty e outros canais.
 
 
-  📌 Annotations: Grafana allows users to add annotations to graphs, providing context for specific events or changes in data. This feature helps teams understand the impact of deployments, incidents, or other significant events.
+  🧩 Modelos: os usuários podem criar modelos reutilizáveis ​​para filtrar e manipular dados dinamicamente. Este recurso é particularmente útil para criar painéis que precisam exibir informações de diversas entidades ou ambientes.
 
 
-  🔐 User Management and Permissions: Grafana includes user authentication and authorization features, enabling organizations to manage access to dashboards and data sources effectively. Role-based access control ensures that users have the appropriate permissions based on their responsibilities.
+  📌 Anotações: Grafana permite aos usuários adicionar anotações aos gráficos, fornecendo contexto para eventos específicos ou alterações nos dados. Esse recurso ajuda as equipes a compreender o impacto de implantações, incidentes ou outros eventos significativos.
 
 
-  📦 Plugins and Extensions: Grafana has a rich ecosystem of plugins that extend its functionality. Users can find plugins for additional data sources, visualization types, and integrations with other tools.
+  🔐 Gerenciamento e permissões de usuários: Grafana inclui recursos de autenticação e autorização de usuários, permitindo que as organizações gerenciem o acesso a painéis e fontes de dados de maneira eficaz. O controle de acesso baseado em função garante que os usuários tenham as permissões apropriadas com base em suas responsabilidades.
 
 
-  📤 Sharing and Collaboration: Dashboards can be easily shared with team members or stakeholders, either through direct links or embedded in other applications. Grafana also supports snapshots of dashboards for sharing static views.
+  📦 Plugins e Extensões: Grafana possui um rico ecossistema de plugins que ampliam sua funcionalidade. Os usuários podem encontrar plug-ins para fontes de dados adicionais, tipos de visualização e integrações com outras ferramentas.
 
 
-  🚦 Infrastructure Monitoring: Track the health and performance of servers, databases, and network devices.
-
-  
-  📊 Application Performance Monitoring (APM): Visualize application metrics to identify bottlenecks and optimize performance.
-
-  
-  🧮 Business Metrics: Monitor key performance indicators (KPIs) and other business metrics to drive decision-making.
-
-  
-  📈 IoT Data Visualization: Analyze and visualize data from IoT devices in real-time.
+  📤 Compartilhamento e Colaboração: Os painéis podem ser facilmente compartilhados com membros da equipe ou partes interessadas, seja por meio de links diretos ou incorporados em outros aplicativos. Grafana também oferece suporte a instantâneos de painéis para compartilhar visualizações estáticas.
 
 
-  Grafana is a powerful tool for anyone looking to gain insights into their data through visualization and monitoring. Its flexibility, ease of use, and extensive feature set make it a popular choice for organizations of all sizes. Whether you're monitoring infrastructure, applications, or business metrics, Grafana provides the tools you need to visualize and analyze your data effectively.
+  🚦 Monitoramento de infraestrutura: acompanhe a integridade e o desempenho de servidores, bancos de dados e dispositivos de rede.
 
 
-  🗝️ Grafana's default login credentials are username: "admin" and password: "admin". Change the default password immediately after your first login to enhance security.
+  📊 Monitoramento de desempenho de aplicativos (APM): visualize métricas de aplicativos para identificar gargalos e otimizar o desempenho.
+
+
+  🧮 Métricas de negócios: monitore os principais indicadores de desempenho (KPIs) e outras métricas de negócios para orientar a tomada de decisões.
+
+
+  📈 Visualização de dados IoT: analise e visualize dados de dispositivos IoT em tempo real.
+
+
+  Grafana é uma ferramenta poderosa para quem deseja obter insights sobre seus dados por meio de visualização e monitoramento. Sua flexibilidade, facilidade de uso e amplo conjunto de recursos o tornam uma escolha popular para organizações de todos os tamanhos. Esteja você monitorando infraestrutura, aplicativos ou métricas de negócios, o Grafana fornece as ferramentas necessárias para visualizar e analisar seus dados de maneira eficaz.
+
+
+  🗝️ As credenciais de login padrão do Grafana são nome de usuário: “admin” e senha: “admin”. Altere a senha padrão imediatamente após seu primeiro login para aumentar a segurança.
 developer: Grafana Labs
 website: https://grafana.com
 submitter: Tascok
@@ -60,10 +60,10 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/grafana/grafana
 support: https://github.com/grafana/grafana/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grafana/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grafana/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grafana/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grafana/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grafana/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grafana/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grafana/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grafana/4.jpg
 releaseNotes: >-
   The latest update includes significant enhancements in alerting, such as improved permissions management, streamlined linking to silence forms, and better handling of query visibility in simplified mode. Additionally, updates to authentication and migration support for Library Elements are notable. Bug fixes address issues with TimeRangeInput, permissions on external rule groups, and dashboard usability across different environments.
 dependencies:

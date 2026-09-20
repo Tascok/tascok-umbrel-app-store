@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: tascok-leto
 name: LetoReader
-tagline: An open-source speed reader for faster, focused reading
+tagline: Um leitor rápido de código aberto para uma leitura mais rápida e focada
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-leto/logo.png
 category: files & productivity
 version: "3"
 port: 5001
 description: >-
-  📖⚡LetoReader is an open-source speed-reading tool designed to improve reading efficiency through the Rapid Serial Visual Presentation (RSVP) technique. This method displays words or word groups sequentially in a fixed position, eliminating unnecessary eye movement and allowing users to read faster while maintaining comprehension. Unlike traditional reading, where the eyes constantly move across the page, RSVP helps the brain process text more smoothly and efficiently.
+  📖⚡LetoReader é uma ferramenta de leitura rápida de código aberto projetada para melhorar a eficiência da leitura por meio da técnica Rapid Serial Visual Presentation (RSVP). Este método exibe palavras ou grupos de palavras sequencialmente em uma posição fixa, eliminando movimentos oculares desnecessários e permitindo que os usuários leiam mais rapidamente, mantendo a compreensão. Ao contrário da leitura tradicional, onde os olhos se movem constantemente pela página, o RSVP ajuda o cérebro a processar o texto de maneira mais suave e eficiente.
 
 
-  LetoReader is highly customizable, enabling users to adjust the reading speed, chunk size, and text highlighting to match their individual preferences. It supports various text formats, including direct URL imports, PDFs, Markdown, plain text, HTML, and EPUB files, making it a versatile tool for different reading needs.
+  LetoReader é altamente personalizável, permitindo aos usuários ajustar a velocidade de leitura, o tamanho do bloco e o destaque do texto para atender às suas preferências individuais. Ele suporta vários formatos de texto, incluindo importações diretas de URL, PDFs, Markdown, texto simples, HTML e arquivos EPUB, tornando-o uma ferramenta versátil para diferentes necessidades de leitura.
 
 
-  A key focus of LetoReader is privacy. All data is stored locally, ensuring that user activity remains private and secure. For those who prefer full control over their reading environment, LetoReader can be self-hosted using a provided Docker image.
+  Um foco principal do LetoReader é a privacidade. Todos os dados são armazenados localmente, garantindo que a atividade do usuário permaneça privada e segura. Para aqueles que preferem controle total sobre seu ambiente de leitura, o LetoReader pode ser auto-hospedado usando uma imagem Docker fornecida.
 
 
-  The project was developed as a free and open-source alternative to commercial speed-reading applications, providing a distraction-free reading experience. Whether for students, professionals, or anyone looking to boost their reading speed and focus, LetoReader offers a powerful and flexible solution.
+  O projeto foi desenvolvido como uma alternativa gratuita e de código aberto aos aplicativos comerciais de leitura dinâmica, proporcionando uma experiência de leitura sem distrações. Seja para estudantes, profissionais ou qualquer pessoa que queira aumentar a velocidade e o foco de leitura, LetoReader oferece uma solução poderosa e flexível.
 developer: Axym Labs
 website: https://leto.axym.org/
 submitter: Tascok
@@ -24,13 +24,13 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/Axym-Labs/LetoReader
 support: https://github.com/Axym-Labs/LetoReader/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-leto/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-leto/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-leto/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-leto/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-leto/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-leto/3.jpg
 releaseNotes: >-
   Version 3 of LetoReader optimizes state management, significantly reducing RAM usage by keeping only one text in memory at a time. 
-  
-  
+
+
   Keyboard shortcuts have been introduced for easier PC navigation, and popovers have been replaced with dialogs to enhance the mobile experience. Additionally, the update includes a flatter design, various UI improvements, and multiple bug fixes related to state management and loading issues.
 dependencies:
 path: ""

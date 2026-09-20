@@ -1,28 +1,28 @@
 manifestVersion: 1
 id: tascok-zennotes
 name: ZenNotes
-tagline: A keyboard-first Markdown workspace for notes
+tagline: Um espaço de trabalho Markdown com teclado para notas
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-zennotes/logo.png
 category: files & productivity
 version: "2.13.1"
 port: 7878
 description: >-
-  📝 ZenNotes is a powerful note-taking application for creating, editing, and organizing Markdown notes. It helps users build structured knowledge collections, connect related ideas, and quickly find information through full-text search.
+  📝 ZenNotes é um poderoso aplicativo de anotações para criar, editar e organizar notas Markdown. Ele ajuda os usuários a construir coleções de conhecimento estruturadas, conectar ideias relacionadas e encontrar informações rapidamente por meio de pesquisa de texto completo.
 
 
-  Notes can be organized with tags, task lists, Wikilinks, and backlinks. Links in the [[Note Name]] format connect related notes, while backlinks show which other notes reference the currently opened page. Daily and weekly notes make it easy to record tasks, events, ideas, and recurring information.
+  As notas podem ser organizadas com tags, listas de tarefas, Wikilinks e backlinks. Links no formato [[Nome da nota]] conectam notas relacionadas, enquanto backlinks mostram quais outras notas fazem referência à página aberta no momento. As notas diárias e semanais facilitam o registro de tarefas, eventos, ideias e informações recorrentes.
 
 
-  ZenNotes provides extensive keyboard navigation with Vim commands, customizable shortcuts, macros, and registers. Multiple notes can be opened side by side in split views, while frequently used notes can be pinned and kept visible for quick reference.
+  ZenNotes fornece ampla navegação por teclado com comandos Vim, atalhos personalizáveis, macros e registros. Várias notas podem ser abertas lado a lado em visualizações divididas, enquanto as notas usadas com frequência podem ser fixadas e mantidas visíveis para referência rápida.
 
 
-  The application supports mathematical formulas, diagrams, and graphical visualizations. KaTeX can be used to display equations, while Mermaid, TikZ, JSXGraph, and function plots allow users to create flowcharts, technical drawings, mathematical illustrations, and interactive graphics.
+  O aplicativo oferece suporte a fórmulas matemáticas, diagramas e visualizações gráficas. KaTeX pode ser usado para exibir equações, enquanto Mermaid, TikZ, JSXGraph e gráficos de funções permitem aos usuários criar fluxogramas, desenhos técnicos, ilustrações matemáticas e gráficos interativos.
 
 
-  An integrated preview renders formatted text, tables, task lists, formulas, and diagrams directly within the application. Existing Markdown collections and Obsidian vaults can also be used, preserving current folder structures, Wikilinks, and connected notes.
+  Uma visualização integrada renderiza texto formatado, tabelas, listas de tarefas, fórmulas e diagramas diretamente no aplicativo. Coleções Markdown existentes e cofres Obsidian também podem ser usados, preservando estruturas de pastas atuais, Wikilinks e notas conectadas.
 
 
-  ZenNotes also includes a command-line tool for searching, opening, creating, and processing notes. Its integrated MCP server allows compatible AI assistants to search, summarize, connect, and help edit information stored within the note collection.
+  ZenNotes também inclui uma ferramenta de linha de comando para pesquisar, abrir, criar e processar notas. Seu servidor MCP integrado permite que assistentes de IA compatíveis pesquisem, resumam, conectem e ajudem a editar informações armazenadas na coleção de notas.
 developer: ZenNotes
 website: https://zennotes.org/
 submitter: Tascok
@@ -30,11 +30,11 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/ZenNotes/zennotes
 support: https://github.com/ZenNotes/zennotes/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-zennotes/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-zennotes/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-zennotes/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-zennotes/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-zennotes/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-zennotes/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-zennotes/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-zennotes/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-zennotes/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-zennotes/5.jpg
 releaseNotes: >-
   This release includes interface improvements, editor refinements, and bug
   fixes.

@@ -1,40 +1,40 @@
 manifestVersion: 1
 id: tascok-centrifugo
 name: Centrifugo
-tagline: A highly scalable real-time messaging server platform
+tagline: Uma plataforma de servidor de mensagens em tempo real altamente escalável
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-centrifugo/logo.png
 category: networking
 version: "5.4.6"
 port: 8086
 description: >-
-  Centrifugo is an open-source real-time messaging server that helps developers build scalable web applications with real-time updates. It is commonly used to send messages between a server and client in applications that require live updates, such as chat apps, collaborative editing tools, real-time dashboards, or live notifications.
+  Centrifugo é um servidor de mensagens em tempo real de código aberto que ajuda os desenvolvedores a criar aplicativos da web escalonáveis ​​com atualizações em tempo real. É comumente usado para enviar mensagens entre um servidor e um cliente em aplicativos que exigem atualizações em tempo real, como aplicativos de bate-papo, ferramentas de edição colaborativa, painéis em tempo real ou notificações em tempo real.
 
 
-  Some key features of Centrifugo:
+  Algumas características principais do Centrifugo:
 
 
-  ⏱️ Real-time communication: It allows the server to push data to clients instantly, avoiding the need for the client to constantly poll the server for updates.
+  ⏱️ Comunicação em tempo real: permite que o servidor envie dados aos clientes instantaneamente, evitando a necessidade do cliente pesquisar constantemente o servidor em busca de atualizações.
 
 
-  🔗 WebSocket support: It uses WebSockets for efficient, low-latency communication, but also supports fallback mechanisms like HTTP-streaming and long polling.
+  🔗 Suporte WebSocket: Ele usa WebSockets para comunicação eficiente e de baixa latência, mas também oferece suporte a mecanismos de fallback, como streaming HTTP e sondagem longa.
 
 
-  📈 Scalability: Centrifugo can handle many concurrent connections and supports horizontal scaling, which makes it suitable for high-traffic applications.
+  📈 Escalabilidade: Centrifugo pode lidar com muitas conexões simultâneas e suporta escalonamento horizontal, o que o torna adequado para aplicações de alto tráfego.
 
 
-  📬 Channels and Pub/Sub: It uses the concept of channels to organize real-time messaging. Clients can subscribe to channels and receive real-time data when new messages are published.
+  📬 Canais e Pub/Sub: utiliza o conceito de canais para organizar mensagens em tempo real. Os clientes podem se inscrever em canais e receber dados em tempo real quando novas mensagens forem publicadas.
 
 
-  📦 Backend agnostic: While it can use Redis (as you are doing) for scaling and handling a large number of connections, it also supports other backends or can be run standalone without Redis.
+  📦 Backend agnóstico: embora possa usar Redis (como você está fazendo) para dimensionar e lidar com um grande número de conexões, ele também oferece suporte a outros backends ou pode ser executado de forma independente sem Redis.
 
 
-  🛡️ Authentication: Centrifugo supports token-based authentication, ensuring that only authorized clients can subscribe to specific channels.
+  🛡️ Autenticação: Centrifugo suporta autenticação baseada em token, garantindo que apenas clientes autorizados possam assinar canais específicos.
 
 
-  For Umbrel users, Centrifugo, when integrated with Redis as a backend, efficiently handles real-time message flow across various services or applications, enabling seamless live updates and communication within the Umbrel server environment.
+  Para usuários do Umbrel, o Centrifugo, quando integrado ao Redis como back-end, lida com eficiência com o fluxo de mensagens em tempo real em vários serviços ou aplicativos, permitindo atualizações e comunicação em tempo real e contínuas dentro do ambiente do servidor Umbrel.
 
 
-  🔑 The initial password is "umbrel."
+  🔑 A senha inicial é “umbrel”.
 
 developer: Centrifugal Labs LTD
 website: https://centrifugal.dev/
@@ -43,9 +43,9 @@ submission: https://github.com/dennysubke/dennys-umbrel-app-store
 repo: https://github.com/centrifugal/centrifugo
 support: https://github.com/centrifugal/centrifugo/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-centrifugo/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-centrifugo/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-centrifugo/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-centrifugo/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-centrifugo/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-centrifugo/3.jpg
 releaseNotes: >-
   This update introduces the ability to configure a custom token user ID claim, providing more flexibility in authentication scenarios, and improves logging by displaying connection durations in a more readable format. Several fixes address issues such as bad checksum errors during recovery, Redis publish errors, and proxy log redaction for enhanced security. 
 

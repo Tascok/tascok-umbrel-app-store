@@ -1,48 +1,48 @@
 manifestVersion: 1
 id: tascok-ashigaru
 name: Ashigaru Terminal
-tagline: A non-custodial client boosting transaction anonymity
+tagline: Um cliente sem custódia que aumenta o anonimato das transações
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ashigaru/logo.png
 category: bitcoin
 version: "1.0.0"
 port: 7682
 description: >-
-  🥷 Ashigaru Terminal is a terminal based application that enables users to participate in Whirlpool CoinJoin cycles with the goal of strengthening privacy in Bitcoin transactions. It provides a streamlined way to enter the Whirlpool process by constructing Tx0 transactions, which act as the gateway into mixing pools. Once a Tx0 has been created the application coordinates with the Whirlpool system to shuffle coins alongside those of other participants. This deliberate mixing obscures the direct relationship between transaction inputs and outputs, thereby breaking traceable links on the blockchain.
+  🥷 Ashigaru Terminal é um aplicativo baseado em terminal que permite aos usuários participar de ciclos Whirlpool CoinJoin com o objetivo de fortalecer a privacidade nas transações Bitcoin. Ele fornece uma maneira simplificada de entrar no processo Whirlpool construindo transações Tx0, que atuam como porta de entrada para pools de mistura. Depois que um Tx0 é criado, o aplicativo se coordena com o sistema Whirlpool para embaralhar moedas junto com as de outros participantes. Essa mistura deliberada obscurece a relação direta entre entradas e saídas de transações, quebrando assim links rastreáveis ​​no blockchain.
 
 
-  The application is designed to give users complete control of their own wallets and keys throughout the entire process. Nothing is shared beyond what is strictly required for participation in CoinJoins, ensuring that sensitive information such as master public keys or wallet structures remains private. This principle of self custody lies at the core of Ashigaru Terminal, positioning it as a privacy preserving tool rather than a custodial service.
+  O aplicativo foi projetado para fornecer aos usuários controle total de suas próprias carteiras e chaves durante todo o processo. Nada é compartilhado além do estritamente necessário para a participação no CoinJoins, garantindo que informações confidenciais, como chaves públicas mestras ou estruturas de carteira, permaneçam privadas. Este princípio de autocustódia está no cerne do Terminal Ashigaru, posicionando-o como uma ferramenta de preservação da privacidade e não como um serviço de custódia.
 
 
-  Privacy within the network layer is also emphasized. Connections are routed through Tor by default, which prevents observers from linking activity to a particular IP address and makes it significantly more difficult to correlate wallet behavior across sessions. Users retain the flexibility to connect through their own Electrum servers if desired, but the underlying design assumes a threat model in which anonymity and resistance to tracking are paramount.
+  A privacidade na camada de rede também é enfatizada. As conexões são roteadas por meio do Tor por padrão, o que impede que os observadores vinculem a atividade a um endereço IP específico e torna significativamente mais difícil correlacionar o comportamento da carteira entre as sessões. Os usuários mantêm a flexibilidade de se conectar através de seus próprios servidores Electrum, se desejarem, mas o design subjacente pressupõe um modelo de ameaça em que o anonimato e a resistência ao rastreamento são fundamentais.
 
 
-  The user experience is intentionally minimalistic, relying on a clean text interface rather than a graphical environment. This approach simplifies the task of participating in CoinJoins while avoiding distractions or unnecessary features. The focus remains entirely on initiating mixes, cycling coins through pools, and reinforcing the anonymity set. By maintaining this clarity Ashigaru Terminal makes it easier for users to understand what is happening to their funds and how the process contributes to privacy.
+  A experiência do usuário é intencionalmente minimalista, contando com uma interface de texto limpa em vez de um ambiente gráfico. Essa abordagem simplifica a tarefa de participar do CoinJoins, evitando distrações ou recursos desnecessários. O foco permanece inteiramente em iniciar mixagens, circular moedas através de pools e reforçar o conjunto de anonimato. Ao manter essa clareza, o Terminal Ashigaru torna mais fácil para os usuários entenderem o que está acontecendo com seus fundos e como o processo contribui para a privacidade.
 
 
-  Overall Ashigaru Terminal acts as a dedicated privacy tool for individuals who want direct access to Whirlpool without added complexity. It balances simplicity of use with strong guarantees of control and anonymity, allowing users to strengthen the confidentiality of their Bitcoin transactions through an efficient and transparent mixing process.
+  No geral, o Terminal Ashigaru atua como uma ferramenta de privacidade dedicada para indivíduos que desejam acesso direto à Whirlpool sem complexidade adicional. Equilibra a simplicidade de utilização com fortes garantias de controlo e anonimato, permitindo aos utilizadores reforçar a confidencialidade das suas transacções Bitcoin através de um processo de mistura eficiente e transparente.
 
 
-  ⚙️ To paste content into the web terminal use 'Ctrl+Shift+V' on Windows or Linux, or 'Cmd+Shift+V' on macOS. In LibreWolf or Tor Browser, it may be necessary to disable 'resistFingerprinting' for the web terminal to function properly. Alternatively, you can use a Chromium-based browser such as Brave. To connect to an Electrum server over Tor within Ashigaru Terminal, enter the server’s .onion address, select the correct Electrum port, and enable the proxy with the address 127.0.0.1 and port 9050.  
+  ⚙️ Para colar conteúdo no terminal web use ‘Ctrl+Shift+V’ no Windows ou Linux, ou ‘Cmd+Shift+V’ no macOS. No LibreWolf ou Tor Browser, pode ser necessário desabilitar o 'resistFingerprinting' para que o terminal web funcione corretamente. Alternativamente, você pode usar um navegador baseado em Chromium, como o Brave. Para conectar-se a um servidor Electrum via Tor no Terminal Ashigaru, insira o endereço .onion do servidor, selecione a porta Electrum correta e habilite o proxy com o endereço 127.0.0.1 e porta 9050.  
 
 
-  Please note that updates may not retain existing wallets. Always back up your seed phrase securely, especially before upgrading or migrating.  
+  Observe que as atualizações podem não reter as carteiras existentes. Sempre faça backup de sua frase inicial com segurança, especialmente antes de atualizar ou migrar.  
 
 
-  Ashigaru Terminal is designed to be used in combination with the Ashigaru Mobile App. The only official website is 'ashigaru.rs'. Any other sites are fraudulent, as are individuals claiming to represent Ashigaru on social media – Ashigaru has no social media presence. Always act responsibly and in compliance with the law. The developers do not assume any responsibility for your actions. Do your own research and make informed decisions.  
+  O Terminal Ashigaru foi projetado para ser usado em combinação com o aplicativo móvel Ashigaru. O único site oficial é 'ashigaru.rs'. Quaisquer outros sites são fraudulentos, assim como indivíduos que afirmam representar Ashigaru nas redes sociais – Ashigaru não tem presença nas redes sociais. Agir sempre com responsabilidade e em conformidade com a lei. Os desenvolvedores não assumem qualquer responsabilidade por suas ações. Faça sua própria pesquisa e tome decisões informadas.  
 
 
-  ℹ️ For learning resources on the Ashigaru stack, you may find the following helpful:
+  ℹ️ Para recursos de aprendizagem na pilha Ashigaru, o seguinte pode ser útil:
 
-  
+
   https://ashigaru.rs/docs/ashigaru-terminal-overview
 
 
   https://k3tan.com/ashigaru-whirlpool
- 
-  
+
+
   https://www.youtube.com/watch?v=aykJ4eP-Veo
 
-  
+
   https://www.youtube.com/watch?v=ULZoPMCYPfk    
 developer: Ashigaru Open Source Project
 website: https://ashigaru.rs/news/release-terminal-v1-0-0/
@@ -51,15 +51,15 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/3569
 repo: https://github.com/TheNymMan/Ashi-T
 support: https://github.com/TheNymMan/Ashi-T/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ashigaru/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ashigaru/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ashigaru/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ashigaru/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ashigaru/5.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ashigaru/1.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ashigaru/2.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ashigaru/3.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ashigaru/4.jpg
+- https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ashigaru/5.jpg
 releaseNotes: >-
   First release of the Ashigaru Terminal built from Sparrow Wallet v1.8.4. The GUI has been removed in favor of a user-friendly terminal interface familiar to Sparrow Server users. 
-  
-  
+
+
   Ashigaru Terminal is a non-custodial Whirlpool client that lets users join chosen pools, enhance their transaction anonymity, and remain fully in control of their funds without needing a Dojo server.
 dependencies: []
 path: ""

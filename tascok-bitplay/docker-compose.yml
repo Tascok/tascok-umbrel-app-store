@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-bitplay_web_1
+      APP_PORT: 3347
+
+  web:
+    image: ghcr.io/aculix/bitplay:main@sha256:2904ae6432d93683fd812b3753545eeb83b8afac20742778366664cd40036064
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data/config:/app/config

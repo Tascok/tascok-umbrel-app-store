@@ -1,0 +1,34 @@
+manifestVersion: 1
+id: tascok-dockerizalo
+name: Dockerizalo
+tagline: A simple deployment platform
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dockerizalo/logo.png
+category: developer tools
+version: "1.4.0"
+port: 8522
+description: >-
+  🐳 Dockerizalo is an open source tool designed to simplify the deployment of applications for self hosters. It provides a web interface that allows users to clone Git repositories, build Docker images and run containers with minimal manual intervention. The main idea behind Dockerizalo is to streamline the process of deploying applications directly from source code repositories, making it easier for users to manage and update their services.
+
+
+  Unlike general purpose container management tools, Dockerizalo focuses on automating the entire deployment workflow. This includes pulling the latest code, building the corresponding Docker image and starting the necessary containers. The system relies on a PostgreSQL database to store metadata about deployments and configurations. The web interface gives users the ability to configure environment variables, volumes, ports and secrets. Additionally, it offers real time logs for both the build process and running containers so that users can monitor their applications easily.
+
+
+  Dockerizalo can be integrated with webhooks to trigger builds automatically whenever code is pushed to a repository although this requires manual setup. The platform itself does not include a reverse proxy or HTTPS configuration which means users need to handle secure access separately. Dockerizalo is particularly well suited for homelab environments where simplicity and automation are key priorities. It provides a lightweight alternative to more complex CI or CD pipelines by combining source code management with container deployment in a single solution.
+developer: Javier Martí Valcárcel
+website: https://github.com/undernightcore/dockerizalo
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/undernightcore/dockerizalo
+support: https://github.com/undernightcore/dockerizalo/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dockerizalo/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dockerizalo/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dockerizalo/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dockerizalo/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-dockerizalo/5.jpg
+releaseNotes: >-
+  In version 1.4.0, Dockerizalo introduces automatic deployments through webhooks that can build and deploy your app whenever they are called. You can now create flexible deployment triggers for any app and integrate them with GitHub, other VCS providers, or any system that supports HTTP requests.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

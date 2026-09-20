@@ -1,0 +1,33 @@
+#In the Umbrel configuration, only the username and password need to be adjusted.
+#In the app, these can be adjusted under System → Options in the slskd.yml.
+
+soulseek:
+  address: vps.slsknet.org
+  port: 2271
+  username: your-username
+  password: your-password
+  description: |
+    A slskd user. https://github.com/slskd/slskd
+  listen_ip_address: 0.0.0.0
+  listen_port: 50300
+  diagnostic_level: Info
+  distributed_network:
+    disabled: false
+    disable_children: false
+    child_limit: 25
+    logging: false
+  connection:
+    timeout:
+      connect: 10000
+      inactivity: 15000
+    buffer:
+      read: 16384
+      write: 16384
+      transfer: 262144
+      write_queue: 250
+    proxy:
+      enabled: false
+      address: ~
+      port: ~
+      username: ~
+      password: ~

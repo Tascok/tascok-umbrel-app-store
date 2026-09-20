@@ -1,0 +1,49 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-haven_web_1
+      APP_PORT: 3000
+
+  web:
+    image: ghcr.io/havenweb/haven:ed8777c@sha256:9bf8f934b98ff61e15f6e31a4393486048aed09dc880a4f573afa2b6e4586528
+    restart: on-failure
+    depends_on:
+      - postgresql
+    volumes:
+      - ${APP_DATA_DIR}/data/haven_storage:/storage
+    environment:
+      - RAILS_ENV=production
+      - HAVEN_DB_HOST=postgresql
+      - HAVEN_DB_NAME=haven
+      - HAVEN_DB_ROLE=haven
+      - HAVEN_DB_PASSWORD=nn8=J!Q&>H-02{eF
+      - HAVEN_USER_EMAIL=haven@umbrel.blog
+      - HAVEN_USER_PASS=umbrel
+
+  postgresql:
+    image: postgres:13.2-alpine
+    ports:
+      - "5432:5432"
+    command: [
+      "postgres",
+      "-c", "max_connections=1000",
+      "-c", "synchronous_commit=off",
+      "-c", "fsync=off",
+      "-c", "full_page_writes=off",
+      "-c", "max_wal_size=4GB",
+      "-c", "checkpoint_timeout=30min",
+      "-c", "wal_level=logical"
+    ]
+    environment:
+      POSTGRES_HOST_AUTH_METHOD: trust
+      POSTGRES_USER: haven
+    volumes:
+      - ${APP_DATA_DIR}/data/postgresqldata:/var/lib/postgresql/data
+
+volumes:
+  postgresqldata:
+    external: false
+  haven_storage:
+    external: false

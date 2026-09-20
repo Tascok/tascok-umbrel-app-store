@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-mafl_web_1  
+      APP_PORT: 3000              
+      PROXY_AUTH_ADD: "false"    
+  web:
+    image: hywax/mafl:v0.15.4@sha256:2c89020be334b341da41a6b95830b1b52b1b9f43c9f16d09c0ab4e9dad3ea4ad
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/config.yml:/app/data/config.yml      # Directory for config
+      - ${APP_DATA_DIR}/app/icons/:/app/public/icons  # Directory for icons
+      - ${APP_DATA_DIR}/app/favicons/:/app/public/favicons  # Directory for favicons

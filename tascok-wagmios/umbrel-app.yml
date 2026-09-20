@@ -1,0 +1,59 @@
+manifestVersion: 1
+id: tascok-wagmios
+name: Wagmi
+tagline: A self-hosted container management system with AI-powered automation
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wagmios/logo.png
+category: networking
+version: "2.0.0"
+port: 5174
+description: >-
+  🤖 Wagmi is a self-hosted container management system designed with AI-powered automation to streamline container management. At its core is W.I.L.L.O.W (Workflow Intelligent Localized Learning & Optimized Worker), an AI-driven assistant that guides users through the setup and management of containers while helping to optimize workflows.
+
+
+  The system allows you to host everything on your own infrastructure, providing full control and security over your data. Wagmi features a customizable interface, enabling users to bookmark their favorite websites and applications for quick access.
+
+
+  Wagmi includes a Docker marketplace UI, where users can browse, install, and manage containers with ease. This simple interface simplifies handling Docker containers and allows for quick deployment of various applications or services. The integration of W.I.L.L.O.W further enhances this process by offering suggestions to improve container configurations, recommending automation, and even suggesting new containers based on the user’s needs.
+
+
+  Another key feature of Wagmi is support for popular integrations like Home Assistant and Jenkins, allowing it to be used for both home automation and CI/CD pipelines. These integrations make Wagmi a more versatile platform that continuously evolves to add new features and enhance the user experience.
+
+
+  Overall, Wagmi combines the benefits of self-hosted infrastructure with the power of AI to not only simplify but also automate and optimize container management. W.I.L.L.O.W plays a central role as a personal assistant, learning over time and constantly working to improve the user's workflows.
+
+
+  🔧 Getting Started with W.I.L.L.O.W
+
+
+  W.I.L.L.O.W (Workflow Intelligent Localized Learning & Optimized Worker) is a powerful self-hosted AI agent built specifically for WAGMI – the ultimate Docker management layer on top of your OS.
+
+
+  You can find all setup instructions and details in the following article:
+
+  
+  https://medium.com/@webdevmike01/introducing-w-i-l-l-o-w-827c3e965ef6
+
+
+  ⚠️ Warning: Use Wagmi at your own risk!
+
+
+  This app is currently in an alpha stage of development and may be unstable or incomplete. Additionally, it requires access to /var/run/docker.sock to interact with the Docker daemon. This grants the app elevated privileges, including the ability to start, stop, and modify containers, which poses a significant security risk if the app is compromised or behaves unexpectedly.
+
+
+  Please proceed with caution. You install and use this app at your own risk. Make sure you fully understand the implications before continuing.
+developer: itzmizzle
+website: https://os.wagmilabs.fun/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/mentholmike/wagmios
+support: https://github.com/mentholmike/wagmios/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wagmios/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wagmios/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wagmios/3.jpg
+releaseNotes: >-
+  Wagmi v2.0.0 is the latest stable version, now fully containerized. There’s no need for backend installations - just Docker. The update includes a light mode, added ports to the container view, styling improvements for better visibility in light mode, and a smaller footprint. The older version is still available for use if preferred.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

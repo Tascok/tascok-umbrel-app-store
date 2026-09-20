@@ -1,0 +1,55 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-webtop_web_1
+      APP_PORT: 3000
+
+  web:
+    image: linuxserver/webtop:ubuntu-mate-version-04d8319c@sha256:4253dfc8a1ea240cb6a63a939a26471f549e4a0046f239a9a020d52d78c32558
+    restart: on-failure
+    security_opt:
+      - seccomp:unconfined 
+    shm_size: "4gb" 
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Berlin
+    volumes:
+      - ${APP_DATA_DIR}/data/config:/config:rw
+      - /var/run/docker.sock:/var/run/docker.sock
+
+
+#This image provides various versions that are available via tags:
+
+# latest - XFCE Alpine  
+# ubuntu-xfce - XFCE Ubuntu  
+# fedora-xfce - XFCE Fedora  
+# arch-xfce - XFCE Arch  
+# debian-xfce - XFCE Debian  
+# alpine-kde - KDE Alpine  
+# ubuntu-kde - KDE Ubuntu  
+# fedora-kde - KDE Fedora  
+# arch-kde - KDE Arch  
+# debian-kde - KDE Debian  
+# alpine-mate - MATE Alpine  
+# ubuntu-mate - MATE Ubuntu  
+# fedora-mate - MATE Fedora  
+# arch-mate - MATE Arch  
+# debian-mate - MATE Debian  
+# alpine-i3 - i3 Alpine  
+# ubuntu-i3 - i3 Ubuntu  
+# fedora-i3 - i3 Fedora  
+# arch-i3 - i3 Arch  
+# debian-i3 - i3 Debian  
+# alpine-openbox - Openbox Alpine  
+# ubuntu-openbox - Openbox Ubuntu  
+# fedora-openbox - Openbox Fedora  
+# arch-openbox - Openbox Arch  
+# debian-openbox - Openbox Debian  
+# alpine-icewm - IceWM Alpine  
+# ubuntu-icewm - IceWM Ubuntu  
+# fedora-icewm - IceWM Fedora  
+# arch-icewm - IceWM Arch  
+# debian-icewm - IceWM Debian  

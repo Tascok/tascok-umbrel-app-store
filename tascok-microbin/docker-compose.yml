@@ -1,0 +1,33 @@
+version: '3.8'
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-microbin_server_1
+      APP_PORT: 8080
+      PROXY_AUTH_ADD: "false"
+
+  server:
+    image: danielszabo99/microbin:latest@sha256:c5bd4643135540a68a2846950fe4f65f3bcc94b62ed7c7644e563dfde6f1732c
+    restart: on-failure
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Berlin
+      - MICROBIN_QR=true
+      - MICROBIN_HIGHLIGHTSYNTAX=true
+      - MICROBIN_ADMIN_USERNAME=umbrel
+      - MICROBIN_ADMIN_PASSWORD=umbrelpass
+      - MICROBIN_ENCRYPTION_CLIENT_SIDE=false
+      - MICROBIN_ENCRYPTION_SERVER_SIDE=true
+      - MICROBIN_TITLE=Microbin
+      - MICROBIN_QR=true
+      - MICROBIN_HIDE_HEADER=false
+      - MICROBIN_HIDE_LOGO=false
+      - MICROBIN_HIDE_FOOTER=true
+      - MICROBIN_WIDE=true
+      - MICROBIN_ENABLE_BURN_AFTER=true
+      - MICROBIN_ETERNAL_PASTA=true
+      - MICROBIN_SHOW_READ_STATS:true
+    volumes:
+      - ${APP_DATA_DIR}/data/microbin:/my/microbin
+      - ${APP_DATA_DIR}/data/pasta-data:/app/pasta_data

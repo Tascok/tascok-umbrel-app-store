@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-spotube_web_1
+      APP_PORT: 3000
+      PROXY_AUTH_ADD: "false"
+
+  web:
+    image: linuxserver/spotube:version-v3.8.3@sha256:01ced8cebf91d2b87cd4468c76e5384bfea0c3a0bb6db7bc49a6d99bced55a7a
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data/config:/config

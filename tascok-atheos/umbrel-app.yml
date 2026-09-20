@@ -1,0 +1,33 @@
+manifestVersion: 1
+id: tascok-atheos
+name: Atheos
+tagline: A web-based IDE framework with a small footprint and minimal requirements
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-atheos/logo.png
+category: developer tools
+version: "5.5.0"
+port: 8728
+description: >-
+  Atheos is a lightweight, web-based integrated development environment (IDE) designed for developers seeking fast, streamlined coding directly in the browser. Its minimal setup requires only a web server (Apache) and PHP 7+ without a database, making it highly accessible and efficient. Atheos supports over 40 programming languages, including PHP, JavaScript, Python, and Ruby, and offers an intuitive interface with split panels, syntax highlighting, advanced search, and real-time collaboration. Ideal for multi-user environments, it emphasizes flexibility with customizable themes and layouts, providing developers with a smooth, responsive experience.
+
+
+  Atheos enables real-time project sharing and multi-user collaboration, making it useful for development teams or remote programming. It features a built-in code explorer, search tools for quickly locating files or text, and syntax highlighting for easier readability of code across languages. Atheos also supports plugins for further customization, such as version control integration or additional language support.
+
+
+  By using Atheos, you can run a full IDE on your own server without heavy overhead. It's designed to be fast, responsive, and highly adaptable to a variety of workflows, while remaining secure and simple to install. The IDE is especially suited for collaborative coding, enabling multiple users to work on the same codebase simultaneously in real-time, which is useful for both small teams and large development groups. Its simplicity, coupled with its focus on performance, makes Atheos a powerful tool for developers looking to maximize productivity in a lightweight, flexible environment.
+
+developer: Liam Siira
+website: https://atheos.io/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/Atheos/Atheos
+support: https://github.com/Atheos/Atheos/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-atheos/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-atheos/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-atheos/3.jpg
+releaseNotes: >-
+  This release focuses on a wide range of bug fixes, improving the stability and reliability of the IDE. The codebase has been cleaned up, reducing redundancies and making future development smoother. Several quality-of-life improvements have been introduced, enhancing the overall user experience. These could include better performance, more intuitive interface adjustments, or helpful new features that streamline common workflows. This update emphasizes not just bug resolution but also a more refined, user-friendly interface for developers using Atheos.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

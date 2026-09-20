@@ -1,0 +1,20 @@
+version: '3.9'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-netdata_server_1
+      APP_PORT: 19999
+      PROXY_AUTH_ADD: "false"
+
+  server:
+    image: netdata/netdata:v1.47.4@sha256:3d89a4212017abf180286791299ec99004f54af8978d5130248d1faf0bbeec7a
+    restart: on-failure
+    cap_add:
+      - SYS_PTRACE
+    security_opt:
+      - apparmor:unconfined
+    volumes:
+      - ${APP_DATA_DIR}/proc:/host/proc:ro
+      - ${APP_DATA_DIR}/sys:/host/sys:ro
+      - ${APP_DATA_DIR}/var/run/docker.sock:/var/run/docker.sock:ro

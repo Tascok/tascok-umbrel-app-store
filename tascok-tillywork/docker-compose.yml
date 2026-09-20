@@ -1,0 +1,50 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-tillywork_web_1
+      APP_PORT: 80
+
+  web:
+    image: tillywork/tillywork:latest@sha256:52d1aedfc4c564f364a2bf47765b2c95ac120956972f3343e328e3227d508758
+    ports:
+      - '3000:3000'
+    environment:
+      TW_DB_NAME: tillywork
+      TW_DB_HOST: db
+      TW_DB_PORT: 5432
+      TW_DB_USERNAME: postgres
+      TW_DB_PASSWORD: 12345678
+      TW_DB_ENABLE_SSL: "false"
+      TW_SECRET_KEY: tillywork
+      TW_ENABLE_QUERY_LOGGING: "false"
+      TW_ENABLE_REQ_BODY_LOGGING: "false"
+      TW_MAIL_ENABLE: "false"
+      TW_REDIS_HOST: redis
+      TW_REDIS_PORT: 6379
+      TW_FILE_STORAGE_TYPE: local
+      TW_VITE_API_URL: http://localhost:3000/v1
+    command: '/start.sh'
+    depends_on:
+      - db
+      - redis
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data/tillywork:/app/uploads
+
+  db:
+    image: postgres:16.3-bullseye@sha256:19bf873c1c9351c1c5b168a4c478016125f13d0780d6dd0a967c37ea00deadba
+    volumes:
+      - ${APP_DATA_DIR}/data/tillywork:/var/lib/postgresql/data
+    environment:
+      POSTGRES_DB: tillywork
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 12345678
+    restart: on-failure
+  redis:
+    image: redis:7.2.5-alpine@sha256:6aaf3f5e6bc8a592fbfe2cccf19eb36d27c39d12dab4f4b01556b7449e7b1f44
+    restart: on-failure
+
+volumes:
+  tillywork:

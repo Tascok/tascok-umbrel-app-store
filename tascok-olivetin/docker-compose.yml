@@ -1,0 +1,18 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-olivetin_app_1
+      APP_PORT: 1337
+
+  app:
+    image: jamesread/olivetin:2025.6.22@sha256:49beb85eb27fc655f2201ae44565cc7f83c8721172fbe5e0f4957998f20d3772
+    volumes:
+      - ${APP_DATA_DIR}/config:/config 
+    restart: on-failure
+
+
+volumes:
+  OliveTin-config:
+    external: false

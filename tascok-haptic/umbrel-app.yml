@@ -1,0 +1,33 @@
+manifestVersion: 1
+id: tascok-haptic
+name: Haptic
+tagline: A privacy first markdown app
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-haptic/logo.png
+category: files & productivity
+version: "0.1.4"
+port: 3842
+description: >-
+  Haptic is a minimalist and privacy focused markdown note taking application designed to keep your data local and under your control. It offers a simple and clean interface that allows users to create and manage markdown notes without the complexity of plugins or overwhelming menus. Unlike many note taking apps that rely on cloud services, Haptic stores all notes directly on your device ensuring maximum privacy and security.
+
+
+  The project is actively evolving with plans to include features such as device synchronization, mobile support, collaborative editing, versioning, and support for advanced markdown elements like LaTeX. While it does not aim to replace more complex note taking systems, Haptic is perfect for those who want a straightforward and lightweight solution for managing markdown notes that emphasizes privacy and ease of use.
+
+
+  Overall it is a well designed tool for anyone looking for a clean and secure markdown experience without the distractions of large feature sets or cloud dependency.
+developer: Christo Todorov
+website: https://www.haptic.md/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/chroxify/haptic
+support: https://github.com/chroxify/haptic/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-haptic/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-haptic/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-haptic/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-haptic/4.jpg
+releaseNotes: >-
+  Version 0.1.4 introduces a starting screen and a pre-built Docker image, with 24 commits added to the main branch since the previous release.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

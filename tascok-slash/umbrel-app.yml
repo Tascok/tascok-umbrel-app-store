@@ -1,0 +1,42 @@
+manifestVersion: 1
+id: tascok-slash
+name: Slash
+tagline: A link shortener that simplifies the managing and sharing of links
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-slash/logo.png
+category: files & productivity
+version: "1.0.0"
+port: 5231
+description: >-
+  Slash is an innovative open-source self-hosted URL shortener service developed using Go and SQLite. Slash serves as a reliable and flexible solution for anyone looking to shorten links for personal use, marketing campaigns, or social media sharing. It offers a powerful tool for enhancing online presence, making it an excellent choice for individuals and businesses alike.
+
+
+  Key Features of Slash:
+  
+
+  🔗 Customizable Short Links: Slash allows users to create personalized short links. By using the format YOUR_DOMAIN/s/name, users can design memorable URLs that align with their branding or preferences, making sharing easier and more effective.
+
+
+  📊 Comprehensive Analytics: The service provides in-depth analytics for short links, offering insights into referrers, browsers, operating systems, and more. This data is crucial for understanding audience behavior and optimizing sharing strategies.
+
+
+  🎨 Social Sharing Customization: Users can enhance their social media impact by customizing metadata for their short links. This includes specifying the image, title, and description that appear when the link is shared, ensuring that content is visually appealing and engaging.
+
+
+  🌍 Lightweight and Open Source: Slash is designed to be lightweight and efficient, making it simple to deploy on any server. As an open-source project, it invites contributions from the community, allowing for ongoing development and customization to meet specific user needs.
+ 
+developer: yourselfhosted
+website: https://www.yourselfhosted.com/
+submitter: Tascok
+submission: https://github.com/dennysubke/dennys-umbrel-app-store
+repo: https://github.com/yourselfhosted/slash
+support: https://github.com/yourselfhosted/slash/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-slash/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-slash/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-slash/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-slash/4.jpg
+releaseNotes: >-
+  The update brings several improvements, including a fix for the issue where public shortcuts were not appearing in public collections.
+path: ""
+defaultUsername: ""
+defaultPassword: ""

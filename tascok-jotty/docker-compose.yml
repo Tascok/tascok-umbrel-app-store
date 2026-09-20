@@ -1,0 +1,20 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-jotty_web_1
+      APP_PORT: 3000
+
+  web:
+    image: ghcr.io/fccview/jotty:1.9.2@sha256:798ada0394bbed1258ad623ea4cc88eba51c9bc634d637a3343b2e074b608446
+    restart: on-failure
+    user: "0:0"
+    volumes:
+      - ${APP_DATA_DIR}/data/app_data:/app/data:rw
+      - ${APP_DATA_DIR}/data/config:/app/config:ro
+      - ${APP_DATA_DIR}/data/cache:/app/.next/cache:rw
+    environment:
+      NODE_ENV: production
+      SERVE_PUBLIC_IMAGES: yes
+      SERVE_PUBLIC_FILES: yes

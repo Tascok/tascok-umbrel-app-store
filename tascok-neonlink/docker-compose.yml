@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-neonlink_app_1
+      APP_PORT: 3333
+
+  app:
+    image: alexscifier/neonlink:v1.4.19@sha256:5b672e0caa801ffc5e651d8d53ff1be01d8acf0c3af53d16ecccc933a8fc5990
+    user: "0:0"
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data/app_data:/app/data
+      - ${APP_DATA_DIR}/data/background_data:/app/public/static/media/background
+    environment:
+      FASTIFY_PLUGIN_TIMEOUT: 120000 # optional: change to 0 if AVV_ERR_READY TIMEOUT error occurs

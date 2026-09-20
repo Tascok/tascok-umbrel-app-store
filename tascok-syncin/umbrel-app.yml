@@ -1,0 +1,34 @@
+manifestVersion: 1
+id: tascok-syncin
+name: Sync-in
+tagline: A platform to sync, share, and collaborate securely
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-syncin/logo.png
+category: files & productivity
+version: "1.3.2"
+port: 8943
+description: >-
+  🔄 Sync-in is a collaborative platform that allows users to store, manage, and work on files together in a secure and organized environment. It enables real time collaboration on documents, spreadsheets, and presentations, complete with commenting, feedback, and activity tracking to keep everyone aligned. Users can create dedicated spaces for projects or teams, organize files without duplication, and share content internally or externally with precise control over access and permissions.
+
+
+  Advanced search makes it easy to find information within file contents, including text, PDFs, and Office formats. The platform includes a powerful file manager with drag and drop, sorting, filtering, and preview capabilities, as well as tools for managing offline tasks and clipboard operations. Synchronization keeps files up to date across devices, while version history and detailed logs ensure transparency and accountability.
+
+
+  Through integrated editing, secure sharing options, and structured collaboration features, Sync-in streamlines teamwork and centralizes project content in one accessible place.
+developer: Johan Legrand
+website: https://sync-in.com/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/sync-in
+support: https://github.com/Sync-in/server/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-syncin/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-syncin/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-syncin/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-syncin/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-syncin/5.jpg
+releaseNotes: >-
+  Version 1.3.2 adds a new CLI command to create and manage users, enhancing user administration capabilities.
+dependencies:
+path: ""
+defaultUsername: "admin"
+defaultPassword: "umbrel"

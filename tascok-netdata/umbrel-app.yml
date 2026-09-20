@@ -1,0 +1,61 @@
+manifestVersion: 1
+id: tascok-netdata
+name: Netdata
+tagline: A high-performance tool for monitoring systems in real time
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-netdata/logo.png
+category: networking
+version: "1.47.4"
+port: 19999
+description: >-
+  Netdata is an open-source monitoring tool designed for real-time performance tracking of systems, applications, and infrastructure. It provides detailed insights into various metrics such as CPU usage, memory, network traffic, disk activity, Docker container status, and more. 
+  
+  
+  Here are some key features of Netdata:
+
+
+  ⏱️ Real-time Monitoring: Netdata collects and visualizes metrics in real time, typically at second intervals, allowing for quick identification and resolution of issues.
+
+
+  ⚖️ Lightweight: It is designed to use minimal system resources while still gathering detailed data.
+
+
+  🖥️ User Interface: Netdata offers a web-based dashboard where all metrics are displayed in interactive charts, making it easy to see how the system has behaved over the last seconds, minutes, or hours.
+
+
+  📊 Versatile Monitoring: It supports monitoring a wide range of services and system components, including servers, databases, containers, web applications, and networks.
+
+
+  🔔 Alerts and Notifications: Netdata can be configured to send alerts or notifications when certain thresholds are exceeded, enabling proactive issue detection.
+
+
+  🌍 Distributed Monitoring: Netdata can be installed on multiple systems and combined into a single, centralized dashboard for an overview of numerous systems and environments.
+
+
+  Netdata is ideal for system administrators and DevOps teams who need to quickly pinpoint performance, resource, or service issues. It works well in setups ranging from small-scale environments to large distributed infrastructures.
+
+developer: Netdata Inc.
+website: https://www.netdata.cloud/
+submitter: Tascok
+submission: https://github.com/dennysubke/dennys-umbrel-app-store
+repo: https://github.com/netdata/netdata
+support: https://github.com/netdata/netdata/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-netdata/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-netdata/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-netdata/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-netdata/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-netdata/5.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-netdata/6.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-netdata/7.jpg
+releaseNotes: >-
+  This patch release addresses several issues discovered in previous versions. It resolves a problem with system-cat-native not sending messages to journald and updates the static installation packages with the latest versions of OpenSSL and cURL. 
+
+  
+  The release ensures proper cross-compilation of the go.d.plugin by setting the correct GOOS and GOARCH values, includes a check for swap status changes during Agent runtime, and fixes disk and RAM usage calculations within LXC containers. 
+  
+  
+  Additionally, it corrects a hardcoded 3-second timeout in go.d/nvidia_smi and adds a compatibility check for 64-bit atomics during compilation on architectures like RISCV32.
+dependencies:
+path: ""
+defaultUsername: "none"
+defaultPassword: "password"

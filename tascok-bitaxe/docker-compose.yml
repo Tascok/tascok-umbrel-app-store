@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-bitaxe_web_1
+      APP_PORT: 3000
+      PROXY_AUTH_ADD: "false"
+  web:
+    image: dennysubke/bitaxe-web-flasher:1.0.1@sha256:eecccaffc97ec61d8ac2bb095474cf32d196d9802451e9ab6d1697bb83899c0d
+    restart: on-failure

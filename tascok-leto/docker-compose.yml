@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-leto_web_1
+      APP_PORT: 8080
+
+  web:
+    image: davidewiest/reader:latest@sha256:8300c926af6ef660952df0679a7deee4a9cedf110e6c0f4639e64ed23084338f #only latest tag
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+    restart: on-failure

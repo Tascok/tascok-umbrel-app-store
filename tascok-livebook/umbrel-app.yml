@@ -1,0 +1,37 @@
+manifestVersion: 1
+id: tascok-livebook
+name: Livebook
+tagline: An interactive web app for writing and collaborating on code notebooks
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-livebook/logo.png
+category: developer tools
+version: "0.15.5"
+port: 8372
+description: >-
+  Livebook is an open-source, web-based platform designed for interactive and collaborative programming, specifically built for the Elixir programming language. It allows users to create dynamic, executable notebooks where code, documentation, and visualizations can coexist in a seamless and easy-to-use interface. Whether you're engaging in data analysis, experimenting with Elixir code, or working on team projects, Livebook provides a flexible and efficient environment to boost productivity and foster collaboration.
+
+
+  The platform makes it possible to write and execute Elixir code interactively, enabling developers to test their ideas, explore concepts, and document their findings within the same notebook. It is particularly suited for Elixir-based tasks, taking advantage of the language’s strengths, such as concurrency and fault tolerance, to handle demanding tasks in a lightweight, highly efficient manner.
+
+
+  Livebook also supports real-time collaboration, allowing multiple users to simultaneously work on the same notebook, making it ideal for teams or learning environments. This feature, combined with Livebook's ability to produce rich data visualizations and seamlessly integrate external services, gives it a wide range of use cases—from simple code exploration to complex data science workflows. Once a notebook is ready, Livebook makes it easy to share and deploy, giving users the flexibility to either collaborate further or deploy the solution to production.
+
+
+  As an open-source tool, Livebook is constantly evolving with contributions from a growing community, making it a powerful choice for anyone interested in combining interactive programming with collaboration, whether for educational purposes, rapid prototyping, or full-scale development.
+developer: Livebook
+website: https://livebook.dev/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/livebook-dev/livebook
+support: https://github.com/livebook-dev/livebook/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-livebook/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-livebook/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-livebook/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-livebook/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-livebook/5.jpg
+releaseNotes: >-
+  The latest release of Livebook, version v0.15.4, fixes issues with the Kubernetes runtime failing to connect due to missing CA certificates and resolves a Windows installer problem with the path checks step.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: "umbrel-livebook"

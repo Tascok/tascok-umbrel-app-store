@@ -1,0 +1,38 @@
+manifestVersion: 1
+id: tascok-doom
+name: Doom
+tagline: A one-way ticket to Hell, and you’re driving the bus
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-doom/logo.png
+category: gaming
+version: "0.1"
+port: 4113
+description: >-
+  Doom is the ultimate action classic that forever changed the world of video games in 1993. In a world where "shooting and running" became the motto for life, you take on the role of a nameless Marine, fighting your way through the gates of Hell – without fear, without mercy. Your mission? Save Earth from an invasion of demonic creatures from Hell. Sounds simple, right? Well, Hell is full of surprises, and the demons are really in a bad mood!
+
+
+  Armed with nothing but your trust in bullets and a gun in your hand, you must blast through endless hordes of monsters – and do so in the darkest corners of Martian stations and underground Hell fortresses. From creepy Imps to massive Cyberdemons, Doom delivers everything an action fan’s heart could desire. And the best part? The speed of the game is so fast, you’ll hardly notice how you descend further into madness as you conquer Hell, level by level.
+
+
+  Doom proves that all you need is a quick weapon, an unshakable survival instinct, and a hefty dose of madness to blast your way through the underworld. It may be old, but Hell has never been more fun.
+
+
+  Doom runs on pretty much anything! From your old gaming PC to a lawnmower, a coffee machine, and now even on your Umbrel server - the demons never rest, and neither does your hardware!
+
+
+  ⚠️ Doom works best in Chromium-based browsers. Firefox may encounter compatibility issues due to WebGL or security restrictions.
+developer: id Software
+website: https://github.com/id-Software/DOOM
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/CallumHoughton18/Doom-In-Docker
+support: https://github.com/CallumHoughton18/Doom-In-Docker/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-doom/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-doom/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-doom/3.jpg
+releaseNotes: >-
+  Hell’s still hot, the demons are angrier, and your weapons are louder. 👹💥
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

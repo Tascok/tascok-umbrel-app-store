@@ -1,0 +1,43 @@
+manifestVersion: 1
+id: tascok-stremio
+name: Stremio
+tagline: An all-in-one streaming hub for all your entertainment needs
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-stremio/logo.png
+category: media
+version: "1.1.118"
+port: 10470
+description: >-
+  Stremio is a free and open-source media streaming platform that allows users to watch movies, TV shows, live TV, and web channels all in one place. It aggregates content from a variety of sources and presents them in an easy-to-use interface, making it an all-in-one hub for entertainment. The platform is designed to support a variety of media types and provides users with a centralized location to organize and stream content.
+
+
+  One of the key features of Stremio is its add-on system, which enables users to integrate various streaming sources. These add-ons can come from both official providers and community-created sources, allowing users to access a wide range of content. The add-ons are essential to Stremio’s flexibility and can be added or removed according to the user's preferences, ensuring a personalized streaming experience.
+
+
+  Stremio’s user interface is clean, intuitive, and simple to navigate. It allows users to quickly find their favorite content and organize it into personal libraries. Additionally, Stremio provides notifications about new episodes and updates, ensuring that users never miss out on their favorite shows or movies.
+
+
+  Although Stremio itself is a legitimate and legal service, the content you access through its add-ons may vary in terms of legality. While some add-ons provide access to content that is freely available, others may offer material that is copyrighted. Users are encouraged to ensure that they only stream content for which they have the necessary rights or permissions.
+
+
+  Overall, Stremio is a versatile and user-friendly media center that allows users to centralize all their streaming needs. It is ideal for those who want to manage their entertainment in one place, but it's important to be mindful of legal issues related to streaming copyrighted content through third-party add-ons.
+
+
+  ⚠️ The Stremio Web Player and the associated server run in the same container and are by default accessible through ports 10470 for the Web Player and 11470 for the server. Simply enter the system's LAN IP address in the Stremio settings to configure the streaming server.
+developer: Stremio
+website: https://www.stremio.com/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/tsaridas/stremio-docker
+support: https://github.com/tsaridas/stremio-docker/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-stremio/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-stremio/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-stremio/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-stremio/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-stremio/5.jpg
+releaseNotes: >-
+  The latest release, v1.1.118, includes improvements and updates such as Web version v5.0.0-beta.21, with a server URL at https://dl.strem.io/server/v4.20.8/desktop/server.js.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

@@ -1,0 +1,19 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-sillytavern_web_1
+      APP_PORT: 8000
+
+  web:
+    image: ghcr.io/sillytavern/sillytavern:1.13.1@sha256:5b1b9a8a7d8ca0b78ad64dae7a26bb079c1e6874ea84c766de1443d7f115ba32
+    restart: on-failure
+    environment:
+      - NODE_ENV=production
+      - FORCE_COLOR=1
+    volumes:
+      - ${APP_DATA_DIR}/data/config:/home/node/app/config
+      - ${APP_DATA_DIR}/data/st_data:/home/node/app/data
+      - ${APP_DATA_DIR}/data/plugins:/home/node/app/plugins
+      - ${APP_DATA_DIR}/data/extensions:/home/node/app/public/scripts/extensions/third-party

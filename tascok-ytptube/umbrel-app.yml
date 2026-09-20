@@ -1,0 +1,46 @@
+manifestVersion: 1
+id: tascok-ytptube
+name: YTPTube
+tagline: A WebGUI for yt-dlp with concurrent downloads support
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ytptube/logo.png
+category: media
+version: "1.0.1"
+port: 8562
+description: >-
+  📥 YTPTube is a web-based interface for yt-dlp, designed to streamline the process of downloading videos from various online platforms. Originally a fork of MeTube, YTPTube has evolved significantly, introducing a wide range of additional features to enhance the user experience. The project aims to provide a more flexible and powerful solution for managing video downloads while maintaining an intuitive and user-friendly interface.
+
+
+  One of the key aspects of YTPTube is its ability to handle multiple downloads simultaneously, allowing users to queue and process multiple videos at once without manual intervention. This is particularly useful for those who frequently download content in bulk. Additionally, the platform supports the downloading of livestreams, making it a versatile tool for capturing real-time content.
+
+
+  YTPTube also offers automation features that enable users to schedule downloads for specific times. This is especially beneficial for those who wish to automatically retrieve content from specific channels or playlists without needing to initiate the process manually. Alongside this, the platform includes a notification system that can alert users when a download is completed or if an issue occurs during the process.
+
+
+  A distinguishing feature of YTPTube is its ability to allow custom configurations on a per-link basis. Users can define specific yt-dlp JSON configurations, provide custom cookies, or set individual output formats for each download. This level of customization ensures that users can tailor the experience to their specific needs.
+
+
+  In addition to its download capabilities, YTPTube integrates a built-in video player that supports a wide range of formats, making it possible to preview downloaded content directly within the interface. It also offers support for external subtitle files, further enhancing the viewing experience.
+
+
+  Overall, YTPTube serves as a comprehensive and feature-rich tool for managing video downloads efficiently. With its advanced options and user-friendly design, it provides an all-in-one solution for anyone looking to download and organize online video content with ease.
+
+
+  🔑 The username is 'admin' and the password is 'umbrel'.
+developer: Abdulmohsen
+website: https://github.com/arabcoders/ytptube
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/arabcoders/ytptube
+support: https://github.com/arabcoders/ytptube/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ytptube/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ytptube/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ytptube/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ytptube/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ytptube/5.jpg
+releaseNotes: >-
+  Version 1.0.1 introduces several design improvements, updated external packages, and a quick contributing guide. It also adds support for loading different UIs and creating channel metadata with thumbnails.
+dependencies:
+path: ""
+defaultUsername: "admin"
+defaultPassword: "umbrel"

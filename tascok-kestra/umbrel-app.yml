@@ -1,0 +1,57 @@
+manifestVersion: 1
+id: tascok-kestra
+name: Kestra
+tagline: A platform to simplify the creation, management, and execution of complex workflows
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-kestra/logo.png
+category: files & productivity
+version: "0.19.2"
+port: 8082
+description: >-
+  Transform the way you manage and execute workflows with Kestra, a powerful open-source solution designed to simplify complex processes. Whether you're looking to retrieve, process, or store data, Kestra provides the essential tools to automate and optimize your business operations effectively.
+  
+  
+  Key Features:
+  
+
+  📊 Workflow Management: Organize tasks into structured workflows that encapsulate all steps of a process. From data collection to processing and storage, Kestra ensures clarity and efficiency in every aspect of your workflows.
+
+
+  📋 Easy Workflow Creation: With an intuitive user interface, you can quickly design workflows tailored to your specific needs. Leverage pre-built tasks to accelerate development and reduce setup time.
+
+
+  🤖 Seamless Automation: Automate your workflows by scheduling executions based on specific timelines or triggering them in response to particular events. This minimizes manual intervention, allowing your team to focus on higher-value tasks.
+
+
+  🔗 Flexible Integrations: Kestra seamlessly connects with a wide variety of data sources and services, including databases, APIs, and cloud platforms. This flexibility ensures that you can leverage existing infrastructure while enhancing your data processing capabilities.
+
+
+  ⏱️ Real-Time Monitoring: Keep track of your workflows with built-in monitoring features. Gain insights into successful executions and quickly address any issues, ensuring smooth operation and reliability.
+
+
+  📈 Scalability: Designed to grow with your needs, Kestra supports workflows of varying complexity, making it suitable for both small projects and large-scale enterprise applications.
+
+
+  👥 Community Support: Benefit from the vibrant community surrounding Kestra, which contributes to its ongoing development and provides valuable support. This ensures you have access to the latest features and best practices.
+
+
+  Elevate your workflow management with Kestra and streamline your operations through automation. 
+  Start using Kestra today to enhance productivity and efficiency within your organization!
+
+developer: kestra.io
+website: https://kestra.io
+submitter: Tascok
+submission: https://github.com/dennysubke/dennys-umbrel-app-store
+repo: https://github.com/kestra-io
+support: https://github.com/kestra-io/kestra/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-kestra/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-kestra/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-kestra/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-kestra/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-kestra/5.jpg
+releaseNotes: >-
+  In the latest version (v0.19.2) of Kestra, several enhancements and bug fixes have been implemented. New features include the addition of an executions tab in the user interface and improved visibility of charts on the flows and logs pages. Additionally, various bug fixes were made, such as correcting typos in French translations and enhancing the user interface to address issues like incorrect date displays and inaccurate dashboard values. Maintenance tasks also focused on the user interface and translations.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

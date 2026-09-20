@@ -1,0 +1,7 @@
+whitelistMode: false
+whitelist: []
+whitelistDockerHosts: false
+basicAuthMode: true
+basicAuthUser:
+  username: Denny
+  password: umbrel

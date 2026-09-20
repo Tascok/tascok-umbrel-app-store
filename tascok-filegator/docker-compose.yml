@@ -1,0 +1,15 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-filegator_web_1
+      APP_PORT: 8080
+
+  web:
+    image: filegator/filegator:v7.13.0-multiarch@sha256:d3fd84c413f292fb54b9d97c46aac56c6e8efbc1aa32de2ab82b89c47d3eddc9
+    restart: on-failure
+    user: root
+    volumes:
+      - ${APP_DATA_DIR}/data/repository:/var/www/filegator/repository:rw
+    entrypoint: sh -c "chmod -R 777 /var/www/filegator/repository && exec docker-php-entrypoint apache2-foreground"

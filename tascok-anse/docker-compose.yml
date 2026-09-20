@@ -1,0 +1,13 @@
+version: '3.9'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-anse_web_1
+      APP_PORT: 3000
+      PROXY_AUTH_ADD: "false"
+  web:
+    image: ddiu8081/anse:v1.1.11@sha256:fd9afc84b9e1df02ca065170e72994b787e7d2ea881f22eda2fcd2c58e717164
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data:/app/data

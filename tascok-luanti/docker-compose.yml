@@ -1,0 +1,15 @@
+version: '3.7'
+
+services:
+  web:
+    image: linuxserver/luanti:5.11.0@sha256:007733ec735adc95e6da263c6165a52d29eee35cf6865433f91a105bd3b3d064
+    restart: on-failure
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+      - "CLI_ARGS=--gameid devtest" #optional
+    volumes:
+      - ${APP_DATA_DIR}/data/minetest_conf:/etc/minetest:rw
+    ports:
+      - "30000:30000/udp"

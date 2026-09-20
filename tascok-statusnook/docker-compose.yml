@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-statusnook_server_1
+      APP_PORT: 8000
+  server:
+    image: goksan/statusnook:latest@sha256:9b2c87213312b1856d52d576d7512aeae71190437b502739f352feba0bcc12e0
+    restart: on-failure
+    # ports:
+      #0.0.0.0:8444:8000
+    volumes:
+      - ${APP_DATA_DIR}/statusnook-data:/app/statusnook-data

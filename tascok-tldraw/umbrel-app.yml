@@ -1,0 +1,41 @@
+manifestVersion: 1
+id: tascok-tldraw
+name: tldraw
+tagline: An intuitive whiteboard for ideas
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tldraw/logo.png
+category: files & productivity
+version: "2.0.0"
+port: 8505
+description: >-
+  🎨 tldraw is an open-source, browser-based digital whiteboard designed to empower users to express their ideas visually, whether through sketching, diagramming, or collaborative brainstorming. It provides an intuitive, clean canvas where users can draw freely, create shapes, add text, and import images — all without the need for installation or complex setup. The interface is minimalist yet functional, ensuring that the creative process remains smooth and distraction-free.
+
+
+  One of tldraw’s standout features is its real-time collaboration capability, allowing multiple users to join the same canvas and contribute simultaneously. This makes it an excellent tool for remote teams, educators, and creatives who need a shared visual workspace. Each user can see the others' changes instantly, fostering dynamic brainstorming sessions, live design work, or even remote teaching.
+
+
+  What sets tldraw apart is its flexibility and openness. Since it’s open-source, developers can modify, extend, or integrate it into their own projects. Whether it's embedding the whiteboard into an existing platform or customizing the functionality for a specialized workflow, tldraw's architecture supports a wide range of use cases. This adaptability has led to it being used in diverse environments, from software design and product planning to education and collaborative art projects.
+
+
+  Furthermore, tldraw embraces modern web technologies, ensuring smooth performance and accessibility across different devices and browsers. Its lightweight nature means it loads quickly, making it ideal for spontaneous ideation sessions without delays or complicated logins. The platform supports both personal use — for quick sketches or visual notes — and professional scenarios, where structured diagrams, flowcharts, or collaborative mind maps are needed.
+
+
+  Overall, tldraw stands out as a versatile, user-friendly, and customizable tool that bridges the gap between casual drawing apps and professional diagramming software. Its blend of simplicity, power, and openness makes it a compelling choice for anyone looking to think visually, whether alone or with a team.
+developer: Steve Ruiz
+website: https://www.tldraw.com/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/tldraw/tldraw
+support: https://github.com/tldraw/tldraw/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tldraw/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tldraw/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tldraw/3.jpg
+releaseNotes: >-
+  This tldraw release has loads of performance improvements, plus completely redesigned sticky notes.
+
+
+  ⚠️ The application tldraw is available in a newer version, but no corresponding Docker image exists yet. Therefore, the latest available Docker image (v2.0.0) was used to provide the app.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

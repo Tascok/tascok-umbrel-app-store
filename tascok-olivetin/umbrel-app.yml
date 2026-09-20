@@ -1,0 +1,31 @@
+manifestVersion: 1
+id: tascok-olivetin
+name: OliveTin
+tagline: A command center that fits in your browser
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-olivetin/logo.png
+category: networking
+version: "2025.6.22"
+port: 8951
+description: >-
+  🫒 OliveTin provides a simple web interface for executing predefined shell commands through buttons, forms, and dropdowns. It turns custom scripts and system operations into user-friendly web actions without exposing the terminal. Users interact with a clean UI where each action is clearly labeled and optionally configurable with parameters. Commands are defined in a YAML file, allowing for easy setup and customization. OliveTin ensures secure and controlled access by validating inputs and supporting various authentication methods. It is ideal for tasks like restarting services, managing containers, monitoring system status, or running scripts with just a click.
+
+
+  🛠️ To customize the available actions, open the Files app in Umbrel and navigate to apps → tascok-olivetin → config. Inside, you'll find a config.yaml file where you can define or modify the commands shown in the web interface.
+developer: OliveTin 
+website: https://www.olivetin.app/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/OliveTin/OliveTin
+support: https://github.com/OliveTin/OliveTin/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-olivetin/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-olivetin/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-olivetin/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-olivetin/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-olivetin/5.jpg
+releaseNotes: >-
+  Version 2025.6.22 introduces a new feature that enables triggered actions to reuse arguments from previous actions. It also includes minor fixes for dashboards without entities and removes leftover code from an old pull request, with no breaking changes since the last release.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

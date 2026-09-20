@@ -1,0 +1,25 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-erugo_web_1
+      APP_PORT: 80
+
+  web:
+    image: wardy784/erugo:0.1.1@sha256:88d88c04088f79aca29a830f5ad76b2058fdcb6404b0444bffb62cb8085e2b4b
+    restart: on-failure
+    environment:
+      VITE_API_URL: http://${DEVICE_DOMAIN_NAME}:8564
+      JWT_SECRET: dOxZYTTZgXKMHkqLBIQVImayQXAVWdzGBPuFJKggzcgvgPJPXpWzqzKaUOIOGGIr
+      APP_KEY: DBQOCUWiCPQdXxetkarJxHwsCVMImwtqSXufXHUUspLBDBACJbqvdkuTxhPCfHhL
+      APP_DEBUG: true
+      APP_TIMEZONE: Europe/Berlin
+    volumes:
+      - ${APP_DATA_DIR}/data:/var/www/html/storage:rw
+    healthcheck:
+      test: ["CMD-SHELL", "nc -z 127.0.0.1 80 || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 90s

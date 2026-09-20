@@ -1,0 +1,26 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-jdownloader-2_web_1
+      APP_PORT: 5800
+
+  web:
+    image: jlesage/jdownloader-2:v24.11.1@sha256:2a1450abdbe75e03e779d01096c65a7cde2e3a85726092900ce134de781adc35
+    stdin_open: true
+    tty: true
+    restart: on-failure
+    mem_limit: 8g
+    cpu_shares: 2048
+    security_opt:
+      - no-new-privileges:true
+      - seccomp:unconfined
+    volumes:
+      - ${APP_DATA_DIR}/data/config:/config:rw
+      - ${APP_DATA_DIR}/data/output:/output:rw
+    environment:
+      TZ: Europe/Berlin
+      USER_ID: 1000
+      GROUP_ID: 1000
+      DARK_MODE: 1

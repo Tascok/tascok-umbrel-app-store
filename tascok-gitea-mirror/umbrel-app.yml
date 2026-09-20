@@ -1,0 +1,35 @@
+manifestVersion: 1
+id: tascok-gitea-mirror
+name: Gitea Mirror
+tagline: An automated mirror between GitHub and Gitea
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gitea-mirror/logo.png
+category: developer tools
+version: "3.8.11"
+port: 4321
+description: >-
+  🪞 Gitea Mirror is an automation tool that continuously synchronizes repositories from GitHub to Gitea. It replicates commits, branches, and tags from their source repositories, ensuring both platforms always stay in sync. Once configured, the process runs automatically without the need for manual updates, making it ideal for maintaining consistent backups or mirrors of active development projects.
+
+
+  The application is designed to handle large-scale synchronization. It can mirror not just individual repositories but also entire GitHub organizations or user accounts, automatically including all repositories within them. During this process, Gitea Mirror preserves the original repository structure and hierarchy, maintaining familiar organization names and project layouts. It also provides options for customized organization if users want to adapt the structure to their own conventions.
+
+
+  To enhance reliability and transparency, Gitea Mirror includes detailed monitoring and logging features. Users can view real-time synchronization progress, review activity logs, and quickly identify any errors or conflicts that occur during updates. This allows for efficient troubleshooting and ensures that mirrored repositories remain accurate and complete.
+
+
+  In essence, Gitea Mirror simplifies the management of mirrored codebases between GitHub and Gitea. It helps developers and teams maintain redundancy, prevent data loss, and guarantee that their Gitea environment always reflects the latest state of their GitHub projects.
+developer: RayLabs
+website: https://giteamirror.com/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/RayLabsHQ/gitea-mirror
+support: https://github.com/RayLabsHQ/gitea-mirror/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gitea-mirror/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gitea-mirror/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gitea-mirror/3.jpg
+releaseNotes: >-
+  Version 3.8.11 introduces basic documentation for SSO/OIDC and improves stability by syncing metadata after configuration changes. It also fixes issues with duplicate organizations and repositories.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

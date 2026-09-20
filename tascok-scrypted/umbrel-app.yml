@@ -1,0 +1,42 @@
+manifestVersion: 1
+id: tascok-scrypted
+name: Scrypted
+tagline: A high performance home video integration platform
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-scrypted/logo.png
+category: Home & Automation
+version: "0.122.0"
+port: 11080
+description: >-
+  🎥 Scrypted is an open-source platform designed for home automation, providing users with the tools to integrate, manage, and automate various smart home devices seamlessly. Its primary focus is on camera management and video surveillance, making it an ideal solution for users looking to enhance their home security while also controlling a wide range of smart devices.
+
+
+  Scrypted supports a diverse array of smart home devices from different manufacturers, enabling users to create a cohesive ecosystem regardless of brand or technology. This flexibility allows for the integration of devices that use protocols such as Zigbee, Z-Wave, and Wi-Fi. One of Scrypted’s standout features is its robust support for IP cameras and video streams. Users can easily integrate their existing security cameras to view live video feeds, record and store footage based on motion detection or scheduled intervals, and receive instant notifications for motion events or other triggers, thereby enhancing home security.
+
+
+  The platform allows users to create custom automations and scenes that link multiple devices and define specific behaviors based on triggers. For instance, users can set up rules that turn on lights when motion is detected or adjust the thermostat when the house is empty. Scrypted features an intuitive web interface that simplifies device management and configuration, enabling users to access their smart home system from any web browser and making it easy to monitor and control devices remotely.
+
+
+  For Apple users, Scrypted provides seamless integration with Apple’s HomeKit. This feature allows users to control their smart devices through the Apple Home app, leveraging Siri for voice commands and automating tasks using Apple’s ecosystem. Being an open-source platform, Scrypted encourages developers to create plugins and custom integrations. This extensibility means users can adapt the platform to their specific needs, including the development of new features or the incorporation of niche devices.
+
+
+  Scrypted can be deployed on various platforms, including Raspberry Pi and Docker, allowing users to choose the environment that best fits their setup. This flexibility makes it accessible for both hobbyists and those looking for a robust smart home solution. As an open-source project, Scrypted has an active community of users and developers who contribute to its ongoing development, providing support, sharing ideas, and accessing resources through forums and community channels.
+
+
+  In conclusion, Scrypted stands out as a versatile and powerful home automation platform that excels in video management and device integration. Its open-source nature, combined with a focus on user experience and extensibility, makes it an attractive option for anyone looking to enhance their smart home setup. Whether you are a beginner in home automation or an experienced developer seeking a flexible solution, Scrypted provides the tools and features to meet your needs.
+developer: ClockworkMod
+website: https://www.scrypted.app/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/koush/scrypted
+support: https://github.com/koush/scrypted/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-scrypted/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-scrypted/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-scrypted/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-scrypted/4.jpg
+releaseNotes: >-
+  This update introduces support for notification channels in the SDK's NotifierOptions. Key changes include enhancements to Docker integration for better volume handling and improved error handling during container restoration, along with options to disable auto-enabling of devices. Various optimizations and bug fixes have also been implemented to enhance overall usability and stability.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

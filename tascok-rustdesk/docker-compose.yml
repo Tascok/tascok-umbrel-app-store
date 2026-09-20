@@ -1,0 +1,22 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-rustdesk_web_1
+      APP_PORT: 3000
+
+  web:
+    image: ghcr.io/linuxserver/rustdesk:1.3.8@sha256:7e2ed735fd1abc0c0425464d9b73c97e7cea0491f392766cc894226cc2a19303
+    security_opt:
+      - seccomp:unconfined
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Berlin
+      - NO_DECOR=true
+    volumes:
+      - ${APP_DATA_DIR}/data/config:/config:rw
+    ports:
+      - 3045:3001
+    restart: on-failure

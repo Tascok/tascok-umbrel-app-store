@@ -1,0 +1,32 @@
+manifestVersion: 1
+id: tascok-gimp
+name: Gimp
+tagline: An open-source powerhouse for image editing
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gimp/logo.png
+category: files & productivity
+version: "2.10.38"
+port: 3388
+description: >-
+  🎨 GIMP (GNU Image Manipulation Program) is a versatile and feature-rich open-source image editing software that caters to a wide range of creative and professional needs. Whether for photo retouching, digital painting, or graphic design, it provides a comprehensive set of tools to manipulate and enhance images with precision. Its customizable interface allows users to tailor the workspace to their preferences, making it suitable for both beginners and experienced designers.
+
+
+  With support for layers, masks, and a vast array of filters and effects, GIMP enables users to perform complex edits, from simple adjustments like brightness and contrast to advanced manipulations such as compositing and color correction. It is compatible with various file formats, including JPEG, PNG, TIFF, and PSD, allowing seamless workflow integration with other editing tools.
+
+
+  As an open-source project, GIMP benefits from a dedicated community of developers and contributors who continuously improve its capabilities through updates, plugins, and scripting support. Available on Windows, macOS, and Linux, it serves as a powerful and free alternative to commercial image editing software without sacrificing functionality or flexibility.
+developer: GIMP Development Team
+website: https://www.gimp.org/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://gitlab.gnome.org/GNOME/gimp
+support: https://gitlab.gnome.org/GNOME/gimp/-/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gimp/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gimp/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gimp/3.jpg
+releaseNotes: >-
+  GIMP 2.10.38 introduces support for Windows Ink, resolving issues with drawing tablets such as unresponsive buttons, incorrect pressure sensitivity, and lagging brush movement. Additionally, several bugs have been fixed, including crashes on exit, issues with very small selections, and improvements in transparent PNG exports and filter controls.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

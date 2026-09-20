@@ -1,0 +1,42 @@
+manifestVersion: 1
+id: tascok-spis
+name: SPIS
+tagline: A simple private image server
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spis/logo.png
+category: files & productivity
+version: "0.9.10"
+port: 8222
+description: >-
+  🖼️ SPIS, which stands for Simple Private Image Server, is a minimalist and efficient application designed for privately viewing and managing large collections of images. It is built for users who value speed, simplicity, and privacy without the need for feature-heavy alternatives. The goal of SPIS is to provide a clean and enjoyable experience for browsing photos in a private setting without any unnecessary complexity.
+
+
+  The application is developed in Rust and optimized for performance even on low-powered devices. It scans directories for images and presents them through a fast and responsive web interface. Once set up it automatically detects newly added files making the image library feel dynamic and always up to date.
+
+
+  SPIS offers a smooth and modern user interface with infinite scrolling which allows users to browse large collections without interruption. The design is mobile friendly thanks to its support for progressive web app features. Users can mark images as favorites and filter the view by date or favorite status which makes finding specific memories quick and intuitive.
+
+
+  One of the key strengths of SPIS is its focus on minimalism and privacy. It avoids the complexity of traditional photo management platforms and instead delivers a focused experience where the images are the center of attention. This makes it ideal for personal use in environments where users prefer full control over their content.
+
+
+  SPIS is actively maintained and used by its creator to manage tens of thousands of images on a small device which highlights its real-world effectiveness. The project is open source and welcomes feedback and contributions from the community. It represents a simple yet powerful solution for anyone who wants to enjoy their photos in a private and elegant way.
+
+
+  ⚠️ To upload your photos, use the Umbrel Files app and place them in the Home/Photos folder.
+developer: Guðmundur Björn Birkisson 
+website: https://github.com/gbbirkisson/spis
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/gbbirkisson/spis
+support: https://github.com/gbbirkisson/spis/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spis/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spis/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spis/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-spis/4.jpg
+releaseNotes: >-
+  Version 0.9.10 of SPIS includes several dependency updates, bringing Rust to version 1.87.0 and updating key crates such as actix-web, clap, and tempfile. These changes primarily address maintenance and compatibility improvements without introducing new features.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

@@ -1,0 +1,19 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-slskd_web_1
+      APP_PORT: 5030
+      PROXY_AUTH_ADD: "false"
+
+  web:
+    image: ghcr.io/slskd/slskd:0.22.5@sha256:f5150c39758353c31788e8e3d6aa9f9c2910f2a46591d810fc2f4d0bac81a96a
+    restart: on-failure
+    ports:
+      - "5031:5031" #HTTPS
+      - "50300:50300" #SLSKD
+    environment:
+      - SLSKD_REMOTE_CONFIGURATION=true
+    volumes:
+      - ${APP_DATA_DIR}/data:/app

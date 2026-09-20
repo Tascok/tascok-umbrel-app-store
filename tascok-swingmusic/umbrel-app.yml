@@ -1,0 +1,64 @@
+manifestVersion: 1
+id: tascok-swingmusic
+name: Swing Music
+tagline: A beautiful, self-hosted music player for your local audio files
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-swingmusic/logo.png
+category: media
+version: "1.4.8"
+port: 1970
+description: >-
+  Swing Music is a sleek, self-hosted music player built for your personal audio collection. Unlike streaming services like Spotify, you have complete control over your library—only the music you love makes the cut. Simply launch the app and access your entire collection right from your web browser. Enjoy seamless playback, advanced playlist features, and a user-friendly interface that feels like a custom-built music service. 
+
+
+  With Swing Music, you get the most out of your music without subscriptions or ads—just you and your favorite tunes.
+
+
+  Here are some cool features offered by Swing Music:
+
+  
+  🎶 Infer album version info (deluxe, etc) from the album title and use it to group albums
+
+
+  🎧 Discover new music by exploring similar artists in the artist page
+
+
+  🆕 Discover new albums by exploring similar albums in the album page
+
+  
+  ✅ Designed to be simple and beautiful. It is a pleasure to look at.
+
+
+  📚 Browse your library by folders. It's the most natural way to organize your music.
+
+
+  🖥️ No bundled GUI, no memory hogging Electron. Just load the UI in your favorite browser.
+
+
+  📝 You can't always get spelling right. It handles typos and misspellings like a champ.
+
+
+  📑 It can detect and hide duplicate tracks from your library. The track with the highest bitrate is preferred.
+
+
+  🚀 Swing Music is still a young project, and there's a lot of cool features to come in future releases. Stay tuned!
+
+developer: Mungai Njoroge
+website: https://swingmx.com/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/swingmx/swingmusic
+support: https://github.com/swingmx/swingmusic/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-swingmusic/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-swingmusic/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-swingmusic/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-swingmusic/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-swingmusic/5.jpg
+releaseNotes: >-
+  A new optional layout without a sidebar was added, along with a top bar search and centered content in the default layout. The app now uses a stronger WSGI server, supports ARM64, and has a proper timezone fix. Recent items display how long ago they were played/added, with no cutoff.
+
+  Bug fixes include improved queue management, playlist bounds, keyboard shortcuts, and lyrics plugin functionality.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

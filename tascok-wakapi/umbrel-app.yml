@@ -1,0 +1,35 @@
+manifestVersion: 1
+id: tascok-wakapi
+name: Wakapi
+tagline: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wakapi/logo.png
+category: developer tools
+version: "2.12.2"
+port: 3366
+description: >-
+  ⏱️ Wakapi is an open-source time tracking application designed to help individuals and teams effectively track and analyze the time spent on various tasks and projects. It is especially beneficial for developers, freelancers, and organizations looking to monitor their productivity and gain insights into how their time is being allocated.
+
+
+  Wakapi offers both manual time logging and the ability to integrate with popular platforms like GitHub, GitLab, and others, allowing for automatic time tracking based on activities such as code commits, issues, pull requests, and other project-related tasks. This integration streamlines the process, ensuring that time tracking is accurate and up-to-date without requiring constant manual input.
+
+
+  In addition to time tracking, Wakapi provides detailed reports and analytics that give users the ability to review their time usage, identify patterns, and make informed decisions to improve their workflow and productivity. The platform supports self-hosting, so users can install and run Wakapi on their own servers, giving them complete control over their data and the flexibility to tailor the platform to their specific needs.
+
+
+  Wakapi is an ideal solution for anyone seeking to optimize their time management, enhance their productivity, and better understand how their time is spent on different tasks or projects. Whether you're a developer working with code, a freelancer managing billable hours, or a team collaborating on tasks, Wakapi offers valuable insights that help users stay organized and efficient.
+developer: Ferdinand Mütsch
+website: https://wakapi.dev/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/muety/wakapi
+support: https://github.com/muety/wakapi/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wakapi/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wakapi/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wakapi/3.jpg
+releaseNotes: >-
+  Release 2.12.2 includes several bug fixes and improvements. It also introduces a schema change to the heartbeats table, which may cause extended downtime for large instances with over several hundred thousand records. Users with such instances are advised to manually run the suggested SQL command before upgrading to avoid prolonged downtime.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

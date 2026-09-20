@@ -1,0 +1,20 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-papra_web_1
+      APP_PORT: 1221
+
+  web:
+    image: ghcr.io/papra-hq/papra:0.4.0-rootless@sha256:1351119dad64360aaa33c79d7e27661fdf566a2f591bce572cb021a8ca5e51b6
+    environment:
+      DOCUMENTS_DELETED_DOCUMENTS_RETENTION_DAYS: 30
+      DOCUMENT_STORAGE_MAX_UPLOAD_SIZE: 10737418240
+      CLIENT_BASE_URL: http://umbrel-2.local:1221
+      SERVER_CORS_ORIGINS: http://umbrel-2.local:1221
+      TRUSTED_ORIGINS: http://umbrel-2.local:1221
+    #user: "1000:1000"
+    restart: on-failure
+    #volumes:
+      # ${APP_DATA_DIR}/data:/app/app-data:ro

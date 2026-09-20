@@ -1,0 +1,30 @@
+manifestVersion: 1
+id: tascok-koel
+name: Koel
+tagline: An API-enabled audio server for private music streaming
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-koel/logo.png
+category: media
+version: "9.11.0"
+port: 8333
+description: >-
+  🎵 Koel is a personal music streaming application for organizing, browsing, searching, and playing a private music collection through a modern web interface. Music can be explored by artist, album, genre, or song, while playlists and favorites make it easy to create and revisit personal collections.
+
+
+  Koel includes queue management, album artwork, lyrics, listening history, music uploads, and a responsive interface that works across desktop and mobile devices. It also supports compatible third-party music clients through its Subsonic-compatible API.
+developer: Phan An
+website: https://koel.dev/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/koel/koel
+support: https://github.com/koel/koel/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-koel/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-koel/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-koel/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-koel/4.jpg
+releaseNotes: >-
+  This version adds faster AAC transcoding through FFmpeg and introduces nested playlist folders for improved organization. It also prevents smaller images from being unnecessarily upscaled.
+dependencies:
+path: ""
+defaultUsername: "admin@koel.dev"
+defaultPassword: "KoelIsCool"

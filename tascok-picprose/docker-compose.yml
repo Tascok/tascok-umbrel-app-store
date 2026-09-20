@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-picprose_web_1
+      APP_PORT: 3000
+
+  web:
+    image: hausen1012/picprose:latest@sha256:b7a4aa11b85b6858dadbdc73fa43f4e4a43e1654614be4dbcee55ecf91ac3ab3
+    restart: on-failure
+    environment:
+        - NEXT_PUBLIC_UNSPLASH_API_KEY=kTdtbA2tKjYBNkhqunyHmT7xNHTnnIexHnF9Hyxvcdk

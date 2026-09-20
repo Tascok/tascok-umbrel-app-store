@@ -1,0 +1,26 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-resiliosync_web_1
+      APP_PORT: 8888
+
+  web:
+    image: ghcr.io/linuxserver/resilio-sync:3.1.0@sha256:7a9440c6b50e0cf5e90a4cdeb5601fbb40d861edfb25233b33ecf720f39edeba
+    restart: on-failure
+    mem_limit: 4g
+    cpu_shares: 768
+    security_opt:
+      - no-new-privileges:true
+    healthcheck:
+      test: curl -f http://localhost:8888/ || exit 1
+    ports:
+      - 55555:55555 # Sync Port
+    volumes:
+      - ${APP_DATA_DIR}/config:/config:rw
+      - ${APP_DATA_DIR}/data/downloads:/downloads:rw
+      - ${APP_DATA_DIR}/data/sync:/sync:rw
+    environment:
+      PUID: 1000
+      PGID: 1000

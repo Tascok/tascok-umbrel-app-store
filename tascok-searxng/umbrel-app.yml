@@ -1,0 +1,34 @@
+manifestVersion: 1
+id: tascok-searxng
+name: SearXNG
+tagline: A free internet metasearch engine
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-searxng/logo.png
+category: networking
+version: "2025.7.19"
+port: 8182
+description: >-
+  🔍 SearxNG is a metasearch engine that enables users to search the internet by combining results from multiple search providers into one comprehensive list. When a user submits a query, SearxNG sends that query simultaneously to a variety of external search engines and services. It then collects and merges the responses, presenting the user with a unified set of search results. This approach allows users to access a wider range of information from different sources without having to search each one individually.
+
+
+  The application emphasizes delivering diverse and balanced search outcomes by aggregating results from many different platforms. By pooling these various results, SearxNG helps reduce bias that might come from relying on a single search engine, offering users a more neutral and varied perspective on their search topics. The system is designed to handle many types of searches, from web pages to images, videos, news, and other categories, depending on which providers are queried.
+
+
+  In addition, SearxNG is built to respect user privacy by not storing search histories or personal data. This means that every search is treated independently, and no personal tracking or profiling takes place. The anonymity of searches helps users feel more secure when looking up information online. Overall, SearxNG functions as a powerful tool for searching by leveraging the strengths of multiple search engines while protecting user privacy and promoting an open, unbiased search experience.
+developer: SearXNG
+website: https://docs.searxng.org/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/searxng/searxng
+support: https://github.com/searxng/searxng/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-searxng/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-searxng/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-searxng/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-searxng/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-searxng/5.jpg
+releaseNotes: >-
+  Version 2025.7.19 updates translations from Weblate and fixes the container by removing the static path mount.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

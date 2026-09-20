@@ -1,0 +1,31 @@
+manifestVersion: 1
+id: tascok-nomie
+name: Nomie
+tagline: A privacy-first journaling app for tracking life on your terms
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nomie/logo.png
+category: social
+version: "6.3.0"
+port: 8737
+description: >-
+  🐘 Nomie is a privacy-focused journaling app designed for effortless daily tracking. Built with simplicity in mind, it allows users to log activities, moods, habits, and personal experiences with a single tap. Unlike many other tracking apps, Nomie ensures complete data ownership by storing everything locally or allowing users to self-host their data. There are no accounts, no ads, and no third-party analytics, making it a truly private solution for personal journaling.
+
+
+  The app’s flexibility makes it suitable for a wide range of use cases, whether someone wants to track their mental health, monitor productivity, or simply keep a record of daily life. Customizable trackers enable users to tailor the experience to their specific needs, and the open-source nature of the project allows for continuous community-driven improvements. By prioritizing privacy and ease of use, Nomie provides a seamless way to document life without worrying about data security or intrusive monitoring.
+developer: Happy Data, LLC
+website: https://nomie.app/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/open-nomie/nomie6-oss
+support: https://github.com/open-nomie/nomie6-oss/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nomie/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nomie/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nomie/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nomie/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nomie/5.jpg
+releaseNotes: >-
+  This update introduces resumable timers, multiple widgets for a single plugin, and improved input retention when switching tabs on desktop. It also fixes issues with the tracking board not loading after onboarding, plugin titles in the database editor, location caching on startup, and a text overwrite bug in the capture field.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

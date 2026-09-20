@@ -1,0 +1,37 @@
+manifestVersion: 1
+id: tascok-haus
+name: Haus
+tagline: A calm space for focus and productivity
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-haus/logo.png
+category: files & productivity
+version: "0.0.2"
+port: 8392
+description: >-
+  🏠 Haus is a minimalistic online workstation that brings together essential tools for focus and productivity within a single, calm, and visually pleasing environment. It is designed to reduce distractions and create a sense of mental clarity, allowing you to concentrate fully on the task at hand.
+
+
+  Within Haus you can create and manage to do lists to keep track of your responsibilities, write and organize notes for quick reference, and set gentle reminders to help maintain momentum throughout your day. It offers a clean writing space where you can jot down thoughts or work on longer pieces without intrusive formatting or visual noise.
+
+
+  To enhance concentration, Haus also provides ambient background sounds such as soft rain, gentle waves, or subtle white noise, which can help block out unwanted interruptions and establish a consistent work rhythm.
+
+
+  The interface is intuitive and aesthetically restrained, encouraging a feeling of order and calm. By combining organization, focus, and atmosphere in one place, Haus aims to be a digital space where your ideas can flow freely and your work can progress smoothly without the usual distractions of a busy online environment.
+developer: remvze
+website: https://use.haus/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/awwwsm/haus
+support: https://github.com/awwwsm/haus/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-haus/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-haus/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-haus/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-haus/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-haus/5.jpg
+releaseNotes: >-
+  Version 0.0.2 adds a sample deployment for Kubernetes support and includes various bug fixes to improve stability.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

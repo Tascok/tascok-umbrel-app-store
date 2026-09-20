@@ -1,0 +1,35 @@
+manifestVersion: 1
+id: tascok-mullvad-browser
+name: Mullvad Browser
+tagline: A privacy-focused browser designed to minimize tracking and fingerprinting
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mullvad-browser/logo.png
+category: networking
+version: "14.0.5"
+port: 5880
+description: >-
+  Mullvad Browser is a privacy-focused web browser developed by Mullvad VPN in collaboration with the Tor Project. It is designed to minimize online tracking and fingerprinting, providing users with a more private browsing experience without requiring the use of a VPN or the Tor network. Built on Mozilla Firefox, it incorporates various privacy-enhancing features, such as anti-fingerprinting technology, strict cookie and cache management, and automatic blocking of trackers and third-party scripts.
+
+
+  One of its key design principles is to make all users appear as identical as possible to websites, reducing the effectiveness of browser fingerprinting techniques. Unlike standard browsers, which often store extensive browsing data, Mullvad Browser limits data retention and disables telemetry by default. It also enforces HTTPS connections where possible and prevents WebRTC leaks that could expose a user’s real IP address.
+
+
+  While the browser can be used on its own, it is particularly effective when paired with a VPN, such as Mullvad VPN, for an additional layer of anonymity. By prioritizing user privacy over personalization and convenience, Mullvad Browser offers a simple yet robust solution for those seeking to browse the web with minimal tracking and data exposure.
+
+
+  ⚠️ Mullvad Browser is for power users. If you're using a VPN, set LOCAL_NET=192.168.0.0/16 in the docker-compose file to your local LAN IP range using CIDR notation. Without it, you won't be able to access the web interface.
+developer: Mullvad VPN
+website: https://mullvad.net/de/browser
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/linuxserver/docker-mullvad-browser
+support: https://github.com/linuxserver/docker-mullvad-browser/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mullvad-browser/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mullvad-browser/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mullvad-browser/3.jpg
+releaseNotes: >-
+  The release 14.0.5 of Mullvad Browser includes a rebase to noble.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

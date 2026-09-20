@@ -1,0 +1,50 @@
+manifestVersion: 1
+id: tascok-overleaf
+name: Overleaf
+tagline: An efficient solution for writing, formatting, and collaborating on LaTeX documents
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-overleaf/logo.png
+category: files & productivity
+version: "4.2.8"
+port: 8063
+description: >-
+  Overleaf is a web-based platform that provides a user-friendly environment for creating and editing LaTeX documents. LaTeX is a widely used typesetting system, particularly in academia and technical fields, for creating well-formatted, professional documents such as research papers, dissertations, technical reports, and academic articles.
+
+
+  The platform allows users to write and edit LaTeX documents directly in their browser without the need to install LaTeX locally. Overleaf handles the compilation of LaTeX code on its own servers, reducing the workload for users and providing quick results. This is especially beneficial for beginners, as they don’t have to deal with the often complex setup and configuration of LaTeX on their personal machines.
+
+
+  One standout feature of Overleaf is its real-time collaboration functionality. Teams, research groups, or classes can work on a document simultaneously, with all changes displayed instantly. This feature is particularly useful for academic projects that involve multiple people contributing to a single document. Overleaf also offers complete version control, allowing users to access earlier versions of a document and track changes made by collaborators.
+
+
+  Overleaf also supports integration with external platforms like GitHub, Dropbox, and Zotero, making it easier to manage references and collaborate. It provides templates for various document types, from research articles to presentations and resumes, making it easy for users to get started with specific formats. The platform also offers a wide range of LaTeX packages and features, allowing users to incorporate mathematical formulas, complex tables, and figures with ease.
+
+
+  Additionally, users can export their documents in different formats, including PDF, HTML, and Word. Overleaf includes extensive documentation and tutorials to help both beginners and advanced users fully utilize LaTeX's capabilities. With its combination of ease of use, collaboration features, and powerful functionality, Overleaf has become one of the most popular platforms for LaTeX users worldwide.
+
+ 
+  🔑 Once the Overleaf instance is running, visit  "umbrel.local:8063/launchpad" to set up your first admin user.
+developer: Overleaf Ltd.
+website: https://overleaf.com/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/overleaf/overleaf
+support: https://github.com/overleaf/overleaf/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-overleaf/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-overleaf/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-overleaf/3.jpg
+releaseNotes: >-
+  ℹ️ Overleaf versions beyond 4.2.8 require MongoDB releases that depend on AVX/AVX2 CPU support. Systems without AVX capability cannot run these newer MongoDB versions, making Overleaf 4.2.3 the latest release that remains fully compatible. This hardware limitation prevents updating to more recent Overleaf versions on non-AVX systems.
+  
+  
+  This update introduces several improvements to the Visual Editor, including easier table editing, direct image insertion, symbol previews, and enhanced chemical formula rendering. 
+  
+  
+  XeLaTeX is now included by default for non-sandboxed compiles, and the legacy source editor has been removed. 
+  
+  
+  Additional updates include a configurable session length, an upgrade to Node v18.18.2, and restored public access to the SAML metadata endpoint.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

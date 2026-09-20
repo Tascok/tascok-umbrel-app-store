@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-websurfx_web_1
+      APP_PORT: 8080
+
+  web:
+    image: neonmmd/websurfx:1.0.0-nocache@sha256:2aed5f536e11c37ff8c6a61edddd1efd88c2e3cc1b0e0026bf3e95d47fcd9fb3
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data/websurfx/:/etc/xdg/websurfx/:rw

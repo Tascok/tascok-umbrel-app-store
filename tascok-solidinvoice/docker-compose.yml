@@ -1,0 +1,23 @@
+version: '3.9'
+services:
+  db:
+    image: mysql:5.7@sha256:4bc6bc963e6d8443453676cae56536f4b8156d78bae03c0145cbe47c2aad73bb
+    volumes:
+      - ${APP_DATA_DIR}/data/solidinvoicedb:/var/lib/mysql:rw
+    security_opt:
+      - no-new-privileges:true
+    restart: on-failure
+    environment:
+      MYSQL_DATABASE: solidinvoice
+      MYSQL_ROOT_PASSWORD: umbrel
+      MYSQL_USER: solidinvoice
+      MYSQL_PASSWORD: umbrel
+    container_name: tascok-solidinvoice_db_1
+  app:
+    image: solidinvoice/solidinvoice:2.2.2@sha256:18fa0da25fdf783fe29f0b574c98043ffb886e2afcd874c4373ad665b3ccf6d3
+    depends_on:
+      - db
+    ports:
+      - '5484:80'
+    restart: on-failure
+    container_name: tascok-solidinvoice_app_1

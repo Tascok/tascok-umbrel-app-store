@@ -1,0 +1,39 @@
+manifestVersion: 1
+id: tascok-resiliosync
+name: Resilio Sync
+tagline: A secure way to keep files in sync
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-resiliosync/logo.png
+category: files & productivity
+version: "3.1.0"
+port: 8777
+description: >-
+  🔄 Resilio Sync is an application that enables secure and efficient file synchronization between devices using peer to peer technology. It transfers data directly between connected devices without relying on cloud storage which ensures privacy and control over the shared content.
+
+
+  The app can synchronize large files and entire folders quickly by taking advantage of multiple simultaneous connections and optimized data transfer methods. It works in real time so changes made to files on one device are instantly updated on all other connected devices.
+
+
+  All transfers are encrypted end to end providing a secure way to share personal or work related data with others. Resilio Sync also supports selective synchronization allowing users to choose which files or folders to download to a specific device while keeping the rest available remotely.
+
+
+  This makes it suitable for both personal use and collaborative projects where multiple people need access to the same files while maintaining full security and data ownership.
+
+
+  ⚠️ Please make sure to register your free Resilio account and wait for the license key and activation instructions sent to your email.
+developer: Resilio, Inc.
+website: https://www.resilio.com/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/linuxserver/docker-resilio-sync
+support: https://github.com/linuxserver/docker-resilio-sync/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-resiliosync/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-resiliosync/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-resiliosync/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-resiliosync/4.jpg
+releaseNotes: >-
+  Version 3.1.0 introduces a new option to prioritize file downloads by timestamp or size. It fixes non-clickable error messages and adds @__thumb* to the default IgnoreList. Several other minor bugs were also addressed.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

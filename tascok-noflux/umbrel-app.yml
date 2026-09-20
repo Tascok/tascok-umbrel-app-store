@@ -1,0 +1,35 @@
+manifestVersion: 1
+id: tascok-noflux
+name: Noflux
+tagline: A simple decentralized feed reader powered by Nostr
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-noflux/logo.png
+category: files & productivity
+version: "0.1.0"
+port: 8064
+description: >-
+  📡 Noflux is a decentralized feed reader built on the Nostr protocol. It allows users to subscribe to and follow feeds, similar to traditional RSS readers, but with the added benefits of decentralization and censorship resistance. Noflux leverages the Nostr protocol to distribute and receive content, ensuring that the platform remains independent of centralized servers.
+
+
+  By using Nostr, Noflux provides a way for users to consume and share news, posts, and articles while maintaining full control over their data. This decentralized approach ensures that content cannot be easily censored or manipulated, giving users a more secure and private way to interact with feeds across the web.
+
+
+  In essence, Noflux is a modern feed reader that combines the functionality of traditional RSS with the power of decentralization, offering a censorship-resistant, user-controlled experience for consuming and sharing content.
+
+
+  🔑 By default, the username is "admin" and the password is "umbrel".
+developer: fiatjaf
+website: https://noflux.nostr.technology/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/fiatjaf/noflux
+support: https://github.com/fiatjaf/noflux/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-noflux/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-noflux/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-noflux/3.jpg
+releaseNotes: >-
+  This is the initial release (v0.1.0) of Noflux. There are no prior release notes as this marks the first version of the project.
+dependencies:
+path: ""
+defaultUsername: "admin"
+defaultPassword: "umbrel"

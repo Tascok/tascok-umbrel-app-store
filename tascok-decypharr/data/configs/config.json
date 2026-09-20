@@ -1,0 +1,17 @@
+{
+  "debrids": [
+    {
+      "name": "realdebrid",
+      "api_key": "your_api_key_here",
+      "folder": "/mnt/remote/realdebrid/__all__/",
+      "use_webdav": true
+    }
+  ],
+  "qbittorrent": {
+    "download_folder": "${UMBREL_ROOT}/data/storage/downloads",
+    "categories": ["sonarr", "radarr"]
+  },
+  "use_auth": false,
+  "log_level": "info",
+  "port": "8282"
+}

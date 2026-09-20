@@ -1,0 +1,45 @@
+manifestVersion: 1
+id: tascok-sillytavern
+name: SillyTavern
+tagline: An immersive LLM chat with image generation and TTS support
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-sillytavern/logo.png
+category: AI
+version: "1.13.1"
+port: 8321
+description: >-
+  🤖 SillyTavern is an advanced and immersive chat interface designed for engaging with AI characters in dynamic and creative ways. It provides a rich environment for storytelling, roleplaying, and simulating conversations, making it ideal for users who want to build meaningful interactions with custom characters or explore fictional scenarios in depth.
+
+
+  At the core of SillyTavern is its ability to manage multi-character conversations, allowing users to create entire casts of personalities that can respond individually or participate in group chats. Each character can have its own personality, background, goals, and speech style, making interactions feel alive and consistent over time. Built-in memory systems help characters remember past events or details, adding continuity to longer conversations or narratives.
+
+
+  SillyTavern also supports advanced prompt editing and context management, giving users fine-grained control over how the AI responds. You can inject world lore, adjust character instructions, or tailor the narrative tone, all in real time. This makes the platform especially powerful for writers and creatives who want to use AI as a collaborative storytelling partner.
+
+
+  To enhance immersion, SillyTavern integrates optional text-to-speech features, allowing characters to speak aloud using natural-sounding voices. Image generation tools can also be added to visualize characters, scenes, or story elements, providing a multimedia layer to the experience.
+
+
+  Whether you're developing characters for a novel, playing out roleplay scenarios, or simply enjoying open-ended conversations with AI personalities, SillyTavern offers a feature-rich and highly customizable space for creative exploration.
+developer: SillyTavern
+website: https://sillytavern.app/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/SillyTavern/SillyTavern
+support: https://github.com/SillyTavern/SillyTavern/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-sillytavern/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-sillytavern/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-sillytavern/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-sillytavern/4.jpg
+releaseNotes: >-
+  SillyTavern version 1.13.1 introduces important backend updates including support for Google Vertex AI Gemini models, new Gemini 2.5 Pro models in Google AI Studio, and additional features for OpenRouter, MistralAI, and others. 
+  
+  
+  The update also brings various improvements like multi-value secrets management, better chat interface controls, video attachments for Gemini models, and performance enhancements. 
+
+  
+  Several bugs related to chat generation, image prompts, and memory leaks have been fixed to ensure a smoother user experience.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

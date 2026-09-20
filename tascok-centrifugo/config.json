@@ -1,0 +1,5 @@
+{
+  "admin": true,
+  "admin_password": "umbrel",
+  "admin_secret": "umbrel"
+}

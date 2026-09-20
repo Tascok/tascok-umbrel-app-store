@@ -1,0 +1,45 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-syncin_web_1
+      APP_PORT: 8080
+
+  web:
+    image: syncin/server:1.3.2@sha256:bc3124022661132b9a895129c84718de51fb9194567a16410da343dc5fd4c467
+    restart: on-failure
+    environment:
+      SYNCIN_MYSQL_URL: "mysql://syncin:syncinpassword@mariadb:3306/sync_in"
+      SYNCIN_AUTH_TOKEN_ACCESS_SECRET: "changeAccessWithStrongSecret"
+      SYNCIN_AUTH_TOKEN_REFRESH_SECRET: "changeRefreshWithStrongSecret"
+      SYNCIN_APPLICATIONS_FILES_DATAPATH: "/app/data"
+      SYNCIN_APPLICATIONS_FILES_ONLYOFFICE_ENABLED: "false"
+      SYNCIN_APPLICATIONS_FILES_ONLYOFFICE_SECRET: "onlyOfficeSecret"
+      INIT_ADMIN: "true"
+      INIT_ADMIN_LOGIN: "admin"
+      INIT_ADMIN_PASSWORD: "umbrel"
+      PUID: 1000
+      PGID: 1000
+    volumes:
+      - ${APP_DATA_DIR}/data/app_data:/app/data
+      - ${APP_DATA_DIR}/data/releases:/app/static/releases
+    depends_on:
+      - mariadb
+    logging:
+      driver: json-file
+      options:
+        max-size: "25m"
+        max-file: "5"
+
+  mariadb:
+    image: mariadb:11.8.2@sha256:2bcbaec92bd9d4f6591bc8103d3a8e6d0512ee2235506e47a2e129d190444405
+    restart: on-failure
+    command: --innodb_ft_cache_size=16000000 --max-allowed-packet=1G
+    environment:
+      MYSQL_ROOT_PASSWORD: MySQLRootPassword
+      MYSQL_DATABASE: sync_in
+      MYSQL_USER: syncin
+      MYSQL_PASSWORD: syncinpassword
+    volumes:
+      - ${APP_DATA_DIR}/data/db_data:/var/lib/mysql

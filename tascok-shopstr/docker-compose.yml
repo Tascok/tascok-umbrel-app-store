@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-shopstr_web_1
+      APP_PORT: 3000
+
+  web:
+    image: calvadev/shopstr:v0.1.0@sha256:2b8a0063aab5152ed0a977ef56a675e423092e227c0f44a022478b8aa9c7a2a2
+    restart: on-failure
+    stop_grace_period: 1m
+    environment:
+      PORT: 3000

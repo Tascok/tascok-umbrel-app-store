@@ -1,0 +1,33 @@
+manifestVersion: 1
+id: tascok-nerdqaxe
+name: Nerd*axe Webflasher
+tagline: An easy tool for flashing Nerd*axe devices
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nerdqaxe/logo.png
+category: bitcoin
+version: "1.0.1"
+port: 3639
+description: >-
+  The Nerd*axe Web Flasher is a tool designed for flashing firmware onto Nerdaxe devices. It's a fork of the Bitaxe Web Flasher.
+  
+  
+  The tool simplifies the flashing process by supporting automatic device detection, including model and board versions. It offers a user-friendly web interface for selecting the right firmware and initiating the process.
+
+
+  ⚠️ The Nerd*axe Web Flasher does not run on ARM devices like the Raspberry Pi. Additionally, it is recommended to use a Chromium-based browser for the best experience with the tool.
+developer: Thomas Shufps
+website: https://shufps.github.io/nerdqaxe-web-flasher/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/shufps/nerdqaxe-web-flasher
+support: https://github.com/shufps/nerdqaxe-web-flasher
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nerdqaxe/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nerdqaxe/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nerdqaxe/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nerdqaxe/4.jpg
+releaseNotes: >-
+  This release features new Languages as well as a new feature that allows to keep the current configuration.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

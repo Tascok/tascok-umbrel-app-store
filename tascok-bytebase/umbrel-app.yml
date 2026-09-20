@@ -1,0 +1,48 @@
+manifestVersion: 1
+id: tascok-bytebase
+name: Bytebase
+tagline: A GitOps platform for databases
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-bytebase/logo.png
+category: developer tools
+version: "3.8.1"
+port: 8999
+description: >-
+  Bytebase is a platform that helps teams manage database changes and data access in a controlled, trackable, and collaborative way. It enables structured workflows for making and reviewing schema or data changes, ensuring that every modification is properly reviewed, approved, and documented.
+
+
+  The system includes built-in rules for checking SQL quality, detecting schema drift, and supporting rollback when needed. This helps maintain consistency and prevent errors across multiple environments.
+
+
+  Bytebase also allows temporary access to databases through approval-based workflows. Access is time-limited, logged, and governed by fine-grained control rules, making it easier to meet compliance and security requirements.
+
+
+  It provides a web-based SQL editor for executing and sharing queries. Every query is versioned and auditable, allowing teams to collaborate more effectively and reduce risk.
+
+
+  With its API-first design, Bytebase can be automated and integrated into existing development workflows. This brings the discipline of version control and review processes to the database, aligning it with modern DevOps practices.
+developer: Bytebase
+website: https://www.bytebase.com/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/bytebase/bytebase
+support: https://github.com/bytebase/bytebase/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-bytebase/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-bytebase/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-bytebase/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-bytebase/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-bytebase/5.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-bytebase/6.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-bytebase/7.jpg
+releaseNotes: >-
+  Version 3.8.0 introduces major improvements to schema synchronization and rollback, enhancing compatibility across MySQL, PostgreSQL, TiDB, SQL Server, and Oracle. It also retires the Issue Subscription feature and renames the Review Center to Plans.
+
+
+  This release adds support for query result row limits, multi-domain configuration, and a simplified input for default values. Approval workflows now list all approvers with hoverable detail views.
+
+
+  Bug fixes include improved display of JSON data types in ClickHouse queries and the addition of a use_ssl field in Terraform SSL configuration.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

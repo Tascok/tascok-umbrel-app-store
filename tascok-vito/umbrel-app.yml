@@ -1,0 +1,41 @@
+manifestVersion: 1
+id: tascok-vito
+name: Vito
+tagline: A secure, self-hosted secret sharing application
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-vito/logo.png
+category: files & productivity
+version: "0.0.4"
+port: 9998
+description: >-
+  🕵️‍♂️ Vito is a self-hosted application designed to securely share secrets such as passwords, access tokens, or other sensitive information. Developed by GlobusGroup, Vito gives users complete control over the confidentiality and handling of their data by removing the need to rely on third-party services. The goal of the project is to provide a simple and secure way for individuals or teams to exchange private information without compromising on privacy or usability.
+
+
+  The core strength of Vito lies in its ability to encrypt secrets and make them available for one-time access through a link. Once a secret is viewed, it is immediately deleted to prevent reuse or unauthorized access. This approach ensures that even if the link is intercepted after use, it holds no value, offering a practical and effective defense against leaks or breaches.
+
+
+  Vito is open source and licensed under the AGPL 3.0, which ensures that users are free to inspect the code, contribute improvements, and deploy the software in environments they fully control. Transparency and user sovereignty are at the heart of the project, aligning with the values of privacy-conscious developers and administrators.
+
+
+  Vito is particularly useful for teams that need to exchange sensitive credentials on a regular basis, such as DevOps engineers, system administrators, or developers working in security-aware environments. It offers peace of mind by combining modern encryption techniques with a minimal and focused user experience, all under the user’s full control.
+
+
+  By choosing Vito, individuals and teams can confidently share secrets in a way that is secure, private, and independent from centralized providers.
+
+
+  ⚠️ Vito requires HTTPS to function properly and ensure that all secrets are transmitted securely. The easiest way to enable HTTPS is by using the Cloudflare app available in the Umbrel App Store. 
+developer: Globus Group 
+website: https://github.com/GlobusGroup/vito
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/GlobusGroup/vito
+support: https://github.com/GlobusGroup/vito/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-vito/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-vito/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-vito/3.jpg
+releaseNotes: >-
+  This update introduces Docker support to simplify self-hosting. Additionally, the backend code was refactored for better maintainability and minor performance optimizations were made.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

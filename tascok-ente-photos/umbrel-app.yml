@@ -1,0 +1,44 @@
+manifestVersion: 1
+id: tascok-ente-photos
+category: files & productivity
+name: Ente Photos
+tagline: An end-to-end encrypted platform for photo storage and sharing
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ente-photos/logo.png
+version: "1.0.10"
+port: 33000
+description: >-
+  🐥 Ente Photos is a privacy-focused cloud service designed for securely storing and managing photos and videos. Unlike mainstream platforms like Google Photos or iCloud, Ente prioritizes user privacy through end-to-end encryption, ensuring that only the user has access to their data. Even Ente itself cannot view or analyze the content, preventing data mining and targeted advertising while protecting sensitive personal information.
+
+
+  Ente Photos is open source, allowing transparency in its implementation and enabling independent security reviews. The service is accessible across multiple platforms, including Android, iOS, Windows, macOS, Linux, and the web. It stores encrypted data redundantly in three separate data centers, adding an extra layer of security and data availability.
+
+
+  Users can automatically back up photos and videos from their devices and organize them into albums. The app also offers basic editing tools for cropping, rotating, and adjusting colors. While Ente does not use AI for image analysis, it includes a local face recognition feature for organizing content without compromising privacy.
+
+
+  Migration from other cloud services is supported through manual data imports, allowing users to transition from platforms like Google Photos without losing their media. Ente Photos provides a robust alternative for users seeking a secure, privacy-oriented platform to manage their digital memories without sacrificing functionality or ease of use.
+
+
+  ⚠️ Make sure to go through setup steps after installing it:
+  
+  
+  https://github.com/dennysubke/dennys-umbrel-app-store/blob/master/tascok-ente-photos/README.md
+developer: Ente
+website: https://ente.io
+submitter: Starfreck
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/ente-io/ente
+support: https://www.reddit.com/r/enteio/?rdt=39096
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ente-photos/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ente-photos/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ente-photos/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ente-photos/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ente-photos/5.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ente-photos/6.jpg
+releaseNotes: >- 
+  The latest release of Ente Photos includes various bug fixes, performance enhancements, and updated translations. Key improvements focus on video editing, resumable uploads, and streaming performance, along with adjustments to the backup status screen and large file uploads. Additionally, several bugs related to iOS audio sessions, widget mounting, and Android ffmpeg-kit have been resolved, and minor UI updates and logging enhancements have been implemented.  
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

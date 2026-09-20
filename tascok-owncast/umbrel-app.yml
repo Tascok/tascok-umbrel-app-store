@@ -1,0 +1,54 @@
+manifestVersion: 1
+id: tascok-owncast
+name: Owncast
+tagline: A free and open source live video and web chat server
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-owncast/logo.png
+category: social
+version: "0.1.3"
+port: 8055
+description: >-
+    Owncast is an innovative open-source platform designed for self-hosted live streaming and video hosting. With Owncast, users can broadcast their live streams directly from their own servers, offering a decentralized alternative to popular streaming services. This empowers creators to maintain control over their content, audience interactions, and monetization strategies without the constraints of corporate platforms.
+
+
+    Key features of Owncast include:
+    
+
+    📺 Live Streaming: Stream live events, gaming sessions, or creative broadcasts with ease, allowing for real-time engagement with viewers.
+
+    
+    📹 Video Hosting: Upload and host video content, creating a personalized library of media that can be shared with followers.
+    
+    
+    🎨 Customizable Interface: Tailor the look and feel of your streaming platform to match your branding and preferences.
+    
+    
+    👥 Community Engagement: Foster a direct connection with your audience through chat functionalities, polls, and notifications.
+    
+
+    Whether you’re a gamer, artist, educator, or content creator, Owncast provides the tools to build your unique streaming experience. Embrace the freedom of self-hosting and engage your audience like never before!
+
+
+    ⚠️ After starting the server, enter `umbrel.local:8050/admin` in your web browser to access the admin panel. The admin username is 'admin' and the password is 'abc123'.
+
+developer: Gabe Kangas
+website: https://owncast.online
+submitter: Tascok
+submission: https://github.com/dennysubke/dennys-umbrel-app-store
+repo: https://github.com/owncast
+support: https://github.com/owncast/owncast/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-owncast/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-owncast/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-owncast/3.jpg
+releaseNotes: >-
+    In the latest update, several enhancements and fixes have been introduced to improve functionality and user experience. Notably, the addition of sanitization for Fediverse usernames and the specification of content types for custom JavaScript significantly enhance system integrity and performance. The "rel-me" attribute has also been added to the server-rendered bot/metadata/search page template, contributing to better SEO practices.
+
+    Key changes include preventing duplicate join chat events for users already in the chat and ensuring that chat messages and state changes are read aloud in the ARIA live region for improved accessibility. Additionally, chat moderators are now exempt from message rate limiting, and the design for offline video embeds has been improved.
+
+    Several bugs have been addressed, including issues with horizontal scrolling on narrower screens, concurrency errors, and inconsistencies in thumbnail generation when using S3. The player timestamp bug and pagination problems in the 'Followers' console have also been resolved, alongside fixes for webhook creation and mobile chat button display issues.
+
+    Finally, the update removes Matrix URL validation, allowing greater flexibility in URL usage.
+dependencies:
+path: ""
+defaultUsername: "admin"
+defaultPassword: "abc123"

@@ -1,0 +1,16 @@
+services:
+  enclosed:
+    image: corentinth/enclosed
+    ports:
+      - 8525:8787
+    volumes:
+      - ${APP_DATA_DIR}/data/enclosed-data:/app/.data
+    restart: on-failure
+    stop_grace_period: 2m
+    environment:
+      - PUID=1000
+      - PGID=1000
+
+volumes:
+  enclosed-data:
+    driver: local

@@ -1,0 +1,36 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-facturascripts_web_1
+      APP_PORT: 80
+
+  web:
+    image: facturascripts/facturascripts:2025.4@sha256:3fbd577300192f4b66fccd2b7a829bf71809ea184399d709c016fd4c6d6caef1
+    restart: on-failure
+    environment:
+      DB_HOST: mysql
+      DB_USER: facturascripts
+      DB_PASS: mypassword
+      DB_NAME: facturascripts
+    volumes:
+      - ${APP_DATA_DIR}/data/facturascripts:/var/www/html
+    depends_on:
+      - mysql
+
+  mysql:
+    image: mysql:8.0@sha256:4a8843ef1c30d30937dea3cba5b72665bae17051af7a72b1651f3b7681f76aee
+    command: --default-authentication-plugin=mysql_native_password
+    restart: on-failure
+    environment:
+      MYSQL_ROOT_PASSWORD: mypassword
+      MYSQL_DATABASE: facturascripts
+      MYSQL_USER: facturascripts
+      MYSQL_PASSWORD: mypassword
+    volumes:
+      - ${APP_DATA_DIR}/data/mysql:/var/lib/mysql
+
+  adminer:
+    image: adminer:5.4.0@sha256:606d5f153ef9013aab5647000a528fbf56345ebe9bb994387f9bcf9f9cc0603b
+    restart: on-failure

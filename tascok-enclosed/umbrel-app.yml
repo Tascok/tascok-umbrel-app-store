@@ -1,0 +1,34 @@
+manifestVersion: 1
+id: tascok-enclosed
+name: Enclosed
+tagline: A minimalistic web application designed for sending private and secure notes
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-enclosed/logo.png
+category: files & productivity
+version: "1.6.9"
+port: 8525
+description: >-
+  Enclosed is a minimalist web application designed for securely sending private notes. Whether you're sharing sensitive information or simply need a straightforward way to send encrypted messages, Enclosed offers an easy-to-use interface with robust security features, ensuring that your data remains confidential.
+
+
+  Enclosed uses native browser cryptographic APIs to encrypt and decrypt notes, providing both security and high performance. These APIs are only accessible in secure contexts (HTTPS), so if you're running the app over an insecure connection (HTTP), you’ll see a warning in the app.
+
+
+  ⚠️ For HTTPS setup, you can use the Cloudflare Tunnel app available in the Umbrel App Store to secure your connection.
+
+
+developer: Corentin Thomasset
+website: https://enclosed.cc
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/CorentinTh/enclosed
+support: https://github.com/CorentinTh/enclosed/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-enclosed/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-enclosed/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-enclosed/3.jpg
+releaseNotes: >-
+  The recent changes include restructuring configuration variables into a table format and increasing the mobile breakpoint for the navbar. Additionally, Crowdin integration for i18n was added, and dependencies for jsdom and esbuild were updated. A stale action workflow was introduced in GitHub. Furthermore, layout issues were fixed, such as adjusting the "new note" button on mobile and preserving line breaks in the note viewer.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

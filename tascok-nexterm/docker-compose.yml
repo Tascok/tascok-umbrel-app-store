@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-nexterm_web_1
+      APP_PORT: 6989
+
+  web:
+    image: germannewsmaker/nexterm:1.0.1-OPEN-PREVIEW@sha256:858a33c5954d43547f5a1a5d733aeabe6407de8a8b7a07accdbca8e266d942fe
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data:/app/data

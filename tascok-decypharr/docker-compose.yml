@@ -1,0 +1,19 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-decypharr_web_1
+      APP_PORT: 8282
+
+  web:
+    image: ghcr.io/sirrobot01/decypharr:v1.0.2@sha256:39b585c1df7e608595620610c14d5c30fd8585b360bae09d4507f0a49b2e221b
+    user: "1000:1000"
+    volumes:
+      - ${APP_DATA_DIR}/data/mnt/:/mnt
+      - ${APP_DATA_DIR}/data/configs/:/app
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - UMASK=002
+    restart: on-failure

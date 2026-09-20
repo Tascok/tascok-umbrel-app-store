@@ -1,0 +1,15 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-statping-ng_web_1
+      APP_PORT: 8080
+
+  web:
+    image: ghcr.io/statping-ng/statping-ng:0.93.0@sha256:236d8490077decd23213eae50f50ae22db6b6758e8e491e6ab560ac9185c3d75
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data/statping_data:/app
+    environment:
+      DB_CONN: sqlite

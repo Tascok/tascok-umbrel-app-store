@@ -1,0 +1,38 @@
+manifestVersion: 1
+id: tascok-omnitools
+name: OmniTools
+tagline: An all-in-one collection of powerful web-based tools for everyday tasks
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-omnitools/logo.png
+category: files & productivity
+version: "0.5.0"
+port: 8678
+description: >-
+  🛠️ OmniTools is a versatile all in one web application that offers a comprehensive collection of over 80 practical utilities designed to simplify everyday digital tasks. It acts as a Swiss Army knife for your browser enabling you to handle a wide range of file formats conversions and manipulations all without relying on external servers or cloud uploads.
+
+
+  With OmniTools you can easily edit images by removing backgrounds resizing or converting formats manipulate PDFs by merging splitting or annotating documents trim and modify videos and transform text through various formatting and conversion options. It also includes powerful data helpers such as CSV and JSON viewers and converters XML parsing tools and handy utilities for generating QR codes.
+
+
+  Beyond file processing OmniTools provides useful calculators and converters for dates times units and mathematical operations making it a true multi purpose companion for digital workflows. Each feature is designed to work efficiently and privately within your browser ensuring your data never leaves your control.
+
+
+  Whether you are a creative professional needing quick image edits a developer working with data formats or simply someone looking to streamline common file related tasks OmniTools offers a lightweight user friendly environment that brings a broad spectrum of functionality into one convenient place. It focuses on privacy performance and ease of use empowering you to get more done with less hassle.
+developer: Ibrahima Gaye Coulibaly
+website: https://omnitools.app/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/iib0011/omni-tools
+support: https://github.com/iib0011/omni-tools/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-omnitools/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-omnitools/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-omnitools/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-omnitools/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-omnitools/5.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-omnitools/6.jpg
+releaseNotes: >-
+  Version 0.5.0 introduces a wide range of new tools across various categories: image editing (crop, rotate, filters, watermark), PDF editing and conversion, video-to-GIF, and several audio tools like trimming, merging, and speed adjustment. It also adds handy utilities like a Crontab explainer, text censoring, and XML validation and beautification.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

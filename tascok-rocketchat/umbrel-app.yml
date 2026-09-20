@@ -1,0 +1,43 @@
+manifestVersion: 1
+id: tascok-rocketchat
+name: Rocket.Chat
+tagline: A real time chat platform for teams
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-rocketchat/logo.png
+category: files & productivity
+version: "7.13.0"
+port: 3112
+description: >-
+  🚀 Rocket.Chat is a comprehensive real time communication platform that unifies conversations, collaboration, and knowledge sharing in a single digital workspace. It provides a familiar chat experience with individual and group conversations, persistent channels for focused topics, and threaded replies that keep discussions organized even when many participants are involved. Users can exchange text, images, videos, voice messages, and files of all types, making it a flexible communication hub for both short quick messages and more structured project discussions.
+
+
+  Beyond basic messaging, Rocket.Chat includes powerful collaboration features that help teams stay productive. Video and voice calls can be launched directly from a conversation, making it simple to switch from text to a face to face style discussion without leaving the platform. Screen sharing enhances teamwork on presentations, troubleshooting sessions, or planning tasks. Built in mentions, message reactions, read receipts, and link previews make communication feel modern and intuitive, while message search and filtering allow users to quickly find past information and keep track of important details.
+
+
+  To support automation and connected workflows, Rocket.Chat offers integrations with popular services, flexible webhooks, and an extensible bot framework that can respond to commands, send alerts, and assist with daily routines. Custom slash commands, custom emojis, flexible UI themes, and user level personalization options create a familiar and enjoyable space that adapts to different teams and communication cultures. Administrators can configure detailed access controls, retain full oversight of conversation management, and tailor the platform to the needs of small groups, large organizations, or community environments.
+
+
+  Overall, Rocket.Chat provides a secure and adaptable communication experience that combines modern chat functionality with advanced collaboration tools. It supports casual team conversations, structured project work, and community engagement in one place, helping people stay connected, informed, and productive while maintaining full control over the messaging environment.
+developer: Rocket.Chat
+website: https://www.rocket.chat/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/RocketChat/Rocket.Chat
+support: https://github.com/RocketChat/Rocket.Chat/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-rocketchat/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-rocketchat/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-rocketchat/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-rocketchat/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-rocketchat/5.jpg
+releaseNotes: >-
+  This release introduces the foundational infrastructure for future Attribute Based Access Control, including the ability for admins to manage room attributes. It also strengthens the security model with a unified v2 encryption system, stricter password requirements, authenticated encryption for new data, and improved key-handling processes.
+
+
+  Calling receives extensive upgrades such as synchronized call states, clearer UI indicators, better DTMF behavior, improved VoIP reliability, and automatic call summaries posted to the correct DM rooms. The expandable message composer preview was further stabilized, and the Livechat API was updated in preparation for a deprecation planned for version 8.0.0.
+
+
+  A wide range of bugs were fixed, including issues with missing call buttons, LDAP VoIP sync, incorrect timezone handling, private channels not appearing in Directory search, and inconsistent favicon updates. Additional fixes resolve authentication edge cases involving Email 2FA and TOTP, UI breakpoint issues, failed lead captures, incorrect tag rendering in reports, and double deletion errors. The update also corrects problems with room deletion logic and ensures that encrypted attachment descriptions can be edited and displayed properly.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

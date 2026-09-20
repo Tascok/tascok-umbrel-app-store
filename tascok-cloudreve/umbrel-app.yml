@@ -1,0 +1,39 @@
+manifestVersion: 1
+id: tascok-cloudreve
+name: Cloudreve
+tagline: A self-hosted file management system with multi-cloud support
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cloudreve/logo.png
+category: files & productivity
+version: "4.15.0"
+port: 5212
+description: >-
+  ☁️ Cloudreve is an open-source cloud storage solution designed to provide users with a self-hosted alternative to traditional cloud services. It enables users to create a personalized storage system with extensive file management capabilities, allowing for secure file storage, sharing, and collaboration. The platform includes a modern web interface that supports file previews for images, videos, PDFs, and office documents, making it easy to access content without downloading it.
+
+
+  One of the core features of Cloudreve is its robust sharing functionality, which allows users to generate both public and private links with adjustable permissions, expiration dates, and password protection. This provides a secure way to distribute files while maintaining control over access rights. Additionally, Cloudreve incorporates WebDAV support, enabling users to access their files as though they were on a network drive, facilitating seamless integration with other applications.
+
+
+  Cloudreve also includes comprehensive user and group management tools. Administrators can define user roles, assign storage quotas, and monitor system activity, creating a controlled environment for multiple users. With the ability to manage various storage backends and define storage strategies, Cloudreve offers a flexible approach to organizing and distributing files based on specific needs.
+
+
+  Overall, Cloudreve is a highly customizable cloud storage solution that prioritizes data privacy and control, making it a compelling choice for individuals and teams seeking a self-hosted alternative to mainstream cloud services.
+developer: Cloudreve
+website: https://cloudreve.org/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/cloudreve/Cloudreve
+support: https://github.com/cloudreve/Cloudreve/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cloudreve/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cloudreve/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cloudreve/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cloudreve/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cloudreve/5.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cloudreve/6.jpg
+releaseNotes: >-
+  Full release notes can be found at https://github.com/cloudreve/cloudreve/releases
+
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

@@ -1,0 +1,40 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-bookstack_app_1
+      APP_PORT: 80
+      PROXY_AUTH_ADD: "false"
+
+  app:
+    image: linuxserver/bookstack:25.02.5@sha256:e3f4a383e8db24af5ab15da056a2a02d902c83a64d7027dc93d0b48b3d298a1d
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - APP_URL="http://${DEVICE_DOMAIN_NAME}:8875"
+      - DB_HOST=tascok-bookstack_db_1
+      - DB_PORT=3306
+      - DB_USERNAME=bookstack
+      - DB_PASSWORD=umbrelpass
+      - DB_DATABASE=bookstackapp
+      - APP_KEY=base64:agtE4ABZvOG9P7U7wM0Jzks+rTemAqlND6XUsyG/bHA=
+    volumes:
+      - ${APP_DATA_DIR}/data/bookstack_app_data:/config
+    restart: on-failure
+    depends_on:
+      - db
+
+  db:
+    image: linuxserver/mariadb:11.4.4@sha256:fdf30e6b302688c290cef10ca24b80e6e25e93955bc6b64636777f06676a6c52
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - MYSQL_ROOT_PASSWORD=mysqlrootpassword
+      - TZ=Europe/Berlin
+      - MYSQL_DATABASE=bookstackapp
+      - MYSQL_USER=bookstack
+      - MYSQL_PASSWORD=umbrelpass
+    volumes:
+      - ${APP_DATA_DIR}/data/bookstack_db_data:/config
+    restart: on-failure

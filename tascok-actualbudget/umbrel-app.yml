@@ -1,0 +1,81 @@
+manifestVersion: 1
+id: tascok-actualbudget
+name: Actual Budget
+tagline: A super fast privacy-focused app for managing your finances
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-actualbudget/logo.png
+category: finance
+version: "26.7.0"
+port: 5006
+description: >-
+  Actual Budget is a privacy-first personal finance tool designed for users to self-host their data and manage their budgets with complete control. It offers real-time budgeting, detailed tracking of expenses, and advanced reporting, empowering users to make informed financial decisions. The app supports encrypted syncing across multiple devices and features mobile apps for both iOS and Android, making financial management accessible on the go. With its clean and intuitive interface, Actual Budget simplifies complex finances while ensuring data remains secure and private.
+
+
+  Here are some key features of Actual Budget:
+
+
+  🗃️ Everything in one place: Add all of your accounts and track everything in one place. Get valuable information like net worth from all your accounts together.
+
+
+  💰 Payees: Manage payees quickly. Merge them, set up custom rules for how they are matched, and use default categories to automatically categorize transactions.
+
+
+  💵 Budgeting: Track your spending with budgets. You can only budget cash you have on hand, which means your budget stays realistic and you don't make numbers up.
+
+
+  📥 Importing Transactions: Import transactions from the most popular financial files: QIF, OFX, QFX, and CSV.
+
+
+  📂 Migrate your data: Actual Budget provides a builtin YNAB4 importer that keeps all of your history.
+
+
+  🔄 Syncing across devices: Actual Budget offers a syncing service which uses sophisticated distributed systems technology to sync changes across any number of devices.
+
+
+  📱 Mobile app: A proper mobile app is critical to stay engaged with your finances.
+
+
+  ➗ Split transactions: Use split transactions to separate a single expense into multiple categories. An inline editor makes this seamless.
+
+
+  ➡️ Transfers: Manage transfers easily by creating transfer transactions. Actual will link the transactions on both sides and update them together.
+
+
+  🔁 Undo & redo: A robust undo system allows you to rollback any changes you make, and redo them if desired. Never worry about making mistakes.
+
+
+  🔌 API: Use the fully-featured API to write custom importers or build your own features. This API simply runs on your local data.
+
+
+  🛡️ End-to-end encryption: Actaul Budget offers a syncing service which uses sophisticated distributed systems technology to sync changes across any number of devices.
+
+   
+  🔑 Initial Setup of Actual Budget:
+
+   During the initial setup of Actual Budget, you will need a password, which is set to "password." Please note that the HTTPS warning can be ignored.
+
+developer: Shift Reset LLC
+website: https://actualbudget.com/
+submitter: Tascok
+submission: https://github.com/dennysubke/dennys-umbrel-app-store
+repo: https://github.com/actualbudget/actual-server
+support: https://github.com/actualbudget/actual-server/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-actualbudget/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-actualbudget/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-actualbudget/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-actualbudget/4.jpg
+releaseNotes: >-
+  Actual Budget 26.7.0 introduces a new experimental bank sync provider for New Zealand through Akahu and makes the Actual CLI officially stable.
+
+
+  The release also improves tag management with show/hide options, better bulk actions, and new tag filters. Reports have been enhanced with configurable average ranges, trend lines, and better Balance Forecast functionality.
+
+
+  Budget automations received further improvements as well, including mobile support, notes, and more reliable links to schedules.
+
+
+  In addition, this update includes many bug fixes across bank sync, reports, mobile views, imports, security, and overall performance.
+dependencies:
+path: ""
+defaultUsername: "none"
+defaultPassword: "password"

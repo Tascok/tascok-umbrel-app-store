@@ -1,0 +1,47 @@
+manifestVersion: 1
+id: tascok-chevereto
+name: Chevereto
+tagline: A fast, reliable way to store and share your images
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-chevereto/logo.png
+category: files & productivity
+version: "4.2.4"
+port: 8048
+description: >-
+  📸 Chevereto is a versatile and robust image hosting platform that enables users to create their own custom image hosting website. Ideal for personal use, businesses, or communities, Chevereto offers a wide range of features designed to provide a seamless and efficient image-sharing experience. It is built using PHP and provides a clean, intuitive interface for both administrators and end-users.
+
+
+  One of the key advantages of Chevereto is its ability to allow users to upload, store, and manage images securely on their own server, giving full control over the content. The platform supports various image formats and resolutions, making it suitable for a wide array of use cases, from simple photo sharing to large-scale image storage for organizations or websites.
+
+
+  Chevereto also offers powerful customization options, including the ability to organize images into albums, apply tags, and enable categories for better searchability. It features user management tools that allow you to create different user roles, each with customizable permissions, making it perfect for collaborative environments or controlled access.
+
+
+  Additionally, the software supports a wide range of integrations and extensions, including image compression, watermarks, and social media sharing, enhancing the overall functionality. Chevereto’s responsive design ensures that the platform is accessible and user-friendly across all devices, from desktops to smartphones.
+
+
+  Another key feature is its scalability. As your image hosting needs grow, Chevereto can easily handle increasing amounts of traffic and storage, ensuring that it remains a reliable solution as your platform expands. Whether you're looking to build a private image library or a public image-sharing community, Chevereto offers a powerful and flexible toolset to meet your needs.
+
+
+  With Chevereto, you get complete ownership of your image hosting service without the limitations imposed by third-party services, making it an excellent option for those seeking privacy, control, and customization.
+
+
+  ⚠️ During installation, use the following database connection details: Host: "chevereto-db", Port: "3306", Database Name: "chevereto", User: "chevereto", Password: "umbrelpass". The table prefix can be left empty or set to "chv_".
+developer: Rodolfo Berrios
+website: https://chevereto.com/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/chevereto/chevereto
+support: https://github.com/chevereto/chevereto/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-chevereto/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-chevereto/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-chevereto/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-chevereto/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-chevereto/5.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-chevereto/6.jpg
+releaseNotes: >-
+  This version of Chevereto 4.2.4 (2024-12-05) introduces the Chevereto Lite Edition, improvements to comment code and ENV handling, as well as bug fixes for CLI runtime and MariaDB 10.4 compatibility.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

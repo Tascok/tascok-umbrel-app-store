@@ -1,0 +1,32 @@
+manifestVersion: 1
+id: tascok-fontgenerator
+name: Font Generator
+tagline: A creative text styling app
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-fontgenerator/logo.png
+category: files & productivity
+version: "0.3.6"
+port: 3876
+description: >-
+  🔤 Font Generator is an application that converts regular text into a wide variety of stylized fonts by making use of the vast range of available Unicode characters. Instead of relying on images or special graphic files, it replaces each standard letter and number with visually distinct Unicode symbols that mimic different typefaces and effects. This approach ensures that the resulting text remains fully selectable, searchable, and can be pasted into any platform or application that supports text input.
+
+
+  The application offers a rich selection of creative styles, ranging from bold and italic variations to script, serif, sans serif, small caps, and handwritten-like designs. It can also generate playful transformations such as mirrored or upside-down text, adding a fun twist to otherwise standard messages. Each style is carefully mapped so that the output retains readability while still standing out in a unique way.
+
+
+  By enabling quick and effortless conversion, Font Generator makes it easy for users to add personality, emphasis, or decorative flair to their writing. Whether the goal is to highlight a social media post, create visually appealing headings, or simply make a message more engaging, it provides a toolset for transforming plain words into something more expressive. The underlying text remains semantically the same, meaning that despite its eye-catching appearance, it communicates the original content without losing meaning or accessibility.
+developer: Sead Feng
+website: https://www.fontgenerator.dev/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/seadfeng/font-generator
+support: https://github.com/seadfeng/font-generator/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-fontgenerator/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-fontgenerator/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-fontgenerator/3.jpg
+releaseNotes: >-
+  Version 0.3.6 adds Google AdSense support and includes various improvements. It also contains minor maintenance and release updates.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

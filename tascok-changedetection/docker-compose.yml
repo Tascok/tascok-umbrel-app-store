@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-changedetection_app_1
+      APP_PORT: 5000
+
+  app:
+    image: ghcr.io/dgtlmoon/changedetection.io:0.49.1@sha256:c48b0b83d4af7c7e60aef37adcd381c8a8ecb3ec613b19ddcfca880f95a7d004
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data:/datastore

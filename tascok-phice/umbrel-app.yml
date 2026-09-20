@@ -1,0 +1,31 @@
+manifestVersion: 1
+id: tascok-phice
+name: Phice
+tagline: A lightweight privacy-friendly Facebook front end
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-phice/logo.png
+category: files & productivity
+version: "0.0.1"
+port: 5777
+description: >-
+  Phice is a free and open source project designed as an alternative frontend for Facebook. It allows users to access Facebook content without being exposed to advertisements, tracking technologies or the need for a personal Facebook account. The main goal of Phice is to provide a clean and privacy friendly interface that focuses solely on delivering content without distractions.
+
+  The software offers a minimalist experience that is lightweight and efficient. By stripping away unnecessary elements, Phice ensures faster load times and a smoother browsing experience even on devices with limited resources. This makes it an appealing choice for anyone seeking a simpler way to view public Facebook content.
+
+  Phice is intended for self hosting, giving individuals and organizations full control over how they access and display Facebook data. Since it is open source, users have the freedom to review, modify and improve the code to suit their specific needs. Phice appeals especially to those who prioritize privacy and want to avoid the intrusive features of the official Facebook platform.
+developer: Caffeine
+website: https://codeberg.org/c4ffe14e/phice
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://codeberg.org/c4ffe14e/phice
+support: https://codeberg.org/c4ffe14e/phice/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-phice/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-phice/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-phice/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-phice/4.jpg
+releaseNotes: >-
+  Phice currently provides only a latest tag for releases. There are no specific versioned tags or detailed release notes available at this time.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

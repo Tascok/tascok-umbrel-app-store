@@ -1,0 +1,35 @@
+manifestVersion: 1
+id: tascok-paisa
+name: Paisa
+tagline: An all-in-one finance tracker designed for simplicity
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-paisa/logo.png
+category: finance
+version: "0.7.1"
+port: 7500
+description: >-
+  📊 Paisa is a self-hosted personal finance manager designed to help users track and manage their financial transactions using a simple, text-based accounting format. It integrates seamlessly with tools like Ledger, hledger, and beancount, providing users with full control over their financial data. The platform is built around core principles of privacy, data ownership, and longevity.
+
+
+  Paisa ensures that all user data remains private, with no third-party tracking or data collection. It supports importing and managing various financial records while allowing easy migration between different formats. Additionally, Paisa includes features like goal-setting, budgeting, and tracking commodity prices, with the option for users to fetch live prices from external sources, all while respecting privacy by making these features opt-in.
+
+
+  The software is open-source, making it transparent and auditable. It is also designed with longevity in mind, aiming to be a sustainable solution for personal finance management over the long term. Paisa's AGPL v3 license ensures that it remains freely available, and its simple structure allows for flexibility and customization in how users track their finances.
+
+developer: Anantha Kumaran 
+website: https://paisa.fyi/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/ananthakumaran/paisa
+support: https://github.com/ananthakumaran/paisa/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-paisa/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-paisa/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-paisa/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-paisa/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-paisa/5.jpg
+releaseNotes: >-
+  The 0.7.1 update resolves a critical remote code execution vulnerability, enhancing the security of the platform. This fix improves overall system safety, protecting users from potential exploits.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

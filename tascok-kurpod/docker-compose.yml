@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-kurpod_server_1
+      APP_PORT: 3000
+
+  server:
+    image: ghcr.io/srv1n/kurpod-server:v0.1.3@sha256:59ed414d404b656e7368ae6e267b103180673bb6dcdb6288c362d258103f8004
+    command: ["--port", "3000"]
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data:/app/data

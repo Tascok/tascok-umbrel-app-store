@@ -1,0 +1,58 @@
+manifestVersion: 1
+id: tascok-odoo
+name: Odoo
+tagline: A suite of web based open source business apps
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-odoo/logo.png
+category: files & productivity
+version: "18.0"
+port: 8069
+description: >-
+  💼 Odoo is a powerful business management software designed to help companies manage and optimize their daily operations. It provides a wide range of tools that allow businesses to handle accounting, monitor inventory levels, manage sales processes, and coordinate human resources effectively. By centralizing these functions, Odoo helps organizations maintain accurate records and ensures that critical business data is always up to date.
+
+
+  The platform also offers comprehensive project management capabilities, enabling teams to plan, track, and execute projects efficiently. It allows users to assign tasks, set deadlines, monitor progress, and collaborate seamlessly across departments. This centralized approach reduces miscommunication, ensures accountability, and enhances overall productivity.
+
+
+  Customer relationship management is another key feature of Odoo. Businesses can manage customer interactions, track leads and opportunities, and maintain detailed records of communications. This enables companies to provide better customer service, nurture long-term relationships, and make informed decisions based on actionable insights.
+
+
+  Odoo further supports procurement, inventory management, and supply chain operations by providing tools to track products, monitor stock levels, manage orders, and streamline vendor interactions. This helps reduce errors, prevent stockouts, and optimize the flow of goods and services within the company.
+
+
+  The software also facilitates reporting and analytics, allowing organizations to generate detailed insights into financial performance, sales trends, and operational efficiency. By providing a clear view of business metrics, Odoo empowers managers to make strategic decisions, plan resources effectively, and identify areas for improvement.
+
+
+  Overall, Odoo provides a unified environment where all core business functions work together seamlessly. It enables automation of routine tasks, improves collaboration, and ensures consistency across departments. The platform’s integrated approach helps companies enhance efficiency, maintain control over their operations, and adapt to changing business needs with ease.
+
+
+  ⚠️ During the initial setup, you must enter "db" when prompted for the database name.
+developer: Odoo SA
+website: https://www.odoo.com
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/odoo/odoo
+support: https://github.com/odoo/odoo/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-odoo/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-odoo/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-odoo/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-odoo/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-odoo/5.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-odoo/6.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-odoo/7.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-odoo/8.jpg
+releaseNotes: >-
+  This update introduces keyboard shortcuts to switch between companies quickly and enhances contact search by address. Error messages are now clearer, allowing users to provide technical details more easily, and the error debugging menu provides direct access to underlying models.
+
+
+  The editor has been improved to support numbered and bulleted lists using shortcuts, and suggested command buttons now appear in tooltips for a smoother editing experience. On mobile, the editor toolbar has been optimized, and records can be filtered directly within apps using the new search field.
+
+
+  Additional enhancements include the installation of specific Progressive Web Apps for features like barcode scanning, point of sale, attendance, kiosks, check-in counters, and workshops. The Gantt view now supports endless horizontal scrolling, image import via the import tool has been improved, and list column width calculations are more accurate.
+
+
+  Security and usability have also been upgraded with passkey authentication using the webauthn protocol, readable URLs for easier navigation and editing, the ability to re-trigger searches from the search bar, and updated user tours that can be enabled or disabled from the user menu.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

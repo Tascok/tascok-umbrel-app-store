@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-tasktrove_app_1
+      APP_PORT: 3000
+      
+  app:
+    image: ghcr.io/dohsimpson/tasktrove:v0.3.0@sha256:4cb6e504666951b1ef67a394e5f590c004733005beb51deefca641f7066868b4
+    user: "1000:1000"
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data:/app/data:rw

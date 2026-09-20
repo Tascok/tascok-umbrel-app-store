@@ -1,0 +1,32 @@
+manifestVersion: 1
+id: tascok-ticky
+name: Ticky
+tagline: A modern Kanban board app
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ticky/logo.png
+category: files & productivity
+version: "1.14.0"
+port: 4088
+description: >-
+  Ticky is a modern self hosted Kanban application built with ASP NET Core Blazor, designed to offer a powerful yet user friendly task management experience. It provides all the core functionalities expected from a Kanban tool such as projects, boards, columns, and cards, while introducing advanced features like time tracking, subtask support, reminders, priority labeling, and even linked tasks in a way reminiscent of professional platforms like Jira.
+
+
+  One of the standout aspects of Ticky is its emphasis on simplicity without sacrificing functionality. Users can create multiple boards within projects, customize columns with color coded limits and automatic sorting, and use drag and drop interactions across a responsive and visually clean interface. Cards can contain subtasks, descriptions, files, deadlines with dynamic visual indicators, and are organized intuitively for maximum clarity. There is also a built in commenting system and activity tracking, making it easy for teams to stay aligned on what is happening and who is doing what.
+developer: dkorecko
+website: https://github.com/dkorecko/Ticky
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/dkorecko/Ticky
+support: https://github.com/dkorecko/Ticky/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ticky/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ticky/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-ticky/3.jpg
+releaseNotes: >-
+  Version 1.14.0 introduces several useful improvements: you can now reorder subtasks and assign users to them, while linking cards is easier thanks to a new search bar.
+
+
+  The board view now updates in real time, new info and feedback modals were added, and various UI refinements and bug fixes make everything smoother.
+dependencies:
+path: ""
+defaultUsername: "admin@ticky.com"
+defaultPassword: "abc123"

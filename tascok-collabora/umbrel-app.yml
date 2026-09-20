@@ -1,0 +1,47 @@
+manifestVersion: 1
+id: tascok-collabora
+name: Collabora Office
+tagline: An integrated solution to handling documents in Nextcloud
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-collabora/logo.png
+category: In Progress
+version: "24.04.12.3.1"
+port: 9980
+description: >-
+  📑 Collabora Office for Nextcloud is a comprehensive online office suite designed to bring the full power of document editing, collaboration, and management directly into your Nextcloud environment. Built on LibreOffice technology, it supports a wide range of file formats, including Microsoft Office (DOCX, XLSX, PPTX) and OpenDocument (ODT, ODS, ODP), ensuring compatibility and ease of use. With its real-time collaboration features, multiple users can work on the same documents, spreadsheets, or presentations simultaneously, making it an ideal solution for teams and organizations.
+
+
+  Collabora Office is self-hosted, giving you full control over your data while ensuring the highest standards of privacy and security. Whether you’re editing a complex spreadsheet, preparing a presentation, or drafting an important document, Collabora Office provides all the tools you need, right within Nextcloud. Its seamless integration creates a unified platform for productivity, making it easier than ever to stay organized and work efficiently. For individuals and businesses alike, Collabora Office is the perfect choice for a secure, open-source alternative to proprietary cloud-based office tools.
+
+
+  ⚙️ Setting Up Collabora Office and Integrating it with Nextcloud:
+
+
+  1. Check the Collabora Office Service: Open your browser and visit your Collabora Online server at the following URL: http://umbrel.local:9980. If the service is working correctly, you should see a page with a simple “OK” in the upper-left corner.
+
+
+  2. Access the Admin Interface: To manage the service, open the admin interface by visiting: http://umbrel.local:9980/browser/dist/admin/admin.html. Log in with "admin" as the username and "umbrel" as the password.
+
+
+  3. Integrate Collabora Office with Nextcloud: Log in to your Nextcloud server with your admin account. Go to Apps and select the Office & Text category. Install Collabora Online or Nextcloud Office (both are the same). Next, go to the Settings and scroll down on the left to find Nextcloud Office. Enter the Collabora Online server URL in the field: http://umbrel.local:9980. Save the settings. A green checkmark should appear.
+
+
+  4. Edit Documents: From now on, when you create a new document in Nextcloud, Collabora Online will launch automatically to allow you to edit it.
+
+
+  ⚠️ It is recommended to install the Cloudflare app from the Umbrel App Store for added security and performance. The app provides easy HTTPS encryption, DDoS protection, and caching, improving both speed and reliability for your Collabora Online and Nextcloud services.
+developer: Collabora Productivity
+website: https://www.collaboraonline.com/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/CollaboraOnline
+support: https://github.com/CollaboraOnline/online/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-collabora/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-collabora/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-collabora/3.jpg
+releaseNotes: >-
+  The latest release introduced a feature to hide the server signature, improving security by making it harder for attackers to identify the server’s configuration. Additionally, several bug fixes were applied, including resolving an issue where the font list in Impress showed no remote fonts, addressing slow saving of certain spreadsheets, and fixing a copy-paste issue when using Traefik.
+dependencies:
+path: ""
+defaultUsername: "admin"
+defaultPassword: "umbrel"

@@ -1,0 +1,25 @@
+version: "3.9"
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-swingmusic_server_1
+      APP_PORT: 1970
+      PROXY_AUTH_ADD: "false"
+
+  server:
+    image: ghcr.io/swingmx/swingmusic:v1.4.8@sha256:e6ccef307ebeadac967de0565b75e4906615ecfaac2a8f6bb82be13f111439d5
+    restart: on-failure
+    environment:
+      - PUID=1000
+      - PGID=1000
+    volumes:
+      - ${APP_DATA_DIR}/config:/config
+      - ${APP_DATA_DIR}/music:/music:rw
+
+  fix_permissions:
+    image: ghcr.io/swingmx/swingmusic:v1.4.8@sha256:e6ccef307ebeadac967de0565b75e4906615ecfaac2a8f6bb82be13f111439d5
+    container_name: tascok-swingmusic_fix_permissions
+    volumes:
+      - ${APP_DATA_DIR}/music:/music
+    entrypoint: ["sh", "-c", "chmod -R 777 /music"]
+    restart: "no"

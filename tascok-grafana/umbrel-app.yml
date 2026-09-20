@@ -1,0 +1,72 @@
+manifestVersion: 1
+id: tascok-grafana
+name: Grafana
+tagline: An advanced platform for logging, metrics, and application monitoring
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grafana/logo.png
+category: networking
+version: "11.3.0"
+port: 3384
+description: >-
+  Grafana is an open-source analytics and monitoring platform designed for visualizing time-series data. It enables users to create dynamic and customizable dashboards that help track and analyze metrics from various data sources in real-time. With its intuitive user interface and powerful features, Grafana is widely used across industries for monitoring applications, infrastructure, and business metrics.
+
+
+  Key Features and Use Cases:
+  
+
+  💾 Data Source Integration: Grafana supports a wide range of data sources, including Prometheus, InfluxDB, Graphite, Elasticsearch, MySQL, PostgreSQL, and more. This flexibility allows users to pull data from multiple systems and consolidate it into a single dashboard.
+
+
+  🎛️ Customizable Dashboards: Users can create visually appealing and interactive dashboards with various panel types, such as graphs, tables, heatmaps, and more. Each panel can be customized to display specific metrics, enabling users to tailor dashboards to their needs.
+
+
+  🚨 Alerting: Grafana provides robust alerting capabilities that notify users of potential issues in their data. Alerts can be configured based on specific conditions, and notifications can be sent via email, Slack, PagerDuty, and other channels.
+
+
+  🧩 Templating: Users can create reusable templates to filter and manipulate data dynamically. This feature is particularly useful for creating dashboards that need to display information for multiple entities or environments.
+
+
+  📌 Annotations: Grafana allows users to add annotations to graphs, providing context for specific events or changes in data. This feature helps teams understand the impact of deployments, incidents, or other significant events.
+
+
+  🔐 User Management and Permissions: Grafana includes user authentication and authorization features, enabling organizations to manage access to dashboards and data sources effectively. Role-based access control ensures that users have the appropriate permissions based on their responsibilities.
+
+
+  📦 Plugins and Extensions: Grafana has a rich ecosystem of plugins that extend its functionality. Users can find plugins for additional data sources, visualization types, and integrations with other tools.
+
+
+  📤 Sharing and Collaboration: Dashboards can be easily shared with team members or stakeholders, either through direct links or embedded in other applications. Grafana also supports snapshots of dashboards for sharing static views.
+
+
+  🚦 Infrastructure Monitoring: Track the health and performance of servers, databases, and network devices.
+
+  
+  📊 Application Performance Monitoring (APM): Visualize application metrics to identify bottlenecks and optimize performance.
+
+  
+  🧮 Business Metrics: Monitor key performance indicators (KPIs) and other business metrics to drive decision-making.
+
+  
+  📈 IoT Data Visualization: Analyze and visualize data from IoT devices in real-time.
+
+
+  Grafana is a powerful tool for anyone looking to gain insights into their data through visualization and monitoring. Its flexibility, ease of use, and extensive feature set make it a popular choice for organizations of all sizes. Whether you're monitoring infrastructure, applications, or business metrics, Grafana provides the tools you need to visualize and analyze your data effectively.
+
+
+  🗝️ Grafana's default login credentials are username: "admin" and password: "admin". Change the default password immediately after your first login to enhance security.
+developer: Grafana Labs
+website: https://grafana.com
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/grafana/grafana
+support: https://github.com/grafana/grafana/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grafana/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grafana/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grafana/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grafana/4.jpg
+releaseNotes: >-
+  The latest update includes significant enhancements in alerting, such as improved permissions management, streamlined linking to silence forms, and better handling of query visibility in simplified mode. Additionally, updates to authentication and migration support for Library Elements are notable. Bug fixes address issues with TimeRangeInput, permissions on external rule groups, and dashboard usability across different environments.
+dependencies:
+path: ""
+defaultUsername: "admin"
+defaultPassword: "admin"

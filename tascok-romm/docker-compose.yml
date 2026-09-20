@@ -1,0 +1,41 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-romm_app_1
+      APP_PORT: 8080
+      PROXY_AUTH_ADD: "false"
+
+  romm-db:
+    image: mariadb:10.11@sha256:79cf033abf9089f27dd4c3e831cbef83048a52d6f52783930b647c56224d95c3
+    environment:
+      - MARIADB_ROOT_PASSWORD=umbrel
+      - MARIADB_DATABASE=romm
+      - MARIADB_USER=admin
+      - MARIADB_PASSWORD=umbrel
+    volumes:
+      - ${APP_DATA_DIR}/data/db:/var/lib/mysql:rw
+    restart: on-failure
+
+  app:
+    image: rommapp/romm:3.9.0@sha256:478544fe537a7b4976f2196f4fe465cbdec931b269d8f5167f5c354f718559a7
+    environment:
+      - DB_HOST=romm-db
+      - DB_NAME=romm
+      - DB_USER=admin
+      - DB_PASSWD=umbrel
+      - ROMM_AUTH_SECRET_KEY=fcfb88c1bc9c80851e0195a7800ee10c54daae9cb93add1d77d18742f6dec8a5
+      - IGDB_CLIENT_ID= # Generate an ID and SECRET in IGDB
+      - IGDB_CLIENT_SECRET= # https://api-docs.igdb.com/#account-creation
+      - MOBYGAMES_API_KEY= # https://www.mobygames.com/info/api/
+      - STEAMGRIDDB_API_KEY= # https://github.com/rommapp/romm/wiki/Generate-API-Keys#steamgriddb
+    volumes:
+      - ${APP_DATA_DIR}/data/romm_resources:/romm/resources # Resources fetched from IGDB (covers, screenshots, etc.)
+      - ${APP_DATA_DIR}/data/romm_redis_data:/redis-data # Cached data for background tasks
+      - ${APP_DATA_DIR}/data/library:/romm/library # Your game library. Check https://github.com/rommapp/romm?tab=readme-ov-file#folder-structure for more details.
+      - ${APP_DATA_DIR}/data/assets:/romm/assets # Uploaded saves, states, etc.
+      - ${APP_DATA_DIR}/data/config:/romm/config # Path where config.yml is stored
+    restart: on-failure
+    depends_on:
+      - romm-db

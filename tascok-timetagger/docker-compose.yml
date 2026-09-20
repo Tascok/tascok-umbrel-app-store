@@ -1,0 +1,18 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-timetagger_app_1
+      APP_PORT: 80
+
+  app:
+    image: ghcr.io/almarklein/timetagger:v24.12.2@sha256:e2d1a8b8154449b495f7f527d206bcfff5935b5160cfe4e151fecb231b642dc9
+    restart: on-failure
+    environment:
+      - TIMETAGGER_BIND=0.0.0.0:80
+      - TIMETAGGER_DATADIR=/root/_timetagger
+      - TIMETAGGER_LOG_LEVEL=info
+      - TIMETAGGER_CREDENTIALS=umbrel:$$2a$$08$$fkvZkW6jRcqNmVXrHt9ljebqqqF6TyBPy/sjoRYMKCA/gb5IF26Fq
+    volumes:
+      - ${APP_DATA_DIR}/data:/root/_timetagger

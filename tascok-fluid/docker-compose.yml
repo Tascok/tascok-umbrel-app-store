@@ -1,0 +1,41 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-fluid_web_1
+      APP_PORT: 3000
+      PROXY_AUTH_ADD: "false"
+
+  web:
+    image: eibrahim/fluid-calendar:1.4.0@sha256:48097c0937c4c0528eaa89bf60aa889c74f15582b67da060af61f20589aedbb8
+    container_name: tascok-fluid_web_1
+    environment:
+      PORT: 3000
+      HOSTNAME: 0.0.0.0
+      NEXTAUTH_URL: http://${DEVICE_DOMAIN_NAME}:3411
+      NEXT_PUBLIC_APP_URL: http://${DEVICE_DOMAIN_NAME}:3411
+      NEXT_PUBLIC_SITE_URL: http://${DEVICE_DOMAIN_NAME}:3411
+      NEXTAUTH_SECRET: ${APP_SEED}
+      DATABASE_URL: postgresql://fluidcalendaruser:fluidcalendarpass@fluidcalendar_db_1:5432/fluidcalendar
+      NEXT_PUBLIC_ENABLE_SAAS_FEATURES: "false"
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: on-failure
+
+  db:
+    image: postgres:17@sha256:7f29c02ba9eeff4de9a9f414d803faa0e6fe5e8d15ebe217e3e418c82e652b35
+    container_name: fluidcalendar_db_1
+    healthcheck:
+      test: ["CMD", "pg_isready", "-q", "-d", "fluidcalendar", "-U", "fluidcalendaruser"]
+      timeout: 45s
+      interval: 10s
+      retries: 10
+    volumes:
+      - ${APP_DATA_DIR}/data/db:/var/lib/postgresql/data:rw
+    environment:
+      POSTGRES_DB: fluidcalendar
+      POSTGRES_USER: fluidcalendaruser
+      POSTGRES_PASSWORD: fluidcalendarpass
+    restart: on-failure

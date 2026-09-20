@@ -1,0 +1,49 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-sparkyfitness_sparkyfitness-web_1
+      APP_PORT: 80
+
+  sparkyfitness-db:
+    image: postgres:15-alpine@sha256:aa7b1ef595e165f0b780162e3a41edd0a7ed3ea672eb8a0f81615ba725e62bc5
+    environment:
+      POSTGRES_DB: sparky
+      POSTGRES_USER: sparkyuser
+      POSTGRES_PASSWORD: sparkypass
+    volumes:
+      - ${APP_DATA_DIR}/data/db:/var/lib/postgresql/data
+
+  sparkyfitness-server:
+    image: codewithcj/sparkyfitness_server:v0.16.1@sha256:5af5a38ccf2634f6b79b3423fefffe9cf0fe24385c8f8bec19f6128227c2b430
+    depends_on:
+      - sparkyfitness-db
+    restart: on-failure
+    environment:
+      SPARKY_FITNESS_LOG_LEVEL: INFO
+      SPARKY_FITNESS_APP_DB_USER: sparkyuser
+      SPARKY_FITNESS_APP_DB_PASSWORD: sparkypass
+      SPARKY_FITNESS_DB_USER: sparkyuser
+      SPARKY_FITNESS_DB_PASSWORD: sparkypass
+      SPARKY_FITNESS_DB_HOST: sparkyfitness-db
+      SPARKY_FITNESS_DB_NAME: sparky
+      SPARKY_FITNESS_DB_PORT: 5432
+      SPARKY_FITNESS_SERVER_PORT: 3010
+      TZ: Europe/Berlin
+      SPARKY_FITNESS_API_ENCRYPTION_KEY: CF7EAB85512DCD89FE14C64421FBE0F3CB34FCE1C5497BFE856E3D4D0DEF9906
+      JWT_SECRET: 9c3b7f0e6d6a4b6f1d2a8f0c4a5b6c7d8e9f0123456789abcdef0123456789ab
+      SPARKY_FITNESS_FRONTEND_URL: http://${DEVICE_DOMAIN_NAME}:8944
+      SPARKY_FITNESS_DISABLE_SIGNUP: "false"
+      SPARKY_FITNESS_FORCE_EMAIL_LOGIN: "true"
+    volumes:
+      - ${APP_DATA_DIR}/data/uploads:/app/SparkyFitnessServer/uploads
+      - ${APP_DATA_DIR}/data/backup:/app/SparkyFitnessServer/backup
+
+  sparkyfitness-web:
+    image: codewithcj/sparkyfitness:v0.16.1@sha256:f8fb91fec8cb82810a583caf9717237d2ca7fe1c5a48df62e180f3c4267ac4bf
+    depends_on:
+      - sparkyfitness-server
+    environment:
+      SPARKY_FITNESS_SERVER_HOST: sparkyfitness-server
+      SPARKY_FITNESS_SERVER_PORT: 3010

@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-centrifugo_server_1
+      APP_PORT: 8086
+      PROXY_AUTH_ADD: "false"
+
+  server:
+    image: centrifugo/centrifugo@sha256:4e9e33c842059c123910a82076d6ede830c46db78e76a7b1b32c83e4736e6931
+    command: centrifugo -c config.json --port=8086 --admin
+    volumes:
+    - ${APP_DATA_DIR}/config.json:/centrifugo/config.json

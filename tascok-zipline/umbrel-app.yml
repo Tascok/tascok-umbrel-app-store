@@ -1,0 +1,43 @@
+manifestVersion: 1
+id: tascok-zipline
+name: Zipline
+tagline: An advanced solution for seamless and secure file sharing
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-zipline/logo.png
+category: files & productivity
+version: "4.6.4"
+port: 3472
+description: >-
+  Zipline is an open-source, self-hosted file-sharing and upload server designed primarily for use with ShareX but also supports other upload methods. It allows users to upload and share files, screenshots, and text snippets via a custom domain while maintaining control over their data.
+
+
+  Zipline simplifies deployment with Docker and offers manual installation for customization. It supports various upload methods, including ShareX, cURL, Web UI, and a public API. Users can manage files efficiently with a web-based dashboard, delete files, or set expiration dates. Security features such as password protection, rate limiting, and API token authentication enhance data safety.
+
+
+  The platform enables temporary uploads with automatic deletion and provides storage options like local storage, Amazon S3, and Google Cloud Storage. Custom domains and short links offer greater personalization. Users can access upload statistics and logs to monitor usage.
+
+
+  Zipline is suitable for content creators, teams, and self-hosting enthusiasts who need a private, controlled file-sharing solution. Developers can leverage its extensible API for automation and integration. Installation via Docker is straightforward, with a quick setup process. For more details and configuration options, the official GitHub repository provides comprehensive guidance.
+
+
+  By offering a private, efficient, and highly customizable solution, Zipline ensures full control over uploaded data, making it an ideal alternative to centralized services.
+developer: diced
+website: https://zipline.diced.sh/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/diced/zipline
+support: https://github.com/diced/zipline/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-zipline/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-zipline/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-zipline/3.jpg
+releaseNotes: >-
+  This update includes:
+    - Enhanced File Management: Introduced nested folders, a new full-screen file viewer with keyboard navigation, and batch uploading for up to 500 files.
+    - Advanced Security & Access: Implemented PKCE for OIDC OAuth, a 15-minute access token system for password-protected files, and a more robust, OpenAPI 3.x compatible API.
+    - Admin & Performance Tools: Added a new admin dashboard with system activity charts and significantly optimized the loading speed for large datasets and file counts.
+
+  Full release notes can be found at https://github.com/diced/zipline/releases
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

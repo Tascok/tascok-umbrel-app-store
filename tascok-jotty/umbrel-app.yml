@@ -1,0 +1,43 @@
+manifestVersion: 1
+id: tascok-jotty
+name: Jotty
+tagline: A simple app for notes and checklists
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jotty/logo.png
+category: files & productivity
+version: "1.9.2"
+port: 3396
+description: >-
+  🟣 Jotty is a modern open source application that focuses on simplicity, clarity, and control when managing notes and checklists. It is designed for people who prefer an organized yet minimal approach to writing and planning. The goal of Jotty is to make the process of capturing ideas, structuring thoughts, and tracking tasks as seamless as possible. Its clean interface encourages focus while maintaining enough flexibility for both personal and professional use.
+
+
+  At its core, Jotty allows users to create and manage notes with a powerful rich text editor that supports formatting, hyperlinks, inline code, and syntax highlighting. This makes it suitable for anything from quick thoughts to technical documentation. Users can also create checklists and to-do lists that can be sorted and rearranged with ease, offering a clear overview of progress and priorities.
+
+
+  The app emphasizes structure without imposing restrictions. Notes and lists can be organized into categories, tagged for quick reference, and searched efficiently using a fast built-in search feature. The experience is intuitive and responsive, offering instant feedback and smooth navigation between notes and lists.
+
+
+  Beyond individual productivity, Jotty enables collaboration by allowing users to share notes or lists through links or restricted access. This makes it practical for teams, couples, or anyone who wants to coordinate projects or daily routines in a lightweight and elegant environment.
+
+
+  Jotty aims to bridge the gap between a rich writing tool and a structured task manager. It delivers a calm, minimal space for thinking, planning, and documenting without distractions, offering both creative freedom and precise organization in one unified workspace.
+developer: fccview
+website: https://jotty.page/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/fccview/jotty
+support: https://github.com/fccview/jotty/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jotty/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jotty/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jotty/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jotty/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jotty/5.jpg
+releaseNotes: >-
+  This version focuses on refining the overall experience with several important bug fixes and small but useful improvements. It resolves issues with OIDC group claims, filename handling, mobile text wrapping, and checkbox behavior, while finally preserving line breaks correctly.
+
+
+  A compact mode for notes, persistent user settings, and customizable themes and landing pages have also been introduced, making Jotty smoother and more personalized to use.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

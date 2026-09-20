@@ -1,0 +1,51 @@
+manifestVersion: 1
+id: tascok-flatnotes
+name: Flatnotes
+tagline: A self-hosted note-taking app with flat Markdown file storage
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-flatnotes/logo.png
+category: files & productivity
+version: "5.5.4"
+port: 8061
+description: >-
+  Flatnotes is an open-source note-taking app designed with a focus on simplicity and user-friendliness. It allows users to create and manage their notes in a clear and structured format, making it easy to organize thoughts and ideas. 
+  
+  
+  Here are some of the key features that make Flatnotes stand out:
+
+  
+  ✍️ Markdown Support: Flatnotes supports the Markdown format, which means users can easily format and structure their text, allowing for more expressive and visually appealing notes.
+  
+  
+  ✨ Simple User Interface: The app boasts a minimalist user interface that ensures quick and intuitive navigation, enabling users to focus on their notes without unnecessary distractions.
+ 
+  
+  🔄 Synchronization: Flatnotes can synchronize with various cloud services, providing users with access to their notes across different devices and ensuring that their information is always up to date.
+  
+  
+  🌐 Open Source: As an open-source project, Flatnotes invites developers to customize and extend its functionalities, fostering a collaborative environment for innovation and improvement.
+
+  
+  In summary, Flatnotes is an excellent choice for users looking for an uncomplicated and efficient solution for their note-taking needs. With its emphasis on ease of use and flexibility, it caters to anyone from casual users to developers seeking a straightforward tool for managing their notes.
+
+
+  🔑 The initial username is "admin" and the password is "umbrel".
+
+developer: Adam Dullage 
+website: https://demo.flatnotes.io/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/dullage/flatnotes
+support: https://github.com/dullage/flatnotes/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-flatnotes/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-flatnotes/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-flatnotes/3.jpg
+releaseNotes: >-
+  Version v5.5.4 updates both Python and JavaScript dependencies and improves authentication handling so the app correctly detects login requirements on load. 
+  
+  
+  Additionally, local drafts are now cleared when logging out or closing the browser without selecting “Remember Me.”
+dependencies:
+path: ""
+defaultUsername: "admin"
+defaultPassword: "umbrel"

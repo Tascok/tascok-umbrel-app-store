@@ -1,0 +1,43 @@
+manifestVersion: 1
+id: tascok-timetagger
+name: TimeTagger
+tagline: An open source time tracker
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-timetagger/logo.png
+category: files & productivity
+version: "24.12.2"
+port: 8905
+description: >-
+  ⏱️ TimeTagger is a modern and privacy-friendly time tracking application designed for individuals and freelancers who value simplicity, control, and flexibility. It allows users to log their activities through a tag-based system instead of rigid project structures. This tag approach offers an intuitive and adaptable way to categorize time entries, making it easy to track what you work on throughout the day.
+
+
+  At the core of TimeTagger is a visually rich and interactive timeline interface. Users can scroll through their time entries with natural gestures and see at a glance how their time is distributed across various tasks and activities. The timeline is not only a visual aid but also an editing surface, allowing users to quickly adjust, move, or delete entries without switching views.
+
+
+  TimeTagger supports both short-term focus techniques and long-term time management. Built-in tools such as a Pomodoro timer help users maintain concentration during work sessions, while goal tracking features encourage consistent progress toward daily, weekly, or monthly targets. The application also includes export options, enabling users to generate reports in PDF or CSV format for personal reflection or client invoicing.
+
+
+  One of the standout features of TimeTagger is its strong focus on privacy and transparency. It is fully open source and released under the GPL license. Users can choose to host the app themselves, either locally or on their own server using Docker or a Python environment. For those who prefer convenience, TimeTagger also offers a hosted version with an affordable pricing model and no invasive tracking. Authentication is handled through Auth0, and the hosted service uses no cookies unless required for login.
+
+
+  The backend is written in Python, while the frontend uses a lightweight JavaScript framework called PScript. Together, they deliver a smooth and responsive experience across platforms. TimeTagger has gained a loyal following among developers, digital nomads, and privacy-conscious professionals who appreciate its independence from large commercial platforms.
+
+
+  In summary, TimeTagger combines a clean user experience with a deep respect for user autonomy. It is an ideal solution for people who want to track their time in a meaningful way, without sacrificing privacy or relying on overly complex tools.
+developer: Almar Klein
+website: https://timetagger.app/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/almarklein/timetagger/
+support: https://github.com/almarklein/timetagger//issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-timetagger/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-timetagger/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-timetagger/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-timetagger/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-timetagger/5.jpg
+releaseNotes: >-
+  TimeTagger version 24.12.2 is a security update that adds a localhost authentication check and changes the default server binding from 0.0.0.0:80 to 127.0.0.1:8080.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

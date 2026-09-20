@@ -1,0 +1,34 @@
+manifestVersion: 1
+id: tascok-rustpad
+name: Rustpad
+tagline: An easy solution for real-time collaborative writing
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-rustpad/logo.png
+category: developer tools
+version: "0.1.0"
+port: 3038
+description: >-
+  📝 Rustpad is an open-source, real-time collaborative writing platform designed for simplicity and performance. Built with the efficiency of Rust, it enables seamless, fast, and resource-light collaboration on documents. Whether you're working with a team, collaborating with classmates, or just sharing ideas with a group, Rustpad allows multiple users to edit a document simultaneously, with changes reflected instantly.
+
+
+  What sets Rustpad apart is its ease of use—there’s no need for sign-ups, downloads, or complex setups. Simply create a document, share the link, and start working together. It’s perfect for brainstorming sessions, team projects, writing workshops, or casual collaboration. The platform provides a clutter-free interface, making it easy to focus on what matters most: the content.
+
+
+  Rustpad’s open-source nature also means it’s customizable and can be adapted to suit various use cases, from professional collaborations to personal note-taking. Whether you're drafting proposals, planning a project, or simply taking notes, Rustpad offers a simple, fast, and reliable solution for all your collaborative writing needs.
+
+developer: Eric Zhang
+website: https://rustpad.io/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/ekzhang/rustpad
+support: https://github.com/ekzhang/rustpad/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-rustpad/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-rustpad/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-rustpad/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-rustpad/4.jpg
+releaseNotes: >-
+  Updated dependency to the latest stable version, improving performance and security. Cleaned up versioning and removed legacy code, resulting in a more efficient and streamlined user experience.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

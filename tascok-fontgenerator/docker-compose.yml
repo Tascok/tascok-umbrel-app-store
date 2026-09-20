@@ -1,0 +1,15 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-fontgenerator_app_1
+      APP_PORT: 3000
+
+  app:
+    image: seadfeng/font-generator:0.3.6@sha256:9e26afe3d432344d0248f20100f45980fb55b39c8d864c259ff345b5b5ee83fa
+    restart: on-failure
+    mem_limit: 4g
+    cpu_shares: 768
+    environment:
+      NODE_ENV: production

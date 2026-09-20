@@ -1,0 +1,43 @@
+manifestVersion: 1
+id: tascok-teable
+name: Teable
+tagline: An AI no-code database
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-teable/logo.png
+category: developer tools
+version: "1.8.0"
+port: 8599
+description: >-
+  Teable is a powerful no-code database platform designed to combine the flexibility of a spreadsheet interface with the robustness of a real relational database. At its core, it runs on PostgreSQL, which allows users to build scalable and performant applications without writing any backend code. The interface is inspired by tools like Airtable but goes much further by offering a fully relational data structure, making it suitable for both simple use cases and complex enterprise-grade data workflows.
+
+
+  One of the standout features of Teable is its real-time collaboration environment. Users can edit data simultaneously without needing to refresh the page, and changes are reflected instantly across all connected clients. The platform is optimized for performance and can handle millions of records with minimal latency, offering fast filtering, sorting, and searching across large datasets. It also supports advanced data types, formulas, and relational fields such as links between tables, lookups, and rollups, all within an intuitive interface that feels familiar to spreadsheet users.
+
+
+  Teable is built to be developer-friendly as well. While it is entirely usable without code, it also supports direct SQL queries and integrates seamlessly with popular business intelligence tools. This makes it a flexible choice for teams that need both ease of use and technical depth. On the backend, Teable does not rely on proprietary storage. Instead, it connects directly to your PostgreSQL database, allowing for full data ownership, transparent infrastructure, and the ability to work with external tools as needed.
+
+
+  Teable bridges the gap between user-friendly frontends and enterprise-grade databases, empowering teams to design, manage, and automate their data without sacrificing performance, scalability, or flexibility.
+developer: Teable, Inc.
+website: https://teable.io/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/teableio/teable
+support: https://github.com/teableio/teable/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-teable/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-teable/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-teable/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-teable/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-teable/5.jpg
+releaseNotes: >-
+  Version 1.8.0 includes several important bug fixes such as resolving signup invitation issues, search errors in person view, and crashes related to automation and record deletion. 
+  
+  
+  New features were added, including an enterprise adapter, support for field duplication, API endpoints for collaborators, template support, and AI field configuration. 
+  
+  
+  Additionally, performance improvements and UI optimizations were made, along with various minor corrections and enhancements to improve overall stability and usability.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

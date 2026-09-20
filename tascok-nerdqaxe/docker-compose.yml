@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-nerdqaxe_web_1
+      APP_PORT: 3000
+      PROXY_AUTH_ADD: "false"
+  web:
+    image: dennysubke/nerdqaxe-web-flasher:latest@sha256:6f1c9b20c5342473660e535c6a10f731b81a4c02bd767ad42ad5bb31df7b5b27
+    restart: on-failure

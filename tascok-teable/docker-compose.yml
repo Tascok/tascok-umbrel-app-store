@@ -1,0 +1,67 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-teable_app_1
+      APP_PORT: 3000
+
+  app:
+    image: ghcr.io/teableio/teable-ee:94e0f6ba50a53654c2c36596387956ad39af95f6@sha256:50fb6248d66c4fb5d06fb786605e89fe76b5fb13a992f6f1fbb0d517b3dfd530
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data/assets:/app/.assets:rw
+    environment:
+      - NEXT_ENV_IMAGES_ALL_REMOTE=true
+      - POSTGRES_PASSWORD=G7xP4zQw9NfK
+      - REDIS_PASSWORD=R3d1s$S3cret!2025
+      - SECRET_KEY=S3cR3tK3y_2025_Te@ble!
+      - PUBLIC_ORIGIN=http://${DEVICE_DOMAIN_NAME}:8599
+      - POSTGRES_HOST=db
+      - POSTGRES_PORT=5432
+      - POSTGRES_DB=teable
+      - POSTGRES_USER=teable
+      - REDIS_HOST=cache
+      - REDIS_PORT=6379
+      - REDIS_DB=0
+      - PRISMA_DATABASE_URL=postgresql://teable:G7xP4zQw9NfK@db:5432/teable
+      - BACKEND_CACHE_PROVIDER=redis
+      - BACKEND_CACHE_REDIS_URI=redis://default:R3d1s$S3cret!2025@cache:6379/0
+    depends_on:
+      db:
+        condition: service_healthy
+      cache:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000/health"]
+      start_period: 5s
+      interval: 5s
+      timeout: 3s
+      retries: 3
+
+  db:
+    image: postgres:15.13@sha256:e652befe0cc7d0e312828d71522aed8ed3762d6b71b6a5a823821ff06c186a20
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data/db:/var/lib/postgresql/data:rw
+    environment:
+      - POSTGRES_DB=teable
+      - POSTGRES_USER=teable
+      - POSTGRES_PASSWORD=G7xP4zQw9NfK
+    healthcheck:
+      test: ["CMD-SHELL", "sh -c 'pg_isready -U teable -d teable'"]
+      interval: 10s
+      timeout: 3s
+      retries: 3
+
+  cache:
+    image: redis:8.0.2@sha256:1b835e5a8d5db58e8b718850bf43a68ef5a576fc68301fd08a789b20b4eecb61
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data/cache:/data:rw
+    command: redis-server --appendonly yes --requirepass R3d1s$S3cret!2025
+    healthcheck:
+      test: ["CMD", "redis-cli", "-a", "R3d1s$S3cret!2025", "--raw", "incr", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 3

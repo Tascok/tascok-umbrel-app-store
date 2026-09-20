@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-vito_app_1
+      APP_PORT: 80
+
+  app:
+    image: globusgroup/vito:0.0.4@sha256:29b962dfd34422c3dccc6488e968e2bcb235f220d7354245ab704fa7e0d8e318
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data:/var/www/html/storage
+      - ${APP_DATA_DIR}/env/.env:/var/www/html/.env

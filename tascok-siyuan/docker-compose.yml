@@ -1,0 +1,23 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-siyuan_app_1
+      APP_PORT: 6806
+      PROXY_AUTH_ADD: "false"
+
+  app:
+    image: b3log/siyuan:v3.1.28@sha256:69e167eff47566e6f69e717df37b282d62e979751e0301526c989cb32cb9c17b
+    healthcheck:
+      test: ["CMD-SHELL", "nc -z 127.0.0.1 6806 || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 90s
+    command: ['--workspace=/siyuan/workspace/', '--accessAuthCode=umbrel']
+    security_opt:
+      - no-new-privileges:true
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data:/siyuan/workspace:rw

@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-wakapi_app_1
+      APP_PORT: 3000
+  app:
+    image: ghcr.io/muety/wakapi:2.12.2@sha256:fbffc8b3148334cd295a757de4f9ae2507126e2df4e41db285dc991c07f60318
+    environment:
+      - WAKAPI_PASSWORD_SALT=$SALT
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data/wakapi-data:/app/data

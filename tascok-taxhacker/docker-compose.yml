@@ -1,0 +1,40 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-taxhacker_app_1
+      APP_PORT: 7331
+
+  app:
+    image: ghcr.io/vas3k/taxhacker:0.6.0@sha256:2f4be3ae985312c7f9ee2a824fb799b102aed50f50a86e7de44f75710f8454e6
+    environment:
+      NODE_ENV: production
+      SELF_HOSTED_MODE: "true"
+      UPLOAD_PATH: /app/data/uploads
+      DATABASE_URL: postgresql://postgres:postgres@postgres:5432/taxhacker
+    volumes:
+      - ${APP_DATA_DIR}/data/app_data:/app/data
+    restart: on-failure
+    depends_on:
+      - postgres
+    logging:
+      driver: "local"
+      options:
+        max-size: "100M"
+        max-file: "3"
+
+  postgres:
+    image: postgres:17.5@sha256:4d89c904835259bc58876520e56267ca07a4ebd6a027f7814bbbf91b50d685be
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: taxhacker
+    volumes:
+      - ${APP_DATA_DIR}/data/pgdata:/var/lib/postgresql/data
+    restart: on-failure
+    logging:
+      driver: "local"
+      options:
+        max-size: "100M"
+        max-file: "3"

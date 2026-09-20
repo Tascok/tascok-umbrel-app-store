@@ -1,0 +1,41 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-hedgedoc_web_1
+      APP_PORT: 3000
+
+  web:
+    image: quay.io/hedgedoc/hedgedoc@sha256:25374344ce4cbf4e372fc29b5df2675ae981cad8512beda9088ecf94c6cfc5ba
+    user: "1000:1000"
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data/uploads:/hedgedoc/public/uploads
+    environment:
+      - CMD_DOMAIN=umbrel.local:3456
+      - CMD_URL_ADDPORT=false
+      - CMD_PROTOCOL_USESSL=false
+      - CMD_PORT=3000
+      - CMD_ALLOW_ANONYMOUS=true
+      - CMD_ALLOW_ANONYMOUS_EDITS=true
+      - CMD_DEFAULT_PERMISSION=public
+      - CMD_ALLOW_EMAIL_REGISTER=true
+      - CMD_ALLOW_GRAVATAR=true
+      - CMD_SESSION_SECRET=${APP_SEED}
+      - CMD_DB_URL=postgres://admin:umbrel@db:5432/umbrel_hedgedoc
+      - NODE_ENV=production
+    depends_on:
+      - db
+
+  db:
+    image: postgres:17.5@sha256:4d89c904835259bc58876520e56267ca07a4ebd6a027f7814bbbf91b50d685be
+    user: "1000:1000"
+    environment:
+      - TZ=Europe/Berlin
+      - POSTGRES_DB=umbrel_hedgedoc
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=umbrel
+    volumes:
+      - ${APP_DATA_DIR}/data/db:/var/lib/postgresql/data:rw
+    restart: on-failure

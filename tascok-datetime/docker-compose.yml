@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-datetime_app_1
+      APP_PORT: 3000
+
+  app:
+    image: ghcr.io/airyland/datetime.app:latest@sha256:5f0af2d44a71c1c03c66291d53c43f8e49c8daa665a835b08414412da33ea042
+    restart: on-failure

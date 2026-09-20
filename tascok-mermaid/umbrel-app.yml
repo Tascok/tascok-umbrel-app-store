@@ -1,0 +1,30 @@
+manifestVersion: 1
+id: tascok-mermaid
+name: Mermaid Live Editor
+tagline: A live editor for instant Mermaid diagram visualization
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mermaid/logo.png
+category: developer tools
+version: "11.2.1"
+port: 9084
+description: >-
+  🧜‍♀️ The Mermaid Live Editor is a web-based tool that facilitates the creation, preview, and editing of diagrams written in Mermaid syntax. Mermaid is a JavaScript-based syntax that allows users to generate complex diagrams such as flowcharts, sequence diagrams, Gantt charts, class diagrams, and entity-relationship diagrams directly from text. The Mermaid Live Editor provides a real-time preview, which updates as you type, making it easy to see how changes in the Mermaid code affect the output diagram. This feature is especially valuable for users who are integrating diagrams into documentation, presentations, or technical documents, as it allows for rapid iteration and fine-tuning.
+
+
+  In addition to the live preview, the editor includes an export feature, enabling users to download their diagrams as images or SVGs, which can be easily embedded into various document types or shared with others. The tool supports syntax highlighting, error checking, and also offers examples and templates to help users get started quickly. It’s widely used by developers, technical writers, and educators who want to add clear, visual elements to their content without relying on graphic design software.
+
+developer: Mermaid Chart Inc.
+website: https://mermaid.live/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/mermaid-js/mermaid-live-editor
+support: https://github.com/mermaid-js/mermaid-live-editor/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mermaid/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mermaid/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-mermaid/3.jpg
+releaseNotes: >-
+  These updates include version bumps for multiple dependencies: production dependencies mermaid and rollup, along with development dependencies vite-svg-loader, standard, and vite, to incorporate stability and security improvements in the latest versions
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

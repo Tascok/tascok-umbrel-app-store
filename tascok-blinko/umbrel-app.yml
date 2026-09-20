@@ -1,0 +1,34 @@
+manifestVersion: 1
+id: tascok-blinko
+name: Blinko
+tagline: An AI-powered hub for your ideas and notes
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-blinko/logo.png
+category: files & productivity
+version: "0.38.5"
+port: 1111
+description: >-
+  😉 Blinko is an open-source application that combines note-taking, microblogging, pastebin functionality, task management, and AI-powered features in a self-hosted environment. The platform allows users to quickly and efficiently capture their thoughts, with full Markdown support for easy formatting. With the integration of AI models like OpenAI or Ollama, content can be intelligently searched and organized.
+
+
+  The application provides a flexible way to manage notes, which can remain private or be shared publicly. Regular automatic backups and seamless data import and export ensure that users always retain control over their content. Since Blinko is self-hosted, users maintain full data sovereignty and can rely on a secure environment without commercial restrictions.
+
+
+  Built on Next.js, Blinko is optimized for speed and efficiency, offering a responsive and modern user experience. As an open-source project, it encourages collaboration and is available for free without hidden fees. It is designed for anyone looking for a powerful and customizable solution for digital organization.
+developer: Blinko
+website: https://blinko-demo.vercel.app/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/blinko-space/blinko
+support: https://github.com/blinko-space/blinko/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-blinko/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-blinko/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-blinko/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-blinko/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-blinko/5.jpg
+releaseNotes: >-
+  Version 0.38.5 fixed an issue with retrieving the global configuration.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

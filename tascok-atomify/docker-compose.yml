@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-atomify_app_1
+      APP_PORT: 3000
+
+  app:
+    image: ghcr.io/bluegoosemedia/atmoify:latest@sha256:f486b72a8c136ecea2b913fbabf710c5d318b5867295a852c4b5f6c1b4bb489e
+    restart: on-failure
+    environment:
+      - NODE_ENV=production

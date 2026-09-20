@@ -1,0 +1,35 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-quotysco_web_1
+      APP_PORT: 1337
+
+  db:
+    image: mariadb:10.11@sha256:79cf033abf9089f27dd4c3e831cbef83048a52d6f52783930b647c56224d95c3
+    environment:
+      MYSQL_ROOT_PASSWORD: "quotysco"
+      MYSQL_DATABASE: "quotysco"
+      MYSQL_USER: "quotysco"
+      MYSQL_PASSWORD: "quotysco"
+    volumes:
+      - ${APP_DATA_DIR}/data/db:/var/lib/mysql:rw
+    restart: on-failure
+
+  web:
+    depends_on:
+      - db
+    image: interaapps/quotysco:2.0.0@sha256:ede8f960e07a1b42121f501b9703d4eeed668d24bfdca89a1a402b7d07673433
+    environment:
+      HTTP_SERVER_PORT: 1337
+      HTTP_SERVER_CORS: "*"
+      DATABASE_DRIVER: mysql
+      DATABASE_NAME: quotysco
+      DATABASE_USER: quotysco
+      DATABASE_PASSWORD: quotysco
+      DATABASE_HOST: db
+      #DATABASE_PORT: 3306
+      SERVER_NAME: "http://umbrel.local:1337"
+      #IA_OAUTH2_CLIENT_ID: 
+      #IA_OAUTH2_CLIENT_SECRET: 

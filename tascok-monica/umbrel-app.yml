@@ -1,0 +1,40 @@
+manifestVersion: 1
+id: tascok-monica
+name: Monica
+tagline: An open-source CRM for personal relationships
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-monica/logo.png
+category: social
+version: "4.1.2"
+port: 8559
+description: >-
+  🐼 Monica is an open-source personal relationship management (CRM) tool designed to help individuals organize and nurture their personal connections in a thoughtful and intentional way. Unlike traditional CRMs focused on business or sales, Monica is built to support the relationships that matter most in everyday life, from close friends and family to colleagues and acquaintances. It acts as a private, digital assistant that helps users remember important details, ensuring meaningful connections remain strong over time.
+
+
+  Users can create detailed profiles for each contact, capturing everything from basic information to more personal notes like hobbies, favorite foods, or life events. It provides a way to log conversations, track past meetings, and document significant moments, helping users keep a rich history of their relationships. This makes it easy to recall the last time they spoke with someone, what they talked about, or what gift they gave for a special occasion, making each interaction more thoughtful and personal.
+
+
+  Monica also offers practical features such as reminders and task tracking, helping users stay on top of important dates and commitments. Whether it’s a prompt to check in with an old friend, remember an anniversary, or follow up on a promise, the system supports users in staying connected. It also allows relationships between contacts to be mapped, making it clear how people are connected, like noting that two friends are siblings or that a coworker introduced them to a new client.
+
+
+  Privacy is a key focus of Monica. As a self-hosted platform, it gives users full control over their data, ensuring sensitive information remains secure without relying on third-party services. It can run on a personal server or through Docker, offering flexibility and customization for those who prefer a more private setup. For those looking for a quicker start, an official hosted version is available as well.
+
+
+  Monica goes beyond being a simple contact manager. It supports the small, thoughtful gestures that make relationships stronger, helping users remember the little things — like a friend’s favorite coffee order, a relative’s upcoming surgery, or a colleague’s travel plans — that show genuine care and empathy. Whether someone wants to stay in touch with a large extended family, manage a growing professional network, or simply become more intentional about their personal connections, Monica provides an organized, intuitive way to prioritize the people who matter most.
+developer: Monica
+website: https://www.monicahq.com/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/monicahq/monica
+support: https://github.com/monicahq/monica/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-monica/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-monica/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-monica/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-monica/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-monica/5.jpg
+releaseNotes: >-
+  Version 4.1.2 fixes a bug where updating a contact listing incorrectly modified the "updated_at" date for all contacts.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

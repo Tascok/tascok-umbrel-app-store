@@ -1,0 +1,15 @@
+# ⚠️ Umbrel app proxy doesn't work with this app.
+
+version: "3.7"
+
+services:
+  app:
+    image: ghcr.io/browserless/chromium:v2.33.0@sha256:a7ef061130e593b2a8e03c3b1c379ef0cbca95f857ae532831d66ba6a933cd72
+    restart: always
+    ports:
+      - "3353:3000"
+    environment:
+      - MAX_CONCURRENT_SESSIONS=10
+      - ENABLE_DEBUGGER=true
+    volumes:
+      - ${APP_DATA_DIR}/data:/data

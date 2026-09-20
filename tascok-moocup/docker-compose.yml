@@ -1,0 +1,19 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-moocup_app_1
+      APP_PORT: 80
+
+  app:
+    image: jellydeck/moocup:v1.0.0@sha256:c7d6c99977bc016c146c785250256f0bca7f0203acef4837fb2dbda1c9b9cf22
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data:/data
+    healthcheck:
+      test: ["CMD-SHELL", "nc -z 127.0.0.1 80 || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 90s

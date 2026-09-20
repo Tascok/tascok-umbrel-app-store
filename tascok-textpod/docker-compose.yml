@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-textpod_web_1
+      APP_PORT: 3000
+  web:
+    image: freetonik/textpod:latest@sha256:b69b978f4df22b204f14dcb7a5ebd11773b52d13602941d42002fa94e0575a41
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/notes:/app/notes

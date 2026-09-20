@@ -1,0 +1,40 @@
+manifestVersion: 1
+id: tascok-statping-ng
+name: Statping NG
+tagline: A web and app status monitoring tool
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-statping-ng/logo.png
+category: networking
+version: "0.93.0"
+port: 8722
+description: >-
+  🟢 Statping NG is a modern open source status page and monitoring tool designed for self-hosting. It is the actively maintained fork of the original Statping project, developed in Go for backend performance and using Vue.js for a sleek frontend experience. Its primary purpose is to help individuals and organizations keep track of the availability and response time of various services, including HTTP, TCP, UDP, ICMP, and gRPC endpoints. It runs efficiently on a wide range of systems, from full servers to lightweight environments like Raspberry Pi, and is well-suited for both small personal projects and larger infrastructures.
+
+
+  Statping NG offers an intuitive web interface where users can view the live status of services, check uptime history, analyze response metrics, and receive detailed logs of outages and incidents. It includes support for alert notifications through many channels such as email, Slack, Discord, Telegram, Twilio, and custom webhooks. The system is designed to be highly configurable, allowing you to adapt its appearance and functionality to match your brand or workflow. Customization is possible through SASS variables and a flexible settings dashboard that simplifies setup without requiring deep technical knowledge.
+
+
+  One of the standout features is the ability to export metrics to Prometheus, making it easier to integrate Statping NG into a broader observability stack. It also provides a companion mobile app for Android and iOS, which allows you to receive push notifications and monitor systems on the go. Deployment is straightforward, with official Docker images available that support SQLite by default and can be extended to work with PostgreSQL or MySQL for more robust data handling.
+
+
+  Despite its advantages, Statping NG has seen sporadic development activity and there are concerns within the community about unresolved bugs and security issues. For example, a known vulnerability allows unauthenticated access to sensitive API endpoints if the application is not properly secured. Therefore, it is strongly recommended to run it behind a reverse proxy with authentication and restrict public access to the backend API unless necessary.
+
+
+  Overall, Statping NG is a powerful tool for visualizing service uptime and presenting a professional status page. However, due diligence is advised before using it in production environments. It remains a popular choice among enthusiasts and developers who appreciate its feature set and the flexibility it offers, especially when paired with proper safeguards.
+developer: Statping NG
+website: https://statping-ng.github.io/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/statping-ng/statping-ng
+support: https://github.com/statping-ng/statping-ng/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-statping-ng/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-statping-ng/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-statping-ng/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-statping-ng/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-statping-ng/5.jpg
+releaseNotes: >-
+  Version 0.93.0 fixes broken check-ins for static services and improves overall reliability.
+dependencies:
+path: ""
+defaultUsername: "admin"
+defaultPassword: "admin"

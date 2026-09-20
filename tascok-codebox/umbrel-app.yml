@@ -1,0 +1,38 @@
+manifestVersion: 1
+id: tascok-codebox
+name: Pastefy CodeBox
+tagline: An efficient tool for sharing and storing code
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-codebox/logo.png
+category: developer tools
+version: "1.0.12"
+port: 9996
+description: >-
+  Pastefy Codebox is a powerful and flexible feature of the Pastefy platform, specifically designed for sharing code in a secure, structured, and readable manner. Pastefy, as a platform for quick text sharing, takes it a step further with the Codebox, providing a dedicated environment for sharing code snippets.
+
+
+  The Codebox supports a wide range of programming languages, including Python, JavaScript, HTML, CSS, and many more. With syntax highlighting, the code is visually enhanced, making key language constructs like variables, functions, or keywords stand out in different colors. This not only improves readability but also helps identify errors more quickly, as the code is clearly structured.
+
+
+  Another practical feature of Pastefy Codebox is its customizability. Users can choose how their code is shared: they can generate links that are publicly accessible, or create private, password-protected links to share the code only with selected individuals. Additionally, an expiration date can be set for each posted snippet, meaning that the code will be automatically deleted after a certain period of time. This is ideal when sharing temporary information or solutions without worrying about long-term storage.
+
+
+  Pastefy Codebox also offers versioning, allowing users to view or restore previous versions of a code snippet when necessary. This feature is particularly useful when code is edited over time or collaboratively used by multiple people.
+
+
+  Overall, Pastefy Codebox is an extremely practical and user-friendly tool for developers looking for a secure and organized way to share their code, whether for collaboration, troubleshooting, or simply exchanging ideas quickly. It combines convenience, security, and flexibility, making it a valuable resource for anyone who regularly works with code.
+developer: InteraApps
+website: https://box.pastefy.app/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/interaapps/pastefy-codebox
+support: https://github.com/interaapps/pastefy-codebox/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-codebox/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-codebox/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-codebox/3.jpg
+releaseNotes: >-
+  Version 1.0.12-alpha includes a fix for mobile bugs.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

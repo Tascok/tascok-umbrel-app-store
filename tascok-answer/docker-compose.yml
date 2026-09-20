@@ -1,0 +1,20 @@
+version: '3.9'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-answer_web_1
+      APP_PORT: 80
+      PROXY_AUTH_ADD: "false"
+
+  web:
+    image: apache/answer:2.0.1@sha256:406e742c72ac7f49056fd39930bcbd812933bfadf40636de0a047d9c78468cf1
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/answer-data:/data
+    healthcheck:
+      test: ['CMD', 'curl', '-f', 'http://localhost:80']
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s

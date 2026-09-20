@@ -1,0 +1,49 @@
+manifestVersion: 1
+id: tascok-lucky
+name: Lucky
+tagline: An intuitive network management solution with powerful features
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-lucky/logo.png
+category: networking
+version: "2.15.7"
+port: 16601
+description: >-
+  Lucky is a versatile network management software originally developed by engineers as an alternative to Socat, first implemented on the Xiaomi AX6000 router. The software aims to provide users with an affordable and user-friendly solution for managing their network infrastructure, especially for Linux-embedded devices. Lucky simplifies the use of network security features and enables the redirection of public IPv6 addresses to Intranet IPv4 addresses, which is particularly useful for households or small businesses with specific networking needs.
+
+
+  The core program of Lucky is developed in Golang, which gives the software high efficiency, stability, and cross-platform compatibility. For the frontend, Lucky uses Vue 3.2, ensuring a user-friendly and responsive interface. The system also utilizes a frontend-backend separation architecture, allowing third-party services like OpenToken to easily integrate APIs.
+
+
+  One of Lucky's core features is port forwarding, which allows users to forward TCP/UDP traffic from public IPv6 addresses to internal IPv4 addresses. Forwarding rules can be flexibly created, edited, and activated or deactivated based on a schedule. Additional security is provided by the integration of security modes such as Whitelist and Blacklist, which allow users to control access and only permit authorized connections.
+
+
+  Another notable feature is the support for Dynamic DNS (DDNS), enabling users to integrate various DNS providers such as Cloudflare, GoDaddy, and many others. Through customizable callback and webhook functions, users can automate and optimize their DNS settings. Additionally, Lucky offers comprehensive web service features, including support for reverse proxy, URL forwarding, and IP whitelist/blacklist functionality. These features allow for secure and user-friendly management of web applications and easy integration with external services.
+
+
+  Lucky goes even further by allowing intranet penetration without the need for a public IPv4 address, which is particularly useful for networks with NAT configurations. Furthermore, the software enables remote control of devices and integration with Internet of Things (IoT) platforms, allowing users to control their devices remotely. Task automation is also supported, enabling users to visually create and manage scheduled tasks.
+
+
+  For users dealing with certificate management, Lucky provides the ability to automatically apply for and renew ACME certificates, offering an easy and secure solution for SSL/TLS encryption. Finally, Lucky also offers a solution for managing network storage by integrating various file services such as WebDAV and FTP, allowing users to integrate additional storage resources into their infrastructure.
+
+
+  With this combination of versatile features, user-friendliness, and continuous development, Lucky has become a trusted tool for managing and optimizing network infrastructures. It caters to both experienced developers and less technical users looking for an easy way to manage and secure their network resources.
+developer: gdy666
+website: https://lucky666.cn
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/gdy666/lucky
+support: https://lucky666.cn/docs/problemset
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-lucky/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-lucky/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-lucky/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-lucky/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-lucky/5.jpg
+releaseNotes: >-
+  The v2.15.7 update improves port forwarding by preventing circular redirects, enhances DDNS functionality with fixes for Cloudflare and domain checks, and updates the default STUN server list. 
+  
+  
+  SSL certificate matching logic has been refined for non-direct public network environments, while web service optimizations include support for Encrypted Client Hello (ECH) and better connection management. Overall, the update fixes bugs and improves system stability and performance.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

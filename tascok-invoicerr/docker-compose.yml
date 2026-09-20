@@ -1,0 +1,31 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-invoicerr_app_1
+      APP_PORT: 80
+
+  app:
+    image: ghcr.io/impre-visible/invoicerr:v1.0.8@sha256:e387a1fc6441947c639f0b979127b96851275a4ab2efd166873c58d87f18f730
+    restart: on-failure
+    environment:
+      - DATABASE_URL=postgresql://invoicerr:StrongPassw0rd!@tascok-invoicerr_db_1:5432/invoicerr_db
+      - APP_URL=http://${DEVICE_DOMAIN_NAME}:8092
+      # SMTP_HOST=
+      # SMTP_USER=
+      # SMTP_FROM=
+      # SMTP_PASSWORD=
+      - JWT_SECRET=2MIp0nAHT5Q2Q+04bLSdIb1Rwq3Pi71l3NLE+XcDZ4Gp7PLMdRs2bAlrxrA3U+0q
+    depends_on:
+      - db
+
+  db:
+    image: postgres:14.18@sha256:c0aab7962b283cf24a0defa5d0d59777f5045a7be59905f21ba81a20b1a110c9
+    restart: on-failure
+    environment:
+      POSTGRES_USER: invoicerr
+      POSTGRES_PASSWORD: StrongPassw0rd!
+      POSTGRES_DB: invoicerr_db
+    volumes:
+      - ${APP_DATA_DIR}/data/db:/var/lib/postgresql/data

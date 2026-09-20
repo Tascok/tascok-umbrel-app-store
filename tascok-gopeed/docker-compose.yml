@@ -1,0 +1,18 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-gopeed_web_1
+      APP_PORT: 9999
+
+  web:
+    image: liwei2633/gopeed:v1.6.11@sha256:4d25bb4717c1e35199d7c65235a99b2c7b515d430a6968a2d8b2b2ad4517b699
+    restart: on-failure
+    environment:
+      - PUID=0
+      - PGID=0
+      - UMASK=022
+    volumes:
+      - ${UMBREL_ROOT}/home/Downloads:/app/Downloads
+      - ${APP_DATA_DIR}/data/storage:/app/storage

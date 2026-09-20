@@ -1,0 +1,44 @@
+version: "3.2"
+services:
+  php-dynamic-qrcode:
+    image: "giandonatoinverso/php-dynamic-qr-code:latest@sha256:dcb15194a5ff1725913399c1196127a7aae2b8d0ce177b41f3503c8754601240" #Kein Versions Tag
+    restart: "unless-stopped"
+    environment:
+      TYPE: "docker"
+      BASE_URL: "http://umbrel.local"
+      DATABASE_HOST: "php-dynamic-qrcode-db"
+      DATABASE_PORT: "3306"
+      DATABASE_NAME: "qrcode"
+      DATABASE_USER: "qrcode"
+      DATABASE_PASSWORD: "umbrelpass"  # Passwort geändert 1
+      DATABASE_PREFIX: ""
+      DATABASE_CHARSET: "utf8"
+    ports:
+      - 8216:80
+    depends_on:
+      - php-dynamic-qrcode-db
+    volumes:
+      - ${APP_DATA_DIR}/data/php_dynamic_qrcode_saved_qrcode_data:/var/www/html/saved_qrcode #data
+    networks:
+      - php-dynamic-qrcode-network
+
+  php-dynamic-qrcode-db:
+    image: "giandonatoinverso/php-dynamic-qr-code-db:latest"
+    restart: "unless-stopped"
+    volumes:
+      - ${APP_DATA_DIR}/data/php_dynamic_qrcode_db_data:/var/lib/mysql #data
+    environment:
+      MYSQL_ROOT_PASSWORD: "safeumbrelpass"  # Passwort geändert 2
+      MYSQL_DATABASE: "qrcode"
+      MYSQL_USER: "qrcode"
+      MYSQL_PASSWORD: "umbrelpass"  # Passwort geändert 1
+    networks:
+      - php-dynamic-qrcode-network
+
+volumes:
+  php_dynamic_qrcode_db_data:
+  php_dynamic_qrcode_saved_qrcode_data:
+
+networks:
+  php-dynamic-qrcode-network:
+    driver: bridge

@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-rustpad_web_1
+      APP_PORT: 3038
+  web:
+    image: ekzhang/rustpad:latest@sha256:b4237c9bd297341bb3f1b0e6a0747da9d3365d96910fd3083e3bc160702a8faf
+    restart: on-failure
+    environment:
+     PORT: 3038

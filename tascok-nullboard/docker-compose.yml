@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-nullboard_web_1
+      APP_PORT: 80
+      PROXY_AUTH_ADD: "false"
+  web:
+    image: luismedel/nullboard:latest@sha256:f14a9964aa56de4a1420df6d91f75d1faac9e8bf96c745ea5bced365db66b0e7 #nur latest tag verfügbar
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data:/data:rw
+    user: "1000:1000"

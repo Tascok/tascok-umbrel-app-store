@@ -1,0 +1,20 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-emulatorjs_web_1
+      APP_PORT: 80
+
+  web:
+    image: linuxserver/emulatorjs:1.9.2@sha256:706319fb4c5c21523cced4ba5ae2121a543688298151870d3b28db4254f2fb1f
+    restart: on-failure
+    ports:
+      - 3662:3000 #Rom/artwork management
+      - 4662:4001 #IPFS peering port
+    environment:
+      - PUID=1000
+      - PGID=1000
+    volumes:
+      - ${APP_DATA_DIR}/data/profile:/config
+      - ${APP_DATA_DIR}/data/roms:/data

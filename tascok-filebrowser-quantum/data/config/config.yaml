@@ -1,0 +1,11 @@
+server:
+  port: 80
+  sources:
+    - path: "/storage"
+      name: "storage"
+      config:
+        defaultEnabled: true
+        createUserDir: false
+auth:
+  methods:
+    noauth: true

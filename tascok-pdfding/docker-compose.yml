@@ -1,0 +1,23 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-pdfding_web_1
+      APP_PORT: 8000
+
+  web:
+    image: mrmn/pdfding:v1.1.0@sha256:1da3a0297aee1e138ad9765c7c9e43bf448f299089d98a1298466d19e48258ed
+    user: 0:0
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data/pdfding_db:/home/nonroot/pdfding/db:rw
+      - ${APP_DATA_DIR}/data/pdfding_data:/home/nonroot/pdfding/media:rw
+    environment:
+      HOST_NAME: "*"
+      SECRET_KEY: oDPfMIzCcHBDDY23kIAScVdgMb2AK2sv8
+      ACCOUNT_EMAIL_VERIFICATION: FALSE
+      DISABLE_USER_SIGNUP: FALSE
+      CSRF_COOKIE_SECURE: FALSE
+      SESSION_COOKIE_SECURE: FALSE
+      SECURE_SSL_REDIRECT: FALSE

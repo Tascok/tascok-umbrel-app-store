@@ -1,0 +1,43 @@
+manifestVersion: 1
+id: tascok-kiwix
+name: Kiwix
+tagline: An ocean of knowledge, ready to dive into offline
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-kiwix/logo.png
+category: files & productivity
+version: "3.7.0"
+port: 8889
+description: >-
+  🌐 Kiwix is a groundbreaking open-source platform that revolutionizes access to digital information by making it available offline. Designed for areas with limited or no internet connectivity, Kiwix enables users to download entire websites or collections of digital content and access them without needing an active internet connection. Its primary purpose is to bridge the digital divide, ensuring that knowledge and information are accessible to everyone, regardless of location or circumstances.
+
+
+  At the heart of Kiwix is its ability to compress and store vast amounts of information in a format called ZIM. This allows users to carry extensive libraries, such as Wikipedia, Project Gutenberg, TED Talks, or educational resources, on their devices, even with minimal storage space. Whether you're a teacher in a remote village, a student seeking knowledge, or a traveler looking for resources on the go, Kiwix provides a seamless way to access critical information offline.
+
+
+  Kiwix is versatile and easy to use, supporting a wide range of devices and operating systems, including desktops, laptops, tablets, and smartphones. It also runs efficiently on lightweight setups like Raspberry Pi, making it perfect for schools, libraries, and community centers in underprivileged areas. The platform features an intuitive search system, allowing users to navigate vast libraries of offline content quickly and efficiently.
+
+
+  Kiwix has become an invaluable tool for humanitarian organizations, educational initiatives, and travelers who need reliable access to information without incurring data costs or facing connectivity challenges. By democratizing access to knowledge, Kiwix empowers individuals and communities to learn, grow, and thrive, no matter their circumstances. It is more than just a tool—it’s a catalyst for change, ensuring that the power of the internet reaches everyone, everywhere.
+
+
+  ⚙️ To set up ZIM files for the Kiwix app on your Umbrel server, you first need to download one or more suitable files from the Kiwix Library at https://library.kiwix.org. Choose the files you want, such as different versions of Wikipedia. After downloading, move the files into the /data/zim/ folder, which is located in the directory of your Kiwix app on your Umbrel server. 
+  
+  In the docker-compose.yml, you can specify multiple ZIM files by listing their names in the appropriate configuration line. 
+  
+  
+  To apply the changes, it is important to restart the Kiwix app. Make sure all filenames specified in the configuration file match the actual names of the ZIM files in the folder. This allows you to easily access multiple offline databases and use them within Kiwix.
+developer: Emmanuel Engelhart
+website: https://kiwix.org/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/kiwix
+support: https://kiwix.org/en/frequently-asked-questions/
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-kiwix/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-kiwix/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-kiwix/3.jpg
+releaseNotes: >-
+  The update addresses various improvements, including clarifying documentation around ZIM and book name distinctions and ensuring correct versioning for compilation dependencies. Additionally, a new --skipInvalid command-line option has been introduced for Kiwix Server, enhancing its functionality.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

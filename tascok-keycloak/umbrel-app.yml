@@ -1,0 +1,44 @@
+manifestVersion: 1
+id: tascok-keycloak
+name: Keycloak
+tagline: An Open Source Identity and Access Management
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-keycloak/logo.png
+category: developer tools
+version: "26.2.4"
+port: 8711
+description: >-
+  🔐 Keycloak is an open source identity and access management solution that provides authentication and authorization services for modern applications and services. It allows developers and system administrators to delegate the responsibility of managing user identities, roles, and access permissions to a centralized platform, which simplifies the development and security processes of distributed systems.
+
+
+  At its core, Keycloak is designed to support modern security protocols such as OpenID Connect, OAuth 2.0, and SAML 2.0. These standards enable seamless integration with a wide range of web applications, APIs, and identity providers. One of the main features of Keycloak is its ability to offer single sign on. This means that users can log in once and gain access to multiple connected applications without having to authenticate again for each service. This improves the user experience and reduces the complexity of managing multiple login systems.
+
+
+  Keycloak also supports social login integration. This allows users to authenticate using their existing accounts from popular platforms such as Google or GitHub. Additionally, Keycloak offers two factor authentication, account recovery options, and detailed session management features to improve security.
+
+
+  The platform includes an administrative console where administrators can create and manage user accounts, define roles and groups, configure identity providers, and monitor login events. Users can also access a self service account management portal where they can update their profile information, change passwords, and view login history.
+
+
+  Another important aspect of Keycloak is its support for multi tenancy through a concept called realms. A realm is a separate space where configurations, users, and roles are isolated from others. This allows organizations to manage different environments or customer bases independently within the same Keycloak instance.
+
+
+  Overall, Keycloak helps developers and organizations secure their applications by centralizing identity management. It removes the need to build and maintain custom login systems and ensures consistent and secure user authentication across different services.
+developer: Keycloak
+website: https://www.keycloak.org/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/keycloak/keycloak
+support: https://github.com/keycloak/keycloak/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-keycloak/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-keycloak/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-keycloak/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-keycloak/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-keycloak/5.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-keycloak/6.jpg
+releaseNotes: >-
+  This update includes important bug fixes and enhancements such as improved Podman documentation and better IPv6 support. It addresses issues with login errors, token expiration, UI performance, and containerized deployments. Reviewing the migration guide before upgrading is recommended.
+dependencies:
+path: ""
+defaultUsername: "admin"
+defaultPassword: "umbrel"

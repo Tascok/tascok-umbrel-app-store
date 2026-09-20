@@ -1,0 +1,19 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-withoutbg_withoutbg_1
+      APP_PORT: 80
+
+  withoutbg:
+    image: withoutbg/app:1.0.1@sha256:5ab6061821c0599254e43b6a4d209a83e113d30f7cb468e982684ac0d7f34732
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data:/data
+    healthcheck:
+      test: ["CMD-SHELL", "bash -c ':> /dev/tcp/127.0.0.1/80' || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 90s

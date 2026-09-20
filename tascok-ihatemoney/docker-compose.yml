@@ -1,0 +1,39 @@
+version: "3.9"
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-ihatemoney_web_1
+      APP_PORT: 8976
+      PROXY_AUTH_ADD: "false"
+
+  web:
+    image: ihatemoney/ihatemoney:6.1.5@sha256:bb12f24959922072d570a67d6a8ed9e4a3fab0f4b10a86fef208eb9a52ae7111
+    restart: on-failure
+    environment:
+      - DEBUG=False
+      - ACTIVATE_DEMO_PROJECT=False
+      - ACTIVATE_ADMIN_DASHBOARD=True
+      - ADMIN_PASSWORD=pbkdf2:sha256:260000$$kkWhnzG3F4Qd5Fge$$f7eb8b8cbd574e41c87478c06ffd70bf70f91538e123497f11377561571e5d25 #umbrelpass
+      - ALLOW_PUBLIC_PROJECT_CREATION=False
+      - BABEL_DEFAULT_TIMEZONE=UTC
+      - GREENLET_TEST_CPP=no
+      - MAIL_DEFAULT_SENDER=Budget manager <admin@example.com>
+      - MAIL_PASSWORD=
+      - MAIL_PORT=25
+      - MAIL_SERVER=localhost
+      - MAIL_USE_SSL=False
+      - MAIL_USE_TLS=False
+      - MAIL_USERNAME=
+      - SECRET_KEY=umbrelpass
+      - SESSION_COOKIE_SECURE=False
+      - SHOW_ADMIN_EMAIL=True
+      - SQLALCHEMY_DATABASE_URI=sqlite:////database/ihatemoney.db
+      - SQLALCHEMY_TRACK_MODIFICATIONS=False
+      - APPLICATION_ROOT=/
+      - ENABLE_CAPTCHA=False
+      - LEGAL_LINK=
+      - PORT=8976
+      - PUID=0
+      - PGID=0
+    volumes:
+      - ${APP_DATA_DIR}/sqlite/db:/database

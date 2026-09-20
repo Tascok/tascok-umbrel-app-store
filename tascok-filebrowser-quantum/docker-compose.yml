@@ -1,0 +1,15 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-filebrowser-quantum_web_1
+      APP_PORT: 80
+
+  web:
+    image: ghcr.io/gtsteffaniak/filebrowser:0.7.8-beta@sha256:1a095d6861ad3c138fd77f67505bd8ab02b42e14fe9ff31a5b52aeaca3d215d5
+    restart: on-failure
+    volumes:
+      - ${UMBREL_ROOT}/data/storage:/storage
+      - ${APP_DATA_DIR}/data/database:/home/filebrowser/database
+      - ${APP_DATA_DIR}/data/config/config.yaml:/home/filebrowser/config.yaml

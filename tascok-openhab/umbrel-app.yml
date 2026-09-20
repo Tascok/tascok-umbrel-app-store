@@ -1,0 +1,42 @@
+manifestVersion: 1
+id: tascok-openhab
+name: openHAB
+tagline: An open platform for seamless integration and automation in smart homes
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-openhab/logo.png
+category: Home & Automation
+version: "4.2.2"
+port: 8780
+description: >-
+  🏠 OpenHAB, which stands for Open Home Automation Bus, is a powerful and versatile open-source platform specifically designed to manage and automate smart home environments. It serves as a centralized hub that brings together a vast array of devices and technologies under one unified system, offering seamless interoperability regardless of brand or communication protocol. OpenHAB's modular and extensible architecture allows users to integrate a wide range of technologies, including ZigBee, Z-Wave, MQTT, KNX, Modbus, Wi-Fi, and more, making it compatible with everything from smart lights and thermostats to security cameras, sensors, and voice assistants.
+
+
+  One of the standout features of OpenHAB is its robust rule-based automation engine, which enables users to create sophisticated scenarios that enhance convenience, efficiency, and comfort in their homes. For instance, users can program their home to dim the lights and close the blinds at sunset, adjust the heating system based on weather forecasts, or trigger security systems when motion is detected during specific hours. These automations can be tailored to meet the unique needs of each household, providing a truly personalized smart home experience.
+
+
+  OpenHAB provides a user-friendly, web-based interface for local control, as well as mobile apps for iOS and Android, allowing users to monitor and manage their smart home systems from anywhere in the world. Furthermore, the system can function entirely offline, ensuring that users retain complete control over their data without relying on third-party cloud services - a key advantage for privacy-conscious individuals.
+
+
+  OpenHAB is supported by an active and vibrant community of developers and enthusiasts who contribute to its continual growth and improvement. Its rich library of add-ons enables users to expand its functionality by integrating new devices, protocols, and services as needed. Comprehensive documentation, tutorials, and community forums make it easy for newcomers to get started while also offering advanced customization options for more experienced users.
+
+
+  By combining flexibility, security, and compatibility, OpenHAB empowers users to create a fully integrated and highly customizable smart home ecosystem that can adapt to evolving technologies and individual preferences. Whether you're looking to optimize energy usage, enhance security, or simply add convenience to daily life, OpenHAB provides the tools and flexibility to transform your living space into a truly smart home.
+
+developer: openHAB
+website: https://www.openhab.org/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/openhab
+support: https://community.openhab.org/
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-openhab/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-openhab/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-openhab/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-openhab/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-openhab/5.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-openhab/6.jpg
+releaseNotes: >-
+  The OpenHAB 4.2 release introduces significant improvements, focusing on enhancing the user experience and expanding device compatibility. Notable updates include a more intuitive user interface, faster automation rule execution, and new add-ons that broaden support for various smart home devices. These changes make it easier to set up, control, and automate home environments.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

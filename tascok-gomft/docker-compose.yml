@@ -1,0 +1,30 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-gomft_web_1
+      APP_PORT: 8080
+
+  web:
+    image: ghcr.io/starfleetcptn/gomft:0.2.11@sha256:1be2e1b174575a9b17b62a0f4d77d193bc154d493e191918bd0e3fa9f6a51d9d
+    environment:
+      - TZ=Europe/Berlin
+      - DATA_DIR=/app/data/gomft
+      - BACKUP_DIR=/app/data/gomft/backups
+      - JWT_SECRET=3995745834
+      #- SERVER_ADDRESS=:8979
+      #- BASE_URL=http://${DEVICE_DOMAIN_NAME}:8979
+      #- EMAIL_ENABLED=true
+      #- EMAIL_HOST=smtp.example.com
+      #- EMAIL_PORT=587
+      #- EMAIL_FROM_EMAIL=gomft@example.com
+      #- EMAIL_FROM_NAME=GoMFT
+      #- EMAIL_ENABLE_TLS=true
+      #- EMAIL_REQUIRE_AUTH=true
+      #- EMAIL_USERNAME=smtp_username
+      #- EMAIL_PASSWORD=smtp_password
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data/app:/app/data/gomft
+      - ${APP_DATA_DIR}/data/backups:/app/data/gomft/backups

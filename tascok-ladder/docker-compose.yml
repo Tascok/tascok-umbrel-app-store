@@ -1,0 +1,27 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-ladder_web_1
+      APP_PORT: 8050
+  web:
+    image: ghcr.io/everywall/ladder:v0.0.21@sha256:780c8a611fd5a1cfdebe2ad385dea4af36a158475424fa91aca90f9f96bd545d
+    environment:
+      - PORT=8050
+      - RULESET=/app/ruleset.yaml                #Pfad oder URL zu einer Regelsatzdatei, akzeptiert lokale Verzeichnisse
+      # ALLOWED_DOMAINS=``                       # Erlaube nur bestimmte Domains
+      # ALLOWED_DOMAINS_RULESET=false            # Aktiviert/Deaktiviert ALLOWED_DOMAINS-Regeln
+      - EXPOSE_RULESET=true                      # Regeln freigeben
+      - PREFORK=false                            # Prefork fuer bessere Leistung
+      - DISABLE_FORM=false                       # Formular deaktivieren
+      - FORM_PATH=/app/form.html                 # Pfad zum Formular
+      - X_FORWARDED_FOR=66.249.66.1              # X-Forwarded-For Header setzen
+      - USER_AGENT=Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)  # User-Agent setzen
+      # USERPASS=``                              # Benutzername und Passwort setzen (foo:bar)
+      - LOG_URLS=true                            # URLs protokollieren
+      - GODEBUG=netdns=go                        # DNS-Debug-Option
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data/ruleset/ruleset.yaml:/app/ruleset.yaml
+      - ${APP_DATA_DIR}/data/form/form.html:/app/form.html

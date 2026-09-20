@@ -1,0 +1,24 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-glances_web_1
+      APP_PORT: 61208
+      PROXY_AUTH_ADD: 'false'
+
+  web:
+    image: nicolargo/glances:4.5.5@sha256:9ac5de7debffb1e5746654585daaf1d23179ea91fbdfd4c25a7a17945d9c74bf
+    environment:
+      - TZ=Europe/Berlin
+      - GLANCES_OPT=-w
+    pid: host
+    restart: on-failure
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    healthcheck:
+      test: ['CMD', 'curl', '-f', 'http://localhost:61208/api/4/status']
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s

@@ -1,0 +1,37 @@
+manifestVersion: 1
+id: tascok-pluto
+name: Pluto
+tagline: A real time mining monitor
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-pluto/logo.png
+category: bitcoin
+version: "0.6.0-rc.1"
+port: 7777
+description: >
+  🪐 Pluto is an application that simplifies and enhances the way individuals interact with Bitcoin mining. It serves as a central hub where users can monitor and manage their miners, offering a complete overview of hardware performance at any given time. Instead of relying on multiple tools or fragmented tracking methods, Pluto consolidates everything into a single intuitive interface that is both powerful and easy to use.
+
+
+  One of Pluto’s core strengths is its ability to provide real time tracking. Users can see live data on efficiency, hashrates, output, and earnings, gaining immediate insight into how their mining setup is performing. This direct feedback makes it easier to identify issues, optimize hardware use, and ensure operations are running smoothly. By presenting complex mining metrics in a clear and visual format, Pluto helps users understand and act on information without unnecessary technical barriers.
+
+
+  In addition to monitoring, Pluto allows for complete control over mining devices. Settings can be adjusted directly from the interface, and miners can be restarted instantly with a single action. This level of integration reduces downtime and makes it simple to maintain peak performance without juggling separate management tools. Whether handling one device or many, Pluto provides a streamlined process for keeping everything synchronized and efficient.
+
+
+  By combining detailed performance insights with direct device management, Pluto transforms mining into a more transparent, approachable, and efficient process. It reduces complexity, empowers users to optimize their setups continuously, and creates a smoother path for individuals who want full visibility and control over their mining operations.
+developer: Pluto
+website: https://www.plutomining.io/
+submitter: Lorenzo De Santis
+submission: https://github.com/getumbrel/umbrel-apps/pull/1790
+repo: https://gitlab.com/plutomining/pluto
+support: https://gitlab.com/plutomining/pluto/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-pluto/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-pluto/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-pluto/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-pluto/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-pluto/5.jpg
+releaseNotes: This is the initial release of Pluto. There are no previous changelogs available.
+dependencies: []
+path: ""
+defaultPassword: ""
+defaultUsername: admin
+deterministicPassword: true

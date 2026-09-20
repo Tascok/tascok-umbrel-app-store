@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-habittrove_web_1
+      APP_PORT: 3000
+
+  web:
+    image: dohsimpson/habittrove:v0.2.5@sha256:71dae53622b0686a12e3e830457e8ccf399906e624ff0190536d0781f339d647
+    environment:
+      - AUTH_SECRET=+wLHNEMMc3iAuD2R19Z+YtL2GyZ/ngpXWOGMKN8mAxU=
+    restart: on-failure
+    user: "1000:1000"
+    volumes:
+      - ${APP_DATA_DIR}/data:/app/data:rw

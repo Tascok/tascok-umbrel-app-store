@@ -1,0 +1,37 @@
+manifestVersion: 1
+id: tascok-cyberchef
+name: CyberChef
+tagline: An intuitive web app for exploring and decoding data effortlessly
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cyberchef/logo.png
+category: developer tools
+version: "10.19.4"
+port: 8817
+description: >-
+  CyberChef is a simple, intuitive web app designed for analyzing and decoding data without the complexity of traditional tools or programming languages. It encourages both technical and non-technical users to explore data formats, encryption, and compression.
+
+  In today’s digital landscape, data comes in various shapes, sizes, and formats, and CyberChef makes sense of it all on one easy-to-use platform. Its interface prioritizes simplicity, turning complex techniques into straightforward drag-and-drop actions. Users can combine simple functions to create "recipes," enabling intricate analyses that can be shared and enhanced through collaboration.
+
+
+  For those familiar with coding, CyberChef serves as a quick and efficient prototyping tool. Once a solution is validated, it can be easily scripted for broader application.
+
+  CyberChef is particularly valuable for cybersecurity and antivirus companies, as well as academics and professionals engaged in digital data analysis—whether they are software developers, analysts, mathematicians, or casual puzzle enthusiasts.
+
+
+  By releasing CyberChef on GitHub, the aim is to foster community contributions that can be integrated into future versions of the tool. With 440 useful operations available, CyberChef acts as the Cyber Swiss Army Knife for anyone involved in Internet-related tasks, whether it’s converting timestamps, decompressing gzipped data, creating SHA3 hashes, or parsing X.509 certificates to identify issuers.
+developer: GCHQ
+website: https://gchq.github.io/CyberChef/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/gchq/CyberChef
+support: https://github.com/gchq/CyberChef/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cyberchef/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cyberchef/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cyberchef/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-cyberchef/4.jpg
+releaseNotes: >-
+  Added support for ECDSA and DSA in the 'Parse CSR' feature, along with fixes for typos in SIGABA.mjs and other improvements.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

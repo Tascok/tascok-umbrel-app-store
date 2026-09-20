@@ -1,0 +1,25 @@
+version: '3.9'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-docusaurus_web_1
+      APP_PORT: 80
+      PROXY_AUTH_ADD: "false"
+  web:
+    image: awesometic/docusaurus:latest@sha256:827726e1f4c40ce22a0ff99cc51eb84db0380abfd1246e2e16d30e764ab54670 #This image runs Docusaurus 2, only "latest" TAG is available
+    environment:
+      - TARGET_UID=1000
+      - TARGET_GID=1000
+      - AUTO_UPDATE=false #enabled by default
+      - WEBSITE_NAME=docusaurus
+      - TEMPLATE=classic
+      - TZ=Europe/Berlin
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data/docusaurus:/docusaurus
+      - ${APP_DATA_DIR}/data/etc/timezone:/etc/timezone:ro
+      - ${APP_DATA_DIR}/data/etc/localtime:/etc/localtime:ro
+
+#Important notes: https://github.com/awesometic/docker-docusaurus
+#Guides: https://docusaurus.io/docs/category/guides

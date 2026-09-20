@@ -1,0 +1,15 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-quakeiii_app_1
+      APP_PORT: 80
+
+  app:
+    image: treyyoder/quakejs:latest@sha256:2c1d55ab565082334341e6a58ac1e820f6c769c9e8fe7e86ea6149e64552f00d #only latest tag
+    restart: on-failure
+    ports:
+      - 27960:27960
+    environment:
+      - HTTP_PORT=8789

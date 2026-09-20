@@ -1,0 +1,52 @@
+manifestVersion: 1
+id: tascok-portkey
+name: portkey
+tagline: An engaging startup hub for favorite links and custom pages
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-portkey/logo.png
+category: files & productivity
+version: "1.2.0"
+port: 3343
+description: >-
+  Portkey is a lightweight web portal designed to serve as a personalized startup page, offering users a convenient way to access a curated collection of links and URLs. With its user-friendly interface, Portkey allows for quick navigation to favorite sites, making it an ideal solution for individuals and teams looking to streamline their online experience.
+
+
+  Key Features:
+
+
+  🔗✨ Customizable Links: Easily add and organize links to your most frequently visited websites, ensuring that all your essential resources are just a click away.
+
+
+  📄✨ Custom Pages: In addition to links, users can create small custom pages tailored to their needs. This feature allows for personal notes, reminders, or any other relevant information that users want to keep handy.
+
+
+  🗄️🛠️ Single Configuration File: All settings and configurations are managed through a single, easy-to-edit configuration file. This simplifies the setup process and makes it easy for users to customize their portal without needing extensive technical knowledge.
+
+
+  📊📈 Prometheus Metrics: With the introduction of Prometheus metrics, users can monitor the performance and usage of their portal, gaining insights into its operation and ensuring optimal performance.
+
+
+  🔄✨ Regular Updates: The project adheres to semantic versioning and is regularly updated with enhancements, security patches, and new features, ensuring a robust and reliable user experience.
+
+
+  Portkey is perfect for anyone who wants to optimize their web browsing experience, whether for personal use, educational purposes, or team collaboration. It can serve as a centralized hub for resources, making it especially beneficial for professionals who rely on multiple online tools and platforms.
+
+
+  ⚠️In Portkey, configuration settings for services, icons, languages, and other options are centralized in a single "config.yml" file. Users need to transfer this file to the App Folder within their Umbrel setup using the terminal, which is best suited for power users who are comfortable with command-line operations.
+
+   The "config.yml" file allows users to customize various aspects of Portkey, including adding services, selecting icons, and adjusting language preferences. For detailed instructions and examples on how to configure this file effectively, you can refer to the official Portkey documentation: https://github.com/kodehat/portkey.
+developer: Marc-Niclas Harm
+website: https://demo.portkey.page/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/kodehat/portkey
+support: https://github.com/kodehat/portkey/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-portkey/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-portkey/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-portkey/3.jpg
+releaseNotes: >-
+  In version 1.2.0, released on October 9, 2024, Prometheus metrics were added, enhancing monitoring capabilities. Additionally, dependencies were updated, including the go-release-action from version 1.51 to 1.52 and htmx.org from version 2.0.2 to 2.0.3. Lastly, a change was made to ensure that the Fly machine does not stop.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

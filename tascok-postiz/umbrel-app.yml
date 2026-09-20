@@ -1,0 +1,41 @@
+manifestVersion: 1
+id: tascok-postiz
+name: Postiz
+tagline: An intuitive tool for managing social media
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-postiz/logo.png
+category: In Progress
+version: "1.37.3"
+port: 4007
+description: >-
+  Postiz is a comprehensive social media management tool designed to streamline the process of content creation, scheduling, and publication across multiple social media platforms. It is targeted at content creators, businesses, and agencies looking to optimize their online presence. With Postiz, users can plan, create, and automatically publish content to various social media channels, including Instagram, YouTube, LinkedIn, and more, all from one unified interface.
+
+
+  One of the standout features of Postiz is its AI-driven content creation assistance. This feature helps users generate posts, captions, and other social media content more efficiently, using artificial intelligence to streamline the writing process. It is particularly useful for users who need to produce high volumes of content or seek inspiration for their posts. Additionally, Postiz includes a built-in graphic design tool, similar to Canva, which enables users to create visually appealing images and graphics for their posts, further simplifying the content creation process.
+
+
+  The platform also facilitates team collaboration, making it ideal for businesses or agencies with multiple team members. Users can assign tasks, share content drafts, and plan content calendars together, ensuring that the entire team is aligned on social media strategies. Postiz's analytics features provide users with detailed insights into the performance of their posts, helping them refine their strategies based on engagement data and reach.
+
+
+  Postiz supports a wide range of social media platforms, including both well-known networks like Facebook, Instagram, and Twitter, as well as emerging platforms like Mastodon and Bluesky. This extensive platform support allows users to manage all their social media accounts from a single dashboard, saving time and effort in switching between different tools and services.
+
+
+  The platform is offered in various pricing tiers to cater to different needs, from individual content creators to large agencies. Each plan includes different levels of access to features such as the number of social media channels, posts, and AI-generated images available per month, with more advanced features available in higher-priced plans.
+
+
+  Postiz offers a convenient and efficient way to manage and grow social media presence, combining content creation, scheduling, team collaboration, and analytics in a single, easy-to-use platform.
+developer: Postiz
+website: https://postiz.com/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/gitroomhq/postiz-app
+support: https://github.com/gitroomhq/postiz-app/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-postiz/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-postiz/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-postiz/3.jpg
+releaseNotes: >-
+  In v1.37.3, overall dependencies were updated, a Telegram alt text fix and a Jenkins pipeline upgrade were implemented, and unit tests were added. Additionally, the maximum message length in Telegram and the maximum video length in Instagram were increased, a backend port environment setting was added, TikTok images were integrated, and a Docker fix was applied.
+dependencies:
+path: "/auth"
+defaultUsername: ""
+defaultPassword: ""

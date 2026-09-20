@@ -1,0 +1,40 @@
+manifestVersion: 1
+id: tascok-bookstack
+name: BookStack
+tagline: An organized way to manage and share your knowledge
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-bookstack/logo.png
+category: files & productivity
+version: "25.02.5"
+port: 8875
+description: >-
+  📘 BookStack is an open-source application designed to help individuals and teams organize, manage, and share knowledge bases and documentation. It features a book-like structure, where content is neatly divided into books, chapters, and pages. This hierarchical approach makes it easy to create, structure, and navigate large amounts of information, whether it’s for a small personal project or an extensive team-based knowledge base.
+
+
+  The platform supports Markdown for content formatting, allowing users to quickly create well-structured, readable content with minimal effort. Additionally, BookStack offers a powerful full-text search function, enabling users to quickly find relevant information across their knowledge base. This is particularly useful when dealing with a large collection of documents and ensures users can efficiently access the data they need.
+
+
+  BookStack also includes flexible user access control features, allowing administrators to set specific permissions for users or groups. This makes it an ideal solution for collaborative environments, as teams can work together while maintaining control over who can view, edit, or manage different parts of the documentation.
+
+
+  As a self-hosted solution on Umbrel, BookStack gives users complete control over their data and content management. Whether used for personal knowledge management or team-based documentation, BookStack provides a reliable, user-friendly, and customizable platform to organize and share information effectively.
+
+
+  🔑 The first login is done using the default admin credentials: username "admin@admin.com" and password "password", which should be changed immediately after the first login.
+developer: Dan Brown
+website: https://www.bookstackapp.com/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/BookStackApp/BookStack
+support: https://github.com/BookStackApp/BookStack/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-bookstack/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-bookstack/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-bookstack/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-bookstack/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-bookstack/5.jpg
+releaseNotes: >-
+  The latest release includes several important updates and fixes. The export logic has been improved for better temporary file clean-up, and in-app export endpoints now have rate limits. Additionally, translations have been updated with the latest Crowdin changes, PHP dependency package versions have been updated, and a fix has been applied to prevent markdown editor focus from jumping when inserting an image.
+dependencies:
+path: ""
+defaultUsername: "admin@admin.com"
+defaultPassword: "password"

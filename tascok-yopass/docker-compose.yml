@@ -1,0 +1,19 @@
+version: "3.9"
+
+services:
+  memcached:
+    image: memcached
+    restart: always
+    expose:
+      - "11211"
+
+  app_proxy:
+    environment:
+      APP_HOST: tascok-yopass_web_1
+      APP_PORT: 8193
+      PROXY_AUTH_ADD: "false"
+
+  web:
+    image: jhaals/yopass:11.17.0@sha256:26873480863b8435282eb136a11f7707763940945fb48506b7a96c35f758b471
+    restart: on-failure
+    command: "--memcached=memcached:11211 --port 8193"

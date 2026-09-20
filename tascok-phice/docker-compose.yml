@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-phice_web_1
+      APP_PORT: 5000
+
+  web:
+    image: c4ffe14e/phice:latest@sha256:3f92197e9d7e3c1273773d610ad8c2222a7a77e1baf2ca730cce9955832b32fd
+    volumes:
+      - "${APP_DATA_DIR}/data/config.json:/src/phice/config.json:ro"
+    restart: on-failure

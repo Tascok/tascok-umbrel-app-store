@@ -1,0 +1,19 @@
+version: '3.7'
+
+services:
+  crafty:
+    container_name: crafty_container
+    image: registry.gitlab.com/crafty-controller/crafty-4:4.5.4@sha256:0f2dc8cf1d490804b748510b27ae45b8deffda28c201a6b416dc6e9916ce3f29
+    ports:
+      - "18443:8443" 
+      - "18123:8123" 
+      - "19132:19132/udp" 
+      - "25500-25600:25500-25600" 
+    volumes:
+      - ${APP_DATA_DIR}/data/backups:/crafty/backups
+      - ${APP_DATA_DIR}/data/logs:/crafty/logs
+      - ${APP_DATA_DIR}/data/servers:/crafty/servers
+      - ${APP_DATA_DIR}/data/config:/crafty/app/config
+      - ${APP_DATA_DIR}/data/import:/crafty/import
+    restart: on-failure
+

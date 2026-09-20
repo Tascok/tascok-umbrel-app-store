@@ -1,0 +1,59 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-wagmios_web_1
+      APP_PORT: 5174
+
+  web:
+    image: itzmizzle/wagmi:frontend-latest@sha256:78aedfc3318a19fb013677180b7f94b027ef918a2f6fc94e753d81a18c937143 #only latest tag
+    depends_on:
+      - backend
+    environment:
+      - VITE_API_URL=http://${DEVICE_DOMAIN_NAME}:5174
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/frontend_data:/app/data
+
+  backend:
+    image: itzmizzle/wagmi:backend-latest@sha256:f043af172e87ab8ee8cc2c33dd72b5300b7342120cf90b3985becea0e92530ab #only latest tag
+    ports:
+      - "18080:8080"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ${APP_DATA_DIR}/backend_data:/app/data
+    environment:
+      - PORT=8080
+      - WILLOW_URL=http://willow:5678
+
+  willow:
+    image: n8nio/n8n:1.82.3@sha256:311aa42efcf79d204475fed75b98a8b82a231901729fc38b4fce51f3159031e8
+    restart: on-failure
+    ports:
+      - "5678:5678"
+    environment:
+      - N8N_SECURE_COOKIE=false
+      - N8N_DEFAULT_WORKFLOW_STATE=active
+      - N8N_LOG_LEVEL=info
+      - DB_TYPE=postgresdb
+      - DB_POSTGRESDB_HOST=postgres
+      - DB_POSTGRESDB_DATABASE=willow_memories
+      - DB_POSTGRESDB_USER=willow
+      - DB_POSTGRESDB_PASSWORD=wagmios
+    volumes:
+      - ${APP_DATA_DIR}/willow_data:/home/node/.n8n
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres:14.17@sha256:c0e14efd7eaf4d83e443b6e7047ddde6465edbbbcc28ae770d9f5398abba1969
+    restart: on-failure
+    ports:
+      - "5443:5432"
+    environment:
+      - POSTGRES_USER=willow
+      - POSTGRES_PASSWORD=wagmios
+      - POSTGRES_DB=willow_memories
+    volumes:
+      - ${APP_DATA_DIR}/postgres_data:/var/lib/postgresql/data

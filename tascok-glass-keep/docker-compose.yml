@@ -1,0 +1,18 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-glass-keep_app_1
+      APP_PORT: 8080
+
+  app:
+    image: nikunjsingh/glass-keep:v20260114-1008@sha256:2948023b673942c94c93d9f535ad5fac25d60288d648e2a9d83ec9cab4efe530
+    environment:
+      NODE_ENV: production
+      API_PORT: "8080"
+      JWT_SECRET: ${APP_SEED}
+      DB_FILE: /app/data/notes.db
+      ADMIN_EMAILS: admin
+    volumes:
+      - ${APP_DATA_DIR}/data:/app/data

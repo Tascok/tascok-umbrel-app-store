@@ -1,0 +1,32 @@
+manifestVersion: 1
+id: tascok-textpod
+name: Textpod
+tagline: An extremely simple note-taking app
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-textpod/logo.png
+category: files & productivity
+version: "0.1.2"
+port: 8099
+description: >-
+  📋 Textpod is an extremely simple and efficient note-taking app designed for those who prefer a straightforward, no-frills approach to capturing their thoughts. Inspired by the "One Big Text File" concept, Textpod stores all your notes in a single notes.md file, offering a minimalist yet effective way to organize and review your content. The app supports Markdown formatting, allowing users to easily structure their notes while keeping everything in one place.
+
+
+  What sets Textpod apart is its simplicity: there are no complex features or overwhelming options. Instead, it focuses on core functionality: adding, searching, and organizing notes. The app includes useful features such as the ability to attach files and images, as well as save web pages locally. You can quickly search through your notes, and links can be saved with a single click, making it easy to capture and revisit important content.
+
+
+  Textpod is a perfect solution for anyone who values speed and simplicity in their note-taking process. Whether you're jotting down quick ideas or collecting reference materials, Textpod provides a clean and efficient environment without the distraction of excessive features or complicated setups.
+developer: Rakhim Davletkaliyev
+website: https://github.com/freetonik/textpod
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/freetonik/textpod
+support: https://github.com/freetonik/textpod/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-textpod/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-textpod/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-textpod/3.jpg
+releaseNotes: >-
+  Recent updates to Textpod include the addition of a customizable listen address, allowing users to configure the app’s access point. Additionally, the error messages have been improved to be clearer and more informative, making it easier for users to understand and resolve issues.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

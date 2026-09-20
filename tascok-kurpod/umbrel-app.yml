@@ -1,0 +1,33 @@
+manifestVersion: 1
+id: tascok-kurpod
+name: Kurpod
+tagline: An encrypted file storage system
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-kurpod/logo.png
+category: files & productivity
+version: "0.1.3"
+port: 8571
+description: >-
+  🐢 Kurpod is an open source application that allows users to embed encrypted containers within seemingly ordinary files such as images, videos, and documents. The project focuses on steganography, aiming to make the presence of hidden data undetectable by casual inspection. For example, a simple vacation photo or PDF document can secretly contain an entire archive of files, all encrypted and completely invisible to anyone opening the file in a normal viewer.
+
+
+  Unlike many older steganography tools, Kurpod emphasizes a user friendly experience and relies on modern cryptographic standards. The goal is to make it simple for anyone to create and extract hidden data without requiring deep technical knowledge. The web based interface guides users through the process of choosing a host file, uploading the content they want to hide, and securing it with a password. The output is a fully functional file that behaves like its original type, whether it is an MP4 video, a JPEG image, or a standard PDF document.
+
+
+  Kurpod is built with transparency and security in mind, offering users an effective tool for preserving privacy in plain sight. It is suitable for journalists, activists, or anyone who needs to discreetly store or transfer sensitive data.
+developer: Sarav
+website: https://kurpod.com/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/srv1n/kurpod
+support: https://github.com/srv1n/kurpod/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-kurpod/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-kurpod/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-kurpod/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-kurpod/4.jpg
+releaseNotes: >-
+  Version 0.1.3 of Kurpod introduces an updated Dockerfile. To get started, download the appropriate binary, extract it, and run the server executable for your platform.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

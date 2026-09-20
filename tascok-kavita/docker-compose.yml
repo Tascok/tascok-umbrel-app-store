@@ -1,0 +1,20 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-kavita_web_1
+      APP_PORT: 5000
+
+  web:
+    image: jvmilazz0/kavita:0.8.6@sha256:cdd6abc6e5c3d337c5bb68d4a29bc490456af2a550b3a031374e46dbfac291ce
+    restart: on-failure
+    mem_limit: 4g
+    cpu_shares: 768
+    security_opt:
+      - no-new-privileges:true
+    volumes:
+      - ${APP_DATA_DIR}/data/config:/kavita/config:rw
+      - ${APP_DATA_DIR}/data/kavita_data:/manga:rw
+      - ${UMBREL_ROOT}/data/storage/documents:/documents
+      - ${UMBREL_ROOT}/data/storage/downloads:/downloads

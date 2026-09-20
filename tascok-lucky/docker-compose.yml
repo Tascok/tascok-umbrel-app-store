@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-lucky_web_1
+      APP_PORT: 16601
+
+  web:
+    image: gdy666/lucky:2.15.7@sha256:c0757135ca03d9aacbf7fea1d48feb8191dca09f53a5d74fdc44f50d20b8cf18
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data:/goodluck
+    #network_mode: host

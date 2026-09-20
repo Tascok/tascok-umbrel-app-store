@@ -1,0 +1,37 @@
+manifestVersion: 1
+id: tascok-sparkyfitness
+name: SparkyFitness
+tagline: A comprehensive fitness tracking and management app
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-sparkyfitness/logo.png
+category: files & productivity
+version: "0.16.1"
+port: 8499
+description: >-
+  🏃‍♂️ SparkyFitness is an application that helps individuals and families track their daily health, nutrition and fitness habits in a structured and intuitive way. It allows you to log meals and see detailed nutritional information so you can understand how your diet evolves over time. The app also lets you record workouts, create or customize exercises and follow your physical progress through clear visual summaries.
+
+
+  Beyond food and training, SparkyFitness provides tools for tracking water intake and body measurements, giving you a complete view of your daily routines and long term changes. It supports simple daily check ins and personal goal setting, which helps maintain motivation and build consistent habits. Over time it becomes a personal health journal that highlights patterns, shows improvements and offers insight into how your everyday choices influence your overall wellbeing.
+developer: CodeWithCJ
+website: https://codewithcj.github.io/SparkyFitness/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/CodeWithCJ/SparkyFitness
+support: https://github.com/CodeWithCJ/SparkyFitness/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-sparkyfitness/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-sparkyfitness/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-sparkyfitness/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-sparkyfitness/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-sparkyfitness/5.jpg
+releaseNotes: >-
+  This release focuses on improvements to the mobile app, including a workaround to install the iOS app via AltStore and updated app icons. 
+  
+  
+  Several fixes and updates were made to the iOS and GitHub workflows to improve reliability and permissions. 
+  
+  
+  The mobile app currently needs to be re-signed every 7 days unless a paid Apple Developer account is used. An official App Store release is planned once the mobile apps are stable.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

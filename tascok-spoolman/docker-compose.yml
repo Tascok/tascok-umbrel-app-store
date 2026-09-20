@@ -1,0 +1,15 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-spoolman_web_1
+      APP_PORT: 8000
+      PROXY_AUTH_ADD: false
+  web:
+    image: ghcr.io/donkie/spoolman:0.23.1@sha256:c798bcc19194949962044459e4b43c09d667d084ae9c2c2e0187a42c36d43d9e
+    user: "0:0"
+    environment:
+      - TZ=UTC
+    volumes:
+      - ${APP_DATA_DIR}/data:/home/app/.local/share/spoolman

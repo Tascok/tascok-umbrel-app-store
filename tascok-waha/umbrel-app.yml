@@ -1,0 +1,39 @@
+manifestVersion: 1
+id: tascok-waha
+name: WAHA
+tagline: A one-click WhatsApp API
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-waha/logo.png
+category: networking
+version: "2025.10.3"
+port: 8992
+description: >-
+  🟢 WAHA is a comprehensive WhatsApp API solution that allows developers and organizations to integrate WhatsApp communication into their own systems using a simple and efficient HTTP interface. It provides the functionality to send and receive messages, images, videos, voice notes, and documents, enabling full interaction with WhatsApp users through programmatic control. This makes it suitable for automating customer support, marketing campaigns, and chatbot workflows without manual intervention.
+
+
+  At its core, WAHA replicates the logic of WhatsApp Web, translating real user interactions into API endpoints that can be called from any application or service. When a message is sent or received, the platform handles it in real time, ensuring smooth synchronization between the WhatsApp account and the connected software. Developers can easily integrate it with existing systems through standard HTTP requests and webhooks, making it a flexible and language-agnostic solution.
+
+
+  WAHA also focuses on simplicity and control. It eliminates the need for external middleware or hosted services, giving users direct access to the communication flow and message data. Its event-driven design allows the creation of responsive applications that react instantly to incoming messages, automate responses, or trigger specific actions based on message content.
+
+
+  The platform is often used to build advanced messaging automation systems, CRM integrations, and notification tools that rely on WhatsApp as a primary communication channel. By offering a developer-friendly API and consistent message handling, WAHA bridges the gap between modern automation requirements and WhatsApp’s closed ecosystem, making WhatsApp-based automation more accessible and customizable than ever.
+
+
+  ⚙️ Right-click the app and select “Troubleshoot” to see the login data. Use “umbrel” as the API key.
+developer: devlikeapro
+website: https://waha.devlike.pro/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/devlikeapro/waha
+support: https://github.com/devlikeapro/waha/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-waha/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-waha/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-waha/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-waha/4.jpg
+releaseNotes: >-
+  This update introduces mandatory security credentials, including API and dashboard passwords, and blocks weak defaults like “123” or “admin.” It also fixes issues with image sending through proxies, database locking errors, and improves ChatWoot group message handling.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

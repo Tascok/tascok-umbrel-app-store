@@ -1,0 +1,115 @@
+title: Umbrel Page (example)
+services:
+  Services, icons, language and other settings are set in a single config.yml file. It must be transferred to /umbrel/app-data/tascok-mafl/. :
+    - title: ThunderHub
+      description: Bitcoin Lightning Network Manager
+      link: 'http://umbrel.local:3010'
+      icon:
+        name: simple-icons:bitcoin
+        wrap: true
+        color: '#F7931A'
+    - title: Nextcloud
+      description: Private cloud storage and collaboration
+      link: 'http://umbrel.local:3020'
+      icon:
+        name: simple-icons:nextcloud
+        wrap: true
+        color: '#0082C9'
+    - title: Home Assistant
+      description: Home automation platform
+      link: 'http://umbrel.local:3050'
+      icon:
+        name: simple-icons:homeassistant
+        wrap: true
+        color: '#3DBCF3'
+    - title: Pi-hole
+      description: Network-wide ad blocker
+      link: 'http://umbrel.local:3060'
+      icon:
+        name: simple-icons:pihole
+        wrap: true
+        color: '#960000'
+    - title: Synapse
+      description: Decentralized Matrix communication server
+      link: 'http://umbrel.local:3090'
+      icon:
+        name: simple-icons:matrix
+        wrap: true
+        color: '#000000'
+    - title: Tailscale
+      description: Zero-configuration VPN
+      link: 'http://umbrel.local:3110'
+      icon:
+        name: simple-icons:tailscale
+        wrap: true
+        color: '#0049B0'
+    - title: Vaultwarden
+      description: Secure and self-hosted password manager
+      link: 'http://umbrel.local:3120'
+      icon:
+        name: simple-icons:vault
+        wrap: true
+        color: '#4C7BEF'
+    - title: GitLab
+      description: Self-hosted Git repository manager
+      link: 'http://umbrel.local:3170'
+      icon:
+        name: simple-icons:gitlab
+        wrap: true
+        color: '#FC6D26'
+    - title: Jellyfin
+      description: Media server for personal streaming
+      link: 'http://umbrel.local:3190'
+      icon:
+        name: simple-icons:jellyfin
+        wrap: true
+        color: '#9461E4'
+    - title: BTCPay Server
+      description: Bitcoin payment processor
+      link: 'http://umbrel.local:3210'
+      icon:
+        name: simple-icons:btcpayserver
+        wrap: true
+        color: '#F7931A'
+    - title: Nginx Proxy Manager
+      description: Manage Nginx proxies with ease
+      link: 'http://umbrel.local:3320'
+      icon:
+        name: simple-icons:nginx
+        wrap: true
+        color: '#009639'
+    - title: Uptime Kuma
+      description: Monitor the uptime of your services
+      link: 'http://umbrel.local:3390'
+      icon:
+        name: simple-icons:statuspage
+        wrap: true
+        color: '#6E7DAB'
+    - title: WireGuard
+      description: Simple, fast, modern VPN
+      link: 'http://umbrel.local:3400'
+      icon:
+        name: simple-icons:wireguard
+        wrap: true
+        color: '#88171A'
+    - title: Mempool
+      description: Bitcoin transaction explorer and fee estimator
+      link: 'http://umbrel.local:3420'
+      icon:
+        name: simple-icons:bitcoin
+        wrap: true
+        color: '#F7931A'
+    - title: Mastodon
+      description: Decentralized social media platform
+      link: 'http://umbrel.local:3430'
+      icon:
+        name: simple-icons:mastodon
+        wrap: true
+        color: '#6364FF'
+    - title: Bitwarden
+      description: Password manager
+      link: 'http://umbrel.local:4000'
+      icon:
+        name: simple-icons:bitwarden
+        wrap: true
+        color: '#175DDC'

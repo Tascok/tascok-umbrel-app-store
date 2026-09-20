@@ -1,0 +1,35 @@
+manifestVersion: 1
+id: tascok-quotysco
+name: Quotysco
+tagline: A creative hub for bloggers, writers, and visionaries
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-quotysco/logo.png
+category: social
+version: "2.0.0"
+port: 1337
+description: >-
+  📝Quotysco is a powerful open-source blogging platform designed for writers, creators, and thought leaders to share their ideas, insights, and work with a broad audience.
+
+
+  With a modern, user-friendly, and intuitive interface, Quotysco makes it especially easy to create, publish, and manage high-quality blog posts. The platform offers numerous features that provide an optimal experience for both beginners and experienced bloggers.
+
+
+  Similar to Medium, Quotysco emphasizes sleek design and a smooth user experience. Users can effortlessly format their content, add images and media, and distribute their posts strategically to reach a wide audience. Thanks to its open and transparent open-source structure, developers and community members can actively contribute to the platform’s evolution and introduce new features.
+
+
+  Whether for personal blogging, a professional writing portfolio, or a platform for in-depth analysis and opinion pieces—Quotysco offers a flexible and versatile solution for anyone looking to share their thoughts with the world.
+developer: InteraApps
+website: https://quotysco.eu/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/interaapps/quotysco
+support: https://github.com/interaapps/quotysco/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-quotysco/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-quotysco/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-quotysco/3.jpg
+releaseNotes: >-
+  Version 2.0.0 introduces several improvements, including the addition of docker-hub.yml.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

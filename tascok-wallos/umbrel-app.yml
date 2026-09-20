@@ -1,0 +1,45 @@
+manifestVersion: 1
+id: tascok-wallos
+name: Wallos
+tagline: An empowering app to effortlessly manage your finances and track subscriptions and expenses
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wallos/logo.png
+category: finance
+version: "2.32.0"
+port: 8283
+description: >-
+  Wallos is a dedicated software solution for managing subscriptions and tracking recurring expenses, offering a user-friendly web interface that allows users to view and organize all of their active subscriptions at a glance. Each subscription can include details like price, billing interval, and start date, making it easier for individuals and small businesses to keep track of their ongoing payments and make informed financial decisions.
+
+
+  Some key features of Wallos include:
+
+
+  📅 Comprehensive Subscription Management: Users can add multiple subscriptions and enter crucial details such as payment amount and currency for each. This enables quick comparison and monitoring of expenditures on services like streaming, software licenses, and other recurring payments.
+
+
+  ⏰ Notifications and Reminders: Wallos allows users to set reminders for upcoming subscription payments, ensuring they are notified in advance before any charges occur, thus avoiding unexpected account withdrawals.
+
+
+  📊 Detailed Cost Statistics: The Wallos interface provides an overview of all subscriptions, including the total yearly and monthly costs. For international subscriptions, it also shows currency exchange rates, so users can track their expenses in their local currency.
+
+
+  🕵️‍♂️ Privacy and Data Security: Wallos can be run locally on the user’s server, keeping all data stored exclusively on their own device, an appealing feature for privacy-conscious users who wish to retain control over their information.
+
+
+  In summary, Wallos is a flexible, easy-to-use solution for efficiently managing subscriptions, keeping an eye on expenses, and optimizing financial planning.
+developer: Miguel Ribeiro
+website: https://wallosapp.com/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/ellite/Wallos
+support: https://github.com/ellite/Wallos/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wallos/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wallos/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wallos/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wallos/4.jpg
+releaseNotes: >-
+  Added a new setting that allows users to ignore SSL/TLS certificates for specific notification methods, enhancing flexibility in managing secure connections.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

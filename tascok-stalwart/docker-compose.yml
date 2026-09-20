@@ -1,0 +1,28 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-stalwart_server_1
+      APP_PORT: 8080
+      PROXY_AUTH_ADD: "false"
+
+  server:
+    image: stalwartlabs/stalwart:v0.14.1@sha256:54e381c1f6a637fd7b00a8b5778103bcc9763c7073fa72e45795fce275bff610
+    restart: on-failure
+    tty: true
+    stdin_open: true
+    ports:
+      # "8080:8080"   # Web UI / API
+      - "1443:443"     # HTTPS
+      - "25:25"       # SMTP
+      - "587:587"     # SMTP Submission
+      - "465:465"     # SMTPS
+      - "143:143"     # IMAP
+      - "993:993"     # IMAPS
+      - "4190:4190"   # Sieve
+      - "110:110"     # POP3
+      - "995:995"     # POP3S
+    volumes:
+      - ${APP_DATA_DIR}/data:/opt/stalwart:rw
+

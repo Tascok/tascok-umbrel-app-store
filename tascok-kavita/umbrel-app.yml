@@ -1,0 +1,44 @@
+manifestVersion: 1
+id: tascok-kavita
+name: Kavita
+tagline: A fast, feature rich, cross platform reading server
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-kavita/logo.png
+category: files & productivity
+version: "0.8.6"
+port: 5444
+description: >-
+  📚 Kavita is a comprehensive, open-source platform developed to manage, read, and organize digital reading materials, encompassing books, comics, manga, and webtoons. It is designed with a modern and intuitive web interface that is optimized for both desktop and mobile devices, ensuring a seamless reading experience across different screen sizes. Unlike conventional media servers that primarily focus on video or music content, Kavita is specifically tailored for reading materials, providing features and functionalities that cater to avid readers and collectors alike.
+
+
+  The platform supports a wide array of file formats, including EPUB, PDF, CBZ, and CBR, allowing users to import diverse content types into a single, unified library. Kavita’s interface is visually appealing and highly customizable, with options to adjust themes, layouts, and reading modes to suit individual preferences. Users can create collections and series, track their reading progress, and manage metadata, making it easier to organize and categorize large libraries.
+
+
+  Kavita goes beyond basic library management by offering advanced tagging and filtering systems, enabling users to sort and search content based on genres, authors, publication dates, and other metadata. This functionality is particularly beneficial for extensive collections, as it helps maintain order and structure without overwhelming the user. Additionally, the platform supports user profiles, allowing multiple users to maintain separate reading histories and preferences within the same instance.
+
+
+  Designed with a strong emphasis on privacy and self-hosting, Kavita gives users full control over their content without relying on third-party services. It can be deployed locally on a home server or hosted in the cloud, making it versatile for different hosting environments. The platform is actively developed and maintained, with regular updates that introduce new features and improvements, further enhancing its capabilities as a robust reading management solution.
+
+
+  With its focus on providing a reading-centric experience, Kavita not only serves as a digital library but also as a powerful tool for collectors and enthusiasts who want to manage and enjoy their content in a structured, visually engaging, and privacy-conscious environment.
+developer: Joe Milazzo
+website: https://www.kavitareader.com/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/Kareadita/Kavita
+support: https://github.com/Kareadita/Kavita/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-kavita/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-kavita/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-kavita/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-kavita/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-kavita/5.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-kavita/6.jpg
+releaseNotes: >-
+  Version 0.8.6 of Kavita introduces several new features, including the ability to delete and rename Smart Filters, reorder the side navigation without accessing the customization screen, and a new cleanup task that scans and resolves media errors. The update also improves localization support, adjusts how EPUBs and PDFs are processed, and enhances the webtoon reading experience by allowing automatic switching based on image resolution. 
+  
+  
+  Additionally, numerous interface refinements, bug fixes, and dependency updates have been implemented to improve overall stability and user experience.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

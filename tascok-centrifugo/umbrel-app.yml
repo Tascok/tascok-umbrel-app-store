@@ -1,0 +1,56 @@
+manifestVersion: 1
+id: tascok-centrifugo
+name: Centrifugo
+tagline: A highly scalable real-time messaging server platform
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-centrifugo/logo.png
+category: networking
+version: "5.4.6"
+port: 8086
+description: >-
+  Centrifugo is an open-source real-time messaging server that helps developers build scalable web applications with real-time updates. It is commonly used to send messages between a server and client in applications that require live updates, such as chat apps, collaborative editing tools, real-time dashboards, or live notifications.
+
+
+  Some key features of Centrifugo:
+
+
+  ⏱️ Real-time communication: It allows the server to push data to clients instantly, avoiding the need for the client to constantly poll the server for updates.
+
+
+  🔗 WebSocket support: It uses WebSockets for efficient, low-latency communication, but also supports fallback mechanisms like HTTP-streaming and long polling.
+
+
+  📈 Scalability: Centrifugo can handle many concurrent connections and supports horizontal scaling, which makes it suitable for high-traffic applications.
+
+
+  📬 Channels and Pub/Sub: It uses the concept of channels to organize real-time messaging. Clients can subscribe to channels and receive real-time data when new messages are published.
+
+
+  📦 Backend agnostic: While it can use Redis (as you are doing) for scaling and handling a large number of connections, it also supports other backends or can be run standalone without Redis.
+
+
+  🛡️ Authentication: Centrifugo supports token-based authentication, ensuring that only authorized clients can subscribe to specific channels.
+
+
+  For Umbrel users, Centrifugo, when integrated with Redis as a backend, efficiently handles real-time message flow across various services or applications, enabling seamless live updates and communication within the Umbrel server environment.
+
+
+  🔑 The initial password is "umbrel."
+
+developer: Centrifugal Labs LTD
+website: https://centrifugal.dev/
+submitter: Tascok
+submission: https://github.com/dennysubke/dennys-umbrel-app-store
+repo: https://github.com/centrifugal/centrifugo
+support: https://github.com/centrifugal/centrifugo/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-centrifugo/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-centrifugo/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-centrifugo/3.jpg
+releaseNotes: >-
+  This update introduces the ability to configure a custom token user ID claim, providing more flexibility in authentication scenarios, and improves logging by displaying connection durations in a more readable format. Several fixes address issues such as bad checksum errors during recovery, Redis publish errors, and proxy log redaction for enhanced security. 
+
+  Additionally, the update includes Go 1.23.2, shares progress on the upcoming Centrifugo v6 release, and highlights a major update to the Laravel integration package.
+dependencies:
+path: ""
+defaultUsername: "umbrel"
+defaultPassword: "umbrel"

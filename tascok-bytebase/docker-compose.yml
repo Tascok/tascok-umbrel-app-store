@@ -1,0 +1,28 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-bytebase_web_1
+      APP_PORT: 8080
+
+  db:
+    image: postgres:17.5@sha256:3962158596daaef3682838cc8eb0e719ad1ce520f88e34596ce8d5de1b6330a1
+    restart: on-failure
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: secret
+      POSTGRES_DB: bytebase
+    volumes:
+      - ${APP_DATA_DIR}/data/postgres_data:/var/lib/postgresql/data
+
+  web:
+    image: bytebase/bytebase:3.8.1@sha256:cdd708c61bfdddc77239ef91310a5fa07b2765062c40d7b16010425497eecbe8
+    init: true
+    restart: on-failure
+    depends_on:
+      - db
+    environment:
+      PG_URL: postgres://user:secret@db:5432/bytebase
+    volumes:
+      - ${APP_DATA_DIR}/data/bytebase_data:/var/opt/bytebase

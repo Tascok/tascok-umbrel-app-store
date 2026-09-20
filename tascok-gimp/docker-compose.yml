@@ -1,0 +1,19 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-gimp_app_1
+      APP_PORT: 3000
+
+  app:
+    image: linuxserver/gimp:2.10.38@sha256:d9f23865bf9ee8bfd13ea7df72b0765c3c08a8253d2d6343310b8d37c792ff32
+    security_opt:
+      - seccomp:unconfined 
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Berlin
+    volumes:
+      - ${APP_DATA_DIR}/data/images:/config
+    restart: on-failure

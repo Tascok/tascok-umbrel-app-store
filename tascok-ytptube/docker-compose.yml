@@ -1,0 +1,20 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-ytptube_app_1
+      APP_PORT: 8081
+
+  app:
+    image: ghcr.io/arabcoders/ytptube:v1.0.1@sha256:0052762b4f1f0e2679a6a48c3112506271f1a923de4348ac0ddad9bf228df347
+    restart: on-failure
+    user: "0:0"
+    environment:
+      YTP_AUTH_USERNAME: admin
+      YTP_AUTH_PASSWORD: umbrel
+    volumes:
+      - ${APP_DATA_DIR}/data/config:/config:rw
+      - ${APP_DATA_DIR}/data/downloads:/downloads:rw
+      - ${APP_DATA_DIR}/data/downloads:/tmp:rw
+

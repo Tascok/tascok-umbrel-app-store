@@ -1,0 +1,57 @@
+manifestVersion: 1
+id: tascok-facturascripts
+name: FacturaScripts
+tagline: A complete solution for your business
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-facturascripts/logo.png
+category: files & productivity
+version: "2025.4"
+port: 8774
+description: >-
+  🏢 FacturaScripts is an open-source business management software that combines accounting, invoicing, and ERP functions into one flexible platform. It helps companies create and manage invoices, quotes, purchase orders, and delivery notes while keeping track of clients, suppliers, and products in a unified system.
+
+
+  The application allows users to record expenses, monitor stock levels, and manage sales and purchases efficiently. It includes comprehensive accounting features such as ledgers, journal entries, and balance sheets, making it suitable for small and medium businesses that need reliable financial control.
+
+
+  FacturaScripts can generate detailed financial reports and summaries that support decision-making and ensure accurate bookkeeping. Its modular architecture allows the installation of additional plugins that extend its functionality to cover payroll, taxes, analytics, and project management.
+
+
+  The interface is designed to be intuitive and adaptable so users can customize workflows, forms, and templates according to their business needs. Overall, FacturaScripts provides a complete digital solution for managing daily administrative and financial tasks in one integrated environment.
+
+
+  ⚙️ After starting the application, the database must be populated with the following values to ensure proper operation. These parameters define the connection to the database where all business data will be stored and managed. The configuration requires setting the host, user, password, and database name as shown below:
+
+  
+  SQL server type: MySQL
+  
+  Database Server: mysql
+
+  Database port: 3306
+  
+  Database name: facturascripts
+
+  Database user: facturascripts
+
+  Database password: mypassword
+  
+
+  Once these values are set and the system is running, FacturaScripts will automatically connect to the database and create the necessary tables. Make sure that the database service is active before launching the application to avoid connection errors.
+developer: FacturaScripts
+website: https://facturascripts.com/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/NeoRazorX/facturascripts
+support: https://facturascripts.com/contacto
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-facturascripts/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-facturascripts/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-facturascripts/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-facturascripts/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-facturascripts/5.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-facturascripts/6.jpg
+releaseNotes: >-
+  Version 2025.4 introduces fixes for image and file widgets, improving overall stability and usability.
+dependencies: []
+path: ""
+defaultUsername: "admin"
+defaultPassword: "admin"

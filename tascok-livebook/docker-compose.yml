@@ -1,0 +1,21 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-livebook_web_1
+      APP_PORT: 8080
+
+  web:
+    image: ghcr.io/livebook-dev/livebook:0.15.5@sha256:f083cfce9fe7d440b8084a7e3b6b834b4d38eb32326a35780eddc92c95f12819
+    user: 0:0
+    ports:
+      - 8371:8081
+    volumes:
+      - ${APP_DATA_DIR}/data:/data
+    environment:
+      LIVEBOOK_PORT: 8080
+      LIVEBOOK_IP: 0.0.0.0
+      LIVEBOOK_TOKEN_ENABLED: 0
+      LIVEBOOK_PASSWORD: umbrel-livebook
+    restart: on-failure

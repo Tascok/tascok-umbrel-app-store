@@ -1,0 +1,36 @@
+manifestVersion: 1
+id: tascok-librewolf
+name: LibreWolf
+tagline: A browser that puts your privacy first
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-librewolf/logo.png
+category: networking
+version: "135.0.1"
+port: 8914
+description: >-
+  🐺 LibreWolf is a free and open-source web browser that prioritizes privacy, security, and performance. It is a community-driven project based on Mozilla Firefox, with a focus on providing users with a more secure and privacy-conscious browsing experience. LibreWolf removes all proprietary components from Firefox, such as DRM (Digital Rights Management) and telemetry, to ensure that users' data remains private. The browser also includes several additional privacy features, such as enhanced tracking protection, the disabling of WebRTC (to prevent IP leaks), and various pre-configured security settings designed to minimize the exposure to tracking and data collection from websites.
+
+
+  One of LibreWolf's standout features is its commitment to providing a truly private browsing experience. It comes with built-in privacy-enhancing tools like blocking third-party cookies, blocking fingerprinting techniques, and preventing websites from collecting personal information through various means. It also enables enhanced HTTPS by default, ensuring that connections to websites are encrypted whenever possible.
+
+
+  LibreWolf is designed to be as fast and efficient as possible. Since it is built on the Firefox codebase, it inherits all the strengths of Firefox, such as its speed and compatibility with web standards. However, it takes extra steps to improve performance by optimizing code and removing unnecessary bloatware, resulting in a browser that runs smoothly on various devices, including older machines.
+
+
+  The browser also offers users a wide range of customization options. It allows for the installation of Firefox extensions, making it highly adaptable to different browsing needs. Users can tweak the browser's settings to their liking, from user interface changes to advanced configuration settings. This flexibility makes it an appealing choice for both privacy-conscious users and those who enjoy tailoring their browsing experience.
+
+
+  Overall, LibreWolf is a browser that places a high value on user privacy, security, and performance. It provides an excellent alternative for those who want to maintain control over their online activity and avoid the data collection practices often associated with mainstream browsers.
+developer: LibreWolf Community 
+website: https://librewolf.net/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/librewolf-community
+support: https://codeberg.org/librewolf/issues/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-librewolf/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-librewolf/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-librewolf/3.jpg
+releaseNotes: >-
+  The update addresses issues with unusable drop-down menus on certain sites, incorrect scrolling behavior with anchor tags, and problems restoring closed windows or tabs when upgrading from older Firefox versions. Additionally, it fixes a broken search functionality when using a custom search engine with a large icon after updating to Firefox 135.
+dependencies: []
+path: ""

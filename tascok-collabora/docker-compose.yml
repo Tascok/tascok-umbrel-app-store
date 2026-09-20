@@ -1,0 +1,20 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-collabora_server_1
+      APP_PORT: 9980
+      PROXY_AUTH_ADD: "false"
+  server:
+    image: collabora/code:24.04.12.3.1@sha256:76d50a50c39210ae85ce20e422f4241a2080f10e0fcee65733f22eba8a00ec73
+    restart: on-failure
+    cap_add:
+      - MKNOD
+    environment:
+      - VIRTUAL_HOST=umbrel.local
+      - VIRTUAL_PORT=9980
+      - username=admin
+      - password=umbrel
+      - domain=umbrel\.local
+      - extra_params=--o:ssl.enable=false --o:ssl.termination=true

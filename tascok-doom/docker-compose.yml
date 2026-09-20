@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-doom_web_1
+      APP_PORT: 8080
+      PROXY_AUTH_ADD: "false"
+  web:
+    image: callumhoughton22/doom-in-docker:0.1@sha256:e32fd98b64e5322c30b6fcb3b367c1690b90d6f3b68831b50e5962ab7307f39d
+    restart: on-failure
+
+

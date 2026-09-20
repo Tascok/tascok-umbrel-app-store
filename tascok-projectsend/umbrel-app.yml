@@ -1,0 +1,44 @@
+manifestVersion: 1
+id: tascok-projectsend
+name: ProjectSend
+tagline: A private file sharing platform for client access
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-projectsend/logo.png
+category: files & productivity
+version: "r1720"
+port: 8181
+description: >-
+  📤 ProjectSend is a self-hosted file sharing application that allows individuals or organizations to securely upload and share files with clients, teams, or collaborators. It is open-source software released under the GPL v2 license and is designed to be installed on a private server or shared hosting environment, giving users complete control over their data and infrastructure. Unlike commercial file sharing platforms that rely on third-party storage, ProjectSend provides a privacy-focused solution where all files and user data remain on your own server.
+
+
+  The core concept behind ProjectSend is to simplify the process of distributing large files to specific users while maintaining a professional and organized interface. Each user has a private login and can only access the files assigned to them. This makes the platform ideal for photographers, designers, agencies, educational institutions, and small to medium-sized businesses that need to share sensitive materials with clients or team members. Administrators can manage user accounts, monitor activity through detailed logs, and control permissions for both uploading and downloading files.
+
+
+  ProjectSend features a clean and responsive interface that works well on both desktop and mobile devices. It supports custom branding, so users can replace logos and color schemes to match their organization’s identity. The platform is also multilingual and supports many translations contributed by the community. Because it is open-source, developers have the freedom to modify and extend the functionality as needed, making it a flexible solution for a wide range of use cases.
+
+
+  The software is continually improved through community involvement, and the source code is available on GitHub. However, because it is self-hosted, users are responsible for maintaining their installation, applying updates, and ensuring server security. This includes staying up to date with patches, especially in light of previously discovered security vulnerabilities that have since been addressed in newer versions.
+
+
+  ProjectSend is a focused alternative to larger collaboration platforms. While it does not offer real-time collaboration tools or integrated messaging, it excels at what it was built for: fast, secure, and controlled file sharing between users. For anyone looking for a private and customizable solution to replace commercial cloud storage services for client-facing file distribution, ProjectSend is a powerful and professional choice.
+
+
+  ⚠️ Configure the database with the following settings: host set to db, database name projectsend, username psuser, password pspassword, and table prefix tbl_.
+developer: ProjectSend
+website: https://www.projectsend.org/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/projectsend/projectsend
+support: https://github.com/projectsend/projectsend/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-projectsend/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-projectsend/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-projectsend/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-projectsend/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-projectsend/5.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-projectsend/6.jpg
+releaseNotes: >-
+  The latest ProjectSend update (r1720) introduces highly requested folders and subfolders with drag-and-drop rearrangement and breadcrumb navigation. It also adds features like showing image dimensions, support for SVG branding images, improved file management options, SMTP environment variable support, and multiple bug fixes including PHP 8 warnings and 2FA validation. Admin pages have been improved for session handling, and security updates address vulnerabilities and dependency upgrades.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

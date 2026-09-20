@@ -1,0 +1,29 @@
+version: "3.8"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-linkstack_linkstack_1
+      APP_PORT: 80
+      PROXY_AUTH_ADD: "false"
+      
+  linkstack:
+    hostname: 'linkstack'
+    image: 'linkstackorg/linkstack:latest@sha256:abd691b4293b020a317de8794737671e0315159efcb868e8a4124d6f0611f7ae' # This image has no version specific tags
+    restart: on-failure
+    # This image doesn't support a custom user
+    # user: '1000:1000'
+    environment:
+      SERVER_ADMIN: 
+      HTTP_SERVER_NAME: umbrel.local
+      HTTPS_SERVER_NAME:
+    volumes:
+      - linkstack_data:/htdocs
+    
+volumes:
+  linkstack_data:
+    driver: local
+    driver_opts:
+      o: bind
+      type: none
+      device: ${APP_DATA_DIR}/data

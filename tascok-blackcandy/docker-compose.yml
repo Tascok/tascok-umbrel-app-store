@@ -1,0 +1,23 @@
+version: "3.9"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-blackcandy_server_1
+      APP_PORT: 3000
+      PROXY_AUTH_ADD: "false"
+
+  server:
+    image: blackcandy/blackcandy:3.0.0@sha256:226a3362be53d4347995511279b21b5a1d00d5f5a940ab4fc635af0d7c3e5f90
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/log:/app/log
+      - ${APP_DATA_DIR}/production.sqlite3:/app/db/production.sqlite3
+      - ${APP_DATA_DIR}/uploads_data:/app/public/uploads
+      - ${APP_DATA_DIR}/media_data:/media_data
+    environment:
+      PUID: "1000"
+      PGID: "1000"
+      VIRTUAL_HOST: umbrel.local
+      MEDIA_PATH: /media_data
+      # NGINX_SENDFILE: "true" # Don't forget to set `NGINX_SENDFILE` environment variable to true to enable nginx sendfile.

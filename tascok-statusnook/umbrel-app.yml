@@ -1,0 +1,30 @@
+manifestVersion: 1
+id: tascok-statusnook
+name: Statusnook
+tagline: An effortless solution for setting up a status page and monitoring endpoints in minutes
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-statusnook/logo.png
+category: networking
+version: "0.3.0"
+port: 8444
+description: >-
+  StatusNook is a self-hosted solution designed for creating professional and customizable status pages that help communicate the health, performance, and reliability of your systems or services. It provides a transparent way to keep users informed about current operational statuses, scheduled maintenance, or unexpected outages. With built-in tools for incident management, it allows you to create and track incidents, provide regular updates, and ensure users are always aware of the latest developments during critical events.
+
+
+  The platform is highly flexible, offering extensive customization options so you can design a status page that aligns perfectly with your brand identity. This includes modifying layouts, adding custom text, and incorporating company-specific visuals or themes. By hosting StatusNook on your own infrastructure, you retain full control over your data, ensuring privacy and compliance with your internal policies. This makes it an ideal choice for businesses, developers, and organizations looking for a reliable and privacy-focused alternative to cloud-based status page solutions.
+
+developer: Goksan
+website: https://statusnook.com/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/goksan/statusnook
+support: https://github.com/goksan/statusnook/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-statusnook/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-statusnook/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-statusnook/3.jpg
+releaseNotes: >-
+  The latest update introduces a text-based configuration option (YAML), which can be accessed through the settings page or pushed via GitHub. This allows for easier customization and management of settings.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

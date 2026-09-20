@@ -1,0 +1,39 @@
+manifestVersion: 1
+id: tascok-wally
+name: Wally
+tagline: A lightweight expense tracker
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wally/logo.png
+category: finance
+version: "1.14"
+port: 3811
+description: >-
+  👛 Wally is a personal finance management application designed to help users take control of their money and gain a clear understanding of their financial situation. It provides a platform where users can easily record their income and expenses, ensuring that every transaction is accounted for. By keeping a detailed history of financial activity, Wally enables users to track their spending patterns over time and identify areas where they can save or adjust their budget.
+
+
+  The application allows users to categorize transactions, making it simple to see how much is being spent on different aspects of life such as groceries, transportation, or entertainment. This categorization helps users recognize trends in their spending and make informed decisions about where to allocate resources. Users can also view summaries and overviews of their financial activity, giving a comprehensive snapshot of their current financial health at a glance.
+
+
+  Wally emphasizes clarity and simplicity in its design, providing a clean and intuitive interface that makes managing finances accessible to everyone. It focuses on essential functionality without unnecessary features or distractions, allowing users to stay organized and make decisions based on accurate financial data. By offering insight into both income and expenses, Wally helps users plan for the future, manage their budget effectively, and develop healthier financial habits over time.
+developer: Pol Alzina
+website: https://github.com/polius/Wally
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/polius/Wally
+support: https://github.com/polius/Wally/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wally/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wally/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wally/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wally/4.jpg
+releaseNotes: >-
+  This update includes:
+
+  - Overall UI refresh & improvements: dashboard, currencies, tags!
+  - Internationalization: Wally now supports translations in 13+ languages.
+  - API keys management: when login is enabled, users can now create and manage API keys directly from the Settings page.
+
+  Full release notes can be found at https://github.com/polius/Wally/releases
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

@@ -1,0 +1,32 @@
+manifestVersion: 1
+id: tascok-wbo
+category: files & productivity
+name: Online Whiteboard
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wbo/logo.png
+version: "1.20.1"
+tagline: An online collaborative Whiteboard that is simple, free, easy to use and to deploy
+description: >-
+  WBO is a collaborative whiteboard platform that enables real-time interaction between multiple users, making it perfect for creative brainstorming, project planning, teaching, and teamwork. It is browser-based and open-source, requiring no installations or accounts.
+
+
+  WBO's interface offers tools for drawing, writing, and annotating, with immediate live updates across all connected devices. You can create custom private boards with shareable URLs or join public ones for open collaboration. Its simplicity and flexibility make it a highly accessible tool for both casual and professional use, across various industries.
+
+developer: lovasoa
+website: https://wbo.ophir.dev/
+dependencies: []
+repo: https://github.com/lovasoa/whitebophir
+support: https://github.com/lovasoa/whitebophir/issues
+port: 5111
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wbo/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wbo/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-wbo/3.jpg
+releaseNotes: >-
+  A new configuration option, DEFAULT_BOARD, has been added. This allows administrators to define a default board that will automatically load when users visit the site. This feature is designed to streamline collaboration by directing users to a pre-set board without requiring manual selection, ensuring a consistent entry point for group activities. This change improves user experience and simplifies navigation to frequently used boards.
+
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+torOnly: false
+submitter: Tascok
+submission:

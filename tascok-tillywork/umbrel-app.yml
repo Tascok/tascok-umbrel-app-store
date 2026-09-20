@@ -1,0 +1,40 @@
+manifestVersion: 1
+id: tascok-tillywork
+name: Tillywork
+tagline: A work management solution for startups
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tillywork/logo.png
+category: files & productivity
+version: "0.1.2"
+port: 8556
+description: >-
+  💼 Tillywork is an open-source work management platform tailored for B2B teams, offering a unified solution for managing projects, sales pipelines, and agile workflows. It positions itself as a modern, customizable alternative to commercial tools like ClickUp, monday.com, and Jira, with a strong emphasis on flexibility, privacy, and user ownership.
+
+
+  The platform combines traditional project management with integrated CRM functionality and agile development support. This means teams can track tasks, manage customer relationships, and coordinate development sprints all within the same interface. By bringing these features together, tillywork helps organizations eliminate the friction caused by switching between separate tools and fosters greater efficiency and transparency across departments.
+
+
+  Built with modern web technologies, tillywork delivers a clean, responsive user experience designed for clarity and ease of use. The interface supports dynamic, real-time collaboration, allowing teams to adapt quickly to changing requirements. The system’s design is intuitive enough for non-technical users while also being powerful enough to support complex organizational structures and workflows.
+
+
+  What sets tillywork apart is its open-source nature. Released under the permissive MIT license, it gives organizations complete freedom to use, modify, and extend the software according to their specific needs. This approach not only lowers costs but also empowers teams to maintain full control over their tools and data, fostering a sense of digital independence.
+
+
+  With a growing community and active development, tillywork is continually evolving to meet the demands of modern businesses. Its goal is to offer a transparent, adaptable, and efficient environment for collaborative work—helping teams stay focused, organized, and aligned.
+developer: tillywork
+website: https://tilly.work/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/tillywork/tillywork
+support: https://github.com/tillywork/tillywork/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tillywork/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tillywork/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tillywork/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tillywork/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tillywork/5.jpg
+releaseNotes: >-
+  The v0.1.2 introduces the new Gantt view feature and general bug fixes.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

@@ -1,0 +1,15 @@
+version: '3.9'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-jenkins_web_1
+      APP_PORT: 8080
+      PROXY_AUTH_ADD: "false"
+
+  web:
+    image: jenkins/jenkins:jdk17@sha256:0d407c97fe1dcd697e9c63eefed6c00fabbf991045ae70a04f5d67469f491f40
+    user: root
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/home/suresh/jenkins_data/jenkins_home:/var/jenkins_home:rw

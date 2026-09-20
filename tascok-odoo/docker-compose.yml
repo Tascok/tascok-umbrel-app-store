@@ -1,0 +1,34 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-odoo_web_1
+      APP_PORT: 8069
+      
+  db:
+    image: postgres:17.6@sha256:29e0bb09c8e7e7fc265ea9f4367de9622e55bae6b0b97e7cce740c2d63c2ebc0
+    volumes:
+      - ${APP_DATA_DIR}/data/db:/var/lib/postgresql/data:rw
+    environment:
+      POSTGRES_DB: postgres
+      POSTGRES_USER: odoouser
+      POSTGRES_PASSWORD: odoopass
+    restart: on-failure
+
+  web:
+    image: odoo:18.0@sha256:8e262fde438aa29c27609a19cb7677654a55b7b805a825e03b5b8b990e188c9b
+    user: "0:0"
+    volumes:
+      - ${APP_DATA_DIR}/data/web-data:/var/lib/odoo:rw
+      - ${APP_DATA_DIR}/data/addons:/mnt/extra-addons:rw
+      - ${APP_DATA_DIR}/data/cache:/.cache/pip:rw
+      - ${APP_DATA_DIR}/data/local:/.local:rw
+    environment:
+      HOST: db
+      USER: odoouser
+      PASSWORD: odoopass
+    restart: on-failure
+    depends_on:
+      db:
+        condition: service_started

@@ -1,0 +1,37 @@
+manifestVersion: 1
+id: tascok-aphrodite
+name: Aphrodite
+tagline: A dynamic badge generator for media posters
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-aphrodite/logo.png
+category: media
+version: "4.1.3"
+port: 8723
+description: >-
+  👸 Aphrodite is an application designed to enhance the visual presentation of movie and TV show posters by automatically adding informative badges. The main function of the app is to analyze each media file and generate badges that convey essential details about the content. These badges provide information such as video resolution, audio formats, ratings from popular platforms, and notable awards. By overlaying this information directly onto the posters, Aphrodite allows viewers to quickly understand the quality and characteristics of each title without the need to access additional metadata or menus.
+
+
+  The application focuses on improving both clarity and aesthetics. The badges are designed to be visually appealing while still clearly communicating important information. This approach makes it easier for users to browse through their media collection and make decisions about what to watch based on quality indicators or other key attributes.
+
+
+  Beyond simply displaying technical details, Aphrodite helps create a more organized and informative media library. It emphasizes accessibility of information at a glance, allowing users to instantly recognize which content meets their preferences for resolution, audio quality, or critically acclaimed status. The result is a media collection that is not only easier to navigate but also more engaging to explore visually.
+
+
+  Overall, Aphrodite transforms standard posters into rich, informative visual summaries, making the browsing experience more intuitive and enjoyable.
+developer: Jack Kerouac
+website: https://github.com/jackkerouac/aphrodite
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/jackkerouac/aphrodite
+support: https://github.com/jackkerouac/aphrodite/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-aphrodite/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-aphrodite/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-aphrodite/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-aphrodite/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-aphrodite/5.jpg
+releaseNotes: >-
+  Aphrodite v4.1.3 fixes authentication issues with the TMDB awards system by updating API calls to use Bearer tokens instead of legacy URL parameters. This ensures that users with TMDB Read Access Tokens can properly retrieve award information for media posters.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

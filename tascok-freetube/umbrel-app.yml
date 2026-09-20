@@ -1,0 +1,37 @@
+manifestVersion: 1
+id: tascok-freetube
+name: FreeTube
+tagline: An Open Source YouTube app for privacy
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-freetube/logo.png
+category: media
+version: "v0.23.1-beta"
+port: 3422
+description: >-
+  FreeTube is an open-source YouTube client designed to provide a more private and ad-free viewing experience. Unlike the official YouTube website or app, FreeTube allows users to watch videos without being tracked by Google, as it does not require a Google account to function. Instead of relying on Google's tracking mechanisms, FreeTube stores subscriptions, watch history, and playlists locally on the user's device, ensuring that personal data remains private.
+
+
+  One of the core advantages of FreeTube is its ability to block advertisements natively, eliminating the need for additional browser extensions or ad blockers. It achieves this by fetching video content directly from YouTube while bypassing tracking scripts and unwanted elements. The software also offers users the choice between using YouTube's official API or Invidious, an alternative frontend that provides an even greater level of privacy.
+
+
+  The interface of FreeTube is designed to resemble the familiar YouTube experience while remaining lightweight and customizable. Users can organize their subscriptions, browse trending videos, and explore content just as they would on the official platform. For those who prioritize online privacy but still want access to YouTube's vast content library, FreeTube serves as an excellent alternative by offering a seamless, non-intrusive, and ad-free viewing experience.
+
+
+  🔑 By default, the username is "admin" and the password is "umbrel".
+developer: FreeTubeApp
+website: https://freetubeapp.io/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/FreeTubeApp/FreeTube
+support: https://github.com/FreeTubeApp/FreeTube/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-freetube/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-freetube/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-freetube/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-freetube/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-freetube/5.jpg
+releaseNotes: >-
+  The latest version comes with general improvements and is the initial release.
+dependencies:
+path: ""
+defaultUsername: "admin"
+defaultPassword: "umbrel"

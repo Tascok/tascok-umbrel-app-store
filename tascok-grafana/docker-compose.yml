@@ -1,0 +1,16 @@
+version: '3.9'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-grafana_web_1
+      APP_PORT: 3000
+      PROXY_AUTH_ADD: "false"
+  web:
+    image: grafana/grafana-enterprise:11.3.0@sha256:1283b133d3311bd31de9bb32adfab45e916e9ab6e472020d94a20324912bca80
+    restart: on-failure
+    user: '0'
+    volumes:
+      - ${APP_DATA_DIR}/grafana-storage:/var/lib/grafana
+volumes:
+  grafana-storage: {}

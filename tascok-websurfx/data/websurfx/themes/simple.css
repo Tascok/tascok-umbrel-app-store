@@ -1,0 +1,900 @@
+/* @import url('./catppuccin-mocha.css'); */
+@font-face {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 200 600;
+  font-stretch: 0% 200%;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/rubik/v28/iJWKBXyIfDnIV7nErXyi0A.woff2')
+    format('woff2');
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  font-family: Rubik, sans-serif;
+  background-color: var(--background-color);
+}
+
+/* enforce font for buttons */
+button {
+  font-family: Rubik, sans-serif;
+}
+
+/* styles for the index page */
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-container svg {
+  color: var(--logo-color);
+}
+
+.search-container div {
+  display: flex;
+}
+
+/* styles for the search box and search button */
+
+.search_bar {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.search_bar input {
+  border-radius: 6px;
+  padding: 2.6rem 2.2rem;
+  width: 50rem;
+  height: 3rem;
+  outline: none;
+  border: none;
+  box-shadow: rgb(0 0 0 / 1);
+  background-color: var(--color-one);
+  color: var(--foreground-color);
+  outline-offset: 3px;
+  font-size: 1.6rem;
+}
+
+.search_bar input::-webkit-search-results-button,
+.search_bar input::-webkit-search-cancel-button{
+    display: none;
+}
+
+.search_bar input:focus {
+  outline: 2px solid var(--foreground-color);
+}
+
+.search_bar input::placeholder {
+  color: var(--foreground-color);
+  opacity: 1;
+}
+
+.search_bar button {
+  padding: 2.6rem 3.2rem;
+  border-radius: 6px;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline-offset: 3px;
+  outline: 2px solid transparent;
+  border: none;
+  transition: 0.1s;
+  gap: 0;
+  background-color: var(--color-six);
+  color: var(--background-color);
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  position: relative;
+}
+
+.search_bar button img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.search_bar button:active {
+  outline: 2px solid var(--color-three);
+}
+
+.search_bar button:active,
+.search_bar button:hover {
+  filter: brightness(1.2);
+}
+
+.search_area .search_options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search_area .search_options select {
+  margin: 0.7rem 0;
+  width: 20rem;
+  background-color: var(--color-one);
+  color: var(--foreground-color);
+  padding: 1.2rem 2rem;
+  border-radius: 0.5rem;
+  outline-offset: 3px;
+  outline: 2px solid transparent;
+  border: none;
+  text-transform: capitalize;
+}
+
+.search_area .search_options select:active,
+.search_area .search_options select:hover {
+  outline: 2px solid var(--color-three);
+}
+
+.search_area .search_options option:hover {
+  background-color: var(--color-one);
+}
+
+.result_not_found {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  color: var(--foreground-color);
+}
+
+.result_not_found p {
+  margin: 1rem 0;
+}
+
+.result_not_found ul {
+  margin: 1rem 0;
+}
+
+.result_not_found img {
+  width: 40rem;
+}
+
+/* styles for the error box */
+.error_box .error_box_toggle_button {
+  background: var(--foreground-color);
+}
+
+.error_box .dropdown_error_box {
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  background: var(--background-color);
+  border-radius: 0;
+  margin-left: 2rem;
+  min-height: 20rem;
+  min-width: 22rem;
+}
+
+.error_box .dropdown_error_box.show {
+  display: flex;
+}
+
+.error_box .dropdown_error_box .error_item,
+.error_box .dropdown_error_box .no_errors {
+  display: flex;
+  align-items: center;
+  color: var(--foreground-color);
+  letter-spacing: 0.1rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.error_box .dropdown_error_box .error_item {
+  justify-content: space-between;
+}
+
+.error_box .dropdown_error_box .no_errors {
+  min-height: 18rem;
+  justify-content: center;
+}
+
+.error_box .dropdown_error_box .error_item:hover {
+  box-shadow: inset 0 0 100px 100px rgb(255 255 255 / 0.1);
+}
+
+.error_box .error_item .severity_color {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.results .result_disallowed,
+.results .result_filtered,
+.results .result_engine_not_selected {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  font-size: 2rem;
+  color: var(--foreground-color);
+  margin: 0 7rem;
+}
+
+.results .result_disallowed .user_query,
+.results .result_filtered .user_query,
+.results .result_engine_not_selected .user_query {
+  color: var(--background-color);
+  font-weight: 300;
+}
+
+.results .result_disallowed img,
+.results .result_filtered img,
+.results .result_engine_not_selected img {
+  width: 30rem;
+}
+
+.results .result_disallowed div,
+.results .result_filtered div,
+.results .result_engine_not_selected div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  line-break: strict;
+}
+
+/* styles for the footer and header */
+
+header {
+  width: 100%;
+  background: var(--background-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 3rem;
+}
+
+footer {
+  width: 100%;
+  background: var(--background-color);
+  display: flex;
+  align-items: center;
+  padding: 1.7rem 1.7rem 4rem;
+  gap: 1.8rem;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header h1 a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: var(--foreground-color);
+  letter-spacing: 0.1rem;
+}
+
+header ul,
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.5rem;
+  gap: 2rem;
+}
+
+header ul li a,
+footer ul li a,
+header ul li a:visited,
+footer ul li a:visited {
+  text-decoration: none;
+  color: var(--color-two);
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+}
+
+header ul li a {
+  font-weight: 600;
+}
+
+header ul li a:hover,
+footer ul li a:hover {
+  color: var(--color-five);
+}
+
+footer div span {
+  font-size: 1.5rem;
+  color: var(--color-four);
+}
+
+footer div {
+  display: flex;
+  gap: 1rem;
+}
+
+/* Styles for the search page */
+
+.results {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.result {
+  gap: 1rem;
+}
+
+.results .search_bar {
+  margin: 1rem 0;
+}
+
+.results_aggregated {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 2rem 0;
+  content-visibility: auto;
+}
+
+.results_aggregated .result {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.results_aggregated .result h1 a {
+  font-size: 1.7rem;
+  font-weight: normal;
+  color: var(--color-two);
+  text-decoration: none;
+}
+
+.results_aggregated .result h1 a:hover {
+  color: var(--color-five);
+}
+
+.results_aggregated .result h1 a:visited {
+  color: var(--color-five);
+}
+
+.results_aggregated .result small {
+  color: var(--color-three);
+  font-size: 1.3rem;
+  word-wrap: break-word;
+  line-break: anywhere;
+}
+
+.results_aggregated .result p {
+  color: var(--foreground-color);
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  margin-top: 0.3rem;
+  word-wrap: break-word;
+  line-break: anywhere;
+}
+
+.results_aggregated .result .upstream_engines {
+  text-align: right;
+  font-size: 1.2rem;
+  padding: 1rem;
+  color: var(--color-five);
+  display: flex;
+  gap: 1rem;
+  justify-content: right;
+}
+
+/* Styles for the 404 page  */
+
+.error_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 5rem;
+}
+
+.error_container img {
+  width: 30%;
+}
+
+.error_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.error_content h1,
+.error_content h2 {
+  letter-spacing: 0.1rem;
+}
+
+.error_content h1 {
+  font-size: 3rem;
+}
+
+.error_content h2 {
+  font-size: 2rem;
+}
+
+.error_content p {
+  font-size: 1.2rem;
+}
+
+.error_content p a,
+.error_content p a:visited {
+  color: var(--color-two);
+  text-decoration: none;
+}
+
+.error_content p a:hover {
+  color: var(--color-five);
+}
+
+.page_navigation {
+  padding: 0 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page_navigation a {
+  background: var(--background-color);
+  color: var(--foreground-color);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+}
+
+.page_navigation a:active {
+  filter: brightness(1.2);
+}
+
+/* Styles for the about page */
+
+.about-container article {
+  font-size: 1.5rem;
+  color: var(--foreground-color);
+  padding-bottom: 10px;
+  max-width: 1100px;
+  margin: 14rem auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 100px;
+}
+
+.about-container article h1 {
+  color: var(--color-two);
+  font-size: 4.5rem;
+}
+
+.about-container article .logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-container article .logo-container svg {
+  width: clamp(200px, 530px, 815px);
+  color: var(--logo-color);
+}
+
+.about-container article .text-block {
+  box-shadow: 0 0 0 100vmax var(--foreground-color);
+  background-color: var(--foreground-color);
+  clip-path: inset(0 -100vmax);
+  padding: 90px 0;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: var(--background-color);
+}
+
+.about-container article .text-block .text-block-title {
+  font-size: 64px;
+  font-weight: 500;
+}
+
+.hero-text-container {
+  width: 860px;
+}
+
+.hero-text {
+  font-size: 45px;
+  font-weight: 200;
+}
+
+.about-container a {
+  color: var(--color-three);
+}
+
+.about-container {
+  width: 80%;
+  margin-bottom: 140px;
+}
+
+.feature-list {
+  padding: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 60px;
+}
+
+.feature-list-title {
+  text-align: center;
+  font-size: 64px;
+  font-weight: 500;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.feature-card {
+  background-color: var(--foreground-color);
+  color: var(--background-color);
+  text-align: center;
+  display: flex;
+  padding: 30px;
+  border-radius: 24px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.feature-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.feature-card-header h4 {
+  font-size: 33px;
+  font-weight: 500;
+}
+
+.feature-card-body p {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.about-footnote {
+  font-size: 24px;
+  text-align: center;
+  color: var(--foreground-color);
+}
+
+/* Styles for the settings page */
+.settings_container {
+  display: flex;
+  justify-content: space-around;
+  width: 80dvw;
+  margin: 5rem 0;
+}
+
+.settings h1 {
+  color: var(--color-two);
+  font-size: 2.5rem;
+}
+
+.settings > h1 {
+  margin-bottom: 4rem;
+  margin-left: 2rem;
+}
+
+.settings hr {
+  border-color: var(--color-three);
+  margin: 0.3rem 0 1rem;
+}
+
+.settings > hr {
+  margin-left: 2rem;
+}
+
+.settings_container .sidebar {
+  width: 30%;
+  cursor: pointer;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  margin-right: 0.5rem;
+  margin-left: -0.7rem;
+  padding: 0.7rem;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+  color: var(--foreground-color);
+  text-transform: capitalize;
+  gap: 1.5rem;
+}
+
+.settings_container .sidebar .btn {
+  padding: 2rem;
+  border-radius: 0.5rem;
+  outline-offset: 3px;
+  outline: 2px solid transparent;
+}
+
+.settings_container .sidebar .btn:active {
+  outline: 2px solid var(--color-two);
+}
+
+.settings_container .sidebar .btn:not(.active):hover {
+  color: var(--color-two);
+}
+
+.settings_container .sidebar .btn.active {
+  background-color: var(--color-two);
+  color: var(--background-color);
+}
+
+.settings_container .main_container {
+  width: 70%;
+  border-left: 1.5px solid var(--color-three);
+  padding-left: 3rem;
+  border: none;
+}
+
+.settings_container .tab {
+  display: none;
+}
+
+.settings_container .tab.active {
+  display: flex;
+  gap: 1.2rem;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.settings_container button {
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  background: var(--color-three);
+  color: var(--background-color);
+  border-radius: 0.5rem;
+  border: 2px solid transparent;
+  font-weight: bold;
+  transition: all 0.1s ease-out;
+  cursor: pointer;
+  box-shadow: 5px 5px;
+  outline: none;
+}
+
+.settings_container button:active {
+  box-shadow: none;
+  translate: 5px 5px;
+}
+
+.settings_container .main_container .message {
+  font-size: 1.5rem;
+  color: var(--foreground-color);
+}
+
+.settings_container .tab h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--color-four);
+  margin-top: 1.5rem;
+  text-transform: capitalize;
+}
+
+.settings_container .tab .description,
+.settings_container .tab .admin_warning {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.settings_container .tab .description {
+  color: var(--foreground-color);
+}
+
+.settings_container .tab .admin_warning {
+  color: var(--color-two);
+}
+
+.settings_container .user_interface select,
+.settings_container .general select,
+.settings_container .general form input {
+  margin: 0.7rem 0;
+  width: 20rem;
+  background-color: var(--color-one);
+  color: var(--foreground-color);
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+}
+
+.settings_container .general form input {
+  padding: 0;
+  width: 30rem;
+  text-align: center;
+  text-transform: none;
+}
+
+.settings_container .general form input::file-selector-button {
+  content: 'Browse';
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  background: var(--color-three);
+  color: var(--background-color);
+  border-radius: 0.5rem;
+  border: 2px solid transparent;
+  font-weight: bold;
+  transition: all 0.1s ease-out;
+  cursor: pointer;
+  box-shadow: 5px 5px;
+  outline: none;
+  translate: -1rem 0;
+}
+
+.settings_container .general form input::file-selector-button:active {
+  box-shadow: none;
+  translate: 5px 5px;
+}
+
+.settings_container .general .export_btn {
+  margin-bottom: 1rem;
+}
+
+.settings_container .user_interface option:hover,
+.settings_container .general option:hover {
+  background-color: var(--color-one);
+}
+
+.settings_container .engines .engine_selection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+  gap: 2rem;
+}
+
+.settings_container .engines .toggle_btn {
+  color: var(--foreground-color);
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  border-radius: 100px;
+  gap: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.settings_container .engines hr {
+  margin: 0;
+}
+
+.settings_container .cookies input {
+  margin: 1rem 0;
+}
+
+/* Styles for the toggle button */
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 6rem;
+  height: 3.4rem;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  inset: 0;
+  background-color: var(--foreground-color);
+  transition: 0.2s;
+  outline-offset: 3px;
+  outline: 2px solid transparent;
+}
+
+.slider:active {
+  outline: 2px solid var(--foreground-color);
+}
+
+.slider::before {
+  position: absolute;
+  content: '';
+  height: 2.6rem;
+  width: 2.6rem;
+  left: 0.4rem;
+  bottom: 0.4rem;
+  background-color: var(--background-color);
+  transition: 0.2s;
+}
+
+input:checked + .slider {
+  background-color: var(--color-three);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px var(--color-three);
+}
+
+input:checked + .slider::before {
+  transform: translateX(2.6rem);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 3.4rem;
+}
+
+.slider.round::before {
+  border-radius: 50%;
+}
+
+@media screen and (width <=1136px) {
+  .hero-text-container {
+    width: unset;
+  }
+
+  .features {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (width <=706px) {
+  .about-container article .logo-container svg {
+    width: clamp(200px, 290px, 815px);
+  }
+
+  .about-container article .text-block .text-block-title {
+    font-size: 33px;
+  }
+
+  .hero-text {
+    font-size: 22px;
+  }
+
+  .about-container {
+    width: unset;
+  }
+
+  .feature-list-title {
+    font-size: 33px;
+  }
+
+  .features {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-list {
+    padding: 35px 0;
+  }
+
+  .feature-card {
+    border-radius: 0;
+  }
+}

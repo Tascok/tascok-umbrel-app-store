@@ -1,0 +1,17 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-babybuddy_web_1
+      APP_PORT: 8000
+
+  web:
+    image: ghcr.io/linuxserver/babybuddy:2.7.1@sha256:39c04bce054000ab850fb314fb4aee69b8700fd8b839f4ce306d51709ca4b4a3
+    restart: on-failure
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Berlin
+    volumes:
+      - ${APP_DATA_DIR}/data:/config

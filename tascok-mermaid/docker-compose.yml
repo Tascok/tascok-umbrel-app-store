@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-mermaid_web_1
+      APP_PORT: 8080
+      PROXY_AUTH_ADD: "false"
+  web:
+    image: ghcr.io/mermaid-js/mermaid-live-editor:latest@sha256:d91a4dcf5db2c7150f6cdc0cc575124843d90d9eb8a1baf788abb3a1d0e1f3c9 #Kein Versionstag
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/src:/app/src

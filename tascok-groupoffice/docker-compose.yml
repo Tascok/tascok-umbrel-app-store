@@ -1,0 +1,40 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-groupoffice_web_1
+      APP_PORT: 80
+
+  web:
+    image: intermesh/groupoffice:25.0.33@sha256:9550826561b57e7cbdff508257b08bf8e09cddc60731fe134ad0446cdb038fa2
+    restart: on-failure
+    links:
+      - db
+    environment:
+      DB_TYPE: mysqli
+      DB_HOST: db
+      DB_NAME: groupoffice
+      DB_USER: groupoffice
+      DB_PASS: groupoffice
+    volumes:
+      - "godata:/var/lib/groupoffice:cached"
+      - "goetc:/etc/groupoffice:cached"
+      - ${APP_DATA_DIR}/data:/usr/local/share/groupoffice/go/modules/studio
+
+  db:
+    image: mariadb:11.8.2@sha256:1e669024fc94f626b9dc48bf47b29b5339cec203c28e61a3dc372991a345daf5
+    restart: on-failure    
+    environment:
+      MYSQL_ROOT_PASSWORD: groupoffice
+      MYSQL_DATABASE: groupoffice
+      MYSQL_USER: groupoffice
+      MYSQL_PASSWORD: groupoffice
+      MARIADB_AUTO_UPGRADE: 1
+    volumes:
+      - "dbdata:/var/lib/mysql:cached"
+
+volumes:
+  godata:
+  goetc:
+  dbdata:

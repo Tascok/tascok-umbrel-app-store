@@ -1,0 +1,46 @@
+manifestVersion: 1
+id: tascok-plant-it
+name: Plant-it
+tagline: A gardening app for effortless plant tracking
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-plant-it/logo.png
+category: files & productivity
+version: "0.10.0"
+port: 8837
+description: >-
+  🌱 Plant it is an open source application designed to help you keep a detailed and organized record of your plant care. It focuses entirely on documenting what you do for your plants, giving you a clear and structured history of every action you take. Instead of guessing when you last watered or fertilized something, you can simply check your timeline and see all previous entries with precise information.
+
+
+  The app lets you log actions such as watering, fertilizing, pruning, repotting and many other care activities. Each entry can include notes, dates and optional photos, which makes it easy to track progress or identify changes in a plant’s condition. Over time, this creates a complete care journal that helps you understand how your routines affect the health of your plants.
+
+
+  Plant it also provides a rich plant information system that helps you organize and categorize your collection. You can browse detailed data about species and attach the correct information to each plant you add. This makes it easier to manage large plant collections and maintain a clear overview of what each plant needs.
+
+
+  By combining structured documentation with visual history and plant information, Plant it turns plant care into an intuitive and well organized experience. It supports you in making better decisions, noticing patterns and maintaining a healthier collection through consistent and transparent tracking.
+
+
+  ⚙️ Quick Setup Guide: 
+  
+       1. After installation, the app opens at http://umbrel.local:8837. 
+       2. Enter http://umbrel.local:8836 as the server URL. (Hostname may differ on your system.)
+       3. Then click Continue to complete the setup process and start using Plant-it.
+developer: MDeLuise
+website: https://plant-it.org/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/MDeLuise/plant-it
+support: https://github.com/MDeLuise/plant-it/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-plant-it/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-plant-it/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-plant-it/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-plant-it/4.jpg
+releaseNotes: >-
+  The update brings Spring Boot 3.4.0, which increases overall security and improves compatibility. 
+  
+  
+  Several server dependencies were refreshed to boost stability and performance. Overall, the release focuses on a safer and more reliable backend.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

@@ -1,0 +1,40 @@
+manifestVersion: 1
+id: tascok-babybuddy
+name: Baby Buddy
+tagline: An all-in-one baby tracker
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-babybuddy/logo.png
+category: files & productivity
+version: "2.7.1"
+port: 8673
+description: >-
+  🍼 Baby Buddy is an open source web application designed to help parents and caregivers track and manage all essential aspects of caring for a baby. Built with Django and intended for self-hosting, the platform offers a centralized and privacy-respecting way to log daily activities such as feeding, sleeping, diaper changes, tummy time, and more. Its goal is to reduce the mental load of remembering and organizing a baby’s needs, while also offering valuable insights through data visualization and statistics.
+
+
+  The user interface is clean, responsive, and optimized for use on both desktop and mobile devices. Baby Buddy can be installed using Docker or directly on a server, and supports a range of databases such as SQLite, PostgreSQL, or MySQL. It also includes a fully functional API, making it easy to connect with third-party tools or mobile apps. A dedicated Android app is available that connects securely to the Baby Buddy server and allows for quick data entry, even when offline.
+
+
+  What makes Baby Buddy especially powerful is its ability to generate real-time graphs and reports that help users identify patterns in their baby’s routines. This includes tracking the frequency and duration of feeds or naps, monitoring weight and growth, and analyzing sleep cycles over days or weeks. The application also includes a live timer system, allowing users to start and stop tracking activities like sleep or nursing with a single tap.
+
+
+  Baby Buddy is multilingual and supported by an active open source community that frequently contributes translations, new features, and improvements. It is also popular among users of Home Assistant, as it can integrate into smart home dashboards to automate notifications or visualize baby-related data on wall-mounted displays.
+
+
+  With Baby Buddy, parents have full control over their data and can tailor the system to meet their individual needs. It is a flexible and secure solution for families who want to keep track of their child’s development in a structured and meaningful way, without relying on commercial cloud-based baby tracking apps.
+developer: Christopher Charbonneau Wells
+website: https://demo.baby-buddy.net
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/linuxserver/docker-babybuddy
+support: https://github.com/linuxserver/docker-babybuddy/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-babybuddy/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-babybuddy/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-babybuddy/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-babybuddy/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-babybuddy/5.jpg
+releaseNotes: >-
+  Version of Baby Buddy is now rebased on Alpine 3.20; existing users should update their Nginx configuration to avoid HTTP/2 deprecation warnings. Upstream changes include improved numeric input on mobile devices, a fix for the non-functional database URL configuration, and a correction for percentile plotting errors related to weight and height.
+dependencies:
+path: ""
+defaultUsername: "admin"
+defaultPassword: "admin"

@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-tldraw_web_1
+      APP_PORT: 80
+
+  web:
+    image: ratneo/tldraw:v2.0.0@sha256:8e1c21d692dc81549f78e803674f39f9df2a0fad88c57fce6c071efb306eb7a8
+    restart: on-failure

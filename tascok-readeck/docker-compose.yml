@@ -1,0 +1,17 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-readeck_web_1
+      APP_PORT: 8000
+
+  web:
+    image: codeberg.org/readeck/readeck:0.19.0@sha256:4f9aa25e3f95c3c8e957ef26c070c6f9e79ca605a745250b670d13346a8b6ff4
+    restart: on-failure
+    environment:
+      - READECK_LOG_LEVEL=info
+      - READECK_SERVER_HOST=0.0.0.0
+      - READECK_SERVER_PORT=8000
+    volumes:
+      - ${APP_DATA_DIR}/data:/readeck:rw

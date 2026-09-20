@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-timechain_web_1
+      APP_PORT: 80
+
+  web:
+    image: dennysubke/timechain:0.5.47@sha256:314435607fe1667cabd63c8d92654b2b1190835abf95811dcaa8e45a786569bb
+    restart: on-failure

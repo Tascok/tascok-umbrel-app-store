@@ -1,0 +1,37 @@
+manifestVersion: 1
+id: tascok-standardnotes
+name: Standard Notes
+tagline: A secure note-taking app with end-to-end encryption
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-standardnotes/logo.png
+category: files & productivity
+version: "3.200.4"
+port: 3977
+description: >-
+  📝 Standard Notes is a privacy focused note taking application designed to provide complete security and longevity for personal data. It allows users to write, organize, and store their notes in an encrypted environment where only they can access the information. Every note, tag, and attachment is encrypted locally before it ever leaves the device, ensuring that no external service or server can read or analyze the content.
+
+
+  The app focuses on creating a distraction free writing experience while maintaining a strong foundation of digital privacy. It can be used for everything from simple text notes to long form documents, personal journals, and technical writing. Its flexible editing options allow for plain text, markdown, and rich text, giving users the freedom to choose the style that fits their workflow best.
+
+
+  Standard Notes also offers a reliable synchronization system that keeps content consistent across devices while preserving full encryption at all times. Users can organize their thoughts using tags, version history, and search tools that make it easy to manage large collections of notes.
+
+
+  Above all, Standard Notes is built on the principle of user autonomy and data protection. It does not collect analytics, track behavior, or insert advertisements. Instead, it focuses on trust, transparency, and durability, giving people a safe and timeless place to record their ideas, memories, and creative work.
+developer: Standard Notes
+website: https://standardnotes.com/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/standardnotes
+support: https://github.com/standardnotes/server/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-standardnotes/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-standardnotes/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-standardnotes/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-standardnotes/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-standardnotes/5.jpg
+releaseNotes: >-
+  This update fixes an issue where text pasted from Google Docs was always displayed in bold. The app now preserves the correct formatting when importing content.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

@@ -1,0 +1,46 @@
+manifestVersion: 1
+id: tascok-unifi
+name: UniFi Network Server
+tagline: An intuitive solution for seamless network management
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-unifi/logo.png
+category: networking
+version: "9.0.114"
+port: 8892
+description: >-
+  The UniFi Network Server is a software platform developed by Ubiquiti Networks to manage and monitor UniFi network devices, which include routers, switches, access points, and other networking hardware. The UniFi ecosystem is designed to provide scalable, high-performance network solutions, and the Network Server serves as the central hub for controlling and overseeing these devices. It acts as a centralized management console, allowing network administrators to configure, monitor, and maintain the entire UniFi network infrastructure from a single interface.
+
+
+  The software provides a wide range of features for network management. It enables the configuration of devices such as access points and switches, the creation and management of network security settings (like firewalls and VPNs), and the monitoring of network traffic and performance. Administrators can view detailed network analytics, including usage statistics and device health, helping them troubleshoot and optimize network performance. Additionally, the UniFi Network Server allows for the deployment of software and firmware updates across all connected devices, ensuring the network is running the latest and most secure versions of the software.
+
+
+  One of the key benefits of the UniFi Network Server is its user-friendly interface, which simplifies network management tasks. It provides a streamlined approach for both experienced network administrators and those new to managing network infrastructures. The platform can be deployed either on local servers or through cloud-based solutions, offering flexibility depending on the needs of the organization. Overall, the UniFi Network Server is an essential tool for businesses and individuals looking to manage and optimize their UniFi-based network infrastructure efficiently.
+
+
+  ⚙️ The UniFi Network Application requires several ports for proper functionality:
+
+
+  Port 8893 is used for the web interface of the controller and is only accessible via HTTPS. Port 3478/UDP is the STUN port, which allows devices outside the local network to connect. Port 10001/UDP is required for discovering UniFi access points within the local network. Port 8080 is used for communication between the controller and UniFi devices.
+
+
+  Port 1900/UDP is necessary when the “Make controller discoverable on L2 network” option is enabled. Ports 8843 and 8880 are used for the UniFi guest portal — 8893 for HTTPS redirects and 8892 for HTTP redirects. Port 6789 enables throughput testing via the UniFi mobile app. Finally, port 5514/UDP is used to send remote syslog data to external logging systems.
+
+
+  ⚠️ Important: The web interface only works with TLS (HTTPS). Access over plain HTTP is not possible. Reverse proxies or Cloudflare Tunnel setups must forward HTTPS traffic directly to port 8893.
+developer: Ubiquiti Inc.
+website: https://ui.com/eu/en
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/linuxserver/docker-unifi-network-application
+support: https://github.com/linuxserver/docker-unifi-network-application/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-unifi/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-unifi/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-unifi/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-unifi/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-unifi/5.jpg
+releaseNotes: >-
+  The release 9.0.114 reverts the JRE to version 17, addressing compatibility or performance issues, and includes an update to UniFi Network Server version 9.0.114. The changes also reflect improvements or fixes based on feedback from remote updates, ensuring better functionality and stability.
+dependencies:
+path: "https://umbrel.local:8893"
+defaultUsername: ""
+defaultPassword: ""

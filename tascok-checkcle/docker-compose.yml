@@ -1,0 +1,17 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-checkcle_app_1
+      APP_PORT: 8090
+
+  app:
+    image: operacle/checkcle:v1.5.0@sha256:e4b2e22ed92a1dff4dcae6ba402ff7f58903d17dcba5a32d6d3f0c0bc9601920
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data:/mnt/pb_data
+    ulimits:
+      nofile:
+        soft: 4096
+        hard: 8192

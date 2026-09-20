@@ -1,0 +1,42 @@
+manifestVersion: 1
+id: tascok-gatus
+name: Gatus
+tagline: An uptime guardian for critical endpoints
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gatus/logo.png
+category: networking
+version: "5.13.1"
+port: 8443
+description: >-
+  ⚙️ Gatus is an open-source monitoring solution that provides an intuitive, reliable, and efficient way to ensure the uptime and performance of critical services, APIs, and infrastructure. Designed for simplicity, it uses a YAML-based configuration to define endpoints, intervals, and conditions, making it accessible for both small teams and large-scale operations. With support for various protocols such as HTTP, TCP, and DNS, Gatus adapts seamlessly to diverse monitoring needs.
+
+
+  Its user-friendly dashboard visualizes the health and performance of endpoints, while its robust alerting system ensures issues are addressed before they escalate. Notifications can be sent through popular platforms like Slack, Telegram, Discord, and more, keeping teams informed in real-time. Gatus also excels in advanced use cases, such as SSL certificate expiration checks, response time monitoring, and content validation.
+
+
+  Whether you're managing APIs, websites, or backend services, Gatus is a versatile tool designed to enhance reliability and minimize downtime, providing peace of mind in maintaining mission-critical systems.
+
+
+  ⚠️ Custom Configuration Path Setup: 
+  
+  
+  By default, the configuration file is expected to be located at config/config.yaml in the Umbrel App Folder. To specify a custom path, set the GATUS_CONFIG_PATH environment variable. If GATUS_CONFIG_PATH points to a directory, all *.yaml and *.yml files inside that directory and its subdirectories will be merged. All maps and objects will be deep merged, meaning you can define alerting.slack in one file and alerting.pagerduty in another. Slices and arrays are appended, allowing you to define multiple endpoints across different files, with each endpoint being added to the final list. Parameters with primitive values (e.g., metrics, alerting.slack.webhook-url) can only be defined once to prevent ambiguity. For example, you cannot define alerting.slack.webhook-url in two files with different values. All files are merged into one before processing, and this behavior is by design.
+
+
+  🌐 For a full configuration guide, visit: https://github.com/TwiN/gatus.
+developer: TwiN
+website: https://gatus.io/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/TwiN/gatus
+support: https://github.com/TwiN/gatus/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gatus/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gatus/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gatus/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-gatus/4.jpg
+releaseNotes: >-
+  Version 5.13.1 of Gatus fixes an issue with missing support for default-alert in teams workflows, and updates dependencies like go-oidc and gofiber. Additionally, a typo in the README was corrected.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

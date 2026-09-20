@@ -1,0 +1,41 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-dockerizalo_web_1
+      APP_PORT: 8080
+      PROXY_AUTH_ADD: "false"
+
+  web:
+    image: ghcr.io/undernightcore/dockerizalo-proxy:latest@sha256:6ae21c7b6f56e838626fbd35ef2945152c411f24e6494f69e2a1c097e26c2a6a
+    depends_on:
+      - api
+      - ui
+  api:
+    image: ghcr.io/undernightcore/dockerizalo:1.4.0@sha256:221a8524f1cecf8663b5e9393fdb098a7c7617d1b6ab75890f6632bb7fbf8f90
+    volumes:
+      - ${APP_DATA_DIR}/data/apps:/data/dockerizalo
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      DATABASE_URL: postgresql://dockerizalo:dockerizalo@db:5432/dockerizalo?schema=public
+      APP_SECRET: w9LgV2mZ8TqP$Y7fM6dX!aNp3V2sKe
+    depends_on:
+      db:
+        condition: service_healthy
+  ui:
+    image: ghcr.io/undernightcore/dockerizalo-ui:1.4.0@sha256:dc53ae6b504a898e16690cff4f07122c3dfb95119f58aac7e4fec92b34ff89ed
+  db:
+    image: postgres:15.13@sha256:e652befe0cc7d0e312828d71522aed8ed3762d6b71b6a5a823821ff06c186a20
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data/db:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: dockerizalo
+      POSTGRES_USER: dockerizalo
+      POSTGRES_DB: dockerizalo
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready"]
+      interval: 10s
+      timeout: 5s
+      retries: 5

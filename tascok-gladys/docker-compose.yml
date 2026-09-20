@@ -1,0 +1,31 @@
+version: '3'
+ 
+services:
+  gladys:
+    image: gladysassistant/gladys:v4.48.0@sha256:536b970e67911effbc6f8ce7596c6b044630f24cc79706e05aa1b89f0ae665dd
+    container_name: gladys
+    restart: on-failure
+    privileged: true
+    network_mode: host
+    cgroup: host
+    logging:
+      driver: "json-file"
+      options:
+        max-size: 10m
+    environment:
+      NODE_ENV: production
+      SQLITE_FILE_PATH: /var/lib/gladysassistant/gladys-production.db
+      SERVER_PORT: 9212
+      TZ: Europe/Berlin
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /var/lib/gladysassistant:/var/lib/gladysassistant
+      - /dev:/dev
+      - /run/udev:/run/udev:ro
+  watchtower:
+    image: containrrr/watchtower
+    restart: on-failure
+    container_name: watchtower
+    command: --cleanup --include-restarting
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock

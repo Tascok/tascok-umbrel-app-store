@@ -1,0 +1,23 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-gitea-mirror_web_1
+      APP_PORT: 4321
+
+  web:
+    image: ghcr.io/raylabshq/gitea-mirror:v3.8.11@sha256:5c1c2d943c47efcec65e0af984a44a6c61569a7a325b2c8d6c8438f3b0c234fb
+    restart: on-failure
+    user: "0:0"
+    volumes:
+      - ${APP_DATA_DIR}/data:/app/data
+    environment:
+      - BETTER_AUTH_SECRET=1f3a8b27c9d84e77a2fcb845c1de5a90
+      - BETTER_AUTH_URL=http://${DEVICE_DOMAIN_NAME}
+      - BETTER_AUTH_TRUSTED_ORIGINS=http://umbrel.local:4321,http://umbrel-2.local:4321,http://umbrel-3.local:4321,http://umbrel:4321,http://umbrel-2:4321,http://umbrel-3:4321
+      - NODE_ENV=production
+      - DATABASE_URL=file:data/gitea-mirror.db
+      - HOST=0.0.0.0
+      - PORT=4321
+      - PUBLIC_BETTER_AUTH_URL=http://${DEVICE_DOMAIN_NAME}

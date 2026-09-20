@@ -1,0 +1,44 @@
+manifestVersion: 1
+id: tascok-fileflows
+name: FileFlows
+tagline: A file processing app that performs actions on files using a tree flow structure
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-fileflows/logo.png
+category: networking
+version: "24.0.9"
+port: 19200
+description: >-
+    FileFlows is a powerful, open-source file processing application that enables users to automate complex file management tasks through a visual, flow-based system. Designed with flexibility and ease of use in mind, FileFlows allows the creation of custom workflows using a tree-like structure, where each node represents an action or a decision point. This modular approach makes it simple to tailor workflows for a wide range of file processing needs, from basic operations like moving and renaming files to more advanced tasks such as transcoding, metadata extraction, or file analysis.
+
+
+    The visual flow builder is a key feature of FileFlows, allowing users to construct and visualize the steps their files will go through, creating clear, efficient paths for automation. These flows can include conditional logic, enabling actions to be taken based on file properties, such as size, type, or metadata. The software supports various file formats and protocols, making it suitable for use in environments like media servers, cloud storage systems, or local file networks.
+
+
+    FileFlows is particularly beneficial for media enthusiasts, IT administrators, or businesses managing large quantities of files. It integrates seamlessly with other tools and services, allowing for scalable and automated workflows across different platforms. With its extensible architecture, users can also customize or expand the functionality by adding new nodes or plugins, enhancing its capabilities beyond the default set of actions.
+
+
+    The web-based interface is intuitive and accessible from any device, providing real-time monitoring and control over file processing operations. FileFlows’ open-source nature ensures that it can be adapted to suit specific needs while also benefitting from a growing community of developers and users contributing to its evolution. Overall, FileFlows offers a robust solution for anyone looking to streamline file handling and automation in a highly customizable and user-friendly environment.
+
+
+    🪄 Process Any File
+
+    Process .txt, .docx, .xlsx, .pptx, .pdf, .jpg, .png, .gif, .bmp, .tiff, .mp3, .mp4, .avi, .mkv, .zip, .rar, .7z, .exe, .csv, .json, .xml, .html, .css, .js, .cpp, .ppt, .xls, .doc, .ogg, .wav, .flac, .aac, .wma, .mkv, .mov, .wmv, .flv, .gifv, .svg, .ai, .psd, .eps, .indd, .cdr, .avi, .mkv, .3gp, .cbz, .cbr, .pdf...
+
+developer: John Andrews
+website: https://fileflows.com/
+submitter: Tascok
+submission: https://github.com/dennysubke/dennys-umbrel-app-store
+repo: https://github.com/revenz/FileFlows
+support: https://fileflows.com/support
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-fileflows/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-fileflows/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-fileflows/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-fileflows/4.jpg
+releaseNotes: >-
+  The latest update introduces new features and improvements, including the removal of the import button in the script editor, support for callbacks in Flow.Execute, and the ability to override script parameters. A new build system enhances stability by running unit tests during builds, and SQLite now creates a new connection for each query. FFmpeg Builder improvements include better handling of AC3 audio channels and the addition of an aspect ratio flow element. Docker captures startup logs, and new database validation has been implemented.
+
+  Bug fixes address variable input fields, TV show lookups, video stream detection, and various UI and library issues, along with performance enhancements for file processing.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

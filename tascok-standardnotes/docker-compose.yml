@@ -1,0 +1,63 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-standardnotes_web_1
+      APP_PORT: 80
+
+  web:
+    image: standardnotes/web:1a206d1279d3ca2b905e217839d68d4825b54190@sha256:a99dc5db239d69bd3bfbe60e4ab0f6605e501c48e87fd76da526c6d1a4d006e1
+    restart: on-failure
+    environment:
+      DEFAULT_SYNC_SERVER: http://api:3000
+
+  api:
+    image: standardnotes/server:0d82819cba9694bc9fb5a3fa53e2dbeda05d1242@sha256:6c1532b31dabf5b3e644fb2a458d3795f28138ac1ac5c4505a9fa1cea10524bb
+    restart: on-failure
+    depends_on:
+      - db
+      - cache
+    environment:
+      DB_HOST: db
+      DB_PORT: 3306
+      DB_USERNAME: std_notes_user
+      DB_PASSWORD: std_notes_pass
+      DB_DATABASE: standard_notes_db
+      DB_DEBUG_LEVEL: warn
+      REDIS_HOST: cache
+      REDIS_PORT: 6379
+      FILE_UPLOADS_BACKEND: local
+      USER_UPLOADS_DIRECTORY: /opt/server/packages/files/dist/uploads
+      NODE_ENV: production
+      LOG_LEVEL: warn
+      SERVER_PORT: 3000
+      TZ: Europe/Berlin
+      VALET_TOKEN_SECRET: 6e7f8b40cda2e88b16fd0a73a38f3f56c6c45fdc8e9a6e60b41290d90ce03b27
+      AUTH_JWT_SECRET: 3fbd249ae52fbd74a94d6f1241c4ad612e94fa07df337c9696a05f9cb74d290a
+      ENCRYPTION_SERVER_KEY: 2f28b94612e29c58e93e991b1ac1e8a1b65f1fdd2ab5e3f4e8d2d9580a00e54d
+      AUTH_SERVER_ENCRYPTION_SERVER_KEY: 9b9a1ad5f4d4a7b2c1e08e5d3c2f1a0b7e6d5c4b3a29181706f5e4d3c2b1a0ff
+      DISABLE_USER_REGISTRATION: "true"
+      REQUIRE_EMAIL_CONFIRMATION: "false"
+      USER_PASSWORD_MIN_LENGTH: 8
+    volumes:
+      - ${APP_DATA_DIR}/data/logs:/var/lib/server/logs
+      - ${APP_DATA_DIR}/data/uploads:/opt/server/packages/files/dist/uploads
+
+  db:
+    image: mysql:8.4.6@sha256:869218921e61d6c3c89820955d63cca42971f0e3e6c1e2792247bbd944ebc6e9
+    restart: on-failure
+    environment:
+      MYSQL_DATABASE: standard_notes_db
+      MYSQL_USER: std_notes_user
+      MYSQL_ROOT_PASSWORD: std_notes_pass
+      MYSQL_PASSWORD: std_notes_pass
+    volumes:
+      - ${APP_DATA_DIR}/data/mysql:/var/lib/mysql
+
+  cache:
+    image: redis:6.0-alpine@sha256:2b35fc7d2908e25aa6aa197f97882c8a67829d3b106ad5ea5c8028f816f26aa8
+    restart: on-failure
+    command: ["redis-server", "--save", "60", "1", "--appendonly", "yes"]
+    volumes:
+      - ${APP_DATA_DIR}/data/redis:/data

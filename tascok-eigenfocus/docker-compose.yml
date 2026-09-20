@@ -1,0 +1,19 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-eigenfocus_web_1
+      APP_PORT: 3000
+
+  web:
+    image: eigenfocus/eigenfocus:1.5.1-free@sha256:744550736016a4b5fd7ce2ca649d885de9a9be03172b1b7d32a6fd68a6f481af
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data:/eigenfocus-app/app-data:rw
+    environment:
+      HTTP_AUTH_USER: admin
+      HTTP_AUTH_PASSWORD: umbrel
+      DEFAULT_HOST_URL: http://${DEVICE_DOMAIN_NAME}:3390
+      #FORCE_SSL: true
+      #ASSUME_SSL_REVERSE_PROXY: true

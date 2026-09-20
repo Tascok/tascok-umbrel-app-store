@@ -1,0 +1,17 @@
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-retroassembly_app_1
+      APP_PORT: 8000
+
+  app:
+    image: arianrhodsandlot/retroassembly:v1.250801.0400@sha256:8c32ebdf38d1f8faef1f24b313970ba9e454825eaaadfd6f6c9947f4ae13e2b6
+    restart: on-failure
+    healthcheck:
+      test: ["CMD-SHELL", "nc -z 127.0.0.1 8000 || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 90s
+    volumes:
+      - ${APP_DATA_DIR}/data:/app/data:rw

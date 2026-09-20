@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-myip_web_1
+      APP_PORT: 18966
+      PROXY_AUTH_ADD: "false"
+  web:
+    image: jason5ng32/myip:v4.3.2@sha256:8f00ceb2dcae7cd2ae5f90ddaf75d1d8b665323ae127f0e7a74883ad8dcde1f0
+    stdin_open: true
+    tty: true
+    restart: on-failure

@@ -1,0 +1,38 @@
+manifestVersion: 1
+id: tascok-myip
+name: MyIP
+tagline: A better IP-Toolbox
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-myip/logo.png
+category: networking
+version: "4.3.2"
+port: 18966
+description: >-
+  🔍 MyIP is a highly efficient and user-friendly tool developed to simplify the process of discovering your public IP address. In today’s interconnected world, understanding your network’s external-facing IP address is essential for a variety of tasks, ranging from configuring network services and remote access to troubleshooting connectivity issues and managing security. MyIP addresses this need by providing a straightforward, lightweight solution that is both reliable and easy to set up.
+
+
+  The tool is designed to be versatile, catering to a wide range of users and use cases. It can be run locally on a personal device for quick access or deployed as a containerized service in a more complex environment. For developers, system administrators, and hobbyists, MyIP offers an excellent way to integrate public IP detection into broader workflows or applications. The tool operates by fetching and displaying the public-facing IP address of the network where it is running, allowing users to immediately identify their current external identity on the internet.
+
+
+  One of MyIP's key strengths is its simplicity. It is lightweight and requires minimal system resources, making it an ideal choice for users who need a dependable solution without the overhead of more complex software. The straightforward design ensures that anyone, regardless of their technical background, can quickly deploy and use the tool with ease. At the same time, its adaptability makes it suitable for advanced scenarios, such as containerized environments or integration into larger software systems.
+
+
+  In addition to its practical functionality, MyIP is an open-source project, inviting collaboration and improvement from the community. This not only ensures transparency but also allows for continuous development and feature enhancement to meet evolving user needs.
+
+
+  Whether you are a casual user needing a quick check of your network's public IP, a developer incorporating IP detection into an application, or a network administrator managing complex systems, MyIP serves as a powerful yet accessible tool for external IP address discovery. Its simplicity, reliability, and versatility make it an essential utility in any technical toolkit.
+developer: Jason Ng
+website: https://ipcheck.ing/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/jason5ng32/MyIP
+support: https://github.com/jason5ng32/MyIP/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-myip/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-myip/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-myip/3.jpg
+releaseNotes: >-
+  Version 4.3.2 introduces minor improvements and optimizations.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

@@ -1,0 +1,36 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-ryot_web_1
+      APP_PORT: 8000
+
+  web:
+    image: ghcr.io/ignisda/ryot:v8.2.1@sha256:8198303ea5bd8566c77d03e8a40bef786a868e735da1bcfa4231eb1a79822ae4
+    environment:
+      - WEB_INSECURE_COOKIE=true
+      - VIDEO_GAMES_TWITCH_CLIENT_ID=xxxx # Optional, Ihre Twitch-ID, wird unten detailliert erklärt
+      - VIDEO_GAMES_TWITCH_CLIENT_SECRET=xxxx # Optional, Ihr Twitch-Secret, wird unten detailliert erklärt
+      - MOVIES_TMDB_LOCALE=zh
+      - SHOWS_TMDB_LOCALE=zh
+      # - MOVIES_TMDB_ACCESS_TOKEN=XXX
+      # - SHOWS_TMDB_ACCESS_TOKEN=XXX
+      - ITUNES_LOCALE=en
+      - USERS_ALLOW_REGISTRATION=true
+      - DATABASE_URL=postgresql://postgres:umbrel@db:5432/ryot  # Verbindung zur PostgreSQL-Datenbank
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data/ryot-data:/data
+    depends_on:
+      - db
+
+  db:
+    image: postgres:latest
+    container_name: ryot-db
+    environment:
+      - POSTGRES_DB=ryot
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=umbrel
+    volumes:
+      - ${APP_DATA_DIR}/data/db-data:/var/lib/postgresql/data

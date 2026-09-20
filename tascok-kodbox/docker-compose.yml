@@ -1,0 +1,40 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-kodbox_app_1
+      APP_PORT: 80
+
+  app:
+    image: kodcloud/kodbox:latest@sha256:6fbb19b10180395d52eaa3cac2d71d8af7c0b340626187b9a42da4e01fb772a8
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data/app-data:/var/www/html
+    environment:
+      - MYSQL_HOST=db
+      - MYSQL_DATABASE=kodbox
+      - MYSQL_USER=kodbox_user
+      - MYSQL_PASSWORD=kodbox_password
+      - REDIS_HOST=redis
+    depends_on:
+      - db
+      - redis
+
+  db:
+    image: mariadb:10.6@sha256:ec79aa7a81a7667885cb69b6dc0415e032f22520bd5aca77927faffca4329924
+    restart: on-failure
+    command: --transaction-isolation=READ-COMMITTED --log-bin=binlog --binlog-format=ROW
+    volumes:
+      - ${APP_DATA_DIR}/data/db:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=kodbox_root_password
+      - MYSQL_DATABASE=kodbox
+      - MYSQL_USER=kodbox_user
+      - MYSQL_PASSWORD=kodbox_password
+      - MARIADB_AUTO_UPGRADE=1
+      - MARIADB_DISABLE_UPGRADE_BACKUP=1
+
+  redis:
+    image: redis:alpine
+    restart: on-failure

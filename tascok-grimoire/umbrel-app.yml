@@ -1,0 +1,36 @@
+manifestVersion: 1
+id: tascok-grimoire
+name: Grimoire
+tagline: A bookmark manager for the wizards
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grimoire/logo.png
+category: files & productivity
+version: "0.5.0"
+port: 5173
+description: >-
+  🧙‍♂️ Grimoire is a feature-rich, open-source bookmark manager that allows users to store and organize their web bookmarks in a way that is both visually engaging and highly functional. Designed to streamline the bookmarking experience, Grimoire offers an automatic metadata extraction system. When users add URLs, the platform automatically pulls relevant data, such as the page title, description, main images, and sometimes even the page content. This feature significantly reduces the manual effort required to categorize and annotate bookmarks.
+
+
+  In addition to this, Grimoire lets users organize their bookmarks with tags and categories, providing a simple and efficient way to sort links based on personal preferences. The built-in full-text search functionality makes it easy to find specific bookmarks by scanning titles, descriptions, and other stored metadata.
+
+
+  For those who want to add personal context or reminders, Grimoire allows users to attach notes to their bookmarks. This can be especially useful for keeping track of thoughts or relevant information that may not be immediately obvious from the webpage itself.
+
+
+  Grimoire supports user accounts, so each user has their own unique space to store and organize their bookmarks. This system is particularly useful for individuals who manage a large number of bookmarks and want to maintain a personalized and private collection. Moreover, the platform is optimized with a dark mode feature, which enhances user comfort when browsing in low-light environments.
+developer: Robert Goniszewski
+website: https://grimoire.pro/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/goniszewski/grimoire
+support: https://github.com/goniszewski/grimoire/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grimoire/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grimoire/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grimoire/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grimoire/4.jpg
+releaseNotes: >-
+  Release 0.5.0 introduces the ability to import bookmarks.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

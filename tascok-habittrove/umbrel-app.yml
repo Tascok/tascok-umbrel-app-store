@@ -1,0 +1,33 @@
+manifestVersion: 1
+id: tascok-habittrove
+name: HabitTrove
+tagline: A gamified habit tracking application
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-habittrove/logo.png
+category: files & productivity
+version: "0.2.5"
+port: 3094
+description: >-
+  🪙 HabitTrove is an open-source habit-tracking application that combines productivity with gamification to help users build and maintain positive habits in a more engaging and rewarding way. Rather than simply checking off tasks, users are motivated by a reward system that mimics game mechanics: completing habits earns coins, which can then be used to "purchase" personalized rewards from a wishlist. This system is designed to reinforce consistency and create a sense of achievement, making the process of habit formation feel more interactive and enjoyable.
+
+
+  The app allows users to create custom habits with specific daily goals and track their progress over time. Users can view statistics and visual representations of their performance, helping them stay accountable and identify patterns in their behavior. One of the notable features of HabitTrove is its support for multiple users, enabling collaborative habit tracking and shared reward systems, such as within families, friends, or teams. It includes permission controls, so users can manage who can view or modify shared data.
+
+
+  HabitTrove emphasizes flexibility, allowing users to tailor the system to their individual motivations and preferences. Whether someone wants to build a meditation practice, exercise regularly, or reduce screen time, HabitTrove provides a framework that supports sustainable habit development. Since it's open source, it's also possible for users to host their own instance or contribute to its development, making it a transparent and customizable solution for anyone interested in self-improvement through habit tracking.
+developer: David Simpson
+website: https://habittrove.app.enting.org/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/dohsimpson/HabitTrove
+support: https://github.com/dohsimpson/HabitTrove/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-habittrove/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-habittrove/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-habittrove/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-habittrove/4.jpg
+releaseNotes: >-
+  In version 0.2.5, the Next.js version was updated to address the security vulnerability CVE-2025-29927.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

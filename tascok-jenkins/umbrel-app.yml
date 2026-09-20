@@ -1,0 +1,64 @@
+manifestVersion: 1
+id: tascok-jenkins
+name: Jenkins
+tagline: An automation server which enables developers to reliably build, test, and deploy their software
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jenkins/logo.png
+category: developer tools
+version: "2.480"
+port: 3212
+description: >-
+  Jenkins is an open-source automation server that helps automate parts of software development related to building, testing, and deploying applications. It is widely used in Continuous Integration (CI) and Continuous Deployment (CD) processes. 
+  
+  
+  Here are some key features and concepts related to Jenkins:
+
+
+  🤖 Continuous Integration/Continuous Deployment (CI/CD): Jenkins allows developers to automatically build and test code changes, ensuring that issues are detected early in the development process. It can also automate the deployment of applications to production environments.
+
+
+  🧩 Plugins: Jenkins has a rich ecosystem of plugins that extend its functionality. These plugins enable integration with various tools and services, such as version control systems (like Git), cloud platforms, testing frameworks, and more.
+
+
+  📜 Pipeline as Code: Jenkins supports the definition of build pipelines through a domain-specific language (DSL) called Jenkins Pipeline. This allows you to describe the entire build and deployment process in code, making it easy to version control and maintain.
+
+
+  🏗️ Distributed Builds: Jenkins can distribute the workload of building and testing across multiple machines, which can help speed up the development process.
+
+
+  🖥️ User Interface: Jenkins has a web-based interface where users can monitor jobs, view logs, and manage configurations.
+
+
+  🤝 Community Support: As a widely used tool, Jenkins has a large and active community, providing support, documentation, and a wealth of resources.
+
+
+  Overall, Jenkins is a powerful tool for automating software development tasks, making it easier for teams to deliver high-quality software more quickly.
+
+
+  🔑 To ensure that Jenkins is initialized securely by an authorized administrator, a randomly generated password is written to the log and this file on the server: '/var/jenkins_home/secrets/initialAdminPassword'. To do this, right-click on the app icon and select troubleshoot to open the terminal.
+
+developer: Jenkins Foundation
+website: https://www.jenkins.io/
+submitter: Tascok
+submission: https://github.com/dennysubke/dennys-umbrel-app-store
+repo: https://github.com/jenkinsci/jenkins
+support: https://community.jenkins.io/
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jenkins/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jenkins/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jenkins/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jenkins/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jenkins/5.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jenkins/6.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-jenkins/7.jpg
+releaseNotes: >-
+  Jenkins version 2.480 includes several enhancements and bug fixes.
+
+
+  Enhancements: The administrative monitors interface has been refined, and a new method, SaveableListener#onDeleted, has been added to notify plugins when a Saveable is deleted. Additionally, compatibility with Content Security Policies has been improved by removing an eval call from JavaScript and requiring a valid JSON response for specific configurations.
+
+
+  Bug Fixes: Compatibility with plugins calling Jenkins#doSafeRestart and those contributing custom XML views (like the Nested Views plugin) has been restored. It ensures that ongoing Pipeline builds are fully completed before allowing their parent job to be deleted. The update server has been migrated to HTTPS, long lines in build history are now wrapped, and an old version of ASM has been prevented from appearing as a managed dependency in plugin builds.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

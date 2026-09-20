@@ -1,0 +1,38 @@
+manifestVersion: 1
+id: tascok-filebrowser-quantum
+name: FileBrowser Quantum
+tagline: A better filebrowser than Filebrowser
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-filebrowser-quantum/logo.png
+category: files & productivity
+version: "0.7.8"
+port: 8633
+description: >-
+  📂 Filebrowser Quantum is a modern and advanced version of the well known File Browser application written in Go. It offers a fast, clean and user friendly web interface that allows users to manage files and directories directly in their browser. With Filebrowser Quantum, users can upload, download, move, rename, delete and edit files without needing any additional software. Each user can have a personal home directory with custom permissions that control access to files and folders.
+
+
+  What sets Filebrowser Quantum apart is its powerful index based search engine. Unlike traditional file managers that scan directories on demand, this version creates and maintains a search index in the background. This means that search results appear instantly as the user types, even when working with large and complex file structures. This makes managing and finding files much faster and more efficient.
+
+
+  The application also introduces modern authentication features including support for bearer tokens. This allows integration with external authentication services and makes it possible to access the application programmatically using its well designed REST API. The API gives developers and administrators full control over files and directories through automated tools or scripts.
+
+
+  Filebrowser Quantum focuses on performance, security and ease of use. It updates and simplifies the underlying codebase by using current dependencies and removing outdated components. This ensures that the application remains reliable, maintainable and ready for future development. It is an ideal solution for users who want a powerful self hosted file manager with fast search capabilities and flexible access controls.
+developer: Graham Steffaniak
+website: https://github.com/gtsteffaniak/filebrowser
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/gtsteffaniak/filebrowser
+support: https://github.com/gtsteffaniak/filebrowser/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-filebrowser-quantum/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-filebrowser-quantum/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-filebrowser-quantum/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-filebrowser-quantum/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-filebrowser-quantum/5.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-filebrowser-quantum/6.jpg
+releaseNotes: >-
+  This version 0.7.8-beta of Filebrowser Quantum fixes OIDC login issues and adds more control over OIDC user creation, requiring explicit enabling for automatic user creation and supporting admin group mapping. It also resolves bugs related to file saving in the editor, Ctrl-select on macOS and Windows, and respects non-default base URLs during OIDC login.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

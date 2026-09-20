@@ -1,0 +1,37 @@
+manifestVersion: 1
+id: tascok-vocechat
+name: VoceChat
+tagline: A secure chat solution for privacy-focused communication
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-vocechat/logo.png
+category: social
+version: "0.4.0"
+port: 3197
+description: >-
+  💬VoceChat is an open-source, self-hosted chat platform designed to offer a lightweight and efficient solution for real-time messaging. It aims to provide an easy-to-use alternative for individuals, small teams, and communities who want a private and secure communication space. Unlike mainstream messaging services, VoceChat allows users to host their own server, ensuring full control over their data and communications.
+
+
+  The platform supports essential messaging features such as direct messaging, group chats, and channels, all built with security and privacy in mind. VoceChat focuses on delivering a seamless user experience without compromising on performance, making it ideal for those who prefer decentralized services over centralized platforms.
+
+
+  With VoceChat, users can easily manage their own chat infrastructure, without relying on third-party servers or services. The official documentation provides comprehensive instructions on how to install, configure, and use the platform, making it accessible to both beginners and advanced users. Whether you're looking to build a private chat room for your team, or a secure space for a larger community, VoceChat is a flexible and customizable option.
+
+
+  🌐 HTTPS Configuration: The browser version of VoceChat can operate over http, but the mobile app requires https. You can set up https using the Cloudflare Tunnel app available in the app store. Detailed instructions for configuring the tunnel can be found here: https://github.com/Radiokot/umbrel-cloudflared/wiki/How-to-set-up-Cloudflare-Tunnel-on-your-Umbrel
+developer: The Privoce Project
+website: https://voce.chat/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/Privoce/vocechat-server-rust
+support: https://github.com/Privoce/vocechat-server-rust/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-vocechat/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-vocechat/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-vocechat/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-vocechat/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-vocechat/5.jpg
+releaseNotes: >-
+  Enhanced performance for faster message delivery, reducing latency during peak usage.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

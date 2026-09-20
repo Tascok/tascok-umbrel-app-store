@@ -1,0 +1,15 @@
+version: "3.7"
+services:
+  app_proxy:
+    depends_on:
+      - socat
+    environment:
+      APP_HOST: tascok-ente-auth_socat_1
+      APP_PORT: "${ENTE_AUTH_NEW_PORT}" # Ente Auth app will be mapped to 43000
+      PROXY_AUTH_ADD: "false"
+
+  socat:
+    image: alpine/socat:1.8.0.3@sha256:a114a8c813b25db7fd25e8bc521acfe04b39eeeb9772e61520c91ebf6fdbd401
+    command: "TCP-LISTEN:${ENTE_AUTH_NEW_PORT},fork,reuseaddr TCP:host.docker.internal:${ENTE_AUTH_PORT}"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"

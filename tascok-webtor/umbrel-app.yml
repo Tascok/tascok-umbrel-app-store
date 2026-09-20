@@ -1,0 +1,44 @@
+manifestVersion: 1
+id: tascok-webtor
+name: Webtor
+tagline: An instant torrent stream in your browser
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-webtor/logo.png
+category: media
+version: "1.0.4"
+port: 8488
+description: >-
+  🎬 Webtor is a web-based torrent streaming and downloading service that allows users to interact with torrent files directly through their browser without the need for a traditional torrent client. It functions as a cloud-based torrent engine that fetches, processes, and delivers torrent content entirely server-side. Users can upload a .torrent file or paste a magnet link, and Webtor will download and convert the content for immediate playback or download.
+
+
+  One of the main features of Webtor is its ability to stream video and audio files directly in the browser using adaptive HLS technology. Supported formats include common video and audio containers like MP4, MKV, AVI, WEBM, MP3, and FLAC. This streaming begins almost instantly and continues while the file is still being downloaded, providing a seamless media experience. For users who prefer to download the content instead of streaming it, Webtor offers the option to download individual files or the entire torrent as a ZIP archive.
+
+
+  Webtor emphasizes user privacy and ease of use. Because all torrenting activity occurs on Webtor’s servers, the user’s IP address is never exposed to the peer-to-peer network. All traffic is encrypted using HTTPS, and from an internet service provider’s perspective, the interaction looks like ordinary web browsing. This offers an added layer of privacy and reduces the need for VPNs or special anonymizing tools.
+
+
+  Technically, Webtor is built using a modern microservices architecture and is fully open-source under the MIT license. Its backend is written primarily in Go and relies on popular technologies such as FFmpeg for media transcoding and Kubernetes for container orchestration. It uses the anacrolix/torrent library to fetch torrents and perform sequential downloading to allow streaming before the entire file is downloaded.
+
+
+  Webtor also provides a Chrome browser extension that enables users to handle magnet links directly in the browser. Developers and advanced users can self-host the entire platform using Docker and Kubernetes, and there is a public SDK available for integration into other projects.
+
+
+  Despite its technical robustness and open nature, users should be cautious about the content they choose to access, especially considering the legal and ethical implications of torrenting copyrighted material. Some online safety platforms have flagged Webtor as medium-risk, mainly due to its association with file sharing and the potential for abuse. However, Webtor has been active for several years, uses standard security practices like SSL encryption and domain protection via Cloudflare, and is generally considered legitimate by the open-source community.
+
+
+  In summary, Webtor offers a modern, privacy-conscious way to stream or download torrents directly in the browser. It is ideal for users who want quick access to media content without exposing their identity within torrent networks.
+developer: Pavel Tatarskiy
+website: https://webtor.io/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/webtor-io/self-hosted
+support: https://github.com/webtor-io/self-hosted/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-webtor/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-webtor/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-webtor/3.jpg
+releaseNotes: >-
+  Version 1.0.4 focuses on increased stability.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

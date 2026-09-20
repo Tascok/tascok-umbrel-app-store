@@ -1,0 +1,34 @@
+manifestVersion: 1
+id: tascok-pdfding
+name: PdfDing
+tagline: An accessible tool for flawless PDF editing
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-pdfding/logo.png
+category: files & productivity
+version: "1.1.0"
+port: 8866
+description: >-
+  PdfDing is a self-hosted PDF manager, viewer, and editor designed to provide a seamless reading experience across multiple devices. It allows users to organize, annotate, and manage their PDF collection efficiently while keeping track of the last read position. With a minimalist and fast interface, the application focuses on ease of use and straightforward setup, making it an appealing choice for self-hosting enthusiasts.
+
+
+  The software supports features such as multi-level tagging, bookmarking, and archiving to help users keep their documents well-organized. Its built-in editing tools enable annotations, highlighting, and freehand drawing directly on PDFs. A customizable user interface, including a dark mode and theming options, enhances the reading experience.
+
+
+  PdfDing is designed for security and convenience, featuring Single Sign-On (SSO) support via OpenID Connect, ensuring smooth integration with existing authentication systems. The application can be easily deployed using Docker, making it accessible for users with basic self-hosting knowledge. A demo version is available online, but for full control and privacy, running it on a personal server is recommended.
+developer: mrmn2
+website: https://demo.pdfding.com/accountlogin/?next=/pdf/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/mrmn2/PdfDing
+support: https://github.com/mrmn2/PdfDing/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-pdfding/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-pdfding/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-pdfding/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-pdfding/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-pdfding/5.jpg
+releaseNotes: >-
+  Version 1.1.0 introduces new list and grid layouts for PDF overviews, revamped settings, and minor UI adjustments to the detail pages. These updates enhance the overall user experience and navigation.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

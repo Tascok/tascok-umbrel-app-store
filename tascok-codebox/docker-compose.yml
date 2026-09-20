@@ -1,0 +1,36 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-codebox_app_1
+      APP_PORT: 8000
+
+  db:
+    image: mariadb:10.11@sha256:79cf033abf9089f27dd4c3e831cbef83048a52d6f52783930b647c56224d95c3
+    environment:
+      MYSQL_ROOT_PASSWORD: "codebox"
+      MYSQL_DATABASE: "codebox"
+      MYSQL_USER: "codebox"
+      MYSQL_PASSWORD: "codebox"
+    ports:
+      - 3436:3306
+    volumes:
+      - ${APP_DATA_DIR}/data/db:/var/lib/mysql:rw
+    restart: on-failure
+
+  app:
+    image: interaapps/pastefy-codebox:1.0.12-alpha@sha256:def5627a8320fe69b754f4e288202229cd57299997ac17d7bc4e4f0e607eb7ec
+    environment:
+      #HTTP_SERVER_PORT: 80
+      HTTP_SERVER_CORS: "*"
+      DATABASE_DRIVER: mysql
+      DATABASE_NAME: codebox
+      DATABASE_USER: codebox
+      DATABASE_PASSWORD: codebox
+      DATABASE_HOST: db
+      DATABASE_PORT: 3306
+      SERVER_NAME: "http://umbrel-2.local:9996"
+    restart: on-failure
+    depends_on:
+      - db

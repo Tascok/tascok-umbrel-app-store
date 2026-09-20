@@ -1,0 +1,18 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-grimoire_web_1
+      APP_PORT: 5173
+  web:
+    image: goniszewski/grimoire:0.5.0-pre.1@sha256:892f2a4a0a74c47439d358f13864c1c5d3f635d48ec4aefcd7142bcae29cf783
+    user: "0:0"
+    environment:
+      - PUBLIC_ORIGIN=http://${DEVICE_DOMAIN_NAME}:5173
+      - PORT=5173
+      - PUBLIC_HTTPS_ONLY=false
+      - PUBLIC_SIGNUP_DISABLED=false
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data:/app/data/

@@ -1,0 +1,37 @@
+manifestVersion: 1
+id: tascok-filegator
+name: FileGator 
+tagline: An application for managing files and folders
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-filegator/logo.png
+category: files & productivity
+version: "7.13.0"
+port: 8434
+description: >-
+  🐊 FileGator is a self-hosted web application designed for managing files and folders through a browser-based interface. It offers a clean and intuitive user experience that allows individuals or teams to securely upload, download, organize, and share files without relying on third-party cloud storage providers. FileGator is built with simplicity and privacy in mind, making it especially attractive for users who want full control over their data and infrastructure.
+
+
+  FileGator supports a variety of file operations including uploading large files, extracting and compressing archives, renaming, moving, deleting, and previewing files directly in the browser. It also features chunked uploads to handle large files efficiently and ensures that each user can only interact with the directories they are authorized to access. This makes the tool especially useful in settings where privacy and file integrity are priorities.
+
+
+  Security is a core focus of FileGator. It includes measures such as restricting access to specific folders, disabling the execution of uploaded scripts, and offering encryption options for sensitive file transfers. Users interact with the system using a modern and responsive interface that works well across devices and screen sizes.
+
+
+  FileGator is a practical solution for schools, freelancers, small businesses, or anyone needing a private and reliable file management platform. Its minimalistic design does not compromise on features, and its self-contained nature makes it easy to maintain. Overall, FileGator provides an efficient way to manage files online while ensuring that users remain in complete control of their data.
+developer: FileGator 
+website: https://filegator.io/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/filegator/filegator
+support: https://github.com/filegator/filegator/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-filegator/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-filegator/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-filegator/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-filegator/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-filegator/5.jpg
+releaseNotes: >-
+  Version 7.13.0 of FileGator introduces several improvements, including a new column for displaying chmod permissions, external SCSS theme files, and configurable pagination. It also fixes an issue where all images were being loaded at once when opening the gallery view.
+dependencies:
+path: ""
+defaultUsername: "admin"
+defaultPassword: "admin123"

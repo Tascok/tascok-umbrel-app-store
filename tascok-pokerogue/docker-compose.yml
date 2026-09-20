@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-pokerogue_web_1
+      APP_PORT: 8080
+      PROXY_AUTH_ADD: "false"
+
+  web:
+    image: dennysubke/pokerogue:1.12.0.8@sha256:97ed372c618830cfae95c85579fe90f63f0d26155d9a93df5e0435f960fb641b
+    restart: on-failure

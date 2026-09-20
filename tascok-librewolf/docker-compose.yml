@@ -1,0 +1,19 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-librewolf_web_1
+      APP_PORT: 3000
+  
+  web:
+    image: ghcr.io/linuxserver/librewolf:135.0.1@sha256:da15e8950d4e36de6c9ecd2930f6a6a89a960bb669e5aa08495b8da624f0b48d
+    environment:
+      - PUID=1000
+      - PGID=1000
+    volumes:
+      - ${APP_DATA_DIR}/data/config:/config
+    ports:
+      - 3001:3001
+    shm_size: "1gb"
+    restart: on-failure

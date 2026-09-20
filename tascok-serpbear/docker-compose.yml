@@ -1,0 +1,25 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-serpbear_app_1
+      APP_PORT: 3000
+
+  app:
+    image: towfiqi/serpbear:2.0.6@sha256:08a04778462e2dc88de2d9e4713f4a2b0eac8fee78a32e746126383a85ae9e13
+    restart: on-failure
+    user: "1000:1000"
+    environment:
+      - USER=admin
+      - PASSWORD=umbrel
+      - SECRET=4715aed3216f7b0a38e6b534a958362654e96d10fbc04700770d572af3dce43625dd
+      - APIKEY=5saedXklbslhnapihe2pihp3pih4fdnakhjwq5
+      - NEXT_PUBLIC_APP_URL=http://umbrel.local:3232
+    volumes:
+      - ${APP_DATA_DIR}/data:/app/data
+networks:
+  serpbear-network:
+    driver: bridge
+volumes:
+  data:

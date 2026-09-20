@@ -1,0 +1,21 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-dashy_web_1
+      APP_PORT: 8080
+
+  web:
+    image: lissy93/dashy:3.x@sha256:1072a49fd5736c1453b23870653ed89f39a02b00b73ce2c70bfe8c2280feedf0
+    restart: on-failure
+    environment:
+      - NODE_ENV=production
+      - UID=1000
+      - GID=1000
+    healthcheck:
+      test: ['CMD', 'node', '/app/services/healthcheck']
+      interval: 1m30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s

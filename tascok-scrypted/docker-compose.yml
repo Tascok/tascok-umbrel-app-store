@@ -1,0 +1,23 @@
+version: '3.9'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-scrypted_server_1
+      APP_PORT: 11080
+      PROXY_AUTH_ADD: "false"
+
+  server:
+    image: koush/scrypted:v0.122.0-jammy-full@sha256:538ea08c948f86492c9179c1e8a186328c1e26b3087e0f756bfaeab0d1519aa6
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://umbrel.local:11080/"]
+      interval: 1m30s
+      timeout: 30s
+      retries: 3
+    mem_limit: 4g
+    cpu_shares: 768
+    security_opt:
+      - no-new-privileges:true
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data/scrypted:/server/volume:rw

@@ -1,0 +1,16 @@
+version: "3.7"
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-traggo_web_1
+      APP_PORT: 3030
+      PROXY_AUTH_ADD: "false"
+
+  web:
+    image: traggo/server:0.5.0@sha256:db747dd56af7fb8cd8f4bedeebfe804f69d29f12fd583d13e18d9ebaf944a063
+    restart: on-failure
+    environment:
+      TRAGGO_DEFAULT_USER_NAME: "admin"
+      TRAGGO_DEFAULT_USER_PASS: "umbrel"
+    volumes:
+      - ${APP_DATA_DIR}/traggodata:/opt/traggo/data

@@ -1,0 +1,33 @@
+manifestVersion: 1
+id: tascok-reubah
+name: Reubah
+tagline: A tool for processing images and converting documents
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-reubah/logo.png
+category: files & productivity
+version: "0.0.1"
+port: 8739
+description: >-
+  Reubah is a self-hosted web application designed for easy and fast conversion of files and images into various formats. The application allows users to upload files directly in the browser and convert them into the desired output format with just a few clicks. It supports a wide range of popular image formats such as JPEG, PNG, WebP, GIF, and BMP, as well as modern formats like HEIC and PDF. For text documents, Reubah offers extensive conversion options, including support for DOCX, ODT, RTF, TXT, and PDF.
+
+
+  One of Reubah’s key features is its straightforward user interface, which makes file conversion accessible even without technical knowledge. The application handles both individual files and batch processing, allowing multiple files to be converted at once. In addition to format conversion, Reubah includes image processing features such as resizing and, in the future, background removal.
+
+
+  With its built-in API, Reubah’s capabilities can also be integrated into other applications or used in automated workflows. It is aimed at anyone who regularly needs to convert files or edit images and is looking for a simple, fast, and flexible solution.
+developer: Dendi Anugrah
+website: https://github.com/dendianugerah/reubah
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/dendianugerah/reubah
+support: https://github.com/dendianugerah/reubah/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-reubah/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-reubah/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-reubah/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-reubah/4.jpg
+releaseNotes: >-
+  Reubah does not use traditional versioning or changelogs. The project is maintained under a single latest tag, meaning updates are applied continuously without numbered releases or documented changes between versions.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

@@ -1,0 +1,73 @@
+manifestVersion: 1
+id: tascok-grav
+name: Grav
+tagline: A Fast, Simple, and Flexible, file-based Web-platform
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grav/logo.png
+category: developer tools
+version: "1.7.48"
+port: 8888
+description: >-
+  👨‍🚀 Grav is a modern, open-source, flat-file Content Management System (CMS) that prioritizes speed, simplicity, and flexibility. Unlike traditional CMS platforms like WordPress or Joomla, Grav does not rely on a database to store content. Instead, it uses a flat-file architecture, where content is stored in Markdown files and configurations are handled with YAML, making it lightweight and highly portable.
+
+
+  What Makes Grav Unique?
+
+
+  📂 Flat-File Architecture: Grav eliminates the need for complex database setups, which reduces server overhead and simplifies installation and maintenance. Content is stored in an intuitive folder structure, allowing easy editing directly in text files.
+
+
+  ⚡ Speed and Performance: With minimal server requirements, Grav is optimized for speed. It uses caching, dynamic image resizing, and other built-in tools to ensure fast load times even on low-resource servers.
+
+
+  ✨ Ease of Use: While Grav can be managed by developers using text editors and the command line, it also offers an optional Admin Panel Plugin. This provides a user-friendly interface for non-technical users to manage pages, plugins, themes, and site settings.
+
+
+  🎨 Flexibility and Customization: Grav’s modular design allows users to extend its functionality with numerous plugins and customize its appearance with flexible themes. Developers can leverage tools like Twig templating, Markdown for content, and YAML for configuration to build tailored solutions.
+
+
+  💻 Developer-Friendly: Grav’s API and well-documented codebase make it easy for developers to create custom plugins, themes, or integrations. It uses modern technologies and principles, such as Composer for dependency management and CLI tools for quick setup and updates.
+
+
+  🌍 Active Community and Ecosystem: The Grav community contributes a wide range of themes and plugins, ensuring users have access to tools for SEO, social media, e-commerce, forms, and more. Regular updates keep Grav secure and compatible with the latest technologies.
+
+
+  Ideal Use Cases:
+
+
+  📝 Personal Blogs: Simple and fast setup for a personal blogging platform.
+
+
+  🖼️ Portfolios: Stunning designs and fast load times make it great for showcasing creative work.
+
+
+  📚 Documentation Sites: Its flat-file structure and Markdown support make Grav perfect for technical documentation.
+
+
+  💼 Small Business Websites: Easily create professional websites without a heavy CMS overhead.
+
+
+  Why Choose Grav?
+
+
+  🌌 Grav is ideal for users who value simplicity, speed, and flexibility. Its flat-file approach appeals to developers and power users who want full control, while the optional admin panel makes it accessible to beginners. Whether you need a fast website, a lightweight solution, or a customizable platform, Grav combines modern technology with ease of use to deliver an exceptional CMS experience.
+
+
+  ⚠️ After installation, it may take a little while for Grav to start for the first time. The Admin Panel will be accessible after the user setup at: http://umbrel.local:8888/admin.
+
+developer: Andy Miller
+website: https://getgrav.org/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/getgrav
+support: https://github.com/getgrav/grav/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grav/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grav/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grav/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-grav/4.jpg
+releaseNotes: >-
+  In version 1.7.48, a new trait was introduced for the fetchPriority attribute on images, and a fix was made to allow aliases as valid commands during lookup. Additionally, a style conflict with Clockwork and tooltips was resolved.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

@@ -1,0 +1,51 @@
+manifestVersion: 1
+id: tascok-nocodb
+name: NocoDB
+tagline: A seamless no-code platform for database management
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nocodb/logo.png
+category: files & productivity
+version: "0.257.2"
+port: 8096
+description: >-
+  NocoDB is an open-source platform that converts databases into smart, collaborative spreadsheets. It enables users to create no-code applications on top of databases like MySQL, PostgreSQL, SQLite, and even Airtable-like interfaces on existing data structures. 
+  
+  
+  Here are some key features and use cases of NocoDB:
+
+
+  📊 Spreadsheet Interface: Users interact with databases using a spreadsheet-like UI, making it accessible to non-technical users and allowing collaborative editing.
+
+
+  🔄 REST API & Automation: It automatically generates REST APIs for each table, so users can integrate with other apps, create automations, or develop custom workflows.
+
+
+  🔐 Permissions & Roles: NocoDB supports user roles, access controls, and permissions, making it suitable for team use.
+
+
+  🎛️ Customizable Views: Users can create different views (grid, kanban, gallery) to visualize and manage data effectively.
+
+
+  Self-hostable & Scalable: As it is open source, NocoDB can be self-hosted, making it a good option for privacy-focused setups or those looking to avoid SaaS fees.
+
+
+  Overall, NocoDB is useful for project management, customer relationship management, data analytics, and custom business applications, especially where collaborative, database-backed applications are needed without writing much code.
+developer: NocoDB Inc.
+website: https://nocodb.com
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/nocodb
+support: https://github.com/nocodb/nocodb/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nocodb/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nocodb/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nocodb/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-nocodb/4.jpg
+releaseNotes: >-
+  NocoDB 0.257.2 is a bug fix release that addresses various issues, including encryption key configuration failures, conditional field alias display, and .doc format support. It introduces new features, like pinning datasheets as favorites and setting the default date to today. 
+  
+  
+  The release also includes updates for AWS IAM Role support, improved file size limits, and several GUI and API enhancements.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-qrding_web_1
+      APP_PORT: 3000
+
+  web:
+    image: ghcr.io/rishikanthc/qrding:v0.1.2@sha256:634e3197964bc25efa6b26cabecf68ced86063c2be1ab2a1b0c6a70ad8047c1f
+    restart: on-failure

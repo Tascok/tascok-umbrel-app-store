@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-yadnsb_web_1
+      APP_PORT: 3000
+
+  web:
+    image: ghcr.io/altendorfme/yadnsb:0.0.6@sha256:13580de0f9b677025652d7693c9f6930939d9aa756d6bc62da49a57cd7f55d1f
+    restart: on-failure
+
+

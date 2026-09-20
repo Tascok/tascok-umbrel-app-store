@@ -1,0 +1,51 @@
+manifestVersion: 1
+id: tascok-supabase
+category: developer tools
+name: Supabase
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-supabase/logo.png
+tagline: An open source Firebase alternative
+version: "2025.05.21"
+port: 53000
+description: >-
+  🐊 Supabase is an open-source backend-as-a-service platform that provides developers with a powerful and scalable infrastructure for building modern web and mobile applications. It offers a suite of tools that combine the convenience of a traditional backend with the flexibility and control of an open-source stack. Built on top of PostgreSQL, Supabase adds real-time capabilities, instant APIs, and user authentication without requiring developers to write complex backend logic.
+
+
+  At its core, Supabase transforms a Postgres database into a complete backend solution. When a new table is created in the database, a RESTful and real-time API is automatically generated, making it easy to interact with the data from the frontend. This reduces development time and eliminates the need for repetitive backend code. Developers can manage their data, track changes in real time, and even subscribe to database events directly from the client.
+
+
+  Authentication is another essential part of Supabase. It includes a complete user management system with features such as email and password login, third-party OAuth providers, and magic links. All authentication events are integrated directly into the database, giving developers full control and visibility over user behavior and access rules.
+
+
+  Storage is handled with similar simplicity. Supabase offers a file storage solution that supports secure uploads and downloads, integrates with access policies, and can be managed entirely from the dashboard or through API calls. It is particularly useful for storing media files, documents, and other static assets related to an application.
+
+
+  The Supabase dashboard provides a user-friendly interface for managing every part of the backend. It allows developers to browse their database, run SQL queries, define authentication settings, manage file storage, and monitor real-time usage. It combines ease of use with deep functionality, making it accessible for beginners while remaining powerful enough for advanced users.
+
+
+  Overall, Supabase empowers developers to build production-ready applications faster by abstracting away the complexity of backend development while preserving the flexibility to customize and scale as needed.
+
+
+  ⚠️ Make sure to go through setup steps after installing Supabase:
+  https://github.com/dennysubke/dennys-umbrel-app-store/blob/master/tascok-supabase/README.md
+developer: Supabase
+website: https://supabase.com
+submitter: Starfreck
+submission: https://github.com/dennysubke/dennys-umbrel-app-store/pull/7
+repo: https://github.com/supabase/supabase
+support: https://supabase.com/support
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-supabase/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-supabase/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-supabase/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-supabase/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-supabase/5.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-supabase/6.jpg
+releaseNotes: >-
+  This update brings a wave of new tutorials and tools, including a reusable Team component built with Next.js and Shadcn, a Grocery Tracker app using Vue and Supabase, and the new SupaWP plugin for seamless WordPress integration. You’ll also find deep dives into multi-tenancy with Clerk, building AI agents powered by n8n and Supabase, setting up custom SMTP for authentication, and using Supabase MCP in VSCode, Cursor, and Agno. 
+ 
+ 
+  On the platform side, Supabase now supports project-scoped roles for all Team plans, has released a new SOC 2 report, and published comprehensive documentation outlining its security practices.
+path: ""
+defaultUsername: "umbrel"
+defaultPassword: "umbrel"
+dependencies: []

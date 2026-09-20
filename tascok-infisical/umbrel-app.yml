@@ -1,0 +1,43 @@
+manifestVersion: 1
+id: tascok-infisical
+name: Infisical
+tagline: A platform for secrets, certificates, and privileged access management
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-infisical/logo.png
+category: developer tools
+version: "0.154.6"
+port: 8311
+description: >-
+  🔐 Infisical is an application designed to securely manage and distribute sensitive configuration data such as secrets environment variables API keys tokens and credentials. It provides a centralized system where secrets are stored in encrypted form and delivered to applications only when needed at runtime.
+
+
+  The application focuses on keeping sensitive data out of source code repositories configuration files and other unsafe locations. Secrets are encrypted before storage and remain protected throughout their lifecycle ensuring that only authorized users and systems can access them. Access control is handled through fine grained permissions allowing teams to define who can view edit or use specific secrets.
+
+
+  Infisical organizes secrets by projects and environments so applications can receive the correct values depending on their context. It supports versioning which makes it possible to track changes roll back to previous values and audit how secrets evolve over time. This helps reduce the risk of accidental misconfiguration and simplifies secret rotation.
+
+
+  The application also provides mechanisms to inject secrets directly into running processes so applications can consume them as standard environment variables without exposing them in plaintext files. This approach improves security while keeping developer workflows simple and predictable.
+
+
+  Overall Infisical acts as a secure bridge between sensitive data and applications ensuring confidentiality integrity and controlled access while removing the need to hardcode secrets or manage them manually.
+developer: Infisical Inc.
+website: https://infisical.com/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/Infisical/infisical
+support: https://github.com/Infisical/infisical/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-infisical/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-infisical/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-infisical/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-infisical/4.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-infisical/5.jpg
+releaseNotes: >-
+  This version fixes several issues, including permission errors in the gateway Helm setup, improvements to the certificate request endpoint, and a bug affecting role management in project templates. 
+  
+  
+  It also introduces support for sub organization scoped access, improving flexibility and access control.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

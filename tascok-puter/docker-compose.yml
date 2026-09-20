@@ -1,0 +1,23 @@
+version: "3.8"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-puter_web_1
+      APP_PORT: 4100
+      PROXY_AUTH_ADD: "false"
+
+  web:
+    image: ghcr.io/heyputer/puter:2.5.1@sha256:0c5aa88f5d4db7749577b0118b16e674ff9db323604079b1b90ff6bafdcd0ab5
+    container_name: tascok-puter_web_1
+    environment:
+      PUID: 1000
+      PGID: 1000
+      # Optional:
+      # CONFIG_PATH: /etc/puter
+      # HOST: 0.0.0.0
+      # PORT: 4100
+      # DANGEROUSLY_DISABLE_HOST_CHECK: "true"
+    volumes:
+      - ${APP_DATA_DIR}/config:/etc/puter
+      - ${APP_DATA_DIR}/data:/var/puter

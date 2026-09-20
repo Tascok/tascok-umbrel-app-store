@@ -1,0 +1,37 @@
+version: "3.7"
+
+x-backend: &common
+  image: papermerge/papermerge:3.5.3@sha256:78c7a24609066b253cad18c6f8486af505e3b8da30aa73a45f064359a6516d16
+  environment:
+      PAPERMERGE__SECURITY__SECRET_KEY: moneyprintergobrrr123
+      PAPERMERGE__AUTH__USERNAME: admin
+      PAPERMERGE__AUTH__PASSWORD: umbrel
+      PAPERMERGE__REDIS__URL: redis://redis:6379/0
+  volumes:
+      - ${APP_DATA_DIR}/data/db:/db
+      - ${APP_DATA_DIR}/data/index_db:/core_app/index_db
+      - ${APP_DATA_DIR}/data/media:/core_app/media
+  restart: on-failure
+
+services:
+  web:
+    <<: *common
+    depends_on:
+      - redis
+
+  worker:
+    <<: *common
+    command: worker
+    depends_on:
+      - redis
+
+  redis:
+    image: redis:6@sha256:5884377fe315cd533c9221a2b2cafd620fc1f5a06f2d9503496f255409603901
+    volumes:
+      - ${APP_DATA_DIR}/data/redis:/data
+    restart: on-failure
+
+  app_proxy:
+    environment:
+      APP_HOST: tascok-papermerge_web_1
+      APP_PORT: 80

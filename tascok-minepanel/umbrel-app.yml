@@ -1,0 +1,43 @@
+manifestVersion: 1
+id: tascok-minepanel
+name: Minepanel
+tagline: Um painel web moderno para gerenciar servidores Minecraft Java e Bedrock com facilidade
+icon: https://raw.githubusercontent.com/Tascok/tascok-umbrel-app-store/master/tascok-minepanel/icon.png
+category: gaming
+version: "1.12.19"
+port: 3555
+description: >-
+  ⛏️ O Minepanel é um painel web moderno baseado em Docker para criar, configurar, monitorar e gerenciar múltiplos servidores Minecraft a partir de uma única interface, nas edições Java e Bedrock.
+
+
+  Entre os recursos principais estão o suporte a todos os tipos de servidor (Vanilla, Paper, Forge, Fabric, Purpur e outros), instalação de modpacks do CurseForge e Modrinth, monitoramento em tempo real de CPU, RAM, jogadores e logs, backups automáticos agendados com políticas de retenção, webhooks do Discord para notificações de eventos e controle de acesso com convites e permissões por usuário.
+
+
+  Com o mc-router integrado, todos os servidores Java podem ser expostos em uma única porta (25565) com roteamento por hostname, além de auto-escala opcional: servidores param quando ficam ociosos e acordam automaticamente na primeira conexão.
+
+
+  ⚠️ No primeiro acesso, o Minepanel abre uma tela de configuração para você criar a conta de administrador — não existem credenciais padrão.
+
+
+  ⚠️ Acesse o painel por http://umbrel.local:3555 (o app publica a porta adicional 8095 para a API). Se você renomeou seu Umbrel ou acessa por IP, o frontend e o backend precisam ser reconfigurados nas variáveis FRONTEND_URL e NEXT_PUBLIC_BACKEND_URL.
+
+
+  ℹ️ Os servidores Minecraft criados pelo painel usam as portas padrão do jogo: 25565 (TCP, Java) e 19132 (UDP, Bedrock). Abra essas portas no roteador para jogadores externos.
+developer: Ketbome
+website: https://minepanel.ketbome.com/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/Ketbome/minepanel
+support: https://github.com/Ketbome/minepanel/issues
+gallery:
+- https://raw.githubusercontent.com/Ketbome/minepanel/main/doc/public/img/minepanel.webp
+- https://raw.githubusercontent.com/Ketbome/minepanel/main/doc/public/img/dashboard.webp
+- https://raw.githubusercontent.com/Ketbome/minepanel/main/doc/public/img/modes.webp
+- https://raw.githubusercontent.com/Ketbome/minepanel/main/doc/public/img/mods-tab.webp
+- https://raw.githubusercontent.com/Ketbome/minepanel/main/doc/public/img/configuration.webp
+releaseNotes: >-
+  Primeira versão do Minepanel na loja (v1.12.19). Desde a v1.12 o painel gerencia o próprio mc-router (proxy Java em porta única com auto-escala), a conta de administrador é criada na primeira visita pela interface e SMTP/OIDC podem ser configurados direto em Configurações.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

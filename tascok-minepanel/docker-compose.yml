@@ -1,0 +1,31 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tascok-minepanel_frontend_1
+      APP_PORT: 3000
+      PROXY_AUTH_ADD: "false"
+
+  backend:
+    image: ketbom/minepanel-backend:1.12.19@sha256:7082d1935d8a545b131724b0f80c59a0243ec1fc51715d1b0a810b4dc90d5859
+    restart: on-failure
+    ports:
+      - 8095:8091
+    environment:
+      NODE_ENV: production
+      JWT_SECRET: gHJbE6qUXTn60Y75EvnWFbYLZCXCmCHDyjPiaZWdNA=
+      FRONTEND_URL: http://umbrel.local:3555
+      ALLOW_INSECURE_AUTH_COOKIES: "true"
+      COMPOSE_PROJECT: tascok-minepanel
+    volumes:
+      - ${APP_DATA_DIR}/servers:/app/servers
+      - ${APP_DATA_DIR}/data:/app/data
+      - /var/run/docker.sock:/var/run/docker.sock
+
+  frontend:
+    image: ketbom/minepanel-frontend:1.12.19@sha256:5650e27d75b5daa8323c47282fd6731ce58074d5c75feebcce2874c66014ca95
+    restart: on-failure
+    environment:
+      NEXT_PUBLIC_BACKEND_URL: http://umbrel.local:8095
+      NEXT_PUBLIC_DEFAULT_LANGUAGE: en

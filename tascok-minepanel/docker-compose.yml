@@ -3,15 +3,22 @@ version: '3.7'
 services:
   app_proxy:
     environment:
-      APP_HOST: tascok-minepanel_frontend_1
-      APP_PORT: 3000
+      APP_HOST: tascok-minepanel_proxy_1
+      APP_PORT: 80
       PROXY_AUTH_ADD: "false"
+
+  proxy:
+    image: nginx:1.27-alpine@sha256:65645c7bb6a0661892a8b03b89d0743208a18dd2f3f17a54ef4b76fb8e2f2a10
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      - backend
+      - frontend
 
   backend:
     image: ketbom/minepanel-backend:1.12.19@sha256:7082d1935d8a545b131724b0f80c59a0243ec1fc51715d1b0a810b4dc90d5859
     restart: on-failure
-    ports:
-      - 8095:8091
     environment:
       NODE_ENV: production
       JWT_SECRET: gHJbE6qUXTn60Y75EvnWFbYLZCXCmCHDyjPiaZWdNA=
@@ -27,5 +34,5 @@ services:
     image: ketbom/minepanel-frontend:1.12.19@sha256:5650e27d75b5daa8323c47282fd6731ce58074d5c75feebcce2874c66014ca95
     restart: on-failure
     environment:
-      NEXT_PUBLIC_BACKEND_URL: http://umbrel.local:8095
+      NEXT_PUBLIC_BACKEND_URL: ""
       NEXT_PUBLIC_DEFAULT_LANGUAGE: en

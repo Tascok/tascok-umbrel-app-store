@@ -19,7 +19,7 @@ description: >-
   ⚠️ No primeiro acesso, o Minepanel abre uma tela de configuração para você criar a conta de administrador — não existem credenciais padrão.
 
 
-  ⚠️ Acesse o painel por http://umbrel.local:3555 (o app publica a porta adicional 8095 para a API). Se você renomeou seu Umbrel ou acessa por IP, o frontend e o backend precisam ser reconfigurados nas variáveis FRONTEND_URL e NEXT_PUBLIC_BACKEND_URL.
+  ⚠️ Acesse o painel por http://umbrel.local:3555 — também funciona por IP ou qualquer outro nome de host, sem necessidade de configuração adicional.
 
 
   ℹ️ Os servidores Minecraft criados pelo painel usam as portas padrão do jogo: 25565 (TCP, Java) e 19132 (UDP, Bedrock). Abra essas portas no roteador para jogadores externos.

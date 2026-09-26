@@ -12,9 +12,8 @@ services:
     restart: on-failure
     depends_on:
       - init
-    # espera o init liberar a permissao do bind antes de rodar o entrypoint oficial
-    entrypoint: ["/bin/ash", "-c"]
-    command: until [ -w /pelican-data ]; do echo "[panel] aguardando permissoes do init..."; sleep 2; done; exec /bin/ash /entrypoint.sh supervisord -n -c /etc/supervisord.conf
+    # script externo: o runner do AmparOS nao interpreta strings de comando com shell
+    entrypoint: ["/bin/ash", "/panel-start.sh"]
     environment:
       APP_URL: http://${DEVICE_DOMAIN_NAME}:3556
       APP_ENV: production
@@ -25,6 +24,7 @@ services:
       - "${DEVICE_DOMAIN_NAME}:host-gateway"
     volumes:
       - ${APP_DATA_DIR}/panel-data:/pelican-data
+      - ${APP_DATA_DIR}/panel-start.sh:/panel-start.sh:ro
 
   wings:
     image: ghcr.io/pelican/wings:v1.0.0-beta29@sha256:39837cfc49b0513313e57dc4b977a769cb784cf81af3f25a5ea46d869b4b0846
@@ -51,14 +51,14 @@ services:
     image: ghcr.io/pelican/panel:v1.0.0-beta38@sha256:46f356f3fda423b1d43f0dc3c71efc056cd8b9bec365d1d7817306a17ee5694a
     user: "0:0"
     restart: on-failure
-    entrypoint: ["/bin/ash", "-c"]
-    command: chown -R 82:82 /pelican-data /wings-config /wings-data /wings-logs /tmp-pelican
+    entrypoint: ["/bin/ash", "/init.sh"]
     volumes:
       - ${APP_DATA_DIR}/panel-data:/pelican-data
       - ${APP_DATA_DIR}/wings-config:/wings-config
       - ${APP_DATA_DIR}/wings-data:/wings-data
       - ${APP_DATA_DIR}/wings-logs:/wings-logs
       - ${APP_DATA_DIR}/tmp:/tmp-pelican
+      - ${APP_DATA_DIR}/init.sh:/init.sh:ro
 
   # aguarda o instalador web, cria o no padrao e sincroniza a config do wings
   provisioner:

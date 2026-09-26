@@ -11,8 +11,10 @@ services:
     image: ghcr.io/pelican/panel:v1.0.0-beta38@sha256:46f356f3fda423b1d43f0dc3c71efc056cd8b9bec365d1d7817306a17ee5694a
     restart: on-failure
     depends_on:
-      init:
-        condition: service_completed_successfully
+      - init
+    # espera o init liberar a permissao do bind antes de rodar o entrypoint oficial
+    entrypoint: ["/bin/ash", "-c"]
+    command: until [ -w /pelican-data ]; do echo "[panel] aguardando permissoes do init..."; sleep 2; done; exec /bin/ash /entrypoint.sh supervisord -n -c /etc/supervisord.conf
     environment:
       APP_URL: http://${DEVICE_DOMAIN_NAME}:3556
       APP_ENV: production
@@ -48,7 +50,7 @@ services:
   init:
     image: ghcr.io/pelican/panel:v1.0.0-beta38@sha256:46f356f3fda423b1d43f0dc3c71efc056cd8b9bec365d1d7817306a17ee5694a
     user: "0:0"
-    restart: "no"
+    restart: on-failure
     entrypoint: ["/bin/ash", "-c"]
     command: chown -R 82:82 /pelican-data /wings-config /wings-data /wings-logs /tmp-pelican
     volumes:

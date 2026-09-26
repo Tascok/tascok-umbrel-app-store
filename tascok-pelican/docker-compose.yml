@@ -14,6 +14,9 @@ services:
       - init
     # script externo: o runner do AmparOS nao interpreta strings de comando com shell
     entrypoint: ["/bin/ash", "/panel-start.sh"]
+    # publica a porta direto (o gateway do AmparOS nao aplica as regras nft)
+    ports:
+      - "3556:80"
     environment:
       APP_URL: http://${DEVICE_DOMAIN_NAME}:3556
       APP_ENV: production

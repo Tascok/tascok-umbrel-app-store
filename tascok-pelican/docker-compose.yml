@@ -43,10 +43,12 @@ services:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - /var/lib/docker/containers/:/var/lib/docker/containers/
-      - ${APP_DATA_DIR}/wings-config:/etc/pelican
-      - ${APP_DATA_DIR}/wings-data:/var/lib/pelican
-      - ${APP_DATA_DIR}/wings-logs:/var/log/pelican
-      - ${APP_DATA_DIR}/tmp:/tmp/pelican
+      # caminhos identicos no host e no container: os containers dos
+      # servidores de jogo montam esses mesmos caminhos pela daemon docker
+      - /etc/pelican:/etc/pelican
+      - /var/lib/pelican:/var/lib/pelican
+      - /var/log/pelican:/var/log/pelican
+      - /tmp/pelican:/tmp/pelican
       - /etc/ssl/certs:/etc/ssl/certs:ro
 
   # ajusta permissoes dos bind mounts (o painel roda como www-data/82)
@@ -57,10 +59,10 @@ services:
     entrypoint: ["/bin/ash", "/init.sh"]
     volumes:
       - ${APP_DATA_DIR}/panel-data:/pelican-data
-      - ${APP_DATA_DIR}/wings-config:/wings-config
-      - ${APP_DATA_DIR}/wings-data:/wings-data
-      - ${APP_DATA_DIR}/wings-logs:/wings-logs
-      - ${APP_DATA_DIR}/tmp:/tmp-pelican
+      - /etc/pelican:/wings-config
+      - /var/lib/pelican:/wings-data
+      - /var/log/pelican:/wings-logs
+      - /tmp/pelican:/tmp-pelican
       - ${APP_DATA_DIR}/init.sh:/init.sh:ro
 
   # aguarda o instalador web, cria o no padrao e sincroniza a config do wings
@@ -74,5 +76,5 @@ services:
       DEVICE_DOMAIN_NAME: ${DEVICE_DOMAIN_NAME}
     volumes:
       - ${APP_DATA_DIR}/panel-data:/pelican-data
-      - ${APP_DATA_DIR}/wings-config:/wings-config
+      - /etc/pelican:/wings-config
       - ${APP_DATA_DIR}/provision.sh:/provision.sh:ro

@@ -14,13 +14,13 @@ services:
       init:
         condition: service_completed_successfully
     environment:
-      APP_URL: http://umbrel.local:3556
+      APP_URL: http://${DEVICE_DOMAIN_NAME}:3556
       APP_ENV: production
       APP_DEBUG: "false"
       BEHIND_PROXY: "true"
       TRUSTED_PROXIES: 10.0.0.0/8,172.16.0.0/12,192.168.0.0/16,127.0.0.1
     extra_hosts:
-      - "umbrel.local:host-gateway"
+      - "${DEVICE_DOMAIN_NAME}:host-gateway"
     volumes:
       - ${APP_DATA_DIR}/panel-data:/pelican-data
 
@@ -65,6 +65,8 @@ services:
     depends_on:
       - panel
     entrypoint: ["/bin/ash", "/provision.sh"]
+    environment:
+      DEVICE_DOMAIN_NAME: ${DEVICE_DOMAIN_NAME}
     volumes:
       - ${APP_DATA_DIR}/panel-data:/pelican-data
       - ${APP_DATA_DIR}/wings-config:/wings-config

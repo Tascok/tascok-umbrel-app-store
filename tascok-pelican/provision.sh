@@ -15,6 +15,13 @@ until grep -q '^APP_INSTALLED=true' "$ENV_FILE" 2>/dev/null; do
 done
 echo "[provisioner] instalacao concluida, provisionando o no local..."
 
+# FQDN do no = hostname da URL confirmada no instalador (.env);
+# fallback: hostname do dispositivo (substituido pelo Umbrel), depois umbrel.local
+URL=$(grep -m1 '^APP_URL=' "$ENV_FILE" 2>/dev/null | cut -d= -f2- | tr -d '"' | tr -d "'")
+FQDN=$(printf '%s' "$URL" | sed -E 's#^[a-zA-Z]+://##; s#[:/].*##')
+[ -n "$FQDN" ] || FQDN="${DEVICE_DOMAIN_NAME:-umbrel.local}"
+echo "[provisioner] usando FQDN: ${FQDN}"
+
 # As migrations rodam no final do instalador; retemos ate a config poder ser lida
 attempt=0
 until [ "$attempt" -ge 30 ]; do
@@ -27,7 +34,7 @@ until [ "$attempt" -ge 30 ]; do
     OUT=$(php artisan p:node:make \
       --name="Umbrel" \
       --description="No local provisionado automaticamente" \
-      --fqdn="umbrel.local" \
+      --fqdn="$FQDN" \
       --public=1 \
       --scheme=http \
       --proxy=0 \

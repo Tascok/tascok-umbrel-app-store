@@ -16,7 +16,7 @@ description: >-
   Entre os recursos estão console em tempo real, gerenciador de arquivos, agendamento de tarefas, backups, alocação de portas, SFTP, usuários e permissões, 2FA e estatísticas de uso.
 
 
-  ⚠️ Acesse por http://umbrel.local:3556 — o painel assume esse endereço. Se você usa outro nome de host ou IP, informe a mesma URL no assistente e ajuste o FQDN do nó (Admin → Nodes); depois reinicie o app para sincronizar.
+  ⚠️ O app se adapta automaticamente ao hostname do seu servidor (umbrel.local no umbrelOS, debian.local etc.) — acesse por http://SEU-HOSTNAME:3556. Se você usar outro endereço (IP ou domínio próprio), informe a mesma URL no assistente de instalação e ajuste o FQDN do nó (Admin → Nodes); depois reinicie o app para sincronizar.
 
 
   ℹ️ Portas usadas: 3556 (interface web), 8080 (API do Wings, usada pelo console em tempo real) e 2022 (SFTP). Libere as que precisa no roteador.

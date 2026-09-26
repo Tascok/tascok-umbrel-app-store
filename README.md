@@ -6,7 +6,7 @@ Todas as atualizações e o gerenciamento dos apps desta loja são feitos de for
 
 ## 📦 Apps disponíveis
 
-**329 aplicativos** disponíveis, cobrindo mídia, finanças, produtividade, ferramentas de desenvolvedor, jogos, monitoramento e muito mais.
+**330 aplicativos** disponíveis, cobrindo mídia, finanças, produtividade, ferramentas de desenvolvedor, jogos, monitoramento e muito mais.
 
 ## 🚀 Como adicionar a loja no seu Umbrel
 

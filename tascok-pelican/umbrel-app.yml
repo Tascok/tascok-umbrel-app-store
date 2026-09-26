@@ -1,0 +1,38 @@
+manifestVersion: 1
+id: tascok-pelican
+name: Pelican
+tagline: Painel de servidores de jogos com a simplicidade do Puffer e o poder do Pterodactyl
+icon: https://raw.githubusercontent.com/Tascok/tascok-umbrel-app-store/master/tascok-pelican/icon.png
+category: gaming
+version: "1.0.0-beta38"
+port: 3556
+description: >-
+  🦩 O Pelican é um painel de controle gratuito e de código aberto para servidores de jogos, criado pela comunidade do Pterodactyl como sua evolução moderna: interface limpa e atual, cada servidor de jogo isolado em seu próprio contêiner Docker e suporte a Minecraft, Terraria, Palworld, Valheim, Factorio, Enshrouded, bots do Discord, servidores de voz e muito mais.
+
+
+  O app já vem completo: painel (com banco de dados SQLite embutido) e o daemon Wings, que cria e gerencia os servidores. No primeiro acesso, um assistente de instalação cria sua conta de administrador e permite escolher quais "eggs" (modelos de servidor) importar — em seguida o nó "Umbrel" é provisionado e conectado ao Wings automaticamente, sem digitá-lo no terminal.
+
+
+  Entre os recursos estão console em tempo real, gerenciador de arquivos, agendamento de tarefas, backups, alocação de portas, SFTP, usuários e permissões, 2FA e estatísticas de uso.
+
+
+  ⚠️ Acesse por http://umbrel.local:3556 — o painel assume esse endereço. Se você usa outro nome de host ou IP, informe a mesma URL no assistente e ajuste o FQDN do nó (Admin → Nodes); depois reinicie o app para sincronizar.
+
+
+  ℹ️ Portas usadas: 3556 (interface web), 8080 (API do Wings, usada pelo console em tempo real) e 2022 (SFTP). Libere as que precisa no roteador.
+developer: Pelican
+website: https://pelican.dev/
+submitter: Tascok
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/pelican/panel
+support: https://github.com/pelican/panel/issues
+gallery:
+- https://peli.nyc3.digitaloceanspaces.com/docs/serverconsoled.gif
+- https://peli.nyc3.digitaloceanspaces.com/docs/panelsettingsd.gif
+- https://peli.nyc3.digitaloceanspaces.com/docs/createserverd.gif
+releaseNotes: >-
+  Primeira versão do Pelican na loja (painel v1.0.0-beta38, Wings v1.0.0-beta29). O app inclui painel e daemon Wings completos; após o assistente de instalação, o nó local é criado e conectado automaticamente.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""
